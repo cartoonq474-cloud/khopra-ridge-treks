@@ -1,26 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fcfbf9; /* Warm stone white */
+  --foreground: #1c1917; /* Deep stone dark */
+  
+  --font-display: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+  
+  /* Himalayan Theme Palette */
+  --color-mountain-950: #0c0a09; /* Near black rock */
+  --color-mountain-900: #1c1917;
+  --color-mountain-800: #292524;
+  --color-mountain-200: #e7e5e4;
+  --color-mountain-100: #f5f5f4;
+  --color-mountain-50: #fafaf9;
+  
+  --color-forest-950: #022c22; /* Deep pine forest */
+  --color-forest-900: #064e3b;
+  --color-forest-800: #065f46;
+  --color-forest-750: #046a52;
+  --color-forest-700: #047857;
+  --color-forest-600: #059669;
+  --color-forest-100: #d1fae5;
+  --color-forest-50: #ecfdf5;
+  
+  --color-alpenglow-500: #f59e0b; /* Golden sunrise */
+  --color-alpenglow-600: #d97706;
+  --color-alpenglow-700: #b45309;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* --- CUSTOM THEME BASE STYLES --- */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e;
+}
+
+/* Selection Color */
+::selection {
+  background-color: #059669;
+  color: #ffffff;
+}
+
+/* Micro-animations and effects */
+.hover-lift {
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -10px rgba(6, 78, 59, 0.15);
+}
+
+.glow-btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.glow-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-25deg);
+  transition: 0.75s;
+}
+
+.glow-btn:hover::after {
+  left: 125%;
 }

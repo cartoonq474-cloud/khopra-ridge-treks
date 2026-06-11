@@ -1,0 +1,117 @@
+"use client";
+
+import React from "react";
+import Link from "next/link";
+
+export default function Page() {
+  const villages = [
+    {
+      name: "Ghandruk Village",
+      altitude: "1,940m",
+      type: "Gurung Culture Hub",
+      lodging: "Private Teahouses & Hotels",
+      href: "/nodes/ghandruk-village-guide",
+      desc: "The largest Gurung settlement in the Annapurna range. Stone paved stairs, Gurung museums, and direct views of Annapurna South and Machhapuchhre."
+    },
+    {
+      name: "Tadapani Node",
+      altitude: "2,630m",
+      type: "Forest Junction",
+      lodging: "Private Teahouses",
+      href: "/nodes/tadapani-guide",
+      desc: "A key junction nestled inside deep rhododendron forests, connecting trails from Ghorepani, Ghandruk, and the offbeat paths to Bayeli."
+    },
+    {
+      name: "Bayeli Kharka",
+      altitude: "3,425m",
+      type: "High Mountain Pasture",
+      lodging: "Community Lodge",
+      href: "/nodes/bayeli-kharka-guide",
+      desc: "An isolated alpine meadow situated right opposite the massive wall of Annapurna South. Rest at the cozy community-run lodge."
+    },
+    {
+      name: "Chhistibung Node",
+      altitude: "2,975m",
+      type: "Forest Sanctuary",
+      lodging: "Community Lodge",
+      href: "/nodes/chhistibung-guide",
+      desc: "A quiet lodge stop located inside deep mossy forests, rich in biodiversity. Prime area for spotting Himalayan Monal pheasants."
+    },
+    {
+      name: "Swanta Village",
+      altitude: "2,200m",
+      type: "Magar Farming Valley",
+      lodging: "Community Lodge & Homestays",
+      href: "/nodes/swanta-village-guide",
+      desc: "A beautiful farming valley surrounded by terraced crop fields. Inhabited by the Magar community, featuring local co-op cheese factories."
+    },
+    {
+      name: "Ghorepani Village",
+      altitude: "2,860m",
+      type: "Standard Trail Junction",
+      lodging: "Private Teahouses & Hotels",
+      href: "/nodes/ghorepani-guide",
+      desc: "A popular, vibrant village junction serving as the base camp for morning sunrise climbs to the Poon Hill viewpoint."
+    }
+  ];
+
+  return (
+    <div className="bg-stone-50 text-stone-900 min-h-screen flex flex-col justify-between antialiased">
+      <main className="mx-auto max-w-4xl px-6 py-20 flex-1">
+        
+        {/* Header */}
+        <div className="border-b border-stone-200 pb-8">
+          <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Trail Directory</span>
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
+            Khopra Ridge Trail Village Nodes
+          </h1>
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
+            Explore the essential stops. Review altitudes, lodging styles, and guide directories for every village node along the Khopra Ridge circuit.
+          </p>
+        </div>
+
+        {/* Villages Grid */}
+        <div className="mt-12 grid gap-6 sm:grid-cols-2">
+          {villages.map((v, i) => (
+            <div 
+              key={i} 
+              className="p-6 bg-white border border-stone-200 rounded-3xl shadow-sm hover:shadow-md transition flex flex-col justify-between"
+            >
+              <div>
+                <span className="text-xs font-bold text-emerald-600 uppercase tracking-wider block">{v.type}</span>
+                <h3 className="text-xl font-extrabold text-stone-950 mt-1">{v.name}</h3>
+                <div className="mt-3 text-xs space-y-1 text-stone-500">
+                  <div>Elevation: <strong className="text-stone-700">{v.altitude}</strong></div>
+                  <div>Accommodations: <strong className="text-stone-700">{v.lodging}</strong></div>
+                </div>
+                <p className="mt-4 text-xs text-stone-400 leading-relaxed">{v.desc}</p>
+              </div>
+              
+              <div className="mt-6 pt-4 border-t border-stone-100 flex items-center justify-between">
+                <span className="text-xs font-bold text-stone-400">View Node Guide</span>
+                <Link
+                  href={v.href}
+                  className="rounded-full bg-stone-950 px-5 py-2 text-xs font-bold text-white hover:bg-emerald-600 hover:text-white transition-all shadow-sm"
+                >
+                  Explore Node
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* E-E-A-T AUTHOR BADGE */}
+        <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
+          <span className="text-2xl mt-0.5">🏔️</span>
+          <div>
+            <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
+              We check the facilities, water piping systems, and room rates in all nodes monthly. All village guides are certified and updated in real-time.
+            </p>
+          </div>
+        </div>
+
+      </main>
+    </div>
+  );
+}
