@@ -158,7 +158,9 @@ export default function Header() {
     { href: "/weather/khopra-trek-october", label: "October Weather & Season Info" },
     { href: "/planning/khayer-lake-mythology-pilgrimage", label: "Mythology & Pilgrimage" },
     { href: "/planning/khopra-trek-for-beginners", label: "Trek for Beginners" },
-    { href: "/planning/pokhara-to-ghandruk", label: "Pokhara to Ghandruk Transport" }
+    { href: "/planning/pokhara-to-ghandruk", label: "Pokhara to Ghandruk Transport" },
+    { href: "/planning/khopra-trek-solo", label: "Solo Traveler Guide" },
+    { href: "/planning/khopra-trek-for-seniors", label: "Seniors Traveler Guide" }
   ];
 
   const resourcesCommunity = [
@@ -174,6 +176,7 @@ export default function Header() {
   const resourcesGuides = [
     { href: "/guides/why-khopra-is-less-crowded", label: "Why Khopra is Less Crowded" },
     { href: "/guides/khopra-vs-mardi-himal", label: "Khopra vs Mardi Himal" },
+    { href: "/guides/khopra-vs-annapurna-circuit", label: "Khopra vs Annapurna Circuit" },
     { href: "/routes/ghandruk-to-tadapani", label: "Ghandruk to Tadapani Trail Guide" },
     { href: "/viewpoints/best-offbeat-trek-nepal", label: "Best Offbeat Treks in Nepal" },
     { href: "/community/photographer-showcase", label: "Photographer Showcase" },
