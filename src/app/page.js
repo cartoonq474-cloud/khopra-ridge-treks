@@ -215,6 +215,18 @@ export default function Home() {
       {
         question: "How difficult is the optional side-trip to Khayer Lake?",
         answer: "The hike to Khayer Lake (4,660m) on Day 6 is challenging. It is a 7-8 hour round-trip from Khopra Ridge lodge. The path involves a steady climb on steep terrain. While highly rewarding, it is optional, and you can choose to spend a relaxing day enjoying views from the ridge instead."
+      },
+      {
+        question: "Is Khopra Ridge Trek a Kathmandu-to-Kathmandu Trek?",
+        answer: "Yes. The trek operates as a complete Kathmandu-to-Kathmandu itinerary using domestic flights between Kathmandu and Pokhara, minimizing lengthy road travel."
+      },
+      {
+        question: "What Makes Khopra Ridge Different from Annapurna Base Camp Trek?",
+        answer: "Khopra Ridge offers quieter trails, community-owned lodges, panoramic Dhaulagiri and Annapurna views, and access to Sacred Khayer Lake while avoiding the crowds commonly found on the Annapurna Base Camp route."
+      },
+      {
+        question: "Is Khayer Lake Included in the Khopra Ridge Trek?",
+        answer: "Yes. Most itineraries include an optional or scheduled excursion to Sacred Khayer Lake (4,660m), one of the most significant pilgrimage sites in the Annapurna region."
       }
     ],
     community: [
@@ -229,6 +241,10 @@ export default function Home() {
       {
         question: "Is there electricity, hot showers, and Wi-Fi?",
         answer: "Yes, electricity is available for charging devices (sometimes for a small fee). Hot gas showers are available at most lodges for $2-$3 USD. Local community Wi-Fi cards can be purchased at the lodges, though connectivity can be intermittent in high-elevation areas."
+      },
+      {
+        question: "Are Community-Owned Lodges Available on Khopra Ridge Trek?",
+        answer: "Yes. One of the unique features of the trek is the use of community-owned lodges that help support local development and conservation initiatives throughout the region."
       }
     ],
     preparation: [
@@ -320,7 +336,7 @@ export default function Home() {
       hours: "5-6 hrs",
       altitude: "3,425 m",
       image: "/forest-trail.png",
-      desc: "Leave the main tourist trail behind as you ascend off the beaten track. Climb steadily through quiet moss-draped forests toward Bayeli Kharka. Stay tonight in a community lodge with spectacular up-close views of Annapurna South."
+      desc: "Leave the main tourist trail behind as you ascend off the beaten track. Climb steadily through beautiful alpine landscapes and quiet moss-draped forests toward Bayeli Kharka. Stay tonight in a community-owned lodge with spectacular up-close views of Annapurna South, directly supporting local conservation and development projects."
     },
     {
       day: 4,
@@ -328,7 +344,7 @@ export default function Home() {
       hours: "4-5 hrs",
       altitude: "2,975 m",
       image: "/chhistibung-pasture.png",
-      desc: "Descend into a quiet valley before ascending back up through pristine bamboo and rhododendron forests. Watch for local wildlife like the colorful Himalayan Monal and Langur monkeys as you head toward the pasture lands of Chhistibung."
+      desc: "Descend into a quiet valley before ascending back up through pristine bamboo and rhododendron forests. Watch for local wildlife like the colorful Himalayan Monal and Langur monkeys as you head toward the pasture lands of Chhistibung. Accommodation is provided in community-owned lodges that directly support local schools."
     },
     {
       day: 5,
@@ -336,7 +352,7 @@ export default function Home() {
       hours: "3-4 hrs",
       altitude: "3,660 m",
       image: "/khopra-ridge-view.png",
-      desc: "A steady, steep climb brings you above the tree line onto the majestic Khopra Ridge. The panoramic viewpoint at the ridge offers one of the most stunning 360-degree mountain views in Nepal, directly facing the massive Dhaulagiri and Annapurna South massifs."
+      desc: "A steady, steep climb brings you above the tree line onto the majestic Khopra Ridge (Khopra Danda). The panoramic viewpoint at the ridge offers one of the most stunning 360-degree mountain views in Nepal, directly facing the massive Dhaulagiri and Annapurna South massifs. Stay overnight in the famous community-owned lodge on the ridge."
     },
     {
       day: 6,
@@ -344,7 +360,7 @@ export default function Home() {
       hours: "7-8 hrs",
       altitude: "4,660 m",
       image: "/khayer-lake.png",
-      desc: "A long but deeply rewarding day. Hike up to the sacred alpine Khayer Lake, situated at the base of Annapurna South. This pristine lake is a sacred pilgrimage site for both Hindus and Buddhists, home to the Khayer Baraha Temple."
+      desc: "An early morning excursion takes you to Sacred Khayer Lake (4,660m), one of the most important pilgrimage sites in the Annapurna region. Surrounded by towering Himalayan peaks, the lake holds deep spiritual significance for Hindu pilgrims and offers one of the most rewarding viewpoints of the entire Khopra Ridge Trek."
     },
     {
       day: 7,
@@ -364,11 +380,11 @@ export default function Home() {
     },
     {
       day: 9,
-      title: "Sunrise at Poon Hill, Trek to Nayapul, Drive Pokhara & Fly to Kathmandu",
+      title: "Fly from Pokhara to Kathmandu & Final Departure",
       hours: "7-8 hrs",
       altitude: "1,400 m",
       image: "/poon-hill-sunrise.png",
-      desc: "Climb Poon Hill early for a classic Himalayan sunrise. Afterwards, descend to Nayapul, drive back to Pokhara, and fly back to Kathmandu for your onward international flight. End of our services."
+      desc: "After breakfast, transfer to Pokhara Airport for a short scenic flight back to Kathmandu (approximately 25 minutes). Upon arrival in Kathmandu, our team will assist with your hotel transfer. Depending on your international flight schedule, you may enjoy free time for sightseeing, shopping, or relaxation before your onward departure.\n\nMeals: Breakfast\nFlight Duration: Approximately 25 minutes\nTrip Conclusion: Khopra Ridge Trek officially ends upon arrival in Kathmandu or airport transfer assistance."
     }
   ];
 
@@ -420,13 +436,13 @@ export default function Home() {
     },
     {
       id: "base-camp",
-      label: "Base Camp",
+      label: "Trek Gateway",
       valMetric: "Pokhara",
       valImperial: "Pokhara",
-      subMetric: "Lakeside City Gateway",
-      subImperial: "Lakeside City Gateway",
+      subMetric: "Trailhead: Ghandruk",
+      subImperial: "Trailhead: Ghandruk",
       category: "climate",
-      hoverTip: "The prep city. Rest here before the trail and join the team for final briefings.",
+      hoverTip: "Pokhara serves as the primary gateway city for the Khopra Ridge Trek. After a short scenic flight from Kathmandu, trekkers travel by road to Ghandruk, the official trailhead where the trekking portion begins.",
       icon: (
         <svg className="w-5 h-5 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -514,10 +530,10 @@ export default function Home() {
       label: "Trail Type",
       valMetric: "KTM Loop Trail",
       valImperial: "KTM Loop Trail",
-      subMetric: "Kathmandu & Back",
-      subImperial: "Kathmandu & Back",
+      subMetric: "Kathmandu to Kathmandu",
+      subImperial: "Kathmandu to Kathmandu",
       category: "route",
-      hoverTip: "Avoid long bus rides with scenic regional flight transfers Pokhara <=> Kathmandu.",
+      hoverTip: "One of the major advantages of the Khopra Ridge Trek is its efficient KTM Loop Trail design. Instead of enduring long road journeys between Kathmandu and the Annapurna region, trekkers benefit from short domestic flights, reducing travel fatigue and maximizing time on the trail.",
       icon: (
         <svg className="w-5 h-5 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -866,27 +882,35 @@ export default function Home() {
               Khopra Ridge Trek
             </h1>
             {/* Description */}
-            <p className="mt-6 text-base sm:text-lg text-stone-300 leading-relaxed max-w-2xl mx-auto">
-              Discover the uncrowded wonders of the Annapurna region. A serene, visually stunning journey featuring sacred alpine lakes, community lodges, and the most dramatic 360-degree views of Dhaulagiri and Annapurna South.
-              {isHeroExpanded ? (
-                <span className="transition-all duration-300 opacity-100">
-                  {" "}This wilderness trail winds through pristine rhododendron forests, authentic Magar villages, and high-alpine pastures, offering a rare opportunity to support local communities directly. From the high vantage point of Khopra Ridge, experience unparalleled vistas of the world's deepest gorge and majestic 8,000m peaks, all while avoiding the mainstream trekking crowds.
+            <div className="mt-6 text-base sm:text-lg text-stone-300 leading-relaxed max-w-3xl mx-auto space-y-4 text-center">
+              <p>
+                Discover the uncrowded wonders of the Annapurna region. A serene, visually stunning journey featuring sacred alpine lakes, community lodges, and the most dramatic 360-degree views of Dhaulagiri and Annapurna South. This wilderness trail winds through pristine rhododendron forests, authentic Magar villages, and high-alpine pastures, offering a rare opportunity to support local communities directly. From the high vantage point of Khopra Ridge, experience unparalleled vistas of the world's deepest gorge and majestic 8,000m peaks, all while avoiding the mainstream trekking crowds.
+                {!isHeroExpanded && (
                   <button
-                    onClick={() => setIsHeroExpanded(false)}
+                    onClick={() => setIsHeroExpanded(true)}
                     className="text-emerald-400 hover:text-emerald-300 font-bold underline transition ml-1 inline-flex items-center"
                   >
-                    See Less
+                    See More →
                   </button>
-                </span>
-              ) : (
-                <button
-                  onClick={() => setIsHeroExpanded(true)}
-                  className="text-emerald-400 hover:text-emerald-300 font-bold underline transition ml-1 inline-flex items-center"
-                >
-                  See More →
-                </button>
+                )}
+              </p>
+              {isHeroExpanded && (
+                <>
+                  <p className="transition-all duration-300 opacity-100">
+                    The Khopra Ridge Trek is a scenic Kathmandu-to-Kathmandu trekking adventure that showcases the quieter side of the Annapurna region. Combining breathtaking Himalayan panoramas, authentic cultural encounters, community-run lodges, and the sacred alpine waters of Khayer Lake, this off-the-beaten-path trek offers an enriching alternative to Nepal's busier trekking routes. Convenient flights between Kathmandu and Pokhara help reduce long road journeys, allowing you to spend more time immersed in the mountains.
+                  </p>
+                  <p className="transition-all duration-300 opacity-100">
+                    This lesser-known trail winds through pristine rhododendron forests, traditional Magar villages, and high-alpine pastures before reaching the spectacular viewpoint of Khopra Ridge (Khopra Danda). Along the way, trekkers enjoy dramatic views of Annapurna South, Dhaulagiri, Nilgiri, Machhapuchhre (Fishtail), and the world's deepest gorge, while directly supporting local communities through a network of community-owned lodges. For those seeking outstanding mountain scenery, cultural immersion, and a rewarding journey to the sacred pilgrimage site of Khayer Lake, the Khopra Ridge Trek delivers one of the most memorable trekking experiences in the Annapurna region.
+                    <button
+                      onClick={() => setIsHeroExpanded(false)}
+                      className="text-emerald-400 hover:text-emerald-300 font-bold underline transition ml-1 inline-flex items-center"
+                    >
+                      See Less
+                    </button>
+                  </p>
+                </>
               )}
-            </p>
+            </div>
 
             {/* Bottom Info Row */}
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-8 border-t border-white/10 pt-8 max-w-2xl mx-auto">
@@ -1257,7 +1281,7 @@ export default function Home() {
                 />
               </div>
 
-              <p className="mt-6 text-stone-600 leading-relaxed text-base">
+              <p className="mt-6 text-stone-600 leading-relaxed text-base whitespace-pre-line">
                 {itinerary[activeDay - 1].desc}
               </p>
             </div>
