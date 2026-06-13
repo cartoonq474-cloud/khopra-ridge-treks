@@ -199,7 +199,7 @@ export default function Home() {
     { id: "route", label: "Route & Trail" },
     { id: "community", label: "Community Lodges" },
     { id: "preparation", label: "Preparation & Safety" },
-    { id: "booking", label: "Booking & Flights" }
+    { id: "booking", label: "Booking & Transport" }
   ];
 
   const categorizedFaqs = {
@@ -210,7 +210,7 @@ export default function Home() {
       },
       {
         question: "How long does it take from Kathmandu to reach the trailhead?",
-        answer: "Our Kathmandu to Kathmandu itinerary takes a 25-minute scenic flight from Kathmandu to Pokhara on Day 2, followed by a 3-hour private jeep transfer to Ghandruk village, where the hike begins. This saves you from a full day of driving on bumpy highways."
+        answer: "Our Kathmandu to Kathmandu itinerary includes a scenic tourist bus road journey along the Prithvi Highway from Kathmandu to Pokhara on Day 2, followed by a private jeep transfer to Ghandruk village, where the hike begins."
       },
       {
         question: "How difficult is the optional side-trip to Khayer Lake?",
@@ -218,7 +218,7 @@ export default function Home() {
       },
       {
         question: "Is Khopra Ridge Trek a Kathmandu-to-Kathmandu Trek?",
-        answer: "Yes. The trek operates as a complete Kathmandu-to-Kathmandu itinerary using domestic flights between Kathmandu and Pokhara, minimizing lengthy road travel."
+        answer: "Yes. The trek operates as a complete Kathmandu-to-Kathmandu itinerary using comfortable tourist bus transportation between Kathmandu and Pokhara, offering a classic overland road experience."
       },
       {
         question: "What Makes Khopra Ridge Different from Annapurna Base Camp Trek?",
@@ -263,8 +263,8 @@ export default function Home() {
     ],
     booking: [
       {
-        question: "What happens if my flight between Kathmandu and Pokhara is delayed?",
-        answer: "Mountain weather can occasionally cause domestic flight delays. If a flight is delayed, our agency handles rescheduling immediately. If needed, we arrange private jeep transfers to ensure you reach the trailhead safely without losing days on your itinerary."
+        question: "What is the road travel like between Kathmandu and Pokhara?",
+        answer: "We travel by comfortable tourist buses along the scenic Prithvi Highway. The drive takes about 6-8 hours depending on road conditions, passing along beautiful rivers, terraced farmlands, and small highway towns."
       },
       {
         question: "Can I customize the itinerary to add Poon Hill or Mohare Danda?",
@@ -272,7 +272,7 @@ export default function Home() {
       },
       {
         question: "What is your booking cancellation policy?",
-        answer: "We offer flexible booking terms. A small deposit is required to secure lodge bookings and flight tickets. If your plans change, you can reschedule your trek to any future date within 24 months at no extra charge, subject to lodge and flight availability."
+        answer: "We offer flexible booking terms. A small deposit is required to secure lodge bookings and transport reservations. If your plans change, you can reschedule your trek to any future date within 24 months at no extra charge, subject to lodge and transport availability."
       }
     ]
   };
@@ -324,11 +324,11 @@ export default function Home() {
     },
     {
       day: 2,
-      title: "Fly to Pokhara, Drive to Ghandruk & Trek to Tadapani",
+      title: "Drive to Pokhara by Tourist Bus, Jeep to Ghandruk & Trek to Tadapani",
       hours: "5-6 hrs",
       altitude: "2,630 m",
       image: "/ghandruk-village.png",
-      desc: "Take a scenic morning flight from Kathmandu to Pokhara (25 minutes). Upon landing, meet your jeep and drive 3 hours to Ghandruk village. From Ghandruk, trek through lush oak and rhododendron forests up to Tadapani, enjoying initial views of Annapurna South."
+      desc: "Depart early from Kathmandu by comfortable tourist bus for a scenic road journey to Pokhara (6-8 hours). Upon arrival, transfer by private jeep to the trailhead at Ghandruk and begin trekking up through the beautiful oak forests to Tadapani."
     },
     {
       day: 3,
@@ -380,11 +380,11 @@ export default function Home() {
     },
     {
       day: 9,
-      title: "Fly from Pokhara to Kathmandu & Final Departure",
+      title: "Drive from Pokhara to Kathmandu & Final Departure",
       hours: "7-8 hrs",
       altitude: "1,400 m",
       image: "/poon-hill-sunrise.png",
-      desc: "After breakfast, transfer to Pokhara Airport for a short scenic flight back to Kathmandu (approximately 25 minutes). Upon arrival in Kathmandu, our team will assist with your hotel transfer. Depending on your international flight schedule, you may enjoy free time for sightseeing, shopping, or relaxation before your onward departure.\n\nMeals: Breakfast\nFlight Duration: Approximately 25 minutes\nTrip Conclusion: Khopra Ridge Trek officially ends upon arrival in Kathmandu or airport transfer assistance."
+      desc: "After breakfast, board the tourist bus at Pokhara for your scenic road journey back to Kathmandu (approximately 6-8 hours). Upon arrival in Kathmandu, our team will assist with your transfer. Depending on your departure schedule, you may enjoy free time for sightseeing, shopping, or relaxation before your onward departure.\n\nMeals: Breakfast\nDrive Duration: Approximately 6-8 hours\nTrip Conclusion: Khopra Ridge Trek officially ends upon arrival in Kathmandu."
     }
   ];
 
@@ -412,7 +412,7 @@ export default function Home() {
       subMetric: "KTM Loop Trail",
       subImperial: "KTM Loop Trail",
       category: "route",
-      hoverTip: "Starts with airport arrival in Kathmandu and wraps up with flight back to KTM on Day 9.",
+      hoverTip: "Starts with arrival in Kathmandu and wraps up with tourist bus travel back to Kathmandu on Day 9.",
       icon: (
         <svg className="w-5 h-5 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -442,7 +442,7 @@ export default function Home() {
       subMetric: "Trailhead: Ghandruk",
       subImperial: "Trailhead: Ghandruk",
       category: "climate",
-      hoverTip: "Pokhara serves as the primary gateway city for the Khopra Ridge Trek. After a short scenic flight from Kathmandu, trekkers travel by road to Ghandruk, the official trailhead where the trekking portion begins.",
+      hoverTip: "Pokhara serves as the primary gateway city for the Khopra Ridge Trek. After a scenic tourist bus ride from Kathmandu, trekkers travel by road to Ghandruk, the official trailhead where the trekking portion begins.",
       icon: (
         <svg className="w-5 h-5 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -533,7 +533,7 @@ export default function Home() {
       subMetric: "Kathmandu to Kathmandu",
       subImperial: "Kathmandu to Kathmandu",
       category: "route",
-      hoverTip: "One of the major advantages of the Khopra Ridge Trek is its efficient KTM Loop Trail design. Instead of enduring long road journeys between Kathmandu and the Annapurna region, trekkers benefit from short domestic flights, reducing travel fatigue and maximizing time on the trail.",
+      hoverTip: "The KTM Loop Trail design connects Kathmandu and Pokhara overland. Enjoy a comfortable scenic tourist bus journey along the Prithvi Highway, showcasing Nepal's river valleys and terraced hills.",
       icon: (
         <svg className="w-5 h-5 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -579,7 +579,7 @@ export default function Home() {
       subMetric: "Walking Trail Portion",
       subImperial: "Walking Trail Portion",
       category: "route",
-      hoverTip: "Average walking distance of 7-8 km per day. Excludes domestic flights and private jeeps.",
+      hoverTip: "Average walking distance of 7-8 km per day. Excludes tourist bus travel and private jeeps.",
       icon: (
         <svg className="w-5 h-5 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
@@ -594,7 +594,7 @@ export default function Home() {
       subMetric: "No direct rail line",
       subImperial: "No direct rail line",
       category: "logistics",
-      hoverTip: "The nearest major transport connection hub is Pokhara (accessed via road or domestic flights).",
+      hoverTip: "The nearest major transport connection hub is Pokhara (accessed via tourist bus or private road travel).",
       icon: (
         <svg className="w-5 h-5 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -619,16 +619,17 @@ export default function Home() {
     },
     {
       id: "airport",
-      label: "Airport",
-      valMetric: "Pokhara Int'l",
-      valImperial: "Pokhara Int'l",
-      subMetric: "Pokhara Airport",
-      subImperial: "Pokhara Airport",
+      label: "Tourist Bus",
+      valMetric: "KTM - Pokhara",
+      valImperial: "KTM - Pokhara",
+      subMetric: "Scenic Road Transit",
+      subImperial: "Scenic Road Transit",
       category: "logistics",
-      hoverTip: "Domestic flights land in Pokhara from Kathmandu (25 min scenic flight).",
+      hoverTip: "Overland transit by comfortable tourist bus along the Prithvi Highway (approx. 6-8 hours).",
       icon: (
         <svg className="w-5 h-5 text-emerald-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1a2 2 0 002-2V8a2 2 0 00-2-2h-1m4 10a2 2 0 002-2v-5a2 2 0 00-2-2m0 9h1m-1-5H18" />
         </svg>
       )
     }
@@ -641,9 +642,9 @@ export default function Home() {
   const includedItems = [
     {
       id: "inc-airport",
-      text: "Airport transfer services during arrival and departure, and the local flight schedule",
+      text: "Airport transfer services during arrival and departure, and the tourist bus schedule",
       category: "transit",
-      hoverTip: "Private airport transfers to/from your hotel in Kathmandu. Includes local flight booking and arrangements."
+      hoverTip: "Private airport transfers to/from your hotel in Kathmandu. Includes tourist bus seat booking and arrangements."
     },
     {
       id: "inc-hotel-ktm",
@@ -897,7 +898,7 @@ export default function Home() {
               {isHeroExpanded && (
                 <>
                   <p className="transition-all duration-300 opacity-100">
-                    The Khopra Ridge Trek is a scenic Kathmandu-to-Kathmandu trekking adventure that showcases the quieter side of the Annapurna region. Combining breathtaking Himalayan panoramas, authentic cultural encounters, community-run lodges, and the sacred alpine waters of Khayer Lake, this off-the-beaten-path trek offers an enriching alternative to Nepal's busier trekking routes. Convenient flights between Kathmandu and Pokhara help reduce long road journeys, allowing you to spend more time immersed in the mountains.
+                    The Khopra Ridge Trek is a scenic Kathmandu-to-Kathmandu trekking adventure that showcases the quieter side of the Annapurna region. Combining breathtaking Himalayan panoramas, authentic cultural encounters, community-run lodges, and the sacred alpine waters of Khayer Lake, this off-the-beaten-path trek offers an enriching alternative to Nepal's busier trekking routes. A scenic road journey by tourist bus between Kathmandu and Pokhara connects you directly to the trailhead, allowing you to experience the diverse landscapes of Nepal's river valleys.
                   </p>
                   <p className="transition-all duration-300 opacity-100">
                     This lesser-known trail winds through pristine rhododendron forests, traditional Magar villages, and high-alpine pastures before reaching the spectacular viewpoint of Khopra Ridge (Khopra Danda). Along the way, trekkers enjoy dramatic views of Annapurna South, Dhaulagiri, Nilgiri, Machhapuchhre (Fishtail), and the world's deepest gorge, while directly supporting local communities through a network of community-owned lodges. For those seeking outstanding mountain scenery, cultural immersion, and a rewarding journey to the sacred pilgrimage site of Khayer Lake, the Khopra Ridge Trek delivers one of the most memorable trekking experiences in the Annapurna region.
@@ -2113,7 +2114,7 @@ export default function Home() {
               <div className="mt-8 pt-4 border-t border-stone-100 flex items-center gap-3 text-stone-400 text-xs">
                 <span className="text-lg">🛡️</span>
                 <p className="leading-relaxed font-normal">
-                  All Nirvana Trails packages include government permits, accommodation, flights, private jeeps, and full guide/porter insurance coverage.
+                  All Nirvana Trails packages include government permits, accommodation, tourist bus transit, private jeeps, and full guide/porter insurance coverage.
                 </p>
               </div>
             </div>
