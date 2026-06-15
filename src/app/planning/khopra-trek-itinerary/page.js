@@ -161,6 +161,139 @@ export default function Page() {
           ))}
         </div>
 
+        {/* Route Variations Directory */}
+        <div className="mt-16 pt-12 border-t border-stone-250">
+          <h2 className="text-2xl font-black text-stone-950">Explore Route Variations & Resources</h2>
+          <p className="mt-3 text-sm text-stone-500 leading-relaxed">
+            Select an option below to explore specific duration outlines, trailhead variation advantages, and topographic mapping.
+          </p>
+
+          <div className="mt-8 grid gap-8 md:grid-cols-3">
+            {/* Durations */}
+            <div className="p-6 bg-white border border-stone-200 rounded-3xl shadow-sm">
+              <h4 className="text-sm font-extrabold text-stone-950 uppercase tracking-wider mb-4 text-emerald-700">Itinerary Durations</h4>
+              <ul className="space-y-3 text-xs font-semibold text-stone-600">
+                <li>
+                  <Link href="/planning/5-day-khopra-trek" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>5-Day Express Route</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/6-day-khopra-trek" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>6-Day High Intensity</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/7-day-khopra-trek" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>7-Day Express Loop</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/8-day-khopra-trek" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>8-Day Wilderness Path</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/10-day-khopra-trek" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>10-Day Deep Culture</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/12-day-khopra-trek" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>12-Day Grand Loop</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            {/* Trailheads */}
+            <div className="p-6 bg-white border border-stone-200 rounded-3xl shadow-sm">
+              <h4 className="text-sm font-extrabold text-stone-950 uppercase tracking-wider mb-4 text-emerald-700">Trailhead Entry Points</h4>
+              <ul className="space-y-3 text-xs font-semibold text-stone-600">
+                <li>
+                  <Link href="/planning/khopra-trek-via-ghandruk" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Via Ghandruk Heritage</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/khopra-trek-via-ghorepani" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Via Ghorepani Gateway</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/khopra-trek-via-poon-hill" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Via Poon Hill Sunrise</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/khopra-trek-via-mohare-danda" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Via Mohare Danda Ridge</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/khopra-loop-trek" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Complete Circuit Loop</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/khopra-trek-with-khayer-lake" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>With Khayer Lake Side-Trip</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/khopra-trek-from-pokhara" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Starting from Pokhara</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            {/* Map & Specs */}
+            <div className="p-6 bg-white border border-stone-200 rounded-3xl shadow-sm">
+              <h4 className="text-sm font-extrabold text-stone-950 uppercase tracking-wider mb-4 text-emerald-700">Route Intelligence</h4>
+              <ul className="space-y-3 text-xs font-semibold text-stone-600">
+                <li>
+                  <Link href="/planning/khopra-trek-map" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Interactive Route Map</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/khopra-trek-distance-guide" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Distance & Segments</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/khopra-trek-route-overview" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Route Overview Details</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/highest-point-on-khopra-trek" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Highest Point & Altitude Safety</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
         {/* E-E-A-T EVIDENCE BAR */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
           <span className="text-2xl mt-0.5">🏔️</span>
