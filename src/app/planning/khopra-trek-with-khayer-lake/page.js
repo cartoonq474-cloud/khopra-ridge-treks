@@ -96,6 +96,49 @@ export default function Page() {
           </div>
         </div>
 
+        {/* Khayer Lake Silo Links */}
+        <div className="mt-12 space-y-6">
+          <h3 className="text-xl font-bold text-stone-950">Khayer Lake Planning Resources</h3>
+          <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 text-xs font-semibold text-stone-600">
+            <Link href="/planning/khayer-lake-route-guide" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Trail Route Guide</span>
+              <span>→</span>
+            </Link>
+            <Link href="/planning/khayer-lake-day-hike" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Day Hike Strategy</span>
+              <span>→</span>
+            </Link>
+            <Link href="/planning/khayer-lake-weather" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Weather & Conditions</span>
+              <span>→</span>
+            </Link>
+            <Link href="/planning/khayer-lake-packing-list" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Specific Packing Checklist</span>
+              <span>→</span>
+            </Link>
+            <Link href="/planning/khayer-lake-photography-guide" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Photography & Viewpoints</span>
+              <span>→</span>
+            </Link>
+            <Link href="/planning/khayer-baraha-temple-guide" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Pilgrimage & Sacred History</span>
+              <span>→</span>
+            </Link>
+            <Link href="/planning/is-khayer-lake-worth-it" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Is Khayer Lake Worth It?</span>
+              <span>→</span>
+            </Link>
+            <Link href="/planning/khayer-lake-depth-source" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Lake Depth & Scientific Source</span>
+              <span>→</span>
+            </Link>
+            <Link href="/planning/khayer-lake-vs-tilicho-lake" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Khayer vs Tilicho Lake</span>
+              <span>→</span>
+            </Link>
+          </div>
+        </div>
+
         {/* Safety Warning */}
         <div className="mt-16 p-8 bg-emerald-50 border border-emerald-200 rounded-3xl text-emerald-800 space-y-4">
           <h3 className="text-lg font-bold">Altitude & Safety Information</h3>

@@ -47,6 +47,45 @@ export default function Page() {
           </p>
         </div>
 
+        {/* Ecology Sub-Silo Links */}
+        <div className="mt-12 space-y-6">
+          <h3 className="text-xl font-bold text-stone-950">Ecology &amp; Wildlife Resources</h3>
+          <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 text-xs font-semibold text-stone-600">
+            <Link href="/ecology/flora-of-khopra" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Flora of Khopra</span>
+              <span>→</span>
+            </Link>
+            <Link href="/ecology/birds-of-annapurna" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Birds of Annapurna</span>
+              <span>→</span>
+            </Link>
+            <Link href="/ecology/spring-rhododendron-bloom" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Spring Rhododendron Bloom</span>
+              <span>→</span>
+            </Link>
+            <Link href="/ecology/alpine-meadows" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Alpine Meadows</span>
+              <span>→</span>
+            </Link>
+            <Link href="/ecology/conservation-efforts" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Conservation Efforts</span>
+              <span>→</span>
+            </Link>
+            <Link href="/ecology/red-pandas-on-khopra" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Red Pandas on Khopra</span>
+              <span>→</span>
+            </Link>
+            <Link href="/ecology/rhododendron-forests" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Rhododendron Forests</span>
+              <span>→</span>
+            </Link>
+            <Link href="/ecology/wildlife-khopra-trek" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Wildlife Guide</span>
+              <span>→</span>
+            </Link>
+          </div>
+        </div>
+
         {/* Entry Regulations */}
         <div className="mt-12 p-8 bg-white border border-stone-200 rounded-3xl shadow-sm space-y-4">
           <span className="text-xs font-extrabold text-emerald-600 uppercase tracking-widest block">Permits &amp; Registration</span>
