@@ -110,12 +110,14 @@ export default function Header() {
     }
   };
 
-  // Close menus on page change
-  useEffect(() => {
+  // Close menus on page change (adjust state during render)
+  const [prevPathname, setPrevPathname] = React.useState(pathname);
+  if (pathname !== prevPathname) {
+    setPrevPathname(pathname);
     setMobileMenuOpen(false);
     setActiveMenu(null);
     setExpandedMobileCategory(null);
-  }, [pathname]);
+  }
 
   const tours = [
     { href: "/tours/khayer-lake-trek", label: "Sacred Khayer Lake Pilgrimage", desc: "A spiritual trek to a holy alpine lake at 4,660m." },
@@ -780,7 +782,7 @@ export default function Header() {
                           ))
                         ) : (
                           <div className="px-4 py-2 text-xs text-stone-400 italic font-medium">
-                            Custom value: "{formData.foundUs}"
+                            Custom value: &quot;{formData.foundUs}&quot;
                           </div>
                         )}
                       </div>
