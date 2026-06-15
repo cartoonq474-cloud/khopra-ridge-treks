@@ -176,6 +176,7 @@ export default function Footer() {
             <Link href="/privacy-policy" className="hover:text-stone-400 transition-colors">Privacy Policy</Link>
             <Link href="/terms-of-service" className="hover:text-stone-400 transition-colors">Terms of Service</Link>
             <Link href="/sitemap" className="hover:text-stone-400 transition-colors font-semibold">Sitemap</Link>
+            <Link href="/all-pages" className="hover:text-stone-400 transition-colors font-semibold text-emerald-400">All Pages</Link>
           </div>
         </div>
 
