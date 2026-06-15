@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import Link from "next/link";
 
@@ -28,7 +26,6 @@ export default function Page() {
 
         {/* Stats Grid */}
         <div className="mt-10 grid grid-cols-2 gap-4 rounded-2xl border border-stone-200 bg-white p-6 sm:grid-cols-4">
-          {stats => null}
           {groupStats.map((stat, i) => (
             <div key={i}>
               <span className="text-[10px] font-bold text-stone-400 uppercase tracking-widest">{stat.label}</span>
