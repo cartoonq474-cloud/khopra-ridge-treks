@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 
 export default function Page() {
   const [season, setSeason] = useState("autumn");
@@ -126,6 +127,46 @@ export default function Page() {
                   <li><strong>Kathmandu:</strong> NTB Office, Bhrikutimandap (Open Mon-Sun 9:00 AM - 3:00 PM).</li>
                 </ul>
               </div>
+            </div>
+          </div>
+
+          {/* Detailed Permit, Regulation & Transport Resources */}
+          <div className="border-t border-stone-200 pt-8 space-y-6">
+            <h3 className="text-2xl font-bold text-stone-905">Detailed Permits, Rules &amp; Transit Silos</h3>
+            <p className="text-stone-600 text-sm leading-relaxed">
+              Read our specialized resources covering all government requirements, fee tables, and flight or road transit choices:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-semibold text-emerald-600">
+              <Link href="/planning/acap-permit-guide" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; ACAP Permit Guide (2026 Rules)
+              </Link>
+              <Link href="/planning/tims-card-guide" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; TIMS Registration Card Guide
+              </Link>
+              <Link href="/planning/do-you-need-a-guide" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; Guide Requirement Regulations
+              </Link>
+              <Link href="/planning/trekking-regulations-explained" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; Trail Regulations &amp; Drone Approval
+              </Link>
+              <Link href="/planning/permit-fees-explained" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; Permit Fees &amp; Fine Penalties
+              </Link>
+              <Link href="/planning/kathmandu-to-pokhara" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; Kathmandu to Pokhara Flight/Bus
+              </Link>
+              <Link href="/planning/pokhara-to-kimche" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; Pokhara to Kimche Jeep Route
+              </Link>
+              <Link href="/planning/pokhara-to-syauli-bazaar" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; Pokhara to Syauli Bazaar Transfer
+              </Link>
+              <Link href="/planning/return-transport-guide" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; Return Transport: Beni/Tatopani
+              </Link>
+              <Link href="/planning/jeep-vs-bus-for-khopra-trek" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; Jeep vs Public Bus Comparison
+              </Link>
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 
 export default function Page() {
   const [packSize, setPackSize] = useState(1);
@@ -79,6 +80,34 @@ export default function Page() {
                   </tr>
                 </tbody>
               </table>
+            </div>
+          </div>
+
+          {/* Detailed Cost Analysis Guides */}
+          <div className="border-t border-stone-200 pt-8 space-y-6">
+            <h3 className="text-2xl font-bold text-stone-900">Detailed Cost Analysis Silos</h3>
+            <p className="text-stone-600 text-sm leading-relaxed">
+              Explore our specialized pricing articles for detailed group discounts, private jeep estimates, porter ratios, and hidden trail fees:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-semibold text-emerald-600">
+              <Link href="/planning/budget-khopra-trek" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; Budget Trekking Tips &amp; Hacks
+              </Link>
+              <Link href="/planning/private-khopra-trek-cost" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; Private Guided Tour Costs
+              </Link>
+              <Link href="/planning/group-trek-cost" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; Group Tour Packaging Costs
+              </Link>
+              <Link href="/planning/guide-cost" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; Guide Wages &amp; Selection Value
+              </Link>
+              <Link href="/planning/porter-cost" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; Porter Wages &amp; Weight Limits
+              </Link>
+              <Link href="/planning/hidden-costs-khopra-trek" className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
+                &rarr; Hidden Trail Costs &amp; Shower/Charging Fees
+              </Link>
             </div>
           </div>
         </div>
