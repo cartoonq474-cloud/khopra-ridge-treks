@@ -105,6 +105,111 @@ export default function Page() {
           </div>
         </div>
 
+        {/* Deep-Dive Safety, Difficulty & Altitude Resources */}
+        <div className="mt-16 space-y-6">
+          <h2 className="text-2xl font-bold text-stone-950">Detailed Safety, Altitude &amp; Difficulty Silos</h2>
+          <p className="text-stone-600 text-sm leading-relaxed">
+            For maximum E-E-A-T and deep trail safety preparation, explore our specialized guides covering all aspects of physical training, altitude adaptation, and emergency logistics.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="p-6 bg-white border border-stone-200 rounded-3xl space-y-4">
+              <span className="text-xs font-bold text-emerald-600 uppercase tracking-widest block">1. Difficulty &amp; Training</span>
+              <ul className="space-y-2 text-xs font-semibold text-stone-700">
+                <li>
+                  <Link href="/planning/khopra-trek-difficulty" className="hover:text-emerald-600 transition">
+                    &rarr; Khopra Trek Difficulty Profile
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/can-beginners-do-khopra-trek" className="hover:text-emerald-600 transition">
+                    &rarr; Can Beginners Hike Khopra?
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/how-fit-to-trek-khopra" className="hover:text-emerald-600 transition">
+                    &rarr; Fitness Standards &amp; Self-Test
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/training-for-khopra-trek" className="hover:text-emerald-600 transition">
+                    &rarr; 8-Week Training Timeline
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/trekking-fitness-plan" className="hover:text-emerald-600 transition">
+                    &rarr; Weekly Workout Schedule
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="p-6 bg-white border border-stone-200 rounded-3xl space-y-4">
+              <span className="text-xs font-bold text-emerald-600 uppercase tracking-widest block">2. Altitude &amp; Acclimatization</span>
+              <ul className="space-y-2 text-xs font-semibold text-stone-700">
+                <li>
+                  <Link href="/altitude/khopra-trek-altitude-guide" className="hover:text-emerald-600 transition">
+                    &rarr; Complete Altitude Guide
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/altitude/khopra-trek-altitude-chart" className="hover:text-emerald-600 transition">
+                    &rarr; Elevation Profile Chart
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/altitude/ams-on-khopra-trek" className="hover:text-emerald-600 transition">
+                    &rarr; AMS Symptoms &amp; Prevention
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/altitude/acclimatization-guide" className="hover:text-emerald-600 transition">
+                    &rarr; Science of Acclimatization
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/altitude/sleeping-altitude-breakdown" className="hover:text-emerald-600 transition">
+                    &rarr; Night-by-Night Lodging Elev.
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/altitude/khayer-lake-altitude-risks" className="hover:text-emerald-600 transition">
+                    &rarr; Khayer Lake (4,660m) Risks
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="p-6 bg-white border border-stone-200 rounded-3xl space-y-4">
+              <span className="text-xs font-bold text-emerald-600 uppercase tracking-widest block">3. Safety &amp; Logistics</span>
+              <ul className="space-y-2 text-xs font-semibold text-stone-700">
+                <li>
+                  <Link href="/safety/is-khopra-trek-safe" className="hover:text-emerald-600 transition">
+                    &rarr; General Safety &amp; Wildlife
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/safety/weather-hazards" className="hover:text-emerald-600 transition">
+                    &rarr; Trail Weather Hazards
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/safety/landslide-risks" className="hover:text-emerald-600 transition">
+                    &rarr; Landslide &amp; Rockfall Risks
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/safety/travel-insurance-nepal-trek" className="hover:text-emerald-600 transition">
+                    &rarr; Travel Insurance Checklist
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/safety/helicopter-rescue-evacuation" className="hover:text-emerald-600 transition">
+                    &rarr; Helicopter Rescue Info
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
         {/* Altitude Rules */}
         <div className="mt-16 space-y-6">
           <h2 className="text-2xl font-bold text-stone-950">Standard Acclimatization Protocols</h2>
