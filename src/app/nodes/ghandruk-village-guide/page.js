@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -55,6 +56,40 @@ export default function Page() {
             <p className="text-stone-600 leading-relaxed">For the Khopra Ridge Trek, Ghandruk serves as the primary starting point. After driving from Pokhara, hikers spend their first afternoon exploring Ghandruk before ascending towards Tadapani the next morning.</p>
           </div>
 
+        </div>
+
+        {/* DETAILED RESOURCES */}
+        <div className="mt-16 pt-12 border-t border-stone-200">
+          <h3 className="text-2xl font-bold text-stone-950">Detailed Ghandruk Planning Resources</h3>
+          <p className="mt-2 text-sm text-stone-500 leading-relaxed">
+            Select one of our specialized Ghandruk planning guides below to plan your activities, cultural experiences, and transit routes.
+          </p>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 md:grid-cols-3 text-xs font-semibold text-stone-600">
+            <Link href="/nodes/ghandruk-things-to-do" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Things to Do in Ghandruk</span>
+              <span>→</span>
+            </Link>
+            <Link href="/nodes/ghandruk-gurung-culture" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Gurung Culture & Heritage</span>
+              <span>→</span>
+            </Link>
+            <Link href="/nodes/ghandruk-accommodation-guide" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Lodging & Accommodation</span>
+              <span>→</span>
+            </Link>
+            <Link href="/nodes/syauli-bazaar-guide" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Syauli Bazaar Trailhead</span>
+              <span>→</span>
+            </Link>
+            <Link href="/nodes/birethanti-guide" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Birethanti Checkpoint Info</span>
+              <span>→</span>
+            </Link>
+            <Link href="/nodes/kimche-trailhead" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Kimche Jeep Trailhead</span>
+              <span>→</span>
+            </Link>
+          </div>
         </div>
 
         {/* E-E-A-T AUTHOR FOOTNOTE */}

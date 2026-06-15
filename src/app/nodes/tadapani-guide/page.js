@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -38,6 +39,21 @@ export default function Page() {
             <p className="mt-1 text-sm font-bold text-stone-900">Close-up Machhapuchhre & Annapurna South</p>
           </div>
 
+        </div>
+
+        {/* DETAILED RESOURCES */}
+        <div className="mt-12 pt-8 border-t border-stone-200">
+          <h3 className="text-xl font-bold text-stone-950">Tadapani Resources</h3>
+          <div className="mt-4 grid gap-4 sm:grid-cols-2 text-xs font-semibold text-stone-600">
+            <Link href="/nodes/tadapani-accommodation" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Tadapani Accommodation Guide</span>
+              <span>→</span>
+            </Link>
+            <Link href="/nodes/tadapani-weather" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between">
+              <span>Tadapani Weather & Visibility</span>
+              <span>→</span>
+            </Link>
+          </div>
         </div>
 
         {/* E-E-A-T AUTHOR FOOTNOTE */}

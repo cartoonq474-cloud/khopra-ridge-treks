@@ -6,20 +6,52 @@ import Link from "next/link";
 export default function Page() {
   const villages = [
     {
+      name: "Birethanti Checkpoint",
+      altitude: "1,025m",
+      type: "Permit Entry Checkpoint",
+      lodging: "Local Guest Houses",
+      href: "/nodes/birethanti-guide",
+      desc: "The official gateway check-in point at the confluence of the Modi and Bhurungdi rivers. TIMS card and ACAP permits are registered here."
+    },
+    {
+      name: "Syauli Bazaar",
+      altitude: "1,220m",
+      type: "Lower River Trailhead",
+      lodging: "Basic Teahouses",
+      href: "/nodes/syauli-bazaar-guide",
+      desc: "The lowest road-access trailhead along the Modi Khola riverbed. Ideal starting point for a progressive climb to Ghandruk."
+    },
+    {
+      name: "Kimche Trailhead",
+      altitude: "1,640m",
+      type: "Upper Road Trailhead",
+      lodging: "Small Homestays",
+      href: "/nodes/kimche-trailhead",
+      desc: "The highest road point before Ghandruk. Jeep drop-offs here cut down Day 1 hiking time to a comfortable 1-hour stone step ascent."
+    },
+    {
       name: "Ghandruk Village",
       altitude: "1,940m",
       type: "Gurung Culture Hub",
-      lodging: "Private Teahouses & Hotels",
+      lodging: "Comfortable Teahouses & Hotels",
       href: "/nodes/ghandruk-village-guide",
-      desc: "The largest Gurung settlement in the Annapurna range. Stone paved stairs, Gurung museums, and direct views of Annapurna South and Machhapuchhre."
+      desc: "The largest Gurung settlement in the Annapurna foothills. Historic stone alleys, local museums, and clear mountain balconies."
     },
     {
       name: "Tadapani Node",
       altitude: "2,630m",
       type: "Forest Junction",
-      lodging: "Private Teahouses",
+      lodging: "Standard Teahouses",
       href: "/nodes/tadapani-guide",
-      desc: "A key junction nestled inside deep rhododendron forests, connecting trails from Ghorepani, Ghandruk, and the offbeat paths to Bayeli."
+      desc: "A forested trail hub connecting Ghandruk, Ghorepani, and the offbeat high-pasture trail to Bayeli Kharka."
+    },
+    {
+      name: "Dobato Pastures",
+      altitude: "3,432m",
+      type: "High Forest Clearing",
+      lodging: "Community Lodge",
+      href: "/nodes/dobato-guide",
+      desc: "A serene clearing below Muldai Hill. Serves as the overnight launchpad for climbing to the Muldai sunrise viewpoint."
     },
     {
       name: "Bayeli Kharka",
@@ -27,7 +59,7 @@ export default function Page() {
       type: "High Mountain Pasture",
       lodging: "Community Lodge",
       href: "/nodes/bayeli-kharka-guide",
-      desc: "An isolated alpine meadow situated right opposite the massive wall of Annapurna South. Rest at the cozy community-run lodge."
+      desc: "An isolated alpine meadow sitting opposite the vertical face of Annapurna South, hosting a single cozy community lodge."
     },
     {
       name: "Chhistibung Node",
@@ -35,23 +67,39 @@ export default function Page() {
       type: "Forest Sanctuary",
       lodging: "Community Lodge",
       href: "/nodes/chhistibung-guide",
-      desc: "A quiet lodge stop located inside deep mossy forests, rich in biodiversity. Prime area for spotting Himalayan Monal pheasants."
+      desc: "A quiet forest hollow rich in biological diversity. Excellent area for spotting Himalayan Monal pheasants and Langur monkeys."
+    },
+    {
+      name: "Khopra Ridge Lodge",
+      altitude: "3,660m",
+      type: "High Ridge Panorama",
+      lodging: "Main Community Lodge",
+      href: "/nodes/khopra-ridge-lodge",
+      desc: "The trek&apos;s ultimate ridge summit lodging. Offers spectacular 360-degree sunrise views over Dhaulagiri and Nilgiri peaks."
     },
     {
       name: "Swanta Village",
       altitude: "2,200m",
       type: "Magar Farming Valley",
-      lodging: "Community Lodge & Homestays",
+      lodging: "Homestays & Lodges",
       href: "/nodes/swanta-village-guide",
-      desc: "A beautiful farming valley surrounded by terraced crop fields. Inhabited by the Magar community, featuring local co-op cheese factories."
+      desc: "A beautiful agricultural Magar village featuring local honey farms and a community cooperative cheese factory."
     },
     {
-      name: "Ghorepani Village",
+      name: "Ghorepani Hub",
       altitude: "2,860m",
       type: "Standard Trail Junction",
-      lodging: "Private Teahouses & Hotels",
+      lodging: "Developed Teahouses & Hotels",
       href: "/nodes/ghorepani-guide",
-      desc: "A popular, vibrant village junction serving as the base camp for morning sunrise climbs to the Poon Hill viewpoint."
+      desc: "A massive, busy village junction serving as the base station for morning hikes to the Poon Hill sunrise viewpoint."
+    },
+    {
+      name: "Ulleri Village",
+      altitude: "2,050m",
+      type: "Hillside Settlement",
+      lodging: "Traditional Teahouses",
+      href: "/nodes/ulleri-village-guide",
+      desc: "A steep hillside Magar village famous for the challenging 3,200 stone step staircase from Tikhedhunga."
     }
   ];
 

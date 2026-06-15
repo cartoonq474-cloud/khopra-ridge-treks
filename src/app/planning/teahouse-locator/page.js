@@ -174,6 +174,64 @@ export default function Page() {
           )}
         </div>
 
+        {/* ACCOMMODATION & DINING RESOURCES */}
+        <div className="mt-16 pt-12 border-t border-stone-200">
+          <h3 className="text-2xl font-bold text-stone-950 font-sans tracking-tight">Accommodation & Dining Resources</h3>
+          <p className="mt-3 text-sm text-stone-500 leading-relaxed">
+            Plan your stay and meals. Read our detailed guides covering teahouse structures, sustainable community lodges, and dietary options along the trail.
+          </p>
+
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            <div className="p-6 bg-white border border-stone-200 rounded-3xl shadow-sm">
+              <h4 className="text-sm font-extrabold text-stone-950 uppercase tracking-wider mb-4 text-emerald-700">Lodge Guides</h4>
+              <ul className="space-y-3 text-xs font-semibold text-stone-600">
+                <li>
+                  <Link href="/planning/teahouses-on-khopra-trek" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Teahouse System Overview</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/community-lodges-khopra-trek" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Community Lodge Network Model</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/nodes/khopra-ridge-lodge-guide" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Khopra Ridge Lodge Deep-Dive</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div className="p-6 bg-white border border-stone-200 rounded-3xl shadow-sm">
+              <h4 className="text-sm font-extrabold text-stone-950 uppercase tracking-wider mb-4 text-emerald-700">Food & Hydration</h4>
+              <ul className="space-y-3 text-xs font-semibold text-stone-600">
+                <li>
+                  <Link href="/planning/vegetarian-food-khopra-trek" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Vegetarian Dining & Dal Bhat</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/vegan-food-khopra-trek" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Vegan & Plant-Based Guide</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/planning/drinking-water-khopra-trek" className="hover:text-emerald-600 transition-colors flex items-center justify-between">
+                    <span>Safe Drinking Water & Bottle Ban</span>
+                    <span>→</span>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
           <span className="text-2xl mt-0.5">🏔️</span>
