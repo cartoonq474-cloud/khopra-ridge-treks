@@ -138,8 +138,12 @@ export default function Header() {
     { href: "/nodes/swanta-village-guide", label: "Swanta Village", desc: "Magar valley agricultural fields." },
     { href: "/nodes/bayeli-kharka-guide", label: "Bayeli Kharka", desc: "High alpine grazing pastures." },
     { href: "/nodes/chhistibung-guide", label: "Chhistibung Node", desc: "Fauna, monals, and forest lodge." },
+    { href: "/nodes/khopra-ridge-lodge", label: "Khopra Ridge Lodge", desc: "The destination high community eco-lodge." },
     { href: "/nodes/ghorepani-guide", label: "Ghorepani Village", desc: "Major tourist teahouse cluster." },
     { href: "/nodes/tadapani-guide", label: "Tadapani Node", desc: "Junction to Ghandruk & Bayeli." },
+    { href: "/nodes/ulleri-village-guide", label: "Ulleri Village", desc: "Alternate ridge descent node." },
+    { href: "/nodes/nayapul-transit-hub", label: "Nayapul Gateway", desc: "Main highway transfer checkpost." },
+    { href: "/nodes/kimche-trailhead", label: "Kimche Trailhead", desc: "Walking starting point climb." },
     { href: "/nodes", label: "All Villages & Hubs", desc: "Explore the complete interactive map & route indices." }
   ];
 
@@ -157,12 +161,18 @@ export default function Header() {
     { href: "/planning/7-day-khopra-trek", label: "7-Day Express Route" },
     { href: "/planning/khayer-lake-altitude-difficulty", label: "Altitude & Safety Guide" },
     { href: "/altitude/khopra-ridge-elevation", label: "Acclimatization & Elevation Chart" },
-    { href: "/weather/khopra-trek-october", label: "October Weather & Season Info" },
+    { href: "/weather/khopra-trek-march", label: "March Weather & Early Spring" },
+    { href: "/weather/khopra-trek-april", label: "April Weather & Peak Bloom" },
+    { href: "/weather/khopra-trek-may", label: "May Weather & Late Spring" },
+    { href: "/weather/khopra-trek-october", label: "October Weather & Autumn Peak" },
+    { href: "/weather/khopra-trek-november", label: "November Weather & High Clarity" },
     { href: "/planning/khayer-lake-mythology-pilgrimage", label: "Mythology & Pilgrimage" },
     { href: "/planning/khopra-trek-for-beginners", label: "Trek for Beginners" },
     { href: "/planning/pokhara-to-ghandruk", label: "Pokhara to Ghandruk Transport" },
+    { href: "/travel-info/pokhara-lakeside", label: "Pokhara Lakeside Guide" },
     { href: "/planning/khopra-trek-solo", label: "Solo Traveler Guide" },
-    { href: "/planning/khopra-trek-for-seniors", label: "Seniors Traveler Guide" }
+    { href: "/planning/khopra-trek-for-seniors", label: "Seniors Traveler Guide" },
+    { href: "/safety/helicopter-rescue-evacuation", label: "Helicopter Rescue & Evacuation" }
   ];
 
   const resourcesCommunity = [
@@ -185,6 +195,16 @@ export default function Header() {
     { href: "/review-submission", label: "Submit Trek Review" },
     { href: "/booking-policies", label: "Booking & Cancellation Policies" },
     { href: "/checkout", label: "Secure Booking Inquiry" }
+  ];
+
+  const resourcesRoutes = [
+    { href: "/routes/ghandruk-to-tadapani", label: "Day 2: Ghandruk to Tadapani" },
+    { href: "/routes/tadapani-to-bayeli-kharka", label: "Day 3: Tadapani to Bayeli" },
+    { href: "/routes/bayeli-kharka-to-chhistibung", label: "Day 4: Bayeli to Chhistibung" },
+    { href: "/routes/chhistibung-to-khopra-ridge", label: "Day 5: Chhistibung to Khopra" },
+    { href: "/routes/khopra-ridge-to-khayer-lake", label: "Day 6: Khopra to Khayer Lake" },
+    { href: "/routes/khopra-ridge-to-swanta-village", label: "Day 7: Khopra to Swanta" },
+    { href: "/routes/swanta-village-to-ghorepani", label: "Day 8: Swanta to Ghorepani" }
   ];
 
   const handleMobileCategoryToggle = (cat) => {
@@ -354,7 +374,7 @@ export default function Header() {
                 </svg>
               </button>
               {activeMenu === "resources" && (
-                <div className="absolute right-0 mt-0 w-[780px] rounded-3xl border border-stone-200 bg-white p-6 shadow-2xl ring-1 ring-black/5 grid grid-cols-3 gap-6 z-50">
+                <div className="absolute right-0 mt-0 w-[960px] rounded-3xl border border-stone-200 bg-white p-6 shadow-2xl ring-1 ring-black/5 grid grid-cols-4 gap-6 z-50">
                   
                   {/* Col 1: Prep & Altitudes */}
                   <div className="space-y-3">
@@ -385,6 +405,18 @@ export default function Header() {
                     <h4 className="text-[10px] font-extrabold uppercase tracking-widest text-emerald-600 border-b border-stone-100 pb-1.5">Guides &amp; Bookings</h4>
                     <div className="flex flex-col gap-2">
                       {resourcesGuides.map((item) => (
+                        <Link key={item.href} href={item.href} className="text-xs text-stone-600 hover:text-emerald-600 font-bold transition">
+                          {item.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Col 4: Day-by-Day Routes */}
+                  <div className="space-y-3">
+                    <h4 className="text-[10px] font-extrabold uppercase tracking-widest text-emerald-600 border-b border-stone-100 pb-1.5">Route Segments</h4>
+                    <div className="flex flex-col gap-2">
+                      {resourcesRoutes.map((item) => (
                         <Link key={item.href} href={item.href} className="text-xs text-stone-600 hover:text-emerald-600 font-bold transition">
                           {item.label}
                         </Link>
@@ -592,6 +624,14 @@ export default function Header() {
                       <div className="space-y-1">
                         <span className="text-[9px] font-extrabold uppercase text-emerald-600 tracking-widest block">Guides &amp; Bookings</span>
                         {resourcesGuides.map((item) => (
+                          <Link key={item.href} href={item.href} className="block py-0.5 text-xs text-stone-500 hover:text-emerald-600">
+                            {item.label}
+                          </Link>
+                        ))}
+                      </div>
+                      <div className="space-y-1">
+                        <span className="text-[9px] font-extrabold uppercase text-emerald-600 tracking-widest block">Route Segments</span>
+                        {resourcesRoutes.map((item) => (
                           <Link key={item.href} href={item.href} className="block py-0.5 text-xs text-stone-500 hover:text-emerald-600">
                             {item.label}
                           </Link>
