@@ -89,6 +89,7 @@ export default function Page() {
     {
       title: "Logistics, Permits & Costs",
       links: [
+        { href: "/planning/khopra-trek-permits", label: "Permits & Regulations Hub" },
         { href: "/planning/khopra-trek-cost", label: "Trek Cost Estimates" },
         { href: "/planning/budget-khopra-trek", label: "Budget Trekking Guide" },
         { href: "/planning/private-khopra-trek-cost", label: "Private Tour Costs" },
