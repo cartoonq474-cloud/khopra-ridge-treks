@@ -201,7 +201,7 @@ export default function Home() {
             {/* Description */}
             <div className="mt-6 text-base sm:text-lg text-stone-300 leading-relaxed max-w-3xl mx-auto space-y-4 text-center">
               <p>
-                Discover the uncrowded wonders of the Annapurna region. A serene, visually stunning journey featuring sacred alpine lakes, community lodges, and the most dramatic 360-degree views of Dhaulagiri and Annapurna South. This wilderness trail winds through pristine rhododendron forests, authentic Magar villages, and high-alpine pastures, offering a rare opportunity to support local communities directly. From the high vantage point of Khopra Ridge, experience unparalleled vistas of the world's deepest gorge and majestic 8,000m peaks, all while avoiding the mainstream trekking crowds.
+                Discover the uncrowded wonders of the Annapurna region. A serene, visually stunning journey featuring sacred alpine lakes, community lodges, and the most dramatic 360-degree views of Dhaulagiri and Annapurna South. This wilderness trail winds through pristine rhododendron forests, authentic Magar villages, and high-alpine pastures, offering a rare opportunity to support local communities directly.
                 {!isHeroExpanded && (
                   <button
                     onClick={() => setIsHeroExpanded(true)}
@@ -213,6 +213,9 @@ export default function Home() {
               </p>
               {isHeroExpanded && (
                 <>
+                  <p className="transition-all duration-300 opacity-100">
+                    From the high vantage point of Khopra Ridge, experience unparalleled vistas of the world's deepest gorge and majestic 8,000m peaks, all while avoiding the mainstream trekking crowds.
+                  </p>
                   <p className="transition-all duration-300 opacity-100">
                     The Khopra Ridge Trek is a scenic Kathmandu-to-Kathmandu trekking adventure that showcases the quieter side of the Annapurna region. Combining breathtaking Himalayan panoramas, authentic cultural encounters, community-run lodges, and the sacred alpine waters of Khayer Lake, this off-the-beaten-path trek offers an enriching alternative to Nepal's busier trekking routes. A scenic road journey by tourist bus between Kathmandu and Pokhara connects you directly to the trailhead, allowing you to experience the diverse landscapes of Nepal's river valleys.
                   </p>
