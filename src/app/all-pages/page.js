@@ -235,6 +235,8 @@ export default function Page() {
         { href: "/planning/khopra-for-photographers", label: "Khopra Trek for Photographers" },
         { href: "/planning/khopra-for-budget-travelers", label: "Khopra Trek on a Budget" },
         { href: "/planning/khopra-for-first-time-trekkers", label: "Trek for Absolute Beginners" },
+        { href: "/planning/khopra-trek-for-beginners", label: "Beginners Planning Guide" },
+        { href: "/planning/khopra-trek-for-seniors", label: "Seniors Planning Guide" },
         { href: "/planning/is-khopra-ridge-worth-it", label: "Is Khopra Ridge Trek Worth It?" },
         { href: "/guides/my-experience", label: "Personal Trekking Diary" },
         { href: "/guides/hidden-gems", label: "Hidden Views & Homestays" },
