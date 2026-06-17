@@ -114,7 +114,8 @@ export default function Page() {
         { href: "/planning/return-transport-guide", label: "Return Transport Details" },
         { href: "/planning/jeep-vs-bus-for-khopra-trek", label: "Jeep vs Bus Comparison" },
         { href: "/planning/pokhara-to-ghandruk", label: "Pokhara to Ghandruk Route" },
-        { href: "/travel-info/pokhara-lakeside", label: "Pokhara Lakeside Travel Guide" }
+        { href: "/travel-info/pokhara-lakeside", label: "Pokhara Lakeside Travel Guide" },
+        { href: "/planning/khopra-trek-solo", label: "Solo Trekking Guide" }
       ]
     },
     {
