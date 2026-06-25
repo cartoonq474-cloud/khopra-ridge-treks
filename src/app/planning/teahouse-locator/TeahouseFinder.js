@@ -86,7 +86,7 @@ export default function TeahouseFinder() {
       {/* Filters and Search Bar */}
       <div className="bg-white p-6 border border-stone-200 rounded-3xl shadow-sm space-y-4">
         <span className="text-xs font-bold text-stone-400 uppercase tracking-wider block">
-          🔍 Search &amp; Filter Database
+           Search &amp; Filter Database
         </span>
         <div className="grid gap-4 sm:grid-cols-2">
           {/* Search Input */}
@@ -123,7 +123,7 @@ export default function TeahouseFinder() {
               <div className="flex justify-between items-start mb-4">
                 <div>
                   <span className="text-[10px] font-bold text-emerald-600 uppercase tracking-wider block">
-                    📍 {lodge.village}
+                     {lodge.village}
                   </span>
                   <span className="text-[10px] font-semibold text-stone-400 block mt-0.5">
                     Altitude: {lodge.altitude}
@@ -152,7 +152,7 @@ export default function TeahouseFinder() {
                     <strong className="text-stone-850 font-bold">{lodge.phone}</strong>
                   </div>
                   <div className="p-3 bg-stone-50 border border-stone-100 rounded-xl mt-2 text-xs text-stone-500 leading-relaxed font-medium">
-                    🤝 <strong className="text-stone-700">Reinvested Profits:</strong> {lodge.socialSupport}
+                     <strong className="text-stone-700">Reinvested Profits:</strong> {lodge.socialSupport}
                   </div>
                 </div>
               </div>

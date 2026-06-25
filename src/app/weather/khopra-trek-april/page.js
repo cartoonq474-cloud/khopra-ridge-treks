@@ -27,7 +27,7 @@ export default function Page() {
 
   const packingEssentials = [
     {
-      category: "🧥 Clothing & Layering Essentials",
+      category: " Clothing & Layering Essentials",
       items: [
         "Moisture-wicking base layer for daytime hiking",
         "Fleece or light insulated mid-layer for cool mornings",
@@ -46,7 +46,7 @@ export default function Page() {
       ]
     },
     {
-      category: "📷 Photography & Accessories",
+      category: " Photography & Accessories",
       items: [
         "Extra memory cards & camera accessories",
         "Spare camera/phone batteries (cold drains them faster)",
@@ -166,7 +166,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm sm:text-base">🌙 Ridge Nighttime (-4°C to 2°C / 25°F to 36°F)</h4>
+                <h4 className="font-bold text-stone-955 text-sm sm:text-base"> Ridge Nighttime (-4°C to 2°C / 25°F to 36°F)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed font-medium">
                   Once the sun drops, conditions change quickly. A sharp wind can make the ridge feel colder still. A reliable four-season sleeping bag, warm hat, and insulated jacket are essential for a restful night at these elevations.
                 </p>
@@ -224,7 +224,7 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-900 text-sm sm:text-base">🌸 Peak Rhododendron Season</h4>
+                <h4 className="font-bold text-stone-900 text-sm sm:text-base"> Peak Rhododendron Season</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   April is the height of rhododendron season. Between Ghandruk, Tadapani, and Swanta, entire hillsides turn red, pink, and white as the national flower of Nepal comes into full bloom, making the forest paths incredibly scenic.
                 </p>
@@ -295,7 +295,7 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-3">
-                <h4 className="font-bold text-stone-950 text-sm">✨ Advantages</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Advantages</h4>
                 <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1 font-medium">
                   <li>Full rhododendron bloom along the lower and mid-altitude trail.</li>
                   <li>Comfortable, mild daytime temperatures for hiking.</li>
@@ -443,13 +443,13 @@ export default function Page() {
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
                   <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📝 Check trekking permit requirements (ACAP &amp; TIMS)
+                     Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
                   <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    💰 Estimate your trip costs with our cost calculator
+                     Estimate your trip costs with our cost calculator
                   </Link>
                   <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🎒 Get the interactive packing checklist for your gear
+                     Get the interactive packing checklist for your gear
                   </Link>
                   <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
                     ☀️ Check seasonal weather conditions before you go

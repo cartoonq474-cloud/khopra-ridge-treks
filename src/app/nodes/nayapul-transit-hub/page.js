@@ -159,7 +159,7 @@ export default function Page() {
                     <span><strong>Elevation:</strong> 1,070 m (3,510 ft)</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="text-emerald-600">🚗</span>
+                    <span className="text-emerald-600"></span>
                     <span><strong>Distance from Pokhara:</strong> Approx. 42 km</span>
                   </li>
                   <li className="flex items-center gap-2">
@@ -167,7 +167,7 @@ export default function Page() {
                     <span><strong>Typical Travel Time:</strong> 1.5 to 2 hours by road</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <span className="text-emerald-600">🛂</span>
+                    <span className="text-emerald-600"></span>
                     <span><strong>Key Checkpoint:</strong> ACAP and TIMS registration</span>
                   </li>
                 </ul>
@@ -196,13 +196,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🚪 Main Annapurna Entrance</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Main Annapurna Entrance</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   It&apos;s the entrance to the trekking region for a large portion of Annapurna&apos;s most-visited routes, particularly those on the western and southern sides of the conservation area. Trekker traffic has been steady for years because the routes it connects to remain classic favorites.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🔗 Road-to-Trail Hand-off</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Road-to-Trail Hand-off</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   What makes Nayapul distinct from a typical highway town is the clean handoff it provides between vehicle transport and foot travel. You arrive by road, complete your registration, and within a short walk you&apos;re on an actual trekking trail.
                 </p>
@@ -225,19 +225,19 @@ export default function Page() {
 
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🚙 Private Jeep Transfers</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Private Jeep Transfers</h4>
                 <p className="mt-1">
                   Private 4WD jeeps are the most common way trekkers — especially those on guided trips — get to Nayapul. Arranged in advance through a trekking agency or hotel, a private jeep takes around 1.5 to 2 hours depending on road conditions and the time of departure. The main advantage is convenience: door-to-door pickup, no waiting for other passengers, and flexibility on timing.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🚕 Shared Taxis and Local Transportation</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Shared Taxis and Local Transportation</h4>
                 <p className="mt-1">
                   Shared taxis offer a middle ground between private transport and public buses. They&apos;re typically arranged informally — either through your guesthouse in Pokhara or by negotiating directly at a taxi stand — and cost less than a private vehicle while still being faster than a bus.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🚌 Public Bus Services</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Public Bus Services</h4>
                 <p className="mt-1">
                   Budget travelers can reach Nayapul by public bus from Pokhara&apos;s Baglung Bus Park. Buses run regularly along the Pokhara-Baglung Highway and will drop passengers at Nayapul on request. This is the least expensive option, but it comes with trade-offs: less comfort, no guaranteed seating, and a schedule that depends on the bus filling up or following its normal route timing.
                 </p>
@@ -263,21 +263,21 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🎒 1. Debarking &amp; Setup</h4>
+                <h4 className="font-bold text-stone-950 text-base"> 1. Debarking &amp; Setup</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   Upon arriving, you will notice the town is built around trekker traffic. Use this time to sort your gear, put on sunscreen, check water supplies, and double-check your permits.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🌉 2. Crossing to Birethanti</h4>
+                <h4 className="font-bold text-stone-950 text-base"> 2. Crossing to Birethanti</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   A short walk leads to a suspension bridge that crosses toward Birethanti. This bridge marks the end of the paved road and the entrance of the actual trekking trail network.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🚶 3. The First Hour</h4>
+                <h4 className="font-bold text-stone-950 text-base"> 3. The First Hour</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   Once through the checkpoints, the trail follows the Modi Khola river valley. The path is relatively gentle at this stage — well-trodden, mostly flat, and lined with terraced fields.
                 </p>
@@ -325,7 +325,7 @@ export default function Page() {
             </div>
 
             <div className="bg-white border border-stone-200 p-6 rounded-2xl mt-4">
-              <h4 className="font-bold text-stone-950 text-sm">💡 Trail Connectivity Advantage</h4>
+              <h4 className="font-bold text-stone-950 text-sm"> Trail Connectivity Advantage</h4>
               <p className="text-xs text-stone-500 leading-relaxed mt-1">
                 Because multiple trails converge near Nayapul and Birethanti, trekkers aren&apos;t locked into a single route from day one. It&apos;s common to adjust plans based on weather or fitness — switching from a Ghandruk loop to a longer Khopra Ridge itinerary, for example, without needing to backtrack to Pokhara.
               </p>
@@ -349,7 +349,7 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🆔 TIMS Card Registration</h4>
+                <h4 className="font-bold text-stone-950 text-base"> TIMS Card Registration</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Alongside the ACAP, trekkers need a Trekking Information Management System (TIMS) card. This system helps track trekker movements for safety purposes and is a standard requirement for the Annapurna region.
                 </p>
@@ -357,7 +357,7 @@ export default function Page() {
             </div>
 
             <div className="bg-amber-50 border border-amber-200 p-6 rounded-2xl mt-4">
-              <h4 className="font-bold text-amber-950 text-sm">📌 Local Guide Checkpoint Advice</h4>
+              <h4 className="font-bold text-amber-950 text-sm"> Local Guide Checkpoint Advice</h4>
               <ul className="list-disc pl-5 text-xs text-amber-900 space-y-2 leading-relaxed mt-2">
                 <li>Carry printed copies of both your ACAP and TIMS cards (digital copies on phones aren&apos;t always accepted).</li>
                 <li>Have your passport details and itinerary ready, as checkpoint staff may ask for them.</li>
@@ -378,13 +378,13 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🏪 Supplies &amp; Pharmacies</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Supplies &amp; Pharmacies</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Small general stores carry snacks, bottled water, toilet paper, and minor essentials. Pharmacies can cover basic needs like pain relievers, altitude medication, and blister treatment. Do not rely on Nayapul for technical gear or specialized prescriptions — purchase these in Pokhara Lakeside first.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">💸 Cash &amp; Mobile Coverage</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Cash &amp; Mobile Coverage</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Cash availability becomes extremely limited on the trail, and Nayapul is the last point with normal highway services. There is no guarantee of ATM access here, so withdraw enough Nepali Rupees in Pokhara to cover the entire trek. NTC and Ncell mobile coverage is functional here but fades as you go higher.
                 </p>
@@ -400,14 +400,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-stone-600 text-sm">
               <div>
-                <h4 className="font-bold text-stone-900 text-base">🎒 Final Gear Double-Check</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Final Gear Double-Check</h4>
                 <p className="mt-2 text-xs leading-relaxed text-stone-500">
                   Before setting off, take a few minutes to do a real check of your gear. Confirm your boots are laced properly, your pack is adjusted to sit comfortably, and anything you&apos;ll need quick access to — like rain jackets or sunscreen — is easy to reach.
                 </p>
               </div>
 
               <div>
-                <h4 className="font-bold text-stone-900 text-base">💧 Water and Hydration Systems</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Water and Hydration Systems</h4>
                 <p className="mt-2 text-xs leading-relaxed text-stone-500">
                   Fill your water bottles or hydration bladder in Nayapul, and pick up any last-minute snacks you want for the trail. Having your own supply for the first stretch means you&apos;re not immediately searching for an open shop.
                 </p>
@@ -423,14 +423,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🌸 Spring (Mar–May)</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Spring (Mar–May)</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">
                   Rhododendron forests along routes like Ghorepani and Tadapani bloom. Comfortable walking temps, though mornings are cool.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🍂 Autumn (Oct–Nov)</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Autumn (Oct–Nov)</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">
                   Peak season. Clear skies offer the best visibility for viewpoints like Poon Hill and Khopra. Expect busy trails.
                 </p>
@@ -467,7 +467,7 @@ export default function Page() {
                 <li>Not confirming the day&apos;s route before setting off, leading to confusion at the Birethanti trail junction.</li>
               </ul>
 
-              <h4 className="font-bold text-stone-900 text-base mt-6">⏰ Recommended Departure Times</h4>
+              <h4 className="font-bold text-stone-900 text-base mt-6"> Recommended Departure Times</h4>
               <p className="text-xs text-stone-500">
                 Aim to arrive in Nayapul early enough to register at the checkpoint and start walking by mid-morning at the latest. An early start means more daylight for your first day&apos;s trek, cooler walking temperatures, and a buffer in case the checkpoint registration takes longer than expected.
               </p>
@@ -585,8 +585,8 @@ export default function Page() {
                   Inquire About Your Trek Today &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

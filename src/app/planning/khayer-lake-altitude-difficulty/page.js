@@ -387,13 +387,13 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm">💨 Thin Air &amp; Breathing</h4>
+                <h4 className="font-bold text-stone-955 text-sm"> Thin Air &amp; Breathing</h4>
                 <p className="text-[11px] text-stone-500 leading-relaxed font-medium">
                   Once you cross 4,000 meters, the reduced oxygen becomes impossible to ignore. Short uphill bursts require deliberate pacing and breathing.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm">🔋 Long Return Journey</h4>
+                <h4 className="font-bold text-stone-955 text-sm"> Long Return Journey</h4>
                 <p className="text-[11px] text-stone-500 leading-relaxed font-medium">
                   Because it is treated as a single day hike, you must descend the same 1,000 meters back to Khopra Ridge afterward on tired legs.
                 </p>
@@ -458,13 +458,13 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🏡 Staying at Khopra Ridge Helps</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Staying at Khopra Ridge Helps</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Basing yourself at Khopra Ridge (3,660m) for the Khayer Lake push, rather than trying to reach the lake and a higher overnight stop in one go, gives your body a lower, more breathable elevation to recover at after the day&apos;s exertion.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm sm:text-base">📈 Climb High, Sleep Low</h4>
+                <h4 className="font-bold text-stone-955 text-sm sm:text-base"> Climb High, Sleep Low</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Exposing your body to higher elevation during the day stimulates the physiological adaptations that help you acclimatize, while sleeping at a lower elevation afterward lets your body recover without the added stress of overnight oxygen deprivation.
                 </p>
@@ -491,19 +491,19 @@ export default function Page() {
             </h2>
             <div className="space-y-4 text-stone-600 text-sm">
               <div className="p-5 bg-white border border-stone-200 rounded-2xl space-y-2">
-                <h4 className="font-bold text-stone-900">🧭 1. Khayer Lake Trek from Ghandruk</h4>
+                <h4 className="font-bold text-stone-900"> 1. Khayer Lake Trek from Ghandruk</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Starting from Ghandruk is the most common approach and gives you the most gradual acclimatization profile, since you pass through Tadapani and Bayeli Kharka before reaching Khopra Ridge. This route spreads the elevation gain over more days, which makes it the gentlest option for trekkers without prior high-altitude experience.
                 </p>
               </div>
               <div className="p-5 bg-white border border-stone-200 rounded-2xl space-y-2">
-                <h4 className="font-bold text-stone-900">🧭 2. Khayer Lake Trek from Tadapani</h4>
+                <h4 className="font-bold text-stone-900"> 2. Khayer Lake Trek from Tadapani</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Starting or rejoining the route at Tadapani shortens the trek by a day but compresses the elevation gain that follows. It suits trekkers who already have some altitude experience or limited time, but it leaves less buffer for acclimatization than the full Ghandruk start.
                 </p>
               </div>
               <div className="p-5 bg-white border border-stone-200 rounded-2xl space-y-2">
-                <h4 className="font-bold text-stone-900">🧭 3. Khayer Lake Trek from Khopra Ridge</h4>
+                <h4 className="font-bold text-stone-900"> 3. Khayer Lake Trek from Khopra Ridge</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Once you&apos;re based at Khopra Ridge, the push to Khayer Lake is a single demanding day hike — steep, exposed, and the most physically intense day of the entire trek regardless of which route brought you there. This is the section every itinerary variation eventually funnels into.
                 </p>
@@ -660,25 +660,25 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm">🚶 Pace Yourself</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Pace Yourself</h4>
                 <p className="text-xs text-stone-500 leading-relaxed font-medium">
                   Slow your walking pace noticeably once you pass 3,000 meters. A slower, steady rhythm reduces strain on your cardiovascular system and lowers your AMS risk.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm">📊 Monitor Daily Saturation</h4>
+                <h4 className="font-bold text-stone-955 text-sm"> Monitor Daily Saturation</h4>
                 <p className="text-xs text-stone-500 leading-relaxed font-medium">
                   Check in with yourself and a pulse oximeter morning and evening. Catching a mild headache or dropping oxygen saturation early gives you options before symptoms become severe.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm">🧥 Prepare for Weather Swings</h4>
+                <h4 className="font-bold text-stone-955 text-sm"> Prepare for Weather Swings</h4>
                 <p className="text-xs text-stone-500 leading-relaxed font-medium">
                   Conditions near Khopra Ridge and Khayer Lake can shift quickly, even in favorable seasons. Carry layers, a windproof shell, and don&apos;t assume a clear morning guarantees a clear afternoon.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm">🚨 Know When to Turn Back</h4>
+                <h4 className="font-bold text-stone-955 text-sm"> Know When to Turn Back</h4>
                 <p className="text-xs text-stone-500 leading-relaxed font-medium">
                   The single most important safety skill isn&apos;t fitness — it&apos;s the willingness to turn back if symptoms worsen. No view is worth pushing through warning signs of severe AMS.
                 </p>
@@ -809,13 +809,13 @@ export default function Page() {
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
                   <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📝 Check trekking permit requirements (ACAP &amp; TIMS)
+                     Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
                   <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    💰 Estimate your trip costs with our cost calculator
+                     Estimate your trip costs with our cost calculator
                   </Link>
                   <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🎒 Get the interactive packing checklist for your gear
+                     Get the interactive packing checklist for your gear
                   </Link>
                   <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
                     ☀️ Check seasonal weather conditions before you go

@@ -14,7 +14,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🌅 Scenic Sunrise Panorama Peak
+             Scenic Sunrise Panorama Peak
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl font-sans">
             Muldai Viewpoint Guide (Dobato): Complete Sunrise Trek &amp; Route Guide
@@ -172,7 +172,7 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🏡 Dobato: The Overnight Gateway</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Dobato: The Overnight Gateway</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Dobato is the overnight base for the Muldai sunrise climb. It&apos;s a small cluster of teahouse lodges set among rhododendron forest, typically reached as part of a multi-day loop. Staying in Dobato the night before means you&apos;re already positioned at the trailhead — there&apos;s no early transport or long approach walk before the climb begins. You simply wake up and start walking.
                 </p>
@@ -242,7 +242,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base font-sans">🌅 Pre-Sunrise Atmosphere</h4>
+                <h4 className="font-bold text-stone-950 text-base font-sans"> Pre-Sunrise Atmosphere</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   In the minutes before sunrise, the summit is cold, still, and quiet. Unlike Poon Hill, where the viewing platform can feel packed with tour groups, Muldai&apos;s tower and surrounding ridge rarely host more than a couple of dozen people, even in peak season. This quieter setting gives you room to move around, change positions for photos, and simply take in the view.
                 </p>
@@ -283,7 +283,7 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🐟 Machhapuchhre (Fishtail)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Machhapuchhre (Fishtail)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Machhapuchhre (6,993m) rises sharply between the Annapurna peaks and the foreground hills. It is considered a sacred mountain and has never been officially climbed, standing as a clean, dramatic spike apart from the broader ranges.
                 </p>
@@ -306,7 +306,7 @@ export default function Page() {
 
             <div className="space-y-4">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🥾 Fitness Requirement</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Fitness Requirement</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   The Muldai climb is short — 30 to 45 minutes — but it&apos;s a sustained uphill push from the moment you leave the lodge. There&apos;s no flat warm-up section. If you can comfortably manage a steep 30-minute hike at altitude, you&apos;ll be fine. Trekkers who have already spent a few days walking through the Annapurna foothills will generally find the climb manageable.
                 </p>
@@ -318,7 +318,7 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🔦 Trail Conditions &amp; Night Safety</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Trail Conditions &amp; Night Safety</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Because the climb happens before dawn, a reliable headlamp is essential — not optional. The trail surface includes rocky and root-covered sections in the forest, and a loose, dusty path on the open ridge. In winter, sections can be icy or have light snow cover, which makes proper footwear and trekking poles useful. Walking with a guide is recommended for this section.
                 </p>
@@ -334,14 +334,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🌸 Spring (Mar–May)</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Spring (Mar–May)</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   Rhododendron forests bloom in full color. Pleasant day temperatures, morning visibility is generally excellent.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🍂 Autumn (Oct–Nov)</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Autumn (Oct–Nov)</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   Clearest post-monsoon visibility. Crisp morning skies with sharp views, making Muldai&apos;s quiet summit highly appealing.
                 </p>
@@ -435,7 +435,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🏡 Overnight in Dobato</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Overnight in Dobato</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The simplest way to include Muldai is a one-night stay at a Dobato teahouse, with the sunrise climb scheduled for the following morning before breakfast. After the climb, most groups return to the lodge, eat, and continue on to their next stop.
                 </p>
@@ -447,7 +447,7 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🌾 Ghorepani &amp; Tadapani integration</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Ghorepani &amp; Tadapani integration</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   For trekkers on the classic Ghorepani–Poon Hill–Tadapani loop, Dobato (and Muldai) can be added as a variation or extension, offering a second sunrise viewpoint with a different angle on the same mountain ranges.
                 </p>
@@ -466,19 +466,19 @@ export default function Page() {
 
             <div className="space-y-4">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">📸 Best Positioning at the Wooden Tower</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Best Positioning at the Wooden Tower</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   The wooden viewing tower gives you an elevated platform above the immediate ridge, which helps reduce foreground clutter in your shots. Arriving early lets you choose a spot along the railing with a clear, unobstructed line toward the peaks rather than scrambling for space once the light starts changing.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">⏰ Timing the Light Changes</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Timing the Light Changes</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   The most dramatic light typically occurs in the 15–20 minutes before and after sunrise itself, as the sky shifts from deep blue to pink and gold. Set up early and keep shooting through this window — the colours and contrast change quickly, and the best frame often isn&apos;t the moment the sun appears, but the minutes just before.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">📐 Capturing Dhaulagiri &amp; Annapurna Together</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Capturing Dhaulagiri &amp; Annapurna Together</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Because Dhaulagiri sits to the west and the Annapurna range and Machhapuchhre sit to the east, a wide-angle lens or a panoramic shot can capture both sides of the horizon in a single composition. Prioritise the moment both ranges are lit with morning colour simultaneously.
                 </p>
@@ -486,7 +486,7 @@ export default function Page() {
             </div>
 
             <div className="bg-emerald-50 border border-emerald-200 p-6 rounded-2xl mt-4">
-              <h4 className="font-bold text-emerald-950 text-sm">💡 Is Muldai Viewpoint Worth It?</h4>
+              <h4 className="font-bold text-emerald-950 text-sm"> Is Muldai Viewpoint Worth It?</h4>
               <p className="text-xs text-emerald-900 leading-relaxed mt-2">
                 If you&apos;re weighing whether to add an extra night and an early wake-up to your itinerary, the answer is: for most trekkers already passing through the Annapurna foothills, yes. The combination of higher elevation, a wider mountain panorama, and a fraction of the crowds makes Muldai stand out even for travellers who&apos;ve already done a sunrise hike elsewhere in the region.
               </p>
@@ -579,8 +579,8 @@ export default function Page() {
                   Inquire about bookings &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

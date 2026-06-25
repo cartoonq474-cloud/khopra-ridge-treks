@@ -22,7 +22,7 @@ export default function Page() {
 
   const packingEssentials = [
     {
-      category: "🧥 Layered Clothing",
+      category: " Layered Clothing",
       items: [
         "Moisture-wicking synthetic base layers",
         "Insulating fleece mid-layers",
@@ -32,7 +32,7 @@ export default function Page() {
       ]
     },
     {
-      category: "🥾 Footwear & Gear",
+      category: " Footwear & Gear",
       items: [
         "Well broken-in hiking boots (min 30-40km)",
         "Trekking poles (reduces joint strain)",
@@ -41,7 +41,7 @@ export default function Page() {
       ]
     },
     {
-      category: "💊 Health & Accessories",
+      category: " Health & Accessories",
       items: [
         "High UV protection sunglasses & SPF 50+",
         "Water purification tablets or filter bottles",
@@ -64,7 +64,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🎒 Planning Directory
+             Planning Directory
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Khopra Ridge Trek for Beginners
@@ -304,14 +304,14 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-900 text-sm">🌸 Spring (March–May)</h4>
+                <h4 className="font-bold text-stone-900 text-sm"> Spring (March–May)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Brings blooming rhododendron forests, moderate temperatures, and generally stable weather. Visibility is usually good, though afternoon haze can occasionally soften mountain views.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm">🍁 Autumn (September–November)</h4>
+                <h4 className="font-bold text-stone-955 text-sm"> Autumn (September–November)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed font-medium">
                   Widely considered the best overall season, with the clearest mountain views (up to 98% visibility), stable weather, and comfortable daytime temperatures.
                 </p>
@@ -511,13 +511,13 @@ export default function Page() {
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
                   <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📝 Check trekking permit requirements (ACAP &amp; TIMS)
+                     Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
                   <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    💰 Estimate your trip costs with our cost calculator
+                     Estimate your trip costs with our cost calculator
                   </Link>
                   <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🎒 Get the interactive packing checklist for your gear
+                     Get the interactive packing checklist for your gear
                   </Link>
                   <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
                     ☀️ Check seasonal weather conditions before you go

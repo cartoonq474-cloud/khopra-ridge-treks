@@ -171,7 +171,7 @@ export default function ContactPage() {
             
             {submitted ? (
               <div className="text-center py-12 space-y-6">
-                <span className="text-6xl block">🎉</span>
+                <span className="text-6xl block"></span>
                 <h3 className="text-2xl font-black text-stone-950">Inquiry Received Successfully!</h3>
                 <p className="text-stone-500 text-xs max-w-md mx-auto leading-relaxed">
                   Thank you, <strong className="text-stone-900">{formState.name}</strong>. Our Pokhara office manager will verify availability for the <strong className="text-stone-900">{formState.package === "khayer-lake" ? "Sacred Khayer Lake Pilgrimage" : formState.package === "poon-hill-combo" ? "Poon Hill & Khopra Combo" : formState.package === "mohare-offbeat" ? "Mohare Danda Offbeat" : "Custom Itinerary"}</strong> starting in <strong className="text-stone-900">{formState.date || "your preferred date"}</strong>. We will email you at <strong className="text-stone-900">{formState.email}</strong> within 12 hours.

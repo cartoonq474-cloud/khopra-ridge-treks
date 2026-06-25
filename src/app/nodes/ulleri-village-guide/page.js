@@ -212,13 +212,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🪜 The 3,200 Steps</h4>
+                <h4 className="font-bold text-stone-950 text-base"> The 3,200 Steps</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Ulleri&apos;s reputation rests largely on its staircase — a long, hand-carved stone stairway that climbs from the Bhurungdi Khola near Tikhedhunga up to the village. It gains significant elevation in a short horizontal distance, making it the first real test of the trip.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🏡 Magar Culture</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Magar Culture</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Belonging to the Magar community, one of Nepal&apos;s oldest indigenous groups, Ulleri features traditional stone houses painted in white and ochre lining the hillside, surrounded by terraced plots growing barley, potatoes, and millet.
                 </p>
@@ -242,14 +242,14 @@ export default function Page() {
             </p>
 
             <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-4">
-              <h4 className="font-bold text-stone-950 text-base">🧗 How Difficult Is the Ulleri Climb?</h4>
+              <h4 className="font-bold text-stone-950 text-base"> How Difficult Is the Ulleri Climb?</h4>
               <p className="text-xs text-stone-500 leading-relaxed">
                 For a reasonably fit trekker, the climb from Tikhedhunga to Ulleri typically takes between 1.5 and 2.5 hours, depending on pace, weather, and how many breaks are taken. It&apos;s rated as moderately to highly strenuous — not technical, but relentless in its steepness. The difficulty comes less from any single section and more from the sheer consistency of the climb. There&apos;s very little flat ground to recover on, which is why pacing matters so much here.
               </p>
             </div>
 
             <div className="bg-emerald-50 border border-emerald-200 p-6 rounded-2xl">
-              <h4 className="font-bold text-emerald-950 text-sm">💡 Tips for Climbing the Stone Staircase</h4>
+              <h4 className="font-bold text-emerald-950 text-sm"> Tips for Climbing the Stone Staircase</h4>
               <ul className="list-disc pl-5 text-xs text-emerald-900 space-y-2 leading-relaxed mt-2">
                 <li><strong>Take small, deliberate steps:</strong> Long strides on stone steps waste energy and increase strain on the knees.</li>
                 <li><strong>Keep a slow, steady tempo:</strong> Rushing the climb leads to early exhaustion; a slower pace you can sustain beats a fast pace you can&apos;t.</li>
@@ -278,13 +278,13 @@ export default function Page() {
 
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🚶 Nayapul to Ulleri Trek</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Nayapul to Ulleri Trek</h4>
                 <p className="mt-1">
                   The journey to Ulleri typically begins at <Link href="/nodes/nayapul-transit-hub" className="text-emerald-700 font-bold hover:underline">Nayapul</Link>, the common trailhead reached by road from Pokhara. From Nayapul, the trail follows the Modi Khola valley through small settlements before reaching Tikhedhunga, where the stone staircase to Ulleri begins. This first stage is relatively gentle compared to what follows.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🌲 Ulleri to Banthanti</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Ulleri to Banthanti</h4>
                 <p className="mt-1">
                   Beyond Ulleri, the trail continues climbing — though at a noticeably gentler gradient than the staircase below — through forested terrain toward Banthanti. This stretch passes through rhododendron and oak forest, which is particularly striking during spring flowering season.
                 </p>
@@ -319,7 +319,7 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🌾 Farming &amp; Rural Mountain Livelihoods</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Farming &amp; Rural Mountain Livelihoods</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Around the village, terraced fields cut into the hillside grow barley, potatoes, and millet. These terraces represent generations of agricultural adaptation to steep terrain. For trekkers, walking through these fields offers a glimpse of subsistence farming that has sustained mountain communities here long before trekking tourism arrived.
                 </p>
@@ -356,7 +356,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🤔 Is Ulleri Worth Staying Overnight?</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Is Ulleri Worth Staying Overnight?</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Yes — and this is one of the most overlooked decisions on this route. Many trekkers, having just completed the staircase climb, are tempted to push on to Banthanti or Ghorepani the same day. But staying overnight in Ulleri has real advantages: the morning views of Annapurna South and Hiunchuli are often clearest right after sunrise. An overnight stay also gives you time to walk through the village, observe daily Magar life, and recover properly.
                 </p>
@@ -401,14 +401,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🌸 Spring (Mar–May)</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Spring (Mar–May)</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">
                   Rhododendron forests between Ulleri and Banthanti bloom in red, pink, and white. Stable weather and great views.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🍂 Autumn (Sep–Nov)</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Autumn (Sep–Nov)</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">
                   Peak season. Clear skies, dry trails, comfortable climbing temperatures, and the sharpest peak visibility.
                 </p>
@@ -441,13 +441,13 @@ export default function Page() {
 
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🥾 Traditional Walking Route</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Traditional Walking Route</h4>
                 <p className="mt-1">
                   The standard route starts with road transport from Pokhara to Nayapul, followed by trekking through Tikhedhunga and up the stone staircase. This combination of road and trail access makes Ulleri reachable within a day from Pokhara for most trekkers. Walking preserves the classic trekking experience and the sense of achievement.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🚙 Jeep Access to Ulleri</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Jeep Access to Ulleri</h4>
                 <p className="mt-1">
                   In recent years, unpaved jeep roads have extended further into parts of the Annapurna foothills, and some sections near Ulleri may be accessible by jeep depending on current road conditions. However, road conditions in this region can change with seasonal landslides and monsoon washouts, so this option should always be confirmed locally.
                 </p>
@@ -492,7 +492,7 @@ export default function Page() {
               </div>
 
               <div>
-                <h4 className="font-bold text-stone-900 text-base font-sans">🎒 What to Pack for the Climb</h4>
+                <h4 className="font-bold text-stone-900 text-base font-sans"> What to Pack for the Climb</h4>
                 <p className="mt-2 text-xs leading-relaxed text-stone-500">
                   A few items are particularly useful: trekking poles, a hydration system that&apos;s easy to access without stopping, layered clothing for temperature changes between the valley and the ridge, and footwear with good grip for wet stone steps.
                 </p>
@@ -609,8 +609,8 @@ export default function Page() {
                   Get in Touch with our Local Trekking Team &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

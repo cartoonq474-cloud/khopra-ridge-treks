@@ -50,7 +50,7 @@ export default function Page() {
 
   const packingEssentials = [
     {
-      category: "🧥 Layered Clothing",
+      category: " Layered Clothing",
       items: [
         "Moisture-wicking base layers (merino or synthetic)",
         "Insulating fleece or mid-layer jackets",
@@ -60,7 +60,7 @@ export default function Page() {
       ]
     },
     {
-      category: "🥾 Footwear & Gear",
+      category: " Footwear & Gear",
       items: [
         "Well broken-in hiking boots with good ankle support",
         "Trekking poles (vital for knee joints on descents)",
@@ -69,7 +69,7 @@ export default function Page() {
       ]
     },
     {
-      category: "💊 Health & Sanitation",
+      category: " Health & Sanitation",
       items: [
         "Water purification tablets or UV sterilizer",
         "Basic first-aid kit with blister care tape",
@@ -114,7 +114,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🌿 Ultimate Eco-Tourism Circuit
+             Ultimate Eco-Tourism Circuit
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Khopra Trek via Mohare Danda
@@ -350,13 +350,13 @@ export default function Page() {
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Tour:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
                   <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📝 Check ACAP &amp; TIMS permit guidelines
+                     Check ACAP &amp; TIMS permit guidelines
                   </Link>
                   <Link href="/planning/pokhara-to-ghandruk" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🚙 Pokhara to Ghandruk Transportation options
+                     Pokhara to Ghandruk Transportation options
                   </Link>
                   <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🎒 View complete interactive packing checklists
+                     View complete interactive packing checklists
                   </Link>
                   <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
                     ☀️ Read about monthly trail weather conditions

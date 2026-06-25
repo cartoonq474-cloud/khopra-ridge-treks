@@ -62,7 +62,7 @@ export default function Page() {
           <div className="grid gap-6 md:grid-cols-2">
             {tips.map((tip, i) => (
               <div key={i} className="p-6 bg-white border border-stone-200 rounded-3xl shadow-sm">
-                <span className="text-2xl">📸</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-extrabold text-stone-950 text-base mt-2">{tip.title}</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">{tip.desc}</p>
               </div>

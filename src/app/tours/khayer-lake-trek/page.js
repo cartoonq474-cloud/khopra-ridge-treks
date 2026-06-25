@@ -15,7 +15,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🕌 Spiritual &amp; Pilgrimage Himalayan Route
+             Spiritual &amp; Pilgrimage Himalayan Route
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Sacred Khayer Lake Pilgrimage Trek in Nepal
@@ -142,7 +142,7 @@ export default function Page() {
             </div>
 
             <div className="bg-stone-50 border border-stone-200 rounded-3xl p-6 mt-8">
-              <h3 className="text-lg font-bold text-stone-950 mb-4">📍 Where Is Khayer Lake Located?</h3>
+              <h3 className="text-lg font-bold text-stone-950 mb-4"> Where Is Khayer Lake Located?</h3>
               <p className="text-xs text-stone-600 leading-relaxed">
                 Khayer Lake sits in Myagdi District, within the protected boundaries of the Annapurna Conservation Area (ACAP). The lake is positioned at approximately 4,660 metres above sea level, at the base of Annapurna South — one of the most dramatic mountain faces in the entire Annapurna region.
               </p>
@@ -156,7 +156,7 @@ export default function Page() {
 
             {/* Quick stats table */}
             <div className="bg-white border border-stone-200 rounded-3xl p-6 mt-6 shadow-sm">
-              <h3 className="text-lg font-bold text-stone-950 mb-4">📊 Sacred Khayer Lake Trek Facts</h3>
+              <h3 className="text-lg font-bold text-stone-950 mb-4"> Sacred Khayer Lake Trek Facts</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
                   { label: "Duration", value: "9 Days" },
@@ -239,7 +239,7 @@ export default function Page() {
             
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🌄 Khopra Ridge Panoramic Views</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Khopra Ridge Panoramic Views</h4>
                 <p className="mt-1">
                   At approximately 3,660 metres, the ridge commands a panoramic sweep of Himalayan peaks that ranks among the finest viewpoints in all of Nepal. On a clear morning, see Annapurna South, Hiunchuli, Machhapuchhre, Nilgiri, Dhaulagiri, and Tukuche Peak simultaneously. Most trekkers spend at least one full day and night at the ridge before the pilgrimage day hike.
                 </p>
@@ -257,13 +257,13 @@ export default function Page() {
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🥾 Peaceful Off-the-Beaten-Path Trails</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Peaceful Off-the-Beaten-Path Trails</h4>
                 <p className="mt-1">
                   The trails pass through a Nepal that many international trekkers never see. Villages are small, traditional, and quiet. The trail feels exploratory rather than managed, and the encounters with local communities along the way add real texture to the experience.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🏡 Authentic Community-Lodge Experience</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Authentic Community-Lodge Experience</h4>
                 <p className="mt-1">
                   Developed as a community-based trekking route, the lodges reflect that intention. These are family-run establishments where guesthouse owners prepare meals using local ingredients and share stories. Lodge proceeds go directly into village economies to fund schools and water systems.
                 </p>
@@ -420,13 +420,13 @@ export default function Page() {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-950 text-base">🌸 Spring — March to May</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Spring — March to May</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   One of the two ideal trekking windows. Warming temperatures, rhododendron forests in peak bloom, and clear morning visibility. March and April offer the best combination of minimal snow at altitude. Pilgrimage season peaks during this period, offering chances to encounter local pilgrims.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-950 text-base">🍁 Autumn — September to November</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Autumn — September to November</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Nepal&apos;s prime trekking window. The monsoon rains have cleared the atmosphere, visibility is exceptional, and temperatures are stable and comfortable. October is widely considered the best single month for sharp views. Nights are cold but manageable.
                 </p>
@@ -527,13 +527,13 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🎒 Trekking Gear</h4>
+                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Trekking Gear</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Waterproof trekking boots with ankle support (break them in!), trekking poles, 30–40L daypack for the lake, 60–70L main pack/duffel, winter sleeping bag (rated to -5°C), headlamp with spare batteries, and a 2-liter water capacity system.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🩹 Essentials &amp; Cash</h4>
+                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Essentials &amp; Cash</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Passport original, ACAP/TIMS permits, travel insurance (with evacuation cover), cash in Nepalese Rupees, high-SPF sunscreen, lip balm, rehydration salts, hand sanitizer, and blister treatment kits.
                 </p>
@@ -711,8 +711,8 @@ export default function Page() {
                   Inquire &amp; Customize Your Itinerary →
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Free cancellation &amp; flexible shifts</span>
-                  <span>💬 Standard response within 24 hours</span>
+                  <span> Free cancellation &amp; flexible shifts</span>
+                  <span> Standard response within 24 hours</span>
                 </div>
               </div>
             </div>

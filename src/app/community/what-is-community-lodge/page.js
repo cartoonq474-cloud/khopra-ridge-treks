@@ -97,7 +97,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🏡 Community Lodge &amp; Eco-Lodging
+             Community Lodge &amp; Eco-Lodging
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl font-sans">
             Community Lodge vs Teahouse
@@ -433,13 +433,13 @@ export default function Page() {
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
               <ul className="space-y-4 text-xs text-stone-500 pl-4 border-l-2 border-emerald-500">
                 <li>
-                  💰 <strong>Best Option for Budget Trekkers:</strong> If pure cost is the deciding factor, there's rarely a dramatic gap — both systems price competitively against each other on the same trail.
+                   <strong>Best Option for Budget Trekkers:</strong> If pure cost is the deciding factor, there's rarely a dramatic gap — both systems price competitively against each other on the same trail.
                 </li>
                 <li>
-                  🌿 <strong>Best Option for Eco-Conscious Travelers:</strong> Trekkers who care about environmental footprint and supply-chain transparency will generally find the community lodge model a stronger fit.
+                   <strong>Best Option for Eco-Conscious Travelers:</strong> Trekkers who care about environmental footprint and supply-chain transparency will generally find the community lodge model a stronger fit.
                 </li>
                 <li>
-                  🤝 <strong>Best Option for Cultural and Responsible Travelers:</strong> For travelers prioritizing community tourism — meaning they want their spending to directly support the village they're walking through — the community lodge is the clearer choice.
+                   <strong>Best Option for Cultural and Responsible Travelers:</strong> For travelers prioritizing community tourism — meaning they want their spending to directly support the village they're walking through — the community lodge is the clearer choice.
                 </li>
                 <li>
                   🛏️ <strong>Best Option for Comfort-Focused Trekkers:</strong> If consistent comfort and maximum route flexibility matter most, teahouses still have the edge simply due to sheer numbers and decades of refinement.
@@ -540,13 +540,13 @@ export default function Page() {
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Tour:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
                   <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📝 Check trekking permit requirements (ACAP &amp; TIMS)
+                     Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
                   <Link href="/planning/pokhara-to-ghandruk" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🚙 View Pokhara to Ghandruk Transportation Guide
+                     View Pokhara to Ghandruk Transportation Guide
                   </Link>
                   <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🎒 Get the interactive packing checklist for your gear
+                     Get the interactive packing checklist for your gear
                   </Link>
                   <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
                     ☀️ Check seasonal weather conditions before you go

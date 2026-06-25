@@ -152,7 +152,7 @@ export default function Page() {
             </p>
 
             <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-4">
-              <h4 className="font-bold text-stone-950 text-base">✨ Key Highlights of the Rapid Route</h4>
+              <h4 className="font-bold text-stone-950 text-base"> Key Highlights of the Rapid Route</h4>
               <ul className="list-disc pl-5 text-xs text-stone-500 space-y-2 font-medium">
                 <li>A 360-degree ridge-top panorama of Dhaulagiri (8,167 m), Annapurna South, and Machhapuchhre.</li>
                 <li>Overnight stays in community-run lodges that channel profits directly into village schools and clinics.</li>
@@ -170,7 +170,7 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm sm:text-base">🛶 Skip Khayer Lake Without Missing Views</h4>
+                <h4 className="font-bold text-stone-955 text-sm sm:text-base"> Skip Khayer Lake Without Missing Views</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The full Khopra Danda itinerary includes a side trip to Khayer Lake, a sacred alpine lake sitting near 4,660 m. It adds roughly eight extra hours of walking at altitude and a full extra day. The rapid route removes this side trip entirely. You still reach Khopra Ridge and get the same sunrise and Dhaulagiri views — you simply don&apos;t continue further up to the lake.
                 </p>
@@ -247,7 +247,7 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-2 text-stone-650 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-900 text-base">📈 Physical Demands</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Physical Demands</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   This trek is rated moderate. The main physical demands are the steep climb on Day 3 and the long descents on Days 2 and 5, both of which involve sustained walking on uneven forest and ridge trail. No mountaineering experience is required, but comfort walking 5–7 hours a day on hilly terrain is important.
                 </p>
@@ -273,21 +273,21 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🏡 Lodge Stays</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Lodge Stays</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   Cooperative community lodges in Chhistibung, Khopra Ridge, and Swanta. Profits stay within the village to fund schools and clinics.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🍛 Food Options</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Food Options</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   Standard teahouse menus: Dal Bhat, noodle soups, fried rice, momos, porridge, eggs, and hot drinks.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-955 text-sm">🔌 Electricity &amp; Wi-Fi</h4>
+                <h4 className="font-bold text-stone-955 text-sm"> Electricity &amp; Wi-Fi</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   Solar charging is common but becomes less reliable higher up. Wi-Fi exists at some stops but mobile signal is patchy.
                 </p>
@@ -302,13 +302,13 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm">💼 Independent vs Guided Costs</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Independent vs Guided Costs</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Independent budget covers permits, food, and road transfers. Guided packages bundle permits, guides, accommodation, meals, and private transport. Adding a porter reduces physical strain.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm">💰 Extra Expenses to Budget For</h4>
+                <h4 className="font-bold text-stone-955 text-sm"> Extra Expenses to Budget For</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Set aside a margin for device charging fees, hot showers (where available), bottled or treated water, snacks, and tipping for guides and porters.
                 </p>
@@ -323,7 +323,7 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm sm:text-base">🌸 Spring &amp; Autumn</h4>
+                <h4 className="font-bold text-stone-955 text-sm sm:text-base"> Spring &amp; Autumn</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   <strong>Spring (March–May)</strong> offers blooming rhododendrons and stable climbing weather. <strong>Autumn (September–November)</strong> is peak season, bringing clear skies and crisp mountain views of Dhaulagiri.
                 </p>
@@ -369,7 +369,7 @@ export default function Page() {
             <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
               <div className="grid gap-6 md:grid-cols-3 text-xs text-stone-650">
                 <div>
-                  <h5 className="font-bold text-stone-900 uppercase tracking-wider mb-2">🧥 Clothing Layers</h5>
+                  <h5 className="font-bold text-stone-900 uppercase tracking-wider mb-2"> Clothing Layers</h5>
                   <ul className="list-disc pl-4 space-y-1">
                     <li>Moisture-wicking base layers</li>
                     <li>Warm fleece or mid-layer</li>
@@ -378,7 +378,7 @@ export default function Page() {
                   </ul>
                 </div>
                 <div>
-                  <h5 className="font-bold text-stone-900 uppercase tracking-wider mb-2">🎒 Gear &amp; Equipment</h5>
+                  <h5 className="font-bold text-stone-900 uppercase tracking-wider mb-2"> Gear &amp; Equipment</h5>
                   <ul className="list-disc pl-4 space-y-1">
                     <li>Trekking boots with ankle support</li>
                     <li>Adjustable trekking poles</li>
@@ -387,7 +387,7 @@ export default function Page() {
                   </ul>
                 </div>
                 <div>
-                  <h5 className="font-bold text-stone-900 uppercase tracking-wider mb-2">💊 Safety &amp; Cash</h5>
+                  <h5 className="font-bold text-stone-900 uppercase tracking-wider mb-2"> Safety &amp; Cash</h5>
                   <ul className="list-disc pl-4 space-y-1">
                     <li>First-aid kit &amp; blister plasters</li>
                     <li>Sunscreen &amp; sunglasses</li>
@@ -399,7 +399,7 @@ export default function Page() {
             </div>
 
             <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-4">
-              <h4 className="font-bold text-stone-950 text-base">🤝 Sustainable Trekking and Community lodge model</h4>
+              <h4 className="font-bold text-stone-950 text-base"> Sustainable Trekking and Community lodge model</h4>
               <p className="text-xs text-stone-500 leading-relaxed">
                 Revenues from room bookings and dining logs are directed straight back into the local villages. This helps fund teacher salaries (at Swanta Secondary School) and clinics. Carry out what you carry in, avoid single-use plastic, and stick to marked trails.
               </p>
@@ -515,13 +515,13 @@ export default function Page() {
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
                   <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📝 Check trekking permit requirements (ACAP &amp; TIMS)
+                     Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
                   <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    💰 Estimate your trip costs with our cost calculator
+                     Estimate your trip costs with our cost calculator
                   </Link>
                   <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🎒 Get the interactive packing checklist for your gear
+                     Get the interactive packing checklist for your gear
                   </Link>
                   <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
                     ☀️ Check seasonal weather conditions before you go

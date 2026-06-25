@@ -209,25 +209,25 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🌅 Gateway to Muldai Viewpoint</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Gateway to Muldai Viewpoint</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The single strongest reason to spend a night in Dobato is the access it gives you to Muldai Viewpoint. Rising above Dobato at approximately 3,637 metres, Muldai Hill is one of the finest sunrise panorama points in the entire Annapurna region. From Dobato, the sunrise hike to Muldai takes roughly 45 minutes to an hour, meaning you can leave your lodge at 5:00 or 5:30 AM, reach the summit as first light touches Annapurna South and Machhapuchhre, and return for breakfast.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🔇 A Quieter Alternative to Ghorepani</h4>
+                <h4 className="font-bold text-stone-950 text-base"> A Quieter Alternative to Ghorepani</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Ghorepani is beautiful, but during peak season, the trail can feel more like a managed tourist route. Dobato offers a fundamentally different experience: trekker numbers are a fraction of those at Ghorepani, lodge accommodation is run by the local community rather than commercial operators, and the atmosphere is closer to what most people imagine when they picture trekking in Nepal.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🌲 Forest Landscapes &amp; Scenery</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Forest Landscapes &amp; Scenery</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The trail approach to Dobato is scenically rewarding, climbing through forest that shifts from rhododendron to mixed alpine vegetation as elevation increases. Once at Dobato itself, the views open up toward the western Annapurna range, offering a rare combination of forest atmosphere and mountain panorama.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🤝 Community-Based Tourism</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Community-Based Tourism</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Accommodation in Dobato operates under a community tourism model. The lodges here are locally owned and managed, meaning that the money you spend on your room and meals stays within the immediate community rather than flowing to outside operators.
                 </p>
@@ -297,25 +297,25 @@ export default function Page() {
 
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base">🚶 Trekking from Tadapani to Dobato</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Trekking from Tadapani to Dobato</h4>
                 <p className="mt-1">
                   The most common way to arrive at Dobato is from Tadapani, approaching from the east. The trail leaves Tadapani&apos;s cluster of lodges and climbs steadily through mixed rhododendron and oak forest, following a ridge line that gradually widens the views westward toward the Annapurna massif. The walk takes approximately five to six hours. An early start is recommended, particularly in spring and summer.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base">🌅 Dobato to Muldai Viewpoint Route</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Dobato to Muldai Viewpoint Route</h4>
                 <p className="mt-1">
                   The trail from Dobato to Muldai Viewpoint climbs directly up the ridge above the lodges. The path is clear and well-trodden, with a consistent ascent over approximately 200 metres of elevation gain. Walking time is 45 minutes to one hour depending on pace. Headtorches are essential for the sunrise experience.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base">🌾 Dobato to Bayeli Kharka Route</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Dobato to Bayeli Kharka Route</h4>
                 <p className="mt-1">
                   From Dobato, the trail toward Bayeli Kharka descends the western side of the ridge before following a trail through high-altitude pastoral terrain. Bayeli Kharka is a traditional grazing area and lodge stop that serves as an intermediate point between Dobato and Khopra Ridge. Walking time is three to four hours.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base">🌲 Dobato to Chhistibung Route</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Dobato to Chhistibung Route</h4>
                 <p className="mt-1">
                   Chhistibung lies below and to the south of Dobato, reached by a trail that descends through forest and pasture terrain. The walk takes approximately four to five hours. This route is used by trekkers on alternative circuits or those connecting to Swanta Village.
                 </p>
@@ -350,7 +350,7 @@ export default function Page() {
             </div>
 
             <div className="bg-emerald-50 border border-emerald-200 p-6 rounded-2xl">
-              <h4 className="font-bold text-emerald-950 text-sm">🎒 Suggested Route Planning Options</h4>
+              <h4 className="font-bold text-emerald-950 text-sm"> Suggested Route Planning Options</h4>
               <ul className="list-disc pl-5 text-xs text-emerald-900 space-y-2 leading-relaxed mt-2">
                 <li><strong>Option A — Muldai Focus (Short Loop):</strong> Pokhara &rarr; Nayapul &rarr; Ghorepani &rarr; Tadapani &rarr; Dobato (overnight, sunrise at Muldai) &rarr; Chhistibung &rarr; Swanta &rarr; Nayapul &rarr; Pokhara</li>
                 <li><strong>Option B — Classic Khopra Ridge Circuit:</strong> Pokhara &rarr; Nayapul &rarr; Ghorepani &rarr; Tadapani &rarr; Dobato &rarr; Bayeli Kharka &rarr; Khopra Ridge &rarr; Swanta &rarr; Ghorepani &rarr; Nayapul &rarr; Pokhara</li>
@@ -433,13 +433,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🏡 Community Lodges &amp; Dining</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Community Lodges &amp; Dining</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Rooms feature twin single beds with foam mattresses and heavy blankets (bring a sleeping bag liner for extra warmth). Menus serve standard Himalayan dishes: dal bhat, noodle soups, fried rice, and simple egg breakfast items. Ingredients are transported from below, so fresh items are limited.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🔌 Power, Bathrooms &amp; Comfort</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Power, Bathrooms &amp; Comfort</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Solar panels supply electricity for device charging in the dining area. Bring a power bank. Bathroom facilities are shared (basic squat or sit-toilets). Solar or gas hot water is sometimes available for a small fee. Prepare for cold nights as temperatures drop sharply after sunset.
                 </p>
@@ -455,14 +455,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🌸 Spring (Mar–May)</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Spring (Mar–May)</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">
                   Rhododendron forests bloom in crimson and pink. Pleasant day walking temperatures, morning views are generally excellent.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🍂 Autumn (Sep–Nov)</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Autumn (Sep–Nov)</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">
                   Best post-monsoon visibility. Skies are crisp, providing sharp sunrise landscapes. Stable temperatures and trail conditions.
                 </p>
@@ -495,7 +495,7 @@ export default function Page() {
 
             <div className="space-y-4">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🥾 Option 1: Classic Khopra Ridge Trek (8–10 Days)</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Option 1: Classic Khopra Ridge Trek (8–10 Days)</h4>
                 <ul className="list-disc pl-5 text-[10px] text-stone-500 space-y-1 mt-2">
                   <li>Day 1: Pokhara &rarr; Nayapul &rarr; Tikhedhunga</li>
                   <li>Day 2: Tikhedhunga &rarr; Ghorepani</li>
@@ -509,7 +509,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🥾 Option 2: Short Muldai Loop (5–6 Days)</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Option 2: Short Muldai Loop (5–6 Days)</h4>
                 <ul className="list-disc pl-5 text-[10px] text-stone-500 space-y-1 mt-2">
                   <li>Day 1: Pokhara &rarr; Nayapul &rarr; Tikhedhunga</li>
                   <li>Day 2: Tikhedhunga &rarr; Ghorepani</li>
@@ -530,7 +530,7 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-stone-600 text-sm">
               <div>
-                <h4 className="font-bold text-stone-900 text-base">🎒 Packing Essentials</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Packing Essentials</h4>
                 <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1 mt-2">
                   <li>Warm down jacket &amp; thermal base layers.</li>
                   <li>Ankle-support hiking boots.</li>
@@ -549,7 +549,7 @@ export default function Page() {
             </div>
 
             <div className="bg-amber-50 border border-amber-200 p-6 rounded-2xl mt-4">
-              <h4 className="font-bold text-amber-950 text-sm">📌 Local Expert Tips for the Best Experience</h4>
+              <h4 className="font-bold text-amber-950 text-sm"> Local Expert Tips for the Best Experience</h4>
               <ul className="list-disc pl-5 text-xs text-amber-900 space-y-1 leading-relaxed mt-2">
                 <li><strong>Best sunrise timing:</strong> Reach Muldai Viewpoint 10–15 minutes before the sun clears the eastern ridge.</li>
                 <li><strong>Photography:</strong> Bring a tripod for low light. Alpenglow on Annapurna South fades to daylight quickly.</li>
@@ -652,8 +652,8 @@ export default function Page() {
                   Enquire &amp; Customize Itinerary &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

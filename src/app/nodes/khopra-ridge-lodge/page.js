@@ -14,7 +14,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🏠 Community Eco-Tourism Node
+             Community Eco-Tourism Node
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Khopra Ridge Community Lodge: Complete Guide for Trekkers
@@ -184,13 +184,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🏫 Funding Local Education</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Funding Local Education</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   A direct portion of all accommodation and food revenue supports the Swanta High School — covering operational costs, teacher salaries, and materials for students in one of Nepal&apos;s most isolated mountain communities.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🏥 Rural Healthcare Support</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Rural Healthcare Support</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Additional funds are allocated to local medical services, providing basic healthcare access to communities that would otherwise face extremely long journeys to reach the nearest clinic.
                 </p>
@@ -213,13 +213,13 @@ export default function Page() {
 
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🚶 Access From Chhistibung</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Access From Chhistibung</h4>
                 <p className="mt-1">
                   The most common approach to the lodge from below passes through Chhistibung, a small settlement at around 2,975 meters that serves as a transitional stop between the forested lower slopes and the open high ridge above. From Chhistibung, the trail climbs steadily through rhododendron forest and then opens out onto the ridge. Most trekkers complete this section in approximately two to three hours.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🤝 Connection to Swanta Village and Bayeli Kharka</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Connection to Swanta Village and Bayeli Kharka</h4>
                 <p className="mt-1">
                   Swanta Village lies below the lodge on the approach from the south and is typically visited as part of a multi-day circuit. <Link href="/nodes/bayeli-kharka-guide" className="text-emerald-700 font-bold hover:underline">Bayeli Kharka</Link> (3,425m) offers a natural rest point on the ascent for those moving between Tadapani and the Khopra Ridge lodge.
                 </p>
@@ -263,7 +263,7 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">💤 Comfort Levels &amp; Sleeping Bags</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Comfort Levels &amp; Sleeping Bags</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Bringing a quality sleeping bag liner is strongly recommended, as temperatures drop significantly at night even in the warmer trekking seasons. A base layer set for sleeping is also worth packing to ensure comfort.
                 </p>
@@ -348,21 +348,21 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🚪 The Gateway</h4>
+                <h4 className="font-bold text-stone-950 text-base"> The Gateway</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   The lodge is the only practical overnight base for the Khayer Lake hike. The altitude difference of 1,000m makes a same-day ascent from lower down too demanding.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🥾 Route Stats</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Route Stats</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   The round-trip hike takes 6 to 8 hours. The trail gains 1,000m of elevation over roughly 5 to 6 kilometers one way. The terrain is open, rocky, and alpine.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🌊 Lake Experience</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Lake Experience</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   The turquoise lake is set in a high rocky basin, ringed by prayer flags and stone shrines. The silence at 4,660m is absolute and spiritually moving.
                 </p>
@@ -399,14 +399,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🌸 Spring (Mar–May)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Spring (Mar–May)</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   Rhododendron forests bloom in vivid red and pink on the approach. Morning mountain views are excellent before afternoon clouds build up.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🍂 Autumn (Sep–Nov)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Autumn (Sep–Nov)</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   Peak season. Skies are clearest post-monsoon, delivering the sharpest views of Dhaulagiri. Communal dining hall is at its most sociable.
                 </p>
@@ -429,7 +429,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">👍 Reasons Trekkers Love Staying Here</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Reasons Trekkers Love Staying Here</h4>
                 <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1 leading-relaxed">
                   <li>Unobstructed, panoramic 360-degree mountain views with fewer crowds than Poon Hill.</li>
                   <li>Community-owned model where 100% of profits fund Swanta High School.</li>
@@ -438,7 +438,7 @@ export default function Page() {
                 </ul>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">👎 Potential Challenges to Consider</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Potential Challenges to Consider</h4>
                 <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1 leading-relaxed">
                   <li>Basic facilities: shared toilets, no hot showers, and limited electricity.</li>
                   <li>Intensely cold nights (easily dropping below freezing at 3,660m).</li>
@@ -563,8 +563,8 @@ export default function Page() {
                   Inquire &amp; Book Today &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

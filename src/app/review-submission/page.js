@@ -125,7 +125,7 @@ export default function Page() {
             </form>
           ) : (
             <div className="text-center py-10 space-y-6">
-              <span className="text-5xl block">💖</span>
+              <span className="text-5xl block"></span>
               <h3 className="text-2xl font-bold text-stone-950">Review Received</h3>
               <p className="text-sm text-stone-500 leading-relaxed max-w-sm mx-auto">
                 Thank you for sharing your journey, <strong className="text-stone-800">{formData.name}</strong>. Your feedback directly motivates our mountain lodge managers and guides to maintain high quality standards.

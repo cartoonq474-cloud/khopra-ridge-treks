@@ -14,7 +14,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🚙 Highest Jeep Terminus Node
+             Highest Jeep Terminus Node
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Kimche: The Jeep Road Trailhead for Ghandruk and Annapurna Treks
@@ -164,13 +164,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🚫 Skip Dusty Road Walking</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Skip Dusty Road Walking</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The traditional starting point was Nayapul, but much of that lower section follows the same unpaved road that vehicles use — bringing dust, noise, and limited scenery. Taking a jeep to Kimche skips this entirely.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">⏰ Save 3–4 Hours of Time</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Save 3–4 Hours of Time</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Walking from Nayapul to Kimche takes roughly 3 to 4 hours. Starting at Kimche instead saves significant energy on the first day, which makes a meaningful difference to shorter or compact itineraries.
                 </p>
@@ -195,7 +195,7 @@ export default function Page() {
 
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🚙 Private Jeep Transportation</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Private Jeep Transportation</h4>
                 <p className="mt-1">
                   The standard and most reliable way to reach Kimche is by private 4WD jeep from Pokhara. This is the option used by the large majority of guided trekkers as well as experienced independent travelers. A private jeep gives you flexibility over departure time, direct drop-off at the Kimche trailhead, and the ability to carry trekking luggage without restriction.
                 </p>
@@ -207,7 +207,7 @@ export default function Page() {
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">💰 Typical Jeep Costs and Sharing</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Typical Jeep Costs and Sharing</h4>
                 <p className="mt-1">
                   A private 4WD jeep from Pokhara to Kimche generally costs in the range of 7,000 to 9,000 NPR for the whole vehicle. This cost is typically the same whether you are one person or a group of four to five, making it very reasonable when split between trekking companions.
                 </p>
@@ -215,7 +215,7 @@ export default function Page() {
             </div>
 
             <div className="bg-emerald-50 border border-emerald-200 p-6 rounded-2xl mt-4">
-              <h4 className="font-bold text-emerald-950 text-sm">⏰ Guide Recommendation: Early Morning Starts</h4>
+              <h4 className="font-bold text-emerald-950 text-sm"> Guide Recommendation: Early Morning Starts</h4>
               <p className="text-xs text-emerald-900 leading-relaxed mt-1">
                 An early departure from Pokhara — ideally between 6:00 and 7:30 in the morning — allows you to reach Kimche and begin the climb to Ghandruk during the cooler morning hours. Arriving at Ghandruk before midday also gives you time to settle in, eat lunch with views of the Annapurna range, and rest before the afternoon.
               </p>
@@ -233,7 +233,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🌸 Dry Season Conditions</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Dry Season Conditions</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   During spring (March to May) and autumn (September to November), the road is generally in its best condition. The surface is firmer, stream crossings are easier to manage, and the risk of unexpected closures is lower.
                 </p>
@@ -265,21 +265,21 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">📈 Distance &amp; Elevation Gain</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Distance &amp; Elevation Gain</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   The climb covers a modest horizontal distance but gains roughly 500 metres in altitude, taking about 1 to 1.5 hours at a comfortable pace.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">👣 Stone Staircase Trail</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Stone Staircase Trail</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   The trail is exceptionally well-maintained, following hand-carved stone staircases. It is well-marked and easy to navigate with no major junctions.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🎑 Valley &amp; Farm Vistas</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Valley &amp; Farm Vistas</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   The path winds through agricultural terraces and tea plantations. On clear mornings, Annapurna South, Hiunchuli, and Machhapuchhre peaks emerge above the ridge.
                 </p>
@@ -367,13 +367,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🏪 Trailhead Area &amp; Shops</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Trailhead Area &amp; Shops</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   There are no formal facilities such as luggage storage or tourism offices at the trailhead itself. A small number of local shops and tea stops are accessible near the road terminus, adequate for a cup of tea or water, but they are not reliable sources for trekking gear or snacks. Purchase these in Pokhara Lakeside first.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">📶 Mobile Network &amp; Prep</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Mobile Network &amp; Prep</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Mobile network coverage at Kimche is limited. NCell and Nepal Telecom signals can be intermittent at the trailhead but improve once you reach Ghandruk village. Carry sufficient drinking water and snacks from Pokhara to last the climb to Ghandruk.
                 </p>
@@ -389,14 +389,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🌸 Spring (Mar–May)</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Spring (Mar–May)</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">
                   Rhododendron forests bloom in red and pink. Mornings offer excellent peak visibility, and road access is generally stable.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🍂 Autumn (Sep–Nov)</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Autumn (Sep–Nov)</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">
                   Peak visibility. Post-monsoon air is clear, mountain views are sharp, and road access to Kimche is highly reliable.
                 </p>
@@ -426,14 +426,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-stone-600 text-sm">
               <div>
-                <h4 className="font-bold text-stone-900 text-base">🛂 Permits Required</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Permits Required</h4>
                 <p className="mt-2 text-xs leading-relaxed text-stone-500">
                   All trekkers must hold valid ACAP permits and TIMS cards, which must be obtained in Pokhara or Kathmandu beforehand. There is no permit office at the Kimche trailhead, and trekking without them is not allowed. Check our <Link href="/planning/acap-permit-guide" className="text-emerald-700 font-bold hover:underline">ACAP Permit Guide</Link> for details.
                 </p>
               </div>
 
               <div>
-                <h4 className="font-bold text-stone-900 text-base">💸 Cash &amp; Porter Logistics</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Cash &amp; Porter Logistics</h4>
                 <p className="mt-2 text-xs leading-relaxed text-stone-500">
                   There are no ATMs at Kimche. Carry sufficient Nepali Rupees for your entire trek. Pack your day bag with essentials: water, snacks, rain jacket, sunscreen, and medications. Your main luggage can be transferred by a porter.
                 </p>
@@ -556,8 +556,8 @@ export default function Page() {
                   Inquire &amp; Book Today &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

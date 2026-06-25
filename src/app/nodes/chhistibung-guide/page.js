@@ -14,7 +14,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🌲 Forest Transition Node
+             Forest Transition Node
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Chhistibung Forest Trek Guide (2,975m) – Forest Camp on the Khopra Ridge Trek
@@ -164,13 +164,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">📈 How Altitude Affects Your Experience</h4>
+                <h4 className="font-bold text-stone-950 text-base"> How Altitude Affects Your Experience</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Around the 2,975m mark, oxygen levels are lower than at lower elevations, leaving trekkers feeling slightly more breathless. Nights also get cold, dropping several degrees below daytime temps. Stopping at Chhistibung fits naturally into a gradual acclimatization schedule.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🧗 Difficulty Level of the Trail</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Difficulty Level of the Trail</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The trail is moderate, with steady forest paths and root-covered, uneven sections. There are short, steep stretches near the points where the trail transitions in or out of the forest, demanding focus, especially when wet.
                 </p>
@@ -186,7 +186,7 @@ export default function Page() {
 
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🌲 Bayeli Kharka to Chhistibung Forest Trail</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Bayeli Kharka to Chhistibung Forest Trail</h4>
                 <p className="mt-1">
                   Leaving Bayeli Kharka, the trail eases into forest fairly quickly. The terrain here is a mix of soil paths, exposed tree roots, and patches of leaf litter — typical of the sub-alpine oak forest. Rhododendron trees start appearing more frequently in slightly more open sections. Elevation changes are gradual.
                 </p>
@@ -227,13 +227,13 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🌸 Dense Rhododendron and Oak Forests</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Dense Rhododendron and Oak Forests</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The forest is a mix of sub-alpine oak and rhododendron, creating a layered canopy that filters light in a beautiful, green-tinted tone. Spring rhododendron blooms add splashes of red and pink. Moss-covered branches and gnarled trunks offer a unique, quiet atmosphere.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🎋 Bamboo Groves and Silent Paths</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Bamboo Groves and Silent Paths</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   In certain pockets, the forest shifts into bamboo groves, where the trail narrows and the surroundings feel noticeably quieter. The rustling leaves and cracking bamboo stalks create a distinct wilderness feel, away from the typical tourist trails.
                 </p>
@@ -272,13 +272,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🦜 Himalayan Monal and Birdlife</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Himalayan Monal and Birdlife</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   The Himalayan Monal — Nepal&apos;s national bird, known for its iridescent plumage — has been spotted in this forest. Early morning is the best time for birdwatching when the forest is calm and active.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🐒 Langur Monkeys and Mammals</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Langur Monkeys and Mammals</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Langur monkeys are occasionally seen moving through the canopy, particularly in the denser oak and bamboo sections. This biodiversity reflects the healthy ecosystem supported by the Annapurna Conservation Area.
                 </p>
@@ -294,7 +294,7 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🌸 Spring &amp; Autumn</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Spring &amp; Autumn</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   Best times to walk. Trails are drier, visibility is excellent, and spring brings rhododendron blooms. Autumn offers clear blue skies for the climb to Khopra.
                 </p>
@@ -346,7 +346,7 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-stone-600 text-sm">
               <div>
-                <h4 className="font-bold text-stone-900 text-base">🎒 Gear Requirements</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Gear Requirements</h4>
                 <p className="mt-2 text-xs leading-relaxed text-stone-500">
                   Layering is key — moisture-wicking base layers, warm mid-layers, and waterproof shells. Sturdy, broken-in hiking boots with good grip are essential for root-covered paths. A headlamp is needed for early starts.
                 </p>
@@ -460,8 +460,8 @@ export default function Page() {
                   Inquire &amp; Customize Itinerary &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

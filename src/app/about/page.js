@@ -4,12 +4,12 @@ import Link from "next/link";
 export default function AboutPage() {
   const values = [
     {
-      icon: "🤝",
+      icon: "",
       title: "100% Direct Local Impact",
       desc: "Unlike standard commercial teahouses, every dollar spent on our community lodges directly funds local school teacher salaries, community clinics, and infrastructure in the Magar villages."
     },
     {
-      icon: "🌱",
+      icon: "",
       title: "Eco-Conscious Trekking",
       desc: "We practice sustainable waste management, minimize single-use plastics, and source our food ingredients from organic farms along the route."
     },
@@ -63,21 +63,21 @@ export default function AboutPage() {
           </div>
           <div className="rounded-3xl overflow-hidden shadow-xl border border-stone-200 bg-white p-8 space-y-6">
             <div className="flex items-center gap-4">
-              <span className="text-3xl">🎒</span>
+              <span className="text-3xl"></span>
               <div>
                 <h4 className="font-extrabold text-stone-950 text-base">Direct School Funding</h4>
                 <p className="text-stone-500 text-xs mt-1">Lodge income directly finances English-medium teachers in Swanta and Nangi.</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <span className="text-3xl">🩺</span>
+              <span className="text-3xl"></span>
               <div>
                 <h4 className="font-extrabold text-stone-950 text-base">Rural Healthcare Support</h4>
                 <p className="text-stone-500 text-xs mt-1">Lodge profits guarantee supplies and nurse salaries for remote community clinics.</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <span className="text-3xl">📶</span>
+              <span className="text-3xl"></span>
               <div>
                 <h4 className="font-extrabold text-stone-950 text-base">Mountain Telemedicine</h4>
                 <p className="text-stone-500 text-xs mt-1">Lodge profits fund solar-powered wireless networks for rescue and medical calls.</p>

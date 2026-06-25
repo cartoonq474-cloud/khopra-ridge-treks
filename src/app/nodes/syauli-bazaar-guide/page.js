@@ -172,13 +172,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🌱 Subtropical Valley Landscape</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Subtropical Valley Landscape</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   At 1,220 meters, Syauli Bazaar sits in a warm, subtropical river valley. The Modi Khola runs alongside the settlement, and the surrounding hillsides are covered in terraced rice and millet fields worked by local Gurung families. The landscape here feels distinctly different from the high alpine scenery further along the trek. Expect green terraces, scattered farmhouses, and patches of forest.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base font-sans">👣 Why Trekkers Choose to Start Here</h4>
+                <h4 className="font-bold text-stone-950 text-base font-sans"> Why Trekkers Choose to Start Here</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Most independent and guided treks toward Ghandruk now start by vehicle at Kimche, which cuts out the climb from Syauli Bazaar. Trekkers who start here value the gradual transition zone — a chance to walk through working farmland, greet local families, and feel the terrain change beneath their feet. It also reduces time spent on the rough river road.
                 </p>
@@ -194,13 +194,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-3">
-                <h4 className="font-bold text-stone-950 text-base">🚕 Private Jeep and Taxi Options</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Private Jeep and Taxi Options</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The most practical way to reach Syauli Bazaar is by private jeep or taxi from Pokhara. The drive takes around 2.5 hours, following the main road through Nayapul and Birethanti before continuing along the unpaved river road. Expect to pay somewhere in the range of $70–$90 USD per vehicle.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-3">
-                <h4 className="font-bold text-stone-950 text-base">🚌 Local Bus &amp; Shared Jeep Connections</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Local Bus &amp; Shared Jeep Connections</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Budget travelers can take a local bus from Pokhara toward Nayapul or Birethanti, which typically takes 4–5 hours and costs around $3–$5 USD per person. From either drop-off point, you&apos;ll need to continue to Syauli Bazaar by shared local jeep or on foot along the dirt road.
                 </p>
@@ -274,13 +274,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">📈 Distance &amp; Time</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Distance &amp; Time</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The climb involves an elevation gain of approximately 720 meters, rising from 1,220 m to 1,940 m, and typically takes 2.5 to 3.5 hours depending on pacing and group size. It is a sustained uphill effort.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🧱 Trail Surface</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Trail Surface</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The trail surface is predominantly stone steps, a hallmark of trekking routes throughout the Annapurna foothills. These steps pass through millet and rice terraces, small clusters of Gurung farmhouses, and patches of forest.
                 </p>
@@ -329,19 +329,19 @@ export default function Page() {
 
             <div className="space-y-4">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🚶 Syauli Bazaar to Ghandruk and Tadapani</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Syauli Bazaar to Ghandruk and Tadapani</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   After reaching Ghandruk, most trekkers continue toward <Link href="/nodes/tadapani-guide" className="text-emerald-700 font-bold hover:underline">Tadapani</Link>, climbing further into rhododendron forest. This combination — Syauli Bazaar to Ghandruk on day one, then onward to Tadapani on day two — is a popular start.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🌲 Syauli Bazaar to Dobato and Muldai Viewpoint</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Syauli Bazaar to Dobato and Muldai Viewpoint</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   For trekkers heading toward Dobato, Syauli Bazaar serves as a natural starting point for a multi-day route that climbs progressively higher. Dobato sits at 3,432m, providing a gateway to Muldai Viewpoint.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🏡 Syauli Bazaar to Mohare Danda</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Syauli Bazaar to Mohare Danda</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Starting from Syauli Bazaar, trekkers can link up to the community lodge trekking network of Mohare Danda, where accommodation profits directly fund local schools and infrastructure.
                 </p>
@@ -365,7 +365,7 @@ export default function Page() {
             </p>
 
             <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-4">
-              <h4 className="font-bold text-stone-950 text-base">💪 Recommended Fitness Levels</h4>
+              <h4 className="font-bold text-stone-950 text-base"> Recommended Fitness Levels</h4>
               <ul className="list-disc pl-5 text-xs text-stone-500 space-y-2">
                 <li><strong>Beginners:</strong> Manageable with realistic pacing and rest breaks; expect the climb to feel demanding due to the sustained step profile. You can gauge pacing via our <Link href="/planning/trekking-fitness-plan" className="text-emerald-700 font-bold hover:underline">Fitness Plan</Link>.</li>
                 <li><strong>Intermediate Trekkers:</strong> Comfortable, with energy to spare for onward walking the same day if continuing toward Tadapani.</li>
@@ -395,14 +395,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm font-sans font-sans">🌸 Spring (Mar–May)</h4>
+                <h4 className="font-bold text-stone-950 text-sm font-sans font-sans"> Spring (Mar–May)</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   Rhododendrons along higher paths bloom. Daytime temperatures in the lower valley are comfortable for walking, though afternoon haze can occur.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm font-sans font-sans font-sans">🍂 Autumn (Sep–Nov)</h4>
+                <h4 className="font-bold text-stone-950 text-sm font-sans font-sans font-sans"> Autumn (Sep–Nov)</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   The most popular season. Clear skies, pleasant valley temperatures, and mountain views from higher points are at their best.
                 </p>
@@ -435,19 +435,19 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🏠 Lodging</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Lodging</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Basic but comfortable tea house rooms are available in Ghandruk and onward. Community-managed lodges prioritize simple, locally run hospitality.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🍲 Food Availability</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Food Availability</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Tea houses serve staples: dal bhat, noodle soups, fried rice, and basic breakfast. Carry snacks for the initial Syauli to Ghandruk climb.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🔌 Connectivity &amp; Water</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Connectivity &amp; Water</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Mobile signal is generally available. Charging and Wi-Fi are available from Ghandruk onward. Carry reusable filter bottles for water.
                 </p>
@@ -463,14 +463,14 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm font-sans">🥾 Short 2-Day Trek</h4>
+                <h4 className="font-bold text-stone-950 text-sm font-sans"> Short 2-Day Trek</h4>
                 <ul className="list-disc pl-5 text-[10px] text-stone-500 space-y-1">
                   <li><strong>Day 1:</strong> Drive Pokhara to Syauli Bazaar, trek to Ghandruk (2.5–3.5 hours), overnight in Ghandruk.</li>
                   <li><strong>Day 2:</strong> Explore Ghandruk village, then descend to road access for Pokhara return.</li>
                 </ul>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm font-sans">🥾 4–5 Day Dobato and Muldai Trek</h4>
+                <h4 className="font-bold text-stone-950 text-sm font-sans"> 4–5 Day Dobato and Muldai Trek</h4>
                 <ul className="list-disc pl-5 text-[10px] text-stone-500 space-y-1">
                   <li><strong>Day 1:</strong> Syauli Bazaar to Ghandruk</li>
                   <li><strong>Day 2:</strong> Ghandruk to Tadapani</li>
@@ -584,8 +584,8 @@ export default function Page() {
                   Inquire now &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

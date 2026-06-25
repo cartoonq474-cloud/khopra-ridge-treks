@@ -14,7 +14,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🌅 Trekking Sunrise Hub
+             Trekking Sunrise Hub
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Ghorepani Village: Poon Hill Sunrise Trek Hub in the Annapurna Region
@@ -173,7 +173,7 @@ export default function Page() {
 
               <div className="grid gap-6 md:grid-cols-2">
                 <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                  <h4 className="font-bold text-stone-950 text-base">🥾 Nayapul to Ghorepani Trekking Route</h4>
+                  <h4 className="font-bold text-stone-950 text-base"> Nayapul to Ghorepani Trekking Route</h4>
                   <p className="text-xs text-stone-500 leading-relaxed">
                     From Nayapul, the trail follows the Modi Khola river valley before climbing steadily toward the village of Tikhedhunga. The real climb begins after Tikhedhunga, at Ulleri. Here, the trail turns into a long stone staircase — locally famous, and not always loved — that climbs roughly 1,500 steps up a steep hillside.
                   </p>
@@ -196,7 +196,7 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">🌅</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Early Morning Ascent</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Trekkers typically leave their teahouse between 4:30 and 5:00 AM, walking by headlamp along a stone-paved trail. The climb from Ghorepani to Poon Hill covers about 450 meters of elevation gain over roughly 45 minutes to an hour.
@@ -212,7 +212,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">📸</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">World-Famous Viewpoint</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Poon Hill&apos;s reputation comes down to accessibility vs. reward. Unlike high-altitude viewpoints that demand days of acclimatization, Poon Hill is reachable on a short pre-dawn hike from a comfortable teahouse.
@@ -229,7 +229,7 @@ export default function Page() {
 
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🌲 Ghorepani to Tadapani Route</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Ghorepani to Tadapani Route</h4>
                 <p className="mt-1">
                   After the Poon Hill sunrise, many trekkers continue east toward Tadapani. This route winds through dense rhododendron and oak forest, with several ridge sections offering ongoing views of the Annapurna range. The walk typically takes 5–6 hours. From Tadapani, trails continue toward Ghandruk.
                 </p>
@@ -295,19 +295,19 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🌸 Spring Bloom</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Spring Bloom</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   During March and April, the hillsides surrounding the village turn shades of deep red, pink, and white. Nepal&apos;s national flower blankets the trails during this window. Late March through mid-April is the most reliable period.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🦜 Forest Environment</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Forest Environment</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Lower sections near Tikhedhunga are subtropical, while higher up, rhododendron and oak forest takes over. This forest is part of a wider habitat supporting numerous bird species, making it popular with birdwatchers.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">📸 Photography</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Photography</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   The combination of a forest in full bloom and a Himalayan sunrise is rare. Photographers often time their visit specifically for the rhododendron season, using the sunrise as the headline shot.
                 </p>
@@ -360,7 +360,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🧗 Ulleri Staircase</h4>
+                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Ulleri Staircase</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Climbing roughly 1,500 steps in succession is the steepest sustained climb on the route. The key to managing it is pacing — a slow, steady rhythm works far better than fast bursts.
                 </p>
@@ -383,14 +383,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🌸 Spring (Mar–Apr)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Spring (Mar–Apr)</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   Spring is best for the rhododendron bloom. The forest canopy comes alive, and daytime temperatures are comfortable, though trails and teahouses can be busy.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🍁 Autumn (Oct–Nov)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Autumn (Oct–Nov)</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   Autumn is widely considered the best season for mountain visibility. Post-monsoon skies tend to be very clear, giving the sharpest views of Dhaulagiri and Annapurna.
                 </p>
@@ -523,8 +523,8 @@ export default function Page() {
                   Inquire &amp; Book Today &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

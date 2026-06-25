@@ -71,7 +71,7 @@ export default function Page() {
                 
                 <div className="text-xs space-y-2 pt-2 border-t border-stone-100 text-stone-600">
                   <div>🏔️ <strong className="text-stone-800">Mountain Views:</strong> {trek.views}</div>
-                  <div>🏠 <strong className="text-stone-800">Lodging Model:</strong> {trek.lodging}</div>
+                  <div> <strong className="text-stone-800">Lodging Model:</strong> {trek.lodging}</div>
                 </div>
 
                 <p className="mt-4 text-xs text-stone-400 leading-relaxed leading-relaxed pt-2">

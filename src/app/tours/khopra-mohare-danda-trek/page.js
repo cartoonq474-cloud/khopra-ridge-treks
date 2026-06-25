@@ -15,7 +15,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🌱 Pioneering Community Eco-Trek
+             Pioneering Community Eco-Trek
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Khopra Ridge &amp; Mohare Danda Eco-Trek
@@ -142,7 +142,7 @@ export default function Page() {
             </p>
 
             <div className="bg-stone-50 border border-stone-200 rounded-3xl p-6 mt-8">
-              <h3 className="text-lg font-bold text-stone-950 mb-3">📍 What Is the Khopra Ridge &amp; Mohare Danda Eco-Trek?</h3>
+              <h3 className="text-lg font-bold text-stone-950 mb-3"> What Is the Khopra Ridge &amp; Mohare Danda Eco-Trek?</h3>
               <p className="text-xs text-stone-600 leading-relaxed">
                 The Khopra Ridge &amp; Mohare Danda Eco-Trek is a community-based trekking circuit in the Annapurna region of Nepal. It connects two elevated ridgelines — Mohare Danda and Khopra Ridge — along a route that passes through remote villages, rhododendron forests, and high-altitude meadows with sweeping views of the central Himalaya.
               </p>
@@ -178,21 +178,21 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <span className="text-2xl">🔇</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base mt-2">Less Crowded Poon Hill Alternative</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Poon Hill is extraordinary, but it is also one of the busiest viewpoints in Nepal. On popular trekking dates, hundreds of hikers gather at the summit before dawn. Mohare Danda and Khopra Ridge give you the same Himalayan panorama — arguably an even better one — without the queue. On most mornings, you share the ridge with only a handful of other trekkers.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <span className="text-2xl">🏠</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base mt-2">Authentic Village Life &amp; Culture</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   The villages along this route are home to Magar and Gurung communities who have lived in these hills for generations. Daily life here is connected to the land — farming, herding, seasonal rhythms — and trekkers passing through are welcomed as guests. Nangi, Swanta, Banskharka, and Tikot are among the villages trekkers pass through.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <span className="text-2xl">🌱</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base mt-2">Tourism That Supports Development</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   The community lodge model on this route was pioneered with the specific goal of keeping tourism revenue inside the communities. Lodges here are operated by village cooperatives. Your accommodation fees directly fund local development: better-maintained trails, cleaner water systems, and children attending school.
@@ -209,7 +209,7 @@ export default function Page() {
             
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base">🌄 Sunrise Views from Mohare Danda</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Sunrise Views from Mohare Danda</h4>
                 <p className="mt-1">
                   Mohare Danda sits at approximately 3,300 metres and delivers one of the most complete Himalayan sunrise panoramas in the Annapurna region. The ridge faces east and north, which means the morning light hits the peaks in a sequence — Dhaulagiri first, then the Annapurna range emerging from shadow, then Machhapuchhre catching fire.
                 </p>
@@ -221,19 +221,19 @@ export default function Page() {
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base">💧 The Sacred Khayer Lake Excursion</h4>
+                <h4 className="font-bold text-stone-900 text-base"> The Sacred Khayer Lake Excursion</h4>
                 <p className="mt-1">
                   Khayer Lake sits at approximately 4,500 metres above sea level, tucked beneath a cirque of high-altitude ridges. For local Magar and Gurung communities, the lake is a sacred site tied to religious festivals. The hike from the Khopra Ridge camp takes most walkers four to six hours round trip.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base">🌸 Rhododendron Forests and Diverse Landscapes</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Rhododendron Forests and Diverse Landscapes</h4>
                 <p className="mt-1">
                   The trail between the lower villages and the upper ridges passes through some of the finest rhododendron forests in the Annapurna Conservation Area. In spring (March-April), these forests bloom in deep red, pink, and white — a visual spectacle against the snow peaks.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base">🏡 Traditional Villages and Community Lodges</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Traditional Villages and Community Lodges</h4>
                 <p className="mt-1">
                   The lodges on this route are family-scale operations run by the local village cooperatives. The food is simple, warm, and freshly prepared. Staying in community lodges rather than standard tea houses creates a fundamentally different, warm relationship between the trekker and the place.
                 </p>
@@ -357,13 +357,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🕌 Sacred Pilgrimage Sites</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Sacred Pilgrimage Sites</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Khayer Lake holds deep spiritual significance for Magar and Gurung communities throughout the region. Local traditions describe it as a home of the gods, and annual festivals draw pilgrims from surrounding villages for ceremonies.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🥾 Day Hike Difficulty</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Day Hike Difficulty</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   The hike to Khayer Lake involves approximately 800 metres of elevation gain from the Khopra camp. The terrain is rocky and exposed, and the altitude (close to 4,500m) means the air is thin. The pace should be slow and steady.
                 </p>
@@ -466,7 +466,7 @@ export default function Page() {
             </h2>
 
             <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
-              <h3 className="text-lg font-bold text-stone-950 mb-4">💰 Independent Trek Costs (Estimated Daily Cost)</h3>
+              <h3 className="text-lg font-bold text-stone-950 mb-4"> Independent Trek Costs (Estimated Daily Cost)</h3>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                 {[
                   { label: "Accommodation", value: "$8–$15 per night" },
@@ -594,7 +594,7 @@ export default function Page() {
             </div>
 
             <div className="bg-stone-50 border border-stone-200 rounded-2xl p-6 mt-8">
-              <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wider">📸 Best Photography Locations on the Trek</h4>
+              <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wider"> Best Photography Locations on the Trek</h4>
               <ul className="mt-2 space-y-1 text-xs text-stone-600 list-disc pl-5">
                 <li>Mohare Danda at sunrise: Wide angle panorama, best light at dawn.</li>
                 <li>Khopra Ridge in late afternoon: West-facing golden hour light on Dhaulagiri.</li>
@@ -783,8 +783,8 @@ export default function Page() {
                   Plan My Trek →
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Standard response within 24 hours</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Standard response within 24 hours</span>
                 </div>
               </div>
             </div>

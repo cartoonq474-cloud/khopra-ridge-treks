@@ -16,7 +16,7 @@ export default function Page() {
 
   const packingEssentials = [
     {
-      category: "🧥 Essential Clothing",
+      category: " Essential Clothing",
       items: [
         "Moisture-wicking base layers",
         "Fleece or insulated mid-layer",
@@ -28,7 +28,7 @@ export default function Page() {
       ]
     },
     {
-      category: "🎒 Safety & Equipment",
+      category: " Safety & Equipment",
       items: [
         "Headlamp with spare batteries",
         "Adjustable trekking poles (crucial for slippery slopes)",
@@ -38,7 +38,7 @@ export default function Page() {
       ]
     },
     {
-      category: "☕ Cold Weather Comfort",
+      category: " Cold Weather Comfort",
       items: [
         "Insulated gloves (windproof outer layer)",
         "Warm fleece hat or beanie",
@@ -164,7 +164,7 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm sm:text-base">🌙 Nighttime Temperatures (-6°C to -2°C)</h4>
+                <h4 className="font-bold text-stone-955 text-sm sm:text-base"> Nighttime Temperatures (-6°C to -2°C)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed font-medium">
                   Once the sun sets, conditions change fast. At ridge level, nighttime temperatures typically fall below freezing. This is the temperature range that catches underprepared trekkers off guard — daytime warmth can create a false sense of security about what is needed after dark.
                 </p>
@@ -201,7 +201,7 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🏡 Lower Elevation Trail Conditions</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Lower Elevation Trail Conditions</h4>
                 <p className="text-xs text-stone-500 leading-relaxed font-medium">
                   Around Ghandruk and Swanta, trail conditions in March are generally favorable. Temperatures are milder, the forest is beginning to bloom, and the walking itself is straightforward compared to higher sections. This part of the route feels closer to spring than winter.
                 </p>
@@ -248,13 +248,13 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm">🌸 Rhododendron Blooms</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Rhododendron Blooms</h4>
                 <p className="text-[11px] text-stone-500 leading-relaxed font-medium">
                   The forest sections around Ghandruk and Swanta start showing color, adding a beautiful layer of spring scenery to the lower trail.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm">🚶 Fewer Trail Crowds</h4>
+                <h4 className="font-bold text-stone-955 text-sm"> Fewer Trail Crowds</h4>
                 <p className="text-[11px] text-stone-500 leading-relaxed font-medium">
                   March (especially the first half) sees fewer trekkers than April. Teahouses are quieter and the trail is noticeably more peaceful.
                 </p>
@@ -334,7 +334,7 @@ export default function Page() {
             </div>
 
             <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-4 mt-6">
-              <h4 className="font-bold text-stone-950 text-base">👥 Who Should Trek Khopra Ridge in March?</h4>
+              <h4 className="font-bold text-stone-950 text-base"> Who Should Trek Khopra Ridge in March?</h4>
               <ul className="list-disc pl-5 text-xs text-stone-500 space-y-2 font-medium">
                 <li><strong>Beginners:</strong> Workable for first-time trekkers, provided they come prepared for cold nights. Going with a guide is especially valuable this month as route conditions vary.</li>
                 <li><strong>Photographers &amp; View Seekers:</strong> Strong choice for mountain photography due to clear mornings and snow-touched peaks. Plan viewpoint visits early in the day.</li>
@@ -443,13 +443,13 @@ export default function Page() {
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
                   <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📝 Check trekking permit requirements (ACAP &amp; TIMS)
+                     Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
                   <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    💰 Estimate your trip costs with our cost calculator
+                     Estimate your trip costs with our cost calculator
                   </Link>
                   <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🎒 Get the interactive packing checklist for your gear
+                     Get the interactive packing checklist for your gear
                   </Link>
                   <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
                     ☀️ Check seasonal weather conditions before you go

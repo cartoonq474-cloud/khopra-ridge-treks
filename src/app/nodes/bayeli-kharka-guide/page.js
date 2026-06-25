@@ -14,7 +14,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🌲 Route Node Guide
+             Route Node Guide
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Bayeli Kharka: Remote High-Altitude Hub on the Khopra Ridge Trek
@@ -120,7 +120,7 @@ export default function Page() {
             {/* Quick Facts Grid */}
             <div className="mt-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
               <h3 className="text-lg font-bold text-stone-950 mb-4 flex items-center gap-2">
-                📋 Quick Facts: Bayeli Kharka
+                 Quick Facts: Bayeli Kharka
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
@@ -188,7 +188,7 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">📈</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Acclimatization Role</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Sleeping at Bayeli Kharka&apos;s 3,425 meters helps prepare your body for the higher elevations ahead — Khopra Ridge at 3,660 meters and, on extended itineraries, Khayer Lake at 4,660 meters. Rushing straight from lower villages to Khopra Ridge in a single push increases the risk of altitude-related discomfort like headaches, nausea, or poor sleep.
@@ -196,7 +196,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">🍁</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Landscape Transition</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   One of the most noticeable things about staying at Bayeli Kharka is the shift in scenery it represents. Behind you, on the Tadapani side, is thick rhododendron and oak forest. Ahead, toward Chistibung and Khopra Ridge, the landscape opens into grassy ridgelines and rocky alpine terrain.
@@ -204,7 +204,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">🤝</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Community Lodge Model</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The lodge at Bayeli Kharka is run entirely by the local community, and its income supports schools, clinics, and infrastructure in the Magar villages below. Staying here means your trekking spend has a direct, traceable impact on the people who maintain this stretch of trail.
@@ -221,7 +221,7 @@ export default function Page() {
 
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🌲 Tadapani to Bayeli Kharka</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Tadapani to Bayeli Kharka</h4>
                 <p className="mt-1">
                   The walk from Tadapani to Bayeli Kharka takes you deeper into rhododendron and oak forest, with a steady climb that gains noticeable elevation. The trail is well-defined but can feel quiet and isolated compared to the busier paths around Ghorepani and Poon Hill. Expect a few hours of forest walking with intermittent clearings that offer your first real previews of Annapurna South.
                 </p>
@@ -233,13 +233,13 @@ export default function Page() {
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🌄 Bayeli Kharka to Khopra Ridge / Khopra Danda</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Bayeli Kharka to Khopra Ridge / Khopra Danda</h4>
                 <p className="mt-1">
                   Heading toward Khopra Ridge (also referred to as Khopra Danda), the trail climbs further into alpine terrain. The forest cover thins significantly, and on clear days the views expand to take in a wider sweep of the Annapurna and Dhaulagiri ranges. Having adjusted to the altitude, trekkers are better positioned to enjoy the climb.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">💦 Connection Toward Khayer Lake Trek</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Connection Toward Khayer Lake Trek</h4>
                 <p className="mt-1">
                   For trekkers extending their itinerary, Bayeli Kharka also sits on the approach to Khayer Lake, a sacred high-altitude lake at 4,660 meters. The route from Bayeli Kharka through Khopra Ridge toward Khayer Lake involves a significant further altitude gain, making the acclimatization night at Bayeli Kharka even more valuable.
                 </p>
@@ -282,13 +282,13 @@ export default function Page() {
 
               <div className="grid gap-6 md:grid-cols-2">
                 <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                  <h4 className="font-bold text-stone-950 text-base">🍲 Rooms, Food, and Facilities</h4>
+                  <h4 className="font-bold text-stone-950 text-base"> Rooms, Food, and Facilities</h4>
                   <p className="text-xs text-stone-500 leading-relaxed">
                     Rooms are typically basic wooden twin rooms — functional rather than luxurious. The dining hall is the social heart of the lodge, warmed by a central stove where trekkers gather in the evening. Meals follow the standard teahouse format: dal bhat, noodle dishes, soups, and hot drinks. Menus are simpler than at lower-altitude villages.
                   </p>
                 </div>
                 <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                  <h4 className="font-bold text-stone-950 text-base">🌱 Eco Lodge &amp; Camping</h4>
+                  <h4 className="font-bold text-stone-950 text-base"> Eco Lodge &amp; Camping</h4>
                   <p className="text-xs text-stone-500 leading-relaxed">
                     Profits from the lodge support schools, clinics, and village infrastructure. While the lodge is the primary option, camping is possible for groups trekking with full camping support, especially during peak seasons when lodge space is limited. Logistics should be confirmed with your guide beforehand.
                   </p>
@@ -355,14 +355,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🌸 Spring (March to May)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Spring (March to May)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Spring brings blooming rhododendron forests that add vibrant colors. Temperatures are milder than winter, though afternoon clouds can sometimes affect mountain visibility.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🍁 Autumn (October to November)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Autumn (October to November)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Autumn is widely considered the best season, with stable weather and the clearest views of Annapurna South and Dhaulagiri. The trail is busier, making lodge space tighter.
                 </p>
@@ -547,8 +547,8 @@ export default function Page() {
                   Inquire &amp; Book Today &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

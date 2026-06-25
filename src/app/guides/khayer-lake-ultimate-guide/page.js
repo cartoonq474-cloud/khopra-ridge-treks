@@ -148,7 +148,7 @@ export default function Page() {
             {/* Quick Summary Grid */}
             <div className="mt-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
               <h3 className="text-lg font-bold text-stone-950 mb-4 flex items-center gap-2">
-                📋 Essential Facts About Khayer Lake
+                 Essential Facts About Khayer Lake
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
@@ -242,7 +242,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">🕌</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">A Sacred Pilgrimage Destination</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Khayer Lake is not simply a beautiful alpine lake. It is a place of deep religious meaning for the Magar, Hindu, and Buddhist communities of the surrounding region. The shrine of Khayer Baraha sits at the water&apos;s edge, and the lake itself is considered sacred — a site where rituals carry particular spiritual power.
@@ -253,7 +253,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">🤝</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">One of Nepal&apos;s Best Off-the-Beaten-Path Treks</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The Khopra Ridge Trek and its culmination at Khayer Lake represent the Annapurna region&apos;s best answer to overcrowding on the main trails. While the Poon Hill loop sees tens of thousands of trekkers every season, the Khopra Danda route remains quiet, community-managed, and distinctly local.
@@ -264,7 +264,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">🌸</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Wildlife, Forests, and Alpine Landscapes</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The lower sections of the Khayer Lake route pass through some of the finest rhododendron forests in Nepal. In spring, the hillsides above Ghandruk and Tadapani turn red and pink as the trees come into full bloom — a spectacle that makes the lower elevation stages as rewarding as the high-altitude sections.
@@ -437,7 +437,7 @@ export default function Page() {
             </div>
 
             <div className="bg-stone-50 border border-stone-200 rounded-3xl p-6 mt-6">
-              <h3 className="text-lg font-bold text-stone-950 mb-3">📍 Extended Trek Variations</h3>
+              <h3 className="text-lg font-bold text-stone-950 mb-3"> Extended Trek Variations</h3>
               <ul className="space-y-3 text-xs text-stone-600">
                 <li>
                   <strong>Poon Hill Extension:</strong> Many trekkers combine the Khopra Ridge &amp; Khayer Lake trek with a loop through Ghorepani and Poon Hill. This creates a 10 to 12-day circuit that covers two of the region&apos;s finest viewpoints in a single continuous route.
@@ -551,14 +551,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🌸 Spring (March to May)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Spring (March to May)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Spring is one of the two peak trekking seasons and arguably the most visually spectacular. The rhododendron forests between Ghandruk and Tadapani burst into color in March and April. Higher up, snow from winter may still cover sections in March, but by April conditions are typically excellent. Skies are often clear in the early morning. May brings slightly warmer temperatures and the beginning of pre-monsoon cloud, but the first weeks of the month remain very trekable.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🍁 Autumn (September to November)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Autumn (September to November)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Autumn is the most popular and most reliable trekking season in Nepal. Following the monsoon rains, the Himalayas emerge washed clear, vegetation is lush and green, and skies are exceptionally clear for extended periods. October in particular offers the finest mountain views of the entire year. The air is crisp, temperatures are comfortable at lower elevations, and cold but manageable at Khopra Ridge.
                 </p>
@@ -588,7 +588,7 @@ export default function Page() {
 
             {/* Weather overview table */}
             <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm overflow-hidden">
-              <h3 className="text-lg font-bold text-stone-950 mb-4">📊 Monthly Weather &amp; Trail Condition Matrix</h3>
+              <h3 className="text-lg font-bold text-stone-950 mb-4"> Monthly Weather &amp; Trail Condition Matrix</h3>
               <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse text-xs">
                   <thead>
@@ -676,7 +676,7 @@ export default function Page() {
             <div className="grid gap-6 md:grid-cols-2">
               {/* Independent Cost Table */}
               <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
-                <h3 className="text-lg font-bold text-stone-950 mb-4">💰 Independent Trek Costs (per person/day)</h3>
+                <h3 className="text-lg font-bold text-stone-950 mb-4"> Independent Trek Costs (per person/day)</h3>
                 <div className="space-y-3">
                   {[
                     { label: "Accommodation (community lodge)", value: "$5–$10 per night" },
@@ -765,7 +765,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <span className="text-2xl">🎑</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Janai Purnima Pilgrimage</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Once a year, during the full moon of Janai Purnima (late July or August), hundreds of pilgrims make the ascent to Khayer Lake. Among those who make the pilgrimage are couples praying to Goddess Baraha for the blessing of children.
@@ -802,13 +802,13 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🎒 Gear &amp; Equipment</h4>
+                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Gear &amp; Equipment</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Broken-in trekking boots with ankle support, trekking poles, daypack (20–25 litres) for the lake day hike, headlamp with spare batteries (essential for 5:30 AM starts), UV-protection sunglasses, SPF 50+ sunscreen, 2L water bottles/bladder, and purification tablets.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🩹 Health &amp; Safety</h4>
+                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Health &amp; Safety</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Personal first aid kit (blister care, pain relief, rehydration salts), Diamox (acetazolamide) — consult your doctor, hand sanitiser, toilet paper, and comprehensive travel insurance documentation covering high-altitude trekking and emergency helicopter evacuation.
                 </p>
@@ -983,8 +983,8 @@ export default function Page() {
                   Inquire &amp; Book Today &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

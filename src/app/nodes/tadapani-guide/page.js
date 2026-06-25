@@ -14,7 +14,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🧭 Route Junction Hub
+             Route Junction Hub
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Tadapani Trail Junction Guide
@@ -164,13 +164,13 @@ export default function Page() {
 
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🌲 Ghandruk to Tadapani Forest Ascent</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Ghandruk to Tadapani Forest Ascent</h4>
                 <p className="mt-1">
                   The trail climbs north through terraced farmland before entering the forest zone at around 2,200 metres. From that point, the path winds upward through increasingly dense rhododendron trees. The elevation gain is approximately 690 metres over 7–9 kilometres of trail, taking 4 to 5 hours. The climb is steady rather than steep.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🌄 Tadapani to Ghorepani Mainstream Route</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Tadapani to Ghorepani Mainstream Route</h4>
                 <p className="mt-1">
                   This trail runs northwest through a continuous forest corridor, crossing several ridgelines before arriving at Ghorepani village at 2,860 metres. The trek takes 4 to 5 hours. This is the mainstream trekking corridor, shared with many trekkers completing the Poon Hill loop. It gives access to Deurali, a small settlement serving as a rest stop.
                 </p>
@@ -221,7 +221,7 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">👥 Crowd vs Solitude Experience</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Crowd vs Solitude Experience</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Ghorepani attracts hundreds of trekkers per day, offering a sociable environment. The Bayeli Kharka and Khopra Ridge trail is a different environment entirely. You can walk for hours without encountering another trekker, enjoying a quieter, slower, and more grounded experience.
                 </p>
@@ -349,14 +349,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🌸 Spring Bloom (Mar-May)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Spring Bloom (Mar-May)</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   Rhododendron forests are in full bloom, transforming the trails into red, pink, and white canopies. Temperatures are warm and comfortable during the day.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🍁 Autumn Views (Oct-Nov)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Autumn Views (Oct-Nov)</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   Post-monsoon skies bring maximum visibility, sharp mountain profiles, and deep blue skies. Ideal walking temperatures make this peak season.
                 </p>
@@ -395,7 +395,7 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🧭 Avoid Confusion</h4>
+                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Avoid Confusion</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The Ghorepani route departs from the northwest and is obvious. The Bayeli Kharka route departs to the southeast and can be easily missed. Confirm your direction before heading out.
                 </p>
@@ -409,7 +409,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">👨‍✈️ Need a Guide?</h4>
+                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">‍✈️ Need a Guide?</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   For the mainstream Ghorepani trail, independent navigation is viable. For the Khopra Ridge and Bayeli Kharka route, we strongly recommend a licensed local guide.
                 </p>
@@ -511,8 +511,8 @@ export default function Page() {
                   Inquire &amp; Customize Your Itinerary &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

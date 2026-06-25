@@ -15,7 +15,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🏠 Lodging &amp; Stays
+             Lodging &amp; Stays
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Khopra Ridge Teahouse Locator
@@ -136,7 +136,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm">💰 Typical Room Prices</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Typical Room Prices</h4>
                 <p className="text-[10px] text-stone-500 leading-relaxed font-medium">
                   Twin-shared rooms range from 1,200 NPR (~$9 USD) to 2,500 NPR (~$19 USD) per night. Room rates are quoted separately from meals; teahouses expect guests to eat dinner and breakfast at the lodge.
                 </p>
@@ -148,7 +148,7 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm">🚿 Facilities &amp; Wi-Fi</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Facilities &amp; Wi-Fi</h4>
                 <p className="text-[10px] text-stone-500 leading-relaxed font-medium">
                   Lower altitude lodges offer electric showers, attached bathrooms, and Wi-Fi. Higher community lodges utilize solar systems, common bathrooms, and hot water bottle warmers.
                 </p>
@@ -206,28 +206,28 @@ export default function Page() {
 
             <div className="space-y-4">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">📍 Tadapani Lodges</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Tadapani Lodges</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   <strong>Tadapani Guest House</strong> sits at the Tadapani junction at around 2,630m. A twin-shared room runs about 2,000 NPR per night (Contact: +977-984-602981). Facilities include Wi-Fi, a solar shower, and a common bathroom. This lodge is privately owned and supports local loaders working out of the Tadapani junction.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">📍 Dobato &amp; Bayeli Kharka Lodges</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Dobato &amp; Bayeli Kharka Lodges</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Dobato teahouses typically range between 1,200–1,800 NPR with basic solar setup. Further up sits <strong>Bayeli Kharka Community Lodge</strong> (3,425m), costing around 1,500 NPR per night (+977-980-871234). Features solar charging, hot showers, common bathrooms, and a warm dining room. Revenues directly support the Nangi community health post and local midwife program.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">📍 Chhistibung &amp; Khopra Ridge Lodges</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Chhistibung &amp; Khopra Ridge Lodges</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   <strong>Chhistibung Community Lodge</strong> (2,975m) offers twin rooms for ~1,500 NPR (+977-981-992384), supporting local wildlife conservation patrols. At the peak, <strong>Khopra Ridge Community Lodge</strong> (3,660m) offers rooms for ~1,800 NPR (+977-984-722101). Facilities include Wi-Fi, solar charging, hot water bottles, and panoramic dining room views. Margins support the local Nangi High School and valley Wi-Fi expansion.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">📍 Swanta, Ghorepani &amp; Ghara Lodges</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Swanta, Ghorepani &amp; Ghara Lodges</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   <strong>Swanta Community Lodge</strong> (2,200m) offers twin rooms for ~1,200 NPR (+977-984-762891), featuring Wi-Fi, attached bathrooms, local yak cheese, and funding the local high school teacher salaries. <strong>Hotel Snowland Ghorepani</strong> (2,860m) is privately owned at ~2,500 NPR (+977-61-460122) featuring electric hot showers, internal heating, and attached bathrooms. Ghara village lodges down the descent offer similar facilities to Swanta.
                 </p>
@@ -282,13 +282,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
               <div className="space-y-2">
-                <h4 className="font-bold text-stone-905 text-sm">💰 Facility vs Altitude Rates</h4>
+                <h4 className="font-bold text-stone-905 text-sm"> Facility vs Altitude Rates</h4>
                 <p className="text-[11px] leading-relaxed text-stone-550">
                   Ghorepani offers the most expensive stays because it supports electric heaters and showers, which are more expensive to run than the solar heating and hot water bottles utilized at the community-owned lodges higher up the ridge.
                 </p>
               </div>
               <div className="space-y-2">
-                <h4 className="font-bold text-stone-905 text-sm">📅 Peak Reservation Strategy</h4>
+                <h4 className="font-bold text-stone-905 text-sm"> Peak Reservation Strategy</h4>
                 <p className="text-[11px] leading-relaxed text-stone-550">
                   Because room counts at Khopra Ridge Lodge and Bayeli Kharka Lodge are low and alternatives at those altitudes do not exist, prioritizing advance bookings for those two high points is critical.
                 </p>
@@ -306,7 +306,7 @@ export default function Page() {
             </p>
 
             <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-4">
-              <h4 className="font-bold text-stone-950 text-base">🤝 How the Community Model Works</h4>
+              <h4 className="font-bold text-stone-950 text-base"> How the Community Model Works</h4>
               <p className="text-xs text-stone-500 leading-relaxed">
                 Revenues from room bookings and dining logs are directed straight back into the local villages. This helps fund teacher salaries (at Swanta Secondary School), medical midwife systems and clinics (at Nangi community health posts via Bayeli Lodge), and environmental protection patrols (funded by Chhistibung Lodge). Trekkers get a unique cultural interaction, and communities retain direct economic tourism benefits.
               </p>
@@ -340,14 +340,14 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-3 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🏃 4-Day Rapid Pace</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> 4-Day Rapid Pace</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   Day 1: Tadapani &bull; Day 2: Bayeli Kharka &bull; Day 3: Khopra Ridge &bull; Day 4: Swanta (and exit). Best for fit trekkers.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🚶 5-Day Comfort Loop</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> 5-Day Comfort Loop</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   Day 1: Tadapani &bull; Day 2: Dobato &bull; Day 3: Bayeli Kharka &bull; Day 4: Khopra Ridge &bull; Day 5: Swanta/Ghara. Spreads acclimatization evenly.
                 </p>
@@ -477,13 +477,13 @@ export default function Page() {
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
                   <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📝 Check trekking permit requirements (ACAP &amp; TIMS)
+                     Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
                   <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    💰 Estimate your trip costs with our cost calculator
+                     Estimate your trip costs with our cost calculator
                   </Link>
                   <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🎒 Get the interactive packing checklist for your gear
+                     Get the interactive packing checklist for your gear
                   </Link>
                   <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
                     ☀️ Check seasonal weather conditions before you go

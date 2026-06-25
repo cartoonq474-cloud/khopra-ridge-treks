@@ -128,12 +128,12 @@ export default function Page() {
 
               <div className="text-center text-[10px] text-stone-400 font-semibold flex justify-center gap-6 pt-4 border-t border-stone-100">
                 <span>🛡️ SSL Encrypted Connection</span>
-                <span>📋 ACA Approved Operator</span>
+                <span> ACA Approved Operator</span>
               </div>
             </form>
           ) : (
             <div className="text-center py-10 space-y-6">
-              <span className="text-5xl block">🎉</span>
+              <span className="text-5xl block"></span>
               <h3 className="text-2xl font-bold text-stone-950">Inquiry Submitted Successfully!</h3>
               <p className="text-sm text-stone-500 leading-relaxed max-w-sm mx-auto">
                 Thank you, <strong className="text-stone-800">{formData.name}</strong>. Our local coordinators in Pokhara are checking community lodge room registers. We will send your itinerary breakdown and payment link via email at <strong className="text-stone-800">{formData.email}</strong> shortly.

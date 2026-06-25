@@ -431,16 +431,16 @@ export default function Page() {
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
               <ul className="space-y-3 text-xs text-stone-500">
                 <li>
-                  🌸 <strong>Spring (March to May):</strong> Warm days, blooming rhododendrons on the hillsides, and clear mountain views. This is one of the two peak seasons for trekking.
+                   <strong>Spring (March to May):</strong> Warm days, blooming rhododendrons on the hillsides, and clear mountain views. This is one of the two peak seasons for trekking.
                 </li>
                 <li>
-                  🍁 <strong>Autumn (September to November):</strong> Widely considered the best overall season. Stable weather, the clearest visibility of the year, and comfortable temperatures.
+                   <strong>Autumn (September to November):</strong> Widely considered the best overall season. Stable weather, the clearest visibility of the year, and comfortable temperatures.
                 </li>
                 <li>
                   ❄️ <strong>Winter (December to February):</strong> Days are mild and sunny, though nights turn very cold. Lower trekking routes remain accessible.
                 </li>
                 <li>
-                  ☔ <strong>Monsoon Season (June to August):</strong> Heavy, frequent rain and reduced mountain visibility. Trail conditions are less reliable.
+                   <strong>Monsoon Season (June to August):</strong> Heavy, frequent rain and reduced mountain visibility. Trail conditions are less reliable.
                 </li>
               </ul>
             </div>
@@ -573,13 +573,13 @@ export default function Page() {
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Tour:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
                   <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📝 Check trekking permit requirements (ACAP &amp; TIMS)
+                     Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
                   <Link href="/planning/pokhara-to-ghandruk" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🚙 View Pokhara to Ghandruk Transportation Guide
+                     View Pokhara to Ghandruk Transportation Guide
                   </Link>
                   <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🎒 Get the interactive packing checklist for your gear
+                     Get the interactive packing checklist for your gear
                   </Link>
                   <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
                     ☀️ Check seasonal weather conditions before you go

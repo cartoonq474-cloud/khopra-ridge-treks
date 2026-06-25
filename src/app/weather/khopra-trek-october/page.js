@@ -27,7 +27,7 @@ export default function Page() {
 
   const packingEssentials = [
     {
-      category: "🧥 Clothing & Layering Essentials",
+      category: " Clothing & Layering Essentials",
       items: [
         "Merino wool thermal base layers (essential for ridge nights)",
         "Breathable daytime trekking shirt & light fleece mid-layer",
@@ -46,7 +46,7 @@ export default function Page() {
       ]
     },
     {
-      category: "🎒 High-Altitude Stays & Accessories",
+      category: " High-Altitude Stays & Accessories",
       items: [
         "4-season sleeping bag (rated to around -10°C; rooms are unheated)",
         "Spare battery packs or power banks (cold drains electronics fast)",
@@ -159,7 +159,7 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-900 text-sm sm:text-base">🍁 Completely Dried Trails</h4>
+                <h4 className="font-bold text-stone-900 text-sm sm:text-base"> Completely Dried Trails</h4>
                 <p className="text-xs text-stone-500 leading-relaxed font-medium">
                   The mud and monsoon leeches are entirely gone by October. The trails underfoot dry out completely, providing a stable, firm walking surface through both dense forest paths and high pasture sections.
                 </p>
@@ -194,7 +194,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm sm:text-base">🌙 Nighttime Ridge Temp (-2°C to 4°C / 28°F to 39°F)</h4>
+                <h4 className="font-bold text-stone-955 text-sm sm:text-base"> Nighttime Ridge Temp (-2°C to 4°C / 28°F to 39°F)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed font-medium">
                   Once the sun drops, temperatures at Khopra Ridge fall quickly. This isn&apos;t a gradual cooling; it&apos;s a sharp drop driven by the open, exposed terrain and lack of tree cover. Community lodge rooms are unheated, so the indoor temperature is close to the outdoor reading. A heavyweight down jacket and sleeping bag rated for sub-zero conditions are essential.
                 </p>
@@ -449,13 +449,13 @@ export default function Page() {
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
                   <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📝 Check trekking permit requirements (ACAP &amp; TIMS)
+                     Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
                   <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    💰 Estimate your trip costs with our cost calculator
+                     Estimate your trip costs with our cost calculator
                   </Link>
                   <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🎒 Get the interactive packing checklist for your gear
+                     Get the interactive packing checklist for your gear
                   </Link>
                   <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
                     ☀️ Check seasonal weather conditions before you go

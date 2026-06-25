@@ -14,7 +14,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            📝 Permits &amp; Regulations
+             Permits &amp; Regulations
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Khopra Ridge Trek Permits &amp; Regulations: Fees, Requirements &amp; Rules
@@ -166,7 +166,7 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🎫 TIMS Card Requirements</h4>
+                <h4 className="font-bold text-stone-950 text-base"> TIMS Card Requirements</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The TIMS card is officially required by the Nepal Tourism Board to track trekker movements for safety. While some local checkpoints in the Annapurna region are currently not actively checking TIMS cards (focusing exclusively on ACAP), it remains a regulatory requirement and is typically arranged by your registered trekking agency to comply with government rules.
                 </p>
@@ -220,7 +220,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
               <div>
-                <h4 className="font-bold text-stone-900 text-base">💰 Additional Costs to Expect</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Additional Costs to Expect</h4>
                 <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1.5 mt-2">
                   <li>Passport photo printing if you arrive without spares.</li>
                   <li>Photocopying costs if you need extra copies on-site.</li>
@@ -229,7 +229,7 @@ export default function Page() {
               </div>
 
               <div>
-                <h4 className="font-bold text-stone-900 text-base font-sans">💳 Accepted Payment Methods</h4>
+                <h4 className="font-bold text-stone-900 text-base font-sans"> Accepted Payment Methods</h4>
                 <p className="mt-2 text-xs leading-relaxed text-stone-500">
                   Government permit offices in Kathmandu and Pokhara expect payment in <strong>Nepalese rupees, cash only</strong>. Credit and debit cards are not accepted, so plan to withdraw cash before your visit.
                 </p>
@@ -248,7 +248,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm">📋 Required Items Checklist</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Required Items Checklist</h4>
                 <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1 mt-2">
                   <li><strong>Original Passport:</strong> Required for identity verification.</li>
                   <li><strong>Two Passport Photocopies:</strong> Used for the permit application forms.</li>
@@ -258,7 +258,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm">📁 Passport Spares During Trek</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Passport Spares During Trek</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Keep a few extra photocopies of your passport and visa with you during the trek itself. Some checkpoints and teahouses ask to record passport details for registration purposes, and having spares means you do not have to hand over your original document repeatedly.
                 </p>
@@ -277,21 +277,21 @@ export default function Page() {
 
             <div className="space-y-4">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">📍 Nepal Tourism Board Office in Pokhara</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Nepal Tourism Board Office in Pokhara</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Located at Damside, Pokhara. This office is the most convenient option for most Khopra Ridge trekkers, since Pokhara is the typical starting point. It is open daily from 9:00 AM to 3:00 PM. Arriving early in the day gives you a buffer in case of queues.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">📍 Nepal Tourism Board Office in Kathmandu</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Nepal Tourism Board Office in Kathmandu</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Located at Bhrikutimandap, Kathmandu. If you want to sort your permits before heading to Pokhara, this office keeps the same hours: 9:00 AM to 3:00 PM, daily.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🤝 Getting Permits Through a Trekking Agency</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Getting Permits Through a Trekking Agency</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   If you are booking through a registered trekking agency or guide service, they can arrange your ACAP permit on your behalf. This removes the office visit from your to-do list entirely.
                 </p>
@@ -357,21 +357,21 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">🚮 Leave No Trace</h4>
+                <h4 className="font-bold text-stone-950 text-sm"> Leave No Trace</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   Pack out all non-biodegradable waste — do not burn or bury plastic. Avoid using non-biodegradable soaps or detergents near water sources.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm font-sans font-sans">🛬 Drone Regulations</h4>
+                <h4 className="font-bold text-stone-950 text-sm font-sans font-sans"> Drone Regulations</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   Flying drones within the ACAP requires prior approval from both the Civil Aviation Authority of Nepal (CAAN) and ACAP authorities. Unauthorized drone use can result in fines and confiscation.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h5 className="font-bold text-stone-950 text-sm">🔥 Campfire Rules</h5>
+                <h5 className="font-bold text-stone-950 text-sm"> Campfire Rules</h5>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   Open fires for cooking or warmth are restricted in many parts of the conservation area to protect forest cover. Stick to teahouses or gas/liquid fuel stoves.
                 </p>
@@ -389,7 +389,7 @@ export default function Page() {
             </p>
 
             <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-3">
-              <h4 className="font-bold text-stone-950 text-base">🛂 Checkpoint Verification Procedures</h4>
+              <h4 className="font-bold text-stone-950 text-base"> Checkpoint Verification Procedures</h4>
               <p className="text-xs text-stone-500 leading-relaxed">
                 At each checkpoint, officials will record your ACAP permit details, intended destination, and guide information against their registers. This is a critical safety practice that ensures rescue teams can track your movements in case of an emergency (such as altitude sickness or bad weather).
               </p>
@@ -418,7 +418,7 @@ export default function Page() {
               </div>
 
               <div>
-                <h4 className="font-bold text-stone-900 text-base font-sans font-sans">🚨 Penalties &amp; Fines</h4>
+                <h4 className="font-bold text-stone-900 text-base font-sans font-sans"> Penalties &amp; Fines</h4>
                 <p className="mt-2 text-xs leading-relaxed text-stone-500">
                   Trekking without a valid ACAP permit can result in on-the-spot fines, and you may be required to return to the nearest tourism office or checkpoint to obtain a permit before continuing. This causes a significant delay and double fees.
                 </p>
@@ -520,8 +520,8 @@ export default function Page() {
                   Get in touch to start planning &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

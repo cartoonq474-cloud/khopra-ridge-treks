@@ -89,7 +89,7 @@ export default function CostCalculator() {
                 : "bg-white border-stone-200 text-stone-600 hover:border-stone-300"
             }`}
           >
-            <span className="text-lg mb-1">🤠</span>
+            <span className="text-lg mb-1"></span>
             <span className="text-xs">Include Guide</span>
             <span className="text-[10px] text-stone-400 mt-0.5">${guideRate}/day</span>
           </button>
@@ -103,7 +103,7 @@ export default function CostCalculator() {
                 : "bg-white border-stone-200 text-stone-600 hover:border-stone-300"
             }`}
           >
-            <span className="text-lg mb-1">🎒</span>
+            <span className="text-lg mb-1"></span>
             <span className="text-xs">Include Porter</span>
             <span className="text-[10px] text-stone-400 mt-0.5">${porterRate}/day (Shared)</span>
           </button>
@@ -122,7 +122,7 @@ export default function CostCalculator() {
                   : "bg-white border-stone-200 text-stone-600 hover:border-stone-300 text-xs"
               }`}
             >
-              🚙 Private Jeep
+               Private Jeep
               <span className="block text-[10px] text-stone-400 mt-0.5">$140 (Group Split)</span>
             </button>
             <button
@@ -134,7 +134,7 @@ export default function CostCalculator() {
                   : "bg-white border-stone-200 text-stone-600 hover:border-stone-300 text-xs"
               }`}
             >
-              🚌 Public Bus
+               Public Bus
               <span className="block text-[10px] text-stone-400 mt-0.5">$15 / person</span>
             </button>
           </div>

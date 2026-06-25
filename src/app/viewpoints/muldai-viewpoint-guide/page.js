@@ -141,7 +141,7 @@ export default function Page() {
             {/* Quick Summary Grid */}
             <div className="mt-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
               <h3 className="text-lg font-bold text-stone-950 mb-4 flex items-center gap-2">
-                📋 Quick Facts: Muldai Viewpoint
+                 Quick Facts: Muldai Viewpoint
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
@@ -229,7 +229,7 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">🌅</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">One of Nepal&apos;s Best Sunrise Viewpoints</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The Annapurna region has no shortage of dramatic sunrises, but Muldai Viewpoint consistently ranks among the most rewarding. Because the ridge faces northeast and the terrain opens fully at the summit, there is nothing to interrupt the light as it breaks across the Himalayan range to the north.
@@ -251,7 +251,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">🔇</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">A Peaceful Alternative to Poon Hill</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   If you have visited Poon Hill in recent years, you will understand what overtourism does to a sunrise. The path up is often crowded from 4:00 a.m. onwards, with trekkers competing for space near the viewing tower.
@@ -262,7 +262,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">📸</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Ideal for Photography and Nature Lovers</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The combination of high elevation, open ridgeline, and multi-directional panorama makes Muldai one of the best photography destinations in the Annapurna foothills. The lack of visual obstruction makes it exceptionally photogenic.
@@ -312,7 +312,7 @@ export default function Page() {
 
             {/* Visibility by season table */}
             <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm overflow-hidden mt-6">
-              <h3 className="text-lg font-bold text-stone-950 mb-4">📊 Mountain Visibility by Season</h3>
+              <h3 className="text-lg font-bold text-stone-950 mb-4"> Mountain Visibility by Season</h3>
               <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse text-xs">
                   <thead>
@@ -513,14 +513,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🌸 Spring (March–May)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Spring (March–May)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Spring is arguably the most visually spectacular season. The rhododendron forests are in full bloom between late February and April, transforming the approach trail. Mountain views are generally good to excellent, particularly in the early morning before afternoon haze builds.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🍁 Autumn (September–November)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Autumn (September–November)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Autumn is the single best season for mountain views. The monsoon clears in late September, leaving exceptionally clean, dry air. Visibility on clear autumn mornings can be breathtaking. October and November offer comfortable temperatures and clear skies.
                 </p>
@@ -587,7 +587,7 @@ export default function Page() {
             {/* Local Guide Tips box */}
             <div className="bg-emerald-500/10 border border-emerald-500/20 rounded-3xl p-6 mt-6">
               <div className="flex gap-4">
-                <span className="text-2xl mt-0.5">💡</span>
+                <span className="text-2xl mt-0.5"></span>
                 <div>
                   <h4 className="font-black text-emerald-950 text-sm tracking-wide uppercase">Local Guide Tips for the Best Experience</h4>
                   <ul className="mt-3 space-y-1.5 text-xs text-stone-600 list-disc pl-5">
@@ -818,7 +818,7 @@ export default function Page() {
 
             {/* Seasonal light quality table */}
             <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm overflow-hidden mt-6">
-              <h3 className="text-lg font-bold text-stone-950 mb-4">📷 Seasonal Photography Conditions</h3>
+              <h3 className="text-lg font-bold text-stone-950 mb-4"> Seasonal Photography Conditions</h3>
               <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse text-xs">
                   <thead>
@@ -857,21 +857,21 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🎒 Packing Essentials</h4>
+                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Packing Essentials</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Insulated down jacket, fleece layer, waterproof outer shell, warm hat/gloves, thermal layers for cold ridge stays, sturdy broken-in boots, trekking poles, headlamp with extra batteries, sunscreen/sunglasses, and personal first-aid kits.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🚶 Safety &amp; Weather</h4>
+                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Safety &amp; Weather</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Never hike alone in the dark before sunrise. Check local weather conditions with Dobato lodge hosts before leaving. Stay hydrated at altitude, and keep your schedule flexible enough to allow a second sunrise attempt if needed.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🤝 Culture &amp; Respect</h4>
+                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Culture &amp; Respect</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Support locally-owned community lodges. Bring reusable water filters rather than purchasing single-use bottles. Ask before photographing villagers, dress modestly, and pack out all plastic and non-biodegradable waste.
                 </p>
@@ -995,8 +995,8 @@ export default function Page() {
                   Inquire About a Customized Trek &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

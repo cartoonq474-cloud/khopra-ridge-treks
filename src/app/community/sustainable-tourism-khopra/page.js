@@ -83,7 +83,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🌿 Regenerative &amp; Low-Impact
+             Regenerative &amp; Low-Impact
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl font-sans">
             Sustainable Tourism on the Khopra Ridge Trail
@@ -367,16 +367,16 @@ export default function Page() {
               
               <ul className="space-y-4 pl-4 border-l-2 border-emerald-500 text-stone-600">
                 <li>
-                  🥤 <strong>Avoid single-use plastic on trekking routes:</strong> Carry a reusable bottle along with purification tablets, such as chlorine dioxide, or a small UV sterilizer, instead of buying bottled mineral water at each stop.
+                   <strong>Avoid single-use plastic on trekking routes:</strong> Carry a reusable bottle along with purification tablets, such as chlorine dioxide, or a small UV sterilizer, instead of buying bottled mineral water at each stop.
                 </li>
                 <li>
-                  🎒 <strong>Follow Leave No Trace principles while trekking:</strong> Pack out everything you bring in, including energy bar wrappers, batteries, and other synthetic waste, and carry it to Pokhara or Kathmandu where it can actually be processed.
+                   <strong>Follow Leave No Trace principles while trekking:</strong> Pack out everything you bring in, including energy bar wrappers, batteries, and other synthetic waste, and carry it to Pokhara or Kathmandu where it can actually be processed.
                 </li>
                 <li>
-                  🥾 <strong>Stay on designated trails to reduce environmental damage:</strong> Shortcuts across switchbacks accelerate soil erosion on steep terrain that takes years to recover once disturbed.
+                   <strong>Stay on designated trails to reduce environmental damage:</strong> Shortcuts across switchbacks accelerate soil erosion on steep terrain that takes years to recover once disturbed.
                 </li>
                 <li>
-                  🤝 <strong>Respect local culture and support community businesses:</strong> Choose local dishes like dal bhat over imported alternatives, and ask permission before photographing people or sacred sites along the route.
+                   <strong>Respect local culture and support community businesses:</strong> Choose local dishes like dal bhat over imported alternatives, and ask permission before photographing people or sacred sites along the route.
                 </li>
               </ul>
               <p>
@@ -475,13 +475,13 @@ export default function Page() {
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Tour:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
                   <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📝 Check trekking permit requirements (ACAP &amp; TIMS)
+                     Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
                   <Link href="/planning/pokhara-to-ghandruk" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🚙 View Pokhara to Ghandruk Transportation Guide
+                     View Pokhara to Ghandruk Transportation Guide
                   </Link>
                   <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🎒 Get the interactive packing checklist for your gear
+                     Get the interactive packing checklist for your gear
                   </Link>
                   <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
                     ☀️ Check seasonal weather conditions before you go

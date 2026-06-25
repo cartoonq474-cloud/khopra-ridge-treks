@@ -76,12 +76,12 @@ export default function InteractiveChecklist() {
   };
 
   const categories = [
-    { key: "clothing", label: "Clothing & Layering", emoji: "👕" },
-    { key: "footwear", label: "Footwear & Socks", emoji: "🥾" },
-    { key: "gear", label: "Technical Gear", emoji: "🎒" },
-    { key: "sleeping", label: "Sleeping & Comfort", emoji: "🛌" },
-    { key: "medical", label: "Medical & Hygiene", emoji: "💊" },
-    { key: "documents", label: "Documents, Insurance & Cash", emoji: "📄" }
+    { key: "clothing", label: "Clothing & Layering", emoji: "" },
+    { key: "footwear", label: "Footwear & Socks", emoji: "" },
+    { key: "gear", label: "Technical Gear", emoji: "" },
+    { key: "sleeping", label: "Sleeping & Comfort", emoji: "" },
+    { key: "medical", label: "Medical & Hygiene", emoji: "" },
+    { key: "documents", label: "Documents, Insurance & Cash", emoji: "" }
   ];
 
   // Calculate overall progress
@@ -126,7 +126,7 @@ export default function InteractiveChecklist() {
         {/* Season Selector */}
         <div className="space-y-3">
           <label className="text-xs font-bold text-stone-400 uppercase tracking-wider block">
-            📅 Select Trekking Season
+             Select Trekking Season
           </label>
           <div className="flex bg-stone-100 p-1 rounded-2xl border border-stone-200">
             {[
@@ -152,7 +152,7 @@ export default function InteractiveChecklist() {
         {/* Support Style Selector */}
         <div className="space-y-3">
           <label className="text-xs font-bold text-stone-400 uppercase tracking-wider block">
-            🧗 Choose Trekking Style
+             Choose Trekking Style
           </label>
           <div className="flex bg-stone-100 p-1 rounded-2xl border border-stone-200">
             {[
@@ -247,7 +247,7 @@ export default function InteractiveChecklist() {
           onClick={resetChecklist}
           className="bg-stone-200 hover:bg-stone-300 text-stone-700 font-extrabold text-xs uppercase tracking-wider px-6 py-4 rounded-2xl transition duration-200 cursor-pointer"
         >
-          🔄 Reset Checklist
+           Reset Checklist
         </button>
       </div>
     </div>

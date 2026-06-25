@@ -14,7 +14,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🏡 Magar Community Node
+             Magar Community Node
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Swanta Village Trek Guide: Khopra Ridge Descent, Homestays &amp; Culture
@@ -155,7 +155,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🌲 Descent from Khopra Danda</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Descent from Khopra Danda</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Leaving Khopra Danda, the trail drops steadily through open ridge terrain before entering thick forest. As you lose elevation, rhododendron and oak trees gradually replace the bare alpine slopes, and the path narrows into a shaded forest track. The final stretch opens up into terraced fields and scattered lodges.
                 </p>
@@ -203,7 +203,7 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">🤝</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Magar Homestays</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Staying with a local Magar family offers a cozy, authentic experience. Rooms are basic with twin beds and warm blankets, but clean and well-kept. Hosts often share details about daily life and agricultural routines.
@@ -211,7 +211,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">🍲</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Teahouse Facilities</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Lodges offer comfortable twin rooms, wood-stove warmed dining halls, hot meals featuring organic local vegetables, basic device charging, and hot showers.
@@ -219,7 +219,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">🏫</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Community Support</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Swanta played a key role in launching the community lodge system. Profits from lodge stays directly fund Swanta High School teacher salaries, keeping secondary education accessible.
@@ -236,25 +236,25 @@ export default function Page() {
 
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">👨‍👩‍👧‍👦 Magar Community and Rural Lifestyle</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">‍‍‍ Magar Community and Rural Lifestyle</h4>
                 <p className="mt-1">
                   Swanta is primarily home to the Magar community, one of the indigenous ethnic groups of Nepal&apos;s hill regions. Daily life revolves around farming, livestock, and seasonal agricultural tasks. Swanta retains a quieter, more traditional atmosphere than busier hubs.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🌾 Terraced Farming and Agricultural Landscape</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Terraced Farming and Agricultural Landscape</h4>
                 <p className="mt-1">
                   The hillsides are shaped by terraced farming, with fields cut into the slopes to grow potatoes, barley, and maize. These terraces are one of the most visually striking features of the village, reflecting generations of mountain adaptation.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🧀 Yak Cheese Factory and Local Economy</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Yak Cheese Factory and Local Economy</h4>
                 <p className="mt-1">
                   Swanta is home to a community-run yak cheese factory. The cheese is sold locally and along the trekking route, providing a diversified income stream beyond farming and supporting the local economy.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🏫 Community Development and Education</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Community Development and Education</h4>
                 <p className="mt-1">
                   The community-run lodge network revenue covers the local high school teacher salaries, eliminating the need for kids to walk hours to Ghorepani. This successful model has become a reference point for nearby villages.
                 </p>
@@ -411,8 +411,8 @@ export default function Page() {
                   Inquire &amp; Book Today &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

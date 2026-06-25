@@ -15,7 +15,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)] print:hidden" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6 print:hidden">
-            🎒 Gear &amp; Equipment
+             Gear &amp; Equipment
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl print:text-black print:text-3xl">
             Interactive Trek Packing Checklist
@@ -136,13 +136,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-base">📅 Select Your Trekking Season</h4>
+                <h4 className="font-bold text-stone-955 text-base"> Select Your Trekking Season</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Your trekking season has the biggest impact on what you need to pack. Selecting the correct season adjusts the checklist automatically, so items like heavy down jackets or waterproof covers only appear when they are actually relevant.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-base">🎒 Choose Your Trekking Style</h4>
+                <h4 className="font-bold text-stone-955 text-base"> Choose Your Trekking Style</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Decide whether you are trekking with guided porter support or carrying your own gear as a solo trekker. This changes how much weight you personally need to manage and which items move from &quot;essential&quot; to &quot;optional.&quot;
                 </p>
@@ -151,7 +151,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-base">📈 Track Your Packing Progress</h4>
+                <h4 className="font-bold text-stone-955 text-base"> Track Your Packing Progress</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   As you check off items, the progress bar updates in real time. Aiming to reach 100% before you leave home gives you a clear, visual confirmation that nothing essential has been missed.
                 </p>
@@ -176,35 +176,35 @@ export default function Page() {
 
             <div className="space-y-4">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">👕 Clothing and Layering Essentials</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Clothing and Layering Essentials</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Trekking clothing works best as a system of layers rather than a few bulky items. A typical layering system includes a base layer, a mid layer, and an outer shell, each serving a different purpose. Moisture-wicking thermal clothing is preferred over cotton because it manages sweat. Fleece jackets provide insulation, down jackets provide thermal warmth in cold evenings, and waterproof shells shield you from mountain winds and rain.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🥾 Footwear and Trekking Socks</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Footwear and Trekking Socks</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Footwear is one area where it pays to invest in quality and proper fit. Sturdy trekking shoes or hiking boots with good ankle support are essential for uneven trails, loose rocks, and steep descents. Make sure your boots are well broken-in before departure to avoid trail-stopping blisters. Pair them with moisture-wicking cushioned wool trekking socks and lightweight liner socks.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🎒 Technical Trekking Gear</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Technical Trekking Gear</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Trekking poles reduce joint impact, particularly on long descents, while a headlamp is essential for early starts and moving around teahouses after dark. Keep a high-capacity power bank packed to recharge electronics, and carry sturdy wide-mouth water bottles or a hydration bladder to support your daily hydration goals.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🛌 Sleeping Equipment and Comfort Items</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Sleeping Equipment and Comfort Items</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   While blankets are typically provided at mountain teahouses, they might not be sufficient during colder months. Bringing your own sleeping bag rated to the conditions ensures you stay comfortable. Combine it with a breathable sleeping bag liner for hygiene and an extra thermal layer.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">💊 Medical, Hygiene, Documents &amp; Cash</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Medical, Hygiene, Documents &amp; Cash</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Pack a basic first aid kit, water purification tablets, high SPF sunscreen, hand sanitizer, and altitude sickness medication. Most importantly, keep your original passport, ACAP and TIMS permits, insurance policy documents, and cash in Nepalese Rupees secured in a waterproof document pouch. Card readers and ATMs are nonexistent on the trail.
                 </p>
@@ -223,7 +223,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm">🌸 Spring &amp; Autumn</h4>
+                <h4 className="font-bold text-stone-955 text-sm"> Spring &amp; Autumn</h4>
                 <p className="text-[10px] text-stone-500 leading-relaxed font-medium">
                   Expect clear skies and moderate trekking temperatures. Focus on a versatile layering system that handles hot days and chilly nights, with a midweight down jacket for cold ridge evenings.
                 </p>
@@ -254,14 +254,14 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2 text-stone-650 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-900 text-base">🎒 Guided Trekking (With Porter)</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Guided Trekking (With Porter)</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   Porters carry the main weight (in a duffel bag, typically capped around 10-15kg per trekker). You only carry a lightweight daypack (5-8kg) containing your immediate items like water, layer modifications, camera, and sunscreen.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-900 text-base">🧗 Solo Trekking (Self-Carry)</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Solo Trekking (Self-Carry)</h4>
                 <p className="mt-2 text-xs text-stone-500 leading-relaxed">
                   Solo trekkers must be extremely disciplined. Pack weight must stay within 10-15kg. You will require a heavier, properly fitted internal frame backpack (50L-65L) and must carry your own sleeping bag and winter clothes.
                 </p>
@@ -280,7 +280,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm">🧥 Wind &amp; Cold Layering</h4>
+                <h4 className="font-bold text-stone-955 text-sm"> Wind &amp; Cold Layering</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Wind chill at Khopra Ridge (3,660m) or Khayer Lake (4,660m) can drop temperatures instantly. Keep a windproof layer accessible.
                 </p>
@@ -292,13 +292,13 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm">💧 Hydration &amp; Filtration</h4>
+                <h4 className="font-bold text-stone-955 text-sm"> Hydration &amp; Filtration</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Dehydration worsens altitude sickness. Bring water bottles/bladders and chlorine dioxide tablets or filters.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm">🚨 Emergency Backup Items</h4>
+                <h4 className="font-bold text-stone-955 text-sm"> Emergency Backup Items</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Carry spare headlamp batteries, altitude medications (Diamox), and extra thermal socks.
                 </p>
@@ -377,21 +377,21 @@ export default function Page() {
             </h2>
             <div className="grid gap-6 md:grid-cols-3 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-905 text-sm">🧣 Small Items, Big Help</h4>
+                <h4 className="font-bold text-stone-905 text-sm"> Small Items, Big Help</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   Buff (neck gaiter), earplugs for noisy wooden rooms, and moisturizing lip balm with UV block.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-905 text-sm">👞 Comfort Essentials</h4>
+                <h4 className="font-bold text-stone-905 text-sm"> Comfort Essentials</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   Light camp shoes (sandals or slip-ons), a quick-dry microfiber towel, and organizing packing cubes.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-905 text-sm">💊 Guides Backup Picks</h4>
+                <h4 className="font-bold text-stone-905 text-sm"> Guides Backup Picks</h4>
                 <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
                   Water purification tablets backup, a spare pair of gloves, and dry thermal socks.
                 </p>
@@ -515,13 +515,13 @@ export default function Page() {
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
                   <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📝 Check trekking permit requirements (ACAP &amp; TIMS)
+                     Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
                   <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    💰 Estimate your trip costs with our cost calculator
+                     Estimate your trip costs with our cost calculator
                   </Link>
                   <Link href="/altitude/khopra-trek-altitude-guide" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📈 Review the elevation and altitude chart for your route
+                     Review the elevation and altitude chart for your route
                   </Link>
                   <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
                     ☀️ Check seasonal weather conditions before you go

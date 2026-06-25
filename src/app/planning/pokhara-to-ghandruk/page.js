@@ -35,7 +35,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🚙 Logistics Guide
+             Logistics Guide
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Pokhara to Ghandruk Transportation Guide
@@ -348,13 +348,13 @@ export default function Page() {
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
               <ul className="space-y-3 text-xs text-stone-500">
                 <li>
-                  👤 <strong>Solo Travellers:</strong> A shared jeep from Hari Chowk is the best balance of cost and speed, keeping fares reasonable while avoiding the long local bus ride.
+                   <strong>Solo Travellers:</strong> A shared jeep from Hari Chowk is the best balance of cost and speed, keeping fares reasonable while avoiding the long local bus ride.
                 </li>
                 <li>
-                  👥 <strong>Couples:</strong> Splitting a private jeep brings the cost to roughly $30-$35 per person, making it an excellent trade-off for direct hotel pickup and luggage convenience.
+                   <strong>Couples:</strong> Splitting a private jeep brings the cost to roughly $30-$35 per person, making it an excellent trade-off for direct hotel pickup and luggage convenience.
                 </li>
                 <li>
-                  👨‍👩‍👧‍👦 <strong>Families &amp; Trekking Groups:</strong> A private 4WD jeep is the clear choice. It handles heavy bags easily, departs at your exact preferred time, and provides safety and comfort on bumpy roads.
+                  ‍‍‍ <strong>Families &amp; Trekking Groups:</strong> A private 4WD jeep is the clear choice. It handles heavy bags easily, departs at your exact preferred time, and provides safety and comfort on bumpy roads.
                 </li>
               </ul>
             </div>
@@ -534,13 +534,13 @@ export default function Page() {
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
                   <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📝 Check trekking permit requirements (ACAP &amp; TIMS)
+                     Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
                   <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    💰 Estimate your trip costs with our cost calculator
+                     Estimate your trip costs with our cost calculator
                   </Link>
                   <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🎒 Get the interactive packing checklist for your gear
+                     Get the interactive packing checklist for your gear
                   </Link>
                   <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
                     ☀️ Check seasonal weather conditions before you go

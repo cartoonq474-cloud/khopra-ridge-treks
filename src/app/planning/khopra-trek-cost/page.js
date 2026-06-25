@@ -15,7 +15,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            💰 Pricing &amp; Budget Guide
+             Pricing &amp; Budget Guide
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Khopra Trek Cost: Complete Budget Breakdown for Every Traveler
@@ -129,19 +129,19 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🎒 Budget (Independent)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Budget (Independent)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Independent trekkers who skip a guide, stay in basic teahouses, and eat local meals typically spend $25 to $40 per day. For a 7-day trek, that puts the total around $200 to $300, plus permit fees and transportation. This works well for experienced, self-reliant hikers.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🤠 Mid-Range (Guided)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Mid-Range (Guided)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Most travelers fall here. A mid-range budget of $40 to $70 per day typically includes a local guide, slightly better food choices, and the occasional upgrade to a private room. Over 7 days, expect to spend roughly $350 to $550.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">✨ Comfort &amp; Private</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Comfort &amp; Private</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   If you want a private guide, dedicated porter, private transport, and the best available rooms along the route, budget $70 to $120 per day. A 7-day trek in this style typically lands between $600 and $1,200.
                 </p>
@@ -195,25 +195,25 @@ export default function Page() {
 
             <div className="space-y-4">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">📅 Trek Duration</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Trek Duration</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Most itineraries run 5 to 9 days depending on whether side trips like Khayer Lake are included. A 5-day trek naturally costs less overall than a 9-day version, since it reduces nights of accommodation and meals, which add up quickly.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🤠 Independent vs Guided Trekking</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Independent vs Guided Trekking</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Trekking independently removes guide fees entirely. Guided trekking adds $20 to $35 per day but often pays for itself in time saved, reduced stress, and increased safety.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">👥 Group Size</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Group Size</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Solo trekkers absorb the full cost of transportation, guides, and porters on their own. Couples and small groups can split jeep fares, share a porter, and sometimes negotiate better rates on guesthouse rooms, reducing per-person costs by 15% to 25%.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🍂 Season of Travel</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Season of Travel</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Autumn (September to November) and spring (March to May) are peak seasons, when teahouse prices and transportation costs sit at the higher end of the range. Winter and monsoon months are quieter, and some lodges offer lower rates.
                 </p>
@@ -300,7 +300,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🏡 Teahouse Accommodation</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Teahouse Accommodation</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Most nights are spent in teahouses (basic family-run guesthouses). A standard room costs $5 to $10 per night at lower elevations, rising to $10 to $20 per night closer to the ridge where supplies are harder to bring in.
                 </p>
@@ -349,19 +349,19 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🤠 Licensed Guide</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Licensed Guide</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   A certified guide typically costs $20 to $30 per day. When booked via an agency, this usually includes their wages, insurance, food, and lodging.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🎒 Shared Porter</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Shared Porter</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   A porter costs $15 to $20 per day and carries up to 15-20kg, which can be split between two trekkers&apos; bags.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🥾 Guide-Porter</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Guide-Porter</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   A single guide-porter carries some gear and guides the route. This role costs $25 to $35 per day, offering a cost-effective compromise.
                 </p>
@@ -384,13 +384,13 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-3">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🎒 Independent Trek ($195–$495)</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Independent Trek ($195–$495)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Includes permits ($45), basic lodging ($35–$140 for 7 nights), food &amp; drinks ($105–$245), and local transport ($30–$80). Requires full self-reliance and navigating routes on your own.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-3">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base font-sans font-sans">🤠 Guided Trek ($440–$845)</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base font-sans font-sans"> Guided Trek ($440–$845)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Adds guide fees ($140–$210) and porter fees ($105–$140), bringing the total to $440–$845. Group splits on guide fees can bring this closer to the independent range.
                 </p>
@@ -409,19 +409,19 @@ export default function Page() {
 
             <div className="space-y-4">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🥉 Budget Packages ($400–$600)</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Budget Packages ($400–$600)</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Typically covers permits, a local guide, basic teahouse accommodation, and standard meals. Excludes porters and private transport.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base font-sans">🥈 Standard Packages ($600–$900)</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base font-sans"> Standard Packages ($600–$900)</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Adds a porter, slightly more comfortable accommodation choices, and sometimes private transportation to the trailhead.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">🥇 Premium Packages ($900–$1,400)</h4>
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Premium Packages ($900–$1,400)</h4>
                 <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
                   Includes a private guide and porter, the best available rooms along the route, private transportation both ways, and extras like airport pickups.
                 </p>
@@ -437,7 +437,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🎒 Backpacker Style</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Backpacker Style</h4>
                 <ul className="text-xs text-stone-500 space-y-1">
                   <li>Lodging: $6–$10</li>
                   <li>Meals: $15–$20</li>
@@ -447,7 +447,7 @@ export default function Page() {
                 </ul>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🤠 Mid-Range Style</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Mid-Range Style</h4>
                 <ul className="text-xs text-stone-500 space-y-1">
                   <li>Private Room: $8–$15</li>
                   <li>Meals: $20–$28</li>
@@ -457,7 +457,7 @@ export default function Page() {
                 </ul>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">✨ Comfort Style</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Comfort Style</h4>
                 <ul className="text-xs text-stone-500 space-y-1">
                   <li>Premium Room: $15–$20</li>
                   <li>Meals: $25–$35</li>
@@ -479,7 +479,7 @@ export default function Page() {
             </p>
 
             <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-4">
-              <h4 className="font-bold text-stone-950 text-base">⚡ Common Trail Surcharges</h4>
+              <h4 className="font-bold text-stone-950 text-base"> Common Trail Surcharges</h4>
               <ul className="list-disc pl-5 text-xs text-stone-500 space-y-2 leading-relaxed">
                 <li><strong>Travel Insurance ($50–$150):</strong> Must cover trekking up to 4,660m and medical evacuation by helicopter.</li>
                 <li><strong>Gear Rental ($1–$3/day):</strong> Sleeping bags, down jackets, and poles can be rented cheaply in Pokhara.</li>
@@ -501,19 +501,19 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🙋 Solo Trekkers</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Solo Trekkers</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Carry roughly $250 to $450 in local currency (NPR) cash, covering all lodging, food, and miscellaneous expenses.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">👫 Couples</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Couples</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Sharing rooms reduces room costs, so carry roughly $400 to $700 combined cash for two people over a 7-day loop.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">👥 Small Groups</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Small Groups</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Split transport and guide fees, bringing cash requirements to about $300 to $500 per person.
                 </p>
@@ -579,7 +579,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
               <div>
-                <h4 className="font-bold text-stone-900 text-base">💡 Value Hacks</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Value Hacks</h4>
                 <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1.5 mt-2">
                   <li><strong>Trek in Shoulder Seasons:</strong> Early spring or late autumn offers cheaper rooms.</li>
                   <li><strong>Share Jeep Transfers:</strong> Split private jeeps between 3-4 people to match bus rates.</li>
@@ -588,7 +588,7 @@ export default function Page() {
               </div>
 
               <div>
-                <h4 className="font-bold text-stone-900 text-base">🎒 Booking Advice</h4>
+                <h4 className="font-bold text-stone-900 text-base"> Booking Advice</h4>
                 <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1.5 mt-2">
                   <li><strong>Use Shared Porters:</strong> One porter can carry bags for two people, cutting fees.</li>
                   <li><strong>Book via Local Operators:</strong> Avoid foreign agency markup by booking directly in Nepal.</li>
@@ -691,8 +691,8 @@ export default function Page() {
                   Inquire &amp; Customize Itinerary &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

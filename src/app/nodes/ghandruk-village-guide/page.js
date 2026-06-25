@@ -14,7 +14,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🏡 Cultural Capital Gateway
+             Cultural Capital Gateway
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             Ghandruk Village: Complete Guide to Annapurna&apos;s Gurung Cultural Capital
@@ -129,7 +129,7 @@ export default function Page() {
             {/* Quick Facts Grid */}
             <div className="mt-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
               <h3 className="text-lg font-bold text-stone-950 mb-4 flex items-center gap-2">
-                📋 Quick Facts About Ghandruk Village
+                 Quick Facts About Ghandruk Village
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
@@ -232,7 +232,7 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">🤝</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">The Gurung Community and Their Heritage</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The Gurung people are one of Nepal&apos;s prominent indigenous ethnic groups, with a long history rooted in the hills of the Annapurna region. Ghandruk is considered one of the largest and most culturally intact Gurung settlements. Daily life in Ghandruk still revolves heavily around agriculture and livestock, alongside tourism-related work like running homestays and guiding services.
@@ -248,7 +248,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">🏠</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Traditional Architecture and Village Design</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   One of the first things visitors notice is Ghandruk&apos;s cohesive architecture. Houses are built from local stone, topped with slate roofs that have a distinctive grey-blue tone, and connected by a network of stone-paved paths. Small details reflect this traditional design: covered porches, carved wooden window frames, and small courtyards.
@@ -256,7 +256,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
-                <span className="text-2xl">🌾</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Festivals, Traditions, and Everyday Life</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Gurung communities in Ghandruk observe several important cultural festivals throughout the year, many tied to the agricultural calendar. Everyday life follows rhythms shaped by farming and the seasons. Mornings start early, with villagers heading to fields or tending livestock before tourism-related work begins.
@@ -279,25 +279,25 @@ export default function Page() {
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🥾 Walk Through the Traditional Stone-Paved Streets</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Walk Through the Traditional Stone-Paved Streets</h4>
                 <p className="mt-1">
                   Simply walking through Ghandruk is one of the best things to do. The stone-paved lanes wind between houses, past small shops and courtyards, offering constant photo opportunities. You&apos;ll see locals carrying goods, children walking to school, and animals being herded along the paths.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🎭 Experience Local Gurung Culture</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Experience Local Gurung Culture</h4>
                 <p className="mt-1">
                   Some guesthouses and community groups occasionally organize cultural programs, including traditional dance performances, for visitors. Staying in a homestay naturally opens the door to cultural exchange.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">📸 Enjoy Mountain Photography Opportunities</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Enjoy Mountain Photography Opportunities</h4>
                 <p className="mt-1">
                   Ghandruk is a prime photography location. Annapurna South and Machhapuchhre dominate the skyline on clear days, and the contrast between traditional stone rooftops and snow-capped mountains makes for striking compositions. Early morning is the best time for photography here.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🍲 Try Traditional Gurung Food</h4>
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Try Traditional Gurung Food</h4>
                 <p className="mt-1">
                   Most guesthouses serve Dal Bhat — Nepal&apos;s staple meal — often made with ingredients grown locally. Depending on where you stay, you may also try regional Gurung specialties, locally made pickles, dairy products, and seasonal vegetables.
                 </p>
@@ -378,13 +378,13 @@ export default function Page() {
 
               <div className="grid gap-6 md:grid-cols-2">
                 <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                  <h4 className="font-bold text-stone-950 text-base">🛞 Reaching Ghandruk by Jeep</h4>
+                  <h4 className="font-bold text-stone-950 text-base"> Reaching Ghandruk by Jeep</h4>
                   <p className="text-xs text-stone-500 leading-relaxed">
                     The most common way to reach Ghandruk is by jeep from Pokhara, a journey that typically takes around three hours. Jeeps can be hired privately or shared. The route winds through hill villages before climbing. Sturdy 4x4 vehicles and experienced drivers make a real difference in comfort.
                   </p>
                 </div>
                 <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                  <h4 className="font-bold text-stone-950 text-base">🚌 Public Transportation Options</h4>
+                  <h4 className="font-bold text-stone-950 text-base"> Public Transportation Options</h4>
                   <p className="text-xs text-stone-500 leading-relaxed">
                     For travelers on a tighter budget, local buses and shared jeeps operate on routes toward Ghandruk, though schedules are less predictable. These options usually involve a bus journey to a nearby hub followed by a jeep or walking segment into the village.
                   </p>
@@ -461,14 +461,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🌸 Spring (March to May)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Spring (March to May)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Rhododendron forests in the surrounding hills bloom during this period, adding vivid color to the landscape. Daytime temperatures are mild and mountain visibility is good, especially early in the day.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🍁 Autumn (September to November)</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Autumn (September to November)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Autumn is widely considered the best time for mountain views. Skies are typically clear, offering reliable views of Annapurna South, Machhapuchhre, and Hiunchuli. Trails are busier during this peak season.
                 </p>
@@ -505,21 +505,21 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🎒 What to Pack</h4>
+                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> What to Pack</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Layered clothing for varying temperatures, warm jacket, comfortable walking shoes for cobbled paths, rain protection for spring/monsoon, and a camera or phone for viewpoints.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🔌 Power &amp; Cash</h4>
+                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Power &amp; Cash</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Electricity is generally reliable, and Wi-Fi is widely available (speeds vary). ATMs are not reliably available in the village, so carry sufficient cash in Nepalese Rupees.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🤝 Responsible Tourism</h4>
+                <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Responsible Tourism</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Choose community-run homestays or locally owned guesthouses. Minimize plastic waste, respect local custom (ask before photographing), and support local shops.
                 </p>
@@ -643,8 +643,8 @@ export default function Page() {
                   Inquire &amp; Book Today &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

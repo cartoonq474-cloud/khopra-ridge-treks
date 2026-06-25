@@ -27,7 +27,7 @@ export default function Page() {
 
   const packingEssentials = [
     {
-      category: "🧥 Warm Clothing & Layering Essentials",
+      category: " Warm Clothing & Layering Essentials",
       items: [
         "High-loft down jacket (rated to at least -10°C, rooms are unheated)",
         "Merino wool thermal base layers (worn at night and early starts)",
@@ -37,7 +37,7 @@ export default function Page() {
       ]
     },
     {
-      category: "🎒 Cold-Weather Sleeping & Trekking Gear",
+      category: " Cold-Weather Sleeping & Trekking Gear",
       items: [
         "Four-season sleeping bag (rated comfortably below freezing; -10°C is best)",
         "Trekking poles (essential for frosty mornings and dry switchbacks)",
@@ -46,7 +46,7 @@ export default function Page() {
       ]
     },
     {
-      category: "📷 Sun Protection & Accessories",
+      category: " Sun Protection & Accessories",
       items: [
         "SPF 50+ sunscreen & high-protection UV sunglasses",
         "Wide-brimmed sun hat & moisturizing lip balm",
@@ -163,7 +163,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm sm:text-base">🌙 Ridge Nighttime (-6°C to 0°C / 21°F to 32°F)</h4>
+                <h4 className="font-bold text-stone-955 text-sm sm:text-base"> Ridge Nighttime (-6°C to 0°C / 21°F to 32°F)</h4>
                 <p className="text-xs text-stone-500 leading-relaxed font-medium">
                   Once the sun drops, the ridge cools quickly. Biting winds can add a serious wind chill factor. Since local lodges are unheated, a heavyweight down jacket rated to -10°C and a sub-zero rated sleeping bag are mandatory for comfortable nights.
                 </p>
@@ -398,13 +398,13 @@ export default function Page() {
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
                   <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    📝 Check trekking permit requirements (ACAP &amp; TIMS)
+                     Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
                   <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    💰 Estimate your trip costs with our cost calculator
+                     Estimate your trip costs with our cost calculator
                   </Link>
                   <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    🎒 Get the interactive packing checklist for your gear
+                     Get the interactive packing checklist for your gear
                   </Link>
                   <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
                     ☀️ Check seasonal weather conditions before you go

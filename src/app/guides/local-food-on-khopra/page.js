@@ -5,7 +5,7 @@ export default function Page() {
   const menuCategories = [
     {
       name: "Breakfast Items",
-      icon: "🍳",
+      icon: "",
       items: [
         { name: "Buckwheat Porridge (Tsampa)", desc: "Slow-release energy crop grown locally in the Swanta valley." },
         { name: "Tibetan Bread", desc: "Deep-fried local flatbread served with forest honey." },
@@ -14,7 +14,7 @@ export default function Page() {
     },
     {
       name: "Lunch & Dinner",
-      icon: "🍛",
+      icon: "",
       items: [
         { name: "Dal Bhat (Classic)", desc: "Rice, lentil soup, curried local greens (Saag), and spicy pickles. Unlimited refills." },
         { name: "Garlic Soup", desc: "Thin local garlic broth highly recommended by guides to combat altitude sickness." },

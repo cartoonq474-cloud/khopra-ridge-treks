@@ -138,7 +138,7 @@ export default function Page() {
             {/* Comparison Table */}
             <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm overflow-hidden mt-8">
               <h3 className="text-lg font-bold text-stone-950 mb-4 flex items-center gap-2">
-                📊 Quick Comparison Table
+                 Quick Comparison Table
               </h3>
               <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse text-xs">
@@ -183,14 +183,14 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <span className="text-2xl">🌱</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base mt-2">Beginners &amp; Families</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   <strong>Poon Hill</strong> is best for first-timers and families with limited time. Its short, well-marked trail and gentle overall physical demand fit comfortably into a 3–4 day window from Pokhara.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <span className="text-2xl">📸</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base mt-2">Photographers &amp; Solitude</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   <strong>Khopra Ridge</strong> is by far the superior choice. The extreme proximity to major peaks, clean foregrounds, and lack of crowds in your frame allow for original, deep compositions.
@@ -304,7 +304,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🌅 Sunrise at Poon Hill</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Sunrise at Poon Hill</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Sunrise at Poon Hill is, by design, a shared event. Trekkers begin climbing in the dark, often in long lines of headlamps snaking up the stone steps from Ghorepani. By the time the sky starts to lighten, the summit platform and surrounding viewpoints fill with anywhere from 300 to 500+ people during high season.
                 </p>
@@ -314,7 +314,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🌅 Sunrise at Khopra Ridge</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Sunrise at Khopra Ridge</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Sunrise at Khopra Ridge is a fundamentally different experience. Because you&apos;re already sleeping at altitude on the ridge itself, there&apos;s no pre-dawn climb — you step outside your lodge and the view is simply there.
                 </p>
@@ -362,7 +362,7 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <span className="text-2xl">🌅</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base mt-2">Sunrise Photography</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   At Poon Hill, sunrise photography means working around crowds. Getting an unobstructed foreground requires arriving extremely early. At Khopra Ridge, the same sunrise light falls across a much less congested scene. Photographers can move along the ridge to find different foregrounds (lodges, prayer flags, rocks) without needing to fight for space.
@@ -370,7 +370,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <span className="text-2xl">📷</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base mt-2">Landscape Potential</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Poon Hill&apos;s strength is its panoramic compositions — wide shots that include multiple peaks in a single frame. Khopra Ridge&apos;s strength is detail-rich compositions: close crops of Dhaulagiri&apos;s ice formations, ridge-line silhouettes, and foreground elements like rhododendron or stone houses set against a massive mountain backdrop.
@@ -378,7 +378,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <span className="text-2xl">🌌</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base mt-2">Astrophotography</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Khopra Ridge has a clear practical advantage. Its remoteness means minimal light pollution, making it exceptionally suitable for night sky and Milky Way photography. Poon Hill sits closer to the lit-up teahouses of Ghorepani and sees far more headlamp activity during pre-dawn hours.
@@ -417,14 +417,14 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🚶 Reaching Poon Hill</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Reaching Poon Hill</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Poon Hill is reached via a well-established route through Ghorepani, typically as part of a 3–4 day loop from Pokhara. The final climb to the viewpoint itself is a steep but short ascent on stone steps, taking most trekkers 45 minutes to an hour. Trail infrastructure makes this one of the most beginner-friendly viewpoint treks in Nepal.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-base">🥾 Reaching Khopra Ridge</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Reaching Khopra Ridge</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   Reaching Khopra Ridge requires considerably more commitment — typically 4–5 days of trekking from access points like Ghandruk or Swanta, with sustained, steady climbing on less-developed trails. The altitude gain is significant, and trekkers should be comfortable with multiple consecutive days of uphill walking at elevation.
                 </p>
@@ -686,8 +686,8 @@ export default function Page() {
                   Talk to a Local Trek Planner &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

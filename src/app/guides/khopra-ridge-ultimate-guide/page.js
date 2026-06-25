@@ -129,7 +129,7 @@ export default function Page() {
             {/* Quick Summary Grid */}
             <div className="mt-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
               <h3 className="text-lg font-bold text-stone-950 mb-4 flex items-center gap-2">
-                📋 Khopra Ridge Trek at a Glance
+                 Khopra Ridge Trek at a Glance
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
@@ -190,7 +190,7 @@ export default function Page() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
               <div className="bg-white border border-stone-200 rounded-2xl p-6 hover:shadow-md transition duration-200">
-                <div className="w-10 h-10 bg-emerald-100 text-emerald-800 rounded-xl flex items-center justify-center font-bold text-lg mb-4">🔇</div>
+                <div className="w-10 h-10 bg-emerald-100 text-emerald-800 rounded-xl flex items-center justify-center font-bold text-lg mb-4"></div>
                 <h4 className="font-bold text-stone-900 text-base">Less Crowded Than Mainstream Treks</h4>
                 <p className="mt-3 text-xs text-stone-500 leading-relaxed">
                   The Annapurna Circuit and the ABC route together receive tens of thousands of trekkers each year. Poon Hill is genuinely busy during peak months. Khopra Ridge draws a fraction of that traffic. The trail is quieter, the lodges are calmer, and the experience is more personal. You are not sharing the ridge at sunrise with hundreds of other people. You are watching the light hit Dhaulagiri in near-silence.
@@ -204,7 +204,7 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 rounded-2xl p-6 hover:shadow-md transition duration-200">
-                <div className="w-10 h-10 bg-emerald-100 text-emerald-800 rounded-xl flex items-center justify-center font-bold text-lg mb-4">🤝</div>
+                <div className="w-10 h-10 bg-emerald-100 text-emerald-800 rounded-xl flex items-center justify-center font-bold text-lg mb-4"></div>
                 <h4 className="font-bold text-stone-900 text-base">Community Lodge &amp; Local Character</h4>
                 <p className="mt-3 text-xs text-stone-500 leading-relaxed">
                   The Khopra Ridge circuit is served by community-managed lodges operated by local Gurung and Magar families. Staying at these lodges puts income directly into the hands of trail communities, supports Annapurna Conservation Area maintenance, and gives the trek a grounded, local character that feels very different from the more commercialized teahouse strips on the ABC approach.
@@ -247,7 +247,7 @@ export default function Page() {
             </div>
 
             <div className="mt-12">
-              <h3 className="text-xl font-bold text-stone-950 mb-6">📉 Interactive Route Elevation Path</h3>
+              <h3 className="text-xl font-bold text-stone-950 mb-6"> Interactive Route Elevation Path</h3>
               <ElevationProfile />
             </div>
 
@@ -594,19 +594,19 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wider border-b border-stone-100 pb-2 mb-3">🥾 Footwear</h4>
+                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wider border-b border-stone-100 pb-2 mb-3"> Footwear</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Waterproof trekking boots with good ankle support. Break them in before you arrive. Trekking poles are highly recommended to save knees on the steep descent from Khopra Ridge down to Swanta.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wider border-b border-stone-100 pb-2 mb-3">🩹 Safety &amp; Health</h4>
+                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wider border-b border-stone-100 pb-2 mb-3"> Safety &amp; Health</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   First-aid kit, personal medications, altitude sickness medication (Diamox if prescribed), lip balm, high-SPF sunscreen, rehydration salts, and water purification tablets or light filter. (Bottled water is expensive and generates plastic waste).
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wider border-b border-stone-100 pb-2 mb-3">🎒 Accessories</h4>
+                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wider border-b border-stone-100 pb-2 mb-3"> Accessories</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Quality headlamp with extra batteries (crucial for early starts), reusable water bottles, dry bags for documents/passport, and sufficient cash in Nepali Rupees. (There are no ATMs on the trail after Pokhara).
                 </p>
@@ -765,8 +765,8 @@ export default function Page() {
                   Get in Touch &amp; Request Quote
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Based in Pokhara, Nepal</span>
-                  <span>💬 Free cancellation &amp; flexible changes</span>
+                  <span> Based in Pokhara, Nepal</span>
+                  <span> Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>

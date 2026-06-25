@@ -141,7 +141,7 @@ export default function Page() {
             {/* Quick Summary Grid */}
             <div className="bg-white border border-stone-200 rounded-3xl p-6 mt-8 shadow-sm">
               <h3 className="text-lg font-bold text-stone-950 mb-4 flex items-center gap-2">
-                📋 Trek Highlights at a Glance
+                 Trek Highlights at a Glance
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
@@ -171,13 +171,13 @@ export default function Page() {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🌄 Experience the Famous Poon Hill Sunrise</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Experience the Famous Poon Hill Sunrise</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Poon Hill (3,210m) has earned its reputation for good reason. The pre-dawn climb from Ghorepani is one of Nepal&apos;s most photographed moments — torches flickering in the dark, the air sharp and cold, and then a skyline that ignites with colour as the sun crests the ridge and illuminates Annapurna South, Dhaulagiri I, Hiunchuli, Nilgiri, and Machhapuchhre all at once. Including Poon Hill ensures you start the trek with one of Nepal&apos;s greatest moments.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🔇 Trek Beyond the Crowds to Khopra Ridge</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Trek Beyond the Crowds to Khopra Ridge</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   After Ghorepani, most Poon Hill trekkers turn back toward Nayapul. This itinerary continues forward, and within a day&apos;s walk you will notice how quickly the crowds thin out. The trail to Khopra Ridge leads through traditional villages, dense forests, and open alpine terrain that most visitors never reach. By the time you arrive at the ridge itself, the sense of space and solitude is striking compared to the busy teahouses lower on the route.
                 </p>
@@ -189,7 +189,7 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🏡 Stay in Traditional Community Lodges</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Stay in Traditional Community Lodges</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   The Khopra Ridge section is served by a network of community-run lodges owned and operated by local villages, channeling income directly into the local economy. Rooms are simple and clean, the food is local and freshly cooked, and the interaction with lodge owners and village families feels genuinely warm and unscripted. It represents a highly rewarding form of community-based tourism.
                 </p>
@@ -221,13 +221,13 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-950 text-base">📸 Photographers &amp; Nature Lovers</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Photographers &amp; Nature Lovers</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   The combination of Poon Hill sunrise, blooming rhododendron forests, and sustained ridge viewpoints makes this one of the strongest visual itineraries in Nepal. Morning light on the Annapurna South face is extraordinary.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-950 text-base">🥾 Solitude Seekers</h4>
+                <h4 className="font-bold text-stone-950 text-base"> Solitude Seekers</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
                   If you have looked at the Poon Hill short circuit and thought it might feel too busy, this route gives you what you are looking for. The trail beyond Tadapani sees dramatically fewer trekkers, and the community lodge circuit has a quiet, exploratory atmosphere.
                 </p>
@@ -540,7 +540,7 @@ export default function Page() {
             </h2>
             
             <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
-              <h3 className="text-lg font-bold text-stone-950 mb-4">💰 Independent Trek Costs (Approximate Daily Breakdown)</h3>
+              <h3 className="text-lg font-bold text-stone-950 mb-4"> Independent Trek Costs (Approximate Daily Breakdown)</h3>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                 {[
                   { label: "Accommodation", value: "USD 5–15 per night" },
@@ -602,13 +602,13 @@ export default function Page() {
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🎒 Gear &amp; Footwear</h4>
+                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Gear &amp; Footwear</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   Sturdy trekking boots (broken in!), trekking poles, 20–30L daypack for essentials, sleeping bag liner (warm bag recommended for shoulder seasons), headlamp (essential for Poon Hill dawn), and power bank.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🩹 Health &amp; Safety</h4>
+                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Health &amp; Safety</h4>
                 <p className="text-xs text-stone-500 leading-relaxed">
                   First-aid kit, Diamox (consult your doctor), water purification tablets, high-SPF sunscreen, lip balm, rehydration salts, and blister treatment kit.
                 </p>
@@ -751,8 +751,8 @@ export default function Page() {
                   Inquire &amp; Customize Your Khopra Ridge Trek →
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>📍 Standard local response within 24 hours</span>
-                  <span>💬 No sales pressure, just honest guidance</span>
+                  <span> Standard local response within 24 hours</span>
+                  <span> No sales pressure, just honest guidance</span>
                 </div>
               </div>
             </div>
