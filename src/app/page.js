@@ -1681,6 +1681,7 @@ export default function Home() {
                 role: "Adventure Trekking Guide",
                 initials: "SG",
                 xp: "7+ Years Experience",
+                image: "/suman.png",
                 certs: ["Licensed Trekking Guide", "Everest & Annapurna Expert", "English, Nepali, Hindi"],
                 bio: "Bringing seven years of valuable experience leading routes from Everest to the Annapurna Circuit, Suman makes trekking a deep cultural exploration. Friendly and communicative, he excels at catering to diverse client needs on the trail."
               }

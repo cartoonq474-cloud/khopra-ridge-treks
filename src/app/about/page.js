@@ -151,6 +151,7 @@ export default function AboutPage() {
                 name: "Suman Gurung",
                 role: "Adventure Trekking Guide",
                 xp: "7+ Years Experience",
+                image: "/suman.png",
                 languages: "English, Nepali, Hindi",
                 expertise: "Evolving guide with good knowledge of handling guides and offering smooth travel and trek-related services.",
                 approach: "Passionate, lively and friendly way of handling clients.",
