@@ -447,7 +447,7 @@ export default function Page() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
               <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Ready to Plan Your Trek Through Tadapani?</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">We are a licensed local trekking team based in Pokhara, operating community-managed eco-lodge circuits in the Annapurna foothills. Our 9-day Khopra Ridge package covers the full route from Ghandruk through Tadapani to Khopra Ridge and Khayer Lake — all meals, accommodation, and guidance included.
+              <p className="text-stone-300 text-sm leading-relaxed">We are a licensed local trekking team based in Kathmandu, operating community-managed eco-lodge circuits in the Annapurna foothills. Our 9-day Khopra Ridge package covers the full route from Ghandruk through Tadapani to Khopra Ridge and Khayer Lake — all meals, accommodation, and guidance included.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
@@ -456,7 +456,7 @@ export default function Page() {
                 >Inquire &amp; Customize Your Itinerary &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>Based in Pokhara, Nepal</span>
+                  <span>Based in Ekata Basti Marg, Kathmandu 44600, Nepal</span>
                   <span>Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
@@ -468,7 +468,7 @@ export default function Page() {
             <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This Tadapani Trail Junction guide is reviewed by certified local guides based in Pokhara. We regularly inspect road conditions, trailhead access, and village homestay registries to keep our details current.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This Tadapani Trail Junction guide is reviewed by certified local guides based in Kathmandu. We regularly inspect road conditions, trailhead access, and village homestay registries to keep our details current.
               </p>
             </div>
           </div>

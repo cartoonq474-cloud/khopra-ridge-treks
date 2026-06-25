@@ -82,7 +82,7 @@ export default function Header() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://formsubmit.co/ajax/olibishal871@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/khopraridge51@gmail.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

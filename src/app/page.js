@@ -89,7 +89,7 @@ export default function Home() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://formsubmit.co/ajax/olibishal871@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/khopraridge51@gmail.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -1659,28 +1659,28 @@ export default function Home() {
           <div className="grid gap-8 md:grid-cols-3">
             {[
               {
-                name: "Bishal Oli",
-                role: "Lead Guide & Altitude Coordinator",
-                initials: "BO",
-                xp: "12+ Years Experience",
-                certs: ["Licensed Mountain Guide", "Wilderness First Responder", "ACAP Ecology Specialist"],
-                bio: "Born and raised in the Swanta valley, Bishal is dedicated to showing trekkers Magar agricultural heritage and keeping a safe, steady pace on the high trails."
+                name: "Hemlal Gurung",
+                role: "Adventure Mountain Guide",
+                initials: "HG",
+                xp: "9+ Years Experience",
+                certs: ["Licensed Mountain Guide", "+2 Business Studies", "English, Nepali, Hindi"],
+                bio: "Born and raised in the Himalayas, Hemlal is a highly dedicated, storytelling guide with over nine years of experience. He perfectly blends his academic background in business with deep local insights to deliver seamless, responsible, and culturally rich trek experiences."
               },
               {
-                name: "Pasang Sherpa",
-                role: "High-Altitude Safety Leader",
-                initials: "PS",
-                xp: "15+ Years Experience",
-                certs: ["Wilderness First Aid Certified", "NMA Advanced Mountaineer", "Rescue Coordinator"],
-                bio: "Pasang monitors guest oxygen levels daily and manages route acclimatization. His deep knowledge of weather patterns ensures safe ridge passes."
+                name: "David Gurung",
+                role: "Adventure Trekking Guide",
+                initials: "DG",
+                xp: "7+ Years Experience",
+                certs: ["Bachelor's in Tourism", "Certified Trekking Guide", "English, Nepali, Hindi"],
+                bio: "A tourism graduate with seven years of active guiding, David combines expert logistical management with welcoming hospitality. Known for his proactive safety planning, he specializes in custom itineraries and deep cultural exploration."
               },
               {
-                name: "Mingma D. Sherpa",
-                role: "Cultural & Wildlife Specialist",
-                initials: "MS",
-                xp: "8+ Years Experience",
-                certs: ["Licensed Tour & Trek Guide", "ACAP Wildlife Tracker", "First Aid Certified"],
-                bio: "Mingma is our flora and fauna expert. He connects trekkers with village committees and details the deep spiritual mythology of Sacred Khayer Lake."
+                name: "Suman Gurung",
+                role: "Adventure Trekking Guide",
+                initials: "SG",
+                xp: "7+ Years Experience",
+                certs: ["Licensed Trekking Guide", "Everest & Annapurna Expert", "English, Nepali, Hindi"],
+                bio: "Bringing seven years of valuable experience leading routes from Everest to the Annapurna Circuit, Suman makes trekking a deep cultural exploration. Friendly and communicative, he excels at catering to diverse client needs on the trail."
               }
             ].map((guide, idx) => (
               <div 

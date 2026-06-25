@@ -83,7 +83,7 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Customize a Short Itinerary</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Only have a few days? Let our Pokhara team arrange private jeeps to maximize your trail time.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Only have a few days? Let our Kathmandu team arrange private jeeps to maximize your trail time.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link

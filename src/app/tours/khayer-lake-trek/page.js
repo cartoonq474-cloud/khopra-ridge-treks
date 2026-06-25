@@ -109,7 +109,7 @@ export default function Page() {
             </p>
 
             <div className="p-4 bg-emerald-500/5 border border-emerald-500/15 rounded-3xl flex items-center justify-between gap-4 mt-6">
-              <p className="text-xs text-stone-600 font-medium">Ready to start planning? Our local guides based in Pokhara run fully customizable Sacred Khayer Lake Trek packages.
+              <p className="text-xs text-stone-600 font-medium">Ready to start planning? Our local guides based in Kathmandu run fully customizable Sacred Khayer Lake Trek packages.
               </p>
               <Link 
                 href="/contact"
@@ -512,9 +512,9 @@ export default function Page() {
 
           {/* WHY LOCAL GUIDES */}
           <article id="why-local" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Why Trek With Local Guides Based in Pokhara
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Why Trek With Local Guides Based in Kathmandu
             </h2>
-            <p className="text-stone-600 leading-relaxed text-base">There is a meaningful difference between booking a trek through a large international agency and working with local guides who are based in Pokhara, monitor the route actively, and have deep personal connections to the communities along the trail.
+            <p className="text-stone-600 leading-relaxed text-base">There is a meaningful difference between booking a trek through a large international agency and working with local guides who are based in Kathmandu, monitor the route actively, and have deep personal connections to the communities along the trail.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -618,7 +618,7 @@ export default function Page() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
               <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Customize Your Sacred Khayer Lake Trek With Our Local Experts</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">Our licensed local trekking guides based in Pokhara run the Khopra Ridge and Khayer Lake circuit regularly. We maintain active knowledge of trail conditions, community lodge availability, and permit requirements — and we customize every itinerary to match your group&apos;s pace, interests, and schedule.
+              <p className="text-stone-300 text-sm leading-relaxed">Our licensed local trekking guides based in Kathmandu run the Khopra Ridge and Khayer Lake circuit regularly. We maintain active knowledge of trail conditions, community lodge availability, and permit requirements — and we customize every itinerary to match your group&apos;s pace, interests, and schedule.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
@@ -639,7 +639,7 @@ export default function Page() {
             <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by licensed local trekking guides operating out of Pokhara. Route information, permit fees, and community lodge statuses are updated based on active trail monitoring.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by licensed local trekking guides operating out of Kathmandu. Route information, permit fees, and community lodge statuses are updated based on active trail monitoring.
               </p>
             </div>
           </div>

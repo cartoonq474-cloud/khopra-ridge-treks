@@ -111,7 +111,7 @@ export default function Page() {
             </p>
             <p className="text-stone-600 leading-relaxed text-base">For those who want to go further, the optional Khayer Lake extension adds a sacred glacial lake at 4,660m, revered by both Hindus and Buddhists and visited as a pilgrimage destination for centuries.
             </p>
-            <p className="text-stone-600 leading-relaxed text-base">This guide covers everything you need to plan the trek — from route details and daily itinerary to permits, costs, accommodation, and packing essentials. We maintain and regularly update this resource based on active trail checks from our licensed local guides operating out of Pokhara.
+            <p className="text-stone-600 leading-relaxed text-base">This guide covers everything you need to plan the trek — from route details and daily itinerary to permits, costs, accommodation, and packing essentials. We maintain and regularly update this resource based on active trail checks from our licensed local guides operating out of Kathmandu.
             </p>
 
             {/* Quick Summary Grid */}
@@ -609,7 +609,7 @@ export default function Page() {
                 },
                 {
                   q: "How much does the trek cost?",
-                  a: "Independent trekking costs approximately USD 300–500 for 10 days when including accommodation, meals, transport, and permits. A fully guided package from a local Pokhara-based agency typically ranges from USD 700–1,200 depending on group size, season, and service level."
+                  a: "Independent trekking costs approximately USD 300–500 for 10 days when including accommodation, meals, transport, and permits. A fully guided package from a local Kathmandu-based agency typically ranges from USD 700–1,200 depending on group size, season, and service level."
                 },
                 {
                   q: "What is the best season for the Khopra Ridge trek?",
@@ -679,7 +679,7 @@ export default function Page() {
             <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by licensed local trekking guides operating out of Pokhara. Route information, permit fees, and community lodge statuses are updated based on active trail monitoring.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by licensed local trekking guides operating out of Kathmandu. Route information, permit fees, and community lodge statuses are updated based on active trail monitoring.
               </p>
             </div>
           </div>

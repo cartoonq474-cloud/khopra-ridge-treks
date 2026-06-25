@@ -468,7 +468,7 @@ export default function Page() {
             <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm font-sans">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This packing guide and interactive checklist has been compiled and vetted by licensed Pokhara-based guides and mountain rescue specialists. We regularly adjust specifications based on seasonal weather profiles to keep packs safe and light.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This packing guide and interactive checklist has been compiled and vetted by licensed Kathmandu-based guides and mountain rescue specialists. We regularly adjust specifications based on seasonal weather profiles to keep packs safe and light.
               </p>
             </div>
           </div>

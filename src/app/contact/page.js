@@ -58,7 +58,7 @@ export default function ContactPage() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const response = await fetch("https://formsubmit.co/ajax/olibishal871@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/khopraridge51@gmail.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -125,41 +125,31 @@ export default function ContactPage() {
                 <svg className="w-5 h-5 text-emerald-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <a href="mailto:info@khopraridgetrek.com" className="hover:text-emerald-700 transition">info@khopraridgetrek.com</a>
+                <a href="mailto:khopraridge51@gmail.com" className="hover:text-emerald-700 transition">khopraridge51@gmail.com</a>
               </div>
               <div className="flex items-center gap-3">
                 <svg className="w-5 h-5 text-emerald-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <span>+977 61-469201 (Operations Desk)</span>
+                <span>+977 9866735560 (Operations Desk)</span>
               </div>
               <div className="flex items-center gap-3">
                 <svg className="w-5 h-5 text-[#25D366] fill-current flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12.012 2c-5.506 0-9.988 4.482-9.988 9.988 0 1.761.459 3.475 1.33 4.99L2 22l5.166-1.355c1.467.801 3.125 1.222 4.821 1.222 5.506 0 9.988-4.482 9.988-9.988 0-5.506-4.482-9.988-9.988-9.988zm6.54 14.364c-.255.719-1.282 1.319-1.782 1.373-.481.053-.984.092-2.964-.693-2.529-1.002-4.148-3.567-4.274-3.737-.123-.169-1.012-1.348-1.012-2.571 0-1.223.636-1.825.862-2.079.227-.254.498-.318.665-.318.166 0 .332.001.478.007.151.006.353-.057.553.424.204.493.699 1.705.761 1.831.062.127.104.274.019.442-.085.169-.127.275-.254.423-.127.148-.268.329-.382.446-.127.127-.26.265-.113.52.148.254.656 1.079 1.407 1.748.966.861 1.777 1.127 2.031 1.254.254.127.402.106.551-.064.15-.17.636-.74.805-1.017.169-.275.338-.233.571-.148.233.085 1.481.699 1.735.826.254.127.424.191.488.297.064.106.064.614-.191 1.333z"/>
                 </svg>
-                <span className="text-emerald-600 font-bold">WhatsApp: +977 98560-22108</span>
+                <span className="text-emerald-600 font-bold">WhatsApp: +977 9866735560</span>
               </div>
             </div>
           </div>
 
           <div>
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight">Our Offices</h2>
-            <p className="mt-2 text-stone-500 text-xs font-medium">Drop by our branches in Nepal for a hot cup of tea and trek consultation.</p>
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight">Our Office</h2>
+            <p className="mt-2 text-stone-500 text-xs font-medium">Drop by our head office in Nepal for a hot cup of tea and trek consultation.</p>
             <div className="mt-6 space-y-6 text-xs text-stone-600">
               <div className="p-4 bg-white border border-stone-200 rounded-2xl shadow-sm">
-                <strong className="block text-stone-900 font-bold mb-1">Pokhara Operations Office</strong>
-                <p>Lakeside Road, Ward 6 (Opposite Barahi Temple), Pokhara, Nepal</p>
-                <span className="block text-stone-400 mt-2">Hours: 8:00 AM - 7:00 PM (Daily)</span>
-              </div>
-              <div className="p-4 bg-white border border-stone-200 rounded-2xl shadow-sm">
-                <strong className="block text-stone-900 font-bold mb-1">Kathmandu Liaison Desk</strong>
-                <p>Jyatha Road, Thamel, Kathmandu, Nepal</p>
-                <span className="block text-stone-400 mt-2">Hours: 9:00 AM - 6:00 PM (Sun - Fri)</span>
-              </div>
-              <div className="p-4 bg-white border border-stone-200 rounded-2xl shadow-sm">
-                <strong className="block text-stone-900 font-bold mb-1">Swanta Village Support Base</strong>
-                <p>Swanta Lodge, Myagdi, Annapurna Region, Nepal</p>
-                <span className="block text-stone-400 mt-2">Hours: 24/7 (Emergency Dispatch Desk)</span>
+                <strong className="block text-stone-900 font-bold mb-1">Head Office</strong>
+                <p>Ekata Basti Marg, Kathmandu 44600, Nepal</p>
+                <span className="block text-stone-400 mt-2">Hours: 9:00 AM - 6:00 PM (Daily)</span>
               </div>
             </div>
           </div>
@@ -174,7 +164,7 @@ export default function ContactPage() {
                 <span className="text-6xl block"></span>
                 <h3 className="text-2xl font-black text-stone-950">Inquiry Received Successfully!</h3>
                 <p className="text-stone-500 text-xs max-w-md mx-auto leading-relaxed">
-                  Thank you, <strong className="text-stone-900">{formState.name}</strong>. Our Pokhara office manager will verify availability for the <strong className="text-stone-900">{formState.package === "khayer-lake" ? "Sacred Khayer Lake Pilgrimage" : formState.package === "poon-hill-combo" ? "Poon Hill & Khopra Combo" : formState.package === "mohare-offbeat" ? "Mohare Danda Offbeat" : "Custom Itinerary"}</strong> starting in <strong className="text-stone-900">{formState.date || "your preferred date"}</strong>. We will email you at <strong className="text-stone-900">{formState.email}</strong> within 12 hours.
+                  Thank you, <strong className="text-stone-900">{formState.name}</strong>. Our Kathmandu office manager will verify availability for the <strong className="text-stone-900">{formState.package === "khayer-lake" ? "Sacred Khayer Lake Pilgrimage" : formState.package === "poon-hill-combo" ? "Poon Hill & Khopra Combo" : formState.package === "mohare-offbeat" ? "Mohare Danda Offbeat" : "Custom Itinerary"}</strong> starting in <strong className="text-stone-900">{formState.date || "your preferred date"}</strong>. We will email you at <strong className="text-stone-900">{formState.email}</strong> within 12 hours.
                 </p>
                 <div className="pt-4">
                   <button 
@@ -340,7 +330,7 @@ export default function ContactPage() {
                     disabled={isSubmitting}
                     className="w-full inline-flex items-center justify-center rounded-full bg-emerald-600 py-3.5 text-xs font-bold text-white hover:bg-emerald-500 shadow-md hover-lift transition cursor-pointer disabled:opacity-50"
                   >
-                    {isSubmitting ? "Submitting Inquiry..." : "Submit Inquiry to Pokhara Operations"}
+                    {isSubmitting ? "Submitting Inquiry..." : "Submit Inquiry to Head Office"}
                   </button>
                 </div>
               </form>

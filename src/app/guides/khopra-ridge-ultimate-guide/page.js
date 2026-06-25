@@ -436,7 +436,7 @@ export default function Page() {
               <p className="mt-2 text-xs text-stone-600 leading-relaxed">Both permits are issued at Nepal Tourism Board offices in Kathmandu (Bhrikutimandap, Pradarshani Marg) and Pokhara (Damside). You will need passport photographs and a photocopy of your passport. If you are trekking through a registered agency, the guide and operator will typically handle permit registration before departure.
               </p>
               <h4 className="font-bold text-stone-950 text-base mt-4">What Travelers Should Verify Before Departure</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">Permit fees, entry requirements, and guide regulations in Nepal can and do change between trekking seasons. The Nepal Tourism Board has revised trekking rules in recent years, including guidance on licensed guide accompaniment in certain zones. Always confirm current requirements directly with the NTB or a registered Pokhara-based trekking agency before your trip.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">Permit fees, entry requirements, and guide regulations in Nepal can and do change between trekking seasons. The Nepal Tourism Board has revised trekking rules in recent years, including guidance on licensed guide accompaniment in certain zones. Always confirm current requirements directly with the NTB or a registered Kathmandu-based trekking agency before your trip.
               </p>
             </div>
           </article>
@@ -684,7 +684,7 @@ export default function Page() {
                 >Get in Touch &amp; Request Quote
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>Based in Pokhara, Nepal</span>
+                  <span>Based in Ekata Basti Marg, Kathmandu 44600, Nepal</span>
                   <span>Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
@@ -696,7 +696,7 @@ export default function Page() {
             <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This ultimate planner is curated by certified guides based in Pokhara. We walk the Khopra circuit monthly to monitor trail degradation, water supplies, and teahouse conditions.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This ultimate planner is curated by certified guides based in Kathmandu. We walk the Khopra circuit monthly to monitor trail degradation, water supplies, and teahouse conditions.
               </p>
             </div>
           </div>

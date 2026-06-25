@@ -95,7 +95,7 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Inquire &amp; Customize Your Route</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Still not sure which route fits your calendar and physical stamina? Get in touch with our Pokhara planning team.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Still not sure which route fits your calendar and physical stamina? Get in touch with our Kathmandu planning team.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link

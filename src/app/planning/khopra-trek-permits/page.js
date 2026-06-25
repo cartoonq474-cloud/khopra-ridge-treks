@@ -470,7 +470,7 @@ export default function Page() {
                 >Get in touch to start planning &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>Based in Pokhara, Nepal</span>
+                  <span>Based in Ekata Basti Marg, Kathmandu 44600, Nepal</span>
                   <span>Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
@@ -482,7 +482,7 @@ export default function Page() {
             <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm font-sans">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is compiled and vetted by licensed Pokhara-based guides and conservation area organizers. We monitor regulations and government policy updates weekly to ensure our permit resources remain the most accurate and up-to-date.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is compiled and vetted by licensed Kathmandu-based guides and conservation area organizers. We monitor regulations and government policy updates weekly to ensure our permit resources remain the most accurate and up-to-date.
               </p>
             </div>
           </div>

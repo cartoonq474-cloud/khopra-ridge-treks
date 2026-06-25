@@ -888,7 +888,7 @@ export default function Page() {
                 >Inquire About a Customized Trek &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>Based in Pokhara, Nepal</span>
+                  <span>Based in Ekata Basti Marg, Kathmandu 44600, Nepal</span>
                   <span>Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
@@ -900,7 +900,7 @@ export default function Page() {
             <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This viewpoint planner is curated by certified guides based in Pokhara. We walk the Khopra circuit and Dobato routes monthly to monitor trail safety, weather profiles, and community lodge operations.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This viewpoint planner is curated by certified guides based in Kathmandu. We walk the Khopra circuit and Dobato routes monthly to monitor trail safety, weather profiles, and community lodge operations.
               </p>
             </div>
           </div>

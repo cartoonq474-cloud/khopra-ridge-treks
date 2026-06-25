@@ -698,7 +698,7 @@ export default function Page() {
                 >Plan My Trek →
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span>Based in Pokhara, Nepal</span>
+                  <span>Based in Ekata Basti Marg, Kathmandu 44600, Nepal</span>
                   <span>Standard response within 24 hours</span>
                 </div>
               </div>
@@ -710,7 +710,7 @@ export default function Page() {
             <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by licensed local trekking guides operating out of Pokhara. Route information, permit fees, and community lodge statuses are updated based on active trail monitoring.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by licensed local trekking guides operating out of Kathmandu. Route information, permit fees, and community lodge statuses are updated based on active trail monitoring.
               </p>
             </div>
           </div>

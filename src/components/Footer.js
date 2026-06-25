@@ -25,10 +25,10 @@ export default function Footer() {
                 Licensing: <strong className="text-stone-300 font-semibold">Nepal Tourism Operator License #8928-091</strong>
               </span>
               <span className="block text-stone-500">
-                Contact: <a href="mailto:info@khopraridgetrek.com" className="text-stone-300 hover:text-emerald-400 font-semibold transition">info@khopraridgetrek.com</a>
+                Contact: <a href="mailto:khopraridge51@gmail.com" className="text-stone-300 hover:text-emerald-400 font-semibold transition">khopraridge51@gmail.com</a>
               </span>
               <span className="block text-stone-500">
-                Location: Pokhara &amp; Swanta, Nepal
+                Location: Ekata Basti Marg, Kathmandu 44600, Nepal
               </span>
             </div>
           </div>

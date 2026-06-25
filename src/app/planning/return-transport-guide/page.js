@@ -46,7 +46,7 @@ export default function Page() {
         {/* Pre-booking warning */}
         <div className="mt-16 p-8 bg-emerald-50 border border-emerald-200 rounded-3xl text-emerald-800 space-y-4">
           <h3 className="text-lg font-bold">Why Pre-Arranging Return Jeeps is Advisable</h3>
-          <p className="text-xs leading-relaxed font-medium">While finding transport at Nayapul is easy, securing jeeps from remote nodes like Tatopani can be challenging in the peak trekking seasons. Drivers may inflate rates for stranded trekkers. We highly recommend pre-booking your return transfers through our local Pokhara office to guarantee a locked-in rate and a reliable vehicle.
+          <p className="text-xs leading-relaxed font-medium">While finding transport at Nayapul is easy, securing jeeps from remote nodes like Tatopani can be challenging in the peak trekking seasons. Drivers may inflate rates for stranded trekkers. We highly recommend pre-booking your return transfers through our local Kathmandu office to guarantee a locked-in rate and a reliable vehicle.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ export default function Page() {
           <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Kathmandu. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>

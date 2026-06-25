@@ -114,7 +114,7 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Book Your Eco-Trail Departure</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Want to combine both circuits into a custom Mohare-Khopra super-loop? Contact our Pokhara office to customize your trekking package.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Want to combine both circuits into a custom Mohare-Khopra super-loop? Contact our Kathmandu office to customize your trekking package.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link

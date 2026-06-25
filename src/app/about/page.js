@@ -116,6 +116,83 @@ export default function AboutPage() {
           </div>
         </div>
 
+        {/* Our Team Section */}
+        <div className="mt-24 space-y-12">
+          <div className="text-center">
+            <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">The Experts Behind the Trails</span>
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight mt-2">Meet Our Team</h2>
+            <p className="mt-4 text-stone-600 font-medium">Trek with safety and confidence under the guidance of our local experts.</p>
+          </div>
+          <div className="grid gap-8 md:grid-cols-3">
+            {[
+              {
+                name: "Hemlal Gurung",
+                role: "Adventure Mountain Guide",
+                xp: "9+ Years Experience",
+                education: "+2 in Business Studies",
+                languages: "English, Nepali, Hindi",
+                expertise: "Veteran guide handling diverse groups and delivering memorable and smooth treks and tours.",
+                approach: "Passionate about travelling and guiding people to different locations across Nepal.",
+                bio: "Born and raised in the Himalayas, Hemlal is a highly dedicated, storytelling guide. He perfectly blends his academic background in business with deep local insights to deliver seamless, responsible, and culturally rich trek experiences."
+              },
+              {
+                name: "David Gurung",
+                role: "Adventure Trekking Guide",
+                xp: "7+ Years Experience",
+                education: "Bachelor's in Tourism",
+                languages: "English, Nepali, Hindi",
+                expertise: "Expert logistic management, deep cultural insights and a pro at customising itineraries.",
+                approach: "Passionate about travelling and guiding people to make their travel dreams come true.",
+                bio: "A tourism graduate with seven years of active guiding, David combines expert logistical management with welcoming hospitality. Known for his proactive safety planning, he specializes in custom itineraries and deep cultural exploration."
+              },
+              {
+                name: "Suman Gurung",
+                role: "Adventure Trekking Guide",
+                xp: "7+ Years Experience",
+                languages: "English, Nepali, Hindi",
+                expertise: "Evolving guide with good knowledge of handling guides and offering smooth travel and trek-related services.",
+                approach: "Passionate, lively and friendly way of handling clients.",
+                bio: "Suman brings seven years of valuable experience leading routes from Everest to the Annapurna Circuit. Friendly and communicative, he excels at catering to diverse client needs and making trekking a deep cultural exploration."
+              }
+            ].map((guide, idx) => (
+              <div key={idx} className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                <div className="space-y-4">
+                  <div className="border-b border-stone-100 pb-4">
+                    <h3 className="text-lg font-bold text-stone-950">{guide.name}</h3>
+                    <span className="text-xs text-emerald-700 font-bold">{guide.role}</span>
+                    <span className="block text-[10px] text-stone-400 font-bold mt-1 uppercase tracking-wider">{guide.xp}</span>
+                  </div>
+                  
+                  <p className="text-xs text-stone-500 leading-relaxed italic">
+                    "{guide.bio}"
+                  </p>
+
+                  <div className="space-y-2 pt-2 text-[11px] text-stone-600">
+                    {guide.education && (
+                      <div>
+                        <strong className="text-stone-900 font-bold">Education: </strong>
+                        <span>{guide.education}</span>
+                      </div>
+                    )}
+                    <div>
+                      <strong className="text-stone-900 font-bold">Languages: </strong>
+                      <span>{guide.languages}</span>
+                    </div>
+                    <div>
+                      <strong className="text-stone-900 font-bold">Expertise: </strong>
+                      <span>{guide.expertise}</span>
+                    </div>
+                    <div>
+                      <strong className="text-stone-900 font-bold">Approach: </strong>
+                      <span>{guide.approach}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* Call to Action */}
         <div className="mt-24 rounded-3xl bg-stone-950 p-10 text-white border border-white/5 shadow-2xl text-center relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.1),transparent)]" />

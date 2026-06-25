@@ -57,7 +57,7 @@ export default function Page() {
           <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This log is maintained and updated by our licensed local trekking guides operating out of Pokhara. We share real trail logs to prepare future hikers.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This log is maintained and updated by our licensed local trekking guides operating out of Kathmandu. We share real trail logs to prepare future hikers.
             </p>
           </div>
         </div>

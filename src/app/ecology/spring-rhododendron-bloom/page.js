@@ -78,7 +78,7 @@ export default function Page() {
           <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Kathmandu. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>

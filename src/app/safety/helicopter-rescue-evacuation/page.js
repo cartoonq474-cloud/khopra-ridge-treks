@@ -400,7 +400,7 @@ export default function Page() {
               <p>Every trekking group carries satellite communication equipment, two-way radios, emergency oxygen, and a basic first-aid kit suited to high-altitude conditions. GPS tracking allows the office to know a group's exact location at all times, which removes guesswork from any rescue request.
               </p>
               <h3 className="text-lg font-bold text-stone-900">Our Rescue Coordination System</h3>
-              <p>We maintain working relationships with helicopter operators based in Pokhara, along with access to real-time weather monitoring from meteorological stations within the Annapurna Conservation Area. This combination of local partnerships, equipment, and monitoring is what allows a rescue request to move from phone call to flight dispatch in minutes rather than hours.
+              <p>We maintain working relationships with helicopter operators based in Kathmandu, along with access to real-time weather monitoring from meteorological stations within the Annapurna Conservation Area. This combination of local partnerships, equipment, and monitoring is what allows a rescue request to move from phone call to flight dispatch in minutes rather than hours.
               </p>
             </div>
           </article>

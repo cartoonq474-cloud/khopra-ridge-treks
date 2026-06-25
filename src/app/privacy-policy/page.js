@@ -51,7 +51,7 @@ export default function Page() {
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-stone-950">5. Your Rights</h2>
             <p>
-              You have the right to request access to the personal data we hold about you or request that we update or delete your information. You can reach out to us at <a href="mailto:info@khopraridgetrek.com" className="text-emerald-700 hover:underline font-semibold">info@khopraridgetrek.com</a> to make these requests.
+              You have the right to request access to the personal data we hold about you or request that we update or delete your information. You can reach out to us at <a href="mailto:khopraridge51@gmail.com" className="text-emerald-700 hover:underline font-semibold">khopraridge51@gmail.com</a> to make these requests.
             </p>
           </div>
 
