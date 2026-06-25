@@ -58,11 +58,9 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Interactive Tools</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Interactive Trek Comparison Tool
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Interactive Trek Comparison Tool
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Compare Khopra Ridge with the most popular Annapurna circuits side-by-side. Choose a route below to compare duration, crowd indexes, and social impact parameters.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Compare Khopra Ridge with the most popular Annapurna circuits side-by-side. Choose a route below to compare duration, crowd indexes, and social impact parameters.
           </p>
         </div>
 
@@ -76,7 +74,7 @@ export default function Page() {
               {Object.keys(trekData).map((key) => (
                 <button
                   key={key}
-                  onClick={() => setSelectedTrek(key)}
+                  onClick={() =>setSelectedTrek(key)}
                   className={`w-full text-left p-4 rounded-xl font-bold text-xs transition-all ${
                     selectedTrek === key 
                       ? "bg-emerald-600 text-white shadow-sm" 
@@ -140,11 +138,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              We lead tours on all major Annapurna circuits and regularly update our data matrix to ensure transparent and objective planning indicators.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">We lead tours on all major Annapurna circuits and regularly update our data matrix to ensure transparent and objective planning indicators.
             </p>
           </div>
         </div>
@@ -153,15 +150,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Customize Your Route Itinerary</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Want to combine viewpoints, customize routes, or adjust duration? Get in touch with our Pokhara planning team.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Want to combine viewpoints, customize routes, or adjust duration? Get in touch with our Pokhara planning team.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

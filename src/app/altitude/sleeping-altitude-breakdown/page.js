@@ -61,22 +61,18 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Sleep Logistics</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Sleeping Altitude Breakdown
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Sleeping Altitude Breakdown
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Where do you sleep each night? Review our comprehensive night-by-night lodging elevations, risk ratings, and strategic sleeping tips.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Where do you sleep each night? Review our comprehensive night-by-night lodging elevations, risk ratings, and strategic sleeping tips.
           </p>
         </div>
 
         {/* Why Sleeping Altitude is Key */}
         <div className="mt-12 space-y-6">
           <h2 className="text-2xl font-bold text-stone-950">Why Sleeping Altitude is the Critical Metric</h2>
-          <p className="text-stone-600 leading-relaxed">
-            In high-altitude mountaineering, the rule is **&quot;Climb high, sleep low&quot;**. Your body performs the vast majority of its altitude adaptation (such as adjusting blood pH and red blood cell production) while you are asleep. 
+          <p className="text-stone-600 leading-relaxed">In high-altitude mountaineering, the rule is **&quot;Climb high, sleep low&quot;**. Your body performs the vast majority of its altitude adaptation (such as adjusting blood pH and red blood cell production) while you are asleep. 
           </p>
-          <p className="text-stone-600 leading-relaxed">
-            The highest point you stand on during a day is less important for AMS risk than the altitude at which you lay your head to rest at night. If you sleep at high elevations too quickly, your oxygen saturation can drop significantly during the night, leading to headaches, insomnia, and morning fatigue.
+          <p className="text-stone-600 leading-relaxed">The highest point you stand on during a day is less important for AMS risk than the altitude at which you lay your head to rest at night. If you sleep at high elevations too quickly, your oxygen saturation can drop significantly during the night, leading to headaches, insomnia, and morning fatigue.
           </p>
         </div>
 
@@ -96,8 +92,7 @@ export default function Page() {
                     node.risk === "Negligible" || node.risk === "Very Low" ? "bg-emerald-50 text-emerald-700 border border-emerald-100" :
                     node.risk === "Moderate" ? "bg-amber-50 text-amber-700 border border-amber-100" :
                     "bg-rose-50 text-rose-700 border border-rose-100"
-                  }`}>
-                    AMS Sleep Risk: {node.risk}
+                  }`}>AMS Sleep Risk: {node.risk}
                   </span>
                   <p className="text-xs text-stone-500 leading-relaxed">{node.note}</p>
                 </div>
@@ -108,11 +103,10 @@ export default function Page() {
 
         {/* E-E-A-T Badge */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              We arrange permit-inclusive community lodge bookings in advance. Securing bed spaces at Bayeli and Khopra is essential due to limited lodge capacity.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">We arrange permit-inclusive community lodge bookings in advance. Securing bed spaces at Bayeli and Khopra is essential due to limited lodge capacity.
             </p>
           </div>
         </div>
@@ -121,15 +115,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Secure Your Lodge Bookings</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Book our guided packages. Our team handles all lodge reservations, logistics, permits, and guides to ensure a safe and comfortable trip.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Book our guided packages. Our team handles all lodge reservations, logistics, permits, and guides to ensure a safe and comfortable trip.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

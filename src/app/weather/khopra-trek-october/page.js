@@ -37,7 +37,7 @@ export default function Page() {
       ]
     },
     {
-      category: "☀️ Sun & Weather Protection",
+      category: " Sun & Weather Protection",
       items: [
         "High-protection sunscreen (SPF 50+) & lip balm",
         "UV protective sunglasses & wide-brimmed sun hat",
@@ -62,14 +62,11 @@ export default function Page() {
       <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🌤️ Monthly Weather Guide
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">Monthly Weather Guide
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
-            Khopra Ridge Weather in October
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge Weather in October
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">
-            October is the most popular month to trek Khopra Ridge. With post-monsoon rains gone, expect dry trails, 95% sky clarity, and clear sunrise views of Annapurna and Dhaulagiri.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">October is the most popular month to trek Khopra Ridge. With post-monsoon rains gone, expect dry trails, 95% sky clarity, and clear sunrise views of Annapurna and Dhaulagiri.
           </p>
 
           {/* Quick Metrics Grid */}
@@ -89,47 +86,35 @@ export default function Page() {
         {/* STICKY TABLE OF CONTENTS SIDEBAR */}
         <aside className="lg:col-span-1">
           <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
-            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">
-              Table of Contents
+            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">Table of Contents
             </h3>
             <nav className="flex flex-col gap-1 text-sm">
-              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Overview &amp; Climate
+              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Overview &amp; Climate
               </a>
-              <a href="#why-october" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Why Trek in October?
+              <a href="#why-october" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Why Trek in October?
               </a>
-              <a href="#temperature" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                October Temperatures
+              <a href="#temperature" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">October Temperatures
               </a>
-              <a href="#rain-stability" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Rainfall &amp; Stability
+              <a href="#rain-stability" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Rainfall &amp; Stability
               </a>
-              <a href="#visibility" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Sky Clarity &amp; Views
+              <a href="#visibility" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Sky Clarity &amp; Views
               </a>
-              <a href="#daily-shifts" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Weather Daily Shifts
+              <a href="#daily-shifts" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Weather Daily Shifts
               </a>
-              <a href="#altitudes" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Conditions by Altitude
+              <a href="#altitudes" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Conditions by Altitude
               </a>
-              <a href="#packing" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                What to Pack for October
+              <a href="#packing" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">What to Pack for October
               </a>
-              <a href="#comparison" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                October vs Other Months
+              <a href="#comparison" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">October vs Other Months
               </a>
-              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Frequently Asked Qs
+              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Frequently Asked Qs
               </a>
             </nav>
             <div className="pt-4 border-t border-stone-100">
               <Link 
                 href="/contact"
                 className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
-              >
-                Inquire &amp; Book Tour
+              >Inquire &amp; Book Tour
               </Link>
             </div>
           </div>
@@ -139,64 +124,53 @@ export default function Page() {
         <main className="lg:col-span-3 space-y-16">
           {/* SECTION 1: OVERVIEW */}
           <article id="overview" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge Weather Overview in October
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Weather Overview in October
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                October sits in the heart of Nepal&apos;s post-monsoon autumn season. By the start of the month, the monsoon system has retreated from the Annapurna foothills, taking the heavy humidity and daily downpours with it. What is left behind is dry, stable air that holds very little dust or haze.
+              <p>October sits in the heart of Nepal&apos;s post-monsoon autumn season. By the start of the month, the monsoon system has retreated from the Annapurna foothills, taking the heavy humidity and daily downpours with it. What is left behind is dry, stable air that holds very little dust or haze.
               </p>
-              <p>
-                This shift matters more on Khopra Ridge than almost anywhere else on a standard Annapurna circuit. Because the ridge sits well above the tree line, weather conditions there are far more sensitive to seasonal changes than the lower trekking villages. When the monsoon clears, the difference at altitude is dramatic — what was a fogged-in ridge in August becomes a wide-open balcony over the Himalayas by October.
+              <p>This shift matters more on Khopra Ridge than almost anywhere else on a standard Annapurna circuit. Because the ridge sits well above the tree line, weather conditions there are far more sensitive to seasonal changes than the lower trekking villages. When the monsoon clears, the difference at altitude is dramatic — what was a fogged-in ridge in August becomes a wide-open balcony over the Himalayas by October.
               </p>
             </div>
           </article>
 
           {/* SECTION 2: WHY TREK IN OCTOBER */}
           <article id="why-october" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Why October Is One of the Best Months for Khopra Ridge Trek
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Why October Is One of the Best Months for Khopra Ridge Trek
             </h2>
             <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-900 text-sm sm:text-base"> Completely Dried Trails</h4>
-                <p className="text-xs text-stone-500 leading-relaxed font-medium">
-                  The mud and monsoon leeches are entirely gone by October. The trails underfoot dry out completely, providing a stable, firm walking surface through both dense forest paths and high pasture sections.
+                <h4 className="font-bold text-stone-900 text-sm sm:text-base">Completely Dried Trails</h4>
+                <p className="text-xs text-stone-500 leading-relaxed font-medium">The mud and monsoon leeches are entirely gone by October. The trails underfoot dry out completely, providing a stable, firm walking surface through both dense forest paths and high pasture sections.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm sm:text-base">🏔️ Perfect Hiking Temperatures</h4>
-                <p className="text-xs text-stone-500 leading-relaxed font-medium">
-                  Warm sun combined with crisp, low-humidity air makes for extremely comfortable trekking conditions. You won&apos;t experience the sweat-soaked hiking days of summer or the biting daytime winds of winter.
+                <h4 className="font-bold text-stone-955 text-sm sm:text-base">Perfect Hiking Temperatures</h4>
+                <p className="text-xs text-stone-500 leading-relaxed font-medium">Warm sun combined with crisp, low-humidity air makes for extremely comfortable trekking conditions. You won&apos;t experience the sweat-soaked hiking days of summer or the biting daytime winds of winter.
                 </p>
               </div>
             </div>
-            <p className="text-stone-600 text-sm leading-relaxed mt-4">
-              This combination is also why October is the busiest month on the trail — community lodges fill up and trekking groups multiply, a trade-off worth knowing about before you commit to your trip dates.
+            <p className="text-stone-600 text-sm leading-relaxed mt-4">This combination is also why October is the busiest month on the trail — community lodges fill up and trekking groups multiply, a trade-off worth knowing about before you commit to your trip dates.
             </p>
           </article>
 
           {/* SECTION 3: TEMPERATURE */}
           <article id="temperature" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge Temperature in October
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Temperature in October
             </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">
-              Temperature is the single biggest variable trekkers underestimate before arriving at Khopra Ridge. The trek climbs from warm, terraced villages around 1,700–2,000m up to the ridge at 3,660m, and that elevation gain changes the temperature far more than the calendar does.
+            <p className="text-stone-600 text-sm leading-relaxed">Temperature is the single biggest variable trekkers underestimate before arriving at Khopra Ridge. The trek climbs from warm, terraced villages around 1,700–2,000m up to the ridge at 3,660m, and that elevation gain changes the temperature far more than the calendar does.
             </p>
             <div className="grid gap-6 md:grid-cols-2 text-stone-650 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-900 text-sm sm:text-base">☀️ Daytime Ridge Temp (12°C to 15°C / 54°F to 59°F)</h4>
-                <p className="text-xs text-stone-500 leading-relaxed font-medium">
-                  While walking during daylight hours, expect mild temperatures at the ridge, with warmer conditions in the lower villages. Direct sun on exposed sections can make it feel several degrees warmer, while shaded forest stretches near Bayeli Kharka stay noticeably cooler. Most trekkers are comfortable in a base layer with a light fleece or softshell.
+                <h4 className="font-bold text-stone-900 text-sm sm:text-base">Daytime Ridge Temp (12°C to 15°C / 54°F to 59°F)</h4>
+                <p className="text-xs text-stone-500 leading-relaxed font-medium">While walking during daylight hours, expect mild temperatures at the ridge, with warmer conditions in the lower villages. Direct sun on exposed sections can make it feel several degrees warmer, while shaded forest stretches near Bayeli Kharka stay noticeably cooler. Most trekkers are comfortable in a base layer with a light fleece or softshell.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm sm:text-base"> Nighttime Ridge Temp (-2°C to 4°C / 28°F to 39°F)</h4>
-                <p className="text-xs text-stone-500 leading-relaxed font-medium">
-                  Once the sun drops, temperatures at Khopra Ridge fall quickly. This isn&apos;t a gradual cooling; it&apos;s a sharp drop driven by the open, exposed terrain and lack of tree cover. Community lodge rooms are unheated, so the indoor temperature is close to the outdoor reading. A heavyweight down jacket and sleeping bag rated for sub-zero conditions are essential.
+                <h4 className="font-bold text-stone-955 text-sm sm:text-base">Nighttime Ridge Temp (-2°C to 4°C / 28°F to 39°F)</h4>
+                <p className="text-xs text-stone-500 leading-relaxed font-medium">Once the sun drops, temperatures at Khopra Ridge fall quickly. This isn&apos;t a gradual cooling; it&apos;s a sharp drop driven by the open, exposed terrain and lack of tree cover. Community lodge rooms are unheated, so the indoor temperature is close to the outdoor reading. A heavyweight down jacket and sleeping bag rated for sub-zero conditions are essential.
                 </p>
               </div>
             </div>
@@ -204,61 +178,50 @@ export default function Page() {
 
           {/* SECTION 4: RAIN & STABILITY */}
           <article id="rain-stability" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge Rainfall in October and Weather Stability
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Rainfall in October and Weather Stability
             </h2>
             <div className="space-y-4 text-stone-600 text-sm leading-relaxed">
-              <p>
-                By October, the monsoon rainfall pattern that defines Nepal&apos;s summer has almost entirely broken down. Across the month, the Annapurna region typically sees only 1 to 2 rainy days, usually as short, localized showers rather than sustained monsoon-style downpours.
+              <p>By October, the monsoon rainfall pattern that defines Nepal&apos;s summer has almost entirely broken down. Across the month, the Annapurna region typically sees only 1 to 2 rainy days, usually as short, localized showers rather than sustained monsoon-style downpours.
               </p>
-              <p>
-                This doesn&apos;t mean the weather is risk-free. Himalayan ridgelines generate their own microclimates, and a clear morning can give way to cloud buildup by early afternoon, especially in the second half of October as the season transitions toward winter. Carrying a lightweight rain shell is still worth doing — not because rain is likely, but because mountain weather can shift faster than a forecast can account for.
+              <p>This doesn&apos;t mean the weather is risk-free. Himalayan ridgelines generate their own microclimates, and a clear morning can give way to cloud buildup by early afternoon, especially in the second half of October as the season transitions toward winter. Carrying a lightweight rain shell is still worth doing — not because rain is likely, but because mountain weather can shift faster than a forecast can account for.
               </p>
             </div>
           </article>
 
           {/* SECTION 5: VISIBILITY & VIEWS */}
           <article id="visibility" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Visibility and Mountain Views from Khopra Ridge in October
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Visibility and Mountain Views from Khopra Ridge in October
             </h2>
             <div className="space-y-4 text-stone-600 text-sm leading-relaxed">
-              <p>
-                This is the main reason why October fills up faster than any other month. With the monsoon haze gone, sky clarity at Khopra Ridge averages around 95%, which translates into some of the clearest, most consistent mountain views available anywhere in the Annapurna region.
+              <p>This is the main reason why October fills up faster than any other month. With the monsoon haze gone, sky clarity at Khopra Ridge averages around 95%, which translates into some of the clearest, most consistent mountain views available anywhere in the Annapurna region.
               </p>
-              <p>
-                From the ridge, you get an unobstructed panorama that includes the Dhaulagiri massif to the west and the Annapurna range to the east, with the route past Khayer Lake offering some of the most dramatic vantage points along the way. Sunrise is the best window for photography, before any midday cloud has a chance to build up over the peaks.
+              <p>From the ridge, you get an unobstructed panorama that includes the Dhaulagiri massif to the west and the Annapurna range to the east, with the route past Khayer Lake offering some of the most dramatic vantage points along the way. Sunrise is the best window for photography, before any midday cloud has a chance to build up over the peaks.
               </p>
             </div>
           </article>
 
           {/* SECTION 6: DAILY SHIFTS */}
           <article id="daily-shifts" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge Weather Conditions During the Trek
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Weather Conditions During the Trek
             </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">
-              Weather on this trek doesn&apos;t stay the same from sunrise to sunset. Knowing how conditions shift through the day helps you plan layers, timing, and rest stops more effectively.
+            <p className="text-stone-600 text-sm leading-relaxed">Weather on this trek doesn&apos;t stay the same from sunrise to sunset. Knowing how conditions shift through the day helps you plan layers, timing, and rest stops more effectively.
             </p>
             <div className="grid gap-6 md:grid-cols-3 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm space-y-2">
                 <span className="text-xs font-black uppercase text-stone-400 tracking-wider">Mornings</span>
-                <p className="text-xs text-stone-500 leading-relaxed font-medium">
-                  Mornings are cold and crisp, often the clearest part of the day. Frost is common on exposed ground at the ridge, and you&apos;ll want a warm layer on hand before sunrise even if you expect to shed it within the hour.
+                <p className="text-xs text-stone-500 leading-relaxed font-medium">Mornings are cold and crisp, often the clearest part of the day. Frost is common on exposed ground at the ridge, and you&apos;ll want a warm layer on hand before sunrise even if you expect to shed it within the hour.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm space-y-2">
                 <span className="text-xs font-black uppercase text-stone-400 tracking-wider">Afternoons</span>
-                <p className="text-xs text-stone-500 leading-relaxed font-medium">
-                  By midday, temperatures climb to their daytime peak and direct sun makes hiking genuinely comfortable. This is also when occasional cloud buildup is most likely, particularly on longer October days, so it&apos;s worth reaching higher viewpoints earlier rather than later.
+                <p className="text-xs text-stone-500 leading-relaxed font-medium">By midday, temperatures climb to their daytime peak and direct sun makes hiking genuinely comfortable. This is also when occasional cloud buildup is most likely, particularly on longer October days, so it&apos;s worth reaching higher viewpoints earlier rather than later.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm space-y-2">
                 <span className="text-xs font-black uppercase text-stone-400 tracking-wider">Evenings &amp; Nights</span>
-                <p className="text-xs text-stone-500 leading-relaxed font-medium">
-                  Once the sun dips behind the ridgeline, the temperature drop is fast and noticeable — often a swing of 15°C or more within an hour. This is the window where wind chill becomes a real factor, and where having your down jacket already packed at the top of your bag, rather than buried at the bottom, makes a real difference.
+                <p className="text-xs text-stone-500 leading-relaxed font-medium">Once the sun dips behind the ridgeline, the temperature drop is fast and noticeable — often a swing of 15°C or more within an hour. This is the window where wind chill becomes a real factor, and where having your down jacket already packed at the top of your bag, rather than buried at the bottom, makes a real difference.
                 </p>
               </div>
             </div>
@@ -266,11 +229,9 @@ export default function Page() {
 
           {/* SECTION 7: CONDITIONS BY ALTITUDE */}
           <article id="altitudes" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge Weather by Altitude
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Weather by Altitude
             </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">
-              Because this trek gains significant elevation, &quot;Khopra Ridge weather&quot; actually describes several distinct microclimates strung along one trail.
+            <p className="text-stone-600 text-sm leading-relaxed">Because this trek gains significant elevation, &quot;Khopra Ridge weather&quot; actually describes several distinct microclimates strung along one trail.
             </p>
 
             {/* Altitude Table */}
@@ -298,8 +259,7 @@ export default function Page() {
 
           {/* SECTION 8: PACKING */}
           <article id="packing" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              What to Pack for Khopra Ridge Trek in October
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">What to Pack for Khopra Ridge Trek in October
             </h2>
             <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
               <div className="grid gap-6 md:grid-cols-3 text-xs text-stone-650">
@@ -316,20 +276,17 @@ export default function Page() {
               </div>
             </div>
             <div className="p-6 bg-emerald-50 border border-emerald-200 rounded-2xl text-emerald-800 text-xs sm:text-sm mt-4">
-              <h4 className="font-bold mb-1">❄️ Essential Cold Weather Gear for October Nights</h4>
-              <p className="leading-relaxed">
-                If you only prioritize a few items, make it these three: a sleeping bag rated well below freezing (comfortable to -10°C), thermal base layers you can sleep in, and a windproof shell for the walk between the lodge and the ridge viewpoint at dawn. These cover the coldest, most exposed moments of the trek.
+              <h4 className="font-bold mb-1">Essential Cold Weather Gear for October Nights</h4>
+              <p className="leading-relaxed">If you only prioritize a few items, make it these three: a sleeping bag rated well below freezing (comfortable to -10°C), thermal base layers you can sleep in, and a windproof shell for the walk between the lodge and the ridge viewpoint at dawn. These cover the coldest, most exposed moments of the trek.
               </p>
             </div>
           </article>
 
           {/* SECTION 9: COMPARISON */}
           <article id="comparison" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              October vs Other Months for Khopra Ridge Trek
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">October vs Other Months for Khopra Ridge Trek
             </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">
-              While October is widely considered the peak season month, compare it side-by-side with September and November to select the exact window that fits your trekking style.
+            <p className="text-stone-600 text-sm leading-relaxed">While October is widely considered the peak season month, compare it side-by-side with September and November to select the exact window that fits your trekking style.
             </p>
 
             {/* Comparisons Table */}
@@ -359,8 +316,7 @@ export default function Page() {
 
           {/* SECTION 10: FAQS */}
           <article id="faq" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              Frequently Asked Questions About October Weather
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Frequently Asked Questions About October Weather
             </h2>
             <div className="space-y-4 mt-6">
               {[
@@ -418,11 +374,9 @@ export default function Page() {
           {/* SECTION 11: CONCLUSION */}
           <article className="space-y-6">
             <h2 className="text-2xl font-bold text-stone-955 font-sans">Conclusion</h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              October gives Khopra Ridge trekkers the best version of this trail: dry conditions, minimal rain, and some of the clearest Himalayan views available at any time of year. The trade-off is straightforward — daytime hiking is comfortable, but nights at 3,660m demand real cold-weather preparation, and the season&apos;s popularity means lodge space disappears fast.
+            <p className="text-stone-600 leading-relaxed text-sm">October gives Khopra Ridge trekkers the best version of this trail: dry conditions, minimal rain, and some of the clearest Himalayan views available at any time of year. The trade-off is straightforward — daytime hiking is comfortable, but nights at 3,660m demand real cold-weather preparation, and the season&apos;s popularity means lodge space disappears fast.
             </p>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              If you pack properly for the temperature swing between midday sun and ridge-level cold, and you secure your accommodation early, October is hard to beat as a trekking month.
+            <p className="text-stone-600 leading-relaxed text-sm">If you pack properly for the temperature swing between midday sun and ridge-level cold, and you secure your accommodation early, October is hard to beat as a trekking month.
             </p>
           </article>
 
@@ -431,16 +385,14 @@ export default function Page() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
               <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Book Your October Khopra Ridge Trek Departure</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">
-                October lodge beds along the route are limited, and demand peaks early in the month. Secure your room reservations and trekking support now to lock in this season&apos;s best weather window.
+              <p className="text-stone-300 text-sm leading-relaxed">October lodge beds along the route are limited, and demand peaks early in the month. Secure your room reservations and trekking support now to lock in this season&apos;s best weather window.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
                   href="/contact"
                   className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
-                >
-                  Inquire Now &rarr;
+                >Inquire Now &rarr;
                 </Link>
               </div>
 
@@ -448,17 +400,13 @@ export default function Page() {
               <div className="pt-6 border-t border-white/10 space-y-3">
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
-                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     Check trekking permit requirements (ACAP &amp; TIMS)
+                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
-                  <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     Estimate your trip costs with our cost calculator
+                  <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Estimate your trip costs with our cost calculator
                   </Link>
-                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     Get the interactive packing checklist for your gear
+                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Get the interactive packing checklist for your gear
                   </Link>
-                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    ☀️ Check seasonal weather conditions before you go
+                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check seasonal weather conditions before you go
                   </Link>
                 </div>
               </div>
@@ -467,11 +415,10 @@ export default function Page() {
 
           {/* EEAT Author Verification Banner */}
           <div className="p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-            <span className="text-2xl mt-0.5">🏔️</span>
+            <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm font-sans">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-                Our weather statistics and logs are verified by licensed ACA guide networks. High-altitude temperatures are checked monthly to adjust recommended sleeping bags and gear ratings.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">Our weather statistics and logs are verified by licensed ACA guide networks. High-altitude temperatures are checked monthly to adjust recommended sleeping bags and gear ratings.
               </p>
             </div>
           </div>

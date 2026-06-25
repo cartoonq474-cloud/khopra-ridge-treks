@@ -16,11 +16,9 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Segment Silos</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Bayeli Kharka to Chhistibung Route Guide
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Bayeli Kharka to Chhistibung Route Guide
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Explore the wildlife rich valley trail. Read our guide covering segment distance, bamboo glades, langur monkey crossings, and lodging details at Chhistibung.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Explore the wildlife rich valley trail. Read our guide covering segment distance, bamboo glades, langur monkey crossings, and lodging details at Chhistibung.
           </p>
         </div>
 
@@ -37,21 +35,18 @@ export default function Page() {
         {/* Detail Description */}
         <div className="mt-12 space-y-6">
           <h2 className="text-2xl font-bold text-stone-950">Segment Trail Details</h2>
-          <p className="text-stone-600 leading-relaxed">
-            The hike from Bayeli Kharka (3,425m) to Chhistibung (2,975m) involves a deep forest descent followed by a steady climb back out of the river valley. The trail cuts through dense bamboo groves and oak forests that shelter rare Himalayan wildlife.
+          <p className="text-stone-600 leading-relaxed">The hike from Bayeli Kharka (3,425m) to Chhistibung (2,975m) involves a deep forest descent followed by a steady climb back out of the river valley. The trail cuts through dense bamboo groves and oak forests that shelter rare Himalayan wildlife.
           </p>
-          <p className="text-stone-600 leading-relaxed">
-            This segment is highly regarded for wildlife photography. Trekkers regularly spot troops of Himalayan Langur monkeys feeding in the treetops and the vibrant Himalayan Monal (Danphe) nesting in the bamboo glades. The route concludes at Chhistibung, a tiny community lodge settlement set in a high mountain pasture.
+          <p className="text-stone-600 leading-relaxed">This segment is highly regarded for wildlife photography. Trekkers regularly spot troops of Himalayan Langur monkeys feeding in the treetops and the vibrant Himalayan Monal (Danphe) nesting in the bamboo glades. The route concludes at Chhistibung, a tiny community lodge settlement set in a high mountain pasture.
           </p>
         </div>
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              Our guides walk the Bayeli-Chhistibung forest trail monthly to monitor trail degradation, mudslide boundaries, and guest house sanitation standards.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">Our guides walk the Bayeli-Chhistibung forest trail monthly to monitor trail degradation, mudslide boundaries, and guest house sanitation standards.
             </p>
           </div>
         </div>
@@ -60,15 +55,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Plan Your Trek Segments</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Book our core 9-day package. We arrange private jeeps to the trailhead and handle all community lodge accommodations along the quiet ridge trail.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Book our core 9-day package. We arrange private jeeps to the trailhead and handle all community lodge accommodations along the quiet ridge trail.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

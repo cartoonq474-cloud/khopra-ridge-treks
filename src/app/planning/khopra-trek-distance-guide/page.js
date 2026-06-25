@@ -85,11 +85,9 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Route Data</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Khopra Ridge Trek Distance & Pacing Guide
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Khopra Ridge Trek Distance & Pacing Guide
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Review detailed metrics of the loop trail. Plan your daily hiking output using exact horizontal distances and vertical elevation profiles.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Review detailed metrics of the loop trail. Plan your daily hiking output using exact horizontal distances and vertical elevation profiles.
           </p>
         </div>
 
@@ -157,18 +155,16 @@ export default function Page() {
         {/* Pacing Advice */}
         <div className="mt-16 p-8 bg-emerald-50 border border-emerald-200 rounded-3xl text-emerald-800 space-y-4">
           <h3 className="text-lg font-bold">Why Vertical Distance Matters More</h3>
-          <p className="text-xs leading-relaxed font-medium">
-            In the Himalayas, horizontal distance is often secondary to vertical elevation changes. Climbing 1,000 meters vertically (like the Chhistibung to Khopra segment or the Khayer Lake day hike) takes significantly more energy and time than trekking 10 kilometers on flat ground. When preparing, focus your training on stair climbing, step-ups, and incline training rather than purely horizontal running distance.
+          <p className="text-xs leading-relaxed font-medium">In the Himalayas, horizontal distance is often secondary to vertical elevation changes. Climbing 1,000 meters vertically (like the Chhistibung to Khopra segment or the Khayer Lake day hike) takes significantly more energy and time than trekking 10 kilometers on flat ground. When preparing, focus your training on stair climbing, step-ups, and incline training rather than purely horizontal running distance.
           </p>
         </div>
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -177,14 +173,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Customize Your Trail Pace</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              Prefer shorter daily trekking distances? We can add extra rest days or divide long segments into shorter stages with comfortable overnight stays.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">Prefer shorter daily trekking distances? We can add extra rest days or divide long segments into shorter stages with comfortable overnight stays.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Consult a guide
+            >Consult a guide
             </Link>
           </div>
         </div>

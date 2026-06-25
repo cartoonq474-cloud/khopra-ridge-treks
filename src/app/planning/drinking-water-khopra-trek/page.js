@@ -36,19 +36,16 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Trail Hydration</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Drinking Water & Hydration Guide
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Drinking Water & Hydration Guide
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Stay hydrated safely. Learn about the plastic bottle ban, water sterilization methods, purification costs, and local filling stations.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Stay hydrated safely. Learn about the plastic bottle ban, water sterilization methods, purification costs, and local filling stations.
           </p>
         </div>
 
         {/* The Plastic Bottle Ban */}
         <div className="mt-12 p-8 bg-emerald-50 border border-emerald-200 rounded-3xl text-emerald-800 space-y-4">
           <h3 className="text-lg font-bold">Important: The Plastic Bottle Ban</h3>
-          <p className="text-xs leading-relaxed font-medium">
-            To combat the environmental impact of plastic pollution in the Himalayas, the Annapurna Conservation Area Project (ACAP) and the community lodge committees have implemented a strict ban on the sale of single-use plastic mineral water bottles beyond Ghandruk and Ghorepani. You cannot purchase bottled water on the high ridges of Dobato, Bayeli, or Khopra. You must carry reusable bottles or hydration bladders and sterilize your own water.
+          <p className="text-xs leading-relaxed font-medium">To combat the environmental impact of plastic pollution in the Himalayas, the Annapurna Conservation Area Project (ACAP) and the community lodge committees have implemented a strict ban on the sale of single-use plastic mineral water bottles beyond Ghandruk and Ghorepani. You cannot purchase bottled water on the high ridges of Dobato, Bayeli, or Khopra. You must carry reusable bottles or hydration bladders and sterilize your own water.
           </p>
         </div>
 
@@ -73,23 +70,21 @@ export default function Page() {
         {/* Hydration Rules */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h3 className="text-xl font-bold text-stone-950">Hydration Rules for Altitude</h3>
-          <p>
-            When trekking at high altitudes (especially above the 3,000-meter threshold at Dobato, Khopra Ridge, and Khayer Lake), proper hydration is the single most important defense against Acute Mountain Sickness (AMS).
+          <p>When trekking at high altitudes (especially above the 3,000-meter threshold at Dobato, Khopra Ridge, and Khayer Lake), proper hydration is the single most important defense against Acute Mountain Sickness (AMS).
           </p>
           <ul className="list-disc pl-6 space-y-3">
-            <li><strong>Daily Volume:</strong> Drink between 4 and 5 liters of water daily.</li>
-            <li><strong>Avoid Ice-Cold Water:</strong> Drinking freezing river water can cause cold spasms or cough. Keep your bottle warm inside your jacket, or mix in hot boiled water.</li>
-            <li><strong>Electrolytes:</strong> Carry hydration powders or ORS packets to maintain mineral balances on long hiking days.</li>
+            <li><strong>Daily Volume:</strong>Drink between 4 and 5 liters of water daily.</li>
+            <li><strong>Avoid Ice-Cold Water:</strong>Drinking freezing river water can cause cold spasms or cough. Keep your bottle warm inside your jacket, or mix in hot boiled water.</li>
+            <li><strong>Electrolytes:</strong>Carry hydration powders or ORS packets to maintain mineral balances on long hiking days.</li>
           </ul>
         </div>
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -98,14 +93,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Trek Safely and Sustainably</h3>
-            <p className="mt-4 text-emerald-150/80 text-sm leading-relaxed">
-              Our guides carry high-performance Katadyn filters and backup purification tablets to ensure you always have access to safe drinking water.
+            <p className="mt-4 text-emerald-150/80 text-sm leading-relaxed">Our guides carry high-performance Katadyn filters and backup purification tablets to ensure you always have access to safe drinking water.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Learn about our tours
+            >Learn about our tours
             </Link>
           </div>
         </div>

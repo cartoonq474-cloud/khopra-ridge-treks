@@ -35,22 +35,18 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Planning Resource</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Teahouses on the Khopra Ridge Trek
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Teahouses on the Khopra Ridge Trek
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Lodging standards mapped out. Compare the developed commercial teahouses in Ghandruk and Ghorepani with the remote, community-owned mountain lodges.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Lodging standards mapped out. Compare the developed commercial teahouses in Ghandruk and Ghorepani with the remote, community-owned mountain lodges.
           </p>
         </div>
 
         {/* Overview */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-stone-950">Accommodations on the Trail</h2>
-          <p>
-            One of the greatest features of the Khopra Ridge circuit is the diverse accommodation network. You will start and end your trek in highly developed tourist villages with modern comforts, while spending the middle days in remote wilderness community lodges.
+          <p>One of the greatest features of the Khopra Ridge circuit is the diverse accommodation network. You will start and end your trek in highly developed tourist villages with modern comforts, while spending the middle days in remote wilderness community lodges.
           </p>
-          <p>
-            Understanding the transition between these two types of lodging is essential for packing, budgeting, and setting expectations for your trek.
+          <p>Understanding the transition between these two types of lodging is essential for packing, budgeting, and setting expectations for your trek.
           </p>
         </div>
 
@@ -86,31 +82,29 @@ export default function Page() {
         {/* What to Expect */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h3 className="text-xl font-bold text-stone-950">Room Standards & Bedding</h3>
-          <p>
-            Rooms are generally configured with twin beds (single mattresses on a wooden frame). Sheets, pillows, and a thick woolen blanket are provided.
+          <p>Rooms are generally configured with twin beds (single mattresses on a wooden frame). Sheets, pillows, and a thick woolen blanket are provided.
           </p>
           <p>
-            <strong>Trekking Tip:</strong> While blankets are thick, the unheated wooden walls of high-altitude rooms allow cold drafts to pass. We recommend placing your sleeping bag inside the teahouse bed, then layering the provided blanket on top for maximum warmth.
+            <strong>Trekking Tip:</strong>While blankets are thick, the unheated wooden walls of high-altitude rooms allow cold drafts to pass. We recommend placing your sleeping bag inside the teahouse bed, then layering the provided blanket on top for maximum warmth.
           </p>
           
           <h3 className="text-xl font-bold text-stone-950">Bathroom & Toilet Facilities</h3>
           <ul className="list-disc pl-6 space-y-3">
             <li>
-              <strong>Commercial Areas:</strong> You will find modern western-style sit-down flush toilets, attached to your room or on the corridor.
+              <strong>Commercial Areas:</strong>You will find modern western-style sit-down flush toilets, attached to your room or on the corridor.
             </li>
             <li>
-              <strong>High Community Ridges:</strong> Mostly shared squat toilets located in separate annexes. You will need to flush using a bucket of water. Bring your own toilet paper, as it is not supplied by lodges.
+              <strong>High Community Ridges:</strong>Mostly shared squat toilets located in separate annexes. You will need to flush using a bucket of water. Bring your own toilet paper, as it is not supplied by lodges.
             </li>
           </ul>
         </div>
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -119,14 +113,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Secure Your Entire Lodge Route</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              We manage all bookings across both commercial and community networks, securing comfortable rooms and warm dining settings for your group.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">We manage all bookings across both commercial and community networks, securing comfortable rooms and warm dining settings for your group.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Inquire now
+            >Inquire now
             </Link>
           </div>
         </div>

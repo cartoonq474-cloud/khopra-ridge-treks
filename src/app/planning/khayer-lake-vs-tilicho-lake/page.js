@@ -46,19 +46,16 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Lake Comparison</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Khayer Lake vs. Tilicho Lake Comparison
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Khayer Lake vs. Tilicho Lake Comparison
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Evaluate high-altitude destinations. Compare trail safety, elevations, landscape vistas, and crowd traffic between the Annapurna region&apos;s primary alpine lakes.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Evaluate high-altitude destinations. Compare trail safety, elevations, landscape vistas, and crowd traffic between the Annapurna region&apos;s primary alpine lakes.
           </p>
         </div>
 
         {/* Overview */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-stone-950">Two High Lakes: Different Worlds</h2>
-          <p>
-            For trekkers exploring the Annapurna conservation region, both Khayer Lake and Tilicho Lake stand out as premium high-altitude detours. While they share similar characteristics (both are sacred glacial lakes fed by towering peaks), the experience of getting to them and the trails themselves are completely different.
+          <p>For trekkers exploring the Annapurna conservation region, both Khayer Lake and Tilicho Lake stand out as premium high-altitude detours. While they share similar characteristics (both are sacred glacial lakes fed by towering peaks), the experience of getting to them and the trails themselves are completely different.
           </p>
         </div>
 
@@ -90,26 +87,24 @@ export default function Page() {
         {/* Key Differences */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h3 className="text-xl font-bold text-stone-950">Which High Lake Should You Choose?</h3>
-          <p>
-            Your choice depends on your itinerary, group preferences, and physical comfort levels:
+          <p>Your choice depends on your itinerary, group preferences, and physical comfort levels:
           </p>
           <ul className="list-disc pl-6 space-y-3">
             <li>
-              <strong>Choose Khayer Lake if:</strong> You want to avoid crowd congestion, prioritize community-run lodging networks, and prefer a progressive ridge hike with zero active landslide zones.
+              <strong>Choose Khayer Lake if:</strong>You want to avoid crowd congestion, prioritize community-run lodging networks, and prefer a progressive ridge hike with zero active landslide zones.
             </li>
             <li>
-              <strong>Choose Tilicho Lake if:</strong> You are already planning the complete 14-day Annapurna Circuit, want to see a larger lake body, and are comfortable navigating exposed landslip scree areas.
+              <strong>Choose Tilicho Lake if:</strong>You are already planning the complete 14-day Annapurna Circuit, want to see a larger lake body, and are comfortable navigating exposed landslip scree areas.
             </li>
           </ul>
         </div>
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -118,14 +113,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Plan Your Custom Mountain Trail</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              Contact our trip designers to customize your route. We specialize in mapping out offbeat loops tailored to your hiking history.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">Contact our trip designers to customize your route. We specialize in mapping out offbeat loops tailored to your hiking history.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Consult a planner
+            >Consult a planner
             </Link>
           </div>
         </div>

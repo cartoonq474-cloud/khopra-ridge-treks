@@ -71,8 +71,7 @@ export default function Page() {
           <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
             7-Day Khopra Ridge Trek (Express Route)
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            The ideal duration for active hikers. This 7-day express itinerary includes the demanding day-hike to sacred Khayer Lake and ends via Ghorepani and Poon Hill.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">The ideal duration for active hikers. This 7-day express itinerary includes the demanding day-hike to sacred Khayer Lake and ends via Ghorepani and Poon Hill.
           </p>
         </div>
 
@@ -89,11 +88,10 @@ export default function Page() {
         {/* Overview */}
         <div className="mt-12 space-y-6">
           <h2 className="text-2xl font-bold text-stone-950">Is the 7-Day Route Right for You?</h2>
-          <p className="text-stone-600 leading-relaxed">
-            The 7-day package represents the perfect balance of visual rewards and physical challenge. By starting directly with jeep logistics, it allows you to climb to the ridge, hike the sacred corridor of Khayer Lake (4,660m), and wrap up the loop through Ghorepani and Poon Hill within a week. Due to the rapid altitude gains, it is recommended for trekkers with some high-altitude experience and excellent cardiovascular fitness.
+          <p className="text-stone-600 leading-relaxed">The 7-day package represents the perfect balance of visual rewards and physical challenge. By starting directly with jeep logistics, it allows you to climb to the ridge, hike the sacred corridor of Khayer Lake (4,660m), and wrap up the loop through Ghorepani and Poon Hill within a week. Due to the rapid altitude gains, it is recommended for trekkers with some high-altitude experience and excellent cardiovascular fitness.
           </p>
           <div className="p-4 bg-amber-50 border border-amber-200 rounded-2xl text-amber-800 text-sm leading-relaxed">
-            <strong>Altitude Warning:</strong> You will ascend from 1,400m to 3,660m in just 3 days. Ensure you monitor oxygen saturation levels daily using an oximeter, which is provided in all our guides' medical kits.
+            <strong>Altitude Warning:</strong>You will ascend from 1,400m to 3,660m in just 3 days. Ensure you monitor oxygen saturation levels daily using an oximeter, which is provided in all our guides' medical kits.
           </div>
         </div>
 
@@ -123,11 +121,10 @@ export default function Page() {
 
         {/* E-E-A-T BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This express 7-day plan is verified by our field staff. We check trail markers, suspension bridges, and community pasture safety profiles weekly.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This express 7-day plan is verified by our field staff. We check trail markers, suspension bridges, and community pasture safety profiles weekly.
             </p>
           </div>
         </div>
@@ -136,21 +133,18 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Book this 7-Day Tour</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Ready to climb? Book our standard 7-day package with certified guides, private transport, and local community accommodations.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Ready to climb? Book our standard 7-day package with certified guides, private transport, and local community accommodations.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Book This Trek
+              >Book This Trek
               </Link>
               <Link
                 href="/planning/khopra-trek-itinerary"
                 className="rounded-full bg-white/10 border border-white/15 px-6 py-3 text-sm font-bold text-white hover:bg-white/20 transition-all"
-              >
-                Compare Route Options
+              >Compare Route Options
               </Link>
             </div>
           </div>

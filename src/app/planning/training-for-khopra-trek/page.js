@@ -28,22 +28,18 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Preparation Protocol</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Training Guide for the Khopra Ridge Trek
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Training Guide for the Khopra Ridge Trek
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Get your body ready for the Himalayas. A structured 8-week physical training framework focusing on building strength, cardiovascular stamina, and endurance.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Get your body ready for the Himalayas. A structured 8-week physical training framework focusing on building strength, cardiovascular stamina, and endurance.
           </p>
         </div>
 
         {/* Why training is crucial */}
         <div className="mt-12 space-y-6">
           <h2 className="text-2xl font-bold text-stone-950">Why Preparation Matters</h2>
-          <p className="text-stone-600 leading-relaxed">
-            The Khopra Ridge Trek involves climbs up steep slopes and high elevation hiking. You will be climbing up to 1,000 meters in a single day. Without training, you risk early exhaustion, knee soreness, or altitude-related issues due to cardiovascular fatigue.
+          <p className="text-stone-600 leading-relaxed">The Khopra Ridge Trek involves climbs up steep slopes and high elevation hiking. You will be climbing up to 1,000 meters in a single day. Without training, you risk early exhaustion, knee soreness, or altitude-related issues due to cardiovascular fatigue.
           </p>
-          <p className="text-stone-600 leading-relaxed">
-            Starting your training program **6 to 8 weeks** before you land in Kathmandu will transform your trek from a painful test of survival into an enjoyable and rewarding journey.
+          <p className="text-stone-600 leading-relaxed">Starting your training program **6 to 8 weeks** before you land in Kathmandu will transform your trek from a painful test of survival into an enjoyable and rewarding journey.
           </p>
         </div>
 
@@ -64,19 +60,18 @@ export default function Page() {
         <div className="mt-16 p-8 bg-emerald-50 border border-emerald-200 rounded-3xl text-emerald-800 space-y-4">
           <h3 className="text-lg font-bold">Recommended 8-Week Training Timeline</h3>
           <ul className="space-y-3 text-xs leading-relaxed list-disc pl-5">
-            <li><strong>Weeks 8 to 5 (Base Building):</strong> Do 3 cardio sessions (30 mins) + 2 strength workouts weekly. Walk on weekends for 2 hours with a light pack.</li>
-            <li><strong>Weeks 4 to 2 (Peak Conditioning):</strong> Increase pack weight to 8kg on weekend hikes (3-4 hours). Add weekly stair climbing and steep hill training.</li>
-            <li><strong>Week 1 (Tapering):</strong> Reduce training volume by 70%. Rest your joints, focus on stretching, hydration, and light walking. Do not push yourself to fatigue.</li>
+            <li><strong>Weeks 8 to 5 (Base Building):</strong>Do 3 cardio sessions (30 mins) + 2 strength workouts weekly. Walk on weekends for 2 hours with a light pack.</li>
+            <li><strong>Weeks 4 to 2 (Peak Conditioning):</strong>Increase pack weight to 8kg on weekend hikes (3-4 hours). Add weekly stair climbing and steep hill training.</li>
+            <li><strong>Week 1 (Tapering):</strong>Reduce training volume by 70%. Rest your joints, focus on stretching, hydration, and light walking. Do not push yourself to fatigue.</li>
           </ul>
         </div>
 
         {/* E-E-A-T Badge */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              We help trekkers from all fitness levels prepare for the Himalayas. Contact us if you need help customizing a training program for your age or experience.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">We help trekkers from all fitness levels prepare for the Himalayas. Contact us if you need help customizing a training program for your age or experience.
             </p>
           </div>
         </div>
@@ -85,15 +80,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Start Planning Today</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Book a guided trek to get access to our preparation guides, packing lists, and pre-departure webinars with trail leaders.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Book a guided trek to get access to our preparation guides, packing lists, and pre-departure webinars with trail leaders.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

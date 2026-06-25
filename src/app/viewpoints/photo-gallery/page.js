@@ -28,19 +28,16 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Visual Assets</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Khopra Ridge Trek Photography Gallery
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Khopra Ridge Trek Photography Gallery
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Explore the loop through visual assets. A curated directory of high-resolution image galleries tracing peaks, lakes, and traditional villages.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Explore the loop through visual assets. A curated directory of high-resolution image galleries tracing peaks, lakes, and traditional villages.
           </p>
         </div>
 
         {/* Intro */}
         <div className="mt-12 space-y-6">
           <h2 className="text-2xl font-bold text-stone-950">A Glimpse of the Offbeat Trail</h2>
-          <p className="text-stone-600 leading-relaxed">
-            The Khopra Ridge circuit is highly regarded as the most visually diverse and photogenic loop in the Annapurna range. To give you a preview of what to expect, explore our curated photography galleries categorized by landmarks.
+          <p className="text-stone-600 leading-relaxed">The Khopra Ridge circuit is highly regarded as the most visually diverse and photogenic loop in the Annapurna range. To give you a preview of what to expect, explore our curated photography galleries categorized by landmarks.
           </p>
         </div>
 
@@ -59,11 +56,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              All visual assets are contributed by our local guides and clients during seasonal departures. We do not use generic stock photos.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">All visual assets are contributed by our local guides and clients during seasonal departures. We do not use generic stock photos.
             </p>
           </div>
         </div>
@@ -72,15 +68,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Secure Your Scenic Trek Departure</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Want to capture these beautiful viewpoints during optimal lighting windows? Secure your permit-inclusive booking packages with our local team.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Want to capture these beautiful viewpoints during optimal lighting windows? Secure your permit-inclusive booking packages with our local team.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

@@ -13,14 +13,11 @@ export default function Page() {
       <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-             Magar Community Node
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">Magar Community Node
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
-            Swanta Village Trek Guide: Khopra Ridge Descent, Homestays &amp; Culture
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Swanta Village Trek Guide: Khopra Ridge Descent, Homestays &amp; Culture
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">
-            After days of cold winds and open ridgeline trails, Swanta Village feels like stepping into a different world. Tucked into a quiet side-valley below Khopra Ridge, this Magar farming community marks the point where alpine trekking gives way to terraced fields, warm lodges, and village life.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">After days of cold winds and open ridgeline trails, Swanta Village feels like stepping into a different world. Tucked into a quiet side-valley below Khopra Ridge, this Magar farming community marks the point where alpine trekking gives way to terraced fields, warm lodges, and village life.
           </p>
 
           {/* Quick Metrics Grid */}
@@ -54,47 +51,35 @@ export default function Page() {
         {/* STICKY TABLE OF CONTENTS SIDEBAR */}
         <aside className="lg:col-span-1">
           <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
-            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">
-              Table of Contents
+            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">Table of Contents
             </h3>
             <nav className="flex flex-col gap-1 text-sm">
-              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Quick Facts
+              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Quick Facts
               </a>
-              <a href="#location" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Location &amp; Geography
+              <a href="#location" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Location &amp; Geography
               </a>
-              <a href="#descent" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Khopra to Swanta Route
+              <a href="#descent" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Khopra to Swanta Route
               </a>
-              <a href="#accommodation" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Lodging &amp; Homestays
+              <a href="#accommodation" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Lodging &amp; Homestays
               </a>
-              <a href="#culture" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Magar Culture &amp; Life
+              <a href="#culture" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Magar Culture &amp; Life
               </a>
-              <a href="#why-stay" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Why Stay Here?
+              <a href="#why-stay" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Why Stay Here?
               </a>
-              <a href="#itinerary" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Itinerary Integration
+              <a href="#itinerary" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Itinerary Integration
               </a>
-              <a href="#comparisons" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Village Comparisons
+              <a href="#comparisons" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Village Comparisons
               </a>
-              <a href="#scenery" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Sunrise &amp; Beauty
+              <a href="#scenery" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Sunrise &amp; Beauty
               </a>
-              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Frequently Asked Qs
+              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Frequently Asked Qs
               </a>
             </nav>
             <div className="pt-4 border-t border-stone-100">
               <a 
                 href="#booking"
                 className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
-              >
-                Inquire &amp; Book
+              >Inquire &amp; Book
               </a>
             </div>
           </div>
@@ -104,41 +89,33 @@ export default function Page() {
         <main className="lg:col-span-3 space-y-16">
           {/* SECTION 1: OVERVIEW */}
           <article id="overview" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Swanta Village Guide
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Swanta Village Guide
             </h2>
-            <p className="text-stone-600 leading-relaxed text-base">
-              For trekkers descending from Khopra Danda, Swanta Village is more than a place to sleep. It&apos;s a working example of how community-run tourism in the Annapurna region directly funds local schools and supports rural livelihoods. In this guide, we&apos;ll cover exactly where Swanta sits on the route, what the descent is like, what to expect from homestays and teahouses, and why so many trekkers consider it one of the most memorable stops on the Khopra Ridge trek.
+            <p className="text-stone-600 leading-relaxed text-base">For trekkers descending from Khopra Danda, Swanta Village is more than a place to sleep. It&apos;s a working example of how community-run tourism in the Annapurna region directly funds local schools and supports rural livelihoods. In this guide, we&apos;ll cover exactly where Swanta sits on the route, what the descent is like, what to expect from homestays and teahouses, and why so many trekkers consider it one of the most memorable stops on the Khopra Ridge trek.
             </p>
           </article>
 
           {/* SECTION 2: LOCATION */}
           <article id="location" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Where is Swanta Village Located in the Annapurna Region?
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Where is Swanta Village Located in the Annapurna Region?
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Swanta Village sits in a sheltered side-valley beneath Khopra Ridge, within the broader Annapurna region of west-central Nepal. It&apos;s part of a small cluster of Magar and Gurung villages that support the Khopra Ridge and Mohare Danda trekking circuits.
+            <p className="text-stone-600 leading-relaxed text-sm">Swanta Village sits in a sheltered side-valley beneath Khopra Ridge, within the broader Annapurna region of west-central Nepal. It&apos;s part of a small cluster of Magar and Gurung villages that support the Khopra Ridge and Mohare Danda trekking circuits.
             </p>
 
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-bold text-stone-900">Swanta Village in Nepal and Its Altitude (2,200m)</h3>
-                <p className="text-stone-600 leading-relaxed text-sm mt-2">
-                  Swanta Village sits at approximately 2,200 m (7,217 ft). This altitude places it firmly in the temperate forest zone, well below the exposed, cold terrain of Khopra Ridge.
+                <p className="text-stone-600 leading-relaxed text-sm mt-2">Swanta Village sits at approximately 2,200 m (7,217 ft). This altitude places it firmly in the temperate forest zone, well below the exposed, cold terrain of Khopra Ridge.
                 </p>
-                <p className="text-stone-600 leading-relaxed text-sm mt-2">
-                  For trekkers, this matters in a practical way. After a night or two at higher elevation, the drop to Swanta usually brings noticeably milder temperatures, denser forest cover, and easier breathing. It&apos;s a natural recovery point built into the trek&apos;s geography.
+                <p className="text-stone-600 leading-relaxed text-sm mt-2">For trekkers, this matters in a practical way. After a night or two at higher elevation, the drop to Swanta usually brings noticeably milder temperatures, denser forest cover, and easier breathing. It&apos;s a natural recovery point built into the trek&apos;s geography.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-xl font-bold text-stone-900">Position of Swanta in the Khopra Ridge Trek Route</h3>
-                <p className="text-stone-600 leading-relaxed text-sm mt-2">
-                  Swanta is reached on the descent leg of the Khopra Ridge trek, typically after trekkers have spent time at Khopra Danda or the high camp near Khayer Lake. From Swanta, trails continue toward lower villages such as Ghorepani, linking it into the wider Ghorepani Poon Hill trek network.
+                <p className="text-stone-600 leading-relaxed text-sm mt-2">Swanta is reached on the descent leg of the Khopra Ridge trek, typically after trekkers have spent time at Khopra Danda or the high camp near Khayer Lake. From Swanta, trails continue toward lower villages such as Ghorepani, linking it into the wider Ghorepani Poon Hill trek network.
                 </p>
-                <p className="text-stone-600 leading-relaxed text-sm mt-2">
-                  This makes Swanta a connector village—part of the trail system that ties Khopra Ridge to other major Annapurna routes, rather than an isolated stop.
+                <p className="text-stone-600 leading-relaxed text-sm mt-2">This makes Swanta a connector village—part of the trail system that ties Khopra Ridge to other major Annapurna routes, rather than an isolated stop.
                 </p>
               </div>
             </div>
@@ -146,32 +123,27 @@ export default function Page() {
 
           {/* SECTION 3: DESCENT LEG */}
           <article id="descent" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge to Swanta Village Trekking Route
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge to Swanta Village Trekking Route
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              The walk from Khopra Danda down to Swanta is one of the more dramatic transitions on the entire trek. It&apos;s where the landscape—and the feel of the trip—changes the most.
+            <p className="text-stone-600 leading-relaxed text-sm">The walk from Khopra Danda down to Swanta is one of the more dramatic transitions on the entire trek. It&apos;s where the landscape—and the feel of the trip—changes the most.
             </p>
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base"> Descent from Khopra Danda</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Leaving Khopra Danda, the trail drops steadily through open ridge terrain before entering thick forest. As you lose elevation, rhododendron and oak trees gradually replace the bare alpine slopes, and the path narrows into a shaded forest track. The final stretch opens up into terraced fields and scattered lodges.
+                <h4 className="font-bold text-stone-950 text-base">Descent from Khopra Danda</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">Leaving Khopra Danda, the trail drops steadily through open ridge terrain before entering thick forest. As you lose elevation, rhododendron and oak trees gradually replace the bare alpine slopes, and the path narrows into a shaded forest track. The final stretch opens up into terraced fields and scattered lodges.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">⏱️ Duration, Distance &amp; Difficulty</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  The descent typically takes around 3 to 5 hours. While it is a downhill stretch overall, the terrain includes steep, sometimes slippery sections—particularly through forested switchbacks. Tired knees can make this feel more demanding. Trekking poles and a steady pace are highly useful here.
+                <h4 className="font-bold text-stone-950 text-base">Duration, Distance &amp; Difficulty</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">The descent typically takes around 3 to 5 hours. While it is a downhill stretch overall, the terrain includes steep, sometimes slippery sections—particularly through forested switchbacks. Tired knees can make this feel more demanding. Trekking poles and a steady pace are highly useful here.
                 </p>
               </div>
             </div>
 
             <div className="bg-stone-50 border border-stone-200 rounded-2xl p-5 mt-6">
               <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wide">Trail Environment: Rhododendron Forests</h4>
-              <p className="text-xs text-stone-600 leading-relaxed mt-2">
-                One of the highlights of this section is the forest itself. In spring, the rhododendron forest along this descent bursts into red, pink, and white blooms, turning the trail into one of the most photographed sections of the route. The shift from rocky foothills to dense green forest is a welcome contrast.
+              <p className="text-xs text-stone-600 leading-relaxed mt-2">One of the highlights of this section is the forest itself. In spring, the rhododendron forest along this descent bursts into red, pink, and white blooms, turning the trail into one of the most photographed sections of the route. The shift from rocky foothills to dense green forest is a welcome contrast.
               </p>
             </div>
 
@@ -197,32 +169,28 @@ export default function Page() {
 
           {/* SECTION 4: ACCOMMODATION */}
           <article id="accommodation" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Swanta Village Accommodation and Homestays
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Swanta Village Accommodation and Homestays
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
                 <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Magar Homestays</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Staying with a local Magar family offers a cozy, authentic experience. Rooms are basic with twin beds and warm blankets, but clean and well-kept. Hosts often share details about daily life and agricultural routines.
+                <p className="text-xs text-stone-500 leading-relaxed">Staying with a local Magar family offers a cozy, authentic experience. Rooms are basic with twin beds and warm blankets, but clean and well-kept. Hosts often share details about daily life and agricultural routines.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
                 <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Teahouse Facilities</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Lodges offer comfortable twin rooms, wood-stove warmed dining halls, hot meals featuring organic local vegetables, basic device charging, and hot showers.
+                <p className="text-xs text-stone-500 leading-relaxed">Lodges offer comfortable twin rooms, wood-stove warmed dining halls, hot meals featuring organic local vegetables, basic device charging, and hot showers.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-3xl shadow-sm space-y-3">
                 <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base">Community Support</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Swanta played a key role in launching the community lodge system. Profits from lodge stays directly fund Swanta High School teacher salaries, keeping secondary education accessible.
+                <p className="text-xs text-stone-500 leading-relaxed">Swanta played a key role in launching the community lodge system. Profits from lodge stays directly fund Swanta High School teacher salaries, keeping secondary education accessible.
                 </p>
               </div>
             </div>
@@ -230,33 +198,28 @@ export default function Page() {
 
           {/* SECTION 5: CULTURE */}
           <article id="culture" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Life in Swanta Village (Culture, Farming &amp; Community)
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Life in Swanta Village (Culture, Farming &amp; Community)
             </h2>
 
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">‍‍‍ Magar Community and Rural Lifestyle</h4>
-                <p className="mt-1">
-                  Swanta is primarily home to the Magar community, one of the indigenous ethnic groups of Nepal&apos;s hill regions. Daily life revolves around farming, livestock, and seasonal agricultural tasks. Swanta retains a quieter, more traditional atmosphere than busier hubs.
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Magar Community and Rural Lifestyle</h4>
+                <p className="mt-1">Swanta is primarily home to the Magar community, one of the indigenous ethnic groups of Nepal&apos;s hill regions. Daily life revolves around farming, livestock, and seasonal agricultural tasks. Swanta retains a quieter, more traditional atmosphere than busier hubs.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Terraced Farming and Agricultural Landscape</h4>
-                <p className="mt-1">
-                  The hillsides are shaped by terraced farming, with fields cut into the slopes to grow potatoes, barley, and maize. These terraces are one of the most visually striking features of the village, reflecting generations of mountain adaptation.
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">Terraced Farming and Agricultural Landscape</h4>
+                <p className="mt-1">The hillsides are shaped by terraced farming, with fields cut into the slopes to grow potatoes, barley, and maize. These terraces are one of the most visually striking features of the village, reflecting generations of mountain adaptation.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Yak Cheese Factory and Local Economy</h4>
-                <p className="mt-1">
-                  Swanta is home to a community-run yak cheese factory. The cheese is sold locally and along the trekking route, providing a diversified income stream beyond farming and supporting the local economy.
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">Yak Cheese Factory and Local Economy</h4>
+                <p className="mt-1">Swanta is home to a community-run yak cheese factory. The cheese is sold locally and along the trekking route, providing a diversified income stream beyond farming and supporting the local economy.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Community Development and Education</h4>
-                <p className="mt-1">
-                  The community-run lodge network revenue covers the local high school teacher salaries, eliminating the need for kids to walk hours to Ghorepani. This successful model has become a reference point for nearby villages.
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">Community Development and Education</h4>
+                <p className="mt-1">The community-run lodge network revenue covers the local high school teacher salaries, eliminating the need for kids to walk hours to Ghorepani. This successful model has become a reference point for nearby villages.
                 </p>
               </div>
             </div>
@@ -264,24 +227,19 @@ export default function Page() {
 
           {/* SECTION 6: WHY STAY */}
           <article id="why-stay" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Why Stay in Swanta Village on the Khopra Ridge Trek?
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Why Stay in Swanta Village on the Khopra Ridge Trek?
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Some trekkers consider pushing straight through to the next village. However, staying in Swanta is usually worth the extra time.
+            <p className="text-stone-600 leading-relaxed text-sm">Some trekkers consider pushing straight through to the next village. However, staying in Swanta is usually worth the extra time.
             </p>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              After a steep, tiring descent from Khopra Danda, Swanta offers a genuine rest point with comfortable beds, hot food, and milder temperatures. It is one of the best places on the route to experience authentic village culture directly. Over-nighting supports the community lodge system that funds Swanta&apos;s school — a highly rewarding stop.
+            <p className="text-stone-600 leading-relaxed text-sm">After a steep, tiring descent from Khopra Danda, Swanta offers a genuine rest point with comfortable beds, hot food, and milder temperatures. It is one of the best places on the route to experience authentic village culture directly. Over-nighting supports the community lodge system that funds Swanta&apos;s school — a highly rewarding stop.
             </p>
           </article>
 
           {/* SECTION 7: ITINERARY */}
           <article id="itinerary" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Swanta Village Trek Itinerary Integration
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Swanta Village Trek Itinerary Integration
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Swanta typically fits into the descent phase of a longer Khopra Ridge itinerary, usually on day 6 or 7 of an 8–10 day trek.
+            <p className="text-stone-600 leading-relaxed text-sm">Swanta typically fits into the descent phase of a longer Khopra Ridge itinerary, usually on day 6 or 7 of an 8–10 day trek.
             </p>
             <div className="bg-white border border-stone-200 rounded-2xl p-6 shadow-sm space-y-3 text-xs text-stone-600">
               <p><strong>A common sequence looks like this:</strong></p>
@@ -296,21 +254,18 @@ export default function Page() {
 
           {/* SECTION 8: COMPARISONS */}
           <article id="comparisons" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Swanta Village vs Other Trekking Stops
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Swanta Village vs Other Trekking Stops
             </h2>
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
                 <h4 className="font-bold text-stone-950 text-base">Swanta vs Ghorepani Poon Hill</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Ghorepani is busier, more developed, and geared heavily toward sunrise views from Poon Hill. Swanta, by contrast, offers a quieter, more community-focused experience with fewer crowds and a stronger sense of local life. Solitude and culture lovers prefer Swanta.
+                <p className="text-xs text-stone-500 leading-relaxed">Ghorepani is busier, more developed, and geared heavily toward sunrise views from Poon Hill. Swanta, by contrast, offers a quieter, more community-focused experience with fewer crowds and a stronger sense of local life. Solitude and culture lovers prefer Swanta.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
                 <h4 className="font-bold text-stone-950 text-base">Swanta vs Tadapani</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Tadapani sits at higher elevation and is known for closer mountain views and denser forest. Swanta, lower and more agricultural, trades some of those views for terraced farmland and a more relaxed village atmosphere. Both are excellent stops.
+                <p className="text-xs text-stone-500 leading-relaxed">Tadapani sits at higher elevation and is known for closer mountain views and denser forest. Swanta, lower and more agricultural, trades some of those views for terraced farmland and a more relaxed village atmosphere. Both are excellent stops.
                 </p>
               </div>
             </div>
@@ -318,21 +273,17 @@ export default function Page() {
 
           {/* SECTION 9: SCENERY */}
           <article id="scenery" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Swanta Village Sunrise and Natural Beauty
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Swanta Village Sunrise and Natural Beauty
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              While Swanta isn&apos;t primarily known as a sunrise viewpoint in the way Poon Hill is, mornings here have their own appeal. Soft light over the terraced fields, mist settling in the valley, and the surrounding forested hills create a calm, photogenic start to the day.
+            <p className="text-stone-600 leading-relaxed text-sm">While Swanta isn&apos;t primarily known as a sunrise viewpoint in the way Poon Hill is, mornings here have their own appeal. Soft light over the terraced fields, mist settling in the valley, and the surrounding forested hills create a calm, photogenic start to the day.
             </p>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              In spring, this is enhanced further by blooming rhododendron on the surrounding slopes, adding color to the early morning views.
+            <p className="text-stone-600 leading-relaxed text-sm">In spring, this is enhanced further by blooming rhododendron on the surrounding slopes, adding color to the early morning views.
             </p>
           </article>
 
           {/* SECTION 10: FAQS */}
           <article id="faq" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Frequently Asked Questions About Swanta Village
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Frequently Asked Questions About Swanta Village
             </h2>
 
             <div className="space-y-4 mt-6">
@@ -387,11 +338,9 @@ export default function Page() {
           {/* SECTION 11: CONCLUSION */}
           <article className="space-y-6">
             <h2 className="text-2xl font-bold text-stone-950">Conclusion</h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Swanta Village isn&apos;t just a stop on the map—it&apos;s where the Khopra Ridge trek shifts from high-altitude wilderness into genuine community life. Between the forested descent, terraced farmland, yak cheese production, and a lodge system that funds local education, Swanta offers trekkers a rare combination of comfort, culture, and meaning.
+            <p className="text-stone-600 leading-relaxed text-sm">Swanta Village isn&apos;t just a stop on the map—it&apos;s where the Khopra Ridge trek shifts from high-altitude wilderness into genuine community life. Between the forested descent, terraced farmland, yak cheese production, and a lodge system that funds local education, Swanta offers trekkers a rare combination of comfort, culture, and meaning.
             </p>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Whether you&apos;re planning a full Khopra Ridge itinerary or simply researching where to spend your descent night, Swanta Village deserves a place on your route—not just as a rest stop, but as one of the trek&apos;s most memorable experiences.
+            <p className="text-stone-600 leading-relaxed text-sm">Whether you&apos;re planning a full Khopra Ridge itinerary or simply researching where to spend your descent night, Swanta Village deserves a place on your route—not just as a rest stop, but as one of the trek&apos;s most memorable experiences.
             </p>
           </article>
 
@@ -400,19 +349,17 @@ export default function Page() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
               <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Ready to experience Swanta Village for yourself?</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">
-                Our 9-Day Khopra Ridge trek includes an overnight stay in Swanta Village, with all permits, lodging, and local guides arranged for you.
+              <p className="text-stone-300 text-sm leading-relaxed">Our 9-Day Khopra Ridge trek includes an overnight stay in Swanta Village, with all permits, lodging, and local guides arranged for you.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
                   href="/contact"
                   className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
-                >
-                  Inquire &amp; Book Today &rarr;
+                >Inquire &amp; Book Today &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span> Based in Pokhara, Nepal</span>
-                  <span> Free cancellation &amp; flexible changes</span>
+                  <span>Based in Pokhara, Nepal</span>
+                  <span>Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>
@@ -420,11 +367,10 @@ export default function Page() {
 
           {/* EEAT Author Verification Banner */}
           <div className="p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-            <span className="text-2xl mt-0.5">🏔️</span>
+            <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-                This Swanta Village guide is reviewed by certified local guides based in Pokhara. We regularly inspect road conditions, trailhead access, and village homestay registries to keep our details current.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This Swanta Village guide is reviewed by certified local guides based in Pokhara. We regularly inspect road conditions, trailhead access, and village homestay registries to keep our details current.
               </p>
             </div>
           </div>

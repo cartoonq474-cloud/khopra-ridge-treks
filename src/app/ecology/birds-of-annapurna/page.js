@@ -39,19 +39,16 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Avian Ecology</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Birds of the Annapurna: Khopra Bird Guide
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Birds of the Annapurna: Khopra Bird Guide
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Explore the canopies. A detailed guide to spotting the national bird (Danphe), forest pheasants, and giant mountain raptors along the trail.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Explore the canopies. A detailed guide to spotting the national bird (Danphe), forest pheasants, and giant mountain raptors along the trail.
           </p>
         </div>
 
         {/* Overview */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-stone-950">A Paradise for Bird Watchers</h2>
-          <p>
-            The Annapurna Conservation Area is home to over **450 species of birds**, representing one of the richest avian habitats in the Himalayas. Because the Khopra Ridge circuit traverses undisturbed, quiet oak forests and alpine zones (unlike busier tourist routes), it offers an exceptional playground for bird-watching enthusiasts.
+          <p>The Annapurna Conservation Area is home to over **450 species of birds**, representing one of the richest avian habitats in the Himalayas. Because the Khopra Ridge circuit traverses undisturbed, quiet oak forests and alpine zones (unlike busier tourist routes), it offers an exceptional playground for bird-watching enthusiasts.
           </p>
         </div>
 
@@ -76,11 +73,10 @@ export default function Page() {
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -89,14 +85,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Join Our Bird Watching Treks</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              We compile specialized itineraries with resident bird-watching guides who carry binoculars and spot maps to help you check off rare species.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">We compile specialized itineraries with resident bird-watching guides who carry binoculars and spot maps to help you check off rare species.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Inquire now
+            >Inquire now
             </Link>
           </div>
         </div>

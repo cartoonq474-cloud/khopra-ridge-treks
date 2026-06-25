@@ -40,11 +40,9 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Legal Disclosures</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Booking &amp; Cancellation Policies
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Booking &amp; Cancellation Policies
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Trek with peace of mind. Read our terms regarding cancellations, weather delays, mandatory altitude insurance, and helicopter emergency evacuation protocols.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Trek with peace of mind. Read our terms regarding cancellations, weather delays, mandatory altitude insurance, and helicopter emergency evacuation protocols.
           </p>
         </div>
 
@@ -56,7 +54,7 @@ export default function Page() {
               className="bg-white border border-stone-200 rounded-2xl overflow-hidden shadow-sm"
             >
               <button
-                onClick={() => handleToggle(p.id)}
+                onClick={() =>handleToggle(p.id)}
                 className="w-full flex items-center justify-between p-6 text-left focus:outline-none cursor-pointer"
               >
                 <h3 className="font-extrabold text-stone-950 text-base">{p.title}</h3>
@@ -83,11 +81,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              These policies comply with the guidelines set by the Trekking Agencies' Association of Nepal (TAAN) and the Annapurna Conservation Area Project.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">These policies comply with the guidelines set by the Trekking Agencies' Association of Nepal (TAAN) and the Annapurna Conservation Area Project.
             </p>
           </div>
         </div>
@@ -96,15 +93,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Have Questions About Payments?</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Contact our booking office in Pokhara to clarify wire transfers, currency payments, or group discount waivers.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Contact our booking office in Pokhara to clarify wire transfers, currency payments, or group discount waivers.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Contact Booking Office
+              >Contact Booking Office
               </Link>
             </div>
           </div>

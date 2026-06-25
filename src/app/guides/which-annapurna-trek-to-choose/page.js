@@ -47,19 +47,16 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Decision Guides</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Which Annapurna Trek to Choose?
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Which Annapurna Trek to Choose?
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Find your perfect path. Read our detailed comparison matrix covering duration, altitude difficulty, crowd density, and scenery across the Annapurna.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Find your perfect path. Read our detailed comparison matrix covering duration, altitude difficulty, crowd density, and scenery across the Annapurna.
           </p>
         </div>
 
         {/* Intro */}
         <div className="mt-12 space-y-6">
           <h2 className="text-2xl font-bold text-stone-950">Navigating the Annapurna Trails</h2>
-          <p className="text-stone-600 leading-relaxed">
-            The Annapurna region is the most diverse trekking destination in Nepal, offering everything from short foothill loops to high-altitude pass crossings. Choosing the right path requires aligning your physical fitness, trekking experience, and comfort preferences with the right route profile.
+          <p className="text-stone-600 leading-relaxed">The Annapurna region is the most diverse trekking destination in Nepal, offering everything from short foothill loops to high-altitude pass crossings. Choosing the right path requires aligning your physical fitness, trekking experience, and comfort preferences with the right route profile.
           </p>
         </div>
 
@@ -71,8 +68,7 @@ export default function Page() {
               <div key={idx} className="p-6 bg-white border border-stone-200 rounded-3xl shadow-sm">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-stone-100 pb-3 gap-2">
                   <h4 className="font-extrabold text-stone-950 text-base">{rt.name}</h4>
-                  <span className="text-xs font-bold text-emerald-600 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-100 shrink-0">
-                    Difficulty: {rt.difficulty}
+                  <span className="text-xs font-bold text-emerald-600 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-100 shrink-0">Difficulty: {rt.difficulty}
                   </span>
                 </div>
                 <div className="mt-4 space-y-2 text-xs text-stone-500 leading-relaxed">
@@ -87,11 +83,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              Our guides lead tours on all five major Annapurna routes. This comparison table is maintained to ensure unbiased, clear route decisions for trekkers.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">Our guides lead tours on all five major Annapurna routes. This comparison table is maintained to ensure unbiased, clear route decisions for trekkers.
             </p>
           </div>
         </div>
@@ -100,15 +95,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Inquire &amp; Customize Your Route</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Still not sure which route fits your calendar and physical stamina? Get in touch with our Pokhara planning team.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Still not sure which route fits your calendar and physical stamina? Get in touch with our Pokhara planning team.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

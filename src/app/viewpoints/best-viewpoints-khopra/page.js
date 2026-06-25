@@ -36,11 +36,9 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Route Comparison</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Best Viewpoints on the Khopra Ridge Trek
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Best Viewpoints on the Khopra Ridge Trek
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Where are the ultimate visual lookouts? Compare heights, crowd factors, and highlights of the key viewpoints along the circuit.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Where are the ultimate visual lookouts? Compare heights, crowd factors, and highlights of the key viewpoints along the circuit.
           </p>
         </div>
 
@@ -74,19 +72,16 @@ export default function Page() {
         {/* Muldai vs Poon Hill */}
         <div className="mt-16 space-y-6 text-stone-600 leading-relaxed">
           <h3 className="text-xl font-bold text-stone-950">Why We Prefer Muldai Viewpoint Over Poon Hill</h3>
-          <p>
-            While Poon Hill is world-famous, it is heavily commercialized and crowded. Trekkers stand shoulder-to-shoulder with hundreds of others. Muldai Viewpoint, located just a 30-minute walk from Dobato, offers similar or better angles of the Annapurna and Dhaulagiri ranges with a fraction of the foot traffic. 
+          <p>While Poon Hill is world-famous, it is heavily commercialized and crowded. Trekkers stand shoulder-to-shoulder with hundreds of others. Muldai Viewpoint, located just a 30-minute walk from Dobato, offers similar or better angles of the Annapurna and Dhaulagiri ranges with a fraction of the foot traffic. 
           </p>
-          <p>
-            Muldai provides a more natural, wild, and quiet sunrise experience, making it a favorite for photography and peaceful reflection.
+          <p>Muldai provides a more natural, wild, and quiet sunrise experience, making it a favorite for photography and peaceful reflection.
           </p>
         </div>
 
         {/* Detailed Viewpoint & Photography Guides */}
         <div className="mt-16 space-y-6">
           <h3 className="text-xl font-bold text-stone-950">Detailed Viewpoint &amp; Photography Guides</h3>
-          <p className="text-stone-600 text-sm leading-relaxed">
-            Read our deep-dives on when to hike, how to photograph, and what safety checks to keep in mind at these lookouts:
+          <p className="text-stone-600 text-sm leading-relaxed">Read our deep-dives on when to hike, how to photograph, and what safety checks to keep in mind at these lookouts:
           </p>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-semibold text-emerald-600">
             <li className="p-4 bg-white border border-stone-200 rounded-2xl hover:shadow-sm transition">
@@ -114,11 +109,10 @@ export default function Page() {
 
         {/* E-E-A-T Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -127,14 +121,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Discover Quiet Lookouts</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              Join our guided departures to explore the quieter viewpoints of the Annapurnas. Book your secure permit-inclusive package today.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">Join our guided departures to explore the quieter viewpoints of the Annapurnas. Book your secure permit-inclusive package today.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Inquire Now
+            >Inquire Now
             </Link>
           </div>
         </div>

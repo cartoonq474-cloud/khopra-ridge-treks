@@ -277,11 +277,9 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Site Directory</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Complete Web Directory: All Pages
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Complete Web Directory: All Pages
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Browse and access all pages, resource clusters, tools, and guides developed for the Khopra Ridge Trek information database.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Browse and access all pages, resource clusters, tools, and guides developed for the Khopra Ridge Trek information database.
           </p>
         </div>
 
@@ -308,11 +306,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Official Directory Indices</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This index contains direct paths to all published routes, community lodge protocols, maps, and comparative analysis tables.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This index contains direct paths to all published routes, community lodge protocols, maps, and comparative analysis tables.
             </p>
           </div>
         </div>

@@ -85,8 +85,8 @@ export default function InteractiveChecklist() {
   ];
 
   // Calculate overall progress
-  const allFilteredItems = categories.flatMap(c => getFilteredItems(c.key));
-  const checkedCount = allFilteredItems.filter(item => checkedItems[item.id]).length;
+  const allFilteredItems = categories.flatMap(c =>getFilteredItems(c.key));
+  const checkedCount = allFilteredItems.filter(item =>checkedItems[item.id]).length;
   const progressPercent = allFilteredItems.length ? Math.round((checkedCount / allFilteredItems.length) * 100) : 0;
 
   // Local storage caching for user's checked items
@@ -125,8 +125,7 @@ export default function InteractiveChecklist() {
         
         {/* Season Selector */}
         <div className="space-y-3">
-          <label className="text-xs font-bold text-stone-400 uppercase tracking-wider block">
-             Select Trekking Season
+          <label className="text-xs font-bold text-stone-400 uppercase tracking-wider block">Select Trekking Season
           </label>
           <div className="flex bg-stone-100 p-1 rounded-2xl border border-stone-200">
             {[
@@ -136,7 +135,7 @@ export default function InteractiveChecklist() {
             ].map((s) => (
               <button
                 key={s.key}
-                onClick={() => setSeason(s.key)}
+                onClick={() =>setSeason(s.key)}
                 className={`flex-1 py-2 text-xs font-bold rounded-xl transition cursor-pointer ${
                   season === s.key 
                     ? "bg-white text-stone-950 shadow-sm border border-stone-200/50" 
@@ -151,8 +150,7 @@ export default function InteractiveChecklist() {
 
         {/* Support Style Selector */}
         <div className="space-y-3">
-          <label className="text-xs font-bold text-stone-400 uppercase tracking-wider block">
-             Choose Trekking Style
+          <label className="text-xs font-bold text-stone-400 uppercase tracking-wider block">Choose Trekking Style
           </label>
           <div className="flex bg-stone-100 p-1 rounded-2xl border border-stone-200">
             {[
@@ -161,7 +159,7 @@ export default function InteractiveChecklist() {
             ].map((st) => (
               <button
                 key={st.key}
-                onClick={() => setStyle(st.key)}
+                onClick={() =>setStyle(st.key)}
                 className={`flex-1 py-2 text-xs font-bold rounded-xl transition cursor-pointer ${
                   style === st.key 
                     ? "bg-white text-stone-950 shadow-sm border border-stone-200/50" 
@@ -179,8 +177,7 @@ export default function InteractiveChecklist() {
       <div className="bg-emerald-950 rounded-3xl p-6 text-white flex flex-col sm:flex-row items-center justify-between gap-6 print:hidden">
         <div className="space-y-1">
           <h4 className="font-bold text-base font-sans">Your Packing Progress</h4>
-          <p className="text-xs text-emerald-200">
-            Checked off <strong className="text-white">{checkedCount}</strong> of <strong className="text-white">{allFilteredItems.length}</strong> dynamic checklist items.
+          <p className="text-xs text-emerald-200">Checked off <strong className="text-white">{checkedCount}</strong>of <strong className="text-white">{allFilteredItems.length}</strong>dynamic checklist items.
           </p>
         </div>
         <div className="flex items-center gap-4 w-full sm:w-auto">
@@ -211,7 +208,7 @@ export default function InteractiveChecklist() {
                 {items.map((item) => (
                   <div 
                     key={item.id}
-                    onClick={() => toggleItem(item.id)}
+                    onClick={() =>toggleItem(item.id)}
                     className={`p-4 bg-white border rounded-2xl flex items-start gap-3 cursor-pointer select-none transition-all duration-200 ${
                       checkedItems[item.id] 
                         ? "border-emerald-500 bg-emerald-50/10 shadow-sm" 
@@ -238,16 +235,14 @@ export default function InteractiveChecklist() {
       {/* Action Buttons */}
       <div className="flex flex-col sm:flex-row gap-4 pt-4 print:hidden">
         <button
-          onClick={() => window.print()}
+          onClick={() =>window.print()}
           className="flex-1 text-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs uppercase tracking-wider py-4 rounded-2xl shadow-lg hover:scale-[1.01] active:scale-[0.99] transition duration-200 cursor-pointer"
-        >
-          🖨️ Print Packing List
+        >Print Packing List
         </button>
         <button
           onClick={resetChecklist}
           className="bg-stone-200 hover:bg-stone-300 text-stone-700 font-extrabold text-xs uppercase tracking-wider px-6 py-4 rounded-2xl transition duration-200 cursor-pointer"
-        >
-           Reset Checklist
+        >Reset Checklist
         </button>
       </div>
     </div>

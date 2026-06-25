@@ -63,14 +63,11 @@ export default function Page() {
       <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-             Planning Directory
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">Planning Directory
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
-            Khopra Ridge Trek for Beginners
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge Trek for Beginners
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">
-            Thinking of taking on the Himalayas for the first time? Our complete guide breaks down difficulty ratings, altitude profiles, packing tips, budget calculations, and training timelines to ensure your first trek is safe and memorable.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Thinking of taking on the Himalayas for the first time? Our complete guide breaks down difficulty ratings, altitude profiles, packing tips, budget calculations, and training timelines to ensure your first trek is safe and memorable.
           </p>
 
           {/* Quick Metrics Grid */}
@@ -90,8 +87,7 @@ export default function Page() {
         {/* STICKY TABLE OF CONTENTS SIDEBAR */}
         <aside className="lg:col-span-1">
           <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
-            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">
-              Table of Contents
+            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">Table of Contents
             </h3>
             <nav className="flex flex-col gap-1 text-sm">
               <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
@@ -141,8 +137,7 @@ export default function Page() {
               <Link 
                 href="/contact"
                 className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
-              >
-                Inquire &amp; Book Tour
+              >Inquire &amp; Book Tour
               </Link>
             </div>
           </div>
@@ -152,118 +147,95 @@ export default function Page() {
         <main className="lg:col-span-3 space-y-16">
           {/* SECTION 1: OVERVIEW */}
           <article id="overview" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge Trek for Beginners: Complete Planning &amp; Preparation Guide
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Trek for Beginners: Complete Planning &amp; Preparation Guide
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                If this is your first time looking at a Himalayan trek, the Khopra Ridge Trek probably came up because someone told you it&apos;s &quot;beginner-friendly&quot; — and then you started wondering if that&apos;s actually true, or just something people say to sell a trip. It&apos;s a fair question. The trail climbs from around 1,400m to over 3,660m, and the optional side trip to Khayer Lake pushes past 4,660m. Those numbers can sound intimidating if you&apos;ve never trekked above sea level before.
+              <p>If this is your first time looking at a Himalayan trek, the Khopra Ridge Trek probably came up because someone told you it&apos;s &quot;beginner-friendly&quot; — and then you started wondering if that&apos;s actually true, or just something people say to sell a trip. It&apos;s a fair question. The trail climbs from around 1,400m to over 3,660m, and the optional side trip to Khayer Lake pushes past 4,660m. Those numbers can sound intimidating if you&apos;ve never trekked above sea level before.
               </p>
-              <p>
-                Here&apos;s the short version: yes, most reasonably active beginners can complete the Khopra Ridge Trek, provided they prepare properly and walk at the right pace. It doesn&apos;t require ropes, crampons, or any technical climbing skill. What it does require is a realistic understanding of the daily walking hours, the altitude, the costs, and the kind of physical preparation that makes the difference between an enjoyable trek and a miserable one.
+              <p>Here&apos;s the short version: yes, most reasonably active beginners can complete the Khopra Ridge Trek, provided they prepare properly and walk at the right pace. It doesn&apos;t require ropes, crampons, or any technical climbing skill. What it does require is a realistic understanding of the daily walking hours, the altitude, the costs, and the kind of physical preparation that makes the difference between an enjoyable trek and a miserable one.
               </p>
             </div>
           </article>
 
           {/* SECTION 2: SUITABILITY */}
           <article id="suitability" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Is the Khopra Ridge Trek Suitable for Beginners?
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Is the Khopra Ridge Trek Suitable for Beginners?
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                The Khopra Ridge Trek sits in an unusual sweet spot. It&apos;s demanding enough to feel like a real Himalayan adventure, but accessible enough that someone with no mountaineering background can realistically finish it. The trail is a walking route — stone steps, forest paths, and open ridgeline — not a climbing route. There&apos;s no technical gear involved at any point on the standard itinerary.
+              <p>The Khopra Ridge Trek sits in an unusual sweet spot. It&apos;s demanding enough to feel like a real Himalayan adventure, but accessible enough that someone with no mountaineering background can realistically finish it. The trail is a walking route — stone steps, forest paths, and open ridgeline — not a climbing route. There&apos;s no technical gear involved at any point on the standard itinerary.
               </p>
               <h3 className="text-lg font-bold text-stone-900">What Makes Khopra Ridge Beginner Friendly</h3>
-              <p>
-                The trail itself is well-established and easy to follow, with stone staircases and dirt paths maintained by the local Magar and Gurung communities. You&apos;re never navigating unmarked terrain or scrambling over loose rock. Teahouses and community lodges appear at regular intervals, so you&apos;re rarely more than a few hours from a hot meal, a bed, and basic facilities.
+              <p>The trail itself is well-established and easy to follow, with stone staircases and dirt paths maintained by the local Magar and Gurung communities. You&apos;re never navigating unmarked terrain or scrambling over loose rock. Teahouses and community lodges appear at regular intervals, so you&apos;re rarely more than a few hours from a hot meal, a bed, and basic facilities.
               </p>
-              <p>
-                The daily distances are also manageable. Most days involve five to seven hours of walking, which is enough to feel like a genuine trekking day without pushing into the kind of marathon stages found on longer expedition routes. Because the trek follows a single ridge corridor rather than crossing multiple high passes, the elevation profile is more predictable.
+              <p>The daily distances are also manageable. Most days involve five to seven hours of walking, which is enough to feel like a genuine trekking day without pushing into the kind of marathon stages found on longer expedition routes. Because the trek follows a single ridge corridor rather than crossing multiple high passes, the elevation profile is more predictable.
               </p>
               <h3 className="text-lg font-bold text-stone-900">Challenges First-Time Trekkers Should Expect</h3>
-              <p>
-                That said, &quot;beginner-friendly&quot; doesn&apos;t mean easy. Expect long, sustained uphill climbs, particularly on the approach from Tadapani toward Dobato, where the trail gains significant elevation through dense rhododendron forest. Stone steps are common, and they&apos;re harder on the knees during descent than most people anticipate. You&apos;ll also be walking multiple consecutive days without a rest day built in on the shorter itineraries.
+              <p>That said, &quot;beginner-friendly&quot; doesn&apos;t mean easy. Expect long, sustained uphill climbs, particularly on the approach from Tadapani toward Dobato, where the trail gains significant elevation through dense rhododendron forest. Stone steps are common, and they&apos;re harder on the knees during descent than most people anticipate. You&apos;ll also be walking multiple consecutive days without a rest day built in on the shorter itineraries.
               </p>
               <h3 className="text-lg font-bold text-stone-900">Who Should Consider This Trek (and Who May Struggle)</h3>
-              <p>
-                This route suits active travelers who exercise somewhat regularly, even if they&apos;ve never hiked at altitude before. It works well for solo travelers, couples, or small groups who want a quieter alternative to the busier Annapurna trails. If you&apos;re completely sedentary and rarely walk for more than 20–30 minutes at a stretch, the trek will feel significantly harder than expected. Anyone hoping to &quot;wing it&quot; with zero preparation time is taking on unnecessary risk.
+              <p>This route suits active travelers who exercise somewhat regularly, even if they&apos;ve never hiked at altitude before. It works well for solo travelers, couples, or small groups who want a quieter alternative to the busier Annapurna trails. If you&apos;re completely sedentary and rarely walk for more than 20–30 minutes at a stretch, the trek will feel significantly harder than expected. Anyone hoping to &quot;wing it&quot; with zero preparation time is taking on unnecessary risk.
               </p>
             </div>
           </article>
 
           {/* SECTION 3: DIFFICULTY */}
           <article id="difficulty" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              How Difficult Is the Khopra Ridge Trek?
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">How Difficult Is the Khopra Ridge Trek?
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                Compared to a true beginner trek like Poon Hill, which is typically completed in two to four days at lower elevations, Khopra Ridge is noticeably harder — longer days, higher altitude, and more sustained climbing. Compared to demanding treks like Annapurna Base Camp or the Annapurna Circuit, Khopra Ridge is easier, with no high-altitude pass crossings and a shorter overall timeline.
+              <p>Compared to a true beginner trek like Poon Hill, which is typically completed in two to four days at lower elevations, Khopra Ridge is noticeably harder — longer days, higher altitude, and more sustained climbing. Compared to demanding treks like Annapurna Base Camp or the Annapurna Circuit, Khopra Ridge is easier, with no high-altitude pass crossings and a shorter overall timeline.
               </p>
-              <p>
-                Most trekking days on Khopra Ridge run five to seven hours, including breaks. Elevation gain per day varies, but the stretch from Ghandruk toward Tadapani and onward to Dobato involves some of the steepest sustained climbing on the route, often gaining 700–900 meters across a single day. The push from Tadapani to Dobato is widely considered the hardest single stretch.
+              <p>Most trekking days on Khopra Ridge run five to seven hours, including breaks. Elevation gain per day varies, but the stretch from Ghandruk toward Tadapani and onward to Dobato involves some of the steepest sustained climbing on the route, often gaining 700–900 meters across a single day. The push from Tadapani to Dobato is widely considered the hardest single stretch.
               </p>
             </div>
           </article>
 
           {/* SECTION 4: ALTITUDE */}
           <article id="altitude" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Understanding the Khopra Ridge Trek Altitude
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Understanding the Khopra Ridge Trek Altitude
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                The main Khopra Ridge trail tops out at approximately 3,660 meters, with most overnight stays in the 2,000–3,500m range as the trek progresses. This is high enough that altitude effects are noticeable but well below the elevations where altitude sickness becomes a serious medical concern.
+              <p>The main Khopra Ridge trail tops out at approximately 3,660 meters, with most overnight stays in the 2,000–3,500m range as the trek progresses. This is high enough that altitude effects are noticeable but well below the elevations where altitude sickness becomes a serious medical concern.
               </p>
-              <p>
-                The optional day hike to Khayer Lake reaches around 4,660 meters, making it the highest point most beginners will encounter on this trip. Because it&apos;s a there-and-back day hike rather than an overnight stay at that elevation, the exposure to extreme altitude is brief, which significantly reduces risk compared to sleeping at similar heights.
+              <p>The optional day hike to Khayer Lake reaches around 4,660 meters, making it the highest point most beginners will encounter on this trip. Because it&apos;s a there-and-back day hike rather than an overnight stay at that elevation, the exposure to extreme altitude is brief, which significantly reduces risk compared to sleeping at similar heights.
               </p>
               <div className="p-6 bg-emerald-50 border border-emerald-200 rounded-2xl text-xs leading-relaxed text-emerald-800">
-                <strong>Altitude Sickness Prevention Tip:</strong> Walk slowly, drink plenty of water (around 4 liters daily), eat enough calories, and avoid alcohol. If symptoms of Acute Mountain Sickness (headache, nausea, dizziness) worsen, you must descend immediately.
+                <strong>Altitude Sickness Prevention Tip:</strong>Walk slowly, drink plenty of water (around 4 liters daily), eat enough calories, and avoid alcohol. If symptoms of Acute Mountain Sickness (headache, nausea, dizziness) worsen, you must descend immediately.
               </div>
             </div>
           </article>
 
           {/* SECTION 5: ROUTE OVERVIEW */}
           <article id="route-overview" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge Trek Route Overview
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Trek Route Overview
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                Most Khopra Ridge itineraries begin with a drive from Pokhara to a starting village such as Nayapul or Kimche, typically taking one and a half to two hours by local jeep or private vehicle. From there, the walking begins, usually climbing through Ghandruk, Tadapani, Dobato, and onward to the Khopra Ridge community lodge area.
+              <p>Most Khopra Ridge itineraries begin with a drive from Pokhara to a starting village such as Nayapul or Kimche, typically taking one and a half to two hours by local jeep or private vehicle. From there, the walking begins, usually climbing through Ghandruk, Tadapani, Dobato, and onward to the Khopra Ridge community lodge area.
               </p>
-              <p>
-                Accommodation along the way ranges from standard teahouses to the community-run lodges that define the upper stretches of the trek. Rooms are simple — usually twin beds, shared bathrooms in most locations, and basic blankets — but they&apos;re warm, clean, and fed by genuinely good home-style Nepali cooking.
+              <p>Accommodation along the way ranges from standard teahouses to the community-run lodges that define the upper stretches of the trek. Rooms are simple — usually twin beds, shared bathrooms in most locations, and basic blankets — but they&apos;re warm, clean, and fed by genuinely good home-style Nepali cooking.
               </p>
             </div>
           </article>
 
           {/* SECTION 6: ITINERARIES */}
           <article id="itineraries" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Recommended Khopra Ridge Trek Itineraries
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Recommended Khopra Ridge Trek Itineraries
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
               <h3 className="text-lg font-bold text-stone-900">7-Day vs 9-Day Options</h3>
-              <p>
-                A standard 7-day version typically includes one day of driving, four to five days of trekking, and a return descent. Stretching the same route over 9 days adds buffer for slower pacing, an extra acclimatization day, and more flexibility if weather or fatigue slows progress. For first-time Himalayan trekkers, the 9-day version is usually the better choice.
+              <p>A standard 7-day version typically includes one day of driving, four to five days of trekking, and a return descent. Stretching the same route over 9 days adds buffer for slower pacing, an extra acclimatization day, and more flexibility if weather or fatigue slows progress. For first-time Himalayan trekkers, the 9-day version is usually the better choice.
               </p>
-              <p>
-                Adding the Khayer Lake side trip typically extends the itinerary by one additional day. Beginners who feel strong by that point in the trek can manage it, but it&apos;s worth treating as optional rather than mandatory.
+              <p>Adding the Khayer Lake side trip typically extends the itinerary by one additional day. Beginners who feel strong by that point in the trek can manage it, but it&apos;s worth treating as optional rather than mandatory.
               </p>
             </div>
           </article>
 
           {/* SECTION 7: FITNESS */}
           <article id="fitness" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              How Fit Do You Need to Be?
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">How Fit Do You Need to Be?
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                A realistic baseline is the ability to walk continuously for four to six hours on uneven terrain, climb several flights of stairs without significant breathlessness, and carry a daypack of 5–8kg comfortably.
+              <p>A realistic baseline is the ability to walk continuously for four to six hours on uneven terrain, climb several flights of stairs without significant breathlessness, and carry a daypack of 5–8kg comfortably.
               </p>
 
               {/* Training Routine Cards */}
@@ -284,36 +256,30 @@ export default function Page() {
 
           {/* SECTION 8: COSTS */}
           <article id="costs" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              What Does the Khopra Ridge Trek Cost?
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">What Does the Khopra Ridge Trek Cost?
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                Independent trekking means covering permits, teahouse accommodation, meals, and local transportation yourself. Guided packages bundle a licensed guide, permits, accommodation, and often meals into a single price.
+              <p>Independent trekking means covering permits, teahouse accommodation, meals, and local transportation yourself. Guided packages bundle a licensed guide, permits, accommodation, and often meals into a single price.
               </p>
-              <p>
-                Hiring a porter to carry your main duffle bag is one of the most beginner-friendly decisions you can make. Porters let you walk with only a light daypack containing water, snacks, and layers. For first-timers, this small added cost often makes the difference between an enjoyable trek and an exhausting one.
+              <p>Hiring a porter to carry your main duffle bag is one of the most beginner-friendly decisions you can make. Porters let you walk with only a light daypack containing water, snacks, and layers. For first-timers, this small added cost often makes the difference between an enjoyable trek and an exhausting one.
               </p>
             </div>
           </article>
 
           {/* SECTION 9: BEST SEASON */}
           <article id="season" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Best Time for Beginners to Trek Khopra Ridge
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Best Time for Beginners to Trek Khopra Ridge
             </h2>
             <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-900 text-sm"> Spring (March–May)</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Brings blooming rhododendron forests, moderate temperatures, and generally stable weather. Visibility is usually good, though afternoon haze can occasionally soften mountain views.
+                <h4 className="font-bold text-stone-900 text-sm">Spring (March–May)</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">Brings blooming rhododendron forests, moderate temperatures, and generally stable weather. Visibility is usually good, though afternoon haze can occasionally soften mountain views.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm"> Autumn (September–November)</h4>
-                <p className="text-xs text-stone-500 leading-relaxed font-medium">
-                  Widely considered the best overall season, with the clearest mountain views (up to 98% visibility), stable weather, and comfortable daytime temperatures.
+                <h4 className="font-bold text-stone-955 text-sm">Autumn (September–November)</h4>
+                <p className="text-xs text-stone-500 leading-relaxed font-medium">Widely considered the best overall season, with the clearest mountain views (up to 98% visibility), stable weather, and comfortable daytime temperatures.
                 </p>
               </div>
             </div>
@@ -321,20 +287,17 @@ export default function Page() {
 
           {/* SECTION 10: GUIDE VS SOLO */}
           <article id="guide-vs-solo" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              Guided Trek vs Independent Trek for Beginners
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Guided Trek vs Independent Trek for Beginners
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                A licensed guide provides navigation support, manages pacing to suit your fitness level, communicates with teahouse owners, and recognizes early signs of altitude sickness. For a first Himalayan trek, this local knowledge is invaluable. Complete beginners with no high-altitude hiking background are almost always better served by a guided trek with porter support.
+              <p>A licensed guide provides navigation support, manages pacing to suit your fitness level, communicates with teahouse owners, and recognizes early signs of altitude sickness. For a first Himalayan trek, this local knowledge is invaluable. Complete beginners with no high-altitude hiking background are almost always better served by a guided trek with porter support.
               </p>
             </div>
           </article>
 
           {/* SECTION 11: PACKING */}
           <article id="packing" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              Essential Packing List for First-Time Trekkers
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Essential Packing List for First-Time Trekkers
             </h2>
             <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
               <div className="grid gap-6 md:grid-cols-3 text-xs text-stone-650">
@@ -354,20 +317,19 @@ export default function Page() {
 
           {/* SECTION 12: SAFETY */}
           <article id="safety" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Beginner Safety Tips and Common Mistakes
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Beginner Safety Tips and Common Mistakes
             </h2>
             <div className="p-8 bg-emerald-50 border border-emerald-200 rounded-3xl text-emerald-800 space-y-4">
               <h3 className="text-lg font-bold">The Three Golden Rules of Himalayan Trekking</h3>
               <ul className="space-y-3 text-xs leading-relaxed list-disc pl-5">
                 <li>
-                  <strong>Walk &quot;Bistari, Bistari&quot; (Slowly, Slowly):</strong> Himalayan trekking is not a race. Walking at a slow, conversational pace is the single best way to prevent altitude sickness and save energy.
+                  <strong>Walk &quot;Bistari, Bistari&quot; (Slowly, Slowly):</strong>Himalayan trekking is not a race. Walking at a slow, conversational pace is the single best way to prevent altitude sickness and save energy.
                 </li>
                 <li>
-                  <strong>Hydrate Frequently:</strong> Your body loses water rapidly in dry, cold mountain air. Drink 4 liters of purified water daily (even when you don&apos;t feel thirsty).
+                  <strong>Hydrate Frequently:</strong>Your body loses water rapidly in dry, cold mountain air. Drink 4 liters of purified water daily (even when you don&apos;t feel thirsty).
                 </li>
                 <li>
-                  <strong>Break In Your Boots:</strong> Never wear brand new hiking boots on the trail. Wear them on your training hikes for at least 30-40km to avoid painful blisters in remote valleys.
+                  <strong>Break In Your Boots:</strong>Never wear brand new hiking boots on the trail. Wear them on your training hikes for at least 30-40km to avoid painful blisters in remote valleys.
                 </li>
               </ul>
             </div>
@@ -375,11 +337,9 @@ export default function Page() {
 
           {/* SECTION 13: COMPARATIVE */}
           <article id="comparison" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge vs Other Beginner Treks in Nepal
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge vs Other Beginner Treks in Nepal
             </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">
-              Compare Khopra Ridge side-by-side with other popular beginner choices in the Annapurna Region:
+            <p className="text-stone-600 text-sm leading-relaxed">Compare Khopra Ridge side-by-side with other popular beginner choices in the Annapurna Region:
             </p>
 
             {/* Comparison Table */}
@@ -413,8 +373,7 @@ export default function Page() {
 
           {/* SECTION 14: FAQS */}
           <article id="faq" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              Frequently Asked Questions About the Trek for Beginners
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Frequently Asked Questions About the Trek for Beginners
             </h2>
             <div className="space-y-4 mt-6">
               {[
@@ -480,11 +439,9 @@ export default function Page() {
           {/* SECTION 15: CONCLUSION */}
           <article className="space-y-6">
             <h2 className="text-2xl font-bold text-stone-955 font-sans">Conclusion</h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              The Khopra Ridge Trek occupies a rare middle ground: challenging enough to feel like a genuine Himalayan accomplishment, yet realistic for a well-prepared beginner with no prior mountain trekking experience. The altitude, daily distances, and consecutive trekking days are real factors to respect, but none of them are barriers for someone who trains consistently, paces themselves on the trail, and makes sensible choices around guide and porter support.
+            <p className="text-stone-600 leading-relaxed text-sm">The Khopra Ridge Trek occupies a rare middle ground: challenging enough to feel like a genuine Himalayan accomplishment, yet realistic for a well-prepared beginner with no prior mountain trekking experience. The altitude, daily distances, and consecutive trekking days are real factors to respect, but none of them are barriers for someone who trains consistently, paces themselves on the trail, and makes sensible choices around guide and porter support.
             </p>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              If you take one thing from this guide, let it be this: preparation matters more than natural athleticism on a trek like this. A moderately fit beginner who trains for ten weeks and walks slowly will have a better experience than a stronger hiker who shows up untrained and rushes the pace. Start your training timeline early, choose the itinerary length that gives your body room to adjust, and treat altitude with the respect it deserves.
+            <p className="text-stone-600 leading-relaxed text-sm">If you take one thing from this guide, let it be this: preparation matters more than natural athleticism on a trek like this. A moderately fit beginner who trains for ten weeks and walks slowly will have a better experience than a stronger hiker who shows up untrained and rushes the pace. Start your training timeline early, choose the itinerary length that gives your body room to adjust, and treat altitude with the respect it deserves.
             </p>
           </article>
 
@@ -493,16 +450,14 @@ export default function Page() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
               <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Plan Your First Khopra Ridge Trek With Local Experts</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">
-                Want to trek Khopra Ridge with certified guides who prioritize safety, sensible pacing, and porter support for first-timers? We&apos;ve guided hundreds of beginner hikers through this exact route, and our itineraries are built specifically to prevent fatigue and support safe acclimatization. Speak to us today to plan a personalized itinerary for your first Himalayan adventure.
+              <p className="text-stone-300 text-sm leading-relaxed">Want to trek Khopra Ridge with certified guides who prioritize safety, sensible pacing, and porter support for first-timers? We&apos;ve guided hundreds of beginner hikers through this exact route, and our itineraries are built specifically to prevent fatigue and support safe acclimatization. Speak to us today to plan a personalized itinerary for your first Himalayan adventure.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
                   href="/contact"
                   className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
-                >
-                  Inquire Now &rarr;
+                >Inquire Now &rarr;
                 </Link>
               </div>
 
@@ -510,17 +465,13 @@ export default function Page() {
               <div className="pt-6 border-t border-white/10 space-y-3">
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
-                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     Check trekking permit requirements (ACAP &amp; TIMS)
+                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
-                  <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     Estimate your trip costs with our cost calculator
+                  <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Estimate your trip costs with our cost calculator
                   </Link>
-                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     Get the interactive packing checklist for your gear
+                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Get the interactive packing checklist for your gear
                   </Link>
-                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    ☀️ Check seasonal weather conditions before you go
+                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check seasonal weather conditions before you go
                   </Link>
                 </div>
               </div>
@@ -529,11 +480,10 @@ export default function Page() {
 
           {/* EEAT Author Verification Banner */}
           <div className="p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-            <span className="text-2xl mt-0.5">🏔️</span>
+            <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm font-sans">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-                Our beginner training plans and difficulty ratings have been checked and verified by certified wilderness first-aid coordinators and licensed ACA guides.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">Our beginner training plans and difficulty ratings have been checked and verified by certified wilderness first-aid coordinators and licensed ACA guides.
               </p>
             </div>
           </div>

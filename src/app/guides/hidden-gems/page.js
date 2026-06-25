@@ -32,19 +32,16 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Decision Guides</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Hidden Gems of the Khopra Ridge Trek
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Hidden Gems of the Khopra Ridge Trek
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Discover the unlisted scenic highlights. Read our guide to offbeat pastures, hidden shrines, and local honey spots along the loop.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Discover the unlisted scenic highlights. Read our guide to offbeat pastures, hidden shrines, and local honey spots along the loop.
           </p>
         </div>
 
         {/* Intro */}
         <div className="mt-12 space-y-6">
           <h2 className="text-2xl font-bold text-stone-950">Trails Less Traveled</h2>
-          <p className="text-stone-600 leading-relaxed">
-            The entire Khopra loop is an offbeat route, but certain landmarks and segments are exceptionally quiet and beautiful. Knowing where to pause, check out a local homestay, or take an alternate path can elevate your trek from a standard walk to a deep visual and cultural experience.
+          <p className="text-stone-600 leading-relaxed">The entire Khopra loop is an offbeat route, but certain landmarks and segments are exceptionally quiet and beautiful. Knowing where to pause, check out a local homestay, or take an alternate path can elevate your trek from a standard walk to a deep visual and cultural experience.
           </p>
         </div>
 
@@ -64,11 +61,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              Our guides are native to the surrounding valleys and walk the trails year-round, discovering unique locations and seasonal landmarks for our guests.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">Our guides are native to the surrounding valleys and walk the trails year-round, discovering unique locations and seasonal landmarks for our guests.
             </p>
           </div>
         </div>
@@ -77,15 +73,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Inquire About Custom Offbeat Itineraries</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Want to design a custom trek highlighting these hidden viewpoints and homestays? Get in touch with our local team.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Want to design a custom trek highlighting these hidden viewpoints and homestays? Get in touch with our local team.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

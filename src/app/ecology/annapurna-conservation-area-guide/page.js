@@ -16,11 +16,9 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Ecology Silos</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Annapurna Conservation Area (ACA) Guide
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Annapurna Conservation Area (ACA) Guide
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Discover the sanctuary. Learn about the rules, entry permits, checkpoints, biodiversity, and ecosystem restoration of Nepal's largest protected region.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Discover the sanctuary. Learn about the rules, entry permits, checkpoints, biodiversity, and ecosystem restoration of Nepal's largest protected region.
           </p>
         </div>
 
@@ -37,11 +35,9 @@ export default function Page() {
         {/* Introduction */}
         <div className="mt-12 space-y-6">
           <h2 className="text-2xl font-bold text-stone-950">Ecosystem Protection parameters</h2>
-          <p className="text-stone-600 leading-relaxed">
-            The **Annapurna Conservation Area** (ACA) is governed by the National Trust for Nature Conservation (NTNC). Unlike standard national parks, ACA focuses heavily on integrating local communities directly in the conservation process. This community-centric model ensures that local villagers participate in managing tourism, maintaining trails, and protecting native forests.
+          <p className="text-stone-600 leading-relaxed">The **Annapurna Conservation Area** (ACA) is governed by the National Trust for Nature Conservation (NTNC). Unlike standard national parks, ACA focuses heavily on integrating local communities directly in the conservation process. This community-centric model ensures that local villagers participate in managing tourism, maintaining trails, and protecting native forests.
           </p>
-          <p className="text-stone-600 leading-relaxed">
-            The region hosts over 1,200 species of flowering plants, 100 species of mammals (including the rare Snow Leopard and Musk Deer), and 500 species of birds (such as the Himalayan Monal, Nepal's national bird).
+          <p className="text-stone-600 leading-relaxed">The region hosts over 1,200 species of flowering plants, 100 species of mammals (including the rare Snow Leopard and Musk Deer), and 500 species of birds (such as the Himalayan Monal, Nepal's national bird).
           </p>
         </div>
 
@@ -88,21 +84,18 @@ export default function Page() {
         <div className="mt-12 p-8 bg-white border border-stone-200 rounded-3xl shadow-sm space-y-4">
           <span className="text-xs font-extrabold text-emerald-600 uppercase tracking-widest block">Permits &amp; Registration</span>
           <h3 className="text-xl font-bold text-stone-950">Mandatory Entry Rules</h3>
-          <p className="text-stone-600 text-sm leading-relaxed">
-            All foreign trekkers must carry a valid ACAP entry permit and a registered TIMS card. These are checked at official government checkpoints along the trail (such as Nayapul, Birethanti, or Ghorepani). Entering the conservation area without a registered permit results in heavy fines at the gates.
+          <p className="text-stone-600 text-sm leading-relaxed">All foreign trekkers must carry a valid ACAP entry permit and a registered TIMS card. These are checked at official government checkpoints along the trail (such as Nayapul, Birethanti, or Ghorepani). Entering the conservation area without a registered permit results in heavy fines at the gates.
           </p>
-          <div className="p-4 bg-emerald-50 border border-emerald-200 rounded-xl text-emerald-800 text-xs font-medium leading-relaxed">
-            All permit registration processing is fully handled by our guides for clients booking package tours.
+          <div className="p-4 bg-emerald-50 border border-emerald-200 rounded-xl text-emerald-800 text-xs font-medium leading-relaxed">All permit registration processing is fully handled by our guides for clients booking package tours.
           </div>
         </div>
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              We coordinate directly with NTNC checkpost officers to monitor wildlife sightings, forest degradation patterns, and trail safety conditions.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">We coordinate directly with NTNC checkpost officers to monitor wildlife sightings, forest degradation patterns, and trail safety conditions.
             </p>
           </div>
         </div>
@@ -111,15 +104,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Support ACA Conservation</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Book our 9-day core itinerary. 100% of accommodation profits directly fund the Magar village communities inside the conservation area.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Book our 9-day core itinerary. 100% of accommodation profits directly fund the Magar village communities inside the conservation area.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

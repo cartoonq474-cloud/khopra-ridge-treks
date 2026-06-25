@@ -39,22 +39,18 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Spring Canopy</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Spring Rhododendron Bloom Timeline
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Spring Rhododendron Bloom Timeline
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Walk under the crimson arches. Explore the annual flowering schedule, color bands, and elevation distributions of Nepal&apos;s national flower.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Walk under the crimson arches. Explore the annual flowering schedule, color bands, and elevation distributions of Nepal&apos;s national flower.
           </p>
         </div>
 
         {/* Overview */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-stone-950">Nepal&apos;s Signature Spring Canopy</h2>
-          <p>
-            Rhododendron arboreum, known locally as **Lali Gurans**, is the national flower of Nepal. The forests surrounding Tadapani, Dobato, and Swanta are home to some of the largest rhododendron trees in the world, growing into massive trunks over 15 meters tall.
+          <p>Rhododendron arboreum, known locally as **Lali Gurans**, is the national flower of Nepal. The forests surrounding Tadapani, Dobato, and Swanta are home to some of the largest rhododendron trees in the world, growing into massive trunks over 15 meters tall.
           </p>
-          <p>
-            During spring, these forests undergo a spectacular transformation. The canopy blossoms, creating a vertical gradient of color that climbs the mountainside as temperatures rise.
+          <p>During spring, these forests undergo a spectacular transformation. The canopy blossoms, creating a vertical gradient of color that climbs the mountainside as temperatures rise.
           </p>
         </div>
 
@@ -79,11 +75,10 @@ export default function Page() {
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -92,14 +87,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Book a Spring Departure</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              Experience the spectacular spring colors. Inquire today to secure lodge bookings and private transfers during the peak spring bloom season.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">Experience the spectacular spring colors. Inquire today to secure lodge bookings and private transfers during the peak spring bloom season.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Inquire now
+            >Inquire now
             </Link>
           </div>
         </div>

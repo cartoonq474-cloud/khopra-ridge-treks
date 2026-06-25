@@ -39,14 +39,11 @@ export default function Page() {
       <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-             Elevation &amp; Route Profile
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">Elevation &amp; Route Profile
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
-            Khopra Ridge Elevation Chart &amp; Profile
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge Elevation Chart &amp; Profile
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">
-            How high does this trek actually go, and can your body handle it? Explore the complete day-by-day altitude progression chart, elevation gains, and critical acclimatization profiles.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">How high does this trek actually go, and can your body handle it? Explore the complete day-by-day altitude progression chart, elevation gains, and critical acclimatization profiles.
           </p>
 
           {/* Quick Metrics Grid */}
@@ -66,44 +63,33 @@ export default function Page() {
         {/* STICKY TABLE OF CONTENTS SIDEBAR */}
         <aside className="lg:col-span-1">
           <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
-            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">
-              Table of Contents
+            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">Table of Contents
             </h3>
             <nav className="flex flex-col gap-1 text-sm">
-              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Elevation Overview
+              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Elevation Overview
               </a>
-              <a href="#interactive-chart" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Interactive Profile Chart
+              <a href="#interactive-chart" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Interactive Profile Chart
               </a>
-              <a href="#breakdown" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Day-by-Day Breakdown
+              <a href="#breakdown" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Day-by-Day Breakdown
               </a>
-              <a href="#gain-loss" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Gain &amp; Route Analysis
+              <a href="#gain-loss" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Gain &amp; Route Analysis
               </a>
-              <a href="#khayer-lake" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Khayer Lake Altitude
+              <a href="#khayer-lake" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Khayer Lake Altitude
               </a>
-              <a href="#acclimatization" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Altitude Sickness &amp; AMS
+              <a href="#acclimatization" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Altitude Sickness &amp; AMS
               </a>
-              <a href="#suitability" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Is it for Beginners?
+              <a href="#suitability" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Is it for Beginners?
               </a>
-              <a href="#comparison" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Trek Altitude Comparisons
+              <a href="#comparison" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Trek Altitude Comparisons
               </a>
-              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Frequently Asked Qs
+              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Frequently Asked Qs
               </a>
             </nav>
             <div className="pt-4 border-t border-stone-100">
               <Link 
                 href="/contact"
                 className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
-              >
-                Inquire &amp; Build Custom Plan
+              >Inquire &amp; Build Custom Plan
               </Link>
             </div>
           </div>
@@ -113,52 +99,46 @@ export default function Page() {
         <main className="lg:col-span-3 space-y-16">
           {/* SECTION 1: OVERVIEW */}
           <article id="overview" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge Trek Elevation Overview
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Trek Elevation Overview
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                The route climbs from around 2,630m at Tadapani to a high point of 4,660m at Khayer Lake, with several overnight stops in between that gradually condition your body for the altitude. With a sensible pace and proper acclimatization, this altitude profile is manageable for most reasonably fit trekkers, including many first-timers.
+              <p>The route climbs from around 2,630m at Tadapani to a high point of 4,660m at Khayer Lake, with several overnight stops in between that gradually condition your body for the altitude. With a sensible pace and proper acclimatization, this altitude profile is manageable for most reasonably fit trekkers, including many first-timers.
               </p>
               <p>
-                <strong>What Is the Highest Point on the Khopra Ridge Trek?</strong> The highest point on the route is Khayer Lake, at 4,660m, reached as a side hike from Khopra Ridge itself. This is different from the highest place you will actually sleep, which is Khopra Danda at 3,660m.
+                <strong>What Is the Highest Point on the Khopra Ridge Trek?</strong>The highest point on the route is Khayer Lake, at 4,660m, reached as a side hike from Khopra Ridge itself. This is different from the highest place you will actually sleep, which is Khopra Danda at 3,660m.
               </p>
-              <p>
-                That distinction matters more than most trekkers realize. Sleeping altitude is what your body has to recover and rest at overnight, while a day-hike altitude like Khayer Lake is a shorter exposure you pass through and then descend from. Trekking up to 4,660m for a few hours is a very different physiological experience than trying to sleep there.
+              <p>That distinction matters more than most trekkers realize. Sleeping altitude is what your body has to recover and rest at overnight, while a day-hike altitude like Khayer Lake is a shorter exposure you pass through and then descend from. Trekking up to 4,660m for a few hours is a very different physiological experience than trying to sleep there.
               </p>
             </div>
 
             <div className="bg-emerald-50 border border-emerald-200 p-6 rounded-2xl text-emerald-950 text-xs leading-relaxed">
-              <strong>Why Altitude Sickness (AMS) Matters:</strong> Above roughly 3,000m, the air contains noticeably less oxygen than at sea level. By 4,660m, oxygen availability drops to around 60% of what you are used to breathing at home. Your body responds by breathing faster and working your heart harder during exertion. A route built for gradual adaptation reduces risk regardless of your fitness background.
+              <strong>Why Altitude Sickness (AMS) Matters:</strong>Above roughly 3,000m, the air contains noticeably less oxygen than at sea level. By 4,660m, oxygen availability drops to around 60% of what you are used to breathing at home. Your body responds by breathing faster and working your heart harder during exertion. A route built for gradual adaptation reduces risk regardless of your fitness background.
             </div>
           </article>
 
           {/* SECTION 2: INTERACTIVE CHART */}
           <article id="interactive-chart" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Interactive Elevation Profile Chart
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Interactive Elevation Profile Chart
             </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">
-              The chart below maps the full altitude profile across all days, showing where the trail climbs, where it drops, and where you gain the most height in a single push.
+            <p className="text-stone-600 text-sm leading-relaxed">The chart below maps the full altitude profile across all days, showing where the trail climbs, where it drops, and where you gain the most height in a single push.
             </p>
             
             {/* Elevation SVG Profile Widget */}
             <ElevationProfile />
 
             <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-4 mt-6">
-              <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Key Chart Insights</h4>
+              <h4 className="font-bold text-stone-950 text-sm sm:text-base">Key Chart Insights</h4>
               <ul className="list-disc pl-5 text-xs text-stone-500 space-y-2 font-medium">
-                <li><strong>Ascent is Staged:</strong> Climbs are followed by smaller gains or partial descents, which supports natural acclimatization.</li>
-                <li><strong>There-and-Back Day:</strong> The single biggest altitude exposure is the Khayer Lake side hike, which does not introduce a new sleeping altitude.</li>
-                <li><strong>Steep Descent:</strong> After Khayer Lake, the route drops over 1,400m by the time you reach Swanta Village.</li>
+                <li><strong>Ascent is Staged:</strong>Climbs are followed by smaller gains or partial descents, which supports natural acclimatization.</li>
+                <li><strong>There-and-Back Day:</strong>The single biggest altitude exposure is the Khayer Lake side hike, which does not introduce a new sleeping altitude.</li>
+                <li><strong>Steep Descent:</strong>After Khayer Lake, the route drops over 1,400m by the time you reach Swanta Village.</li>
               </ul>
             </div>
           </article>
 
           {/* SECTION 3: BREAKDOWN */}
           <article id="breakdown" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              Day-by-Day Elevation Summary
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Day-by-Day Elevation Summary
             </h2>
             
             {/* Daily Elevation Table */}
@@ -191,50 +171,43 @@ export default function Page() {
             <div className="space-y-6 mt-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-900 text-sm">Day 1: Tadapani (2,630m)</h4>
-                <p className="text-xs text-stone-500 mt-2 leading-relaxed">
-                  Most itineraries begin walking toward Tadapani after arriving from Ghandruk or Pokhara, putting you at a starting altitude of 2,630m. At this height, altitude effects are minimal for almost everyone, and this day functions as a baseline.
+                <p className="text-xs text-stone-500 mt-2 leading-relaxed">Most itineraries begin walking toward Tadapani after arriving from Ghandruk or Pokhara, putting you at a starting altitude of 2,630m. At this height, altitude effects are minimal for almost everyone, and this day functions as a baseline.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-900 text-sm">Day 2: Bayeli Kharka (3,425m)</h4>
-                <p className="text-xs text-stone-500 mt-2 leading-relaxed">
-                  This is one of the larger single-day gains on the trek, climbing roughly 800m. You will likely notice your breathing rate pick up on this stretch, especially on the steeper switchbacks through rhododendron forest.
+                <p className="text-xs text-stone-500 mt-2 leading-relaxed">This is one of the larger single-day gains on the trek, climbing roughly 800m. You will likely notice your breathing rate pick up on this stretch, especially on the steeper switchbacks through rhododendron forest.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-900 text-sm">Day 3: Chhistibung (2,975m)</h4>
-                <p className="text-xs text-stone-500 mt-2 leading-relaxed">
-                  Day 3 drops you back down to 2,975m, a loss of around 450m. Descending after a high push is one of the most effective natural acclimatization techniques, giving your body a recovery window.
+                <p className="text-xs text-stone-500 mt-2 leading-relaxed">Day 3 drops you back down to 2,975m, a loss of around 450m. Descending after a high push is one of the most effective natural acclimatization techniques, giving your body a recovery window.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-900 text-sm">Day 4: Khopra Ridge (3,660m)</h4>
-                <p className="text-xs text-stone-500 mt-2 leading-relaxed">
-                  From Chhistibung, the trail climbs back up to Khopra Danda at 3,660m, the highest sleeping point on this trek. Expect colder nights here and possibly some mild symptoms like a slight headache, which are common and usually manageable with hydration.
+                <p className="text-xs text-stone-500 mt-2 leading-relaxed">From Chhistibung, the trail climbs back up to Khopra Danda at 3,660m, the highest sleeping point on this trek. Expect colder nights here and possibly some mild symptoms like a slight headache, which are common and usually manageable with hydration.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-900 text-sm">Day 5: Khayer Lake Side Hike (4,660m)</h4>
-                <p className="text-xs text-stone-500 mt-2 leading-relaxed">
-                  This is the trek&apos;s altitude high point. You hike up to the lake and return to Khopra Ridge to sleep. The round trip typically takes most of the day; an early start matters to avoid afternoon weather swings.
+                <p className="text-xs text-stone-500 mt-2 leading-relaxed">This is the trek&apos;s altitude high point. You hike up to the lake and return to Khopra Ridge to sleep. The round trip typically takes most of the day; an early start matters to avoid afternoon weather swings.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-900 text-sm">Day 6: Swanta Village (2,200m)</h4>
-                <p className="text-xs text-stone-500 mt-2 leading-relaxed">
-                  After the high point, the route descends sharply to Swanta Village at 2,200m — a drop of around 1,460m. Your knees will feel this descent more than your lungs will; trekking poles are highly recommended.
+                <p className="text-xs text-stone-500 mt-2 leading-relaxed">After the high point, the route descends sharply to Swanta Village at 2,200m — a drop of around 1,460m. Your knees will feel this descent more than your lungs will; trekking poles are highly recommended.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-900 text-sm">Day 7: Ghorepani (2,860m)</h4>
-                <p className="text-xs text-stone-500 mt-2 leading-relaxed">
-                  The final leg climbs back up slightly to Ghorepani at 2,860m. By this point, your body has adapted to much higher elevations, so the climb feels considerably easier than it did on Day 2.
+                <p className="text-xs text-stone-500 mt-2 leading-relaxed">The final leg climbs back up slightly to Ghorepani at 2,860m. By this point, your body has adapted to much higher elevations, so the climb feels considerably easier than it did on Day 2.
                 </p>
               </div>
             </div>
@@ -242,47 +215,42 @@ export default function Page() {
 
           {/* SECTION 4: GAIN & ROUTE ANALYSIS */}
           <article id="gain-loss" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge Elevation Gain and Route Profile Analysis
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Elevation Gain and Route Profile Analysis
             </h2>
             <div className="space-y-4 text-stone-600 text-sm leading-relaxed">
               <p>
-                <strong>Where the Steepest Elevation Gain Occurs:</strong> The climb from Tadapani to Bayeli Kharka on Day 2 is the steepest sustained ascent, gaining roughly 800m. This is the day most trekkers feel the altitude shift for the first time, and it is worth pacing slowly.
+                <strong>Where the Steepest Elevation Gain Occurs:</strong>The climb from Tadapani to Bayeli Kharka on Day 2 is the steepest sustained ascent, gaining roughly 800m. This is the day most trekkers feel the altitude shift for the first time, and it is worth pacing slowly.
               </p>
               <p>
-                <strong>Where the Largest Descent Occurs:</strong> The drop from Khopra Ridge to Swanta Village on Day 6 is the largest single-day descent, losing close to 1,460m. This puts more strain on joints than on lungs, so use trekking poles and maintain a steady pace.
+                <strong>Where the Largest Descent Occurs:</strong>The drop from Khopra Ridge to Swanta Village on Day 6 is the largest single-day descent, losing close to 1,460m. This puts more strain on joints than on lungs, so use trekking poles and maintain a steady pace.
               </p>
               <p>
-                <strong>Why the Route Naturally Supports Acclimatization:</strong> The Khopra Ridge itinerary follows a loose version of the &quot;climb high, sleep lower&quot; principle. You gain height on Day 2, lose it on Day 3, then climb again on Day 4 — a pattern that gives your body repeated exposure-and-recovery cycles instead of one continuous push upward.
+                <strong>Why the Route Naturally Supports Acclimatization:</strong>The Khopra Ridge itinerary follows a loose version of the &quot;climb high, sleep lower&quot; principle. You gain height on Day 2, lose it on Day 3, then climb again on Day 4 — a pattern that gives your body repeated exposure-and-recovery cycles instead of one continuous push upward.
               </p>
             </div>
           </article>
 
           {/* SECTION 5: KHAYER LAKE */}
           <article id="khayer-lake" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Khayer Lake Altitude Explained
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Khayer Lake Altitude Explained
             </h2>
             <div className="space-y-4 text-stone-600 text-sm leading-relaxed">
               <h3 className="text-lg font-bold text-stone-950">What 4,660 Meters Feels Like</h3>
-              <p>
-                At 4,660m, oxygen levels are layout-effectively around 60% of sea-level baseline pressure. Trekkers can expect faster breathing on any uphill section and a noticeably slower walking pace. Mild headaches are common but typically ease once you begin descending.
+              <p>At 4,660m, oxygen levels are layout-effectively around 60% of sea-level baseline pressure. Trekkers can expect faster breathing on any uphill section and a noticeably slower walking pace. Mild headaches are common but typically ease once you begin descending.
               </p>
               <h3 className="text-lg font-bold text-stone-950">Why Khayer Lake Is the Most Challenging Day</h3>
-              <p>
-                This day combines the highest absolute altitude on the trek with a long round-trip distance and limited shelter along the way. Unlike the overnight stops, there is no village infrastructure at the lake itself, so weather exposure is a real factor.
+              <p>This day combines the highest absolute altitude on the trek with a long round-trip distance and limited shelter along the way. Unlike the overnight stops, there is no village infrastructure at the lake itself, so weather exposure is a real factor.
               </p>
             </div>
           </article>
 
           {/* SECTION 6: ACCLIMATIZATION & AMS */}
           <article id="acclimatization" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              Acclimatization and Altitude Sickness Guide
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Acclimatization and Altitude Sickness Guide
             </h2>
             <div className="space-y-4 text-stone-600 text-sm leading-relaxed">
               <p>
-                <strong>Understanding Acute Mountain Sickness (AMS):</strong> AMS is your body&apos;s reaction to reduced oxygen at elevation. It can affect trekkers regardless of age or fitness level. Mild symptoms include headache, fatigue, loss of appetite, and difficulty sleeping.
+                <strong>Understanding Acute Mountain Sickness (AMS):</strong>AMS is your body&apos;s reaction to reduced oxygen at elevation. It can affect trekkers regardless of age or fitness level. Mild symptoms include headache, fatigue, loss of appetite, and difficulty sleeping.
               </p>
               
               <h3 className="text-lg font-bold text-stone-950">How to Reduce Altitude Risks</h3>
@@ -294,31 +262,28 @@ export default function Page() {
                 <li>Get a full night&apos;s sleep where possible.</li>
               </ul>
 
-              <div className="bg-red-50 border border-red-200 p-5 rounded-2xl text-red-950 text-xs leading-relaxed font-semibold">
-                ⚠️ Warning Signs That Should Never Be Ignored: Confusion or loss of coordination, shortness of breath at rest, a persistent cough with fluid sounds, or a headache that worsens despite rest and hydration. These warrant descending to a lower altitude immediately.
+              <div className="bg-red-50 border border-red-200 p-5 rounded-2xl text-red-950 text-xs leading-relaxed font-semibold">Warning Signs That Should Never Be Ignored: Confusion or loss of coordination, shortness of breath at rest, a persistent cough with fluid sounds, or a headache that worsens despite rest and hydration. These warrant descending to a lower altitude immediately.
               </div>
             </div>
           </article>
 
           {/* SECTION 7: SUITABILITY */}
           <article id="suitability" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Is the Khopra Ridge Trek Suitable for Beginners?
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Is the Khopra Ridge Trek Suitable for Beginners?
             </h2>
             <div className="space-y-4 text-stone-600 text-sm leading-relaxed">
               <p>
-                <strong>The honest answer:</strong> Yes, for most people, with the right preparation. You do not need technical mountaineering experience, but you should be comfortable walking 5–7 hours a day on uneven terrain with a daypack.
+                <strong>The honest answer:</strong>Yes, for most people, with the right preparation. You do not need technical mountaineering experience, but you should be comfortable walking 5–7 hours a day on uneven terrain with a daypack.
               </p>
               <p>
-                <strong>Guided vs Independent Trekking:</strong> A guide adds real value on this trek for altitude monitoring. Experienced local guides recognize early AMS symptoms faster than first-time trekkers, and they know the conservative pacing that works best.
+                <strong>Guided vs Independent Trekking:</strong>A guide adds real value on this trek for altitude monitoring. Experienced local guides recognize early AMS symptoms faster than first-time trekkers, and they know the conservative pacing that works best.
               </p>
             </div>
           </article>
 
           {/* SECTION 8: COMPARISONS */}
           <article id="comparison" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge Elevation Compared to Other Popular Nepal Treks
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Elevation Compared to Other Popular Nepal Treks
             </h2>
             
             {/* Trek Comparisons Table */}
@@ -350,8 +315,7 @@ export default function Page() {
 
           {/* SECTION 9: FAQS */}
           <article id="faq" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              Frequently Asked Questions About Khopra Ridge Elevation
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Frequently Asked Questions About Khopra Ridge Elevation
             </h2>
             <div className="space-y-4 mt-6">
               {[
@@ -409,8 +373,7 @@ export default function Page() {
           {/* SECTION 10: CONCLUSION */}
           <article className="space-y-6">
             <h2 className="text-2xl font-bold text-stone-955 font-sans">Conclusion</h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              The Khopra Ridge Trek&apos;s altitude profile climbs from 2,630m at Tadapani to a high point of 4,660m at Khayer Lake, with a highest sleeping altitude of 3,660m along the way. The route&apos;s staged ascent pattern, alternating climbs with partial descents, gives your body real opportunities to acclimatize rather than forcing a single relentless push upward. For most reasonably fit trekkers, this altitude profile is manageable with sensible pacing, proper hydration, and attention to early AMS symptoms.
+            <p className="text-stone-600 leading-relaxed text-sm">The Khopra Ridge Trek&apos;s altitude profile climbs from 2,630m at Tadapani to a high point of 4,660m at Khayer Lake, with a highest sleeping altitude of 3,660m along the way. The route&apos;s staged ascent pattern, alternating climbs with partial descents, gives your body real opportunities to acclimatize rather than forcing a single relentless push upward. For most reasonably fit trekkers, this altitude profile is manageable with sensible pacing, proper hydration, and attention to early AMS symptoms.
             </p>
           </article>
 
@@ -419,16 +382,14 @@ export default function Page() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
               <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Have Questions About Altitude Safety?</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">
-                Speak with our local trek experts — they can walk you through pacing, route variations, and what to expect based on your fitness and experience.
+              <p className="text-stone-300 text-sm leading-relaxed">Speak with our local trek experts — they can walk you through pacing, route variations, and what to expect based on your fitness and experience.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
                   href="/contact"
                   className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
-                >
-                  Consult an Altitude Expert &rarr;
+                >Consult an Altitude Expert &rarr;
                 </Link>
               </div>
 
@@ -436,17 +397,13 @@ export default function Page() {
               <div className="pt-6 border-t border-white/10 space-y-3">
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
-                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     Check trekking permit requirements (ACAP &amp; TIMS)
+                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
-                  <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     Estimate your trip costs with our cost calculator
+                  <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Estimate your trip costs with our cost calculator
                   </Link>
-                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     Get the interactive packing checklist for your gear
+                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Get the interactive packing checklist for your gear
                   </Link>
-                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    ☀️ Check seasonal weather conditions before you go
+                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check seasonal weather conditions before you go
                   </Link>
                 </div>
               </div>
@@ -455,11 +412,10 @@ export default function Page() {
 
           {/* EEAT Author Verification Banner */}
           <div className="p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-            <span className="text-2xl mt-0.5">🏔️</span>
+            <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm font-sans">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-                Acclimatization graphs are updated yearly based on checkpost logs. We recommend spending at least two nights at Khopra Ridge prior to attempting the Sacred Lake summit.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">Acclimatization graphs are updated yearly based on checkpost logs. We recommend spending at least two nights at Khopra Ridge prior to attempting the Sacred Lake summit.
               </p>
             </div>
           </div>

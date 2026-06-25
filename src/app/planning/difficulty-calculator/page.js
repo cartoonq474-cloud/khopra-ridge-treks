@@ -54,11 +54,9 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Interactive Tools</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Khopra Ridge Trek Difficulty Calculator
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Khopra Ridge Trek Difficulty Calculator
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Calculate your personalized difficulty index. Input your fitness level, altitude experience, and pack setup to receive custom pacing and guide advice.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Calculate your personalized difficulty index. Input your fitness level, altitude experience, and pack setup to receive custom pacing and guide advice.
           </p>
         </div>
 
@@ -74,7 +72,7 @@ export default function Page() {
               <label className="text-xs font-bold text-stone-500 uppercase tracking-wider block">Weekly Cardio Activity</label>
               <select 
                 value={cardio} 
-                onChange={(e) => setCardio(e.target.value)}
+                onChange={(e) =>setCardio(e.target.value)}
                 className="w-full p-3 bg-stone-50 border border-stone-200 rounded-xl text-sm font-semibold text-stone-800 focus:outline-none focus:border-emerald-500"
               >
                 <option value="high">High (4+ hours of running, cycling, or swimming/week)</option>
@@ -88,7 +86,7 @@ export default function Page() {
               <label className="text-xs font-bold text-stone-500 uppercase tracking-wider block">Altitude Experience</label>
               <select 
                 value={altitude} 
-                onChange={(e) => setAltitude(e.target.value)}
+                onChange={(e) =>setAltitude(e.target.value)}
                 className="w-full p-3 bg-stone-50 border border-stone-200 rounded-xl text-sm font-semibold text-stone-800 focus:outline-none focus:border-emerald-500"
               >
                 <option value="high">Experienced (Hiked/slept above 3,500m / 11,500ft recently)</option>
@@ -102,7 +100,7 @@ export default function Page() {
               <label className="text-xs font-bold text-stone-500 uppercase tracking-wider block">Expected Backpack Setup</label>
               <select 
                 value={packWeight} 
-                onChange={(e) => setPackWeight(e.target.value)}
+                onChange={(e) =>setPackWeight(e.target.value)}
                 className="w-full p-3 bg-stone-50 border border-stone-200 rounded-xl text-sm font-semibold text-stone-800 focus:outline-none focus:border-emerald-500"
               >
                 <option value="light">Light (Hiring a porter to carry main pack, carrying only ~4kg daypack)</option>
@@ -114,8 +112,7 @@ export default function Page() {
             <button
               onClick={calculateDifficulty}
               className="w-full py-4 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-bold text-sm tracking-wide shadow-sm transition-all"
-            >
-              Calculate Difficulty Index
+            >Calculate Difficulty Index
             </button>
           </div>
 
@@ -139,11 +136,10 @@ export default function Page() {
               </div>
             ) : (
               <div className="flex flex-col items-center justify-center text-center h-full py-12 space-y-4">
-                <span className="text-4xl">🏔️</span>
+                <span className="text-4xl"></span>
                 <div>
                   <h4 className="font-bold text-stone-950 text-sm">Calculations Pending</h4>
-                  <p className="text-xs text-stone-500 mt-2 leading-relaxed max-w-xs mx-auto">
-                    Select your cardiovascular activity, altitude history, and backpack weight to estimate your personal trek difficulty score.
+                  <p className="text-xs text-stone-500 mt-2 leading-relaxed max-w-xs mx-auto">Select your cardiovascular activity, altitude history, and backpack weight to estimate your personal trek difficulty score.
                   </p>
                 </div>
               </div>
@@ -158,11 +154,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This estimator is maintained in cooperation with the local medical rescue networks of Pokhara to ensure realistic safety advice for independent hikers.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This estimator is maintained in cooperation with the local medical rescue networks of Pokhara to ensure realistic safety advice for independent hikers.
             </p>
           </div>
         </div>
@@ -171,15 +166,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Secure a Guided &amp; Supported Trek</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Want to minimize difficulty? Our standard package includes experienced local guides and porters to carry your heavy luggage safely.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Want to minimize difficulty? Our standard package includes experienced local guides and porters to carry your heavy luggage safely.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

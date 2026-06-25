@@ -33,22 +33,18 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Endangered Species</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Red Pandas on the Khopra Ridge Trail
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Red Pandas on the Khopra Ridge Trail
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Discover the elusive forest dweller. A detailed guide to red panda populations, their bamboo habitats, and conservation efforts along the loop.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Discover the elusive forest dweller. A detailed guide to red panda populations, their bamboo habitats, and conservation efforts along the loop.
           </p>
         </div>
 
         {/* Overview */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-stone-950">A Rare Forest Dweller</h2>
-          <p>
-            The red panda (*Ailurus fulgens*) is one of the most enigmatic and endangered mammals in the Himalayas. Tucked inside the dense, moist oak and rhododendron forests of the Annapurna foothills, particularly around Swanta and the valleys below Dobato, are some of the last remaining red panda habitats in Nepal.
+          <p>The red panda (*Ailurus fulgens*) is one of the most enigmatic and endangered mammals in the Himalayas. Tucked inside the dense, moist oak and rhododendron forests of the Annapurna foothills, particularly around Swanta and the valleys below Dobato, are some of the last remaining red panda habitats in Nepal.
           </p>
-          <p>
-            Because the Khopra Ridge circuit remains less developed and quieter than the main Annapurna tourist hubs, these shy creatures are occasionally spotted by patient, quiet hikers.
+          <p>Because the Khopra Ridge circuit remains less developed and quieter than the main Annapurna tourist hubs, these shy creatures are occasionally spotted by patient, quiet hikers.
           </p>
         </div>
 
@@ -70,27 +66,26 @@ export default function Page() {
           <h3 className="text-lg font-bold text-white">Ethical Red Panda Sighting Protocol</h3>
           <ul className="list-disc pl-6 text-xs leading-relaxed text-stone-404 space-y-3">
             <li>
-              <strong>Maintain Absolute Silence:</strong> Red pandas have highly sensitive hearing. Loud noises or shouting will cause them to flee up to the high tree branches immediately.
+              <strong>Maintain Absolute Silence:</strong>Red pandas have highly sensitive hearing. Loud noises or shouting will cause them to flee up to the high tree branches immediately.
             </li>
             <li>
-              <strong>Keep Your Distance:</strong> Never attempt to climb trees or approach within 20 meters of a red panda. Keep binoculars or zoom lenses handy for viewing.
+              <strong>Keep Your Distance:</strong>Never attempt to climb trees or approach within 20 meters of a red panda. Keep binoculars or zoom lenses handy for viewing.
             </li>
             <li>
-              <strong>No Flash Photography:</strong> Flash photography blinds and terrifies wild animals, disrupting their crepuscular navigation. Use high ISO settings instead.
+              <strong>No Flash Photography:</strong>Flash photography blinds and terrifies wild animals, disrupting their crepuscular navigation. Use high ISO settings instead.
             </li>
             <li>
-              <strong>Report Sightings:</strong> If you spot a red panda, record the location and report it to your guide or the local ACAP checkpost. This helps community database tracking.
+              <strong>Report Sightings:</strong>If you spot a red panda, record the location and report it to your guide or the local ACAP checkpost. This helps community database tracking.
             </li>
           </ul>
         </div>
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -99,14 +94,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Explore Himalayan Wilderness</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              Our guides are committed to ethical wildlife tourism, ensuring we observe animals safely without disrupting fragile sub-alpine habitats.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">Our guides are committed to ethical wildlife tourism, ensuring we observe animals safely without disrupting fragile sub-alpine habitats.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Inquire now
+            >Inquire now
             </Link>
           </div>
         </div>

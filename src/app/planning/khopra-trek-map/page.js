@@ -32,19 +32,16 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Route Intelligence</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Khopra Ridge Trek Map & Route Guide
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Khopra Ridge Trek Map & Route Guide
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Explore our custom topographic map layout. Click on nodes to reveal elevations, trail segments, and accommodation details.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Explore our custom topographic map layout. Click on nodes to reveal elevations, trail segments, and accommodation details.
           </p>
         </div>
 
         {/* Interactive SVG Map Visual */}
         <div className="mt-12 bg-stone-900 border border-stone-800 p-6 rounded-3xl relative overflow-hidden shadow-inner">
           <div className="absolute top-4 left-4 z-10">
-            <span className="text-[10px] font-extrabold text-stone-400 uppercase tracking-widest bg-stone-950 px-2 py-1 rounded border border-stone-800">
-              Interactive Route Layout
+            <span className="text-[10px] font-extrabold text-stone-400 uppercase tracking-widest bg-stone-950 px-2 py-1 rounded border border-stone-800">Interactive Route Layout
             </span>
           </div>
 
@@ -84,7 +81,7 @@ export default function Page() {
                 cx="100" cy="350" r="10" 
                 fill="#ffffff" stroke="#10b981" strokeWidth="3"
                 className="cursor-pointer hover:scale-125 transition-transform duration-200"
-                onClick={() => setSelectedNode("pokhara")}
+                onClick={() =>setSelectedNode("pokhara")}
               />
               <text x="80" y="380" fill="#a8a29e" className="text-[10px] font-bold">Pokhara (820m)</text>
 
@@ -93,7 +90,7 @@ export default function Page() {
                 cx="220" cy="280" r="10" 
                 fill="#ffffff" stroke="#10b981" strokeWidth="3"
                 className="cursor-pointer hover:scale-125 transition-transform duration-200"
-                onClick={() => setSelectedNode("ghandruk")}
+                onClick={() =>setSelectedNode("ghandruk")}
               />
               <text x="210" y="305" fill="#a8a29e" className="text-[10px] font-bold">Ghandruk (1,940m)</text>
 
@@ -102,7 +99,7 @@ export default function Page() {
                 cx="320" cy="200" r="10" 
                 fill="#ffffff" stroke="#10b981" strokeWidth="3"
                 className="cursor-pointer hover:scale-125 transition-transform duration-200"
-                onClick={() => setSelectedNode("dobato")}
+                onClick={() =>setSelectedNode("dobato")}
               />
               <text x="310" y="225" fill="#a8a29e" className="text-[10px] font-bold">Dobato (3,432m)</text>
 
@@ -111,7 +108,7 @@ export default function Page() {
                 cx="380" cy="120" r="12" 
                 fill="#10b981" stroke="#ffffff" strokeWidth="2"
                 className="cursor-pointer hover:scale-125 transition-transform duration-200 animate-pulse"
-                onClick={() => setSelectedNode("khopra")}
+                onClick={() =>setSelectedNode("khopra")}
               />
               <text x="395" y="125" fill="#ffffff" className="text-[11px] font-black">Khopra Ridge (3,660m)</text>
 
@@ -120,7 +117,7 @@ export default function Page() {
                 cx="480" cy="50" r="10" 
                 fill="#ef4444" stroke="#ffffff" strokeWidth="2"
                 className="cursor-pointer hover:scale-125 transition-transform duration-200"
-                onClick={() => setSelectedNode("khayer")}
+                onClick={() =>setSelectedNode("khayer")}
               />
               <text x="430" y="35" fill="#f87171" className="text-[11px] font-bold">Khayer Lake (4,660m)</text>
 
@@ -129,7 +126,7 @@ export default function Page() {
                 cx="260" cy="110" r="10" 
                 fill="#ffffff" stroke="#10b981" strokeWidth="3"
                 className="cursor-pointer hover:scale-125 transition-transform duration-200"
-                onClick={() => setSelectedNode("swanta")}
+                onClick={() =>setSelectedNode("swanta")}
               />
               <text x="245" y="90" fill="#a8a29e" className="text-[10px] font-bold">Swanta (2,214m)</text>
 
@@ -138,7 +135,7 @@ export default function Page() {
                 cx="160" cy="180" r="10" 
                 fill="#ffffff" stroke="#10b981" strokeWidth="3"
                 className="cursor-pointer hover:scale-125 transition-transform duration-200"
-                onClick={() => setSelectedNode("ghorepani")}
+                onClick={() =>setSelectedNode("ghorepani")}
               />
               <text x="100" y="195" fill="#a8a29e" className="text-[10px] font-bold">Ghorepani (2,860m)</text>
 
@@ -150,16 +147,15 @@ export default function Page() {
             {selectedNode ? (
               <div>
                 <span className="text-[10px] font-extrabold uppercase tracking-wider text-emerald-400">
-                  {routeNodes.find(n => n.id === selectedNode).type} — {routeNodes.find(n => n.id === selectedNode).elev}
+                  {routeNodes.find(n =>n.id === selectedNode).type} — {routeNodes.find(n =>n.id === selectedNode).elev}
                 </span>
-                <h4 className="text-lg font-black text-white mt-1">{routeNodes.find(n => n.id === selectedNode).name}</h4>
+                <h4 className="text-lg font-black text-white mt-1">{routeNodes.find(n =>n.id === selectedNode).name}</h4>
                 <p className="text-stone-400 text-xs mt-2 max-w-xl mx-auto leading-relaxed">
-                  {routeNodes.find(n => n.id === selectedNode).desc}
+                  {routeNodes.find(n =>n.id === selectedNode).desc}
                 </p>
               </div>
             ) : (
-              <p className="text-stone-500 text-xs font-semibold">
-                Click on any map marker node (circle) above to view segment profiles, altitudes, and terrain summaries.
+              <p className="text-stone-500 text-xs font-semibold">Click on any map marker node (circle) above to view segment profiles, altitudes, and terrain summaries.
               </p>
             )}
           </div>
@@ -168,11 +164,9 @@ export default function Page() {
         {/* Detailed Map Description */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-stone-950">Understanding the Khopra Loop System</h2>
-          <p>
-            The Khopra Ridge Trek is structured as a loop trail branching off from the primary Annapurna tourist route. Instead of passing straight through Ghorepani to Tatopani, the route cuts north toward the high pasturelands of Dobato and Bayeli.
+          <p>The Khopra Ridge Trek is structured as a loop trail branching off from the primary Annapurna tourist route. Instead of passing straight through Ghorepani to Tatopani, the route cuts north toward the high pasturelands of Dobato and Bayeli.
           </p>
-          <p>
-            This loop design allows hikers to approach the high ridge systematically. Most groups start via Ghandruk, hike to the ridge, climb to the sacred lake, and return via Swanta and Ghorepani. This layout optimizes acclimatization, as you sleep at Ghandruk (1,940m) and Dobato (3,432m) before reaching the 3,660m ridge lodge.
+          <p>This loop design allows hikers to approach the high ridge systematically. Most groups start via Ghandruk, hike to the ridge, climb to the sacred lake, and return via Swanta and Ghorepani. This layout optimizes acclimatization, as you sleep at Ghandruk (1,940m) and Dobato (3,432m) before reaching the 3,660m ridge lodge.
           </p>
         </div>
 
@@ -227,11 +221,10 @@ export default function Page() {
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -240,14 +233,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Need a Guided Route Planner?</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              Contact us to customize your loop itinerary. We specialize in mapping out custom schedules suited to your physical pace and hiking style.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">Contact us to customize your loop itinerary. We specialize in mapping out custom schedules suited to your physical pace and hiking style.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Contact our planners
+            >Contact our planners
             </Link>
           </div>
         </div>

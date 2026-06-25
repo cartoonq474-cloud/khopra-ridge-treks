@@ -62,7 +62,7 @@ export default function Page() {
 
   const filteredItineraries = activeTab === "all" 
     ? itineraries 
-    : itineraries.filter(item => item.difficulty.toLowerCase() === activeTab);
+    : itineraries.filter(item =>item.difficulty.toLowerCase() === activeTab);
 
   return (
     <div className="bg-stone-50 text-stone-900 min-h-screen flex flex-col justify-between antialiased">
@@ -71,11 +71,9 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Planning Resource</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Compare Khopra Trek Itinerary Options
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Compare Khopra Trek Itinerary Options
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Review the breakdown of our core 9-day, express 7-day, and rapid 5-day itineraries to find the layout that fits your travel style.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Review the breakdown of our core 9-day, express 7-day, and rapid 5-day itineraries to find the layout that fits your travel style.
           </p>
         </div>
 
@@ -84,7 +82,7 @@ export default function Page() {
           {["all", "moderate", "challenging"].map((tab) => (
             <button
               key={tab}
-              onClick={() => setActiveTab(tab)}
+              onClick={() =>setActiveTab(tab)}
               className={`flex-1 py-2 text-xs font-bold rounded-xl transition uppercase tracking-wider cursor-pointer ${
                 activeTab === tab 
                   ? "bg-white text-stone-950 shadow-sm border border-stone-200/50" 
@@ -152,8 +150,7 @@ export default function Page() {
                 <Link
                   href={it.href}
                   className="rounded-full bg-stone-950 px-6 py-2.5 text-xs font-bold text-white hover:bg-emerald-600 hover:text-white transition-all shadow-sm"
-                >
-                  View Full Details
+                >View Full Details
                 </Link>
               </div>
 
@@ -164,8 +161,7 @@ export default function Page() {
         {/* Route Variations Directory */}
         <div className="mt-16 pt-12 border-t border-stone-250">
           <h2 className="text-2xl font-black text-stone-950">Explore Route Variations & Resources</h2>
-          <p className="mt-3 text-sm text-stone-500 leading-relaxed">
-            Select an option below to explore specific duration outlines, trailhead variation advantages, and topographic mapping.
+          <p className="mt-3 text-sm text-stone-500 leading-relaxed">Select an option below to explore specific duration outlines, trailhead variation advantages, and topographic mapping.
           </p>
 
           <div className="mt-8 grid gap-8 md:grid-cols-3">
@@ -296,11 +292,10 @@ export default function Page() {
 
         {/* E-E-A-T EVIDENCE BAR */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              We update itinerary durations based on trekking records and seasonal weather trends. ACAP checkpoints monitor all groups using these itineraries for safety registries.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">We update itinerary durations based on trekking records and seasonal weather trends. ACAP checkpoints monitor all groups using these itineraries for safety registries.
             </p>
           </div>
         </div>

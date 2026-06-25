@@ -62,14 +62,11 @@ export default function Page() {
       <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🌤️ Monthly Weather Guide
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">Monthly Weather Guide
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
-            Khopra Ridge Weather in November
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge Weather in November
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">
-            November offers dry trails, stable high-pressure skies, and 98% sky clarity. It is the peak season for trekkers seeking the most dramatic sunrise panoramas over Annapurna and Dhaulagiri.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">November offers dry trails, stable high-pressure skies, and 98% sky clarity. It is the peak season for trekkers seeking the most dramatic sunrise panoramas over Annapurna and Dhaulagiri.
           </p>
 
           {/* Quick Metrics Grid */}
@@ -89,44 +86,33 @@ export default function Page() {
         {/* STICKY TABLE OF CONTENTS SIDEBAR */}
         <aside className="lg:col-span-1">
           <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
-            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">
-              Table of Contents
+            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">Table of Contents
             </h3>
             <nav className="flex flex-col gap-1 text-sm">
-              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Overview &amp; Climate
+              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Overview &amp; Climate
               </a>
-              <a href="#temperature" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                November Temperatures
+              <a href="#temperature" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">November Temperatures
               </a>
-              <a href="#views-clarity" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Sky Clarity &amp; Sunrise
+              <a href="#views-clarity" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Sky Clarity &amp; Sunrise
               </a>
-              <a href="#rain-snow" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Rainfall &amp; Snow Risks
+              <a href="#rain-snow" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Rainfall &amp; Snow Risks
               </a>
-              <a href="#trail-conditions" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                November Trail Conditions
+              <a href="#trail-conditions" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">November Trail Conditions
               </a>
-              <a href="#altitudes" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Conditions by Altitude
+              <a href="#altitudes" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Conditions by Altitude
               </a>
-              <a href="#packing" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                What to Pack for November
+              <a href="#packing" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">What to Pack for November
               </a>
-              <a href="#comparison" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                November vs Other Months
+              <a href="#comparison" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">November vs Other Months
               </a>
-              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Frequently Asked Qs
+              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Frequently Asked Qs
               </a>
             </nav>
             <div className="pt-4 border-t border-stone-100">
               <Link 
                 href="/contact"
                 className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
-              >
-                Inquire &amp; Book Tour
+              >Inquire &amp; Book Tour
               </Link>
             </div>
           </div>
@@ -136,36 +122,30 @@ export default function Page() {
         <main className="lg:col-span-3 space-y-16">
           {/* SECTION 1: OVERVIEW */}
           <article id="overview" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge Weather in November Overview
+            <h2 className="text-3xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Weather in November Overview
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                November falls firmly in the post-monsoon autumn season, which is widely considered the best time to trek Khopra Ridge. The monsoon clouds have cleared out, humidity has dropped, and a stable high-pressure pattern tends to settle over the Annapurna foothills. That combination is what produces the dry trails and the long-range mountain views the region is known for this time of year.
+              <p>November falls firmly in the post-monsoon autumn season, which is widely considered the best time to trek Khopra Ridge. The monsoon clouds have cleared out, humidity has dropped, and a stable high-pressure pattern tends to settle over the Annapurna foothills. That combination is what produces the dry trails and the long-range mountain views the region is known for this time of year.
               </p>
-              <p>
-                Keep in mind that while daytime hiking conditions are highly stable, you must prepare for the rapid temperature swings that occur at high elevations. As the sun drops, the ridge chills down quickly, making your layering choices and sleep gear a vital component of a successful trek.
+              <p>Keep in mind that while daytime hiking conditions are highly stable, you must prepare for the rapid temperature swings that occur at high elevations. As the sun drops, the ridge chills down quickly, making your layering choices and sleep gear a vital component of a successful trek.
               </p>
             </div>
           </article>
 
           {/* SECTION 2: TEMPERATURE */}
           <article id="temperature" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Average Temperatures &amp; Cold Ridge Nights
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Average Temperatures &amp; Cold Ridge Nights
             </h2>
             <div className="grid gap-6 md:grid-cols-2 text-stone-650 text-sm">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-900 text-sm sm:text-base">☀️ Average Daytime (8°C to 12°C / 46°F to 54°F)</h4>
-                <p className="text-xs text-stone-500 leading-relaxed font-medium">
-                  Pleasant, mild temperatures for active walking. Direct sun at high altitude feels much stronger than the air temperature suggests. Most trekkers wear a moisture-wicking base layer with a light fleece, shedding outer shells during ascents.
+                <h4 className="font-bold text-stone-900 text-sm sm:text-base">Average Daytime (8°C to 12°C / 46°F to 54°F)</h4>
+                <p className="text-xs text-stone-500 leading-relaxed font-medium">Pleasant, mild temperatures for active walking. Direct sun at high altitude feels much stronger than the air temperature suggests. Most trekkers wear a moisture-wicking base layer with a light fleece, shedding outer shells during ascents.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm sm:text-base"> Ridge Nighttime (-6°C to 0°C / 21°F to 32°F)</h4>
-                <p className="text-xs text-stone-500 leading-relaxed font-medium">
-                  Once the sun drops, the ridge cools quickly. Biting winds can add a serious wind chill factor. Since local lodges are unheated, a heavyweight down jacket rated to -10°C and a sub-zero rated sleeping bag are mandatory for comfortable nights.
+                <h4 className="font-bold text-stone-955 text-sm sm:text-base">Ridge Nighttime (-6°C to 0°C / 21°F to 32°F)</h4>
+                <p className="text-xs text-stone-500 leading-relaxed font-medium">Once the sun drops, the ridge cools quickly. Biting winds can add a serious wind chill factor. Since local lodges are unheated, a heavyweight down jacket rated to -10°C and a sub-zero rated sleeping bag are mandatory for comfortable nights.
                 </p>
               </div>
             </div>
@@ -173,56 +153,48 @@ export default function Page() {
 
           {/* SECTION 3: CLARITY & SUNRISE */}
           <article id="views-clarity" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              Why November Offers Some of the Best Views from Khopra Ridge
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Why November Offers Some of the Best Views from Khopra Ridge
             </h2>
             <div className="space-y-4 text-stone-600 text-sm leading-relaxed">
               <p>
-                <strong>Clear Skies and Mountain Visibility:</strong> Sky clarity at Khopra Ridge in November averages close to 98%, among the highest of any month in the Annapurna Region. Mornings are typically the clearest, with cloud sometimes building over the lower valleys by mid-afternoon. This level of visibility is the practical payoff of trekking in the post-monsoon window rather than during the hazier pre-monsoon spring months.
+                <strong>Clear Skies and Mountain Visibility:</strong>Sky clarity at Khopra Ridge in November averages close to 98%, among the highest of any month in the Annapurna Region. Mornings are typically the clearest, with cloud sometimes building over the lower valleys by mid-afternoon. This level of visibility is the practical payoff of trekking in the post-monsoon window rather than during the hazier pre-monsoon spring months.
               </p>
               <p>
-                <strong>Sunrise Views and Himalayan Panorama:</strong> Khopra Danda&apos;s sunrise is the reason many itineraries build in an extra night here. From the ridge, the panorama takes in Annapurna South, Dhaulagiri I, and Nilgiri Himal in a single uninterrupted sweep — three of the region&apos;s giants, lit gold within minutes of each other as the sun clears the eastern ridgeline.
+                <strong>Sunrise Views and Himalayan Panorama:</strong>Khopra Danda&apos;s sunrise is the reason many itineraries build in an extra night here. From the ridge, the panorama takes in Annapurna South, Dhaulagiri I, and Nilgiri Himal in a single uninterrupted sweep — three of the region&apos;s giants, lit gold within minutes of each other as the sun clears the eastern ridgeline.
               </p>
             </div>
           </article>
 
           {/* SECTION 4: RAIN & SNOW */}
           <article id="rain-snow" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Rainfall, Snow &amp; Weather Stability during November
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Rainfall, Snow &amp; Weather Stability during November
             </h2>
             <div className="space-y-4 text-stone-600 text-sm leading-relaxed">
-              <p>
-                Rain is rarely a concern in November. The region typically sees zero to one rain day across the entire month, a sharp contrast to the daily monsoon downpours of July and August. Trails stay dry, river crossings are at their lowest and safest levels, and you can generally trust a multi-day forecast more than you could in shoulder-season months.
+              <p>Rain is rarely a concern in November. The region typically sees zero to one rain day across the entire month, a sharp contrast to the daily monsoon downpours of July and August. Trails stay dry, river crossings are at their lowest and safest levels, and you can generally trust a multi-day forecast more than you could in shoulder-season months.
               </p>
               <p>
-                <strong>Does Rain or Snow Affect the Ridge?</strong> Light snow at higher elevations is possible in late November as the region edges toward winter, though it&apos;s the exception rather than the rule. If it does fall, it&apos;s usually a thin dusting that melts within a day or two rather than anything that closes the trail.
+                <strong>Does Rain or Snow Affect the Ridge?</strong>Light snow at higher elevations is possible in late November as the region edges toward winter, though it&apos;s the exception rather than the rule. If it does fall, it&apos;s usually a thin dusting that melts within a day or two rather than anything that closes the trail.
               </p>
             </div>
           </article>
 
           {/* SECTION 5: TRAIL CONDITIONS */}
           <article id="trail-conditions" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge Trail Conditions in November
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Trail Conditions in November
             </h2>
             <div className="space-y-4 text-stone-600 text-sm leading-relaxed">
-              <p>
-                Dry weather translates directly into good trail conditions. Paths that turn muddy and slippery during monsoon season firm up nicely by November, making for surer footing on the steeper switchbacks between Ghorepani and Khopra Danda.
+              <p>Dry weather translates directly into good trail conditions. Paths that turn muddy and slippery during monsoon season firm up nicely by November, making for surer footing on the steeper switchbacks between Ghorepani and Khopra Danda.
               </p>
-              <p>
-                The one thing to watch for is frost. On cold, clear mornings, exposed sections of trail above 3,000 meters can carry a thin layer of frost or ice until the sun reaches them, usually by mid-morning. Trekking poles help significantly here, and a slightly later start on the coldest mornings is often more comfortable than an early one.
+              <p>The one thing to watch for is frost. On cold, clear mornings, exposed sections of trail above 3,000 meters can carry a thin layer of frost or ice until the sun reaches them, usually by mid-morning. Trekking poles help significantly here, and a slightly later start on the coldest mornings is often more comfortable than an early one.
               </p>
             </div>
           </article>
 
           {/* SECTION 6: CONDITIONS BY ALTITUDE */}
           <article id="altitudes" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Weather Microclimates by Altitude
+            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Weather Microclimates by Altitude
             </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">
-              Temperatures and safety conditions change significantly depending on your altitude zone along the trail.
+            <p className="text-stone-600 text-sm leading-relaxed">Temperatures and safety conditions change significantly depending on your altitude zone along the trail.
             </p>
 
             {/* Altitude Table */}
@@ -250,11 +222,9 @@ export default function Page() {
 
           {/* SECTION 7: PACKING */}
           <article id="packing" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge Packing List for November
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Packing List for November
             </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">
-              Packing for this trek means preparing for two different climates on the same trip: comfortable daytime hiking weather and a genuinely cold high-altitude night.
+            <p className="text-stone-600 text-sm leading-relaxed">Packing for this trek means preparing for two different climates on the same trip: comfortable daytime hiking weather and a genuinely cold high-altitude night.
             </p>
             <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
               <div className="grid gap-6 md:grid-cols-3 text-xs text-stone-650">
@@ -274,11 +244,9 @@ export default function Page() {
 
           {/* SECTION 8: COMPARISONS */}
           <article id="comparison" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              November Weather Compared to Other Trekking Months
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">November Weather Compared to Other Trekking Months
             </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">
-              Compare November with adjacent autumn and spring months to ensure you are selecting the ideal seasonal conditions for your journey.
+            <p className="text-stone-600 text-sm leading-relaxed">Compare November with adjacent autumn and spring months to ensure you are selecting the ideal seasonal conditions for your journey.
             </p>
 
             {/* October vs April Table */}
@@ -308,8 +276,7 @@ export default function Page() {
 
           {/* SECTION 9: FAQS */}
           <article id="faq" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
-              Frequently Asked Questions About November Weather
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Frequently Asked Questions About November Weather
             </h2>
             <div className="space-y-4 mt-6">
               {[
@@ -367,11 +334,9 @@ export default function Page() {
           {/* SECTION 10: CONCLUSION */}
           <article className="space-y-6">
             <h2 className="text-2xl font-bold text-stone-955 font-sans">Conclusion</h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              November gives Khopra Ridge some of its sharpest, most rewarding mountain views of the entire year — a payoff that comes from the same dry, cool air that drops ridge temperatures well below freezing after dark. Trek it with the right expectations and the right gear, and it is hard to beat: comfortable daytime walking, dry firm trails, and a sunrise over Annapurna South and Dhaulagiri that is genuinely worth the cold morning climb.
+            <p className="text-stone-600 leading-relaxed text-sm">November gives Khopra Ridge some of its sharpest, most rewarding mountain views of the entire year — a payoff that comes from the same dry, cool air that drops ridge temperatures well below freezing after dark. Trek it with the right expectations and the right gear, and it is hard to beat: comfortable daytime walking, dry firm trails, and a sunrise over Annapurna South and Dhaulagiri that is genuinely worth the cold morning climb.
             </p>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              If you are weighing November against other months, the deciding factor usually comes down to priorities — clearer views and colder nights, or milder nights with a slightly less certain sky. For most trekkers chasing the classic Khopra Danda panorama, November is the month that delivers.
+            <p className="text-stone-600 leading-relaxed text-sm">If you are weighing November against other months, the deciding factor usually comes down to priorities — clearer views and colder nights, or milder nights with a slightly less certain sky. For most trekkers chasing the classic Khopra Danda panorama, November is the month that delivers.
             </p>
           </article>
 
@@ -380,16 +345,14 @@ export default function Page() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
               <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Book Your November Khopra Ridge Trek Departure</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">
-                Ready to trek Khopra Ridge this November? Secure your lodge bookings and trek dates early — November is peak season, and accommodation along the route fills up quickly.
+              <p className="text-stone-300 text-sm leading-relaxed">Ready to trek Khopra Ridge this November? Secure your lodge bookings and trek dates early — November is peak season, and accommodation along the route fills up quickly.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
                   href="/contact"
                   className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
-                >
-                  Inquire Now &rarr;
+                >Inquire Now &rarr;
                 </Link>
               </div>
 
@@ -397,17 +360,13 @@ export default function Page() {
               <div className="pt-6 border-t border-white/10 space-y-3">
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
-                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     Check trekking permit requirements (ACAP &amp; TIMS)
+                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check trekking permit requirements (ACAP &amp; TIMS)
                   </Link>
-                  <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     Estimate your trip costs with our cost calculator
+                  <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Estimate your trip costs with our cost calculator
                   </Link>
-                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     Get the interactive packing checklist for your gear
+                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Get the interactive packing checklist for your gear
                   </Link>
-                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    ☀️ Check seasonal weather conditions before you go
+                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check seasonal weather conditions before you go
                   </Link>
                 </div>
               </div>
@@ -416,11 +375,10 @@ export default function Page() {
 
           {/* EEAT Author Verification Banner */}
           <div className="p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-            <span className="text-2xl mt-0.5">🏔️</span>
+            <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm font-sans">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-                Our weather statistics and logs are verified by licensed ACA guide networks. High-altitude temperatures are checked monthly to adjust recommended sleeping bags and gear ratings.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">Our weather statistics and logs are verified by licensed ACA guide networks. High-altitude temperatures are checked monthly to adjust recommended sleeping bags and gear ratings.
               </p>
             </div>
           </div>

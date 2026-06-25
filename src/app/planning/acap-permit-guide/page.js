@@ -17,11 +17,9 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Permit Clusters</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            ACAP Permit Guide (2026 Rules)
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">ACAP Permit Guide (2026 Rules)
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Essential entry requirements for the Annapurna Conservation Area. Learn how to secure your ACAP permit, locations of government offices, and required paperwork.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Essential entry requirements for the Annapurna Conservation Area. Learn how to secure your ACAP permit, locations of government offices, and required paperwork.
           </p>
         </div>
 
@@ -38,19 +36,16 @@ export default function Page() {
         {/* Details */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-stone-950">Why Do You Need an ACAP Permit?</h2>
-          <p>
-            The Khopra Ridge Trek lies entirely inside the Annapurna Conservation Area (ACA), which is the largest protected area in Nepal. The conservation project is managed by the National Trust for Nature Conservation (NTNC). Permit fees directly fund environmental preservation, trail repairs, local community school operations, and checkpost administration.
+          <p>The Khopra Ridge Trek lies entirely inside the Annapurna Conservation Area (ACA), which is the largest protected area in Nepal. The conservation project is managed by the National Trust for Nature Conservation (NTNC). Permit fees directly fund environmental preservation, trail repairs, local community school operations, and checkpost administration.
           </p>
-          <p>
-            You must obtain this permit **before starting the trek** at the Nepal Tourism Board offices in either Kathmandu or Pokhara. You cannot purchase the permit at trailheads like Birethanti without paying a double penalty fee.
+          <p>You must obtain this permit **before starting the trek** at the Nepal Tourism Board offices in either Kathmandu or Pokhara. You cannot purchase the permit at trailheads like Birethanti without paying a double penalty fee.
           </p>
         </div>
 
         {/* Checkpoints list */}
         <div className="mt-16 p-8 bg-emerald-50 border border-emerald-200 rounded-3xl text-emerald-800 space-y-4">
           <h3 className="text-lg font-bold">Key Checkpoint Verification Locations</h3>
-          <p className="text-xs leading-relaxed">
-            Your ACAP permit is stamped and registered at several checking stations along the loop to track visitor safety. Ensure you keep your permit in a waterproof pocket and register at:
+          <p className="text-xs leading-relaxed">Your ACAP permit is stamped and registered at several checking stations along the loop to track visitor safety. Ensure you keep your permit in a waterproof pocket and register at:
           </p>
           <ul className="space-y-2 text-xs leading-relaxed list-disc pl-5 font-semibold">
             <li>Birethanti Checkpost (Trail Entry)</li>
@@ -61,11 +56,10 @@ export default function Page() {
 
         {/* E-E-A-T Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -74,14 +68,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Avoid Bureaucratic Hassles</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              Book our guided community trek. We manage all permit logistics, TIMS cards, and local registration checkposts for you.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">Book our guided community trek. We manage all permit logistics, TIMS cards, and local registration checkposts for you.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Inquire Now
+            >Inquire Now
             </Link>
           </div>
         </div>

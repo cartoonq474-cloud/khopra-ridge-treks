@@ -60,11 +60,9 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Interactive Tools</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Interactive Route Explorer Map
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Interactive Route Explorer Map
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Explore the complete 9-day loop. Click on any trail node on the diagram below to inspect elevations, daily pacing details, and landmark overviews.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Explore the complete 9-day loop. Click on any trail node on the diagram below to inspect elevations, daily pacing details, and landmark overviews.
           </p>
         </div>
 
@@ -98,7 +96,7 @@ export default function Page() {
                 cx="200" cy="350" r="12"
                 fill={activeNode === "pokhara" ? "#10b981" : "#78716c"}
                 className="cursor-pointer hover:scale-125 transition-transform"
-                onClick={() => setActiveNode("pokhara")}
+                onClick={() =>setActiveNode("pokhara")}
               />
               <text x="200" y="380" textAnchor="middle" className="text-[10px] font-black fill-stone-800">Pokhara</text>
 
@@ -107,7 +105,7 @@ export default function Page() {
                 cx="300" cy="280" r="10"
                 fill={activeNode === "ghandruk" ? "#10b981" : "#78716c"}
                 className="cursor-pointer hover:scale-125 transition-transform"
-                onClick={() => setActiveNode("ghandruk")}
+                onClick={() =>setActiveNode("ghandruk")}
               />
               <text x="320" y="285" textAnchor="start" className="text-[10px] font-bold fill-stone-700">Ghandruk</text>
 
@@ -116,7 +114,7 @@ export default function Page() {
                 cx="280" cy="180" r="10"
                 fill={activeNode === "dobato" ? "#10b981" : "#78716c"}
                 className="cursor-pointer hover:scale-125 transition-transform"
-                onClick={() => setActiveNode("dobato")}
+                onClick={() =>setActiveNode("dobato")}
               />
               <text x="300" y="185" textAnchor="start" className="text-[10px] font-bold fill-stone-700">Dobato</text>
 
@@ -125,7 +123,7 @@ export default function Page() {
                 cx="200" cy="100" r="12"
                 fill={activeNode === "khopra" ? "#10b981" : "#78716c"}
                 className="cursor-pointer hover:scale-125 transition-transform"
-                onClick={() => setActiveNode("khopra")}
+                onClick={() =>setActiveNode("khopra")}
               />
               <text x="200" y="125" textAnchor="middle" className="text-[10px] font-black fill-stone-800">Khopra (3,660m)</text>
 
@@ -134,7 +132,7 @@ export default function Page() {
                 cx="200" cy="50" r="10"
                 fill={activeNode === "khayer_lake" ? "#10b981" : "#78716c"}
                 className="cursor-pointer hover:scale-125 transition-transform"
-                onClick={() => setActiveNode("khayer_lake")}
+                onClick={() =>setActiveNode("khayer_lake")}
               />
               <text x="200" y="35" textAnchor="middle" className="text-[10px] font-bold fill-stone-700">Khayer Lake (4,660m)</text>
 
@@ -143,7 +141,7 @@ export default function Page() {
                 cx="120" cy="180" r="10"
                 fill={activeNode === "swanta" ? "#10b981" : "#78716c"}
                 className="cursor-pointer hover:scale-125 transition-transform"
-                onClick={() => setActiveNode("swanta")}
+                onClick={() =>setActiveNode("swanta")}
               />
               <text x="100" y="185" textAnchor="end" className="text-[10px] font-bold fill-stone-700">Swanta</text>
 
@@ -152,7 +150,7 @@ export default function Page() {
                 cx="100" cy="280" r="10"
                 fill={activeNode === "ghorepani" ? "#10b981" : "#78716c"}
                 className="cursor-pointer hover:scale-125 transition-transform"
-                onClick={() => setActiveNode("ghorepani")}
+                onClick={() =>setActiveNode("ghorepani")}
               />
               <text x="80" y="285" textAnchor="end" className="text-[10px] font-bold fill-stone-700">Ghorepani</text>
             </svg>
@@ -186,8 +184,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="mt-8 pt-6 border-t border-stone-200/60 text-[10px] text-stone-400">
-              Cooperative lodges are established at Ghandruk, Dobato, Khopra Ridge, Swanta, and Ghorepani.
+            <div className="mt-8 pt-6 border-t border-stone-200/60 text-[10px] text-stone-400">Cooperative lodges are established at Ghandruk, Dobato, Khopra Ridge, Swanta, and Ghorepani.
             </div>
           </div>
 
@@ -195,11 +192,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              We update elevations and route timings in cooperation with ACAP trail engineers. All indicators reflect active loop conditions.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">We update elevations and route timings in cooperation with ACAP trail engineers. All indicators reflect active loop conditions.
             </p>
           </div>
         </div>
@@ -208,15 +204,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Book the Full Loop Circuit</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Want our experienced local guides to navigate the entire loop for you? Secure your permit-inclusive booking packages with our local team.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Want our experienced local guides to navigate the entire loop for you? Secure your permit-inclusive booking packages with our local team.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

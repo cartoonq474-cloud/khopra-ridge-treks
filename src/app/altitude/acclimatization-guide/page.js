@@ -28,22 +28,18 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Trail Adaptation</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Acclimatization Principles for High Altitudes
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Acclimatization Principles for High Altitudes
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Learn how to safely adapt your body to low oxygen environments. A detailed breakdown of pacing, hydration, and ascending techniques in the Annapurnas.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Learn how to safely adapt your body to low oxygen environments. A detailed breakdown of pacing, hydration, and ascending techniques in the Annapurnas.
           </p>
         </div>
 
         {/* How Acclimatization Works */}
         <div className="mt-12 space-y-6">
           <h2 className="text-2xl font-bold text-stone-950">How Acclimatization Works</h2>
-          <p className="text-stone-600 leading-relaxed">
-            Acclimatization is the process by which your body adapts to the decrease in oxygen pressure at higher altitudes. This occurs through physiological changes: hyperventilation (deeper, faster breathing), increased red blood cell concentration, and modified kidney function.
+          <p className="text-stone-600 leading-relaxed">Acclimatization is the process by which your body adapts to the decrease in oxygen pressure at higher altitudes. This occurs through physiological changes: hyperventilation (deeper, faster breathing), increased red blood cell concentration, and modified kidney function.
           </p>
-          <p className="text-stone-600 leading-relaxed">
-            Acclimatization requires patience. If you climb too fast, your body cannot keep up, resulting in altitude headaches, fatigue, or severe sickness.
+          <p className="text-stone-600 leading-relaxed">Acclimatization requires patience. If you climb too fast, your body cannot keep up, resulting in altitude headaches, fatigue, or severe sickness.
           </p>
         </div>
 
@@ -63,18 +59,16 @@ export default function Page() {
         {/* Hydration warning */}
         <div className="mt-16 p-8 bg-emerald-50 border border-emerald-200 rounded-3xl text-emerald-800 space-y-4">
           <h3 className="text-lg font-bold">Why Garlic Soup is a Local Remedy</h3>
-          <p className="text-xs leading-relaxed">
-            In Nepalese trekking culture, guides often recommend drinking **garlic soup** (Lasun ko Soup) daily at high altitude. While not a medical cure, garlic contains sulfur compounds and active ingredients that can help thin blood, improve micro-circulation, and promote better breathing. It is also an excellent way to rehydrate and replenish sodium levels after a hard day of climbing.
+          <p className="text-xs leading-relaxed">In Nepalese trekking culture, guides often recommend drinking **garlic soup** (Lasun ko Soup) daily at high altitude. While not a medical cure, garlic contains sulfur compounds and active ingredients that can help thin blood, improve micro-circulation, and promote better breathing. It is also an excellent way to rehydrate and replenish sodium levels after a hard day of climbing.
           </p>
         </div>
 
         {/* E-E-A-T Badge */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              Our guides are certified by the Keep Nepal Friendly organization and receive annual training on high-altitude altitude safety, pacing, and emergency response.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">Our guides are certified by the Keep Nepal Friendly organization and receive annual training on high-altitude altitude safety, pacing, and emergency response.
             </p>
           </div>
         </div>
@@ -83,15 +77,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Book a Safe Trek</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Maximize your safety and success rates on the trail. Plan a guided trek with our safety-oriented local guides.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Maximize your safety and success rates on the trail. Plan a guided trek with our safety-oriented local guides.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

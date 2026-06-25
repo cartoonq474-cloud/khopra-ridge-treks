@@ -42,19 +42,16 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Route Comparisons</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Khopra Ridge vs. Annapurna Circuit
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Khopra Ridge vs. Annapurna Circuit
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Choosing between a short, community-run wilderness trail and Nepal's most famous trekking loop? Here is our comprehensive comparative guide to help you decide.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Choosing between a short, community-run wilderness trail and Nepal's most famous trekking loop? Here is our comprehensive comparative guide to help you decide.
           </p>
         </div>
 
         {/* Intro */}
         <div className="mt-12 space-y-6">
           <h2 className="text-2xl font-bold text-stone-950">The Wilderness Ridge vs. The Grand Loop</h2>
-          <p className="text-stone-600 leading-relaxed">
-            The **Annapurna Circuit** is legendary for its grand scale, geographic diversity, and the challenge of crossing Thorong La Pass. However, modern road construction has significantly changed the classic circuit, leading many trekkers to seek alternative, untouched trails. The **Khopra Ridge Trek** (Khopra Danda) has emerged as the premier off-the-beaten-path alternative—offering similar panoramic alpine vistas but in a shorter, road-free, and community-centric package.
+          <p className="text-stone-600 leading-relaxed">The **Annapurna Circuit** is legendary for its grand scale, geographic diversity, and the challenge of crossing Thorong La Pass. However, modern road construction has significantly changed the classic circuit, leading many trekkers to seek alternative, untouched trails. The **Khopra Ridge Trek** (Khopra Danda) has emerged as the premier off-the-beaten-path alternative—offering similar panoramic alpine vistas but in a shorter, road-free, and community-centric package.
           </p>
         </div>
 
@@ -90,22 +87,19 @@ export default function Page() {
           <div className="space-y-6">
             <div className="p-6 bg-white border border-stone-200 rounded-3xl space-y-2 shadow-sm">
               <h4 className="font-extrabold text-stone-950 text-base">1. The Road Issue &amp; Trail Authenticity</h4>
-              <p className="text-xs text-stone-500 leading-relaxed">
-                The biggest complaint about the modern Annapurna Circuit is the dusty jeep roads that now cover much of the trail on both sides of Thorong La. While beautiful, hikers are frequently forced to share the route with vehicles. Khopra Ridge remains entirely pristine, utilizing ancient forest trails and high mountain pastures that vehicles cannot reach.
+              <p className="text-xs text-stone-500 leading-relaxed">The biggest complaint about the modern Annapurna Circuit is the dusty jeep roads that now cover much of the trail on both sides of Thorong La. While beautiful, hikers are frequently forced to share the route with vehicles. Khopra Ridge remains entirely pristine, utilizing ancient forest trails and high mountain pastures that vehicles cannot reach.
               </p>
             </div>
             
             <div className="p-6 bg-white border border-stone-200 rounded-3xl space-y-2 shadow-sm">
               <h4 className="font-extrabold text-stone-950 text-base">2. Altitude Risk &amp; Acclimatization</h4>
-              <p className="text-xs text-stone-500 leading-relaxed">
-                At 5,416 meters, Thorong La Pass presents a severe risk of Acute Mountain Sickness (AMS), requiring multiple rest days and intense physical preparation. Khopra Ridge stays at a more manageable altitude (3,660m at the highest lodge), though you still have the option to challenge yourself with a day hike to Khayer Lake (4,660m) while sleeping back at the safer elevation of the ridge.
+              <p className="text-xs text-stone-500 leading-relaxed">At 5,416 meters, Thorong La Pass presents a severe risk of Acute Mountain Sickness (AMS), requiring multiple rest days and intense physical preparation. Khopra Ridge stays at a more manageable altitude (3,660m at the highest lodge), though you still have the option to challenge yourself with a day hike to Khayer Lake (4,660m) while sleeping back at the safer elevation of the ridge.
               </p>
             </div>
 
             <div className="p-6 bg-white border border-stone-200 rounded-3xl space-y-2 shadow-sm">
               <h4 className="font-extrabold text-stone-950 text-base">3. Sustainable &amp; Local Impact</h4>
-              <p className="text-xs text-stone-500 leading-relaxed">
-                While the Annapurna Circuit is highly commercialized with private guesthouses, the Khopra circuit is community-run. Every teahouse along the Khopra Ridge route is owned collectively by the local villages. The profits directly pay high school teachers' salaries and support community health posts in Swanta and surrounding Magar communities.
+              <p className="text-xs text-stone-500 leading-relaxed">While the Annapurna Circuit is highly commercialized with private guesthouses, the Khopra circuit is community-run. Every teahouse along the Khopra Ridge route is owned collectively by the local villages. The profits directly pay high school teachers' salaries and support community health posts in Swanta and surrounding Magar communities.
               </p>
             </div>
           </div>
@@ -113,11 +107,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              Our guides have led treks on both the Annapurna Circuit and the Khopra Ridge trail for over a decade. We monitor road construction and trail safety monthly to provide realistic route comparisons.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">Our guides have led treks on both the Annapurna Circuit and the Khopra Ridge trail for over a decade. We monitor road construction and trail safety monthly to provide realistic route comparisons.
             </p>
           </div>
         </div>
@@ -126,15 +119,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Ready to Experience the Road-Free Trail?</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Book our core 9-day Khopra Ridge itinerary to avoid commercial crowd trails, hike along high mountain ridges, and support sustainable local schools.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Book our core 9-day Khopra Ridge itinerary to avoid commercial crowd trails, hike along high mountain ridges, and support sustainable local schools.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

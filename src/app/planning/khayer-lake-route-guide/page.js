@@ -39,22 +39,18 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Trail Navigation</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Khayer Lake Route & Trail Guide
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Khayer Lake Route & Trail Guide
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Step-by-step route mapping. Learn how to navigate the alpine terrain, stream crossings, and moraine scree slopes from Khopra Ridge to the lake.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Step-by-step route mapping. Learn how to navigate the alpine terrain, stream crossings, and moraine scree slopes from Khopra Ridge to the lake.
           </p>
         </div>
 
         {/* Overview */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-stone-950">Navigating the High Plateau Trail</h2>
-          <p>
-            The route from Khopra Ridge to Khayer Lake is a demanding, high-altitude day hike. It covers a round-trip distance of 16 kilometers (9.9 miles) with a net elevation gain of 1,000 meters. The trail is rustic and lacks the heavy signage found on the main Poon Hill route.
+          <p>The route from Khopra Ridge to Khayer Lake is a demanding, high-altitude day hike. It covers a round-trip distance of 16 kilometers (9.9 miles) with a net elevation gain of 1,000 meters. The trail is rustic and lacks the heavy signage found on the main Poon Hill route.
           </p>
-          <p>
-            Because the trail climbs through remote pastureland and glacial moraines, understanding the distinct stages of the route is essential for safety, timing, and navigation.
+          <p>Because the trail climbs through remote pastureland and glacial moraines, understanding the distinct stages of the route is essential for safety, timing, and navigation.
           </p>
         </div>
 
@@ -81,24 +77,23 @@ export default function Page() {
           <h3 className="text-lg font-bold text-white">Critical Navigation Tips</h3>
           <ul className="list-disc pl-6 text-xs leading-relaxed text-stone-404 space-y-3">
             <li>
-              <strong>Look for Cairns:</strong> In the rocky moraine sections, the dirt trail can fade. Follow the stacked stone towers (cairns) placed by local guides.
+              <strong>Look for Cairns:</strong>In the rocky moraine sections, the dirt trail can fade. Follow the stacked stone towers (cairns) placed by local guides.
             </li>
             <li>
-              <strong>Offline GPS Mapping:</strong> Carry an offline GPS app (such as Maps.me or Gaia GPS) with pre-loaded maps of the Annapurna conservation area. Fog can drop visibility to under 10 meters, making navigation extremely difficult without GPS coordinates.
+              <strong>Offline GPS Mapping:</strong>Carry an offline GPS app (such as Maps.me or Gaia GPS) with pre-loaded maps of the Annapurna conservation area. Fog can drop visibility to under 10 meters, making navigation extremely difficult without GPS coordinates.
             </li>
             <li>
-              <strong>Hire a Guide:</strong> If you are hiking during the shoulder season (early spring or late winter) when snow covers the path, hiring a local guide is mandatory for safety.
+              <strong>Hire a Guide:</strong>If you are hiking during the shoulder season (early spring or late winter) when snow covers the path, hiring a local guide is mandatory for safety.
             </li>
           </ul>
         </div>
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -107,14 +102,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Trek with Certified Navigators</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              Our guides are trained local residents who know every corner, shortcut, and seasonal weather warning on the Khayer Lake trail.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">Our guides are trained local residents who know every corner, shortcut, and seasonal weather warning on the Khayer Lake trail.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Inquire now
+            >Inquire now
             </Link>
           </div>
         </div>

@@ -14,14 +14,11 @@ export default function Page() {
       <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-800 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-             Spiritual &amp; Pilgrimage Himalayan Route
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">Spiritual &amp; Pilgrimage Himalayan Route
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
-            Sacred Khayer Lake Pilgrimage Trek in Nepal
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Sacred Khayer Lake Pilgrimage Trek in Nepal
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">
-            A 9-day journey to Nepal&apos;s holy alpine lake at 4,660m resting directly beneath the towering face of Annapurna South. Access deep spiritual heritage and unmatched ridge panoramas without the mainstream tourist crowds.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">A 9-day journey to Nepal&apos;s holy alpine lake at 4,660m resting directly beneath the towering face of Annapurna South. Access deep spiritual heritage and unmatched ridge panoramas without the mainstream tourist crowds.
           </p>
 
           {/* Quick Metrics Grid */}
@@ -56,56 +53,42 @@ export default function Page() {
         {/* STICKY TOC SIDEBAR */}
         <aside className="lg:col-span-1">
           <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
-            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">
-              Navigation
+            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">Navigation
             </h3>
             <nav className="flex flex-col gap-1 text-sm">
-              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Trek Overview
+              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Trek Overview
               </a>
-              <a href="#sacredness" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Spiritual Heritage
+              <a href="#sacredness" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Spiritual Heritage
               </a>
-              <a href="#highlights" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Trek Highlights
+              <a href="#highlights" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Trek Highlights
               </a>
-              <a href="#route-map" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Route &amp; Trail Map
+              <a href="#route-map" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Route &amp; Trail Map
               </a>
               <a href="#itinerary" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
                 9-Day Itinerary
               </a>
-              <a href="#difficulty" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Trek Difficulty
+              <a href="#difficulty" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Trek Difficulty
               </a>
-              <a href="#best-time" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Best Time to Go
+              <a href="#best-time" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Best Time to Go
               </a>
-              <a href="#facilities" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Lodges &amp; Food
+              <a href="#facilities" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Lodges &amp; Food
               </a>
-              <a href="#permits" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Required Permits
+              <a href="#permits" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Required Permits
               </a>
-              <a href="#packing" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Packing Checklist
+              <a href="#packing" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Packing Checklist
               </a>
-              <a href="#pricing" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Cost &amp; Inclusions
+              <a href="#pricing" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Cost &amp; Inclusions
               </a>
-              <a href="#why-local" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Trek with Local Guides
+              <a href="#why-local" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Trek with Local Guides
               </a>
-              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Frequently Asked Qs
+              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Frequently Asked Qs
               </a>
             </nav>
             <div className="pt-4 border-t border-stone-100">
               <a 
                 href="#booking"
                 className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
-              >
-                Inquire &amp; Customize
+              >Inquire &amp; Customize
               </a>
             </div>
           </div>
@@ -116,47 +99,38 @@ export default function Page() {
 
           {/* OVERVIEW */}
           <article id="overview" className="scroll-mt-12 space-y-6">
-            <p className="text-stone-600 leading-relaxed text-base">
-              There are Himalayan treks that take you through beautiful landscapes, and then there are treks that take you somewhere far more significant — places where the mountains, the water, and the spiritual world meet. The Sacred Khayer Lake Pilgrimage Trek is one of those journeys.
+            <p className="text-stone-600 leading-relaxed text-base">There are Himalayan treks that take you through beautiful landscapes, and then there are treks that take you somewhere far more significant — places where the mountains, the water, and the spiritual world meet. The Sacred Khayer Lake Pilgrimage Trek is one of those journeys.
             </p>
-            <p className="text-stone-600 leading-relaxed text-base">
-              Sitting at 4,660 metres in the heart of the Annapurna Conservation Area, Khayer Lake rests directly beneath the towering south face of Annapurna South. For centuries, Hindu and Buddhist pilgrims have made the journey to these cold, clear waters. For modern trekkers, the route offers something increasingly rare in Nepal: a trail that is genuinely remote, dramatically scenic, and deeply meaningful.
+            <p className="text-stone-600 leading-relaxed text-base">Sitting at 4,660 metres in the heart of the Annapurna Conservation Area, Khayer Lake rests directly beneath the towering south face of Annapurna South. For centuries, Hindu and Buddhist pilgrims have made the journey to these cold, clear waters. For modern trekkers, the route offers something increasingly rare in Nepal: a trail that is genuinely remote, dramatically scenic, and deeply meaningful.
             </p>
-            <p className="text-stone-600 leading-relaxed text-base">
-              This trek is most often completed as part of the Khopra Ridge Trek — a community-lodge circuit that threads through traditional villages, rhododendron forests, and high ridge paths with sweeping views of Dhaulagiri, Nilgiri, Tukuche Peak, and Baraha Shikhar. You do not share the trail with thousands of other hikers. You share it with pilgrims, local herders, and the mountains.
+            <p className="text-stone-600 leading-relaxed text-base">This trek is most often completed as part of the Khopra Ridge Trek — a community-lodge circuit that threads through traditional villages, rhododendron forests, and high ridge paths with sweeping views of Dhaulagiri, Nilgiri, Tukuche Peak, and Baraha Shikhar. You do not share the trail with thousands of other hikers. You share it with pilgrims, local herders, and the mountains.
             </p>
-            <p className="text-stone-600 leading-relaxed text-base">
-              If you are searching for a pilgrimage trek in Nepal that combines authentic Himalayan culture with world-class mountain scenery and far fewer crowds, this is the page to read in full before you plan.
+            <p className="text-stone-600 leading-relaxed text-base">If you are searching for a pilgrimage trek in Nepal that combines authentic Himalayan culture with world-class mountain scenery and far fewer crowds, this is the page to read in full before you plan.
             </p>
 
             <div className="p-4 bg-emerald-500/5 border border-emerald-500/15 rounded-3xl flex items-center justify-between gap-4 mt-6">
-              <p className="text-xs text-stone-600 font-medium">
-                Ready to start planning? Our local guides based in Pokhara run fully customizable Sacred Khayer Lake Trek packages.
+              <p className="text-xs text-stone-600 font-medium">Ready to start planning? Our local guides based in Pokhara run fully customizable Sacred Khayer Lake Trek packages.
               </p>
               <Link 
                 href="/contact"
                 className="bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-2.5 px-4 rounded-xl shadow-sm transition whitespace-nowrap"
-              >
-                Customize Itinerary →
+              >Customize Itinerary →
               </Link>
             </div>
 
             <div className="bg-stone-50 border border-stone-200 rounded-3xl p-6 mt-8">
-              <h3 className="text-lg font-bold text-stone-950 mb-4"> Where Is Khayer Lake Located?</h3>
-              <p className="text-xs text-stone-600 leading-relaxed">
-                Khayer Lake sits in Myagdi District, within the protected boundaries of the Annapurna Conservation Area (ACAP). The lake is positioned at approximately 4,660 metres above sea level, at the base of Annapurna South — one of the most dramatic mountain faces in the entire Annapurna region.
+              <h3 className="text-lg font-bold text-stone-950 mb-4">Where Is Khayer Lake Located?</h3>
+              <p className="text-xs text-stone-600 leading-relaxed">Khayer Lake sits in Myagdi District, within the protected boundaries of the Annapurna Conservation Area (ACAP). The lake is positioned at approximately 4,660 metres above sea level, at the base of Annapurna South — one of the most dramatic mountain faces in the entire Annapurna region.
               </p>
-              <p className="text-xs text-stone-600 leading-relaxed mt-3">
-                The nearest large town is Pokhara, which serves as the starting and ending point for the trek. The trailhead is typically reached by a jeep or local bus from Pokhara, taking between two and four hours depending on road conditions and your chosen entry point.
+              <p className="text-xs text-stone-600 leading-relaxed mt-3">The nearest large town is Pokhara, which serves as the starting and ending point for the trek. The trailhead is typically reached by a jeep or local bus from Pokhara, taking between two and four hours depending on road conditions and your chosen entry point.
               </p>
-              <p className="text-xs text-stone-600 leading-relaxed mt-3">
-                The lake itself is a high-altitude alpine body of water fed by glacial melt. In spring, the snowmelt keeps the water icy cold. In autumn, the lake often reflects the surrounding peaks on calm mornings — a view that leaves most trekkers speechless regardless of their religious background.
+              <p className="text-xs text-stone-600 leading-relaxed mt-3">The lake itself is a high-altitude alpine body of water fed by glacial melt. In spring, the snowmelt keeps the water icy cold. In autumn, the lake often reflects the surrounding peaks on calm mornings — a view that leaves most trekkers speechless regardless of their religious background.
               </p>
             </div>
 
             {/* Quick stats table */}
             <div className="bg-white border border-stone-200 rounded-3xl p-6 mt-6 shadow-sm">
-              <h3 className="text-lg font-bold text-stone-950 mb-4"> Sacred Khayer Lake Trek Facts</h3>
+              <h3 className="text-lg font-bold text-stone-950 mb-4">Sacred Khayer Lake Trek Facts</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
                   { label: "Duration", value: "9 Days" },
@@ -179,53 +153,43 @@ export default function Page() {
 
             <div className="bg-stone-50 border border-stone-200 rounded-2xl p-5 mt-6">
               <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide">Why Travelers Choose This Trek</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-                Most trekkers who find their way to Khayer Lake are looking for the same thing: everything Nepal is famous for, without the crowds. The Annapurna Base Camp and Poon Hill treks are magnificent routes, but they attract thousands of visitors every season. The Khayer Lake route via Khopra Ridge carries far fewer trekkers. Trails feel open. Lodges feel personal. Villages feel lived-in rather than built for tourism.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">Most trekkers who find their way to Khayer Lake are looking for the same thing: everything Nepal is famous for, without the crowds. The Annapurna Base Camp and Poon Hill treks are magnificent routes, but they attract thousands of visitors every season. The Khayer Lake route via Khopra Ridge carries far fewer trekkers. Trails feel open. Lodges feel personal. Villages feel lived-in rather than built for tourism.
               </p>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-                What makes this route stand apart beyond the solitude is the combination of spiritual significance, ridge-line panoramas, and community-based accommodation. These three elements working together create a trekking experience that feels richer than a standard itinerary hike. You are walking a pilgrimage route, not just a trail.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">What makes this route stand apart beyond the solitude is the combination of spiritual significance, ridge-line panoramas, and community-based accommodation. These three elements working together create a trekking experience that feels richer than a standard itinerary hike. You are walking a pilgrimage route, not just a trail.
               </p>
             </div>
           </article>
 
           {/* SACREDNESS */}
           <article id="sacredness" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Why Khayer Lake Is One of Nepal&apos;s Most Sacred Himalayan Lakes
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Why Khayer Lake Is One of Nepal&apos;s Most Sacred Himalayan Lakes
             </h2>
-            <p className="text-stone-600 leading-relaxed text-base">
-              Khayer Lake is not simply a scenic alpine lake — it is a sacred site that holds deep religious importance for both Hindu and Buddhist communities across Nepal and beyond. Understanding this significance changes the way you experience the entire trek.
+            <p className="text-stone-600 leading-relaxed text-base">Khayer Lake is not simply a scenic alpine lake — it is a sacred site that holds deep religious importance for both Hindu and Buddhist communities across Nepal and beyond. Understanding this significance changes the way you experience the entire trek.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <span className="text-2xl">🕉️</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base mt-2">Hindu Religious Significance</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  For Hindu pilgrims, Khayer Lake is considered a holy tirtha — a crossing point between the earthly and divine realms. The lake is believed to be the abode of Baraha, a manifestation of the Hindu god Vishnu. Bathing in or making offerings at the lake is believed to cleanse sins and bring spiritual merit.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">For Hindu pilgrims, Khayer Lake is considered a holy tirtha — a crossing point between the earthly and divine realms. The lake is believed to be the abode of Baraha, a manifestation of the Hindu god Vishnu. Bathing in or making offerings at the lake is believed to cleanse sins and bring spiritual merit.
                 </p>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2 font-medium">
-                  During the full moon of Baisakh (April–May) and in Shrawan (July–August), pilgrims climb to the lake for puja ceremonies. Many walk barefoot, carrying flowers, rice, and bells.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2 font-medium">During the full moon of Baisakh (April–May) and in Shrawan (July–August), pilgrims climb to the lake for puja ceremonies. Many walk barefoot, carrying flowers, rice, and bells.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <span className="text-2xl">☸️</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base mt-2">Buddhist Spiritual Significance</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  The lake holds deep meaning within Tibetan Buddhist traditions. High-altitude lakes in the Himalaya are regarded as mirrors of the sky — spaces where the natural world opens into spiritual clarity. Local Buddhist communities in Myagdi and Mustang have long regarded it as a place of meditation.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">The lake holds deep meaning within Tibetan Buddhist traditions. High-altitude lakes in the Himalaya are regarded as mirrors of the sky — spaces where the natural world opens into spiritual clarity. Local Buddhist communities in Myagdi and Mustang have long regarded it as a place of meditation.
                 </p>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  Buddhist practitioners seek out the lake for its absolute isolation. Mani stones and prayer flags are found on the approach trail, left by pilgrims who made the journey.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">Buddhist practitioners seek out the lake for its absolute isolation. Mani stones and prayer flags are found on the approach trail, left by pilgrims who made the journey.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <span className="text-2xl">🏔️</span>
+                <span className="text-2xl"></span>
                 <h4 className="font-bold text-stone-950 text-base mt-2">Local Beliefs &amp; Pilgrimage Rules</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  For the Swanta and Khopra Ridge village communities, Khayer Lake is an inseparable part of their cultural identity. Local beliefs hold that disrespectful behavior near the lake — littering, loud noise, or disregard for the site&apos;s sanctity — can bring weather hazards and misfortune.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">For the Swanta and Khopra Ridge village communities, Khayer Lake is an inseparable part of their cultural identity. Local beliefs hold that disrespectful behavior near the lake — littering, loud noise, or disregard for the site&apos;s sanctity — can bring weather hazards and misfortune.
                 </p>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2 font-medium">
-                  Trekkers are expected to treat the site with high respect: removing footwear before entering the immediate lakeside, keeping voices low, and carrying out all waste.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2 font-medium">Trekkers are expected to treat the site with high respect: removing footwear before entering the immediate lakeside, keeping voices low, and carrying out all waste.
                 </p>
               </div>
             </div>
@@ -233,39 +197,33 @@ export default function Page() {
 
           {/* HIGHLIGHTS */}
           <article id="highlights" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Highlights of the Sacred Khayer Lake Trek
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Highlights of the Sacred Khayer Lake Trek
             </h2>
             
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Khopra Ridge Panoramic Views</h4>
-                <p className="mt-1">
-                  At approximately 3,660 metres, the ridge commands a panoramic sweep of Himalayan peaks that ranks among the finest viewpoints in all of Nepal. On a clear morning, see Annapurna South, Hiunchuli, Machhapuchhre, Nilgiri, Dhaulagiri, and Tukuche Peak simultaneously. Most trekkers spend at least one full day and night at the ridge before the pilgrimage day hike.
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">Khopra Ridge Panoramic Views</h4>
+                <p className="mt-1">At approximately 3,660 metres, the ridge commands a panoramic sweep of Himalayan peaks that ranks among the finest viewpoints in all of Nepal. On a clear morning, see Annapurna South, Hiunchuli, Machhapuchhre, Nilgiri, Dhaulagiri, and Tukuche Peak simultaneously. Most trekkers spend at least one full day and night at the ridge before the pilgrimage day hike.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🏔️ Annapurna South Close-Up Views</h4>
-                <p className="mt-1">
-                  You are looking directly at the southern face of one of the Annapurna massif&apos;s major peaks from a position that very few trekking routes in the region offer. The scale and closeness of Annapurna South from Khopra Ridge and from the lake itself create a genuine sense of being deep inside the high Himalaya.
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">Annapurna South Close-Up Views</h4>
+                <p className="mt-1">You are looking directly at the southern face of one of the Annapurna massif&apos;s major peaks from a position that very few trekking routes in the region offer. The scale and closeness of Annapurna South from Khopra Ridge and from the lake itself create a genuine sense of being deep inside the high Himalaya.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">🏔️ Dhaulagiri and Nilgiri Mountain Panorama</h4>
-                <p className="mt-1">
-                  The ridge faces the Dhaulagiri range on the western horizon, creating a high-altitude wilderness panorama that includes Dhaulagiri I (8,167 m — the world&apos;s seventh-highest peak), Tukuche Peak, Baraha Shikhar, and Nilgiri North, Central, and South. Very few locations in Nepal bridge both mountain massifs simultaneously.
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">Dhaulagiri and Nilgiri Mountain Panorama</h4>
+                <p className="mt-1">The ridge faces the Dhaulagiri range on the western horizon, creating a high-altitude wilderness panorama that includes Dhaulagiri I (8,167 m — the world&apos;s seventh-highest peak), Tukuche Peak, Baraha Shikhar, and Nilgiri North, Central, and South. Very few locations in Nepal bridge both mountain massifs simultaneously.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Peaceful Off-the-Beaten-Path Trails</h4>
-                <p className="mt-1">
-                  The trails pass through a Nepal that many international trekkers never see. Villages are small, traditional, and quiet. The trail feels exploratory rather than managed, and the encounters with local communities along the way add real texture to the experience.
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">Peaceful Off-the-Beaten-Path Trails</h4>
+                <p className="mt-1">The trails pass through a Nepal that many international trekkers never see. Villages are small, traditional, and quiet. The trail feels exploratory rather than managed, and the encounters with local communities along the way add real texture to the experience.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2"> Authentic Community-Lodge Experience</h4>
-                <p className="mt-1">
-                  Developed as a community-based trekking route, the lodges reflect that intention. These are family-run establishments where guesthouse owners prepare meals using local ingredients and share stories. Lodge proceeds go directly into village economies to fund schools and water systems.
+                <h4 className="font-bold text-stone-900 text-base flex items-center gap-2">Authentic Community-Lodge Experience</h4>
+                <p className="mt-1">Developed as a community-based trekking route, the lodges reflect that intention. These are family-run establishments where guesthouse owners prepare meals using local ingredients and share stories. Lodge proceeds go directly into village economies to fund schools and water systems.
                 </p>
               </div>
             </div>
@@ -273,28 +231,23 @@ export default function Page() {
 
           {/* ROUTE OVERVIEW */}
           <article id="route-map" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Route Overview and Trek Map
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Route Overview and Trek Map
             </h2>
             <div className="grid gap-6 md:grid-cols-2">
               <div className="space-y-4">
                 <h4 className="font-bold text-stone-900 text-base">Starting from Pokhara</h4>
-                <p className="text-xs text-stone-600 leading-relaxed">
-                  All treks begin and end in Pokhara — Nepal&apos;s second-largest city and the gateway to the Annapurna region. From Pokhara, the drive to the trailhead takes approximately two to four hours depending on which entry point is used (Siwai or Nayapul). The drive passes through lower Annapurna foothills.
+                <p className="text-xs text-stone-600 leading-relaxed">All treks begin and end in Pokhara — Nepal&apos;s second-largest city and the gateway to the Annapurna region. From Pokhara, the drive to the trailhead takes approximately two to four hours depending on which entry point is used (Siwai or Nayapul). The drive passes through lower Annapurna foothills.
                 </p>
                 <h4 className="font-bold text-stone-900 text-base">Through Forests, Villages, and Ridge Trails</h4>
-                <p className="text-xs text-stone-600 leading-relaxed">
-                  The early days move through sub-tropical forest and terraced farming communities, climbing into oak and rhododendron forests that bloom beautifully in spring. Traditional Gurung and Magar villages appear along the route, Swanta being a notable stop. Above the villages, the trail transitions to open moorland and high windswept ridges.
+                <p className="text-xs text-stone-600 leading-relaxed">The early days move through sub-tropical forest and terraced farming communities, climbing into oak and rhododendron forests that bloom beautifully in spring. Traditional Gurung and Magar villages appear along the route, Swanta being a notable stop. Above the villages, the trail transitions to open moorland and high windswept ridges.
                 </p>
               </div>
               <div className="space-y-4">
                 <h4 className="font-bold text-stone-900 text-base">Khopra Ridge to Khayer Lake Day Hike</h4>
-                <p className="text-xs text-stone-600 leading-relaxed">
-                  The summit experience is the day hike from Khopra Danda up to Khayer Lake at 4,660 metres. Guides recommend starting before sunrise (around 5:00 AM) to reach the lake during the clearest atmospheric conditions. The trail gains significant altitude, becoming rocky and exposed.
+                <p className="text-xs text-stone-600 leading-relaxed">The summit experience is the day hike from Khopra Danda up to Khayer Lake at 4,660 metres. Guides recommend starting before sunrise (around 5:00 AM) to reach the lake during the clearest atmospheric conditions. The trail gains significant altitude, becoming rocky and exposed.
                 </p>
                 <h4 className="font-bold text-stone-900 text-base">Return Route Options</h4>
-                <p className="text-xs text-stone-600 leading-relaxed">
-                  Most groups return via Swanta and climb back to rejoin the Ghorepani network. This allows for a different return through Ghorepani, adding the famous Poon Hill sunrise to the itinerary, adding one or two days to the loop but enhancing the view value.
+                <p className="text-xs text-stone-600 leading-relaxed">Most groups return via Swanta and climb back to rejoin the Ghorepani network. This allows for a different return through Ghorepani, adding the famous Poon Hill sunrise to the itinerary, adding one or two days to the loop but enhancing the view value.
                 </p>
               </div>
             </div>
@@ -302,8 +255,7 @@ export default function Page() {
 
           {/* ITINERARY */}
           <article id="itinerary" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Detailed 9-Day Sacred Khayer Lake Trek Itinerary
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Detailed 9-Day Sacred Khayer Lake Trek Itinerary
             </h2>
             
             <div className="space-y-6">
@@ -363,24 +315,20 @@ export default function Page() {
 
           {/* DIFFICULTY */}
           <article id="difficulty" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              How Difficult Is the Khayer Lake Trek?
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">How Difficult Is the Khayer Lake Trek?
             </h2>
-            <p className="text-stone-600 leading-relaxed text-base">
-              This is one of the most common and most important questions anyone planning this trek should ask honestly.
+            <p className="text-stone-600 leading-relaxed text-base">This is one of the most common and most important questions anyone planning this trek should ask honestly.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-3">
                 <h4 className="font-bold text-stone-950 text-base">Physical Fitness Requirements</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  The Khayer Lake Trek is rated strenuous. It involves multiple consecutive days of uphill walking at increasing altitude, with one high-altitude day that demands physical stamina. Trekkers should be able to walk 5–7 hours continuously before attempting this route. Regular cardio conditioning (hiking, running, cycling) in the months before departure is highly recommended. Not recommended as a first altitude trek.
+                <p className="text-xs text-stone-500 leading-relaxed">The Khayer Lake Trek is rated strenuous. It involves multiple consecutive days of uphill walking at increasing altitude, with one high-altitude day that demands physical stamina. Trekkers should be able to walk 5–7 hours continuously before attempting this route. Regular cardio conditioning (hiking, running, cycling) in the months before departure is highly recommended. Not recommended as a first altitude trek.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-3">
                 <h4 className="font-bold text-stone-950 text-base">Daily Walking &amp; Trails</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Expect 5 to 7 hours of active walking daily. The summit day to the lake may take longer depending on pace. Trail conditions vary: lower sections can be muddy, while higher sections become rocky and potentially icy or snow-covered. Trekking poles are strongly recommended, particularly for the lake approach and descent.
+                <p className="text-xs text-stone-500 leading-relaxed">Expect 5 to 7 hours of active walking daily. The summit day to the lake may take longer depending on pace. Trail conditions vary: lower sections can be muddy, while higher sections become rocky and potentially icy or snow-covered. Trekking poles are strongly recommended, particularly for the lake approach and descent.
                 </p>
               </div>
             </div>
@@ -388,11 +336,10 @@ export default function Page() {
             {/* AMS WARNING INFOBOX */}
             <div className="bg-amber-500/10 border border-amber-500/20 rounded-3xl p-6">
               <div className="flex gap-4">
-                <span className="text-2xl mt-0.5">⚠️</span>
+                <span className="text-2xl mt-0.5"></span>
                 <div>
                   <h4 className="font-black text-amber-950 text-sm tracking-wide uppercase">Altitude Challenges at 4,660m</h4>
-                  <p className="mt-2 text-xs text-stone-700 leading-relaxed font-semibold">
-                    Khayer Lake sits at 4,660 metres — well above the threshold where Acute Mountain Sickness (AMS) commonly begins. Symptoms include persistent headache, nausea, dizziness, fatigue, and poor sleep.
+                  <p className="mt-2 text-xs text-stone-700 leading-relaxed font-semibold">Khayer Lake sits at 4,660 metres — well above the threshold where Acute Mountain Sickness (AMS) commonly begins. Symptoms include persistent headache, nausea, dizziness, fatigue, and poor sleep.
                   </p>
                   <ul className="mt-3 space-y-1.5 text-xs text-stone-600 list-disc pl-5">
                     <li>Acclimatize properly: spend a full rest day at Khopra Ridge (3,660m) before attempting the lake ascent.</li>
@@ -406,41 +353,35 @@ export default function Page() {
 
             <div className="bg-stone-50 border border-stone-200 rounded-2xl p-5">
               <h4 className="font-bold text-stone-900 text-sm">Is This Trek Suitable for Beginners?</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-                With honest preparation, motivated beginner trekkers with good fitness can complete this route successfully — but they should not underestimate it. A local guide is not optional on this route. For beginner trekkers especially, an experienced guide is the most important investment you can make in both safety and enjoyment.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">With honest preparation, motivated beginner trekkers with good fitness can complete this route successfully — but they should not underestimate it. A local guide is not optional on this route. For beginner trekkers especially, an experienced guide is the most important investment you can make in both safety and enjoyment.
               </p>
             </div>
           </article>
 
           {/* BEST TIME */}
           <article id="best-time" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Best Time for the Sacred Khayer Lake Pilgrimage Trek
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Best Time for the Sacred Khayer Lake Pilgrimage Trek
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-950 text-base"> Spring — March to May</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  One of the two ideal trekking windows. Warming temperatures, rhododendron forests in peak bloom, and clear morning visibility. March and April offer the best combination of minimal snow at altitude. Pilgrimage season peaks during this period, offering chances to encounter local pilgrims.
+                <h4 className="font-bold text-stone-950 text-base">Spring — March to May</h4>
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">One of the two ideal trekking windows. Warming temperatures, rhododendron forests in peak bloom, and clear morning visibility. March and April offer the best combination of minimal snow at altitude. Pilgrimage season peaks during this period, offering chances to encounter local pilgrims.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-950 text-base"> Autumn — September to November</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  Nepal&apos;s prime trekking window. The monsoon rains have cleared the atmosphere, visibility is exceptional, and temperatures are stable and comfortable. October is widely considered the best single month for sharp views. Nights are cold but manageable.
+                <h4 className="font-bold text-stone-950 text-base">Autumn — September to November</h4>
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">Nepal&apos;s prime trekking window. The monsoon rains have cleared the atmosphere, visibility is exceptional, and temperatures are stable and comfortable. October is widely considered the best single month for sharp views. Nights are cold but manageable.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-950 text-base">❄️ Winter — December to February</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  Possible for experienced winter trekkers. Solitude is high, but temperatures drop significantly below freezing. Some community lodges operate on reduced hours, and the lake approach may require crampons or micro-spikes due to ice and packed snow.
+                <h4 className="font-bold text-stone-950 text-base">Winter — December to February</h4>
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">Possible for experienced winter trekkers. Solitude is high, but temperatures drop significantly below freezing. Some community lodges operate on reduced hours, and the lake approach may require crampons or micro-spikes due to ice and packed snow.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-950 text-base">🌧️ Monsoon — June to August</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  Heavy rainfall brings slippery trails, mud, leeches on lower sections, and persistent cloud cover obscuring view points. The pilgrimage experience is less accessible due to weather unpredictability. Least recommended season for trekking.
+                <h4 className="font-bold text-stone-950 text-base">Monsoon — June to August</h4>
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">Heavy rainfall brings slippery trails, mud, leeches on lower sections, and persistent cloud cover obscuring view points. The pilgrimage experience is less accessible due to weather unpredictability. Least recommended season for trekking.
                 </p>
               </div>
             </div>
@@ -448,27 +389,23 @@ export default function Page() {
 
           {/* FACILITIES */}
           <article id="facilities" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Accommodation, Food, and Facilities Along the Trail
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Accommodation, Food, and Facilities Along the Trail
             </h2>
             
             <div className="grid gap-6 md:grid-cols-3">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-950 text-base">Lodges &amp; Teahouses</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  Accommodation is provided by family-run lodges in villages along the route. Clean, warm, and welcoming. Shared bathrooms are typical. Blankets are provided, but a sleeping bag liner and full winter sleeping bag are recommended for comfort above 3,000 metres.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">Accommodation is provided by family-run lodges in villages along the route. Clean, warm, and welcoming. Shared bathrooms are typical. Blankets are provided, but a sleeping bag liner and full winter sleeping bag are recommended for comfort above 3,000 metres.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-950 text-base">Meals &amp; Nutrition</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  Dal bhat is the backbone of trail nutrition and is available at every lodge. Fried rice, noodle soup, pasta, eggs, and pancakes are widely available. Vegetarian options are consistently good, while meat is less reliable at higher elevations. Drink filter/boiled water.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">Dal bhat is the backbone of trail nutrition and is available at every lodge. Fried rice, noodle soup, pasta, eggs, and pancakes are widely available. Vegetarian options are consistently good, while meat is less reliable at higher elevations. Drink filter/boiled water.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-950 text-base">Power &amp; Connectivity</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  Solar power is the primary source. Charging devices is possible but may be limited in low-light conditions; a power bank is useful. Mobile signal varies significantly; expect to disconnect and embrace the digital detox.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">Solar power is the primary source. Charging devices is possible but may be limited in low-light conditions; a power bank is useful. Mobile signal varies significantly; expect to disconnect and embrace the digital detox.
                 </p>
               </div>
             </div>
@@ -476,38 +413,33 @@ export default function Page() {
 
           {/* PERMITS */}
           <article id="permits" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Permits Required for Khayer Lake Trek
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Permits Required for Khayer Lake Trek
             </h2>
             <div className="space-y-4">
               <h4 className="font-bold text-stone-950 text-base">Annapurna Conservation Area Permit (ACAP)</h4>
-              <p className="text-xs text-stone-600 leading-relaxed">
-                The primary permit required for the Sacred Khayer Lake Pilgrimage Trek is the Annapurna Conservation Area Permit (ACAP). This permit covers entry into the Annapurna Conservation Area, which encompasses the entire Khopra Ridge and Khayer Lake route. ACAP permits are issued by the Nepal Tourism Board and can be obtained in Kathmandu (at the Tourism Board office in Pradarshani Marga) or in Pokhara. Two passport-sized photographs and your passport are required. Foreign nationals also typically need to obtain a TIMS card (Trekkers&apos; Information Management System) in addition to ACAP.
+              <p className="text-xs text-stone-600 leading-relaxed">The primary permit required for the Sacred Khayer Lake Pilgrimage Trek is the Annapurna Conservation Area Permit (ACAP). This permit covers entry into the Annapurna Conservation Area, which encompasses the entire Khopra Ridge and Khayer Lake route. ACAP permits are issued by the Nepal Tourism Board and can be obtained in Kathmandu (at the Tourism Board office in Pradarshani Marga) or in Pokhara. Two passport-sized photographs and your passport are required. Foreign nationals also typically need to obtain a TIMS card (Trekkers&apos; Information Management System) in addition to ACAP.
               </p>
               <h4 className="font-bold text-stone-950 text-base">Current Permit Rules and Updates</h4>
-              <p className="text-xs text-stone-600 leading-relaxed">
-                Permit requirements and fees in Nepal are subject to periodic revision. Our guides monitor current permit regulations as part of our route management and will confirm the latest requirements when you inquire about booking. Permit checkpoints are positioned along the trail. Your guide will manage checkpoint documentation to ensure the process is smooth. Carrying your original passport is required at checkpoints.
+              <p className="text-xs text-stone-600 leading-relaxed">Permit requirements and fees in Nepal are subject to periodic revision. Our guides monitor current permit regulations as part of our route management and will confirm the latest requirements when you inquire about booking. Permit checkpoints are positioned along the trail. Your guide will manage checkpoint documentation to ensure the process is smooth. Carrying your original passport is required at checkpoints.
               </p>
             </div>
           </article>
 
           {/* TRANSPORTATION */}
           <article id="transportation" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Transportation and Trek Starting Point
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Transportation and Trek Starting Point
             </h2>
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
                 <h4 className="font-bold text-stone-950 text-base">Kathmandu to Pokhara</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  <strong>By air:</strong> Flights take approximately 25–30 minutes, operating multiple times daily. Subject to weather cancellations.<br />
-                  <strong>By road:</strong> Tourist buses take 6–8 hours depending on road conditions. comfortable and reasonably priced. Private vehicles offer more speed.
+                  <strong>By air:</strong>Flights take approximately 25–30 minutes, operating multiple times daily. Subject to weather cancellations.<br />
+                  <strong>By road:</strong>Tourist buses take 6–8 hours depending on road conditions. comfortable and reasonably priced. Private vehicles offer more speed.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
                 <h4 className="font-bold text-stone-950 text-base">Pokhara to the Trailhead</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  From Pokhara, the trailhead is reached by jeep, local bus, or private vehicle — typically a 2–4 hour drive depending on road conditions and the specific trailhead used (Siwai or Nayapul). Our guides arrange all trailhead transportation as part of the package.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">From Pokhara, the trailhead is reached by jeep, local bus, or private vehicle — typically a 2–4 hour drive depending on road conditions and the specific trailhead used (Siwai or Nayapul). Our guides arrange all trailhead transportation as part of the package.
                 </p>
               </div>
             </div>
@@ -515,27 +447,23 @@ export default function Page() {
 
           {/* PACKING */}
           <article id="packing" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Packing List for Khayer Lake Trek
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Packing List for Khayer Lake Trek
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">🏔️ Clothing Layers</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Moisture-wicking base layers, mid-layer fleece or down jacket, waterproof/windproof outer shell, thermal underwear for altitude nights, trekking trousers (not jeans), warm hat, gloves, UV sunglasses, sun cap, and merino wool socks.
+                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">Clothing Layers</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">Moisture-wicking base layers, mid-layer fleece or down jacket, waterproof/windproof outer shell, thermal underwear for altitude nights, trekking trousers (not jeans), warm hat, gloves, UV sunglasses, sun cap, and merino wool socks.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Trekking Gear</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Waterproof trekking boots with ankle support (break them in!), trekking poles, 30–40L daypack for the lake, 60–70L main pack/duffel, winter sleeping bag (rated to -5°C), headlamp with spare batteries, and a 2-liter water capacity system.
+                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">Trekking Gear</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">Waterproof trekking boots with ankle support (break them in!), trekking poles, 30–40L daypack for the lake, 60–70L main pack/duffel, winter sleeping bag (rated to -5°C), headlamp with spare batteries, and a 2-liter water capacity system.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
-                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3"> Essentials &amp; Cash</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Passport original, ACAP/TIMS permits, travel insurance (with evacuation cover), cash in Nepalese Rupees, high-SPF sunscreen, lip balm, rehydration salts, hand sanitizer, and blister treatment kits.
+                <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wide border-b border-stone-100 pb-2 mb-3">Essentials &amp; Cash</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">Passport original, ACAP/TIMS permits, travel insurance (with evacuation cover), cash in Nepalese Rupees, high-SPF sunscreen, lip balm, rehydration salts, hand sanitizer, and blister treatment kits.
                 </p>
               </div>
             </div>
@@ -543,8 +471,7 @@ export default function Page() {
 
           {/* COST / BOOKING */}
           <article id="pricing" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Khayer Lake Trek Cost and Booking Information
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Khayer Lake Trek Cost and Booking Information
             </h2>
             
             <div className="grid gap-6 md:grid-cols-2">
@@ -577,38 +504,33 @@ export default function Page() {
             <div className="bg-stone-50 border border-stone-200 rounded-2xl p-6 mt-6">
               <h4 className="font-bold text-stone-950 text-base">Private vs Group Trek Options</h4>
               <p className="mt-2 text-xs text-stone-600 leading-relaxed font-medium">
-                <strong>Private treks</strong> offer maximum flexibility — departure dates chosen by you, pace set by your group, and itinerary customization options including adding Ghorepani and Poon Hill to the return. Private treks are ideal for families, couples, or small groups.<br /><br />
-                <strong>Small group treks</strong> are available on fixed departure dates, offer lower per-person costs, and are a good option for solo trekkers who prefer company on the trail.
+                <strong>Private treks</strong>offer maximum flexibility — departure dates chosen by you, pace set by your group, and itinerary customization options including adding Ghorepani and Poon Hill to the return. Private treks are ideal for families, couples, or small groups.<br /><br />
+                <strong>Small group treks</strong>are available on fixed departure dates, offer lower per-person costs, and are a good option for solo trekkers who prefer company on the trail.
               </p>
             </div>
           </article>
 
           {/* WHY LOCAL GUIDES */}
           <article id="why-local" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Why Trek With Local Guides Based in Pokhara
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Why Trek With Local Guides Based in Pokhara
             </h2>
-            <p className="text-stone-600 leading-relaxed text-base">
-              There is a meaningful difference between booking a trek through a large international agency and working with local guides who are based in Pokhara, monitor the route actively, and have deep personal connections to the communities along the trail.
+            <p className="text-stone-600 leading-relaxed text-base">There is a meaningful difference between booking a trek through a large international agency and working with local guides who are based in Pokhara, monitor the route actively, and have deep personal connections to the communities along the trail.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wider">Trail &amp; Seasonal Updates</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  Our guides maintain active knowledge of the route through regular trail checks. This means you receive current info about lodge status, trail conditions, snow coverage, and permit checkpoint updates.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">Our guides maintain active knowledge of the route through regular trail checks. This means you receive current info about lodge status, trail conditions, snow coverage, and permit checkpoint updates.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wider">Cultural Connections</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  Understanding why Khayer Lake is sacred, knowing how to behave respectfully, and communicating with lodge owners in their own language transforms the trek. Our guides explain religious practices with reverence.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">Understanding why Khayer Lake is sacred, knowing how to behave respectfully, and communicating with lodge owners in their own language transforms the trek. Our guides explain religious practices with reverence.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-950 text-sm uppercase tracking-wider">Safety &amp; Customization</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">
-                  Every guided trek includes comprehensive safety management — from altitude monitoring to emergency communication. We customize itineraries to match your fitness levels, pacing, and schedules.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">Every guided trek includes comprehensive safety management — from altitude monitoring to emergency communication. We customize itineraries to match your fitness levels, pacing, and schedules.
                 </p>
               </div>
             </div>
@@ -616,8 +538,7 @@ export default function Page() {
 
           {/* FAQS */}
           <article id="faq" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Frequently Asked Questions About the Sacred Khayer Lake Trek
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Frequently Asked Questions About the Sacred Khayer Lake Trek
             </h2>
             
             <div className="space-y-4">
@@ -684,14 +605,11 @@ export default function Page() {
           {/* FINAL THOUGHTS */}
           <article className="space-y-6">
             <h2 className="text-2xl font-bold text-stone-950">Final Thoughts on the Sacred Khayer Lake Pilgrimage Trek</h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              The Sacred Khayer Lake Pilgrimage Trek is not a trek you take to tick a box. It is a trek you take to understand something — about mountains, about devotion, about your own capacity for sustained effort in a landscape that diminishes everyday concerns to near-nothing.
+            <p className="text-stone-600 leading-relaxed text-sm">The Sacred Khayer Lake Pilgrimage Trek is not a trek you take to tick a box. It is a trek you take to understand something — about mountains, about devotion, about your own capacity for sustained effort in a landscape that diminishes everyday concerns to near-nothing.
             </p>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              The walk from Pokhara to Khopra Ridge and onward to the lake takes you through nine days of Nepal that most visitors never experience: the quiet of community lodges, the warmth of Gurung and Magar hospitality, the visual enormity of Annapurna South seen not from a well-worn viewpoint but from a high ridge where almost no one else is standing.
+            <p className="text-stone-600 leading-relaxed text-sm">The walk from Pokhara to Khopra Ridge and onward to the lake takes you through nine days of Nepal that most visitors never experience: the quiet of community lodges, the warmth of Gurung and Magar hospitality, the visual enormity of Annapurna South seen not from a well-worn viewpoint but from a high ridge where almost no one else is standing.
             </p>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              And at the end of a long, cold morning of uphill walking, there is the lake itself. Khayer Lake. Icy, still, perfectly positioned at the base of a mountain that was holy long before anyone called it by a name we would recognize. Pilgrims wash their hands. Trekkers catch their breath. The mountain does not notice. That combination — the scale of the Himalaya and the smallness of human presence within it — is why people travel this far and climb this high.
+            <p className="text-stone-600 leading-relaxed text-sm">And at the end of a long, cold morning of uphill walking, there is the lake itself. Khayer Lake. Icy, still, perfectly positioned at the base of a mountain that was holy long before anyone called it by a name we would recognize. Pilgrims wash their hands. Trekkers catch their breath. The mountain does not notice. That combination — the scale of the Himalaya and the smallness of human presence within it — is why people travel this far and climb this high.
             </p>
           </article>
 
@@ -700,19 +618,17 @@ export default function Page() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
               <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Customize Your Sacred Khayer Lake Trek With Our Local Experts</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">
-                Our licensed local trekking guides based in Pokhara run the Khopra Ridge and Khayer Lake circuit regularly. We maintain active knowledge of trail conditions, community lodge availability, and permit requirements — and we customize every itinerary to match your group&apos;s pace, interests, and schedule.
+              <p className="text-stone-300 text-sm leading-relaxed">Our licensed local trekking guides based in Pokhara run the Khopra Ridge and Khayer Lake circuit regularly. We maintain active knowledge of trail conditions, community lodge availability, and permit requirements — and we customize every itinerary to match your group&apos;s pace, interests, and schedule.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
                   href="/contact"
                   className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
-                >
-                  Inquire &amp; Customize Your Itinerary →
+                >Inquire &amp; Customize Your Itinerary →
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span> Free cancellation &amp; flexible shifts</span>
-                  <span> Standard response within 24 hours</span>
+                  <span>Free cancellation &amp; flexible shifts</span>
+                  <span>Standard response within 24 hours</span>
                 </div>
               </div>
             </div>
@@ -720,11 +636,10 @@ export default function Page() {
 
           {/* FOOTNOTE */}
           <div className="p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-            <span className="text-2xl mt-0.5">🏔️</span>
+            <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-                This guide is maintained and reviewed by licensed local trekking guides operating out of Pokhara. Route information, permit fees, and community lodge statuses are updated based on active trail monitoring.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by licensed local trekking guides operating out of Pokhara. Route information, permit fees, and community lodge statuses are updated based on active trail monitoring.
               </p>
             </div>
           </div>

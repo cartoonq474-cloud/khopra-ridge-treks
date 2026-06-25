@@ -37,19 +37,16 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Route Comparisons</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Khopra Ridge vs. Mardi Himal Trek
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Khopra Ridge vs. Mardi Himal Trek
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Stuck between two ridges? Read our detailed, comparative analysis of Khopra Ridge vs. Mardi Himal Trek in the Annapurna range to pick the perfect route.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Stuck between two ridges? Read our detailed, comparative analysis of Khopra Ridge vs. Mardi Himal Trek in the Annapurna range to pick the perfect route.
           </p>
         </div>
 
         {/* Intro */}
         <div className="mt-12 space-y-6">
           <h2 className="text-2xl font-bold text-stone-950">The Ridge Trek Showdown</h2>
-          <p className="text-stone-600 leading-relaxed">
-            Both **Khopra Ridge** (Khopra Danda) and **Mardi Himal** are high-altitude ridge treks branching off from the classic Annapurna sanctuary routes. They both offer hikers the chance to escape the crowded pathways of Poon Hill and walk along high ridges. However, their visual profiles, accommodation models, and crowd densities are completely different.
+          <p className="text-stone-600 leading-relaxed">Both **Khopra Ridge** (Khopra Danda) and **Mardi Himal** are high-altitude ridge treks branching off from the classic Annapurna sanctuary routes. They both offer hikers the chance to escape the crowded pathways of Poon Hill and walk along high ridges. However, their visual profiles, accommodation models, and crowd densities are completely different.
           </p>
         </div>
 
@@ -85,22 +82,19 @@ export default function Page() {
           <div className="space-y-6">
             <div className="p-6 bg-white border border-stone-200 rounded-3xl space-y-2 shadow-sm">
               <h4 className="font-extrabold text-stone-950 text-base">1. View Dynamics &amp; Mountains</h4>
-              <p className="text-xs text-stone-500 leading-relaxed">
-                Mardi Himal places you directly under the shadow of Machhapuchhre (Fishtail peak). The mountain views are vertical and towering, but the scope is narrower. Khopra Ridge, on the other hand, faces Dhaulagiri I (8,167m) and the Annapurna range. It feels like standing on a natural amphitheater, offering 360-degree views of several 8,000m peaks and the deepest gorge in the world.
+              <p className="text-xs text-stone-500 leading-relaxed">Mardi Himal places you directly under the shadow of Machhapuchhre (Fishtail peak). The mountain views are vertical and towering, but the scope is narrower. Khopra Ridge, on the other hand, faces Dhaulagiri I (8,167m) and the Annapurna range. It feels like standing on a natural amphitheater, offering 360-degree views of several 8,000m peaks and the deepest gorge in the world.
               </p>
             </div>
             
             <div className="p-6 bg-white border border-stone-200 rounded-3xl space-y-2 shadow-sm">
               <h4 className="font-extrabold text-stone-950 text-base">2. Crowds and Seclusion</h4>
-              <p className="text-xs text-stone-500 leading-relaxed">
-                In recent years, Mardi Himal has become one of Nepal's fastest-growing domestic and international routes, meaning High Camp and trails can get highly crowded during spring and autumn. Khopra Ridge remains isolated, with very low visitor counts, ensuring you walk through silent, uncrowded rhododendron forests.
+              <p className="text-xs text-stone-500 leading-relaxed">In recent years, Mardi Himal has become one of Nepal's fastest-growing domestic and international routes, meaning High Camp and trails can get highly crowded during spring and autumn. Khopra Ridge remains isolated, with very low visitor counts, ensuring you walk through silent, uncrowded rhododendron forests.
               </p>
             </div>
 
             <div className="p-6 bg-white border border-stone-200 rounded-3xl space-y-2 shadow-sm">
               <h4 className="font-extrabold text-stone-950 text-base">3. Social Responsibility</h4>
-              <p className="text-xs text-stone-500 leading-relaxed">
-                Khopra Ridge is operated under a strict community lodge framework. All profits pay for local school teacher salaries and health clinics. Mardi Himal uses a standard private teahouse framework, meaning profits go directly to individual business owners.
+              <p className="text-xs text-stone-500 leading-relaxed">Khopra Ridge is operated under a strict community lodge framework. All profits pay for local school teacher salaries and health clinics. Mardi Himal uses a standard private teahouse framework, meaning profits go directly to individual business owners.
               </p>
             </div>
           </div>
@@ -108,11 +102,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              We lead trips on both Mardi Himal and Khopra Ridge trails monthly. This comparative matrix is updated based on crowd monitoring data and local lodge capacities.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">We lead trips on both Mardi Himal and Khopra Ridge trails monthly. This comparative matrix is updated based on crowd monitoring data and local lodge capacities.
             </p>
           </div>
         </div>
@@ -121,15 +114,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Ready to Experience the Secluded Trail?</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Book our core 9-day Khopra Ridge itinerary to avoid the crowds, explore sacred lakes, and directly fund local mountain communities.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Book our core 9-day Khopra Ridge itinerary to avoid the crowds, explore sacred lakes, and directly fund local mountain communities.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

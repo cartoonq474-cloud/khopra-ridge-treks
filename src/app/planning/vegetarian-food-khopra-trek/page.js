@@ -37,19 +37,16 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Trail Dining</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Vegetarian Food Guide (Khopra Trek)
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Vegetarian Food Guide (Khopra Trek)
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Dal Bhat power and beyond. Learn why choosing vegetarian dining is the safest, most hygienic, and most energetic option in high-altitude lodges.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Dal Bhat power and beyond. Learn why choosing vegetarian dining is the safest, most hygienic, and most energetic option in high-altitude lodges.
           </p>
         </div>
 
         {/* Safety Recommendation */}
         <div className="mt-12 p-8 bg-emerald-50 border border-emerald-200 rounded-3xl text-emerald-800 space-y-4">
           <h3 className="text-lg font-bold">Why We Recommend Going Vegetarian</h3>
-          <p className="text-xs leading-relaxed font-medium">
-            In the high nodes of the Annapurna conservation area, meat is transported up on the backs of mules or porters from lower market towns without refrigeration. Due to the lack of cold storage chains, meat can spoil rapidly, posing a high risk of food poisoning or stomach bugs. Eating a fresh vegetarian diet is the single best way to ensure you stay healthy and active on the trail.
+          <p className="text-xs leading-relaxed font-medium">In the high nodes of the Annapurna conservation area, meat is transported up on the backs of mules or porters from lower market towns without refrigeration. Due to the lack of cold storage chains, meat can spoil rapidly, posing a high risk of food poisoning or stomach bugs. Eating a fresh vegetarian diet is the single best way to ensure you stay healthy and active on the trail.
           </p>
         </div>
 
@@ -69,11 +66,10 @@ export default function Page() {
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -82,14 +78,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Stay Healthy on the Trail</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              Our guides collaborate directly with lodge cooks to ensure all vegetarian meals are prepared hygienically using clean, boiled water.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">Our guides collaborate directly with lodge cooks to ensure all vegetarian meals are prepared hygienically using clean, boiled water.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Inquire now
+            >Inquire now
             </Link>
           </div>
         </div>

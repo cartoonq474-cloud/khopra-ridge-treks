@@ -113,14 +113,11 @@ export default function Page() {
       <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-             Ultimate Eco-Tourism Circuit
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">Ultimate Eco-Tourism Circuit
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
-            Khopra Trek via Mohare Danda
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Trek via Mohare Danda
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">
-            Trek through the Annapurna region's best-kept eco-tourism corridor. Combine traditional Magar village homestays, community-owned lodge circuits, and two high alpine pastures into one unforgettable Himalayan adventure.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Trek through the Annapurna region's best-kept eco-tourism corridor. Combine traditional Magar village homestays, community-owned lodge circuits, and two high alpine pastures into one unforgettable Himalayan adventure.
           </p>
 
           {/* Quick Metrics Grid */}
@@ -141,8 +138,7 @@ export default function Page() {
         {/* STICKY TABLE OF CONTENTS SIDEBAR */}
         <aside className="lg:col-span-1">
           <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
-            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">
-              Table of Contents
+            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">Table of Contents
             </h3>
             <nav className="flex flex-col gap-1 text-sm">
               <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
@@ -168,8 +164,7 @@ export default function Page() {
               <Link 
                 href="/contact"
                 className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
-              >
-                Inquire &amp; Book Tour
+              >Inquire &amp; Book Tour
               </Link>
             </div>
           </div>
@@ -184,11 +179,9 @@ export default function Page() {
               1. Overview: Combining Two Great Eco-Circuits
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                For hikers seeking complete wilderness seclusion, local cultural interactions, and high ecological standards, combining Mohare Danda (3,300m) and Khopra Ridge (3,660m) is highly recommended. This route starts at Galeshwor and ascends through homestay villages to Mohare Danda, then crosses over to join the Khopra loop via Ghorepani and Swanta.
+              <p>For hikers seeking complete wilderness seclusion, local cultural interactions, and high ecological standards, combining Mohare Danda (3,300m) and Khopra Ridge (3,660m) is highly recommended. This route starts at Galeshwor and ascends through homestay villages to Mohare Danda, then crosses over to join the Khopra loop via Ghorepani and Swanta.
               </p>
-              <p>
-                Unlike standard trails in the Annapurna Conservation Area that have become heavily commercialized, this trek operates on a cooperative model. Every lodge and homestay along the Mohare and Khopra corridors is community-owned. This ensures that the profits directly benefit local schools, clinics, and eco-initiatives, establishing a blueprint for regenerative tourism in Nepal.
+              <p>Unlike standard trails in the Annapurna Conservation Area that have become heavily commercialized, this trek operates on a cooperative model. Every lodge and homestay along the Mohare and Khopra corridors is community-owned. This ensures that the profits directly benefit local schools, clinics, and eco-initiatives, establishing a blueprint for regenerative tourism in Nepal.
               </p>
             </div>
           </article>
@@ -213,8 +206,7 @@ export default function Page() {
             <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
               3. The Complete 12-Day Route Profile
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              The 12-day circuit is optimized for safe acclimatization, allowing you to gradually ascend through forest homestays before tackling the high ridges of Mohare and Khopra.
+            <p className="text-stone-600 leading-relaxed text-sm">The 12-day circuit is optimized for safe acclimatization, allowing you to gradually ascend through forest homestays before tackling the high ridges of Mohare and Khopra.
             </p>
             <div className="space-y-6">
               {itinerary.map((item, i) => (
@@ -238,21 +230,20 @@ export default function Page() {
               4. Difficulty, Safety &amp; Training Tips
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                Combining two ridges increases the cumulative climb and descending stress. With multiple days spent above 3,000m, pacing and core fitness become essential. The optional day hike to Khayer Lake at 4,660m is physically demanding, requiring solid endurance.
+              <p>Combining two ridges increases the cumulative climb and descending stress. With multiple days spent above 3,000m, pacing and core fitness become essential. The optional day hike to Khayer Lake at 4,660m is physically demanding, requiring solid endurance.
               </p>
               
               <div className="p-6 bg-emerald-50 border border-emerald-200 rounded-3xl text-emerald-800 space-y-4">
                 <h4 className="font-bold text-sm uppercase tracking-wider">Acclimatization and Safety Protocol</h4>
                 <ul className="space-y-3 text-xs leading-relaxed list-disc pl-5">
                   <li>
-                    <strong>Slow and Steady (Bistari, Bistari):</strong> Maintain a comfortable, conversational pace. Rushing altitude gain increases the risk of Acute Mountain Sickness (AMS).
+                    <strong>Slow and Steady (Bistari, Bistari):</strong>Maintain a comfortable, conversational pace. Rushing altitude gain increases the risk of Acute Mountain Sickness (AMS).
                   </li>
                   <li>
-                    <strong>Hydrate Consistently:</strong> Drink at least 4 liters of purified water daily. High-altitude environments dry out respiratory pathways quickly.
+                    <strong>Hydrate Consistently:</strong>Drink at least 4 liters of purified water daily. High-altitude environments dry out respiratory pathways quickly.
                   </li>
                   <li>
-                    <strong>Recognize Symptoms:</strong> Headaches, mild nausea, and dizziness are early signs of AMS. Notify your guide immediately and be prepared to descend to a lower lodge if symptoms do not improve.
+                    <strong>Recognize Symptoms:</strong>Headaches, mild nausea, and dizziness are early signs of AMS. Notify your guide immediately and be prepared to descend to a lower lodge if symptoms do not improve.
                   </li>
                 </ul>
               </div>
@@ -267,19 +258,17 @@ export default function Page() {
             <div className="text-stone-600 leading-relaxed text-sm space-y-6">
               <div>
                 <h3 className="text-lg font-bold text-stone-900">Required Permits</h3>
-                <p className="mt-2 text-xs">
-                  Trekkers must obtain two permits prior to departure. A copy of your passport and passport-sized photos are required:
+                <p className="mt-2 text-xs">Trekkers must obtain two permits prior to departure. A copy of your passport and passport-sized photos are required:
                 </p>
                 <ul className="list-disc pl-5 mt-2 space-y-1 text-xs">
-                  <li><strong>Annapurna Conservation Area Permit (ACAP):</strong> NPR 3,000 (~$23 USD) per person.</li>
-                  <li><strong>TIMS Card (Trekkers' Information Management System):</strong> NPR 2,000 (~$15 USD) per person.</li>
+                  <li><strong>Annapurna Conservation Area Permit (ACAP):</strong>NPR 3,000 (~$23 USD) per person.</li>
+                  <li><strong>TIMS Card (Trekkers' Information Management System):</strong>NPR 2,000 (~$15 USD) per person.</li>
                 </ul>
               </div>
 
               <div>
                 <h3 className="text-lg font-bold text-stone-900">Getting There</h3>
-                <p className="mt-2 text-xs">
-                  The route begins at Galeshwor. Private jeeps from Pokhara take about 3 hours to reach Galeshwor. The return leg finishes at Ghandruk/Kimche, where private or public jeeps transfer you back to Pokhara Lakeside.
+                <p className="mt-2 text-xs">The route begins at Galeshwor. Private jeeps from Pokhara take about 3 hours to reach Galeshwor. The return leg finishes at Ghandruk/Kimche, where private or public jeeps transfer you back to Pokhara Lakeside.
                 </p>
               </div>
 
@@ -332,16 +321,14 @@ export default function Page() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
               <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Experience Eco-Tourism at Its Best</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">
-                Support local mountain villages directly. Book our guided 12-day Mohare and Khopra combo package. Our local guides ensure safe acclimatization, correct pacing, and complete logistics management.
+              <p className="text-stone-300 text-sm leading-relaxed">Support local mountain villages directly. Book our guided 12-day Mohare and Khopra combo package. Our local guides ensure safe acclimatization, correct pacing, and complete logistics management.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
                   href="/contact"
                   className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
-                >
-                  Inquire Now to Plan Your Trek &rarr;
+                >Inquire Now to Plan Your Trek &rarr;
                 </Link>
               </div>
 
@@ -349,17 +336,13 @@ export default function Page() {
               <div className="pt-6 border-t border-white/10 space-y-3">
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Tour:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
-                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     Check ACAP &amp; TIMS permit guidelines
+                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check ACAP &amp; TIMS permit guidelines
                   </Link>
-                  <Link href="/planning/pokhara-to-ghandruk" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     Pokhara to Ghandruk Transportation options
+                  <Link href="/planning/pokhara-to-ghandruk" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Pokhara to Ghandruk Transportation options
                   </Link>
-                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                     View complete interactive packing checklists
+                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">View complete interactive packing checklists
                   </Link>
-                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
-                    ☀️ Read about monthly trail weather conditions
+                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Read about monthly trail weather conditions
                   </Link>
                 </div>
               </div>
@@ -368,11 +351,10 @@ export default function Page() {
 
           {/* E-E-A-T Footnote */}
           <div className="p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-            <span className="text-2xl mt-0.5">🏔️</span>
+            <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-                This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail audits.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail audits.
               </p>
             </div>
           </div>

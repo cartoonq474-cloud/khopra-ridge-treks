@@ -28,22 +28,18 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">High Altitude Challenge</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Khayer Lake Altitude Risks & Safety
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Khayer Lake Altitude Risks & Safety
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Climbing to 4,660m (15,288ft) requires careful safety management. Review oxygen drop statistics, cold weather alerts, and emergency turnaround rules.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Climbing to 4,660m (15,288ft) requires careful safety management. Review oxygen drop statistics, cold weather alerts, and emergency turnaround rules.
           </p>
         </div>
 
         {/* The Challenge */}
         <div className="mt-12 space-y-6">
           <h2 className="text-2xl font-bold text-stone-950">The Khayer Lake Day Hike Challenge</h2>
-          <p className="text-stone-600 leading-relaxed">
-            The hike from Khopra Ridge to the sacred Khayer Lake is a stunning, spiritual experience. However, standing at **4,660 meters** places you at the same altitude as some of the highest base camps in the Himalayas.
+          <p className="text-stone-600 leading-relaxed">The hike from Khopra Ridge to the sacred Khayer Lake is a stunning, spiritual experience. However, standing at **4,660 meters** places you at the same altitude as some of the highest base camps in the Himalayas.
           </p>
-          <p className="text-stone-600 leading-relaxed">
-            Because this is a long round-trip hike (8 to 10 hours of walking), you will spend several hours in the high-altitude zone. Understanding and preparing for these risks is essential for a safe trek.
+          <p className="text-stone-600 leading-relaxed">Because this is a long round-trip hike (8 to 10 hours of walking), you will spend several hours in the high-altitude zone. Understanding and preparing for these risks is essential for a safe trek.
           </p>
         </div>
 
@@ -63,18 +59,16 @@ export default function Page() {
         {/* Turning Around Rule */}
         <div className="mt-16 p-8 bg-emerald-50 border border-emerald-200 rounded-3xl text-emerald-800 space-y-4">
           <h3 className="text-lg font-bold">The Golden Rule: The 1:00 PM Turnaround</h3>
-          <p className="text-xs leading-relaxed">
-            No matter how close you are to the lake, our guides enforce a strict **1:00 PM turnaround rule**. Weather at 4,660m can deteriorate rapidly in the afternoon, with thick clouds rolling in and temperatures dropping. To avoid walking in freezing fog, you must begin your descent by 1:00 PM to return to the safety of the Khopra Ridge lodge before dark.
+          <p className="text-xs leading-relaxed">No matter how close you are to the lake, our guides enforce a strict **1:00 PM turnaround rule**. Weather at 4,660m can deteriorate rapidly in the afternoon, with thick clouds rolling in and temperatures dropping. To avoid walking in freezing fog, you must begin your descent by 1:00 PM to return to the safety of the Khopra Ridge lodge before dark.
           </p>
         </div>
 
         {/* E-E-A-T Badge */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              We monitor trail conditions and mountain weather updates daily. Our guides carry satellite communication devices or VHF radios to coordinate rescues from the high lake area.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">We monitor trail conditions and mountain weather updates daily. Our guides carry satellite communication devices or VHF radios to coordinate rescues from the high lake area.
             </p>
           </div>
         </div>
@@ -83,15 +77,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Plan a Safe Exploration</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Book our guided departure to ensure you hike with an experienced leader who carries emergency gear, oxygen monitors, and handles all permits.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Book our guided departure to ensure you hike with an experienced leader who carries emergency gear, oxygen monitors, and handles all permits.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

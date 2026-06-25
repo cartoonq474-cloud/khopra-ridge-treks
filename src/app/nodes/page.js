@@ -108,11 +108,9 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Trail Directory</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Khopra Ridge Trail Village Nodes
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Khopra Ridge Trail Village Nodes
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Explore the essential stops. Review altitudes, lodging styles, and guide directories for every village node along the Khopra Ridge circuit.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Explore the essential stops. Review altitudes, lodging styles, and guide directories for every village node along the Khopra Ridge circuit.
           </p>
         </div>
 
@@ -138,8 +136,7 @@ export default function Page() {
                 <Link
                   href={v.href}
                   className="rounded-full bg-stone-950 px-5 py-2 text-xs font-bold text-white hover:bg-emerald-600 hover:text-white transition-all shadow-sm"
-                >
-                  Explore Node
+                >Explore Node
                 </Link>
               </div>
             </div>
@@ -148,11 +145,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              We check the facilities, water piping systems, and room rates in all nodes monthly. All village guides are certified and updated in real-time.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">We check the facilities, water piping systems, and room rates in all nodes monthly. All village guides are certified and updated in real-time.
             </p>
           </div>
         </div>

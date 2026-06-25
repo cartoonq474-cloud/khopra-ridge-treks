@@ -12,11 +12,9 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Site Directory</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Authority HTML Sitemap
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Authority HTML Sitemap
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Explore the complete 182-page sitemap of the Khopra Ridge Trek authority website. Grouped into structured thematic clusters to ensure maximum link equity and easy crawlability.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Explore the complete 182-page sitemap of the Khopra Ridge Trek authority website. Grouped into structured thematic clusters to ensure maximum link equity and easy crawlability.
           </p>
         </div>
 
@@ -43,11 +41,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              We compile sitemaps to coordinate directory files correctly. All paths comply with Next.js pre-rendering static route standards.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">We compile sitemaps to coordinate directory files correctly. All paths comply with Next.js pre-rendering static route standards.
             </p>
           </div>
         </div>

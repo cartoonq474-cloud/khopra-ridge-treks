@@ -36,19 +36,16 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Offbeat Discovery</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Best Offbeat Treks in Nepal (2026 Rankings)
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Best Offbeat Treks in Nepal (2026 Rankings)
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Escape the crowds. Compare the top 3 offbeat ridge treks in the Annapurna foothills based on crowd counts, views, lodging models, and social impact.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Escape the crowds. Compare the top 3 offbeat ridge treks in the Annapurna foothills based on crowd counts, views, lodging models, and social impact.
           </p>
         </div>
 
         {/* Introduction */}
         <div className="mt-12 space-y-6">
           <h2 className="text-2xl font-bold text-stone-950">Why Go Offbeat in the Himalayas?</h2>
-          <p className="text-stone-600 leading-relaxed">
-            While classic treks like the Annapurna Circuit and Everest Base Camp are legendary, they suffer from commercial over-development, road construction, and extreme trail traffic. Selecting an off-the-beaten-path alternative lets you experience the raw Himalayas of 30 years ago—walking along empty forest trails, staying in quiet village communities, and enjoying peaceful mountaintop sunrises.
+          <p className="text-stone-600 leading-relaxed">While classic treks like the Annapurna Circuit and Everest Base Camp are legendary, they suffer from commercial over-development, road construction, and extreme trail traffic. Selecting an off-the-beaten-path alternative lets you experience the raw Himalayas of 30 years ago—walking along empty forest trails, staying in quiet village communities, and enjoying peaceful mountaintop sunrises.
           </p>
         </div>
 
@@ -70,7 +67,7 @@ export default function Page() {
                 <h3 className="text-xl font-black text-stone-950">{trek.name}</h3>
                 
                 <div className="text-xs space-y-2 pt-2 border-t border-stone-100 text-stone-600">
-                  <div>🏔️ <strong className="text-stone-800">Mountain Views:</strong> {trek.views}</div>
+                  <div> <strong className="text-stone-800">Mountain Views:</strong> {trek.views}</div>
                   <div> <strong className="text-stone-800">Lodging Model:</strong> {trek.lodging}</div>
                 </div>
 
@@ -84,11 +81,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              We lead active groups across all of Nepal's offbeat tracks. This comparison list is adjusted based on seasonal weather profiles, lodge standard audits, and visitor numbers.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">We lead active groups across all of Nepal's offbeat tracks. This comparison list is adjusted based on seasonal weather profiles, lodge standard audits, and visitor numbers.
             </p>
           </div>
         </div>
@@ -97,15 +93,13 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Ready for an Offbeat Adventure?</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">
-              Book our custom Khopra Ridge or Mohare Danda itineraries. Experience authentic Himalayan hospitality while directly funding local education.
+            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Book our custom Khopra Ridge or Mohare Danda itineraries. Experience authentic Himalayan hospitality while directly funding local education.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
                 href="/#book"
                 className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all"
-              >
-                Inquire Now
+              >Inquire Now
               </Link>
             </div>
           </div>

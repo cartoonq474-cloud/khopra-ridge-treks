@@ -66,11 +66,9 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Tour Packages</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Our Khopra Ridge Trek Packages
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Our Khopra Ridge Trek Packages
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Find the perfect route variant. Explore durations, difficulty grades, and highlight details for all our curated community-lodge trekking packages.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Find the perfect route variant. Explore durations, difficulty grades, and highlight details for all our curated community-lodge trekking packages.
           </p>
         </div>
 
@@ -106,8 +104,7 @@ export default function Page() {
                 <Link
                   href={t.href}
                   className="w-full sm:w-auto inline-flex justify-center rounded-full bg-stone-950 px-6 py-3 text-xs font-bold text-white hover:bg-emerald-600 hover:text-white transition shadow-sm"
-                >
-                  Book Package
+                >Book Package
                 </Link>
               </div>
 
@@ -117,11 +114,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              Our travel licenses are audited yearly by the Nepal Ministry of Tourism. All pricing packages include certified guide wages and ACAP permit entries.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">Our travel licenses are audited yearly by the Nepal Ministry of Tourism. All pricing packages include certified guide wages and ACAP permit entries.
             </p>
           </div>
         </div>

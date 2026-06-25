@@ -37,19 +37,16 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Cultural Heritage</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Gurung Culture & Heritage in Ghandruk
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Gurung Culture & Heritage in Ghandruk
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Understand the traditions. A deep-dive guide to the rich lifestyle, social structures, and history of Ghandruk&apos;s indigenous Gurung community.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Understand the traditions. A deep-dive guide to the rich lifestyle, social structures, and history of Ghandruk&apos;s indigenous Gurung community.
           </p>
         </div>
 
         {/* Culture Details */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-stone-950">Who Are the Gurung People?</h2>
-          <p>
-            The Gurungs (also known as Tamu) are an ethnic group indigenous to the hills and mountains of western Nepal. Known for their distinct Tibeto-Burman language, unique culinary practices, animistic and Buddhist spiritual traditions, and legendary military bravery, the Gurungs form the cultural foundation of the Annapurna conservation region.
+          <p>The Gurungs (also known as Tamu) are an ethnic group indigenous to the hills and mountains of western Nepal. Known for their distinct Tibeto-Burman language, unique culinary practices, animistic and Buddhist spiritual traditions, and legendary military bravery, the Gurungs form the cultural foundation of the Annapurna conservation region.
           </p>
         </div>
 
@@ -68,11 +65,10 @@ export default function Page() {
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -81,14 +77,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Support Local Gurung Communities</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              By staying in local Gurung teahouses, booking resident guides, and dining at local establishments, you directly contribute to preserving Ghandruk&apos;s cultural heritage.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">By staying in local Gurung teahouses, booking resident guides, and dining at local establishments, you directly contribute to preserving Ghandruk&apos;s cultural heritage.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Book guided trek
+            >Book guided trek
             </Link>
           </div>
         </div>

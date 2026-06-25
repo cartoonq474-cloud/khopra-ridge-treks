@@ -13,14 +13,11 @@ export default function Page() {
       <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-             Permits &amp; Regulations
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">Permits &amp; Regulations
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
-            Khopra Ridge Trek Permits &amp; Regulations: Fees, Requirements &amp; Rules
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge Trek Permits &amp; Regulations: Fees, Requirements &amp; Rules
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">
-            Before you set foot on the trail to Khopra Ridge, there&apos;s some paperwork to sort out. Nepal requires every trekker entering the Annapurna Conservation Area to carry valid permits, and the rules around how to get them, what they cost, and what&apos;s expected of you on the trail can feel confusing if you&apos;ve never trekked here before.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Before you set foot on the trail to Khopra Ridge, there&apos;s some paperwork to sort out. Nepal requires every trekker entering the Annapurna Conservation Area to carry valid permits, and the rules around how to get them, what they cost, and what&apos;s expected of you on the trail can feel confusing if you&apos;ve never trekked here before.
           </p>
 
           {/* Quick Metrics Grid */}
@@ -54,47 +51,35 @@ export default function Page() {
         {/* STICKY TABLE OF CONTENTS SIDEBAR */}
         <aside className="lg:col-span-1">
           <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
-            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">
-              Table of Contents
+            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">Table of Contents
             </h3>
             <nav className="flex flex-col gap-1 text-sm">
-              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Quick Summary
+              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Quick Summary
               </a>
-              <a href="#required-permits" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Required Permits
+              <a href="#required-permits" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Required Permits
               </a>
-              <a href="#permit-fees" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Permit Fees
+              <a href="#permit-fees" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Permit Fees
               </a>
-              <a href="#documents" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Documents Required
+              <a href="#documents" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Documents Required
               </a>
-              <a href="#where-to-obtain" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Where to Buy Permits
+              <a href="#where-to-obtain" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Where to Buy Permits
               </a>
-              <a href="#step-by-step" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Application Steps
+              <a href="#step-by-step" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Application Steps
               </a>
-              <a href="#regulations" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Trekking Regulations
+              <a href="#regulations" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Trekking Regulations
               </a>
-              <a href="#checkpoints" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Trail Checkpoints
+              <a href="#checkpoints" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Trail Checkpoints
               </a>
-              <a href="#fines-errors" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Penalties &amp; Mistakes
+              <a href="#fines-errors" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Penalties &amp; Mistakes
               </a>
-              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Frequently Asked Qs
+              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Frequently Asked Qs
               </a>
             </nav>
             <div className="pt-4 border-t border-stone-100">
               <a 
                 href="#booking"
                 className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
-              >
-                Inquire &amp; Book
+              >Inquire &amp; Book
               </a>
             </div>
           </div>
@@ -104,11 +89,9 @@ export default function Page() {
         <main className="lg:col-span-3 space-y-16">
           {/* SECTION 1: OVERVIEW */}
           <article id="overview" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Permit Requirements Quick Summary
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Permit Requirements Quick Summary
             </h2>
-            <p className="text-stone-600 leading-relaxed text-base">
-              This guide walks you through exactly what permits the Khopra Ridge Trek requires, what they cost, where to get them, and the regulations you&apos;ll need to follow once you&apos;re on the trail — from guide requirements to checkpoint procedures to what happens if something goes wrong.
+            <p className="text-stone-600 leading-relaxed text-base">This guide walks you through exactly what permits the Khopra Ridge Trek requires, what they cost, where to get them, and the regulations you&apos;ll need to follow once you&apos;re on the trail — from guide requirements to checkpoint procedures to what happens if something goes wrong.
             </p>
 
             <div className="overflow-x-auto">
@@ -151,40 +134,34 @@ export default function Page() {
 
           {/* SECTION 2: WHAT PERMITS ARE REQUIRED */}
           <article id="required-permits" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              What Permits Are Required for the Khopra Ridge Trek?
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">What Permits Are Required for the Khopra Ridge Trek?
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              The Khopra Ridge Trek sits inside the Annapurna Conservation Area, which means it falls under Nepal&apos;s conservation area permit system rather than the restricted area permit system used for places like Upper Mustang or Manaslu.
+            <p className="text-stone-600 leading-relaxed text-sm">The Khopra Ridge Trek sits inside the Annapurna Conservation Area, which means it falls under Nepal&apos;s conservation area permit system rather than the restricted area permit system used for places like Upper Mustang or Manaslu.
             </p>
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base">🏔️ Annapurna Conservation Area Permit (ACAP)</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  The ACAP is the core permit for this trek. It&apos;s issued by the Nepal Tourism Board on behalf of the National Trust for Nature Conservation (NTNC), and it grants you legal entry into the Annapurna Conservation Area — which covers the entire Khopra Ridge route, including Ghorepani, Tadapani, and Swanta. Checkpoints will verify this permit.
+                <h4 className="font-bold text-stone-950 text-base">Annapurna Conservation Area Permit (ACAP)</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">The ACAP is the core permit for this trek. It&apos;s issued by the Nepal Tourism Board on behalf of the National Trust for Nature Conservation (NTNC), and it grants you legal entry into the Annapurna Conservation Area — which covers the entire Khopra Ridge route, including Ghorepani, Tadapani, and Swanta. Checkpoints will verify this permit.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base"> TIMS Card Requirements</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  The TIMS card is officially required by the Nepal Tourism Board to track trekker movements for safety. While some local checkpoints in the Annapurna region are currently not actively checking TIMS cards (focusing exclusively on ACAP), it remains a regulatory requirement and is typically arranged by your registered trekking agency to comply with government rules.
+                <h4 className="font-bold text-stone-950 text-base">TIMS Card Requirements</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">The TIMS card is officially required by the Nepal Tourism Board to track trekker movements for safety. While some local checkpoints in the Annapurna region are currently not actively checking TIMS cards (focusing exclusively on ACAP), it remains a regulatory requirement and is typically arranged by your registered trekking agency to comply with government rules.
                 </p>
               </div>
             </div>
 
             <div className="bg-emerald-50 border border-emerald-200 p-6 rounded-2xl text-emerald-950 text-xs leading-relaxed">
-              <strong>Do You Need a Restricted Area Permit?</strong> No. The Khopra Ridge Trek does not pass through any restricted areas, so you won&apos;t need to apply for a restricted area permit, arrange a government liaison officer, or meet the minimum group-size requirements that apply to restricted regions. This makes the permit process more straightforward than remote routes like Manaslu.
+              <strong>Do You Need a Restricted Area Permit?</strong>No. The Khopra Ridge Trek does not pass through any restricted areas, so you won&apos;t need to apply for a restricted area permit, arrange a government liaison officer, or meet the minimum group-size requirements that apply to restricted regions. This makes the permit process more straightforward than remote routes like Manaslu.
             </div>
           </article>
 
           {/* SECTION 3: PERMIT FEES */}
           <article id="permit-fees" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Khopra Ridge Trek Permit Fees
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Trek Permit Fees
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Permit fees are fixed by the government and are an essential component of your trek budget.
+            <p className="text-stone-600 leading-relaxed text-sm">Permit fees are fixed by the government and are an essential component of your trek budget.
             </p>
 
             <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
@@ -220,7 +197,7 @@ export default function Page() {
 
             <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
               <div>
-                <h4 className="font-bold text-stone-900 text-base"> Additional Costs to Expect</h4>
+                <h4 className="font-bold text-stone-900 text-base">Additional Costs to Expect</h4>
                 <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1.5 mt-2">
                   <li>Passport photo printing if you arrive without spares.</li>
                   <li>Photocopying costs if you need extra copies on-site.</li>
@@ -229,9 +206,8 @@ export default function Page() {
               </div>
 
               <div>
-                <h4 className="font-bold text-stone-900 text-base font-sans"> Accepted Payment Methods</h4>
-                <p className="mt-2 text-xs leading-relaxed text-stone-500">
-                  Government permit offices in Kathmandu and Pokhara expect payment in <strong>Nepalese rupees, cash only</strong>. Credit and debit cards are not accepted, so plan to withdraw cash before your visit.
+                <h4 className="font-bold text-stone-900 text-base font-sans">Accepted Payment Methods</h4>
+                <p className="mt-2 text-xs leading-relaxed text-stone-500">Government permit offices in Kathmandu and Pokhara expect payment in <strong>Nepalese rupees, cash only</strong>. Credit and debit cards are not accepted, so plan to withdraw cash before your visit.
                 </p>
               </div>
             </div>
@@ -239,28 +215,25 @@ export default function Page() {
 
           {/* SECTION 4: DOCUMENTS REQUIRED */}
           <article id="documents" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Documents Required to Obtain Trekking Permits
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Documents Required to Obtain Trekking Permits
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Getting your paperwork ready before you arrive at the tourism office will save you time and an extra trip back. Bring the following:
+            <p className="text-stone-600 leading-relaxed text-sm">Getting your paperwork ready before you arrive at the tourism office will save you time and an extra trip back. Bring the following:
             </p>
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm"> Required Items Checklist</h4>
+                <h4 className="font-bold text-stone-950 text-sm">Required Items Checklist</h4>
                 <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1 mt-2">
-                  <li><strong>Original Passport:</strong> Required for identity verification.</li>
-                  <li><strong>Two Passport Photocopies:</strong> Used for the permit application forms.</li>
-                  <li><strong>Four Passport-size Photographs:</strong> With a plain white background.</li>
-                  <li><strong>Cash in Nepalese Rupees:</strong> To cover permit fees and any administrative charges.</li>
+                  <li><strong>Original Passport:</strong>Required for identity verification.</li>
+                  <li><strong>Two Passport Photocopies:</strong>Used for the permit application forms.</li>
+                  <li><strong>Four Passport-size Photographs:</strong>With a plain white background.</li>
+                  <li><strong>Cash in Nepalese Rupees:</strong>To cover permit fees and any administrative charges.</li>
                 </ul>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm"> Passport Spares During Trek</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Keep a few extra photocopies of your passport and visa with you during the trek itself. Some checkpoints and teahouses ask to record passport details for registration purposes, and having spares means you do not have to hand over your original document repeatedly.
+                <h4 className="font-bold text-stone-950 text-sm">Passport Spares During Trek</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">Keep a few extra photocopies of your passport and visa with you during the trek itself. Some checkpoints and teahouses ask to record passport details for registration purposes, and having spares means you do not have to hand over your original document repeatedly.
                 </p>
               </div>
             </div>
@@ -268,32 +241,27 @@ export default function Page() {
 
           {/* SECTION 5: WHERE TO OBTAIN */}
           <article id="where-to-obtain" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Where to Obtain Khopra Ridge Trek Permits
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Where to Obtain Khopra Ridge Trek Permits
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Permits for the Khopra Ridge Trek are issued through Nepal Tourism Board (NTB) offices. You have three main options:
+            <p className="text-stone-600 leading-relaxed text-sm">Permits for the Khopra Ridge Trek are issued through Nepal Tourism Board (NTB) offices. You have three main options:
             </p>
 
             <div className="space-y-4">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Nepal Tourism Board Office in Pokhara</h4>
-                <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
-                  Located at Damside, Pokhara. This office is the most convenient option for most Khopra Ridge trekkers, since Pokhara is the typical starting point. It is open daily from 9:00 AM to 3:00 PM. Arriving early in the day gives you a buffer in case of queues.
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base">Nepal Tourism Board Office in Pokhara</h4>
+                <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">Located at Damside, Pokhara. This office is the most convenient option for most Khopra Ridge trekkers, since Pokhara is the typical starting point. It is open daily from 9:00 AM to 3:00 PM. Arriving early in the day gives you a buffer in case of queues.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Nepal Tourism Board Office in Kathmandu</h4>
-                <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
-                  Located at Bhrikutimandap, Kathmandu. If you want to sort your permits before heading to Pokhara, this office keeps the same hours: 9:00 AM to 3:00 PM, daily.
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base">Nepal Tourism Board Office in Kathmandu</h4>
+                <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">Located at Bhrikutimandap, Kathmandu. If you want to sort your permits before heading to Pokhara, this office keeps the same hours: 9:00 AM to 3:00 PM, daily.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base"> Getting Permits Through a Trekking Agency</h4>
-                <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
-                  If you are booking through a registered trekking agency or guide service, they can arrange your ACAP permit on your behalf. This removes the office visit from your to-do list entirely.
+                <h4 className="font-bold text-stone-950 text-sm sm:text-base">Getting Permits Through a Trekking Agency</h4>
+                <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">If you are booking through a registered trekking agency or guide service, they can arrange your ACAP permit on your behalf. This removes the office visit from your to-do list entirely.
                 </p>
               </div>
             </div>
@@ -301,11 +269,9 @@ export default function Page() {
 
           {/* SECTION 6: APPLICATION PROCESS */}
           <article id="step-by-step" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Step-by-Step Permit Application Process
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Step-by-Step Permit Application Process
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Here is what the process looks like in practice for independent or self-applied permit applications:
+            <p className="text-stone-600 leading-relaxed text-sm">Here is what the process looks like in practice for independent or self-applied permit applications:
             </p>
 
             <div className="space-y-4">
@@ -341,39 +307,33 @@ export default function Page() {
 
           {/* SECTION 7: REGULATIONS */}
           <article id="regulations" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Trekking Regulations You Must Follow
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Trekking Regulations You Must Follow
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Holding a permit is only part of the picture. The Annapurna Conservation Area has rules in place to protect the environment and trekkers:
+            <p className="text-stone-600 leading-relaxed text-sm">Holding a permit is only part of the picture. The Annapurna Conservation Area has rules in place to protect the environment and trekkers:
             </p>
 
             <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-4">
-              <h4 className="font-bold text-stone-950 text-base">⚠️ Crucial Guide Requirements</h4>
-              <p className="text-xs text-stone-500 leading-relaxed">
-                As of April 2023, the government of Nepal mandates that <strong>all foreign trekkers in national parks and conservation areas, including the Annapurna region, must hire a licensed local guide</strong>. Trekking completely solo (independent without an agency-backed guide) is restricted under these rules. The policy aims to improve safety, reduce search-and-rescue incidents, and support local employment.
+              <h4 className="font-bold text-stone-950 text-base">Crucial Guide Requirements</h4>
+              <p className="text-xs text-stone-500 leading-relaxed">As of April 2023, the government of Nepal mandates that <strong>all foreign trekkers in national parks and conservation areas, including the Annapurna region, must hire a licensed local guide</strong>. Trekking completely solo (independent without an agency-backed guide) is restricted under these rules. The policy aims to improve safety, reduce search-and-rescue incidents, and support local employment.
               </p>
             </div>
 
             <div className="grid gap-6 md:grid-cols-3 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm"> Leave No Trace</h4>
-                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
-                  Pack out all non-biodegradable waste — do not burn or bury plastic. Avoid using non-biodegradable soaps or detergents near water sources.
+                <h4 className="font-bold text-stone-950 text-sm">Leave No Trace</h4>
+                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">Pack out all non-biodegradable waste — do not burn or bury plastic. Avoid using non-biodegradable soaps or detergents near water sources.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm font-sans font-sans"> Drone Regulations</h4>
-                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
-                  Flying drones within the ACAP requires prior approval from both the Civil Aviation Authority of Nepal (CAAN) and ACAP authorities. Unauthorized drone use can result in fines and confiscation.
+                <h4 className="font-bold text-stone-950 text-sm font-sans font-sans">Drone Regulations</h4>
+                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">Flying drones within the ACAP requires prior approval from both the Civil Aviation Authority of Nepal (CAAN) and ACAP authorities. Unauthorized drone use can result in fines and confiscation.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h5 className="font-bold text-stone-950 text-sm"> Campfire Rules</h5>
-                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">
-                  Open fires for cooking or warmth are restricted in many parts of the conservation area to protect forest cover. Stick to teahouses or gas/liquid fuel stoves.
+                <h5 className="font-bold text-stone-950 text-sm">Campfire Rules</h5>
+                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">Open fires for cooking or warmth are restricted in many parts of the conservation area to protect forest cover. Stick to teahouses or gas/liquid fuel stoves.
                 </p>
               </div>
             </div>
@@ -381,33 +341,29 @@ export default function Page() {
 
           {/* SECTION 8: CHECKPOINTS */}
           <article id="checkpoints" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Permit Checkpoints on the Khopra Ridge Trek
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Permit Checkpoints on the Khopra Ridge Trek
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Checkpoints are typically positioned at key junctions along the route — often near larger villages such as Ghandruk, Tadapani, and Ghorepani.
+            <p className="text-stone-600 leading-relaxed text-sm">Checkpoints are typically positioned at key junctions along the route — often near larger villages such as Ghandruk, Tadapani, and Ghorepani.
             </p>
 
             <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-3">
-              <h4 className="font-bold text-stone-950 text-base"> Checkpoint Verification Procedures</h4>
-              <p className="text-xs text-stone-500 leading-relaxed">
-                At each checkpoint, officials will record your ACAP permit details, intended destination, and guide information against their registers. This is a critical safety practice that ensures rescue teams can track your movements in case of an emergency (such as altitude sickness or bad weather).
+              <h4 className="font-bold text-stone-950 text-base">Checkpoint Verification Procedures</h4>
+              <p className="text-xs text-stone-500 leading-relaxed">At each checkpoint, officials will record your ACAP permit details, intended destination, and guide information against their registers. This is a critical safety practice that ensures rescue teams can track your movements in case of an emergency (such as altitude sickness or bad weather).
               </p>
               <p className="text-xs text-stone-500 leading-relaxed">
-                <strong>What if I lose my permit?</strong> If your permit is lost or damaged mid-trek, inform the nearest checkpoint or ACAP office immediately. Keeping a digital backup photo of your permit on your phone will help staff verify your details while a replacement is processed.
+                <strong>What if I lose my permit?</strong>If your permit is lost or damaged mid-trek, inform the nearest checkpoint or ACAP office immediately. Keeping a digital backup photo of your permit on your phone will help staff verify your details while a replacement is processed.
               </p>
             </div>
           </article>
 
           {/* SECTION 9: FINES & COMMON MISTAKES */}
           <article id="fines-errors" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Fines, Penalties, and Common Mistakes
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Fines, Penalties, and Common Mistakes
             </h2>
 
             <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
               <div>
-                <h4 className="font-bold text-stone-900 text-base">⚠️ Common Mistakes Checklist</h4>
+                <h4 className="font-bold text-stone-900 text-base">Common Mistakes Checklist</h4>
                 <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1.5 mt-2">
                   <li>Forgetting passport photocopies (bring at least two).</li>
                   <li>Arriving without enough cash for permit fees.</li>
@@ -418,9 +374,8 @@ export default function Page() {
               </div>
 
               <div>
-                <h4 className="font-bold text-stone-900 text-base font-sans font-sans"> Penalties &amp; Fines</h4>
-                <p className="mt-2 text-xs leading-relaxed text-stone-500">
-                  Trekking without a valid ACAP permit can result in on-the-spot fines, and you may be required to return to the nearest tourism office or checkpoint to obtain a permit before continuing. This causes a significant delay and double fees.
+                <h4 className="font-bold text-stone-900 text-base font-sans font-sans">Penalties &amp; Fines</h4>
+                <p className="mt-2 text-xs leading-relaxed text-stone-500">Trekking without a valid ACAP permit can result in on-the-spot fines, and you may be required to return to the nearest tourism office or checkpoint to obtain a permit before continuing. This causes a significant delay and double fees.
                 </p>
               </div>
             </div>
@@ -428,8 +383,7 @@ export default function Page() {
 
           {/* SECTION 10: FAQS */}
           <article id="faq" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Frequently Asked Questions About Permits &amp; Regulations
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Frequently Asked Questions About Permits &amp; Regulations
             </h2>
 
             <div className="space-y-4 mt-6">
@@ -496,11 +450,9 @@ export default function Page() {
           {/* SECTION 11: CONCLUSION */}
           <article className="space-y-6">
             <h2 className="text-2xl font-bold text-stone-950 font-sans">Conclusion</h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Sorting out permits for the Khopra Ridge Trek doesn&apos;t need to be complicated once you know what&apos;s required: an ACAP permit, a handful of documents, and a short visit to the Nepal Tourism Board office in Pokhara or Kathmandu. From there, the regulations you&apos;ll encounter on the trail — checkpoint registration, environmental rules, and guide requirements — exist to keep both the conservation area and trekkers themselves protected.
+            <p className="text-stone-600 leading-relaxed text-sm">Sorting out permits for the Khopra Ridge Trek doesn&apos;t need to be complicated once you know what&apos;s required: an ACAP permit, a handful of documents, and a short visit to the Nepal Tourism Board office in Pokhara or Kathmandu. From there, the regulations you&apos;ll encounter on the trail — checkpoint registration, environmental rules, and guide requirements — exist to keep both the conservation area and trekkers themselves protected.
             </p>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Getting this part right before you set off means one less thing to think about once you&apos;re on the trail, leaving you free to focus on the ridge views, the village teahouses, and the trek itself.
+            <p className="text-stone-600 leading-relaxed text-sm">Getting this part right before you set off means one less thing to think about once you&apos;re on the trail, leaving you free to focus on the ridge views, the village teahouses, and the trek itself.
             </p>
           </article>
 
@@ -509,19 +461,17 @@ export default function Page() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
               <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Need help arranging your permits and trek logistics?</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">
-                Our team can take care of your ACAP permit, connect you with a licensed local guide, and help plan your full Khopra Ridge itinerary — so you can focus on the trek, not the paperwork.
+              <p className="text-stone-300 text-sm leading-relaxed">Our team can take care of your ACAP permit, connect you with a licensed local guide, and help plan your full Khopra Ridge itinerary — so you can focus on the trek, not the paperwork.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
                   href="/contact"
                   className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
-                >
-                  Get in touch to start planning &rarr;
+                >Get in touch to start planning &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span> Based in Pokhara, Nepal</span>
-                  <span> Free cancellation &amp; flexible changes</span>
+                  <span>Based in Pokhara, Nepal</span>
+                  <span>Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>
@@ -529,11 +479,10 @@ export default function Page() {
 
           {/* EEAT Author Verification Banner */}
           <div className="p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-            <span className="text-2xl mt-0.5">🏔️</span>
+            <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm font-sans">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-                This guide is compiled and vetted by licensed Pokhara-based guides and conservation area organizers. We monitor regulations and government policy updates weekly to ensure our permit resources remain the most accurate and up-to-date.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is compiled and vetted by licensed Pokhara-based guides and conservation area organizers. We monitor regulations and government policy updates weekly to ensure our permit resources remain the most accurate and up-to-date.
               </p>
             </div>
           </div>

@@ -42,22 +42,18 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Travel Logistics</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Starting the Khopra Trek from Pokhara
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Starting the Khopra Trek from Pokhara
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Your comprehensive transit guide. Learn how to navigate transport options, trailheads, and departure schedules from Pokhara Lakeside.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Your comprehensive transit guide. Learn how to navigate transport options, trailheads, and departure schedules from Pokhara Lakeside.
           </p>
         </div>
 
         {/* Introduction */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-stone-950">Pokhara: The Gateway to Khopra Ridge</h2>
-          <p>
-            Pokhara is the perfect launchpad for the Khopra Ridge Trek. Sitting at an altitude of just 820 meters, Lakeside Pokhara allows you to purchase any last-minute gear, finalize permits, meet your guide, and get a solid night of rest before heading into the Annapurna foothills.
+          <p>Pokhara is the perfect launchpad for the Khopra Ridge Trek. Sitting at an altitude of just 820 meters, Lakeside Pokhara allows you to purchase any last-minute gear, finalize permits, meet your guide, and get a solid night of rest before heading into the Annapurna foothills.
           </p>
-          <p>
-            Unlike treks in the Everest region which require flights to Lukla, the Khopra Trek is entirely accessible by road. This makes it highly flexible, less prone to flight delay cancellations, and significantly cheaper to coordinate.
+          <p>Unlike treks in the Everest region which require flights to Lukla, the Khopra Trek is entirely accessible by road. This makes it highly flexible, less prone to flight delay cancellations, and significantly cheaper to coordinate.
           </p>
         </div>
 
@@ -85,18 +81,17 @@ export default function Page() {
         {/* Trailheads Guide */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h3 className="text-xl font-bold text-stone-950">Which Trailhead Should You Choose?</h3>
-          <p>
-            Depending on your itinerary pacing, you have a few options for where to put boots to the ground:
+          <p>Depending on your itinerary pacing, you have a few options for where to put boots to the ground:
           </p>
           <ul className="list-disc pl-6 space-y-3">
             <li>
-              <strong>Kimche (via Ghandruk):</strong> The most popular starting point. You drive from Pokhara through Nayapul and Birethanti, climbing up the Modi Khola valley to Kimche. From Kimche, it is a pleasant 1-hour stone step hike to Ghandruk village.
+              <strong>Kimche (via Ghandruk):</strong>The most popular starting point. You drive from Pokhara through Nayapul and Birethanti, climbing up the Modi Khola valley to Kimche. From Kimche, it is a pleasant 1-hour stone step hike to Ghandruk village.
             </li>
             <li>
-              <strong>Nayapul / Syauli Bazaar:</strong> Starting lower down gives you a longer walk along the river. Great if you want to stretch your legs immediately, but adds extra vertical meters to your first day.
+              <strong>Nayapul / Syauli Bazaar:</strong>Starting lower down gives you a longer walk along the river. Great if you want to stretch your legs immediately, but adds extra vertical meters to your first day.
             </li>
             <li>
-              <strong>Naya Pul (via Ghorepani / Ulleri):</strong> Ideal if you want to tackle the trek counter-clockwise. You start with the famous 3,200 stone stairs of Ulleri, hike to Ghorepani first, and then make a loop to Khopra Ridge.
+              <strong>Naya Pul (via Ghorepani / Ulleri):</strong>Ideal if you want to tackle the trek counter-clockwise. You start with the famous 3,200 stone stairs of Ulleri, hike to Ghorepani first, and then make a loop to Khopra Ridge.
             </li>
           </ul>
         </div>
@@ -114,11 +109,10 @@ export default function Page() {
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -127,14 +121,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Simplify Your Pokhara Logistics</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              We coordinate private, air-conditioned jeeps, professional guides, and pre-booked permits. We will pick you up directly from your Pokhara Lakeside hotel.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">We coordinate private, air-conditioned jeeps, professional guides, and pre-booked permits. We will pick you up directly from your Pokhara Lakeside hotel.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Request booking
+            >Request booking
             </Link>
           </div>
         </div>

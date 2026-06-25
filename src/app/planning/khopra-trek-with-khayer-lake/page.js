@@ -43,22 +43,18 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Route Configurations</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Khopra Ridge Trek with Khayer Lake
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Khopra Ridge Trek with Khayer Lake
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Discover the complete guide to incorporating the ultimate objective of this route—the sacred alpine waters of Khayer Lake (4,660m)—into your trekking plans.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Discover the complete guide to incorporating the ultimate objective of this route—the sacred alpine waters of Khayer Lake (4,660m)—into your trekking plans.
           </p>
         </div>
 
         {/* Introduction */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-stone-950">The Ultimate Side-Trip Destination</h2>
-          <p>
-            While some rapid routes skip it to save time, hiking the Khopra Trek without visiting {"Khayer Lake"} means missing the core visual and spiritual highlight of the entire journey. Located directly beneath the massive south face of Annapurna South, this turquoise glacial lake offers an experience of wilderness solitude that is unmatched anywhere else in the Annapurna Conservation Area.
+          <p>While some rapid routes skip it to save time, hiking the Khopra Trek without visiting {"Khayer Lake"} means missing the core visual and spiritual highlight of the entire journey. Located directly beneath the massive south face of Annapurna South, this turquoise glacial lake offers an experience of wilderness solitude that is unmatched anywhere else in the Annapurna Conservation Area.
           </p>
-          <p>
-            The trek up is physically demanding and requires proper preparation, a clear weather window, and an early start. Below is a detailed analysis of what makes this route variation unique and how to tackle it safely.
+          <p>The trek up is physically demanding and requires proper preparation, a clear weather window, and an early start. Below is a detailed analysis of what makes this route variation unique and how to tackle it safely.
           </p>
         </div>
 
@@ -140,18 +136,16 @@ export default function Page() {
         {/* Safety Warning */}
         <div className="mt-16 p-8 bg-emerald-50 border border-emerald-200 rounded-3xl text-emerald-800 space-y-4">
           <h3 className="text-lg font-bold">Altitude & Safety Information</h3>
-          <p className="text-xs leading-relaxed font-medium">
-            Climbing 1,000 meters in a single day is a major physical endeavor. There are no tea houses or shelters between Khopra Ridge and Khayer Lake. You must carry sufficient water (at least 3 liters), high-energy snacks, windproof and waterproof layers, and a headlamp. Trekking with a licensed guide is highly recommended on this section, as trails can become obscured by fog and snow.
+          <p className="text-xs leading-relaxed font-medium">Climbing 1,000 meters in a single day is a major physical endeavor. There are no tea houses or shelters between Khopra Ridge and Khayer Lake. You must carry sufficient water (at least 3 liters), high-energy snacks, windproof and waterproof layers, and a headlamp. Trekking with a licensed guide is highly recommended on this section, as trails can become obscured by fog and snow.
           </p>
         </div>
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -160,14 +154,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Book the Ultimate Khayer Lake Route</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              Our guides carry pulse oximeters, emergency satellite communicators, and custom gear bags to ensure a safe and successful ascent to Khayer Lake.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">Our guides carry pulse oximeters, emergency satellite communicators, and custom gear bags to ensure a safe and successful ascent to Khayer Lake.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Book guided trek
+            >Book guided trek
             </Link>
           </div>
         </div>

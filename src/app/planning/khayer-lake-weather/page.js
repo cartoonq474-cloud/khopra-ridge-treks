@@ -41,22 +41,18 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Alpine Climate</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Khayer Lake Weather & Seasonal Visibility
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Khayer Lake Weather & Seasonal Visibility
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Plan your alpine climb. A complete guide to freezing temperatures, visibility cycles, and monsoon fog patterns at the 4,660m glacial lake.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Plan your alpine climb. A complete guide to freezing temperatures, visibility cycles, and monsoon fog patterns at the 4,660m glacial lake.
           </p>
         </div>
 
         {/* Overview */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-stone-950">A Harsh High-Altitude Climate</h2>
-          <p>
-            Sitting at 4,660 meters (15,288 feet) at the immediate base of Annapurna South, Khayer Lake experiences a high-alpine climate. The weather here is significantly colder, windier, and more unpredictable than at the overnight ridge lodge (3,660m).
+          <p>Sitting at 4,660 meters (15,288 feet) at the immediate base of Annapurna South, Khayer Lake experiences a high-alpine climate. The weather here is significantly colder, windier, and more unpredictable than at the overnight ridge lodge (3,660m).
           </p>
-          <p>
-            Because there are no settlements, shops, or escape shelters between the ridge and the lake, check the local weather forecast and start early in the morning to avoid high afternoon winds and sudden whiteouts.
+          <p>Because there are no settlements, shops, or escape shelters between the ridge and the lake, check the local weather forecast and start early in the morning to avoid high afternoon winds and sudden whiteouts.
           </p>
         </div>
 
@@ -76,11 +72,10 @@ export default function Page() {
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -89,14 +84,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Plan a Guided Summit Day</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              Our guides study real-time weather forecasts and carry satellite communicators to ensure a safe, successful summit day at Khayer Lake.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">Our guides study real-time weather forecasts and carry satellite communicators to ensure a safe, successful summit day at Khayer Lake.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Inquire now
+            >Inquire now
             </Link>
           </div>
         </div>

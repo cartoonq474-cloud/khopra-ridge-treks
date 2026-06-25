@@ -33,22 +33,18 @@ export default function Page() {
         {/* Header */}
         <div className="border-b border-stone-200 pb-8">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">High Altitude Ecology</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Alpine Meadows of Khopra Danda
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Alpine Meadows of Khopra Danda
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Explore the high pastures. Learn about the sheep grazing cycles, soil ecosystems, and dwarf flora adaptations on the ridge.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Explore the high pastures. Learn about the sheep grazing cycles, soil ecosystems, and dwarf flora adaptations on the ridge.
           </p>
         </div>
 
         {/* Overview */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-stone-950">The Fragile Grasslands of the Sky</h2>
-          <p>
-            As you ascend past the tree line at Chhistibung (approx. 3,000m), the dense oak canopy gives way to open, rolling grasslands. Known locally as **Kharkas**, these high-altitude alpine meadows form a vital ecological bridge between the dense forests below and the bare rock of the high peaks.
+          <p>As you ascend past the tree line at Chhistibung (approx. 3,000m), the dense oak canopy gives way to open, rolling grasslands. Known locally as **Kharkas**, these high-altitude alpine meadows form a vital ecological bridge between the dense forests below and the bare rock of the high peaks.
           </p>
-          <p>
-            These grasslands have supported traditional grazing practices for generations and represent an essential asset for the regional farming economy.
+          <p>These grasslands have supported traditional grazing practices for generations and represent an essential asset for the regional farming economy.
           </p>
         </div>
 
@@ -67,11 +63,10 @@ export default function Page() {
 
         {/* EEAT Footnote */}
         <div className="mt-12 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
+          <span className="text-2xl mt-0.5"></span>
           <div>
             <h4 className="font-bold text-stone-900 text-sm">First-Hand Expert Insight</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
+            <p className="mt-2 text-xs text-stone-600 leading-relaxed">This guide is maintained and reviewed by our licensed local trekking guides operating out of Pokhara. We regularly update routes, weather advisories, and community lodge statuses based on active trail checks.
             </p>
           </div>
         </div>
@@ -80,14 +75,12 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Experience the High Pastures</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">
-              Trek with us to learn about traditional shepherd culture, local wildlife habitats, and alpine geography firsthand.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">Trek with us to learn about traditional shepherd culture, local wildlife habitats, and alpine geography firsthand.
             </p>
             <Link
               href="/#book"
               className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold hover:bg-emerald-500 transition-all text-white"
-            >
-              Inquire now
+            >Inquire now
             </Link>
           </div>
         </div>

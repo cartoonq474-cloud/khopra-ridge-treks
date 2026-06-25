@@ -13,14 +13,11 @@ export default function Page() {
       <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
-            🏕️ High Forest Pasture Hub
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">High Forest Pasture Hub
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
-            Dobato Location Hub &amp; Guide: Routes, Elevation, Accommodation &amp; Viewpoints
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Dobato Location Hub &amp; Guide: Routes, Elevation, Accommodation &amp; Viewpoints
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">
-            Deep inside the Annapurna Conservation Area, above the treeline where rhododendron forests give way to open ridges and unbroken Himalayan sky, sits Dobato — one of the most strategically important overnight stops on the Khopra Ridge Trek.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Deep inside the Annapurna Conservation Area, above the treeline where rhododendron forests give way to open ridges and unbroken Himalayan sky, sits Dobato — one of the most strategically important overnight stops on the Khopra Ridge Trek.
           </p>
 
           {/* Quick Metrics Grid */}
@@ -54,53 +51,39 @@ export default function Page() {
         {/* STICKY TABLE OF CONTENTS SIDEBAR */}
         <aside className="lg:col-span-1">
           <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
-            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">
-              Table of Contents
+            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">Table of Contents
             </h3>
             <nav className="flex flex-col gap-1 text-sm">
-              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Quick Snapshot
+              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Quick Snapshot
               </a>
-              <a href="#where-is-dobato" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Where is Dobato?
+              <a href="#where-is-dobato" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Where is Dobato?
               </a>
-              <a href="#why-stay-overnight" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Why Stay Overnight?
+              <a href="#why-stay-overnight" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Why Stay Overnight?
               </a>
-              <a href="#elevation-specs" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Elevation &amp; Difficulty
+              <a href="#elevation-specs" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Elevation &amp; Difficulty
               </a>
-              <a href="#trekking-routes" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Trekking Routes
+              <a href="#trekking-routes" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Trekking Routes
               </a>
-              <a href="#trail-connections" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Trail Connections
+              <a href="#trail-connections" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Trail Connections
               </a>
-              <a href="#muldai-viewpoint" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Muldai Viewpoint
+              <a href="#muldai-viewpoint" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Muldai Viewpoint
               </a>
-              <a href="#accommodation-facilities" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Accommodation &amp; Food
+              <a href="#accommodation-facilities" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Accommodation &amp; Food
               </a>
-              <a href="#best-time" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Best Time to Visit
+              <a href="#best-time" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Best Time to Visit
               </a>
-              <a href="#itineraries" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Sample Itineraries
+              <a href="#itineraries" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Sample Itineraries
               </a>
-              <a href="#trekking-tips" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Essential Tips
+              <a href="#trekking-tips" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Essential Tips
               </a>
-              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                Frequently Asked Qs
+              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Frequently Asked Qs
               </a>
             </nav>
             <div className="pt-4 border-t border-stone-100">
               <a 
                 href="#booking"
                 className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
-              >
-                Inquire &amp; Book
+              >Inquire &amp; Book
               </a>
             </div>
           </div>
@@ -110,14 +93,11 @@ export default function Page() {
         <main className="lg:col-span-3 space-y-16">
           {/* SECTION 1: OVERVIEW */}
           <article id="overview" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Strategically Important Overnight Stop
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Strategically Important Overnight Stop
             </h2>
-            <p className="text-stone-600 leading-relaxed text-base">
-              At approximately 3,432 metres, Dobato is not a large village. There are no busy markets, no crowded teahouses lined wall to wall with trekkers, and no long queues for sunrise viewpoints. What Dobato offers instead is something harder to find in Nepal&apos;s increasingly popular trekking corridors: a quiet high-altitude base from which serious trekkers can access Muldai Viewpoint, connect to Khopra Ridge, and move efficiently between Tadapani, Bayeli Kharka, Chhistibung, Ghorepani, and Swanta Village.
+            <p className="text-stone-600 leading-relaxed text-base">At approximately 3,432 metres, Dobato is not a large village. There are no busy markets, no crowded teahouses lined wall to wall with trekkers, and no long queues for sunrise viewpoints. What Dobato offers instead is something harder to find in Nepal&apos;s increasingly popular trekking corridors: a quiet high-altitude base from which serious trekkers can access Muldai Viewpoint, connect to Khopra Ridge, and move efficiently between Tadapani, Bayeli Kharka, Chhistibung, Ghorepani, and Swanta Village.
             </p>
-            <p className="text-stone-600 leading-relaxed text-base">
-              This page is your complete Dobato location guide — covering elevation, route connections, accommodation options, trekking logistics, and everything you need to plan your visit.
+            <p className="text-stone-600 leading-relaxed text-base">This page is your complete Dobato location guide — covering elevation, route connections, accommodation options, trekking logistics, and everything you need to plan your visit.
             </p>
 
             <div className="overflow-x-auto">
@@ -164,35 +144,29 @@ export default function Page() {
 
           {/* SECTION 2: WHERE IS DOBATO */}
           <article id="where-is-dobato" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Where Is Dobato?
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Where Is Dobato?
             </h2>
 
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-bold text-stone-900">Dobato&apos;s Location in the Annapurna Region</h3>
-                <p className="text-stone-600 leading-relaxed text-sm mt-2">
-                  Dobato sits on a high forest ridge in the Annapurna Conservation Area, positioned between the more familiar trekking hubs of Ghorepani to the northwest and Tadapani to the northeast. It lies within the zone that connects the classic Ghorepani–Poon Hill circuit to the less-travelled Khopra Ridge route, making it a natural junction for trekkers who want to explore deeper into the Annapurna sanctuary corridor without doubling back.
+                <p className="text-stone-600 leading-relaxed text-sm mt-2">Dobato sits on a high forest ridge in the Annapurna Conservation Area, positioned between the more familiar trekking hubs of Ghorepani to the northwest and Tadapani to the northeast. It lies within the zone that connects the classic Ghorepani–Poon Hill circuit to the less-travelled Khopra Ridge route, making it a natural junction for trekkers who want to explore deeper into the Annapurna sanctuary corridor without doubling back.
                 </p>
-                <p className="text-stone-600 leading-relaxed text-sm mt-2">
-                  Administratively, Dobato falls near the boundary of Myagdi and Kaski districts. Most trekkers pass through it as part of the Khopra Ridge Trek, often arriving from Tadapani to the east or departing toward Bayeli Kharka and Khopra Ridge to the west and south.
+                <p className="text-stone-600 leading-relaxed text-sm mt-2">Administratively, Dobato falls near the boundary of Myagdi and Kaski districts. Most trekkers pass through it as part of the Khopra Ridge Trek, often arriving from Tadapani to the east or departing toward Bayeli Kharka and Khopra Ridge to the west and south.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-xl font-bold text-stone-900">Dobato Elevation and Natural Setting</h3>
-                <p className="text-stone-600 leading-relaxed text-sm mt-2">
-                  Dobato sits at roughly 3,432 metres above sea level — high enough to feel the altitude on the ascent, but comfortable enough for most well-acclimatised trekkers to sleep without issue. The settlement is surrounded by dense rhododendron and oak forest, which in spring transforms the approach trail into corridors of crimson and pink bloom.
+                <p className="text-stone-600 leading-relaxed text-sm mt-2">Dobato sits at roughly 3,432 metres above sea level — high enough to feel the altitude on the ascent, but comfortable enough for most well-acclimatised trekkers to sleep without issue. The settlement is surrounded by dense rhododendron and oak forest, which in spring transforms the approach trail into corridors of crimson and pink bloom.
                 </p>
-                <p className="text-stone-600 leading-relaxed text-sm mt-2">
-                  The ridge setting means Dobato enjoys open sky above and forest shelter below, giving trekkers a rare combination: forest camping atmosphere at high elevation with clear access to mountain viewpoints above the treeline.
+                <p className="text-stone-600 leading-relaxed text-sm mt-2">The ridge setting means Dobato enjoys open sky above and forest shelter below, giving trekkers a rare combination: forest camping atmosphere at high elevation with clear access to mountain viewpoints above the treeline.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-xl font-bold text-stone-900">Why Dobato Is an Important Trekking Hub</h3>
-                <p className="text-stone-600 leading-relaxed text-sm mt-2">
-                  Unlike single-route waypoints, Dobato functions as a genuine trail junction. From here, trekkers can branch northeast toward Tadapani, descend west toward Bayeli Kharka, push further toward Khopra Ridge and Khayer Lake, or navigate toward Ghorepani and Swanta Village via alternative paths. This multi-directional connectivity is why Dobato matters — not just as a place to sleep, but as a planning node for several different trekking circuits in the Annapurna region.
+                <p className="text-stone-600 leading-relaxed text-sm mt-2">Unlike single-route waypoints, Dobato functions as a genuine trail junction. From here, trekkers can branch northeast toward Tadapani, descend west toward Bayeli Kharka, push further toward Khopra Ridge and Khayer Lake, or navigate toward Ghorepani and Swanta Village via alternative paths. This multi-directional connectivity is why Dobato matters — not just as a place to sleep, but as a planning node for several different trekking circuits in the Annapurna region.
                 </p>
               </div>
             </div>
@@ -200,36 +174,30 @@ export default function Page() {
 
           {/* SECTION 3: WHY STAY OVERNIGHT */}
           <article id="why-stay-overnight" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Why Stay Overnight in Dobato?
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Why Stay Overnight in Dobato?
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              An overnight stay here unlocks unique viewing and atmospheric experiences that day-trippers completely miss.
+            <p className="text-stone-600 leading-relaxed text-sm">An overnight stay here unlocks unique viewing and atmospheric experiences that day-trippers completely miss.
             </p>
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base"> Gateway to Muldai Viewpoint</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  The single strongest reason to spend a night in Dobato is the access it gives you to Muldai Viewpoint. Rising above Dobato at approximately 3,637 metres, Muldai Hill is one of the finest sunrise panorama points in the entire Annapurna region. From Dobato, the sunrise hike to Muldai takes roughly 45 minutes to an hour, meaning you can leave your lodge at 5:00 or 5:30 AM, reach the summit as first light touches Annapurna South and Machhapuchhre, and return for breakfast.
+                <h4 className="font-bold text-stone-950 text-base">Gateway to Muldai Viewpoint</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">The single strongest reason to spend a night in Dobato is the access it gives you to Muldai Viewpoint. Rising above Dobato at approximately 3,637 metres, Muldai Hill is one of the finest sunrise panorama points in the entire Annapurna region. From Dobato, the sunrise hike to Muldai takes roughly 45 minutes to an hour, meaning you can leave your lodge at 5:00 or 5:30 AM, reach the summit as first light touches Annapurna South and Machhapuchhre, and return for breakfast.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base"> A Quieter Alternative to Ghorepani</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Ghorepani is beautiful, but during peak season, the trail can feel more like a managed tourist route. Dobato offers a fundamentally different experience: trekker numbers are a fraction of those at Ghorepani, lodge accommodation is run by the local community rather than commercial operators, and the atmosphere is closer to what most people imagine when they picture trekking in Nepal.
+                <h4 className="font-bold text-stone-950 text-base">A Quieter Alternative to Ghorepani</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">Ghorepani is beautiful, but during peak season, the trail can feel more like a managed tourist route. Dobato offers a fundamentally different experience: trekker numbers are a fraction of those at Ghorepani, lodge accommodation is run by the local community rather than commercial operators, and the atmosphere is closer to what most people imagine when they picture trekking in Nepal.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base"> Forest Landscapes &amp; Scenery</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  The trail approach to Dobato is scenically rewarding, climbing through forest that shifts from rhododendron to mixed alpine vegetation as elevation increases. Once at Dobato itself, the views open up toward the western Annapurna range, offering a rare combination of forest atmosphere and mountain panorama.
+                <h4 className="font-bold text-stone-950 text-base">Forest Landscapes &amp; Scenery</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">The trail approach to Dobato is scenically rewarding, climbing through forest that shifts from rhododendron to mixed alpine vegetation as elevation increases. Once at Dobato itself, the views open up toward the western Annapurna range, offering a rare combination of forest atmosphere and mountain panorama.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base"> Community-Based Tourism</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Accommodation in Dobato operates under a community tourism model. The lodges here are locally owned and managed, meaning that the money you spend on your room and meals stays within the immediate community rather than flowing to outside operators.
+                <h4 className="font-bold text-stone-950 text-base">Community-Based Tourism</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">Accommodation in Dobato operates under a community tourism model. The lodges here are locally owned and managed, meaning that the money you spend on your room and meals stays within the immediate community rather than flowing to outside operators.
                 </p>
               </div>
             </div>
@@ -237,14 +205,11 @@ export default function Page() {
 
           {/* SECTION 4: ELEVATION & DIFFICULTY */}
           <article id="elevation-specs" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Dobato Elevation, Distance and Trekking Facts
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Dobato Elevation, Distance and Trekking Facts
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              At 3,432 metres, Dobato sits comfortably in the zone where altitude effects begin to be felt but rarely become a serious issue for trekkers with reasonable acclimatisation. Most people arrive at Dobato after at least two to three days of trekking at progressively higher elevations, which provides adequate preparation.
+            <p className="text-stone-600 leading-relaxed text-sm">At 3,432 metres, Dobato sits comfortably in the zone where altitude effects begin to be felt but rarely become a serious issue for trekkers with reasonable acclimatisation. Most people arrive at Dobato after at least two to three days of trekking at progressively higher elevations, which provides adequate preparation.
             </p>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              That said, the ascent from Tadapani (approximately 2,630 m) to Dobato involves an elevation gain of around 800 metres, which is a full day&apos;s climb. Trekkers who have not been moving at altitude for several days should ascend slowly, stay hydrated, and avoid overexerting on the final section of trail before Dobato. Muldai Viewpoint at approximately 3,637 metres adds another 200-metre climb above Dobato.
+            <p className="text-stone-600 leading-relaxed text-sm">That said, the ascent from Tadapani (approximately 2,630 m) to Dobato involves an elevation gain of around 800 metres, which is a full day&apos;s climb. Trekkers who have not been moving at altitude for several days should ascend slowly, stay hydrated, and avoid overexerting on the final section of trail before Dobato. Muldai Viewpoint at approximately 3,637 metres adds another 200-metre climb above Dobato.
             </p>
 
             <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
@@ -291,39 +256,33 @@ export default function Page() {
 
           {/* SECTION 5: TREKKING ROUTES */}
           <article id="trekking-routes" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Dobato Trekking Route Guide
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Dobato Trekking Route Guide
             </h2>
 
             <div className="space-y-6 text-stone-600 text-sm leading-relaxed">
               <div>
-                <h4 className="font-bold text-stone-900 text-base"> Trekking from Tadapani to Dobato</h4>
-                <p className="mt-1">
-                  The most common way to arrive at Dobato is from Tadapani, approaching from the east. The trail leaves Tadapani&apos;s cluster of lodges and climbs steadily through mixed rhododendron and oak forest, following a ridge line that gradually widens the views westward toward the Annapurna massif. The walk takes approximately five to six hours. An early start is recommended, particularly in spring and summer.
+                <h4 className="font-bold text-stone-900 text-base">Trekking from Tadapani to Dobato</h4>
+                <p className="mt-1">The most common way to arrive at Dobato is from Tadapani, approaching from the east. The trail leaves Tadapani&apos;s cluster of lodges and climbs steadily through mixed rhododendron and oak forest, following a ridge line that gradually widens the views westward toward the Annapurna massif. The walk takes approximately five to six hours. An early start is recommended, particularly in spring and summer.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base"> Dobato to Muldai Viewpoint Route</h4>
-                <p className="mt-1">
-                  The trail from Dobato to Muldai Viewpoint climbs directly up the ridge above the lodges. The path is clear and well-trodden, with a consistent ascent over approximately 200 metres of elevation gain. Walking time is 45 minutes to one hour depending on pace. Headtorches are essential for the sunrise experience.
+                <h4 className="font-bold text-stone-900 text-base">Dobato to Muldai Viewpoint Route</h4>
+                <p className="mt-1">The trail from Dobato to Muldai Viewpoint climbs directly up the ridge above the lodges. The path is clear and well-trodden, with a consistent ascent over approximately 200 metres of elevation gain. Walking time is 45 minutes to one hour depending on pace. Headtorches are essential for the sunrise experience.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base"> Dobato to Bayeli Kharka Route</h4>
-                <p className="mt-1">
-                  From Dobato, the trail toward Bayeli Kharka descends the western side of the ridge before following a trail through high-altitude pastoral terrain. Bayeli Kharka is a traditional grazing area and lodge stop that serves as an intermediate point between Dobato and Khopra Ridge. Walking time is three to four hours.
+                <h4 className="font-bold text-stone-900 text-base">Dobato to Bayeli Kharka Route</h4>
+                <p className="mt-1">From Dobato, the trail toward Bayeli Kharka descends the western side of the ridge before following a trail through high-altitude pastoral terrain. Bayeli Kharka is a traditional grazing area and lodge stop that serves as an intermediate point between Dobato and Khopra Ridge. Walking time is three to four hours.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base"> Dobato to Chhistibung Route</h4>
-                <p className="mt-1">
-                  Chhistibung lies below and to the south of Dobato, reached by a trail that descends through forest and pasture terrain. The walk takes approximately four to five hours. This route is used by trekkers on alternative circuits or those connecting to Swanta Village.
+                <h4 className="font-bold text-stone-900 text-base">Dobato to Chhistibung Route</h4>
+                <p className="mt-1">Chhistibung lies below and to the south of Dobato, reached by a trail that descends through forest and pasture terrain. The walk takes approximately four to five hours. This route is used by trekkers on alternative circuits or those connecting to Swanta Village.
                 </p>
               </div>
               <div>
-                <h4 className="font-bold text-stone-900 text-base">🏔️ Dobato to Khopra Ridge Route</h4>
-                <p className="mt-1">
-                  The continuation from Dobato to Khopra Ridge runs via Bayeli Kharka and takes approximately five to six hours of total walking. Khopra Ridge (Khopra Danda) at approximately 3,660 metres is the centrepiece of the Khopra Ridge Trek and offers its own stunning panoramic views across the Annapurna range.
+                <h4 className="font-bold text-stone-900 text-base">Dobato to Khopra Ridge Route</h4>
+                <p className="mt-1">The continuation from Dobato to Khopra Ridge runs via Bayeli Kharka and takes approximately five to six hours of total walking. Khopra Ridge (Khopra Danda) at approximately 3,660 metres is the centrepiece of the Khopra Ridge Trek and offers its own stunning panoramic views across the Annapurna range.
                 </p>
               </div>
             </div>
@@ -331,48 +290,43 @@ export default function Page() {
 
           {/* SECTION 6: TRAIL CONNECTIONS */}
           <article id="trail-connections" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Dobato Route Map and Trail Connections
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Dobato Route Map and Trail Connections
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Dobato sits at the intersection of several trekking routes. Understanding its connections helps you plan a circuit rather than an out-and-back route:
+            <p className="text-stone-600 leading-relaxed text-sm">Dobato sits at the intersection of several trekking routes. Understanding its connections helps you plan a circuit rather than an out-and-back route:
             </p>
 
             <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-4">
-              <h4 className="font-bold text-stone-950 text-base">🗺️ Main Route Connections Around Dobato</h4>
+              <h4 className="font-bold text-stone-950 text-base">Main Route Connections Around Dobato</h4>
               <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1">
-                <li><strong>East:</strong> Tadapani (5–6 hrs) — connects to the classic Ghorepani–Poon Hill circuit</li>
-                <li><strong>South:</strong> Chhistibung (4–5 hrs) — connects to Swanta Village and lower circuits</li>
-                <li><strong>West:</strong> Bayeli Kharka (3–4 hrs) — connects to Khopra Ridge and Khayer Lake</li>
-                <li><strong>Northwest:</strong> Ghorepani (5–7 hrs) — connects to Poon Hill circuit</li>
-                <li><strong>Above:</strong> Muldai Viewpoint (45 min–1 hr) — sunrise panorama hike</li>
+                <li><strong>East:</strong>Tadapani (5–6 hrs) — connects to the classic Ghorepani–Poon Hill circuit</li>
+                <li><strong>South:</strong>Chhistibung (4–5 hrs) — connects to Swanta Village and lower circuits</li>
+                <li><strong>West:</strong>Bayeli Kharka (3–4 hrs) — connects to Khopra Ridge and Khayer Lake</li>
+                <li><strong>Northwest:</strong>Ghorepani (5–7 hrs) — connects to Poon Hill circuit</li>
+                <li><strong>Above:</strong>Muldai Viewpoint (45 min–1 hr) — sunrise panorama hike</li>
               </ul>
             </div>
 
             <div className="bg-emerald-50 border border-emerald-200 p-6 rounded-2xl">
-              <h4 className="font-bold text-emerald-950 text-sm"> Suggested Route Planning Options</h4>
+              <h4 className="font-bold text-emerald-950 text-sm">Suggested Route Planning Options</h4>
               <ul className="list-disc pl-5 text-xs text-emerald-900 space-y-2 leading-relaxed mt-2">
-                <li><strong>Option A — Muldai Focus (Short Loop):</strong> Pokhara &rarr; Nayapul &rarr; Ghorepani &rarr; Tadapani &rarr; Dobato (overnight, sunrise at Muldai) &rarr; Chhistibung &rarr; Swanta &rarr; Nayapul &rarr; Pokhara</li>
-                <li><strong>Option B — Classic Khopra Ridge Circuit:</strong> Pokhara &rarr; Nayapul &rarr; Ghorepani &rarr; Tadapani &rarr; Dobato &rarr; Bayeli Kharka &rarr; Khopra Ridge &rarr; Swanta &rarr; Ghorepani &rarr; Nayapul &rarr; Pokhara</li>
-                <li><strong>Option C — Extended Khayer Lake Trek:</strong> As per Option B but continues from Khopra Ridge to Khayer Lake before descending.</li>
+                <li><strong>Option A — Muldai Focus (Short Loop):</strong>Pokhara &rarr; Nayapul &rarr; Ghorepani &rarr; Tadapani &rarr; Dobato (overnight, sunrise at Muldai) &rarr; Chhistibung &rarr; Swanta &rarr; Nayapul &rarr; Pokhara</li>
+                <li><strong>Option B — Classic Khopra Ridge Circuit:</strong>Pokhara &rarr; Nayapul &rarr; Ghorepani &rarr; Tadapani &rarr; Dobato &rarr; Bayeli Kharka &rarr; Khopra Ridge &rarr; Swanta &rarr; Ghorepani &rarr; Nayapul &rarr; Pokhara</li>
+                <li><strong>Option C — Extended Khayer Lake Trek:</strong>As per Option B but continues from Khopra Ridge to Khayer Lake before descending.</li>
               </ul>
             </div>
           </article>
 
           {/* SECTION 7: MULDAI VIEWPOINT */}
           <article id="muldai-viewpoint" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Muldai Viewpoint from Dobato
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Muldai Viewpoint from Dobato
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Muldai Viewpoint sits at approximately 3,637 metres on the ridge directly above Dobato, and it is the primary reason most trekkers make the effort to reach and stay at Dobato overnight. The views from Muldai are exceptional by any standard — wide, unobstructed, and positioned directly opposite some of the highest peaks in the Annapurna and Dhaulagiri ranges.
+            <p className="text-stone-600 leading-relaxed text-sm">Muldai Viewpoint sits at approximately 3,637 metres on the ridge directly above Dobato, and it is the primary reason most trekkers make the effort to reach and stay at Dobato overnight. The views from Muldai are exceptional by any standard — wide, unobstructed, and positioned directly opposite some of the highest peaks in the Annapurna and Dhaulagiri ranges.
             </p>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              What makes Muldai especially valuable is its relative obscurity. While Poon Hill near Ghorepani receives hundreds of trekkers every morning during peak season, Muldai can offer an equally spectacular or superior panorama to a fraction of the crowd.
+            <p className="text-stone-600 leading-relaxed text-sm">What makes Muldai especially valuable is its relative obscurity. While Poon Hill near Ghorepani receives hundreds of trekkers every morning during peak season, Muldai can offer an equally spectacular or superior panorama to a fraction of the crowd.
             </p>
 
             <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-              <h4 className="font-bold text-stone-950 text-base">🏔️ Peaks Visible from Muldai</h4>
+              <h4 className="font-bold text-stone-950 text-base">Peaks Visible from Muldai</h4>
               <ul className="grid grid-cols-2 md:grid-cols-3 gap-2 text-xs text-stone-500 mt-2">
                 <li><strong>Annapurna South</strong> (7,219 m)</li>
                 <li><strong>Machhapuchhre</strong> (6,993 m)</li>
@@ -424,24 +378,20 @@ export default function Page() {
 
           {/* SECTION 8: ACCOMMODATION & FOOD */}
           <article id="accommodation-facilities" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Accommodation and Facilities in Dobato
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Accommodation and Facilities in Dobato
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Accommodation in Dobato is modest, clean, and locally operated. The lodges here follow the classic Himalayan tea house model.
+            <p className="text-stone-600 leading-relaxed text-sm">Accommodation in Dobato is modest, clean, and locally operated. The lodges here follow the classic Himalayan tea house model.
             </p>
 
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base"> Community Lodges &amp; Dining</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Rooms feature twin single beds with foam mattresses and heavy blankets (bring a sleeping bag liner for extra warmth). Menus serve standard Himalayan dishes: dal bhat, noodle soups, fried rice, and simple egg breakfast items. Ingredients are transported from below, so fresh items are limited.
+                <h4 className="font-bold text-stone-950 text-base">Community Lodges &amp; Dining</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">Rooms feature twin single beds with foam mattresses and heavy blankets (bring a sleeping bag liner for extra warmth). Menus serve standard Himalayan dishes: dal bhat, noodle soups, fried rice, and simple egg breakfast items. Ingredients are transported from below, so fresh items are limited.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-base"> Power, Bathrooms &amp; Comfort</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">
-                  Solar panels supply electricity for device charging in the dining area. Bring a power bank. Bathroom facilities are shared (basic squat or sit-toilets). Solar or gas hot water is sometimes available for a small fee. Prepare for cold nights as temperatures drop sharply after sunset.
+                <h4 className="font-bold text-stone-950 text-base">Power, Bathrooms &amp; Comfort</h4>
+                <p className="text-xs text-stone-500 leading-relaxed">Solar panels supply electricity for device charging in the dining area. Bring a power bank. Bathroom facilities are shared (basic squat or sit-toilets). Solar or gas hot water is sometimes available for a small fee. Prepare for cold nights as temperatures drop sharply after sunset.
                 </p>
               </div>
             </div>
@@ -449,36 +399,31 @@ export default function Page() {
 
           {/* SECTION 9: BEST TIME */}
           <article id="best-time" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Weather and Best Time to Visit Dobato
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Weather and Best Time to Visit Dobato
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-stone-600 text-sm">
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm"> Spring (Mar–May)</h4>
-                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">
-                  Rhododendron forests bloom in crimson and pink. Pleasant day walking temperatures, morning views are generally excellent.
+                <h4 className="font-bold text-stone-950 text-sm">Spring (Mar–May)</h4>
+                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">Rhododendron forests bloom in crimson and pink. Pleasant day walking temperatures, morning views are generally excellent.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm"> Autumn (Sep–Nov)</h4>
-                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">
-                  Best post-monsoon visibility. Skies are crisp, providing sharp sunrise landscapes. Stable temperatures and trail conditions.
+                <h4 className="font-bold text-stone-950 text-sm">Autumn (Sep–Nov)</h4>
+                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">Best post-monsoon visibility. Skies are crisp, providing sharp sunrise landscapes. Stable temperatures and trail conditions.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h5 className="font-bold text-stone-950 text-sm">❄️ Winter (Dec–Feb)</h5>
-                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">
-                  Snow builds up on the ridge, making the Muldai walk challenging. Night temps drop below freezing. Quietest trails.
+                <h5 className="font-bold text-stone-950 text-sm">Winter (Dec–Feb)</h5>
+                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">Snow builds up on the ridge, making the Muldai walk challenging. Night temps drop below freezing. Quietest trails.
                 </p>
               </div>
 
               <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h5 className="font-bold text-stone-950 text-sm">🌧️ Monsoon (Jun–Aug)</h5>
-                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">
-                  Heavy rain and mud. Trails become slippery and leeches are common. Views are frequently obscured by thick clouds.
+                <h5 className="font-bold text-stone-950 text-sm">Monsoon (Jun–Aug)</h5>
+                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed">Heavy rain and mud. Trails become slippery and leeches are common. Views are frequently obscured by thick clouds.
                 </p>
               </div>
             </div>
@@ -486,16 +431,14 @@ export default function Page() {
 
           {/* SECTION 10: SAMPLE ITINERARIES */}
           <article id="itineraries" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Sample Dobato Trek Itineraries
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Sample Dobato Trek Itineraries
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Depending on your time and experience levels, Dobato can be structured into multiple routes:
+            <p className="text-stone-600 leading-relaxed text-sm">Depending on your time and experience levels, Dobato can be structured into multiple routes:
             </p>
 
             <div className="space-y-4">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm"> Option 1: Classic Khopra Ridge Trek (8–10 Days)</h4>
+                <h4 className="font-bold text-stone-950 text-sm">Option 1: Classic Khopra Ridge Trek (8–10 Days)</h4>
                 <ul className="list-disc pl-5 text-[10px] text-stone-500 space-y-1 mt-2">
                   <li>Day 1: Pokhara &rarr; Nayapul &rarr; Tikhedhunga</li>
                   <li>Day 2: Tikhedhunga &rarr; Ghorepani</li>
@@ -509,7 +452,7 @@ export default function Page() {
               </div>
 
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm"> Option 2: Short Muldai Loop (5–6 Days)</h4>
+                <h4 className="font-bold text-stone-950 text-sm">Option 2: Short Muldai Loop (5–6 Days)</h4>
                 <ul className="list-disc pl-5 text-[10px] text-stone-500 space-y-1 mt-2">
                   <li>Day 1: Pokhara &rarr; Nayapul &rarr; Tikhedhunga</li>
                   <li>Day 2: Tikhedhunga &rarr; Ghorepani</li>
@@ -524,13 +467,12 @@ export default function Page() {
 
           {/* SECTION 11: ESSENTIAL TIPS */}
           <article id="trekking-tips" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Essential Trekking Tips for Dobato
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Essential Trekking Tips for Dobato
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-stone-600 text-sm">
               <div>
-                <h4 className="font-bold text-stone-900 text-base"> Packing Essentials</h4>
+                <h4 className="font-bold text-stone-900 text-base">Packing Essentials</h4>
                 <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1 mt-2">
                   <li>Warm down jacket &amp; thermal base layers.</li>
                   <li>Ankle-support hiking boots.</li>
@@ -541,27 +483,25 @@ export default function Page() {
               </div>
 
               <div>
-                <h4 className="font-bold text-stone-900 text-base font-sans">⛰️ Altitude &amp; Safety</h4>
-                <p className="mt-2 text-xs leading-relaxed text-stone-500">
-                  Ascend gradually. Dobato sits at 3,432m, so monitor headache or fatigue. Drink 2–3 litres of water daily, avoid alcohol, and descend immediately if symptoms worsen. Carry acetazolamide (Diamox) if prescribed by a doctor.
+                <h4 className="font-bold text-stone-900 text-base font-sans">Altitude &amp; Safety</h4>
+                <p className="mt-2 text-xs leading-relaxed text-stone-500">Ascend gradually. Dobato sits at 3,432m, so monitor headache or fatigue. Drink 2–3 litres of water daily, avoid alcohol, and descend immediately if symptoms worsen. Carry acetazolamide (Diamox) if prescribed by a doctor.
                 </p>
               </div>
             </div>
 
             <div className="bg-amber-50 border border-amber-200 p-6 rounded-2xl mt-4">
-              <h4 className="font-bold text-amber-950 text-sm"> Local Expert Tips for the Best Experience</h4>
+              <h4 className="font-bold text-amber-950 text-sm">Local Expert Tips for the Best Experience</h4>
               <ul className="list-disc pl-5 text-xs text-amber-900 space-y-1 leading-relaxed mt-2">
-                <li><strong>Best sunrise timing:</strong> Reach Muldai Viewpoint 10–15 minutes before the sun clears the eastern ridge.</li>
-                <li><strong>Photography:</strong> Bring a tripod for low light. Alpenglow on Annapurna South fades to daylight quickly.</li>
-                <li><strong>Lodge booking:</strong> During October, lodges fill up. If trekking with a guide, ask them to call ahead the day before.</li>
+                <li><strong>Best sunrise timing:</strong>Reach Muldai Viewpoint 10–15 minutes before the sun clears the eastern ridge.</li>
+                <li><strong>Photography:</strong>Bring a tripod for low light. Alpenglow on Annapurna South fades to daylight quickly.</li>
+                <li><strong>Lodge booking:</strong>During October, lodges fill up. If trekking with a guide, ask them to call ahead the day before.</li>
               </ul>
             </div>
           </article>
 
           {/* SECTION 12: FAQS */}
           <article id="faq" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">
-              Frequently Asked Questions About Dobato
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Frequently Asked Questions About Dobato
             </h2>
 
             <div className="space-y-4 mt-6">
@@ -628,11 +568,9 @@ export default function Page() {
           {/* SECTION 13: CONCLUSION */}
           <article className="space-y-6">
             <h2 className="text-2xl font-bold text-stone-950">Conclusion</h2>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Dobato sits at the quiet heart of one of Nepal&apos;s most rewarding trekking routes. At 3,432 metres, surrounded by rhododendron forest and connected to Muldai Viewpoint, Khopra Ridge, Bayeli Kharka, Tadapani, and Ghorepani, it is far more than an overnight tea-house stop. It is the central hub of the upper Khopra Ridge trail network — and the best base from which to watch the sun rise over Annapurna South, Machhapuchhre, and Dhaulagiri in near-solitude.
+            <p className="text-stone-600 leading-relaxed text-sm">Dobato sits at the quiet heart of one of Nepal&apos;s most rewarding trekking routes. At 3,432 metres, surrounded by rhododendron forest and connected to Muldai Viewpoint, Khopra Ridge, Bayeli Kharka, Tadapani, and Ghorepani, it is far more than an overnight tea-house stop. It is the central hub of the upper Khopra Ridge trail network — and the best base from which to watch the sun rise over Annapurna South, Machhapuchhre, and Dhaulagiri in near-solitude.
             </p>
-            <p className="text-stone-600 leading-relaxed text-sm">
-              Whether you are planning a five-day Muldai loop or a ten-day Khopra Ridge and Khayer Lake circuit, Dobato earns its place in your itinerary.
+            <p className="text-stone-600 leading-relaxed text-sm">Whether you are planning a five-day Muldai loop or a ten-day Khopra Ridge and Khayer Lake circuit, Dobato earns its place in your itinerary.
             </p>
           </article>
 
@@ -641,19 +579,17 @@ export default function Page() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
               <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Ready to Trek Through Dobato?</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">
-                Plan your Khopra Ridge Trek with local guides who know the route, the lodges, and the best season for Muldai sunrise. Get in touch to discuss a custom itinerary, community lodge availability, and guided trek options tailored to your schedule.
+              <p className="text-stone-300 text-sm leading-relaxed">Plan your Khopra Ridge Trek with local guides who know the route, the lodges, and the best season for Muldai sunrise. Get in touch to discuss a custom itinerary, community lodge availability, and guided trek options tailored to your schedule.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
                   href="/contact"
                   className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
-                >
-                  Enquire &amp; Customize Itinerary &rarr;
+                >Enquire &amp; Customize Itinerary &rarr;
                 </Link>
                 <div className="text-stone-400 text-xs flex flex-col justify-center text-center sm:text-left">
-                  <span> Based in Pokhara, Nepal</span>
-                  <span> Free cancellation &amp; flexible changes</span>
+                  <span>Based in Pokhara, Nepal</span>
+                  <span>Free cancellation &amp; flexible changes</span>
                 </div>
               </div>
             </div>
@@ -661,11 +597,10 @@ export default function Page() {
 
           {/* EEAT Author Verification Banner */}
           <div className="p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-            <span className="text-2xl mt-0.5">🏔️</span>
+            <span className="text-2xl mt-0.5"></span>
             <div>
               <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-                This Dobato guide is reviewed by certified local guides based in Pokhara. We walk the Khopra circuit and Dobato routes monthly to monitor trail safety, weather profiles, and community lodge operations.
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This Dobato guide is reviewed by certified local guides based in Pokhara. We walk the Khopra circuit and Dobato routes monthly to monitor trail safety, weather profiles, and community lodge operations.
               </p>
             </div>
           </div>

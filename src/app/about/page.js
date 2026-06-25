@@ -14,7 +14,7 @@ export default function AboutPage() {
       desc: "We practice sustainable waste management, minimize single-use plastics, and source our food ingredients from organic farms along the route."
     },
     {
-      icon: "🏔️",
+      icon: "",
       title: "True Cultural Exchange",
       desc: "Our itineraries are designed to foster respectful interactions with indigenous Gurung and Magar communities, preserving heritage while creating sustainable local jobs."
     }
@@ -35,12 +35,10 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.1),transparent)]" />
         <div className="relative mx-auto max-w-5xl px-6 text-center">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-400">Our Story</span>
-          <h1 className="mt-4 text-4xl font-extrabold tracking-tight sm:text-6xl leading-tight">
-            Pioneering Community-Owned <br />
+          <h1 className="mt-4 text-4xl font-extrabold tracking-tight sm:text-6xl leading-tight">Pioneering Community-Owned <br />
             <span className="text-emerald-400">Eco-Tourism</span>
           </h1>
-          <p className="mt-6 mx-auto max-w-2xl text-lg text-emerald-100/80 leading-relaxed font-medium">
-            We believe that mountain tourism should enrich the communities who call the Himalayas home, not exploit them.
+          <p className="mt-6 mx-auto max-w-2xl text-lg text-emerald-100/80 leading-relaxed font-medium">We believe that mountain tourism should enrich the communities who call the Himalayas home, not exploit them.
           </p>
         </div>
       </section>
@@ -51,14 +49,11 @@ export default function AboutPage() {
         {/* Core Mission */}
         <div className="grid gap-12 lg:grid-cols-2 items-center">
           <div className="space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight">
-              A Trek with a Higher Purpose
+            <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight">A Trek with a Higher Purpose
             </h2>
-            <p className="text-stone-600 leading-relaxed font-medium">
-              The Khopra Ridge Trek is not just a path to high-altitude viewpoints; it is a live community cooperative project. Developed as an offbeat alternative to standard routes like Poon Hill or Mardi Himal, this trek was created specifically to bring sustainable income to remote mountain villages that do not lie on mainstream routes.
+            <p className="text-stone-600 leading-relaxed font-medium">The Khopra Ridge Trek is not just a path to high-altitude viewpoints; it is a live community cooperative project. Developed as an offbeat alternative to standard routes like Poon Hill or Mardi Himal, this trek was created specifically to bring sustainable income to remote mountain villages that do not lie on mainstream routes.
             </p>
-            <p className="text-stone-600 leading-relaxed">
-              Every community lodge is collectively owned and operated by a village committee. This means that 100% of accommodation profits stay directly inside the local valley to pay for schoolteachers' salaries, maintain health clinics, and build mountain trails.
+            <p className="text-stone-600 leading-relaxed">Every community lodge is collectively owned and operated by a village committee. This means that 100% of accommodation profits stay directly inside the local valley to pay for schoolteachers' salaries, maintain health clinics, and build mountain trails.
             </p>
           </div>
           <div className="rounded-3xl overflow-hidden shadow-xl border border-stone-200 bg-white p-8 space-y-6">
@@ -126,15 +121,12 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.1),transparent)]" />
           <div className="relative z-10 space-y-6 max-w-2xl mx-auto">
             <h2 className="text-3xl font-extrabold">Be Part of the Story</h2>
-            <p className="text-stone-400 text-sm leading-relaxed">
-              When you hike the quiet forests, sleep in community lodges, and stand before the Annapurna panorama, you become a direct supporter of our social venture. Join us in making mountain travel sustainable.
+            <p className="text-stone-400 text-sm leading-relaxed">When you hike the quiet forests, sleep in community lodges, and stand before the Annapurna panorama, you become a direct supporter of our social venture. Join us in making mountain travel sustainable.
             </p>
             <div className="pt-4 flex flex-wrap justify-center gap-4">
-              <Link href="/tours" className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all">
-                Browse Trek Packages
+              <Link href="/tours" className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all">Browse Trek Packages
               </Link>
-              <Link href="/contact" className="rounded-full bg-white/10 border border-white/10 px-6 py-3 text-sm font-bold text-white hover:bg-white/20 transition-all">
-                Contact Booking Office
+              <Link href="/contact" className="rounded-full bg-white/10 border border-white/10 px-6 py-3 text-sm font-bold text-white hover:bg-white/20 transition-all">Contact Booking Office
               </Link>
             </div>
           </div>
