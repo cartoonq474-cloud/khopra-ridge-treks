@@ -140,6 +140,7 @@ export default function AboutPage() {
                 name: "David Gurung",
                 role: "Adventure Trekking Guide",
                 xp: "7+ Years Experience",
+                image: "/david.png",
                 education: "Bachelor's in Tourism",
                 languages: "English, Nepali, Hindi",
                 expertise: "Expert logistic management, deep cultural insights and a pro at customising itineraries.",

@@ -1672,6 +1672,7 @@ export default function Home() {
                 role: "Adventure Trekking Guide",
                 initials: "DG",
                 xp: "7+ Years Experience",
+                image: "/david.png",
                 certs: ["Bachelor's in Tourism", "Certified Trekking Guide", "English, Nepali, Hindi"],
                 bio: "A tourism graduate with seven years of active guiding, David combines expert logistical management with welcoming hospitality. Known for his proactive safety planning, he specializes in custom itineraries and deep cultural exploration."
               },
