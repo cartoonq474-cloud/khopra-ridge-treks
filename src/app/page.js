@@ -1663,6 +1663,7 @@ export default function Home() {
                 role: "Adventure Mountain Guide",
                 initials: "HG",
                 xp: "9+ Years Experience",
+                image: "/hemlal.jpg",
                 certs: ["Licensed Mountain Guide", "+2 Business Studies", "English, Nepali, Hindi"],
                 bio: "Born and raised in the Himalayas, Hemlal is a highly dedicated, storytelling guide with over nine years of experience. He perfectly blends his academic background in business with deep local insights to deliver seamless, responsible, and culturally rich trek experiences."
               },
@@ -1691,9 +1692,17 @@ export default function Home() {
                   {/* Avatar & Experience */}
                   <div className="flex items-center justify-between border-b border-stone-200/60 pb-5 mb-6">
                     <div className="flex items-center gap-3">
-                      <div className="h-12 w-12 rounded-full bg-emerald-600 text-white flex items-center justify-center font-black text-sm">
-                        {guide.initials}
-                      </div>
+                      {guide.image ? (
+                        <img 
+                          src={guide.image} 
+                          alt={guide.name} 
+                          className="h-12 w-12 rounded-full object-cover border border-stone-200"
+                        />
+                      ) : (
+                        <div className="h-12 w-12 rounded-full bg-emerald-600 text-white flex items-center justify-center font-black text-sm">
+                          {guide.initials}
+                        </div>
+                      )}
                       <div>
                         <h4 className="font-extrabold text-stone-950 text-sm">{guide.name}</h4>
                         <span className="text-[10px] font-bold text-stone-400 uppercase tracking-widest">{guide.role}</span>

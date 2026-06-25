@@ -129,6 +129,7 @@ export default function AboutPage() {
                 name: "Hemlal Gurung",
                 role: "Adventure Mountain Guide",
                 xp: "9+ Years Experience",
+                image: "/hemlal.jpg",
                 education: "+2 in Business Studies",
                 languages: "English, Nepali, Hindi",
                 expertise: "Veteran guide handling diverse groups and delivering memorable and smooth treks and tours.",
@@ -157,10 +158,23 @@ export default function AboutPage() {
             ].map((guide, idx) => (
               <div key={idx} className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm hover:shadow-md transition flex flex-col justify-between">
                 <div className="space-y-4">
-                  <div className="border-b border-stone-100 pb-4">
-                    <h3 className="text-lg font-bold text-stone-950">{guide.name}</h3>
-                    <span className="text-xs text-emerald-700 font-bold">{guide.role}</span>
-                    <span className="block text-[10px] text-stone-400 font-bold mt-1 uppercase tracking-wider">{guide.xp}</span>
+                  <div className="border-b border-stone-100 pb-4 flex items-center gap-4">
+                    {guide.image ? (
+                      <img 
+                        src={guide.image} 
+                        alt={guide.name} 
+                        className="h-16 w-16 rounded-full object-cover border border-stone-200"
+                      />
+                    ) : (
+                      <div className="h-16 w-16 rounded-full bg-emerald-600 text-white flex items-center justify-center font-black text-lg">
+                        {guide.name.split(" ").map(n => n[0]).join("")}
+                      </div>
+                    )}
+                    <div>
+                      <h3 className="text-lg font-bold text-stone-950 leading-tight">{guide.name}</h3>
+                      <span className="text-xs text-emerald-700 font-bold block mt-0.5">{guide.role}</span>
+                      <span className="block text-[10px] text-stone-400 font-bold mt-1 uppercase tracking-wider">{guide.xp}</span>
+                    </div>
                   </div>
                   
                   <p className="text-xs text-stone-500 leading-relaxed italic">
