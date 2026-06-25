@@ -1663,7 +1663,7 @@ export default function Home() {
                 role: "Adventure Mountain Guide",
                 initials: "HG",
                 xp: "9+ Years Experience",
-                image: "/hemlal.jpg",
+                image: "/hemlal.png",
                 certs: ["Licensed Mountain Guide", "+2 Business Studies", "English, Nepali, Hindi"],
                 bio: "Born and raised in the Himalayas, Hemlal is a highly dedicated, storytelling guide with over nine years of experience. He perfectly blends his academic background in business with deep local insights to deliver seamless, responsible, and culturally rich trek experiences."
               },

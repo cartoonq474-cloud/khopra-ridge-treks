@@ -129,7 +129,7 @@ export default function AboutPage() {
                 name: "Hemlal Gurung",
                 role: "Adventure Mountain Guide",
                 xp: "9+ Years Experience",
-                image: "/hemlal.jpg",
+                image: "/hemlal.png",
                 education: "+2 in Business Studies",
                 languages: "English, Nepali, Hindi",
                 expertise: "Veteran guide handling diverse groups and delivering memorable and smooth treks and tours.",
