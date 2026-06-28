@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
+import { includedItems, excludedItems } from "@/data/trekData";
 
-export default function CoverageSection({ includedItems, excludedItems }) {
+export default function CoverageSection() {
   const [activeCoverageTab, setActiveCoverageTab] = useState("all");
   const [checkedCoverageItems, setCheckedCoverageItems] = useState({});
   const [isIncludedExpanded, setIsIncludedExpanded] = useState(false);

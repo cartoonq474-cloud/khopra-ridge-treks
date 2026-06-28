@@ -1,19 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { 
-  specs, 
-  itinerary, 
-  includedItems, 
-  excludedItems, 
-  rates7Days, 
-  rates9Days, 
-  googleReviews, 
-  tripAdvisorReviews, 
-  categorizedFaqs,
-  faqCategories
-} from "@/data/trekData";
-
 import HeroSection from "@/components/home/HeroSection";
 import TrekSpecsSection from "@/components/home/TrekSpecsSection";
 import ItinerarySection from "@/components/home/ItinerarySection";
@@ -52,7 +37,7 @@ export default function Home() {
 
       
 
-      <TrekSpecsSection specs={specs} />
+      <TrekSpecsSection />
 
       {/* PHYSICAL PREPARATION & AMS SAFETY GUIDE */}
       <section className="py-24 bg-white border-t border-stone-200">
@@ -167,9 +152,9 @@ export default function Home() {
 
       
 
-      <ItinerarySection itinerary={itinerary} />
+      <ItinerarySection />
 
-      <CoverageSection includedItems={includedItems} excludedItems={excludedItems} />
+      <CoverageSection />
 
       {/* GEAR ESSENTIALS & SEASONAL CLIMATE */}
       <section className="py-24 bg-stone-50 border-t border-stone-200">
@@ -218,7 +203,7 @@ export default function Home() {
               </div>
 
               <div className="mt-6 pt-4 border-t border-stone-100 text-[11px] text-stone-400 font-medium">
-                Want a complete checklist? Read our interactive <Link href="/planning/packing-checklist" className="text-emerald-700 underline font-bold hover:text-emerald-600">Packing List Guide</Link>.
+                Want a complete checklist? Read our interactive <a href="/planning/packing-checklist" className="text-emerald-700 underline font-bold hover:text-emerald-600">Packing List Guide</a>.
               </div>
             </div>
 
@@ -563,11 +548,11 @@ export default function Home() {
 
       
 
-      <PricingSection rates7Days={rates7Days} rates9Days={rates9Days} />
+      <PricingSection />
 
-      <ReviewsSection googleReviews={googleReviews} tripAdvisorReviews={tripAdvisorReviews} />
+      <ReviewsSection />
 
-      <FaqSection faqCategories={faqCategories} categorizedFaqs={categorizedFaqs} />
+      <FaqSection />
 
       <BookingSection />
     </main>

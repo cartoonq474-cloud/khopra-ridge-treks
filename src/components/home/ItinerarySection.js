@@ -1,8 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import { itinerary } from "@/data/trekData";
 
-export default function ItinerarySection({ itinerary }) {
+export default function ItinerarySection() {
   const [activeDay, setActiveDay] = useState(1);
 
   // Elevation Profile Chart (Placeholder)

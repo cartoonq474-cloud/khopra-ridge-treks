@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
+import { specs } from "@/data/trekData";
 
-export default function TrekSpecsSection({ specs }) {
+export default function TrekSpecsSection() {
   const [activeSpecCategory, setActiveSpecCategory] = useState("all");
   const [isMetric, setIsMetric] = useState(true);
 

@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
+import { rates7Days, rates9Days } from "@/data/trekData";
 
-export default function PricingSection({ rates7Days, rates9Days }) {
+export default function PricingSection() {
   const [pricingDuration, setPricingDuration] = useState(9);
   const [pricingPax, setPricingPax] = useState(2);
 

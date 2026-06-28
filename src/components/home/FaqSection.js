@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
+import { faqCategories, categorizedFaqs } from "@/data/trekData";
 
-export default function FaqSection({ faqCategories, categorizedFaqs }) {
+export default function FaqSection() {
   const [activeFaqCategory, setActiveFaqCategory] = useState("route");
   const [expandedFaq, setExpandedFaq] = useState(null);
 

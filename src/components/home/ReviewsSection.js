@@ -1,8 +1,9 @@
 "use client";
 import React, { useState, useRef } from "react";
 import Image from "next/image";
+import { googleReviews, tripAdvisorReviews } from "@/data/trekData";
 
-export default function ReviewsSection({ googleReviews, tripAdvisorReviews }) {
+export default function ReviewsSection() {
   const [activeReviewTab, setActiveReviewTab] = useState("google");
   const activeReviews = activeReviewTab === "google" ? googleReviews : tripAdvisorReviews;
   const scrollContainerRef = useRef(null);
