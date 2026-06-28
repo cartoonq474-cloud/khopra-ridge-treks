@@ -1,25 +1,46 @@
 "use client";
+
 import React, { useState, useRef, useEffect } from "react";
-import { FIND_US_OPTIONS } from "@/data/trekData";
+
+const FIND_US_OPTIONS = [
+  "Google Search",
+  "Google AI Overviews",
+  "Google AI Mode",
+  "Bing",
+  "ChatGPT",
+  "Gemini",
+  "Claude",
+  "Perplexity",
+  "DeepSeek",
+  "Meta AI",
+  "Instagram",
+  "Facebook",
+  "TikTok",
+  "YouTube",
+  "Pinterest",
+  "Reddit",
+  "TripAdvisor",
+  "Lonely Planet",
+  "Blog / Travel Website",
+  "Friend / Word of Mouth",
+  "Return Customer",
+  "Other"
+];
 
 export default function BookingSection() {
-  const [inquirySubmitted, setInquirySubmitted] = useState(false);
-  const [showFoundUsSuggestions, setShowFoundUsSuggestions] = useState(false);
-  const foundUsRef = useRef(null);
-
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     date: "",
-    packSize: "2 Trekkers",
-    trekPackage: "9-Day Core Route",
-    foundUs: "Google Search",
+    packSize: "2",
+    trekPackage: "khayer-lake",
+    foundUs: "",
     message: ""
   });
 
-  const filteredFoundUsSuggestions = FIND_US_OPTIONS.filter(option =>
-    option.toLowerCase().includes((formData.foundUs || "").toLowerCase())
-  );
+  const [inquirySubmitted, setInquirySubmitted] = useState(false);
+  const [showFoundUsSuggestions, setShowFoundUsSuggestions] = useState(false);
+  const foundUsRef = useRef(null);
 
   useEffect(() => {
     function handleClickOutside(event) {
@@ -39,29 +60,25 @@ export default function BookingSection() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setInquirySubmitted(true);
-    setTimeout(() => {
-      setInquirySubmitted(false);
-      setFormData({
-        name: "",
-        email: "",
-        date: "",
-        packSize: "2 Trekkers",
-        trekPackage: "9-Day Core Route",
-        foundUs: "Google Search",
-        message: ""
-      });
-    }, 5000);
   };
+
+  const filteredFoundUsSuggestions = FIND_US_OPTIONS.filter((option) =>
+    option.toLowerCase().includes(formData.foundUs.toLowerCase())
+  );
 
   return (
     <>
-      {/* BOOKING / INQUIRY FORM */}
-      <section id="book" className="py-24 mx-auto max-w-7xl px-6">
-        <div className="max-w-3xl mx-auto rounded-3xl border border-stone-200 bg-white p-8 shadow-lg md:p-12">
-          <div className="text-center max-w-md mx-auto">
-            <h2 className="text-3xl font-extrabold text-stone-950">Inquire &amp; Book Today</h2>
-            <p className="mt-3 text-sm text-stone-500">
-              Submit your tentative dates and details, and our local trekking planner will get back to you with custom adjustments within 24 hours.
+      <section id="book" className="py-24 bg-stone-900 text-white relative overflow-hidden">
+        <div className="mx-auto max-w-4xl px-6 relative z-10 bg-white text-stone-900 rounded-3xl p-8 sm:p-12 shadow-2xl border border-stone-200">
+          <div className="text-center max-w-xl mx-auto">
+            <span className="text-xs font-bold text-emerald-700 uppercase tracking-widest bg-emerald-100/60 px-3 py-1.5 rounded-full">
+              Instant Inquiry &amp; Custom Booking
+            </span>
+            <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-stone-900 sm:text-4xl">
+              Plan Your Khopra Adventure
+            </h2>
+            <p className="mt-3 text-stone-500 text-sm">
+              Send us your tentative dates and group size. We will check lodge availability and craft a tailored itinerary within 24 hours.
             </p>
           </div>
 
@@ -77,8 +94,9 @@ export default function BookingSection() {
             <form onSubmit={handleSubmit} className="mt-10 flex flex-col gap-6">
               <div className="grid gap-6 sm:grid-cols-2">
                 <div className="flex flex-col gap-1.5">
-                  <label className="text-xs font-bold text-stone-500 uppercase tracking-wide">Full Name</label>
+                  <label htmlFor="booking-name" className="text-xs font-bold text-stone-500 uppercase tracking-wide">Full Name</label>
                   <input
+                    id="booking-name"
                     type="text"
                     name="name"
                     required
@@ -89,8 +107,9 @@ export default function BookingSection() {
                   />
                 </div>
                 <div className="flex flex-col gap-1.5">
-                  <label className="text-xs font-bold text-stone-500 uppercase tracking-wide">Email Address</label>
+                  <label htmlFor="booking-email" className="text-xs font-bold text-stone-500 uppercase tracking-wide">Email Address</label>
                   <input
+                    id="booking-email"
                     type="email"
                     name="email"
                     required
@@ -104,8 +123,9 @@ export default function BookingSection() {
 
               <div className="grid gap-6 sm:grid-cols-2">
                 <div className="flex flex-col gap-1.5">
-                  <label className="text-xs font-bold text-stone-500 uppercase tracking-wide">Proposed Start Date</label>
+                  <label htmlFor="booking-date" className="text-xs font-bold text-stone-500 uppercase tracking-wide">Proposed Start Date</label>
                   <input
+                    id="booking-date"
                     type="date"
                     name="date"
                     required
@@ -115,8 +135,9 @@ export default function BookingSection() {
                   />
                 </div>
                 <div className="flex flex-col gap-1.5">
-                  <label className="text-xs font-bold text-stone-500 uppercase tracking-wide">Group Size</label>
+                  <label htmlFor="booking-packsize" className="text-xs font-bold text-stone-500 uppercase tracking-wide">Group Size</label>
                   <select
+                    id="booking-packsize"
                     name="packSize"
                     value={formData.packSize}
                     onChange={handleInputChange}
@@ -133,8 +154,9 @@ export default function BookingSection() {
 
               <div className="grid gap-6 sm:grid-cols-2">
                 <div className="flex flex-col gap-1.5">
-                  <label className="text-xs font-bold text-stone-500 uppercase tracking-wide">Trek Package</label>
+                  <label htmlFor="booking-package" className="text-xs font-bold text-stone-500 uppercase tracking-wide">Trek Package</label>
                   <select
+                    id="booking-package"
                     name="trekPackage"
                     value={formData.trekPackage}
                     onChange={handleInputChange}
@@ -147,9 +169,10 @@ export default function BookingSection() {
                   </select>
                 </div>
                 <div className="flex flex-col gap-1.5 relative" ref={foundUsRef}>
-                  <label className="text-xs font-bold text-stone-500 uppercase tracking-wide">Where did you find us?</label>
+                  <label htmlFor="booking-foundus" className="text-xs font-bold text-stone-500 uppercase tracking-wide">Where did you find us?</label>
                   <div className="relative">
                     <input
+                      id="booking-foundus"
                       type="text"
                       name="foundUs"
                       value={formData.foundUs}
@@ -199,8 +222,9 @@ export default function BookingSection() {
               </div>
 
               <div className="flex flex-col gap-1.5">
-                <label className="text-xs font-bold text-stone-500 uppercase tracking-wide">Custom Needs / Notes</label>
+                <label htmlFor="booking-message" className="text-xs font-bold text-stone-500 uppercase tracking-wide">Custom Needs / Notes</label>
                 <textarea
+                  id="booking-message"
                   name="message"
                   rows={4}
                   value={formData.message}
@@ -212,7 +236,7 @@ export default function BookingSection() {
 
               <button
                 type="submit"
-                className="mt-4 rounded-lg bg-emerald-600 py-4 text-base font-bold text-white shadow-md hover:bg-emerald-500 transition-all"
+                className="mt-4 rounded-lg bg-emerald-600 py-4 text-base font-bold text-white shadow-md hover:bg-emerald-500 transition-all cursor-pointer"
               >
                 Send Free Booking Inquiry
               </button>
@@ -220,9 +244,6 @@ export default function BookingSection() {
           )}
         </div>
       </section>
-
-      
-
     </>
   );
 }
