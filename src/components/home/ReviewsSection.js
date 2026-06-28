@@ -9,13 +9,15 @@ export default function ReviewsSection() {
   const scrollContainerRef = useRef(null);
 
   const scrollReviews = (direction) => {
-    if (scrollContainerRef.current) {
-      const scrollAmount = 400;
-      scrollContainerRef.current.scrollBy({
-        left: direction === "left" ? -scrollAmount : scrollAmount,
-        behavior: "smooth"
-      });
-    }
+    requestAnimationFrame(() => {
+      if (scrollContainerRef.current) {
+        const scrollAmount = 400;
+        scrollContainerRef.current.scrollBy({
+          left: direction === "left" ? -scrollAmount : scrollAmount,
+          behavior: "smooth"
+        });
+      }
+    });
   };
 
   return (

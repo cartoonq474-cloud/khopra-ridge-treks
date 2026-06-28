@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center text-white py-24 bg-stone-950">
       <Image
-        src="/khopra-hero-bg.png"
+        src="/khopra-hero-bg.webp"
         alt="Khopra Ridge Trek Background"
         fill
         priority
