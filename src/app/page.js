@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 import HeroSection from "@/components/home/HeroSection";
 import TrekSpecsSection from "@/components/home/TrekSpecsSection";
 import ItinerarySection from "@/components/home/ItinerarySection";
@@ -189,11 +191,7 @@ export default function Home() {
                   ].map((gear, i) => (
                     <div key={i} className="p-4 rounded-2xl bg-stone-50 border border-stone-100 hover:border-emerald-500/20 transition group">
                       <div className="flex items-center gap-3">
-                        <img 
-                          src={`https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/${gear.code}.svg`}
-                          alt={gear.emoji}
-                          className="w-7 h-7 object-contain select-none pointer-events-none"
-                        />
+                        <span className="text-2xl select-none">{gear.emoji}</span>
                         <h4 className="font-bold text-stone-900 text-sm">{gear.title}</h4>
                       </div>
                       <p className="text-[11px] text-stone-500 mt-2 leading-relaxed">{gear.desc}</p>
@@ -203,7 +201,7 @@ export default function Home() {
               </div>
 
               <div className="mt-6 pt-4 border-t border-stone-100 text-[11px] text-stone-400 font-medium">
-                Want a complete checklist? Read our interactive <a href="/planning/packing-checklist" className="text-emerald-700 underline font-bold hover:text-emerald-600">Packing List Guide</a>.
+                Want a complete checklist? Read our interactive <Link href="/planning/packing-checklist" className="text-emerald-700 underline font-bold hover:text-emerald-600">Packing List Guide</Link>.
               </div>
             </div>
 
@@ -296,10 +294,12 @@ export default function Home() {
               >
                 {/* Image Section with Zoom Effect */}
                 <div className="relative h-48 overflow-hidden bg-stone-900">
-                  <img 
+                  <Image 
                     src={peak.image} 
                     alt={peak.name} 
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 ease-out"
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover group-hover:scale-110 transition-transform duration-500 ease-out"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-transparent to-transparent opacity-60" />
                   
@@ -346,13 +346,15 @@ export default function Home() {
             
             {/* Left Image: Khopra Ridge View */}
             <div className="md:col-span-6 group relative rounded-3xl overflow-hidden shadow-md h-[450px] bg-stone-100 border border-stone-200">
-              <img 
+              <Image 
                 src="/khopra-ridge-view.png" 
                 alt="Sunset panoramic view of Dhaulagiri from Khopra Ridge" 
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="object-cover transition-transform duration-500 group-hover:scale-110" 
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent opacity-0 group-hover:opacity-90 transition-all duration-300 flex flex-col justify-end p-6" />
-              <div className="absolute inset-0 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-all duration-300 text-white transform translate-y-4 group-hover:translate-y-0">
+              <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent opacity-0 group-hover:opacity-90 transition-all duration-300 flex flex-col justify-end p-6 z-10" />
+              <div className="absolute inset-0 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-all duration-300 text-white transform translate-y-4 group-hover:translate-y-0 z-20">
                 <span className="text-[10px] font-extrabold uppercase tracking-widest text-emerald-400">The Panorama Summit</span>
                 <h4 className="text-xl font-bold mt-1">Khopra Ridge Vantage (3,660m)</h4>
                 <p className="text-xs text-stone-300 mt-2 leading-relaxed">
@@ -366,13 +368,15 @@ export default function Home() {
               
               {/* Top: Swanta Village */}
               <div className="group relative rounded-3xl overflow-hidden shadow-md h-[217px] bg-stone-100 border border-stone-200">
-                <img 
+                <Image 
                   src="/swanta-village.png" 
                   alt="Magar farming village of Swanta" 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                  fill
+                  sizes="(max-width: 768px) 100vw, 25vw"
+                  className="object-cover transition-transform duration-500 group-hover:scale-110" 
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent opacity-0 group-hover:opacity-90 transition-all duration-300 flex flex-col justify-end p-4" />
-                <div className="absolute inset-0 flex flex-col justify-end p-4 opacity-0 group-hover:opacity-100 transition-all duration-300 text-white transform translate-y-4 group-hover:translate-y-0">
+                <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent opacity-0 group-hover:opacity-90 transition-all duration-300 flex flex-col justify-end p-4 z-10" />
+                <div className="absolute inset-0 flex flex-col justify-end p-4 opacity-0 group-hover:opacity-100 transition-all duration-300 text-white transform translate-y-4 group-hover:translate-y-0 z-20">
                   <span className="text-[9px] font-extrabold uppercase tracking-widest text-emerald-400">Community Valley Hub</span>
                   <h4 className="text-sm font-bold mt-0.5">Swanta Village (2,200m)</h4>
                   <p className="text-[10px] text-stone-300 mt-1 leading-relaxed">
@@ -383,13 +387,15 @@ export default function Home() {
 
               {/* Bottom: Forest Trail */}
               <div className="group relative rounded-3xl overflow-hidden shadow-md h-[217px] bg-stone-100 border border-stone-200">
-                <img 
+                <Image 
                   src="/forest-trail.png" 
                   alt="Lush mossy rhododendron trail" 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                  fill
+                  sizes="(max-width: 768px) 100vw, 25vw"
+                  className="object-cover transition-transform duration-500 group-hover:scale-110" 
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent opacity-0 group-hover:opacity-90 transition-all duration-300 flex flex-col justify-end p-4" />
-                <div className="absolute inset-0 flex flex-col justify-end p-4 opacity-0 group-hover:opacity-100 transition-all duration-300 text-white transform translate-y-4 group-hover:translate-y-0">
+                <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent opacity-0 group-hover:opacity-90 transition-all duration-300 flex flex-col justify-end p-4 z-10" />
+                <div className="absolute inset-0 flex flex-col justify-end p-4 opacity-0 group-hover:opacity-100 transition-all duration-300 text-white transform translate-y-4 group-hover:translate-y-0 z-20">
                   <span className="text-[9px] font-extrabold uppercase tracking-widest text-emerald-400">Silent Wilderness</span>
                   <h4 className="text-sm font-bold mt-0.5">Primal Rhododendron Forests</h4>
                   <p className="text-[10px] text-stone-300 mt-1 leading-relaxed">
@@ -402,13 +408,15 @@ export default function Home() {
 
             {/* Right Image: Khayer Lake */}
             <div className="md:col-span-3 group relative rounded-3xl overflow-hidden shadow-md h-[450px] bg-stone-100 border border-stone-200">
-              <img 
+              <Image 
                 src="/khayer-lake.png" 
                 alt="Sacred alpine Khayer Lake" 
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                fill
+                sizes="(max-width: 768px) 100vw, 25vw"
+                className="object-cover transition-transform duration-500 group-hover:scale-110" 
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent opacity-0 group-hover:opacity-90 transition-all duration-300 flex flex-col justify-end p-6" />
-              <div className="absolute inset-0 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-all duration-300 text-white transform translate-y-4 group-hover:translate-y-0">
+              <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent opacity-0 group-hover:opacity-90 transition-all duration-300 flex flex-col justify-end p-6 z-10" />
+              <div className="absolute inset-0 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-100 transition-all duration-300 text-white transform translate-y-4 group-hover:translate-y-0 z-20">
                 <span className="text-[10px] font-extrabold uppercase tracking-widest text-emerald-400">Pilgrimage Shrine</span>
                 <h4 className="text-base font-bold mt-1">Sacred Khayer Lake (4,660m)</h4>
                 <p className="text-xs text-stone-300 mt-2 leading-relaxed">

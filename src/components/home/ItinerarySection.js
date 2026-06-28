@@ -6,7 +6,7 @@ import { itinerary } from "@/data/trekData";
 export default function ItinerarySection() {
   const [activeDay, setActiveDay] = useState(1);
 
-  // Elevation Profile Chart (Placeholder)
+  // Elevation Profile Chart
   const ElevationProfile = () => (
     <div className="w-full bg-white rounded-3xl p-6 sm:p-8 border border-stone-200/80 shadow-sm relative overflow-hidden group">
       <div className="flex justify-between items-end mb-6">
@@ -75,10 +75,12 @@ export default function ItinerarySection() {
               >
                 {/* Thumbnail */}
                 <div className="relative h-12 w-16 rounded-xl overflow-hidden bg-stone-100 flex-shrink-0 border border-stone-200/60">
-                  <img
+                  <Image
                     src={step.image}
                     alt={step.title}
-                    className="h-full w-full object-cover object-center"
+                    fill
+                    sizes="64px"
+                    className="object-cover object-center"
                   />
                   <span className="absolute bottom-1 right-1 bg-stone-950/70 text-[9px] font-bold text-white px-1.5 py-0.5 rounded-md backdrop-blur-[2px]">
                     Day {step.day}
@@ -116,10 +118,12 @@ export default function ItinerarySection() {
 
               {/* Day Image */}
               <div className="mt-6 overflow-hidden rounded-2xl aspect-video relative bg-stone-100 border border-stone-200">
-                <img 
+                <Image 
                   src={itinerary[activeDay - 1].image} 
                   alt={itinerary[activeDay - 1].title}
-                  className="h-full w-full object-cover object-center animate-fade-in"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 800px"
+                  className="object-cover object-center animate-fade-in"
                 />
               </div>
 
@@ -142,8 +146,6 @@ export default function ItinerarySection() {
           </div>
         </div>
       </section>
-
-      
     </>
   );
 }
