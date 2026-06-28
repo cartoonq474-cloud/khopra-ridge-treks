@@ -1,14 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+
 import HeroSection from "@/components/home/HeroSection";
 import TrekSpecsSection from "@/components/home/TrekSpecsSection";
 import ItinerarySection from "@/components/home/ItinerarySection";
-import CoverageSection from "@/components/home/CoverageSection";
-import PricingSection from "@/components/home/PricingSection";
-import ReviewsSection from "@/components/home/ReviewsSection";
-import FaqSection from "@/components/home/FaqSection";
 import BookingSection from "@/components/home/BookingSection";
+
+const CoverageSection = dynamic(() => import("@/components/home/CoverageSection"));
+const PricingSection = dynamic(() => import("@/components/home/PricingSection"));
+const ReviewsSection = dynamic(() => import("@/components/home/ReviewsSection"));
+const FaqSection = dynamic(() => import("@/components/home/FaqSection"));
 
 export const metadata = {
   title: "Khopra Ridge Trek | Nirvana Trails",

@@ -11,6 +11,7 @@ export default function HeroSection() {
         alt="Khopra Ridge Trek Background"
         fill
         priority
+        quality={60}
         sizes="100vw"
         className="object-cover object-center"
       />
