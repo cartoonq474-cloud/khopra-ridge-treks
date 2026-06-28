@@ -42,19 +42,23 @@ export default function Page() {
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Legal Disclosures</span>
           <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Booking &amp; Cancellation Policies
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Trek with peace of mind. Read our terms regarding cancellations, weather delays, mandatory altitude insurance, and helicopter emergency evacuation protocols.
+          <p className="mt-6 text-lg text-stone-700 leading-relaxed font-medium">Trek with peace of mind. Read our terms regarding cancellations, weather delays, mandatory altitude insurance, and helicopter emergency evacuation protocols.
           </p>
         </div>
 
         {/* Accordion Policies */}
         <div className="mt-12 space-y-4">
+          <h2 className="sr-only">Detailed Terms and Policies</h2>
           {policies.map((p) => (
             <div 
               key={p.id} 
               className="bg-white border border-stone-200 rounded-2xl overflow-hidden shadow-sm"
             >
               <button
-                onClick={() =>handleToggle(p.id)}
+                id={`policy-header-${p.id}`}
+                onClick={() => handleToggle(p.id)}
+                aria-expanded={openPolicy === p.id}
+                aria-controls={`policy-panel-${p.id}`}
                 className="w-full flex items-center justify-between p-6 text-left focus:outline-none cursor-pointer"
               >
                 <h3 className="font-extrabold text-stone-950 text-base">{p.title}</h3>
@@ -63,14 +67,20 @@ export default function Page() {
                   fill="none" 
                   viewBox="0 0 24 24" 
                   stroke="currentColor"
+                  aria-hidden="true"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
               
               {openPolicy === p.id && (
-                <div className="px-6 pb-6 pt-2 border-t border-stone-50">
-                  <p className="text-xs text-stone-500 leading-relaxed font-medium">
+                <div 
+                  id={`policy-panel-${p.id}`}
+                  role="region"
+                  aria-labelledby={`policy-header-${p.id}`}
+                  className="px-6 pb-6 pt-2 border-t border-stone-50"
+                >
+                  <p className="text-sm text-stone-700 leading-relaxed font-medium">
                     {p.content}
                   </p>
                 </div>
@@ -81,10 +91,10 @@ export default function Page() {
 
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5"></span>
+          <span className="text-2xl mt-0.5" aria-hidden="true">🛡️</span>
           <div>
-            <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">These policies comply with the guidelines set by the Trekking Agencies' Association of Nepal (TAAN) and the Annapurna Conservation Area Project.
+            <div className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</div>
+            <p className="mt-2 text-xs text-stone-700 leading-relaxed">These policies comply with the guidelines set by the Trekking Agencies' Association of Nepal (TAAN) and the Annapurna Conservation Area Project.
             </p>
           </div>
         </div>
@@ -92,8 +102,8 @@ export default function Page() {
         {/* CTA */}
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
-            <h3 className="text-2xl font-bold">Have Questions About Payments?</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Contact our booking office in Pokhara to clarify wire transfers, currency payments, or group discount waivers.
+            <h2 className="text-2xl font-bold">Have Questions About Payments?</h2>
+            <p className="mt-4 text-stone-300 text-sm leading-relaxed max-w-lg">Contact our booking office in Pokhara to clarify wire transfers, currency payments, or group discount waivers.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link

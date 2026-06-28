@@ -1,7 +1,6 @@
-"use client";
-
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -14,7 +13,7 @@ export default function Footer() {
           {/* Column 1: Company Profile */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="text-xl font-black text-white flex items-center gap-2">
-              <img src="/logo.png" alt="Khopra Ridge Trek Logo" className="h-8 w-8 rounded-xl object-cover" />
+              <Image src="/logo.png" alt="Khopra Ridge Trek Logo" width={32} height={32} className="rounded-xl object-cover" />
               <span>KhopraRidgeTrek</span>
             </Link>
             <p className="text-xs text-stone-500 leading-relaxed max-w-sm">
@@ -35,7 +34,7 @@ export default function Footer() {
 
           {/* Column 2: Our Tours */}
           <div className="space-y-4">
-            <h4 className="text-xs font-extrabold uppercase tracking-widest text-white">Our Tours</h4>
+            <div className="text-xs font-extrabold uppercase tracking-widest text-white">Our Tours</div>
             <ul className="space-y-2 text-xs">
               <li>
                 <Link href="/tours/khayer-lake-trek" className="hover:text-emerald-400 transition-colors">
@@ -62,7 +61,7 @@ export default function Footer() {
 
           {/* Column 3: Resource Hub */}
           <div className="space-y-4">
-            <h4 className="text-xs font-extrabold uppercase tracking-widest text-white">Resources</h4>
+            <div className="text-xs font-extrabold uppercase tracking-widest text-white">Resources</div>
             <ul className="space-y-2 text-xs">
               <li>
                 <Link href="/guides/khopra-ridge-ultimate-guide" className="hover:text-emerald-400 transition-colors">
@@ -124,7 +123,7 @@ export default function Footer() {
 
           {/* Column 4: Village Nodes */}
           <div className="space-y-4">
-            <h4 className="text-xs font-extrabold uppercase tracking-widest text-white">Village Nodes</h4>
+            <div className="text-xs font-extrabold uppercase tracking-widest text-white">Village Nodes</div>
             <ul className="space-y-2 text-xs">
               <li>
                 <Link href="/nodes/ghandruk-village-guide" className="hover:text-emerald-400 transition-colors">

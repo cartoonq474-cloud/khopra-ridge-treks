@@ -3,6 +3,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
+import dynamic from "next/dynamic";
+
+const BookingModal = dynamic(() => import("./BookingModal"), { ssr: false });
 
 export default function Header() {
   const pathname = usePathname();
@@ -11,104 +15,6 @@ export default function Header() {
   const [expandedMobileCategory, setExpandedMobileCategory] = useState(null);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [inquirySubmitted, setInquirySubmitted] = useState(false);
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    date: "",
-    packSize: "1",
-    trekPackage: "khayer-lake",
-    foundUs: "",
-    message: ""
-  });
-  
-  const foundUsRef = useRef(null);
-  const [showFoundUsSuggestions, setShowFoundUsSuggestions] = useState(false);
-
-  const FIND_US_OPTIONS = [
-    "Google Search",
-    "Google AI Overviews",
-    "Google AI Mode",
-    "Bing",
-    "ChatGPT",
-    "Gemini",
-    "Claude",
-    "Perplexity",
-    "Grok",
-    "Microsoft Copilot",
-    "Meta AI",
-    "DeepSeek",
-    "Reddit",
-    "DuckDuckGo",
-    "Yahoo",
-    "Brave Search"
-  ];
-
-  const filteredFoundUsSuggestions = FIND_US_OPTIONS.filter(option =>
-    option.toLowerCase().includes((formData.foundUs || "").toLowerCase())
-  );
-
-  useEffect(() => {
-    function handleClickOutside(event) {
-      if (foundUsRef.current && !foundUsRef.current.contains(event.target)) {
-        setShowFoundUsSuggestions(false);
-      }
-    }
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
-
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-    setInquirySubmitted(false);
-    setFormData({
-      name: "",
-      email: "",
-      date: "",
-      packSize: "1",
-      trekPackage: "khayer-lake",
-      foundUs: "",
-      message: ""
-    });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const response = await fetch("https://formsubmit.co/ajax/khopraridge51@gmail.com", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Accept": "application/json"
-        },
-        body: JSON.stringify({
-          "Form Source": "Header CTA Modal Form",
-          Name: formData.name,
-          Email: formData.email,
-          "Proposed Start Date": formData.date,
-          "Group Size": formData.packSize,
-          "Trek Package": formData.trekPackage,
-          "Where did you find us": formData.foundUs,
-          "Custom Needs / Notes": formData.message
-        })
-      });
-      if (response.ok) {
-        setInquirySubmitted(true);
-      } else {
-        alert("There was an issue sending your booking inquiry. Please try again.");
-      }
-    } catch (err) {
-      console.error(err);
-      alert("There was an error connecting to the server. Please try again.");
-    }
-  };
 
   // Close menus on page change (adjust state during render)
   const [prevPathname, setPrevPathname] = React.useState(pathname);
@@ -218,7 +124,7 @@ export default function Header() {
           
           {/* Logo */}
           <Link href="/" className="text-2xl font-black tracking-tight text-stone-950 hover:text-emerald-700 transition flex items-center gap-2">
-            <img src="/logo.png" alt="Khopra Ridge Trek Logo" className="h-8 w-8 rounded-xl object-cover" />
+            <Image src="/logo.png" alt="Khopra Ridge Trek Logo" width={32} height={32} className="rounded-xl object-cover" />
             <span>KhopraRidge<span className="text-emerald-600 font-bold">Trek</span></span>
           </Link>
 
@@ -232,6 +138,8 @@ export default function Header() {
             >
               <Link 
                 href="/" 
+                aria-haspopup="true"
+                aria-expanded={activeMenu === "home"}
                 className={`flex items-center gap-1 hover:text-emerald-700 transition-colors py-2 cursor-pointer ${pathname === "/" || pathname === "/about" ? "text-emerald-600 font-bold" : "text-stone-600 font-semibold"}`}
               >
                 Home
@@ -257,7 +165,11 @@ export default function Header() {
               onMouseEnter={() => setActiveMenu("tours")}
               onMouseLeave={() => setActiveMenu(null)}
             >
-              <button className={`flex items-center gap-1 hover:text-emerald-700 transition-colors py-2 focus:outline-none cursor-pointer ${pathname.startsWith("/tours") ? "text-emerald-600" : ""}`}>
+              <button 
+                aria-haspopup="true"
+                aria-expanded={activeMenu === "tours"}
+                className={`flex items-center gap-1 hover:text-emerald-700 transition-colors py-2 focus:outline-none cursor-pointer ${pathname.startsWith("/tours") ? "text-emerald-600" : ""}`}
+              >
                 Tours
                 <svg className={`w-3.5 h-3.5 transition-transform duration-200 ${activeMenu === "tours" ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
@@ -273,7 +185,7 @@ export default function Header() {
                         className={`group p-2.5 rounded-xl transition ${t.href === "/tours" ? "bg-emerald-50/50 hover:bg-emerald-50 border border-emerald-100/50" : "hover:bg-stone-50"}`}
                       >
                         <span className={`block font-bold text-stone-900 transition-colors text-sm ${t.href === "/tours" ? "text-emerald-700 group-hover:text-emerald-800" : "group-hover:text-emerald-600"}`}>{t.label}</span>
-                        <span className="block text-xs text-stone-400 mt-0.5 leading-snug">{t.desc}</span>
+                        <span className="block text-xs text-stone-600 mt-0.5 leading-snug">{t.desc}</span>
                       </Link>
                     ))}
                   </div>
@@ -287,7 +199,11 @@ export default function Header() {
               onMouseEnter={() => setActiveMenu("guides")}
               onMouseLeave={() => setActiveMenu(null)}
             >
-              <button className={`flex items-center gap-1 hover:text-emerald-700 transition-colors py-2 focus:outline-none cursor-pointer ${pathname.startsWith("/guides") || pathname.startsWith("/viewpoints") ? "text-emerald-600" : ""}`}>
+              <button 
+                aria-haspopup="true"
+                aria-expanded={activeMenu === "guides"}
+                className={`flex items-center gap-1 hover:text-emerald-700 transition-colors py-2 focus:outline-none cursor-pointer ${pathname.startsWith("/guides") || pathname.startsWith("/viewpoints") ? "text-emerald-600" : ""}`}
+              >
                 Guides
                 <svg className={`w-3.5 h-3.5 transition-transform duration-200 ${activeMenu === "guides" ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
@@ -299,7 +215,7 @@ export default function Header() {
                     {guides.map((g) => (
                       <Link key={g.href} href={g.href} className="group p-2.5 rounded-xl hover:bg-stone-50 transition">
                         <span className="block font-bold text-stone-900 group-hover:text-emerald-600 transition-colors text-sm">{g.label}</span>
-                        <span className="block text-xs text-stone-400 mt-0.5 leading-snug">{g.desc}</span>
+                        <span className="block text-xs text-stone-600 mt-0.5 leading-snug">{g.desc}</span>
                       </Link>
                     ))}
                   </div>
@@ -313,7 +229,11 @@ export default function Header() {
               onMouseEnter={() => setActiveMenu("villages")}
               onMouseLeave={() => setActiveMenu(null)}
             >
-              <button className={`flex items-center gap-1 hover:text-emerald-700 transition-colors py-2 focus:outline-none cursor-pointer ${pathname.startsWith("/nodes") ? "text-emerald-600" : ""}`}>
+              <button 
+                aria-haspopup="true"
+                aria-expanded={activeMenu === "villages"}
+                className={`flex items-center gap-1 hover:text-emerald-700 transition-colors py-2 focus:outline-none cursor-pointer ${pathname.startsWith("/nodes") ? "text-emerald-600" : ""}`}
+              >
                 Villages
                 <svg className={`w-3.5 h-3.5 transition-transform duration-200 ${activeMenu === "villages" ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
@@ -328,7 +248,7 @@ export default function Header() {
                       className={`group p-2.5 rounded-xl transition ${v.href === "/nodes" ? "col-span-2 bg-emerald-50/50 hover:bg-emerald-50 border border-emerald-100/50 flex flex-col items-center text-center py-2" : "hover:bg-stone-50"}`}
                     >
                       <span className={`block font-bold text-stone-900 transition-colors text-xs ${v.href === "/nodes" ? "text-emerald-700 group-hover:text-emerald-800" : "group-hover:text-emerald-600"}`}>{v.label}</span>
-                      <span className="block text-[11px] text-stone-400 mt-0.5 leading-snug">{v.desc}</span>
+                      <span className="block text-[11px] text-stone-600 mt-0.5 leading-snug">{v.desc}</span>
                     </Link>
                   ))}
                 </div>
@@ -341,7 +261,11 @@ export default function Header() {
               onMouseEnter={() => setActiveMenu("planning")}
               onMouseLeave={() => setActiveMenu(null)}
             >
-              <button className={`flex items-center gap-1 hover:text-emerald-700 transition-colors py-2 focus:outline-none cursor-pointer ${pathname.startsWith("/planning") ? "text-emerald-600" : ""}`}>
+              <button 
+                aria-haspopup="true"
+                aria-expanded={activeMenu === "planning"}
+                className={`flex items-center gap-1 hover:text-emerald-700 transition-colors py-2 focus:outline-none cursor-pointer ${pathname.startsWith("/planning") ? "text-emerald-600" : ""}`}
+              >
                 Planning
                 <svg className={`w-3.5 h-3.5 transition-transform duration-200 ${activeMenu === "planning" ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
@@ -353,7 +277,7 @@ export default function Header() {
                     {planning.map((p) => (
                       <Link key={p.href} href={p.href} className="group p-2.5 rounded-xl hover:bg-stone-50 transition">
                         <span className="block font-bold text-stone-900 group-hover:text-emerald-600 transition-colors text-sm">{p.label}</span>
-                        <span className="block text-xs text-stone-400 mt-0.5 leading-snug">{p.desc}</span>
+                        <span className="block text-xs text-stone-600 mt-0.5 leading-snug">{p.desc}</span>
                       </Link>
                     ))}
                   </div>
@@ -367,7 +291,11 @@ export default function Header() {
               onMouseEnter={() => setActiveMenu("resources")}
               onMouseLeave={() => setActiveMenu(null)}
             >
-              <button className={`flex items-center gap-1 hover:text-emerald-700 transition-colors py-2 focus:outline-none cursor-pointer ${pathname.startsWith("/community") || pathname.startsWith("/ecology") || pathname.includes("why-khopra") || pathname.includes("vs-mardi") || pathname.includes("offbeat-trek") || pathname.includes("dhaulagiri-views") || pathname.includes("checkout") || pathname.includes("booking-policies") || pathname.includes("review-submission") || pathname.includes("photographer-showcase") ? "text-emerald-600" : ""}`}>
+              <button 
+                aria-haspopup="true"
+                aria-expanded={activeMenu === "resources"}
+                className={`flex items-center gap-1 hover:text-emerald-700 transition-colors py-2 focus:outline-none cursor-pointer ${pathname.startsWith("/community") || pathname.startsWith("/ecology") || pathname.includes("why-khopra") || pathname.includes("vs-mardi") || pathname.includes("offbeat-trek") || pathname.includes("dhaulagiri-views") || pathname.includes("checkout") || pathname.includes("booking-policies") || pathname.includes("review-submission") || pathname.includes("photographer-showcase") ? "text-emerald-600" : ""}`}
+              >
                 Resources
                 <svg className={`w-3.5 h-3.5 transition-transform duration-200 ${activeMenu === "resources" ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
@@ -378,7 +306,7 @@ export default function Header() {
                   
                   {/* Col 1: Prep & Altitudes */}
                   <div className="space-y-3">
-                    <h4 className="text-[10px] font-extrabold uppercase tracking-widest text-emerald-600 border-b border-stone-100 pb-1.5">Prep &amp; Altitudes</h4>
+                    <span className="block text-[10px] font-extrabold uppercase tracking-widest text-emerald-600 border-b border-stone-100 pb-1.5">Prep &amp; Altitudes</span>
                     <div className="flex flex-col gap-2">
                       {resourcesPrep.map((item) => (
                         <Link key={item.href} href={item.href} className="text-xs text-stone-600 hover:text-emerald-600 font-bold transition">
@@ -390,7 +318,7 @@ export default function Header() {
 
                   {/* Col 2: Community & Ecology */}
                   <div className="space-y-3">
-                    <h4 className="text-[10px] font-extrabold uppercase tracking-widest text-emerald-600 border-b border-stone-100 pb-1.5">Community &amp; Ecology</h4>
+                    <span className="block text-[10px] font-extrabold uppercase tracking-widest text-emerald-600 border-b border-stone-100 pb-1.5">Community &amp; Ecology</span>
                     <div className="flex flex-col gap-2">
                       {resourcesCommunity.map((item) => (
                         <Link key={item.href} href={item.href} className="text-xs text-stone-600 hover:text-emerald-600 font-bold transition">
@@ -402,7 +330,7 @@ export default function Header() {
 
                   {/* Col 3: Guides & Bookings */}
                   <div className="space-y-3">
-                    <h4 className="text-[10px] font-extrabold uppercase tracking-widest text-emerald-600 border-b border-stone-100 pb-1.5">Guides &amp; Bookings</h4>
+                    <span className="block text-[10px] font-extrabold uppercase tracking-widest text-emerald-600 border-b border-stone-100 pb-1.5">Guides &amp; Bookings</span>
                     <div className="flex flex-col gap-2">
                       {resourcesGuides.map((item) => (
                         <Link key={item.href} href={item.href} className="text-xs text-stone-600 hover:text-emerald-600 font-bold transition">
@@ -414,7 +342,7 @@ export default function Header() {
 
                   {/* Col 4: Day-by-Day Routes */}
                   <div className="space-y-3">
-                    <h4 className="text-[10px] font-extrabold uppercase tracking-widest text-emerald-600 border-b border-stone-100 pb-1.5">Route Segments</h4>
+                    <span className="block text-[10px] font-extrabold uppercase tracking-widest text-emerald-600 border-b border-stone-100 pb-1.5">Route Segments</span>
                     <div className="flex flex-col gap-2">
                       {resourcesRoutes.map((item) => (
                         <Link key={item.href} href={item.href} className="text-xs text-stone-600 hover:text-emerald-600 font-bold transition">
@@ -446,6 +374,7 @@ export default function Header() {
             {/* Hamburger Button */}
             <button 
               onClick={() => setMobileMenuOpen(true)}
+              aria-label="Open navigation menu"
               className="lg:hidden flex items-center justify-center h-10 w-10 rounded-xl bg-stone-100 hover:bg-stone-200 border border-stone-200 text-stone-800 transition cursor-pointer"
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -471,11 +400,12 @@ export default function Header() {
               {/* Header inside drawer */}
               <div className="flex items-center justify-between pb-6 border-b border-stone-100">
                 <Link href="/" className="text-lg font-black text-stone-950 flex items-center gap-2">
-                  <img src="/logo.png" alt="Khopra Ridge Trek Logo" className="h-7 w-7 rounded-lg object-cover" />
+                  <Image src="/logo.png" alt="Khopra Ridge Trek Logo" width={28} height={28} className="rounded-lg object-cover" />
                   <span>KhopraRidgeTrek</span>
                 </Link>
                 <button 
                   onClick={() => setMobileMenuOpen(false)}
+                  aria-label="Close navigation menu"
                   className="h-8 w-8 rounded-lg bg-stone-100 flex items-center justify-center text-stone-600 cursor-pointer"
                 >
                   ✕
@@ -499,6 +429,7 @@ export default function Header() {
                 <div className="border-b border-stone-100 pb-2">
                   <button 
                     onClick={() => handleMobileCategoryToggle("tours")}
+                    aria-expanded={expandedMobileCategory === "tours"}
                     className="w-full flex items-center justify-between py-2 text-sm font-bold text-stone-900 focus:outline-none cursor-pointer"
                   >
                     <span>Tours</span>
@@ -525,6 +456,7 @@ export default function Header() {
                 <div className="border-b border-stone-100 pb-2">
                   <button 
                     onClick={() => handleMobileCategoryToggle("guides")}
+                    aria-expanded={expandedMobileCategory === "guides"}
                     className="w-full flex items-center justify-between py-2 text-sm font-bold text-stone-900 focus:outline-none cursor-pointer"
                   >
                     <span>Guides</span>
@@ -547,6 +479,7 @@ export default function Header() {
                 <div className="border-b border-stone-100 pb-2">
                   <button 
                     onClick={() => handleMobileCategoryToggle("villages")}
+                    aria-expanded={expandedMobileCategory === "villages"}
                     className="w-full flex items-center justify-between py-2 text-sm font-bold text-stone-900 focus:outline-none cursor-pointer"
                   >
                     <span>Villages</span>
@@ -573,6 +506,7 @@ export default function Header() {
                 <div className="border-b border-stone-100 pb-2">
                   <button 
                     onClick={() => handleMobileCategoryToggle("planning")}
+                    aria-expanded={expandedMobileCategory === "planning"}
                     className="w-full flex items-center justify-between py-2 text-sm font-bold text-stone-900 focus:outline-none cursor-pointer"
                   >
                     <span>Planning</span>
@@ -595,6 +529,7 @@ export default function Header() {
                 <div className="border-b border-stone-100 pb-2">
                   <button 
                     onClick={() => handleMobileCategoryToggle("resources")}
+                    aria-expanded={expandedMobileCategory === "resources"}
                     className="w-full flex items-center justify-between py-2 text-sm font-bold text-stone-900 focus:outline-none cursor-pointer"
                   >
                     <span>Resources</span>
@@ -608,7 +543,7 @@ export default function Header() {
                       <div className="space-y-1">
                         <span className="text-[9px] font-extrabold uppercase text-emerald-600 tracking-widest block">Prep &amp; Altitudes</span>
                         {resourcesPrep.map((item) => (
-                          <Link key={item.href} href={item.href} className="block py-0.5 text-xs text-stone-500 hover:text-emerald-600">
+                          <Link key={item.href} href={item.href} className="block py-0.5 text-xs text-stone-600 hover:text-emerald-600">
                             {item.label}
                           </Link>
                         ))}
@@ -616,7 +551,7 @@ export default function Header() {
                       <div className="space-y-1">
                         <span className="text-[9px] font-extrabold uppercase text-emerald-600 tracking-widest block">Community &amp; Ecology</span>
                         {resourcesCommunity.map((item) => (
-                          <Link key={item.href} href={item.href} className="block py-0.5 text-xs text-stone-500 hover:text-emerald-600">
+                          <Link key={item.href} href={item.href} className="block py-0.5 text-xs text-stone-600 hover:text-emerald-600">
                             {item.label}
                           </Link>
                         ))}
@@ -624,7 +559,7 @@ export default function Header() {
                       <div className="space-y-1">
                         <span className="text-[9px] font-extrabold uppercase text-emerald-600 tracking-widest block">Guides &amp; Bookings</span>
                         {resourcesGuides.map((item) => (
-                          <Link key={item.href} href={item.href} className="block py-0.5 text-xs text-stone-500 hover:text-emerald-600">
+                          <Link key={item.href} href={item.href} className="block py-0.5 text-xs text-stone-600 hover:text-emerald-600">
                             {item.label}
                           </Link>
                         ))}
@@ -632,7 +567,7 @@ export default function Header() {
                       <div className="space-y-1">
                         <span className="text-[9px] font-extrabold uppercase text-emerald-600 tracking-widest block">Route Segments</span>
                         {resourcesRoutes.map((item) => (
-                          <Link key={item.href} href={item.href} className="block py-0.5 text-xs text-stone-500 hover:text-emerald-600">
+                          <Link key={item.href} href={item.href} className="block py-0.5 text-xs text-stone-600 hover:text-emerald-600">
                             {item.label}
                           </Link>
                         ))}
@@ -666,193 +601,7 @@ export default function Header() {
       )}
 
       {/* BOOKING MODAL POPUP */}
-      {isModalOpen && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
-          {/* Backdrop overlay */}
-          <div 
-            onClick={closeModal}
-            className="absolute inset-0 bg-stone-950/60 backdrop-blur-sm transition-opacity"
-          />
-
-          {/* Modal Content container */}
-          <div className="relative w-full max-w-2xl bg-white rounded-3xl p-6 md:p-10 shadow-2xl border border-stone-200 overflow-y-auto max-h-[90vh] z-10">
-            {/* Close button */}
-            <button
-              onClick={closeModal}
-              className="absolute right-6 top-6 h-8 w-8 rounded-lg bg-stone-100 hover:bg-stone-200 flex items-center justify-center text-stone-600 font-bold transition cursor-pointer"
-            >
-              ✕
-            </button>
-
-            <div className="text-center max-w-md mx-auto mb-8">
-              <h2 className="text-3xl font-extrabold text-stone-950">Inquire &amp; Book Today</h2>
-              <p className="mt-3 text-sm text-stone-500">
-                Submit your tentative dates and details, and our local trekking planner will get back to you with custom adjustments within 24 hours.
-              </p>
-            </div>
-
-            {inquirySubmitted ? (
-              <div className="text-center p-8 rounded-2xl bg-emerald-50 border border-emerald-200">
-                <span className="text-3xl">🎉</span>
-                <h3 className="mt-4 text-lg font-bold text-emerald-900">Thank you for your inquiry!</h3>
-                <p className="mt-2 text-sm text-emerald-700">
-                  Our team is currently checking lodge availability for your dates and will contact you via email shortly.
-                </p>
-                <button
-                  onClick={closeModal}
-                  className="mt-6 rounded-full bg-emerald-600 px-6 py-2.5 text-xs font-bold text-white hover:bg-emerald-500 transition-all cursor-pointer"
-                >
-                  Close Window
-                </button>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="flex flex-col gap-5 text-left">
-                <div className="grid gap-5 sm:grid-cols-2">
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-xs font-bold text-stone-500 uppercase tracking-wide">Full Name</label>
-                    <input
-                      type="text"
-                      name="name"
-                      required
-                      value={formData.name}
-                      onChange={handleInputChange}
-                      className="rounded-lg border border-stone-200 px-4 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100 transition"
-                      placeholder="Enter your name"
-                    />
-                  </div>
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-xs font-bold text-stone-500 uppercase tracking-wide">Email Address</label>
-                    <input
-                      type="email"
-                      name="email"
-                      required
-                      value={formData.email}
-                      onChange={handleInputChange}
-                      className="rounded-lg border border-stone-200 px-4 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100 transition"
-                      placeholder="name@example.com"
-                    />
-                  </div>
-                </div>
-
-                <div className="grid gap-5 sm:grid-cols-2">
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-xs font-bold text-stone-500 uppercase tracking-wide">Proposed Start Date</label>
-                    <input
-                      type="date"
-                      name="date"
-                      required
-                      value={formData.date}
-                      onChange={handleInputChange}
-                      className="rounded-lg border border-stone-200 px-4 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100 transition text-stone-500"
-                    />
-                  </div>
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-xs font-bold text-stone-500 uppercase tracking-wide">Group Size</label>
-                    <select
-                      name="packSize"
-                      value={formData.packSize}
-                      onChange={handleInputChange}
-                      className="rounded-lg border border-stone-200 px-4 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100 transition text-stone-500 bg-white"
-                    >
-                      <option value="1">1 Trekker (Solo)</option>
-                      <option value="2">2 Trekkers</option>
-                      <option value="3-5">3 - 5 Trekkers</option>
-                      <option value="6-10">6 - 10 Trekkers</option>
-                      <option value="11+">11+ Trekkers</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div className="grid gap-5 sm:grid-cols-2">
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-xs font-bold text-stone-500 uppercase tracking-wide">Trek Package</label>
-                    <select
-                      name="trekPackage"
-                      value={formData.trekPackage}
-                      onChange={handleInputChange}
-                      className="rounded-lg border border-stone-200 px-4 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100 transition text-stone-500 bg-white cursor-pointer"
-                    >
-                      <option value="khayer-lake">Sacred Khayer Lake Pilgrimage (9 Days)</option>
-                      <option value="poon-hill-combo">Poon Hill &amp; Khopra Combo (8 Days)</option>
-                      <option value="mohare-offbeat">Mohare Danda Offbeat (7 Days)</option>
-                      <option value="custom">Custom Designed Itinerary</option>
-                    </select>
-                  </div>
-                  <div className="flex flex-col gap-1.5 relative" ref={foundUsRef}>
-                    <label className="text-xs font-bold text-stone-500 uppercase tracking-wide">Where did you find us?</label>
-                    <div className="relative">
-                      <input
-                        type="text"
-                        name="foundUs"
-                        value={formData.foundUs}
-                        onChange={(e) => {
-                          handleInputChange(e);
-                          setShowFoundUsSuggestions(true);
-                        }}
-                        onFocus={() => setShowFoundUsSuggestions(true)}
-                        className="w-full rounded-lg border border-stone-200 px-4 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100 transition"
-                        placeholder="Start typing or click to select..."
-                        autoComplete="off"
-                      />
-                      {formData.foundUs && (
-                        <button
-                          type="button"
-                          onClick={() => setFormData(prev => ({ ...prev, foundUs: "" }))}
-                          className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 hover:text-stone-600 font-bold text-sm px-1 cursor-pointer"
-                        >
-                          ✕
-                        </button>
-                      )}
-                    </div>
-                    {showFoundUsSuggestions && (
-                      <div className="absolute top-[calc(100%+4px)] left-0 right-0 z-50 max-h-40 overflow-y-auto rounded-xl border border-stone-200 bg-white shadow-xl py-1">
-                        {filteredFoundUsSuggestions.length > 0 ? (
-                          filteredFoundUsSuggestions.map((option, idx) => (
-                            <button
-                              key={idx}
-                              type="button"
-                              onClick={() => {
-                                setFormData(prev => ({ ...prev, foundUs: option }));
-                                setShowFoundUsSuggestions(false);
-                              }}
-                              className="w-full text-left px-4 py-2 text-sm hover:bg-stone-50 transition text-stone-700 font-semibold border-b border-stone-50 last:border-b-0 cursor-pointer"
-                            >
-                              {option}
-                            </button>
-                          ))
-                        ) : (
-                          <div className="px-4 py-2 text-xs text-stone-400 italic font-medium">
-                            Custom value: &quot;{formData.foundUs}&quot;
-                          </div>
-                        )}
-                      </div>
-                    )}
-                  </div>
-                </div>
-
-                <div className="flex flex-col gap-1.5">
-                  <label className="text-xs font-bold text-stone-500 uppercase tracking-wide">Custom Needs / Notes</label>
-                  <textarea
-                    name="message"
-                    rows={3}
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    className="rounded-lg border border-stone-200 px-4 py-2.5 text-sm outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100 transition resize-none"
-                    placeholder="Share details like previous experience, dietary needs..."
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="mt-2 rounded-lg bg-emerald-600 py-3.5 text-sm font-bold text-white shadow-md hover:bg-emerald-500 transition-all cursor-pointer"
-                >
-                  Send Free Booking Inquiry
-                </button>
-              </form>
-            )}
-          </div>
-        </div>
-      )}
+      <BookingModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Page() {
   const images = [
@@ -26,6 +27,9 @@ export default function Page() {
           </p>
         </div>
 
+        {/* Hidden h2 for sequential outline hierarchy */}
+        <h2 className="sr-only">Showcase Gallery Grid</h2>
+
         {/* Visual Showcase Grid */}
         <div className="mt-12 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
           {images.map((img, i) => (
@@ -34,15 +38,17 @@ export default function Page() {
               className="group rounded-3xl bg-white border border-stone-200 overflow-hidden hover:border-emerald-500 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between"
             >
               <div className="relative h-48 bg-stone-100 overflow-hidden">
-                <img 
+                <Image 
                   src={img.src} 
                   alt={img.alt} 
-                  className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover group-hover:scale-105 transition duration-500"
                 />
               </div>
               <div className="p-4 text-center">
-                <h4 className="font-extrabold text-stone-950 text-xs">{img.label}</h4>
-                <p className="text-[10px] text-stone-400 mt-1 leading-snug">{img.alt}</p>
+                <h3 className="font-extrabold text-stone-955 text-xs">{img.label}</h3>
+                <p className="text-[10px] text-stone-600 mt-1 leading-snug">{img.alt}</p>
               </div>
             </div>
           ))}

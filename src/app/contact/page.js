@@ -118,9 +118,9 @@ export default function ContactPage() {
         {/* Left Column: Contact Details */}
         <div className="lg:col-span-2 space-y-10">
           <div>
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight">Direct Contacts</h2>
-            <p className="mt-2 text-stone-500 text-xs font-medium">Reach out via our direct messaging lines for instant assistance.</p>
-            <div className="mt-6 space-y-4 text-sm font-semibold text-stone-800">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight">Direct Contacts</h2>
+            <p className="mt-2 text-stone-600 text-xs font-medium">Reach out via our direct messaging lines for instant assistance.</p>
+            <div className="mt-6 space-y-4 text-sm font-semibold text-stone-850">
               <div className="flex items-center gap-3">
                 <svg className="w-5 h-5 text-emerald-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -144,12 +144,12 @@ export default function ContactPage() {
 
           <div>
             <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight">Our Office</h2>
-            <p className="mt-2 text-stone-500 text-xs font-medium">Drop by our head office in Nepal for a hot cup of tea and trek consultation.</p>
+            <p className="mt-2 text-stone-600 text-xs font-medium">Drop by our head office in Nepal for a hot cup of tea and trek consultation.</p>
             <div className="mt-6 space-y-6 text-xs text-stone-600">
               <div className="p-4 bg-white border border-stone-200 rounded-2xl shadow-sm">
                 <strong className="block text-stone-900 font-bold mb-1">Head Office</strong>
                 <p>Ekata Basti Marg, Kathmandu 44600, Nepal</p>
-                <span className="block text-stone-400 mt-2">Hours: 9:00 AM - 6:00 PM (Daily)</span>
+                <span className="block text-stone-650 mt-2">Hours: 9:00 AM - 6:00 PM (Daily)</span>
               </div>
             </div>
           </div>
@@ -162,8 +162,8 @@ export default function ContactPage() {
             {submitted ? (
               <div className="text-center py-12 space-y-6">
                 <span className="text-6xl block"></span>
-                <h3 className="text-2xl font-black text-stone-950">Inquiry Received Successfully!</h3>
-                <p className="text-stone-500 text-xs max-w-md mx-auto leading-relaxed">
+                <h3 className="text-2xl font-black text-stone-955">Inquiry Received Successfully!</h3>
+                <p className="text-stone-600 text-xs max-w-md mx-auto leading-relaxed">
                   Thank you, <strong className="text-stone-900">{formState.name}</strong>. Our Kathmandu office manager will verify availability for the <strong className="text-stone-900">{formState.package === "khayer-lake" ? "Sacred Khayer Lake Pilgrimage" : formState.package === "poon-hill-combo" ? "Poon Hill & Khopra Combo" : formState.package === "mohare-offbeat" ? "Mohare Danda Offbeat" : "Custom Itinerary"}</strong> starting in <strong className="text-stone-900">{formState.date || "your preferred date"}</strong>. We will email you at <strong className="text-stone-900">{formState.email}</strong> within 12 hours.
                 </p>
                 <div className="pt-4">
@@ -179,7 +179,7 @@ export default function ContactPage() {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight">Booking &amp; General Inquiry</h2>
-                  <p className="mt-2 text-stone-500 text-xs leading-relaxed">Fill out the fields below, and our community trekking guides will help you customize your high-altitude itinerary.</p>
+                  <p className="mt-2 text-stone-600 text-xs leading-relaxed">Fill out the fields below, and our community trekking guides will help you customize your high-altitude itinerary.</p>
                 </div>
 
                 <div className="grid gap-6 sm:grid-cols-2">
@@ -279,7 +279,8 @@ export default function ContactPage() {
                         <button
                           type="button"
                           onClick={() => setFormState(prev => ({ ...prev, foundUs: "" }))}
-                          className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 hover:text-stone-600 font-bold text-sm px-1 cursor-pointer"
+                          aria-label="Clear source input"
+                          className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-600 hover:text-stone-850 font-bold text-sm px-1 cursor-pointer"
                         >
                           ✕
                         </button>
@@ -302,7 +303,7 @@ export default function ContactPage() {
                             </button>
                           ))
                         ) : (
-                          <div className="px-4 py-2.5 text-xs text-stone-400 italic font-medium">
+                          <div className="px-4 py-2.5 text-xs text-stone-600 italic font-medium">
                             Custom value: "{formState.foundUs}"
                           </div>
                         )}

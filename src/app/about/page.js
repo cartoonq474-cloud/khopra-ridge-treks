@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function AboutPage() {
   const values = [
@@ -60,22 +61,22 @@ export default function AboutPage() {
             <div className="flex items-center gap-4">
               <span className="text-3xl"></span>
               <div>
-                <h4 className="font-extrabold text-stone-950 text-base">Direct School Funding</h4>
-                <p className="text-stone-500 text-xs mt-1">Lodge income directly finances English-medium teachers in Swanta and Nangi.</p>
+                <h3 className="font-extrabold text-stone-950 text-base">Direct School Funding</h3>
+                <p className="text-stone-600 text-xs mt-1">Lodge income directly finances English-medium teachers in Swanta and Nangi.</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
               <span className="text-3xl"></span>
               <div>
-                <h4 className="font-extrabold text-stone-950 text-base">Rural Healthcare Support</h4>
-                <p className="text-stone-500 text-xs mt-1">Lodge profits guarantee supplies and nurse salaries for remote community clinics.</p>
+                <h3 className="font-extrabold text-stone-950 text-base">Rural Healthcare Support</h3>
+                <p className="text-stone-600 text-xs mt-1">Lodge profits guarantee supplies and nurse salaries for remote community clinics.</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
               <span className="text-3xl"></span>
               <div>
-                <h4 className="font-extrabold text-stone-950 text-base">Mountain Telemedicine</h4>
-                <p className="text-stone-500 text-xs mt-1">Lodge profits fund solar-powered wireless networks for rescue and medical calls.</p>
+                <h3 className="font-extrabold text-stone-950 text-base">Mountain Telemedicine</h3>
+                <p className="text-stone-600 text-xs mt-1">Lodge profits fund solar-powered wireless networks for rescue and medical calls.</p>
               </div>
             </div>
           </div>
@@ -92,7 +93,7 @@ export default function AboutPage() {
               <div key={idx} className="bg-white border border-stone-200 rounded-3xl p-8 shadow-sm space-y-4 hover:shadow-md transition">
                 <span className="text-4xl block">{v.icon}</span>
                 <h3 className="text-lg font-bold text-stone-950">{v.title}</h3>
-                <p className="text-stone-500 text-xs leading-relaxed">{v.desc}</p>
+                <p className="text-stone-600 text-xs leading-relaxed">{v.desc}</p>
               </div>
             ))}
           </div>
@@ -110,7 +111,7 @@ export default function AboutPage() {
                 <span className="absolute top-4 right-4 text-xs font-black text-emerald-600/20 text-3xl">{m.year}</span>
                 <span className="inline-block rounded-lg bg-emerald-50 text-emerald-700 font-extrabold text-xs px-2.5 py-1 mb-4">{m.year}</span>
                 <h3 className="text-sm font-bold text-stone-950">{m.title}</h3>
-                <p className="text-[11px] text-stone-500 mt-2 leading-relaxed">{m.desc}</p>
+                <p className="text-[11px] text-stone-600 mt-2 leading-relaxed">{m.desc}</p>
               </div>
             ))}
           </div>
@@ -162,24 +163,28 @@ export default function AboutPage() {
                 <div className="space-y-4">
                   <div className="border-b border-stone-100 pb-4 flex items-center gap-4">
                     {guide.image ? (
-                      <img 
-                        src={guide.image} 
-                        alt={guide.name} 
-                        className="h-16 w-16 rounded-full object-cover border border-stone-200"
-                      />
+                      <div className="relative h-16 w-16 rounded-full overflow-hidden border border-stone-200 flex-shrink-0">
+                        <Image 
+                          src={guide.image} 
+                          alt={guide.name} 
+                          fill
+                          sizes="64px"
+                          className="object-cover"
+                        />
+                      </div>
                     ) : (
                       <div className="h-16 w-16 rounded-full bg-emerald-600 text-white flex items-center justify-center font-black text-lg">
                         {guide.name.split(" ").map(n => n[0]).join("")}
                       </div>
                     )}
                     <div>
-                      <h3 className="text-lg font-bold text-stone-950 leading-tight">{guide.name}</h3>
+                      <h3 className="text-lg font-bold text-stone-955 leading-tight">{guide.name}</h3>
                       <span className="text-xs text-emerald-700 font-bold block mt-0.5">{guide.role}</span>
-                      <span className="block text-[10px] text-stone-400 font-bold mt-1 uppercase tracking-wider">{guide.xp}</span>
+                      <span className="block text-[10px] text-stone-600 font-bold mt-1 uppercase tracking-wider">{guide.xp}</span>
                     </div>
                   </div>
                   
-                  <p className="text-xs text-stone-500 leading-relaxed italic">
+                  <p className="text-xs text-stone-600 leading-relaxed italic">
                     "{guide.bio}"
                   </p>
 
@@ -214,7 +219,7 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.1),transparent)]" />
           <div className="relative z-10 space-y-6 max-w-2xl mx-auto">
             <h2 className="text-3xl font-extrabold">Be Part of the Story</h2>
-            <p className="text-stone-400 text-sm leading-relaxed">When you hike the quiet forests, sleep in community lodges, and stand before the Annapurna panorama, you become a direct supporter of our social venture. Join us in making mountain travel sustainable.
+            <p className="text-stone-300 text-sm leading-relaxed">When you hike the quiet forests, sleep in community lodges, and stand before the Annapurna panorama, you become a direct supporter of our social venture. Join us in making mountain travel sustainable.
             </p>
             <div className="pt-4 flex flex-wrap justify-center gap-4">
               <Link href="/tours" className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-500 transition-all">Browse Trek Packages

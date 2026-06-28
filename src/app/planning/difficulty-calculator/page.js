@@ -56,24 +56,28 @@ export default function Page() {
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Interactive Tools</span>
           <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Khopra Ridge Trek Difficulty Calculator
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Calculate your personalized difficulty index. Input your fitness level, altitude experience, and pack setup to receive custom pacing and guide advice.
+          <p className="mt-6 text-lg text-stone-650 leading-relaxed font-medium">Calculate your personalized difficulty index. Input your fitness level, altitude experience, and pack setup to receive custom pacing and guide advice.
           </p>
         </div>
+
+        {/* Hidden h2 for sequential outline hierarchy */}
+        <h2 className="sr-only">Trek Profile Calculator</h2>
 
         {/* Calculator Widget */}
         <div className="mt-12 grid gap-8 md:grid-cols-2">
           
           {/* Controls */}
           <div className="p-8 bg-white border border-stone-200 rounded-3xl shadow-sm space-y-6">
-            <h3 className="text-xl font-bold text-stone-950">Enter Your Profile</h3>
+            <h3 className="text-xl font-bold text-stone-955">Enter Your Profile</h3>
             
             {/* Cardio */}
             <div className="space-y-2">
-              <label className="text-xs font-bold text-stone-500 uppercase tracking-wider block">Weekly Cardio Activity</label>
+              <label htmlFor="difficulty-cardio" className="text-xs font-bold text-stone-600 uppercase tracking-wider block">Weekly Cardio Activity</label>
               <select 
+                id="difficulty-cardio"
                 value={cardio} 
                 onChange={(e) =>setCardio(e.target.value)}
-                className="w-full p-3 bg-stone-50 border border-stone-200 rounded-xl text-sm font-semibold text-stone-800 focus:outline-none focus:border-emerald-500"
+                className="w-full p-3 bg-stone-50 border border-stone-200 rounded-xl text-sm font-semibold text-stone-850 focus:outline-none focus:border-emerald-500"
               >
                 <option value="high">High (4+ hours of running, cycling, or swimming/week)</option>
                 <option value="medium">Medium (2-3 hours of jogging or active sports/week)</option>
@@ -83,11 +87,12 @@ export default function Page() {
 
             {/* Altitude Experience */}
             <div className="space-y-2">
-              <label className="text-xs font-bold text-stone-500 uppercase tracking-wider block">Altitude Experience</label>
+              <label htmlFor="difficulty-altitude" className="text-xs font-bold text-stone-600 uppercase tracking-wider block">Altitude Experience</label>
               <select 
+                id="difficulty-altitude"
                 value={altitude} 
                 onChange={(e) =>setAltitude(e.target.value)}
-                className="w-full p-3 bg-stone-50 border border-stone-200 rounded-xl text-sm font-semibold text-stone-800 focus:outline-none focus:border-emerald-500"
+                className="w-full p-3 bg-stone-50 border border-stone-200 rounded-xl text-sm font-semibold text-stone-850 focus:outline-none focus:border-emerald-500"
               >
                 <option value="high">Experienced (Hiked/slept above 3,500m / 11,500ft recently)</option>
                 <option value="low">Some (Hiked above 2,500m but haven&apos;t slept at high altitude)</option>
@@ -97,11 +102,12 @@ export default function Page() {
 
             {/* Pack Weight */}
             <div className="space-y-2">
-              <label className="text-xs font-bold text-stone-500 uppercase tracking-wider block">Expected Backpack Setup</label>
+              <label htmlFor="difficulty-pack" className="text-xs font-bold text-stone-600 uppercase tracking-wider block">Expected Backpack Setup</label>
               <select 
+                id="difficulty-pack"
                 value={packWeight} 
                 onChange={(e) =>setPackWeight(e.target.value)}
-                className="w-full p-3 bg-stone-50 border border-stone-200 rounded-xl text-sm font-semibold text-stone-800 focus:outline-none focus:border-emerald-500"
+                className="w-full p-3 bg-stone-50 border border-stone-200 rounded-xl text-sm font-semibold text-stone-850 focus:outline-none focus:border-emerald-500"
               >
                 <option value="light">Light (Hiring a porter to carry main pack, carrying only ~4kg daypack)</option>
                 <option value="medium">Medium (Carrying own pack with basic clothing, ~10kg)</option>
@@ -122,41 +128,44 @@ export default function Page() {
               <div className="space-y-6 flex-1">
                 <span className="text-xs font-bold uppercase tracking-widest text-emerald-600 block">Personal Estimate</span>
                 <div>
-                  <span className="text-[10px] uppercase font-bold text-stone-400 tracking-wider block">Estimated Difficulty Score</span>
-                  <span className="text-5xl font-black text-stone-950 mt-1 block">{score.toFixed(1)} <span className="text-stone-400 text-base">/ 10</span></span>
+                  <span className="text-[10px] uppercase font-bold text-stone-600 tracking-wider block">Estimated Difficulty Score</span>
+                  <span className="text-5xl font-black text-stone-950 mt-1 block">{score.toFixed(1)} <span className="text-stone-600 text-base">/ 10</span></span>
                 </div>
                 <div>
-                  <span className="text-[10px] uppercase font-bold text-stone-400 tracking-wider block">Verdict Rating</span>
-                  <span className="text-base font-extrabold text-stone-950 mt-1 block">{verdict}</span>
+                  <span className="text-[10px] uppercase font-bold text-stone-600 tracking-wider block">Verdict Rating</span>
+                  <span className="text-base font-extrabold text-stone-955 mt-1 block">{verdict}</span>
                 </div>
                 <div>
-                  <span className="text-[10px] uppercase font-bold text-stone-400 tracking-wider block">Expert Trail Advice</span>
-                  <p className="text-xs text-stone-600 leading-relaxed mt-2">{advice}</p>
+                  <span className="text-[10px] uppercase font-bold text-stone-600 tracking-wider block">Expert Trail Advice</span>
+                  <p className="text-xs text-stone-650 leading-relaxed mt-2">{advice}</p>
                 </div>
               </div>
             ) : (
               <div className="flex flex-col items-center justify-center text-center h-full py-12 space-y-4">
                 <span className="text-4xl"></span>
                 <div>
-                  <h4 className="font-bold text-stone-950 text-sm">Calculations Pending</h4>
-                  <p className="text-xs text-stone-500 mt-2 leading-relaxed max-w-xs mx-auto">Select your cardiovascular activity, altitude history, and backpack weight to estimate your personal trek difficulty score.
+                  <div className="font-bold text-stone-950 text-sm">Calculations Pending</div>
+                  <p className="text-xs text-stone-600 mt-2 leading-relaxed max-w-xs mx-auto">Select your cardiovascular activity, altitude history, and backpack weight to estimate your personal trek difficulty score.
                   </p>
                 </div>
               </div>
             )}
 
-            <div className="mt-8 pt-6 border-t border-stone-200/60 text-[10px] text-stone-400 leading-relaxed">
+            <div className="mt-8 pt-6 border-t border-stone-200/60 text-[10px] text-stone-600 leading-relaxed">
               *Calculations are based on average trail gradients, high sleeping altitudes at Dobato and Khopra Ridge, and the 1,000m ascent to Khayer Lake.
             </div>
           </div>
 
         </div>
 
+        {/* Hidden h2 for sequential outline hierarchy */}
+        <h2 className="sr-only">Additional Information &amp; Safety Resources</h2>
+
         {/* E-E-A-T AUTHOR BADGE */}
         <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
           <span className="text-2xl mt-0.5"></span>
           <div>
-            <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
+            <h3 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h3>
             <p className="mt-2 text-xs text-stone-600 leading-relaxed">This estimator is maintained in cooperation with the local medical rescue networks of Pokhara to ensure realistic safety advice for independent hikers.
             </p>
           </div>
@@ -166,7 +175,7 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Secure a Guided &amp; Supported Trek</h3>
-            <p className="mt-4 text-stone-400 text-sm leading-relaxed max-w-lg">Want to minimize difficulty? Our standard package includes experienced local guides and porters to carry your heavy luggage safely.
+            <p className="mt-4 text-stone-300 text-sm leading-relaxed max-w-lg">Want to minimize difficulty? Our standard package includes experienced local guides and porters to carry your heavy luggage safely.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link

@@ -29,7 +29,7 @@ export default function Page() {
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Stage 6 Booking</span>
           <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950">Secure Trek Inquiry
           </h1>
-          <p className="mt-4 text-sm text-stone-500 leading-relaxed max-w-md mx-auto">Submit your preferred dates and group size. Our local booking coordinators in Pokhara will review availability and send a customized invoice within 12 hours.
+          <p className="mt-4 text-sm text-stone-650 leading-relaxed max-w-md mx-auto">Submit your preferred dates and group size. Our local booking coordinators in Pokhara will review availability and send a customized invoice within 12 hours.
           </p>
         </div>
 
@@ -40,26 +40,28 @@ export default function Page() {
               <div className="grid gap-4 sm:grid-cols-2">
                 {/* Name */}
                 <div className="space-y-2">
-                  <label className="text-xs font-bold text-stone-400 uppercase tracking-wider block">Full Name</label>
+                  <label htmlFor="checkout-name" className="text-xs font-bold text-stone-600 uppercase tracking-wider block">Full Name</label>
                   <input 
+                    id="checkout-name"
                     type="text" 
                     required 
                     value={formData.name}
                     onChange={(e) =>setFormData({...formData, name: e.target.value})}
                     placeholder="Sarah Jenkins" 
-                    className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-800"
+                    className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-850"
                   />
                 </div>
                 {/* Email */}
                 <div className="space-y-2">
-                  <label className="text-xs font-bold text-stone-400 uppercase tracking-wider block">Email Address</label>
+                  <label htmlFor="checkout-email" className="text-xs font-bold text-stone-600 uppercase tracking-wider block">Email Address</label>
                   <input 
+                    id="checkout-email"
                     type="email" 
                     required 
                     value={formData.email}
                     onChange={(e) =>setFormData({...formData, email: e.target.value})}
                     placeholder="sarah@example.com" 
-                    className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-800"
+                    className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-850"
                   />
                 </div>
               </div>
@@ -67,22 +69,24 @@ export default function Page() {
               <div className="grid gap-4 sm:grid-cols-3">
                 {/* Preferred Date */}
                 <div className="space-y-2">
-                  <label className="text-xs font-bold text-stone-400 uppercase tracking-wider block">Start Date</label>
+                  <label htmlFor="checkout-date" className="text-xs font-bold text-stone-600 uppercase tracking-wider block">Start Date</label>
                   <input 
+                    id="checkout-date"
                     type="date" 
                     required 
                     value={formData.date}
                     onChange={(e) =>setFormData({...formData, date: e.target.value})}
-                    className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-800"
+                    className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-850"
                   />
                 </div>
                 {/* Trekkers */}
                 <div className="space-y-2">
-                  <label className="text-xs font-bold text-stone-400 uppercase tracking-wider block">Group Size</label>
+                  <label htmlFor="checkout-pax" className="text-xs font-bold text-stone-600 uppercase tracking-wider block">Group Size</label>
                   <select 
+                    id="checkout-pax"
                     value={formData.pax}
                     onChange={(e) =>setFormData({...formData, pax: e.target.value})}
-                    className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-600 cursor-pointer"
+                    className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-650 cursor-pointer"
                   >
                     {[1, 2, 3, 4, 5, 6, "7+ (Group)"].map((n) => (
                       <option key={n} value={n}>{n} {n === 1 ? "Trekker" : "Trekkers"}</option>
@@ -91,11 +95,12 @@ export default function Page() {
                 </div>
                 {/* Duration */}
                 <div className="space-y-2">
-                  <label className="text-xs font-bold text-stone-400 uppercase tracking-wider block">Trek Itinerary</label>
+                  <label htmlFor="checkout-duration" className="text-xs font-bold text-stone-600 uppercase tracking-wider block">Trek Itinerary</label>
                   <select 
+                    id="checkout-duration"
                     value={formData.duration}
                     onChange={(e) =>setFormData({...formData, duration: e.target.value})}
-                    className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-600 cursor-pointer"
+                    className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-655 cursor-pointer"
                   >
                     <option value="9">9-Day Core Route</option>
                     <option value="7">7-Day Express Route</option>
@@ -106,13 +111,14 @@ export default function Page() {
 
               {/* Special Requests */}
               <div className="space-y-2">
-                <label className="text-xs font-bold text-stone-400 uppercase tracking-wider block">Special requests / Diet / Accommodation</label>
+                <label htmlFor="checkout-requests" className="text-xs font-bold text-stone-600 uppercase tracking-wider block">Special requests / Diet / Accommodation</label>
                 <textarea 
+                  id="checkout-requests"
                   value={formData.specialRequest}
                   onChange={(e) =>setFormData({...formData, specialRequest: e.target.value})}
                   rows="4" 
                   placeholder="E.g. Vegetarian diet, require down jacket rentals, single room request..." 
-                  className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-800"
+                  className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-850"
                 ></textarea>
               </div>
 
@@ -123,7 +129,7 @@ export default function Page() {
               >Submit Secure Inquiry
               </button>
 
-              <div className="text-center text-[10px] text-stone-400 font-semibold flex justify-center gap-6 pt-4 border-t border-stone-100">
+              <div className="text-center text-[10px] text-stone-600 font-semibold flex justify-center gap-6 pt-4 border-t border-stone-100">
                 <span>SSL Encrypted Connection</span>
                 <span>ACA Approved Operator</span>
               </div>
@@ -131,8 +137,8 @@ export default function Page() {
           ) : (
             <div className="text-center py-10 space-y-6">
               <span className="text-5xl block"></span>
-              <h3 className="text-2xl font-bold text-stone-950">Inquiry Submitted Successfully!</h3>
-              <p className="text-sm text-stone-500 leading-relaxed max-w-sm mx-auto">Thank you, <strong className="text-stone-800">{formData.name}</strong>. Our local coordinators in Pokhara are checking community lodge room registers. We will send your itinerary breakdown and payment link via email at <strong className="text-stone-800">{formData.email}</strong>shortly.
+              <h3 className="text-2xl font-bold text-stone-955">Inquiry Submitted Successfully!</h3>
+              <p className="text-sm text-stone-650 leading-relaxed max-w-sm mx-auto">Thank you, <strong className="text-stone-850">{formData.name}</strong>. Our local coordinators in Pokhara are checking community lodge room registers. We will send your itinerary breakdown and payment link via email at <strong className="text-stone-850">{formData.email}</strong> shortly.
               </p>
               <Link
                 href="/"

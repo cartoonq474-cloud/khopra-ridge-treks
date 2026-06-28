@@ -85,29 +85,37 @@ export default function TeahouseFinder() {
     <div className="space-y-6">
       {/* Filters and Search Bar */}
       <div className="bg-white p-6 border border-stone-200 rounded-3xl shadow-sm space-y-4">
-        <span className="text-xs font-bold text-stone-400 uppercase tracking-wider block">
+        <span className="text-xs font-bold text-stone-600 uppercase tracking-wider block">
            Search &amp; Filter Database
-        </span>
+         </span>
         <div className="grid gap-4 sm:grid-cols-2">
           {/* Search Input */}
-          <input 
-            type="text" 
-            placeholder="Search by lodge name or village..." 
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-800"
-          />
+          <div>
+            <label className="sr-only" htmlFor="teahouse-search">Search by lodge name or village</label>
+            <input 
+              id="teahouse-search"
+              type="text" 
+              placeholder="Search by lodge name or village..." 
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-800"
+            />
+          </div>
           {/* Facility Select */}
-          <select
-            value={selectedFacility}
-            onChange={(e) => setSelectedFacility(e.target.value)}
-            className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-600 cursor-pointer font-semibold"
-          >
-            <option value="all">Filter by Facility (All)</option>
-            {availableFacilities.map((fac) => (
-              <option key={fac} value={fac}>{fac}</option>
-            ))}
-          </select>
+          <div>
+            <label className="sr-only" htmlFor="teahouse-facility">Filter by Facility</label>
+            <select
+              id="teahouse-facility"
+              value={selectedFacility}
+              onChange={(e) => setSelectedFacility(e.target.value)}
+              className="w-full bg-stone-50 border border-stone-200 rounded-2xl px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-emerald-500 text-stone-650 cursor-pointer font-semibold"
+            >
+              <option value="all">Filter by Facility (All)</option>
+              {availableFacilities.map((fac) => (
+                <option key={fac} value={fac}>{fac}</option>
+              ))}
+            </select>
+          </div>
         </div>
       </div>
 
@@ -125,7 +133,7 @@ export default function TeahouseFinder() {
                   <span className="text-[10px] font-bold text-emerald-600 uppercase tracking-wider block">
                      {lodge.village}
                   </span>
-                  <span className="text-[10px] font-semibold text-stone-400 block mt-0.5">
+                  <span className="text-[10px] font-semibold text-stone-600 block mt-0.5">
                     Altitude: {lodge.altitude}
                   </span>
                 </div>
@@ -140,18 +148,18 @@ export default function TeahouseFinder() {
 
               {/* Title and Details */}
               <div className="space-y-3 flex-1">
-                <h3 className="text-lg font-extrabold text-stone-950 leading-snug">{lodge.name}</h3>
+                <h3 className="text-lg font-extrabold text-stone-955 leading-snug">{lodge.name}</h3>
                 
                 <div className="text-xs space-y-1.5 text-stone-650">
                   <div className="flex justify-between">
-                    <span className="text-stone-400">Twin Room Rate:</span>
+                    <span className="text-stone-600">Twin Room Rate:</span>
                     <strong className="text-stone-850 font-bold">{lodge.rate}</strong>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-stone-400">Contact Number:</span>
+                    <span className="text-stone-600">Contact Number:</span>
                     <strong className="text-stone-850 font-bold">{lodge.phone}</strong>
                   </div>
-                  <div className="p-3 bg-stone-50 border border-stone-100 rounded-xl mt-2 text-xs text-stone-500 leading-relaxed font-medium">
+                  <div className="p-3 bg-stone-50 border border-stone-100 rounded-xl mt-2 text-xs text-stone-600 leading-relaxed font-medium">
                      <strong className="text-stone-700">Reinvested Profits:</strong> {lodge.socialSupport}
                   </div>
                 </div>
@@ -162,7 +170,7 @@ export default function TeahouseFinder() {
                 {lodge.facilities.map((fac) => (
                   <span 
                     key={fac} 
-                    className="text-[9px] font-extrabold text-stone-450 uppercase tracking-wider border border-stone-200 px-2 py-0.5 rounded-md bg-stone-50/50"
+                    className="text-[9px] font-extrabold text-stone-600 uppercase tracking-wider border border-stone-200 px-2 py-0.5 rounded-md bg-stone-50/50"
                   >
                     {fac}
                   </span>
@@ -171,7 +179,7 @@ export default function TeahouseFinder() {
             </div>
           ))
         ) : (
-          <div className="col-span-2 text-center p-12 bg-white border border-stone-200 rounded-3xl text-stone-400 font-bold text-sm">
+          <div className="col-span-2 text-center p-12 bg-white border border-stone-200 rounded-3xl text-stone-600 font-bold text-sm">
             No lodges found matching your search.
           </div>
         )}
