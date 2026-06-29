@@ -6,25 +6,27 @@ export default function HeroDescription() {
   const [isHeroExpanded, setIsHeroExpanded] = useState(false);
 
   return (
-    <div className="mt-6 text-base sm:text-lg text-stone-300 leading-relaxed max-w-3xl mx-auto space-y-4 text-center">
-      <p>
-        Discover the uncrowded wonders of the Annapurna region. A serene, visually stunning journey featuring sacred alpine lakes, community lodges, and the most dramatic 360-degree views of Dhaulagiri and Annapurna South. This wilderness trail winds through pristine rhododendron forests, authentic Magar villages, and high-alpine pastures, offering a rare opportunity to support local communities directly.
+    <div className="mt-6 text-base sm:text-lg text-stone-300 leading-relaxed max-w-3xl mx-auto text-center">
+      <div>
+        <span>
+          Discover the uncrowded wonders of the Annapurna region. A serene, visually stunning journey featuring sacred alpine lakes, community lodges, and the most dramatic 360-degree views of Dhaulagiri and Annapurna South. This wilderness trail winds through pristine rhododendron forests, authentic Magar villages, and high-alpine pastures, offering a rare opportunity to support local communities directly.
+        </span>
         {!isHeroExpanded && (
           <button
             type="button"
             onClick={() => setIsHeroExpanded(true)}
-            className="text-emerald-400 hover:text-emerald-300 font-bold underline transition ml-1 inline-flex items-center cursor-pointer"
+            className="text-emerald-400 hover:text-emerald-300 font-bold underline transition ml-2 inline-flex items-center cursor-pointer"
           >
             See More →
           </button>
         )}
-      </p>
+      </div>
       
       {/* 
         SSR SEO ARCHITECTURE:
         This container is permanently rendered in the HTML DOM tree during Server-Side Rendering (SSR).
         Search engine crawlers (Googlebot) read and index 100% of the keywords inside this markup.
-        CSS controls visual visibility for client-side users.
+        CSS controls visual visibility for client-side users while valid HTML nesting ensures clean React hydration.
       */}
       <div className={isHeroExpanded ? "space-y-4 mt-4 block transition-all duration-300 opacity-100 animate-fade-in" : "hidden"}>
         <p>
@@ -35,14 +37,16 @@ export default function HeroDescription() {
         </p>
         <p>
           This lesser-known trail winds through pristine rhododendron forests, traditional Magar villages, and high-alpine pastures before reaching the spectacular viewpoint of Khopra Ridge (Khopra Danda). Along the way, trekkers enjoy dramatic views of Annapurna South, Dhaulagiri, Nilgiri, Machhapuchhre (Fishtail), and the world's deepest gorge, while directly supporting local communities through a network of community-owned lodges. For those seeking outstanding mountain scenery, cultural immersion, and a rewarding journey to the sacred pilgrimage site of Khayer Lake, the Khopra Ridge Trek delivers one of the most memorable trekking experiences in the Annapurna region.
+        </p>
+        <div className="pt-1">
           <button
             type="button"
             onClick={() => setIsHeroExpanded(false)}
-            className="text-emerald-400 hover:text-emerald-300 font-bold underline transition ml-1 inline-flex items-center cursor-pointer"
+            className="text-emerald-400 hover:text-emerald-300 font-bold underline transition inline-flex items-center cursor-pointer"
           >
             See Less
           </button>
-        </p>
+        </div>
       </div>
     </div>
   );
