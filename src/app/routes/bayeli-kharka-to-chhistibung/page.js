@@ -97,7 +97,7 @@ export default function BayeliToChhistibungRoutePage() {
         {/* Introduction */}
         <article className="mt-12 space-y-6 text-stone-700 leading-relaxed text-base sm:text-lg">
           <p>
-            If you've already trekked into Bayeli Kharka, you've earned a quiet, forested stretch of trail before the climb toward Khopra Danda begins. The walk from Bayeli Kharka to Chhistibung is one of the most underrated sections of the entire Khopra Ridge trek, and it has nothing to do with mountain views.
+            If you've already trekked into Bayeli Kharka, you've earned a quiet, forested stretch of trail before the climb toward Khopra Danda begins. The walk from Bayeli Kharka to Chhistibung is one of the most underrated sections of the entire <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link>, and it has nothing to do with mountain views.
           </p>
           <p>
             This stage drops you into a different world: thick bamboo groves, shaded oak forest, and a river valley that feels miles away from the busier teahouse trails near Ghorepani and Poon Hill. It's also one of the best wildlife-watching segments on the route, with regular Himalayan Langur monkey sightings and a real chance of spotting the <Link href="/ecology/wildlife-khopra-trek" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Himalayan Monal</Link>, Nepal's national bird, moving through the undergrowth.

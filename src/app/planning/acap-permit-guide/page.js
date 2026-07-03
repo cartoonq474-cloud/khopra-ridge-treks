@@ -68,7 +68,7 @@ export default function Page() {
         <div className="mt-16 rounded-3xl bg-emerald-950 p-8 text-white relative overflow-hidden">
           <div className="relative z-10 max-w-xl">
             <h3 className="text-2xl font-bold">Avoid Bureaucratic Hassles</h3>
-            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">Book our guided community trek. We manage all permit logistics, TIMS cards, and local registration checkposts for you.
+            <p className="mt-4 text-emerald-100/80 text-sm leading-relaxed">Book our <Link href="/" className="text-emerald-400 underline font-bold hover:text-emerald-300">guided community trek</Link>. We manage all permit logistics, TIMS cards, and local registration checkposts for you.
             </p>
             <Link
               href="/#book"

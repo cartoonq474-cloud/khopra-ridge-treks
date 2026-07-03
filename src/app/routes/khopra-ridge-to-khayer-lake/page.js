@@ -97,7 +97,7 @@ export default function KhopraToKhayerRoutePage() {
         {/* Introduction */}
         <article className="mt-12 space-y-6 text-stone-700 leading-relaxed text-base sm:text-lg">
           <p>
-            The hike from Khopra Ridge to Sacred Khayer Lake is the most demanding and most rewarding single day on the entire Khopra Ridge Trek. You leave behind the warmth of the community lodge before sunrise, climb over a thousand metres through exposed alpine terrain, and arrive at a high-altitude sacred lake sitting beneath the towering west face of Annapurna South. Very few trekkers in the Annapurna region ever reach this elevation. Even fewer experience the silence and spiritual intensity that surrounds Khayer Lake at 4,660 metres.
+            The hike from Khopra Ridge to Sacred Khayer Lake is the most demanding and most rewarding single day on the entire <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link>. You leave behind the warmth of the community lodge before sunrise, climb over a thousand metres through exposed alpine terrain, and arrive at a high-altitude sacred lake sitting beneath the towering west face of Annapurna South. Very few trekkers in the Annapurna region ever reach this elevation. Even fewer experience the silence and spiritual intensity that surrounds Khayer Lake at 4,660 metres.
           </p>
           <p>
             This is not a gentle walk. The route crosses rocky scree slopes, exposed ridge flanks, and narrow mountain paths in thin mountain air. It demands proper preparation, an early start, and the right mindset. But for those who complete it, Khayer Lake becomes the defining memory of the entire trek.

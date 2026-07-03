@@ -100,7 +100,7 @@ export default function TadapaniToBayeliRoutePage() {
             If you've already trekked from Ghandruk to Tadapani, you'll have noticed how busy that first stretch of trail can feel. Tea houses fill up fast, and the path shares space with trekkers heading toward Poon Hill and the Annapurna Sanctuary. The walk from Tadapani to Bayeli Kharka is where that changes.
           </p>
           <p>
-            This section breaks away from the main Annapurna routes and climbs into forest that sees a fraction of the foot traffic. It's the gateway into the Khopra Ridge Trek proper, and for many trekkers, it's the first real taste of the solitude and scenery that make this trek worth doing in the first place.
+            This section breaks away from the main Annapurna routes and climbs into forest that sees a fraction of the foot traffic. It's the gateway into the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link> proper, and for many trekkers, it's the first real taste of the solitude and scenery that make this trek worth doing in the first place.
           </p>
           <p>
             This guide walks through everything you need to know before setting out: how far it is, how long it takes, what the trail actually looks like underfoot, where you'll sleep, and when to go. By the end, you'll know exactly what to expect from Tadapani to Bayeli Kharka.

@@ -175,7 +175,7 @@ export default function Page() {
         <div className="mt-12 rounded-3xl bg-stone-950 p-8 text-white border border-white/5 shadow-2xl relative overflow-hidden">
           <div className="relative z-10">
             <h3 className="text-2xl font-bold">Secure a Guided &amp; Supported Trek</h3>
-            <p className="mt-4 text-stone-300 text-sm leading-relaxed max-w-lg">Want to minimize difficulty? Our standard package includes experienced local guides and porters to carry your heavy luggage safely.
+            <p className="mt-4 text-stone-300 text-sm leading-relaxed max-w-lg">Want to minimize difficulty? Our <Link href="/" className="text-emerald-400 underline font-bold hover:text-emerald-300">standard package</Link> includes experienced local guides and porters to carry your heavy luggage safely.
             </p>
             <div className="mt-6 flex flex-wrap gap-4">
               <Link
