@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/safety/helicopter-rescue-evacuation",
+  },
   title: "Helicopter Rescue & Safety Protocols for Trekking Emergencies",
   description: "Get the facts on helicopter rescue, safety protocols, and insurance requirements during trekking emergencies on the Khopra Ridge Trek and in the Annapurna region.",
 };

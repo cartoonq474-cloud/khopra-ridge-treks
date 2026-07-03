@@ -3,6 +3,9 @@ import Link from "next/link";
 import InteractiveChecklist from "./InteractiveChecklist";
 
 export const metadata = {
+  alternates: {
+    canonical: "/planning/packing-checklist",
+  },
   title: "Interactive Trek Packing Checklist: Smart Packing Guide for Every Trekking Season",
   description: "Use our interactive trek packing checklist to build a custom gear list by season and trekking style. Track your progress, print it, and pack smarter for your trek.",
 };

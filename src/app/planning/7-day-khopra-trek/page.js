@@ -154,3 +154,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/planning/7-day-khopra-trek',
+  },
+};

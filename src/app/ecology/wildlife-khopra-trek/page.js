@@ -3,6 +3,9 @@ import Link from "next/link";
 import WildlifeFaqInteractive from "./WildlifeFaqInteractive";
 
 export const metadata = {
+  alternates: {
+    canonical: "/ecology/wildlife-khopra-trek",
+  },
   title: "Wildlife of the Khopra Ridge Trail: Complete Guide to Animals, Birds & Himalayan Biodiversity",
   description: "Discover the wildlife of the Khopra Ridge Trail — from Himalayan Tahr and Musk Deer to the Danphe and Lammergeier. A trekker's field guide to animals, birds, and ecosystems in the Annapurna Conservation Area.",
 };

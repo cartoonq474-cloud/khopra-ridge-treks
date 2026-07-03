@@ -3,6 +3,9 @@ import Link from "next/link";
 import AcaFaqInteractive from "./AcaFaqInteractive";
 
 export const metadata = {
+  alternates: {
+    canonical: "/ecology/annapurna-conservation-area-guide",
+  },
   title: "Annapurna Conservation Area (ACA) Guide: Permits, Routes & Rules Explained",
   description: "Planning to trek Annapurna? This complete Annapurna Conservation Area (ACA) guide covers ACAP permits, entry checkpoints, trekking routes, wildlife, and rules you need to know.",
 };

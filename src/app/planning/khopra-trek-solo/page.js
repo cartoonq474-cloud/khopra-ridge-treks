@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/planning/khopra-trek-solo",
+  },
   title: "Solo Trekking to Khopra Ridge: Complete Guide, Safety, Costs & Route Planning",
   description: "Planning a solo trek to Khopra Ridge? Get the full picture on rules, safety, route, itinerary, costs, and lodge logistics before you go.",
 };

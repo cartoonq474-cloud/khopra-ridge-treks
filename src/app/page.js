@@ -4,14 +4,23 @@ import Link from "next/link";
 
 import HeroSection from "@/components/home/HeroSection";
 import TrekSpecsSection from "@/components/home/TrekSpecsSection";
+import AccommodationDifficultySection from "@/components/home/AccommodationDifficultySection";
 import ItinerarySection from "@/components/home/ItinerarySection";
 import CoverageSection from "@/components/home/CoverageSection";
+import CultureFoodSection from "@/components/home/CultureFoodSection";
+import PackingListSection from "@/components/home/PackingListSection";
+import PermitSection from "@/components/home/PermitSection";
+import TypicalDaySection from "@/components/home/TypicalDaySection";
+import WhyBookWithUs from "@/components/home/WhyBookWithUs";
 import PricingSection from "@/components/home/PricingSection";
 import ReviewsSection from "@/components/home/ReviewsSection";
 import FaqSection from "@/components/home/FaqSection";
 import BookingSection from "@/components/home/BookingSection";
 
 export const metadata = {
+  alternates: {
+    canonical: "/",
+  },
   title: "Khopra Ridge Trek | Nirvana Trails",
   description: "Discover the uncrowded wonders of the Annapurna region on the Khopra Ridge Trek. Sacred alpine lakes, community lodges, and dramatic 360-degree views of Dhaulagiri.",
 };
@@ -159,95 +168,11 @@ export default function Home() {
 
       <CoverageSection />
 
-      {/* GEAR ESSENTIALS & SEASONAL CLIMATE */}
-      <section className="py-24 bg-stone-50 border-t border-stone-200">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="text-center mb-16">
-            <span className="text-xs font-bold text-emerald-700 uppercase tracking-widest bg-emerald-100/50 px-3 py-1.5 rounded-full">Logistical Prep</span>
-            <h2 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-900 sm:text-5xl">
-              Gear Essentials &amp; Climate Matrix
-            </h2>
-            <p className="mt-4 text-stone-500 text-base max-w-2xl mx-auto font-medium">
-              Prepare for extreme climate shifts as you journey from subtropical Pokhara to freezing alpine ridges. Check the packing essentials and seasonal temperature trends.
-            </p>
-          </div>
+      <PackingListSection />
 
-          <div className="grid gap-8 lg:grid-cols-12 items-stretch">
-            
-            {/* COLUMN 1: 6 Gear Essentials */}
-            <div className="lg:col-span-7 rounded-3xl border border-stone-200 bg-white p-8 shadow-sm flex flex-col justify-between">
-              <div>
-                <h3 className="text-xl font-bold text-stone-900 border-b border-stone-100 pb-4 mb-6">
-                  6 Absolute Packing Essentials
-                </h3>
-                
-                <div className="grid gap-4 sm:grid-cols-2">
-                  {[
-                    { title: "Broken-in Boots", emoji: "🥾", code: "1f97e", desc: "Ankle-high waterproof boots. Ensure they are well broken-in to avoid deep trail blisters." },
-                    { title: "-10°C Sleeping Bag", emoji: "⛺", code: "26fa", desc: "Warm down sleeping bag rated to comfort -10°C. Lodge rooms are unheated and cold." },
-                    { title: "Trekking Poles", emoji: "🚶", code: "1f6b6", desc: "Highly recommended for steep knee-jarring descents from Khopra and Khayer Lake." },
-                    { title: "Thermal Base Layers", emoji: "👕", code: "1f455", desc: "Moisture-wicking merino wool tops and bottoms. Avoid cotton as it retains sweat." },
-                    { title: "High-Loft Down Jacket", emoji: "🧥", code: "1f9e5", desc: "A warm, windproof down jacket for freezing mornings and sunset ridge viewing." },
-                    { title: "Water Purification", emoji: "💧", code: "1f4a7", desc: "Purification tablets or UV filters. Single-use plastic bottles are banned in ACAP." }
-                  ].map((gear, i) => (
-                    <div key={i} className="p-4 rounded-2xl bg-stone-50 border border-stone-100 hover:border-emerald-500/20 transition group">
-                      <div className="flex items-center gap-3">
-                        <span className="text-2xl select-none">{gear.emoji}</span>
-                        <h4 className="font-bold text-stone-900 text-sm">{gear.title}</h4>
-                      </div>
-                      <p className="text-[11px] text-stone-500 mt-2 leading-relaxed">{gear.desc}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
+      <TypicalDaySection />
 
-              <div className="mt-6 pt-4 border-t border-stone-100 text-[11px] text-stone-400 font-medium">
-                Want a complete checklist? Read our interactive <Link href="/planning/packing-checklist" className="text-emerald-700 underline font-bold hover:text-emerald-600">Packing List Guide</Link>.
-              </div>
-            </div>
-
-            {/* COLUMN 2: Seasonal Temperature Matrix */}
-            <div className="lg:col-span-5 rounded-3xl border border-emerald-100 bg-[#0c1715] text-white p-8 shadow-sm flex flex-col justify-between">
-              <div>
-                <h3 className="text-xl font-bold text-white border-b border-white/10 pb-4 mb-6">
-                  Seasonal Temperature Matrix
-                </h3>
-                
-                <div className="overflow-hidden rounded-2xl border border-white/10 bg-stone-950/60">
-                  <table className="min-w-full divide-y divide-white/5 text-left text-xs sm:text-sm">
-                    <thead className="bg-stone-950 text-emerald-400 font-extrabold uppercase tracking-wider text-[10px]">
-                      <tr>
-                        <th className="px-5 py-3.5">Location</th>
-                        <th className="px-5 py-3.5">Spring (Mar-May)</th>
-                        <th className="px-5 py-3.5">Autumn (Oct-Nov)</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-white/5 text-stone-300 font-medium">
-                      {[
-                        { loc: "Pokhara (820m)", spring: "15°C to 28°C", autumn: "12°C to 25°C" },
-                        { loc: "Swanta (2,200m)", spring: "8°C to 18°C", autumn: "5°C to 15°C" },
-                        { loc: "Khopra Ridge (3,660m)", spring: "-2°C to 12°C", autumn: "-5°C to 10°C" },
-                        { loc: "Khayer Lake (4,660m)", spring: "-8°C to 5°C", autumn: "-10°C to 2°C" }
-                      ].map((row, i) => (
-                        <tr key={i} className="hover:bg-white/5 transition">
-                          <td className="px-5 py-3.5 font-bold text-white">{row.loc}</td>
-                          <td className="px-5 py-3.5 text-stone-400">{row.spring}</td>
-                          <td className="px-5 py-3.5 text-stone-400">{row.autumn}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-
-              <div className="mt-6 pt-4 border-t border-white/10 text-[11px] text-emerald-400 font-semibold leading-relaxed">
-                ❄️ High-altitude areas plunge below freezing at night. Layers are key to comfort and warmth!
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
+      <PermitSection />
 
       {/* VIEWPOINTS & MOUNTAINS SHOWCASE */}
       <section id="mountains" className="py-24 bg-stone-900 text-white overflow-hidden">
@@ -332,6 +257,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <CultureFoodSection />
 
       {/* VISIONS OF KHOPRA GALLERY */}
       <section className="py-24 bg-[#faf9f5]">
@@ -429,6 +356,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <AccommodationDifficultySection />
 
       {/* THE COMMUNITY LODGE DIFFERENCE */}
       <section id="community" className="py-24 mx-auto max-w-7xl px-6">
@@ -556,6 +485,8 @@ export default function Home() {
       </section>
 
       
+
+      <WhyBookWithUs />
 
       <PricingSection />
 

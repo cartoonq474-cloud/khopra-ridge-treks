@@ -3,6 +3,9 @@ import Link from "next/link";
 import TadapaniBayeliFaqInteractive from "./TadapaniBayeliFaqInteractive";
 
 export const metadata = {
+  alternates: {
+    canonical: "/routes/tadapani-to-bayeli-kharka",
+  },
   title: "Tadapani to Bayeli Kharka Route Guide: Distance, Trail Conditions & Hiking Tips",
   description: "A complete Tadapani to Bayeli Kharka route guide covering distance, elevation gain, trail conditions, accommodation, and the best season to trek this quiet Khopra Ridge section.",
 };
@@ -42,7 +45,7 @@ export default function TadapaniToBayeliRoutePage() {
     },
     {
       question: "Are there lodges available at Bayeli Kharka?",
-      answer: "Yes, a single community-run lodge offers basic rooms and meals, making it a reliable overnight stop on the Khopra Ridge Trek."
+      answer: <>Yes, a single <Link href="/planning/community-lodges-khopra-trek" className="text-emerald-700 underline font-semibold hover:text-emerald-600">community-run lodge</Link> offers basic rooms and meals, making it a reliable overnight stop on the Khopra Ridge Trek.</>
     },
     {
       question: "What mountains can be seen from Bayeli Kharka?",
@@ -157,7 +160,7 @@ export default function TadapaniToBayeliRoutePage() {
               Deep Rhododendron and Oak Forests
             </h3>
             <p>
-              The first hours out of Tadapani pass through dense rhododendron and oak forest, the kind that filters sunlight into soft, shifting patterns on the trail. In spring, this section turns vivid red and pink as the rhododendrons bloom, making it one of the most photogenic stretches of the entire Khopra Ridge Trek.
+              The first hours out of Tadapani pass through dense <Link href="/ecology/rhododendron-forests" className="text-emerald-700 underline font-semibold hover:text-emerald-600">rhododendron and oak forest</Link>, the kind that filters sunlight into soft, shifting patterns on the trail. In spring, this section turns vivid red and pink as the rhododendrons bloom, making it one of the most photogenic stretches of the entire Khopra Ridge Trek.
             </p>
             <p>
               Even outside bloom season, the forest has a quiet, layered beauty: thick moss on tree trunks, tangled undergrowth, and the kind of stillness you only find in less-trafficked trekking corridors.
@@ -224,7 +227,7 @@ export default function TadapaniToBayeliRoutePage() {
               Arriving at Bayeli Kharka
             </h3>
             <p>
-              Bayeli Kharka itself is a wide, open meadow with a single community lodge set against a backdrop of forested ridgelines and distant peaks. After hours in the forest, the openness of the meadow feels like a genuine reward, especially on a clear afternoon when Annapurna South is visible in the distance.
+              <Link href="/nodes/bayeli-kharka-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Bayeli Kharka</Link> itself is a wide, open meadow with a single community lodge set against a backdrop of forested ridgelines and distant peaks. After hours in the forest, the openness of the meadow feels like a genuine reward, especially on a clear afternoon when Annapurna South is visible in the distance.
             </p>
           </section>
 

@@ -3,6 +3,9 @@ import Link from "next/link";
 import PoliciesFaqInteractive from "./PoliciesFaqInteractive";
 
 export const metadata = {
+  alternates: {
+    canonical: "/booking-policies",
+  },
   title: "Booking & Cancellation Policies | Khopra Ridge Trek",
   description: "Our full booking and cancellation policies: deposits, payment deadlines, refund eligibility, rescheduling, mandatory travel insurance, and emergency evacuation procedures.",
 };

@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/weather/khopra-trek-october",
+  },
   title: "Khopra Ridge Weather in October: Temperature & Trek Guide",
   description: "Planning a Khopra Ridge Trek in October? Get accurate temperature, rainfall, and visibility data, plus expert packing tips for the trail and ridge nights.",
 };

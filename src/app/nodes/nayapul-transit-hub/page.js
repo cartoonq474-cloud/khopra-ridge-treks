@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/nodes/nayapul-transit-hub",
+  },
   title: "Nayapul: The Trailhead Gateway to the Annapurna Region",
   description: "Nayapul is the main trailhead gateway to the Annapurna Region. Learn how to get there, which treks start here, permit requirements, and what to expect before you begin.",
 };

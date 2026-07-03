@@ -130,3 +130,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/guides/khopra-vs-poon-hill',
+  },
+};

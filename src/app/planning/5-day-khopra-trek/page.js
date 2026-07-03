@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/planning/5-day-khopra-trek",
+  },
   title: "5-Day Khopra Ridge Trek (Rapid Route): Complete Itinerary, Difficulty & Planning Guide",
   description: "Plan the 5-Day Khopra Ridge Trek (Rapid Route): full itinerary, difficulty, cost, permits, best season and community lodges. The fastest way to Khopra Ridge's mountain views.",
 };

@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/weather/khopra-trek-april",
+  },
   title: "Khopra Ridge Weather in April: Temperature & Trek Guide",
   description: "Planning a Khopra Ridge trek in April? Get accurate day and night temperatures, rainfall, visibility, rhododendron season tips, trail conditions, and a packing checklist.",
 };

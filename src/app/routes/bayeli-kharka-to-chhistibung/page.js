@@ -3,6 +3,9 @@ import Link from "next/link";
 import BayeliChhistibungFaqInteractive from "./BayeliChhistibungFaqInteractive";
 
 export const metadata = {
+  alternates: {
+    canonical: "/routes/bayeli-kharka-to-chhistibung",
+  },
   title: "Bayeli Kharka to Chhistibung Route Guide: Distance, Time, Trail & Difficulty",
   description: "Trekking from Bayeli Kharka to Chhistibung? Get the real distance, walking time, trail difficulty, wildlife, and lodge details for this Khopra Ridge stage.",
 };
@@ -97,7 +100,7 @@ export default function BayeliToChhistibungRoutePage() {
             If you've already trekked into Bayeli Kharka, you've earned a quiet, forested stretch of trail before the climb toward Khopra Danda begins. The walk from Bayeli Kharka to Chhistibung is one of the most underrated sections of the entire Khopra Ridge trek, and it has nothing to do with mountain views.
           </p>
           <p>
-            This stage drops you into a different world: thick bamboo groves, shaded oak forest, and a river valley that feels miles away from the busier teahouse trails near Ghorepani and Poon Hill. It's also one of the best wildlife-watching segments on the route, with regular Himalayan Langur monkey sightings and a real chance of spotting the Himalayan Monal, Nepal's national bird, moving through the undergrowth.
+            This stage drops you into a different world: thick bamboo groves, shaded oak forest, and a river valley that feels miles away from the busier teahouse trails near Ghorepani and Poon Hill. It's also one of the best wildlife-watching segments on the route, with regular Himalayan Langur monkey sightings and a real chance of spotting the <Link href="/ecology/wildlife-khopra-trek" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Himalayan Monal</Link>, Nepal's national bird, moving through the undergrowth.
           </p>
           <p>
             In short: this is roughly a 7-kilometer, 4 to 5-hour trekking day that takes you from Bayeli Kharka's high pasture at 3,425m down into forest, across a valley floor, and back up to Chhistibung at 2,975m. Below, we'll walk through exactly what to expect, stage by stage.
@@ -203,7 +206,7 @@ export default function BayeliToChhistibungRoutePage() {
               What surprises a lot of trekkers is that the day doesn't end on a downhill note. After the valley crossing, the trail turns uphill again for the final approach into Chhistibung. It's not a brutal climb, but it arrives after several hours of descent, right when legs are starting to tire.
             </p>
             <p>
-              Pace yourself through this last section rather than pushing hard. Chhistibung's small cluster of community lodges comes into view as the trail levels out into the high pasture where the settlement sits, and that first glimpse of rooftops is a welcome sight after a long forest walk.
+              Pace yourself through this last section rather than pushing hard. Chhistibung's small cluster of <Link href="/planning/community-lodges-khopra-trek" className="text-emerald-700 underline font-semibold hover:text-emerald-600">community lodges</Link> comes into view as the trail levels out into the high pasture where the settlement sits, and that first glimpse of rooftops is a welcome sight after a long forest walk.
             </p>
           </section>
 
@@ -317,7 +320,7 @@ export default function BayeliToChhistibungRoutePage() {
               Himalayan Monal (Danphe) Bird Habitat
             </h3>
             <p>
-              The Himalayan Monal, known locally as the Danphe and recognized as Nepal's national bird, nests and forages in exactly this kind of bamboo undergrowth. Its iridescent plumage is genuinely striking when caught in the right light, though the bird itself is shy and easily startled by noise. Patience pays off more than persistence here.
+              The <Link href="/ecology/wildlife-khopra-trek" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Himalayan Monal</Link>, known locally as the Danphe and recognized as Nepal's national bird, nests and forages in exactly this kind of bamboo undergrowth. Its iridescent plumage is genuinely striking when caught in the right light, though the bird itself is shy and easily startled by noise. Patience pays off more than persistence here.
             </p>
 
             <h3 className="text-xl font-bold text-stone-900 mt-6">
@@ -377,7 +380,7 @@ export default function BayeliToChhistibungRoutePage() {
               Available Teahouse Accommodation in Chhistibung
             </h3>
             <p>
-              Chhistibung is a small community lodge settlement, not a large village, so accommodation options are limited by design. You'll typically find a handful of basic teahouses offering simple twin rooms, run by local families rather than large operators. Booking ahead through a trekking operator is worth doing in busier seasons, since the settlement's capacity is genuinely small.
+              Chhistibung is a small <Link href="/planning/community-lodges-khopra-trek" className="text-emerald-700 underline font-semibold hover:text-emerald-600">community lodge settlement</Link>, not a large village, so accommodation options are limited by design. You'll typically find a handful of basic teahouses offering simple twin rooms, run by local families rather than large operators. Booking ahead through a trekking operator is worth doing in busier seasons, since the settlement's capacity is genuinely small.
             </p>
 
             <h3 className="text-xl font-bold text-stone-900 mt-6">

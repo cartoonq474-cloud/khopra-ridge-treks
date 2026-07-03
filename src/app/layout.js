@@ -18,8 +18,34 @@ const inter = Inter({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://khopraridgetrek.com"),
   title: "Khopra Ridge Trek | 9-Day Sacred Khayer Lake Community Trek",
   description: "Book the official 9-day Khopra Ridge Trek in Annapurna. A community-owned trekking route visiting sacred Khayer Lake, Ghandruk, Swanta, and Muldai Viewpoint.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Khopra Ridge Trek | 9-Day Sacred Khayer Lake Community Trek",
+    description: "Book the official 9-day Khopra Ridge Trek in Annapurna. A community-owned trekking route visiting sacred Khayer Lake, Ghandruk, Swanta, and Muldai Viewpoint.",
+    url: "https://khopraridgetrek.com",
+    siteName: "Khopra Ridge Trek",
+    images: [
+      {
+        url: "/khopra-hero-bg.png",
+        width: 1200,
+        height: 630,
+        alt: "Khopra Ridge Trek Hero Image",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Khopra Ridge Trek | 9-Day Sacred Khayer Lake Community Trek",
+    description: "Book the official 9-day Khopra Ridge Trek in Annapurna.",
+    images: ["/khopra-hero-bg.png"],
+  },
   verification: {
     google: "BcyQhQJiRsMFSxk7AuOmvqoCUhQ0tUkTsSmOPhLXrZw",
   },
@@ -29,7 +55,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${outfit.variable} ${inter.variable} h-full antialiased`}
+      className={`${outfit.variable} ${inter.variable} h-full antialiased scroll-smooth`}
     >
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />

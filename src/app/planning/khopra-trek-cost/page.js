@@ -3,6 +3,9 @@ import Link from "next/link";
 import CostCalculator from "./CostCalculator";
 
 export const metadata = {
+  alternates: {
+    canonical: "/planning/khopra-trek-cost",
+  },
   title: "Khopra Trek Cost: Complete Budget Breakdown for Every Traveler",
   description: "Planning the Khopra Trek? Get a complete cost breakdown covering permits, guides, porters, food, accommodation, packages, and hidden expenses for every budget.",
 };

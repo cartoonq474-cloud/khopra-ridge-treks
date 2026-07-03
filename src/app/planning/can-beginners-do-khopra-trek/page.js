@@ -93,3 +93,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/planning/can-beginners-do-khopra-trek',
+  },
+};

@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/nodes/ulleri-village-guide",
+  },
   title: "Ulleri: The Traditional Magar Ridge Village on the Annapurna Trek",
   description: "Discover Ulleri, the famous Magar ridge village on the Annapurna trekking route. Learn about its 3,200 stone steps, culture, altitude, views, and how to plan your trek.",
 };

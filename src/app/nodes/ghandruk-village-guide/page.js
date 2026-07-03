@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/nodes/ghandruk-village-guide",
+  },
   title: "Ghandruk Village: Complete Guide to Annapurna's Gurung Cultural Capital",
   description: "Discover Ghandruk Village, Nepal's Gurung cultural heart. Get the best time to visit, things to do, trekking routes, homestay tips, and how to reach Ghandruk.",
 };

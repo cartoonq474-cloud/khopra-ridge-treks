@@ -100,3 +100,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/planning/jeep-vs-bus-for-khopra-trek',
+  },
+};

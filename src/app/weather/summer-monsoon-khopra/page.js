@@ -88,3 +88,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/weather/summer-monsoon-khopra',
+  },
+};

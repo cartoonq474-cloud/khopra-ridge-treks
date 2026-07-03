@@ -3,6 +3,9 @@ import Link from "next/link";
 import ComparisonFaqInteractive from "./ComparisonFaqInteractive";
 
 export const metadata = {
+  alternates: {
+    canonical: "/guides/khopra-vs-mardi-himal",
+  },
   title: "Khopra Ridge vs Mardi Himal Trek: Which Annapurna Trek Is Better?",
   description: "Compare Khopra Ridge and Mardi Himal Trek by cost, difficulty, views, crowds, and itinerary. A local expert's guide to choosing the right Annapurna trek for you.",
 };

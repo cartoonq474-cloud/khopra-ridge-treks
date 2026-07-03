@@ -3,6 +3,9 @@ import Link from "next/link";
 import RhododendronFaqInteractive from "./RhododendronFaqInteractive";
 
 export const metadata = {
+  alternates: {
+    canonical: "/ecology/rhododendron-forests",
+  },
   title: "Rhododendron Forests of Annapurna: Spring Blooms and Trekking Routes Guide",
   description: "Discover the Rhododendron Forests of Annapurna in full spring bloom. Compare the Ghorepani, Tadapani, and Khopra Ridge trails to find the best route and timing.",
 };

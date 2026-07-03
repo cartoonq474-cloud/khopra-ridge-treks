@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/planning/khopra-trek-via-mohare-danda",
+  },
   title: "Khopra Trek via Mohare Danda: Ultimate 12-Day Eco-Circuit Guide",
   description: "Planning to combine Mohare Danda and Khopra Ridge? Explore our comprehensive 12-day guide detailing the community lodge itinerary, trail difficulty, costs, permit rules, and expert preparation tips.",
 };

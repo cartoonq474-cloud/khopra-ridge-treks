@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/nodes/ghorepani-guide",
+  },
   title: "Ghorepani Village: Poon Hill Sunrise Trek Hub in the Annapurna Region",
   description: "Discover Ghorepani Village, the Annapurna region's trekking hub for the Poon Hill sunrise hike. Routes, rhododendron forests, teahouses, and Khopra Ridge links.",
 };

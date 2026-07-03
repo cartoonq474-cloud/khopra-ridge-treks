@@ -3,6 +3,9 @@ import Link from "next/link";
 import CrowdsFaqInteractive from "./CrowdsFaqInteractive";
 
 export const metadata = {
+  alternates: {
+    canonical: "/guides/why-khopra-is-less-crowded",
+  },
   title: "Why Is Khopra Ridge Less Crowded Than Other Treks in Nepal?",
   description: "Discover why Khopra Ridge stays uncrowded while Poon Hill and Annapurna Base Camp overflow with trekkers. Community tourism, route difficulty, and more, explained.",
 };

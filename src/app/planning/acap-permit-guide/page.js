@@ -36,7 +36,7 @@ export default function Page() {
         {/* Details */}
         <div className="mt-12 space-y-6 text-stone-600 leading-relaxed">
           <h2 className="text-2xl font-bold text-stone-950">Why Do You Need an ACAP Permit?</h2>
-          <p>The Khopra Ridge Trek lies entirely inside the Annapurna Conservation Area (ACA), which is the largest protected area in Nepal. The conservation project is managed by the National Trust for Nature Conservation (NTNC). Permit fees directly fund environmental preservation, trail repairs, local community school operations, and checkpost administration.
+          <p>The <Link href="/planning/khopra-trek-permits" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link> lies entirely inside the Annapurna Conservation Area (ACA), which is the largest protected area in Nepal. The conservation project is managed by the National Trust for Nature Conservation (NTNC). Permit fees directly fund environmental preservation, trail repairs, local community school operations, and checkpost administration.
           </p>
           <p>You must obtain this permit **before starting the trek** at the Nepal Tourism Board offices in either Kathmandu or Pokhara. You cannot purchase the permit at trailheads like Birethanti without paying a double penalty fee.
           </p>
@@ -49,7 +49,7 @@ export default function Page() {
           </p>
           <ul className="space-y-2 text-xs leading-relaxed list-disc pl-5 font-semibold">
             <li>Birethanti Checkpost (Trail Entry)</li>
-            <li>Ghandruk Village Checkpoint</li>
+            <li><Link href="/nodes/ghandruk-village-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Ghandruk Village</Link> Checkpoint</li>
             <li>Ghorepani Checkpost (Trail Exit)</li>
           </ul>
         </div>
@@ -82,3 +82,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/planning/acap-permit-guide',
+  },
+};

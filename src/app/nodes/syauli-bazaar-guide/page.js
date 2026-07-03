@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/nodes/syauli-bazaar-guide",
+  },
   title: "Syauli Bazaar Trailhead Guide: Routes, Access, Distance & Trekking Information",
   description: "Plan your trek from Syauli Bazaar with our complete trailhead guide — transport from Pokhara, trail distances, elevation gain, permits, routes to Ghandruk, Dobato, Mohare Danda, and Khopra Ridge, plus seasonal tips and itineraries.",
 };

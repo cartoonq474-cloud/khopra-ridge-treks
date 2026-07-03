@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/planning/khopra-trek-for-seniors",
+  },
   title: "Khopra Ridge Trek for Seniors: Safety, Difficulty & Planning Guide",
   description: "Planning the Khopra Ridge Trek after 60? Get expert guidance on difficulty, altitude, itinerary, porter support, and safety built for senior trekkers.",
 };

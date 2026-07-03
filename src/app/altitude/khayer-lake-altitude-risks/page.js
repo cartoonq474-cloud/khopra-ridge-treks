@@ -93,3 +93,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/altitude/khayer-lake-altitude-risks',
+  },
+};

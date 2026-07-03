@@ -127,3 +127,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/planning/teahouses-on-khopra-trek',
+  },
+};

@@ -102,3 +102,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/planning/is-khopra-ridge-worth-it',
+  },
+};

@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/planning/khayer-lake-mythology-pilgrimage",
+  },
   title: "Sacred Khayer Lake Mythology & Pilgrimage | Legends & Beliefs",
   description: "Discover the mythology, legends, and living pilgrimage traditions of Sacred Khayer Lake — Nepal's revered alpine sanctuary dedicated to Khayer Baraha.",
 };

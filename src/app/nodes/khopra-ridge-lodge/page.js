@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/nodes/khopra-ridge-lodge",
+  },
   title: "Khopra Ridge Community Lodge: Complete Guide for Trekkers (2024)",
   description: "Discover everything about the Khopra Ridge Community Lodge at 3,660m — rooms, facilities, mountain views, community tourism impact, Khayer Lake access, and practical trekking tips.",
 };

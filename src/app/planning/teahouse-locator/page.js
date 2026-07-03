@@ -3,6 +3,9 @@ import Link from "next/link";
 import TeahouseFinder from "./TeahouseFinder";
 
 export const metadata = {
+  alternates: {
+    canonical: "/planning/teahouse-locator",
+  },
   title: "Khopra Ridge Teahouse Locator: Complete Lodge Directory, Map & Accommodation Guide",
   description: "Find every teahouse on the Khopra Ridge Trek. Compare lodge prices, facilities, contacts, and community-owned stays across Swanta, Bayeli, Dobato, Khopra Danda, and more.",
 };

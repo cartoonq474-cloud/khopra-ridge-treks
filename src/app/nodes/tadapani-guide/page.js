@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/nodes/tadapani-guide",
+  },
   title: "Tadapani Trail Junction Guide: Routes, Altitude & Trek Decisions in Annapurna",
   description: "Discover Tadapani — the key trekking junction in the Annapurna region where routes split toward Ghorepani and Khopra Ridge. Altitude, lodges, trail conditions, and route decisions explained by local guides.",
 };

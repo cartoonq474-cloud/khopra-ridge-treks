@@ -99,3 +99,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/planning/khayer-lake-day-hike',
+  },
+};

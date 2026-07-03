@@ -218,75 +218,75 @@ export const categorizedFaqs = {
 export const itinerary = [
   {
     day: 1,
-    title: "Arrival in Kathmandu & Transfer to Hotel",
+    title: "Arrival in Kathmandu (1400m) and Transfer to Hotel",
     hours: "1-2 hrs",
     altitude: "1,400 m",
     image: "/kathmandu-arrival.png",
-    desc: "Welcome to Nepal! Upon arrival at Tribhuvan International Airport (TIA) in Kathmandu, our representative will pick you up and transfer you to your hotel in Thamel. Spend the afternoon resting, and join us in the evening for a pre-trek briefing and welcome dinner."
+    desc: "Kathmandu sits at 1,400 m (4,593 ft). On arrival at Tribhuvan International Airport, a representative meets you and drives you to your hotel, typically Hotel Vistara or similar. The rest of the day is free to rest after the flight. In the evening, you meet your trekking guide for a briefing covering the route, permits, and packing checklist at the office.\n\nAccommodation: Hotel Vistara or similar\nMeals: Welcome briefing only; meals in Kathmandu are on your own unless a welcome dinner is arranged"
   },
   {
     day: 2,
-    title: "Drive to Pokhara by Tourist Bus, Jeep to Ghandruk & Trek to Tadapani",
-    hours: "5-6 hrs",
+    title: "Fly to Pokhara, Drive to Ghandruk (1940m) and Trek to Tadapani (2630m)",
+    hours: "3-4 hrs",
     altitude: "2,630 m",
     image: "/ghandruk-village.png",
-    desc: "Depart early from Kathmandu by comfortable tourist bus for a scenic road journey to Pokhara (6-8 hours). Upon arrival, transfer by private jeep to the trailhead at Ghandruk and begin trekking up through the beautiful oak forests to Tadapani."
+    desc: "A 25-minute flight covers the distance from Kathmandu to Pokhara, with clear Himalayan views from the window on a good day. From Pokhara airport, a private vehicle drives roughly 3 hours to Ghandruk at 1,940 m (6,363 ft), a large Gurung village where you stop for lunch and a short introduction to local culture and tradition. From Ghandruk, a 3 to 4 hour trek over 8 km (4.97 mi) of forest trail brings you to Tadapani at 2,630 m (8,663 ft), your first overnight stop on the mountain.\n\nDistance: 8 km / 4.97 mi\nAccommodation: Teahouse\nMeals: Lunch and dinner"
   },
   {
     day: 3,
-    title: "Trek Tadapani to Bayeli Kharka",
-    hours: "5-6 hrs",
-    altitude: "3,425 m",
+    title: "Trek from Tadapani to Dobato (3350m)",
+    hours: "4-5 hrs",
+    altitude: "3,350 m",
     image: "/forest-trail.png",
-    desc: "Leave the main tourist trail behind as you ascend off the beaten track. Climb steadily through beautiful alpine landscapes and quiet moss-draped forests toward Bayeli Kharka. Stay tonight in a community-owned lodge with spectacular up-close views of Annapurna South, directly supporting local conservation and development projects."
+    desc: "This is one of the steeper climbing days on the trek. After an early breakfast, the trail climbs through dense rhododendron forest and a long run of stone steps, then follows a ridgeline with open views over the surrounding valleys before reaching Dobato at 3,350 m (10,990 ft). Plan for an early night here, since the next day starts before sunrise with the hike up to Muldai View Point.\n\nDistance: 6.5 km / 4 mi\nAccommodation: Teahouse\nMeals: Breakfast, lunch, and dinner"
   },
   {
     day: 4,
-    title: "Trek Bayeli Kharka to Chhistibung",
-    hours: "4-5 hrs",
-    altitude: "2,975 m",
+    title: "Sunrise from Muldai View Point and Trek to Khopra Danda (3660m)",
+    hours: "6-7 hrs",
+    altitude: "3,660 m",
     image: "/chhistibung-pasture.png",
-    desc: "Descend into a quiet valley before ascending back up through pristine bamboo and rhododendron forests. Watch for local wildlife like the colorful Himalayan Monal and Langur monkeys as you head toward the pasture lands of Chhistibung. Accommodation is provided in community-owned lodges that directly support local schools."
+    desc: "A pre-dawn walk takes you to Muldai View Point in time to watch sunrise light spread across the snow-covered peaks of the Dhaulagiri and Annapurna ranges. After descending for breakfast, the trail continues up and down through rhododendron forest to Khopra Danda, also called Khopra Ridge, at 3,660 m (12,006 ft). Dhaulagiri, the seventh-highest mountain in the world, stays in view for much of the day, and trail traffic stays light, with only the occasional yak or mule train for company.\n\nDistance: 11 km / 6.83 mi\nAccommodation: Teahouse\nMeals: Breakfast, lunch, and dinner"
   },
   {
     day: 5,
-    title: "Trek Chhistibung to Khopra Ridge (Khopra Danda)",
-    hours: "3-4 hrs",
-    altitude: "3,660 m",
+    title: "Hike to Khayer Lake (4500m) and Return to Khopra Ridge",
+    hours: "8-9 hrs",
+    altitude: "4,500 m",
     image: "/khopra-ridge-view.png",
-    desc: "A steady, steep climb brings you above the tree line onto the majestic Khopra Ridge (Khopra Danda). The panoramic viewpoint at the ridge offers one of the most stunning 360-degree mountain views in Nepal, directly facing the massive Dhaulagiri and Annapurna South massifs. Stay overnight in the famous community-owned lodge on the ridge."
+    desc: "This is the longest day of the trek. After watching sunrise color the peaks of Annapurna South, Dhaulagiri, and the Nilgiri range from Khopra Ridge, you set off across the lower slopes of the Annapurna massif toward Khayer Lake. The lake sits at 4,500 m (14,762 ft), ringed by mountains and glaciers, with several small Hindu shrines along its shore; local tradition holds that bathing in its waters washes away past wrongdoing. After time at the lake, you retrace the trail back down to Khopra Ridge for a second night, completing 13 km (8 mi) of walking in total.\n\nDistance: 13 km / 8 mi round trip\nAccommodation: Teahouse (Khopra Ridge)\nMeals: Breakfast, lunch, and dinner"
   },
   {
     day: 6,
-    title: "Day Hike to Sacred Khayer Lake",
-    hours: "7-8 hrs",
-    altitude: "4,660 m",
+    title: "Trek from Khopra Ridge to Swanta Village (2214m)",
+    hours: "5-6 hrs",
+    altitude: "2,214 m",
     image: "/khayer-lake.png",
-    desc: "An early morning excursion takes you to Sacred Khayer Lake (4,660m), one of the most important pilgrimage sites in the Annapurna region. Surrounded by towering Himalayan peaks, the lake holds deep spiritual significance for Hindu pilgrims and offers one of the most rewarding viewpoints of the entire Khopra Ridge Trek."
+    desc: "After a final view of the Himalayan panorama from Khopra Ridge, the trail drops steadily toward Swanta Village over rocky, uneven ground, so a careful pace matters more than speed on this stage. Dhaulagiri stays visible in the distance for most of the descent, which passes ridge-top settlements and terraced farmland before reaching Swanta at 2,214 m (7,263 ft).\n\nDistance: 9.6 km / 5.9 mi\nAccommodation: Teahouse\nMeals: Breakfast, lunch, and dinner"
   },
   {
     day: 7,
-    title: "Trek Khopra Ridge to Swanta Village",
-    hours: "5-6 hrs",
-    altitude: "2,200 m",
+    title: "Trek from Swanta Village to Ghorepani (2858m)",
+    hours: "4-5 hrs",
+    altitude: "2,858 m",
     image: "/swanta-village.png",
-    desc: "Say goodbye to the high ridge and begin your descent down the steep valley walls. Pass through quiet forests to reach the traditional Magar village of Swanta, where community tourism supports the local high school and organic farming."
+    desc: "The trail out of Swanta drops through forest and past paddy fields, crosses a suspension bridge, and climbs to the small settlement of Chittre. Expect more company on the trail from here, including other trekkers and mule trains, since the route rejoins busier sections of the Annapurna trail network. A final stretch of stone steps leads up to Ghorepani at 2,858 m (9,376 ft), where the rest of the afternoon is free.\n\nDistance: 6 km / 3.7 mi\nAccommodation: Teahouse\nMeals: Breakfast, lunch, and dinner"
   },
   {
     day: 8,
-    title: "Trek Swanta to Ghorepani",
-    hours: "4-5 hrs",
-    altitude: "2,860 m",
+    title: "Hike to Poon Hill (3210m), Descend to Hile, and Drive to Pokhara",
+    hours: "7-9 hrs",
+    altitude: "3,210 m",
     image: "/ghorepani-village.png",
-    desc: "Descend to cross the suspension bridge over the river before climbing back up to rejoin the classic trekking loop at Ghorepani. Enjoy the return of comfortable amenities and prepare for tomorrow's sunrise viewpoint."
+    desc: "A pre-dawn climb brings you to Poon Hill at 3,210 m (10,530 ft) in time for sunrise, one of the best-known viewpoints in the Annapurna region, with Dhaulagiri, the Annapurna massif, Hiunchuli, and Gangapurna all visible from the summit. After sunrise, you descend back to Ghorepani for breakfast, then continue down a steep trail to the lower village of Hile. From Hile, a private vehicle covers the remaining distance to Pokhara.\n\nDistance: 65 km / 40 mi (hike plus drive)\nAccommodation: Hotel Crystal Palace or similar\nMeals: Breakfast, lunch, and dinner"
   },
   {
     day: 9,
-    title: "Drive from Pokhara to Kathmandu & Final Departure",
-    hours: "7-8 hrs",
+    title: "Drive from Pokhara to Kathmandu (200km)",
+    hours: "6-7 hrs",
     altitude: "1,400 m",
     image: "/poon-hill-sunrise.png",
-    desc: "After breakfast, board the tourist bus at Pokhara for your scenic road journey back to Kathmandu (approximately 6-8 hours). Upon arrival in Kathmandu, our team will assist with your transfer. Depending on your departure schedule, you may enjoy free time for sightseeing, shopping, or relaxation before your onward departure.\n\nMeals: Breakfast\nDrive Duration: Approximately 6-8 hours\nTrip Conclusion: Khopra Ridge Trek officially ends upon arrival in Kathmandu."
+    desc: "The final day covers the road journey back to Kathmandu by tourist bus, a 6 to 7 hour drive over 200 km (124.27 mi) along the Trisuli River and through Mugling. Trekkers who want to see more of Pokhara before leaving can arrange a half-day sightseeing add-on at an extra cost. Back in Kathmandu, the evening is free to browse the Thamel or Ason bazaars before your trip ends.\n\nDistance: 200 km / 124.27 mi\nAccommodation: Hotel Vistara or similar\nMeals: Breakfast"
   }
 ];
 

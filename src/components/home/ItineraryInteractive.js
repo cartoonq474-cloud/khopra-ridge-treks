@@ -42,7 +42,16 @@ export default function ItineraryInteractive() {
         </div>
       </div>
 
-      <div className="mt-16 grid gap-8 lg:grid-cols-3">
+      <div className="mt-16 text-center max-w-3xl mx-auto">
+        <h2 className="text-3xl font-bold text-stone-900 mb-4">
+          Khopra Ridge Trek Itinerary (Day By Day)
+        </h2>
+        <p className="text-stone-600 leading-relaxed text-base">
+          The Khopra Ridge Trek itinerary runs 9 days from Kathmandu to Kathmandu: 1 day for arrival, 7 days of trekking and side trips, and 1 day driving back from Pokhara. Each day below lists the elevation, distance, walking time, accommodation, and meals included.
+        </p>
+      </div>
+
+      <div className="mt-10 grid gap-8 lg:grid-cols-3">
         {/* List of Days */}
         <div className="lg:col-span-1 flex flex-col gap-2.5 max-h-[600px] overflow-y-auto pr-2 custom-scrollbar">
           {itinerary.map((step) => (

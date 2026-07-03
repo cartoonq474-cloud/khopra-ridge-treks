@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/travel-info/pokhara-lakeside",
+  },
   title: "Pokhara Lakeside: The Gateway to the Annapurnas (Complete Travel Guide)",
   description: "Discover Pokhara Lakeside, Nepal's lakeside tourism hub and the gateway to the Annapurna region. Attractions, hotels, food, adventure activities, and trek prep — all in one guide.",
 };

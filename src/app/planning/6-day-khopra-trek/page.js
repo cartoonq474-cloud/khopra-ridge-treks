@@ -79,3 +79,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/planning/6-day-khopra-trek',
+  },
+};

@@ -3,6 +3,9 @@ import Link from "next/link";
 import ElevationProfile from "@/components/ElevationProfile";
 
 export const metadata = {
+  alternates: {
+    canonical: "/guides/khayer-lake-ultimate-guide",
+  },
   title: "Khayer Lake Guide: Complete Trekking Guide to Nepal's Sacred High-Altitude Lake",
   description: "Plan your Khayer Lake trek with this complete guide. Covers route, itinerary, altitude, best time to visit, trek cost, accommodation, permits, and the lake's sacred significance in the Annapurna region.",
 };

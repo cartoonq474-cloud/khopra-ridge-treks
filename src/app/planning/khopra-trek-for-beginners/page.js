@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/planning/khopra-trek-for-beginners",
+  },
   title: "Khopra Ridge Trek for Beginners: Complete Difficulty, Cost & Preparation Guide",
   description: "Wondering if the Khopra Ridge Trek is right for a beginner? Get the full picture on difficulty, altitude, cost, fitness, itinerary options, and expert preparation tips.",
 };

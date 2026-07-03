@@ -108,3 +108,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/ecology/red-pandas-on-khopra',
+  },
+};

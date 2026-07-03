@@ -3,6 +3,9 @@ import Link from "next/link";
 import ChhistibungKhopraFaqInteractive from "./ChhistibungKhopraFaqInteractive";
 
 export const metadata = {
+  alternates: {
+    canonical: "/routes/chhistibung-to-khopra-ridge",
+  },
   title: "Chhistibung to Khopra Ridge Route Guide: Distance, Difficulty, Elevation Gain & Trekking Tips",
   description: "Planning the climb from Chhistibung to Khopra Ridge? Get exact distance, elevation gain, altitude safety advice, accommodation details, and trail tips from local route experts.",
 };
@@ -38,7 +41,7 @@ export default function ChhistibungToKhopraRoutePage() {
     },
     {
       question: "Are there teahouses at Khopra Ridge?",
-      answer: "Accommodation at Khopra Ridge is a community-owned lodge rather than a typical private teahouse, offering basic rooms, hot meals, and tea throughout the day. Lodge profits support local Magar village infrastructure."
+      answer: <>Accommodation at Khopra Ridge is a <Link href="/planning/community-lodges-khopra-trek" className="text-emerald-700 underline font-semibold hover:text-emerald-600">community-owned lodge</Link> rather than a typical private teahouse, offering basic rooms, hot meals, and tea throughout the day. Lodge profits support local Magar village infrastructure.</>
     },
     {
       question: "What mountains can you see from Khopra Ridge?",
@@ -54,7 +57,7 @@ export default function ChhistibungToKhopraRoutePage() {
     },
     {
       question: "Do I need a guide for the Khopra Ridge Trek?",
-      answer: "A guide isn't strictly mandatory, but local guides bring current knowledge of seasonal trail conditions, mudslide boundaries, and lodge availability that's genuinely useful on this less-trafficked route."
+      answer: <>A guide isn't strictly mandatory, but <Link href="/planning/do-you-need-a-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-600">local guides</Link> bring current knowledge of seasonal trail conditions, mudslide boundaries, and lodge availability that's genuinely useful on this less-trafficked route.</>
     },
     {
       question: "When is the best season for trekking to Khopra Ridge?",
@@ -219,14 +222,14 @@ export default function ChhistibungToKhopraRoutePage() {
               You don't need technical mountaineering experience to manage this segment, but a reasonable baseline of cardiovascular fitness makes a real difference. If you can comfortably hike 4-5 hours on moderate terrain at home, you have what you need.
             </p>
             <p>
-              Beginners can complete this climb, but they should expect it to take longer than the stated 3-4 hours and should plan for more frequent rest stops. Going slowly is not a failure here — it's the correct strategy.
+              <Link href="/planning/khopra-trek-for-beginners" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Beginners</Link> can complete this climb, but they should expect it to take longer than the stated 3-4 hours and should plan for more frequent rest stops. Going slowly is not a failure here — it's the correct strategy.
             </p>
 
             <h3 className="text-xl font-bold text-stone-900 mt-6">
               Comparing Difficulty with Other Khopra Route Sections
             </h3>
             <p>
-              Compared to the Bayeli Kharka to Chhistibung stage before it, this segment is noticeably steeper and more sustained. It also stands apart from the gentler ascent to Poon Hill, which gains far less elevation over a comparable distance.
+              Compared to the <Link href="/routes/bayeli-kharka-to-chhistibung" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Bayeli Kharka to Chhistibung</Link> stage before it, this segment is noticeably steeper and more sustained. It also stands apart from the gentler ascent to Poon Hill, which gains far less elevation over a comparable distance.
             </p>
           </section>
 
@@ -313,7 +316,7 @@ export default function ChhistibungToKhopraRoutePage() {
               Understanding the Community Lodge System
             </h3>
             <p>
-              Accommodation at Khopra Ridge operates on a community lodge model, where lodge profits support local Magar village schools, clinics, and infrastructure rather than going to outside operators. This is a meaningful difference from privately run teahouses elsewhere in the Annapurna Conservation Area.
+              Accommodation at Khopra Ridge operates on a <Link href="/planning/community-lodges-khopra-trek" className="text-emerald-700 underline font-semibold hover:text-emerald-600">community lodge model</Link>, where lodge profits support local Magar village schools, clinics, and infrastructure rather than going to outside operators. This is a meaningful difference from privately run teahouses elsewhere in the Annapurna Conservation Area.
             </p>
 
             <h3 className="text-xl font-bold text-stone-900 mt-6">

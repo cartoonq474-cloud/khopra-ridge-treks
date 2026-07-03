@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/weather/khopra-trek-march",
+  },
   title: "Khopra Ridge Weather in March: Temperature, Snow, Trail Conditions & Trekking Tips",
   description: "Planning a March trek? Get real Khopra Ridge weather details for March — temperatures, snow risk, trail conditions, visibility, and exactly what to pack.",
 };

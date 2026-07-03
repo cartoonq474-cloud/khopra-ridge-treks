@@ -97,3 +97,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/planning/vegan-food-khopra-trek',
+  },
+};

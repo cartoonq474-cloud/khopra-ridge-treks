@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/viewpoints/muldai-viewpoint-guide",
+  },
   title: "Muldai Viewpoint Guide: Trek Route, Sunrise Views, Itinerary & Travel Tips",
   description: "Discover everything you need to know about Muldai Viewpoint — one of Nepal's best hidden sunrise viewpoints in the Annapurna region. Trek routes, itineraries, mountain views, best season, permits, and Poon Hill comparison all in one complete guide.",
 };

@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/community/community-lodge-vs-teahouse",
+  },
   title: "Community Lodge vs Teahouse Model in Nepal: What Every Trekker Should Know",
   description: "Compare the community lodge and teahouse models in Nepal trekking — ownership, comfort, pricing, and how each affects Himalayan villages. Full guide with FAQs.",
 };

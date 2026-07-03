@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/nodes/chhistibung-guide",
+  },
   title: "Chhistibung Forest Trek Guide (2,975m) – Forest Camp on the Khopra Ridge Trek",
   description: "Discover Chhistibung Forest, the key 2,975m forest camp on the Khopra Ridge Trek. Get route details, altitude tips, lodge info, wildlife, and seasonal advice.",
 };

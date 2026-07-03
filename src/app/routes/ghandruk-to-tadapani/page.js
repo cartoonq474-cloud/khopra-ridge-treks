@@ -3,6 +3,9 @@ import Link from "next/link";
 import RouteFaqInteractive from "./RouteFaqInteractive";
 
 export const metadata = {
+  alternates: {
+    canonical: "/routes/ghandruk-to-tadapani",
+  },
   title: "Ghandruk to Tadapani Route Guide: Distance, Difficulty, Hiking Time & Trail Conditions",
   description: "Planning to hike from Ghandruk to Tadapani? Get distance, elevation gain, difficulty, trail conditions, teahouses, and mountain views on this Annapurna trekking route.",
 };

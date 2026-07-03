@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/viewpoints/khopra-vs-poon-hill-views",
+  },
   title: "Khopra Ridge vs Poon Hill Views: Which Annapurna Viewpoint Is Better?",
   description: "Compare Khopra Ridge and Poon Hill views side by side — mountain visibility, sunrise quality, crowds, and photography — to choose the better Annapurna viewpoint for you.",
 };

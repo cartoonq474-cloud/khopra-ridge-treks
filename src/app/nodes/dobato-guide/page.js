@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/nodes/dobato-guide",
+  },
   title: "Dobato Location Hub & Guide: Routes, Elevation, Accommodation & Muldai Viewpoint",
   description: "Discover where Dobato is located, its elevation, trekking routes, tea house accommodation, and how to reach Muldai Viewpoint on the Khopra Ridge Trek. Your complete planning guide.",
 };

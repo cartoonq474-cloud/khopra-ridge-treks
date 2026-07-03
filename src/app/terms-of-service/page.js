@@ -68,3 +68,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/terms-of-service',
+  },
+};

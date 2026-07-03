@@ -234,3 +234,9 @@ export default function AboutPage() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/about',
+  },
+};

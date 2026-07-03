@@ -166,3 +166,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/altitude/khopra-trek-altitude-chart',
+  },
+};

@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/nodes/bayeli-kharka-guide",
+  },
   title: "Bayeli Kharka Guide: Altitude, Route, Lodge & Trek Information",
   description: "Discover Bayeli Kharka on the Khopra Ridge Trek — altitude, route from Tadapani, lodge details, mountain views, wildlife, costs, and itinerary tips.",
 };

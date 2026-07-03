@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/planning/pokhara-to-ghandruk",
+  },
   title: "Pokhara to Ghandruk Transportation Guide: Jeep, Bus, Taxi, Costs & Travel Time",
   description: "Plan your journey from Pokhara to Ghandruk with confidence. Compare private jeep, shared jeep, local bus, and taxi options — including costs, travel times, road conditions, and trekker tips.",
 };

@@ -96,3 +96,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/planning/training-for-khopra-trek',
+  },
+};

@@ -3,6 +3,9 @@ import Link from "next/link";
 import KhopraKhayerFaqInteractive from "./KhopraKhayerFaqInteractive";
 
 export const metadata = {
+  alternates: {
+    canonical: "/routes/khopra-ridge-to-khayer-lake",
+  },
   title: "Khopra Ridge to Sacred Khayer Lake Route Guide (Distance, Difficulty & Safety Tips)",
   description: "Plan your hike from Khopra Ridge to Sacred Khayer Lake with our complete route guide. Covers distance, elevation gain, trail difficulty, altitude sickness prevention, terrain conditions, best season, and the sacred Khayer Baraha Temple.",
 };
@@ -54,7 +57,7 @@ export default function KhopraToKhayerRoutePage() {
     },
     {
       question: "Are permits required for the Khayer Lake trek?",
-      answer: "The Khayer Lake trail falls within the Annapurna Conservation Area, which requires an ACAP (Annapurna Conservation Area Permit). A TIMS card is also typically required for trekkers in the Annapurna region. Our team handles both permit arrangements as part of the full Khopra Ridge Trek package."
+      answer: <>The Khayer Lake trail falls within the Annapurna Conservation Area, which requires an <Link href="/planning/acap-permit-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-600">ACAP (Annapurna Conservation Area Permit)</Link>. A TIMS card is also typically required for trekkers in the Annapurna region. Our team handles both permit arrangements as part of the full Khopra Ridge Trek package.</>
     },
     {
       question: "How cold does Khayer Lake get in the morning?",
@@ -129,7 +132,7 @@ export default function KhopraToKhayerRoutePage() {
               Elevation Gain and Altitude Profile
             </h3>
             <p>
-              The ascent is continuous. There are no flat recovery sections once you leave Khopra Ridge. This relentless gain of 1,000m (+3,281ft) from 3,660m up to 4,660m is one of the main reasons altitude sickness becomes a serious concern on this route.
+              The ascent is continuous. There are no flat recovery sections once you leave Khopra Ridge. This relentless gain of 1,000m (+3,281ft) from 3,660m up to 4,660m is one of the main reasons <Link href="/planning/khayer-lake-altitude-difficulty" className="text-emerald-700 underline font-semibold hover:text-emerald-600">altitude sickness</Link> becomes a serious concern on this route.
             </p>
 
             <h3 className="text-xl font-bold text-stone-900 mt-6">
@@ -294,7 +297,7 @@ export default function KhopraToKhayerRoutePage() {
               Loose Scree and Rocky Footing
             </h3>
             <p>
-              Mid-route scree fields are the most technically demanding sections of the trail. Loose stones and unstable rock surfaces require deliberate foot placement. Trekking poles are essential here. Place them firmly with each step.
+              Mid-route scree fields are the most technically demanding sections of the trail. Loose stones and unstable rock surfaces require deliberate foot placement. <Link href="/planning/packing-checklist" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Trekking poles</Link> are essential here. Place them firmly with each step.
             </p>
 
             <h3 className="text-xl font-bold text-stone-900 mt-6">
@@ -354,7 +357,7 @@ export default function KhopraToKhayerRoutePage() {
               The Significance of Khayer Baraha Temple
             </h3>
             <p>
-              The Khayer Baraha Temple stands at the lake's edge. It is a small stone structure, modest in appearance but immense in spiritual meaning. Trekkers are welcome to visit the temple area, but should behave respectfully: remove footwear near the shrine, speak quietly, and do not disturb offerings.
+              The <Link href="/planning/khayer-baraha-temple-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khayer Baraha Temple</Link> stands at the lake's edge. It is a small stone structure, modest in appearance but immense in spiritual meaning. Trekkers are welcome to visit the temple area, but should behave respectfully: remove footwear near the shrine, speak quietly, and do not disturb offerings.
             </p>
 
             <h3 className="text-xl font-bold text-stone-900 mt-6">
@@ -451,7 +454,7 @@ export default function KhopraToKhayerRoutePage() {
               Limited Emergency Support on the Route
             </h3>
             <p>
-              There are no medical facilities or teahouses on the route. Helicopter evacuation is possible but requires clear weather and phone signal lower down the trail. Trekking with a local guide is strongly recommended for safety and communication support.
+              There are no medical facilities or teahouses on the route. Helicopter evacuation is possible but requires clear weather and phone signal lower down the trail. Trekking with a <Link href="/planning/do-you-need-a-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-600">local guide</Link> is strongly recommended for safety and communication support.
             </p>
           </section>
 

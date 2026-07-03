@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/weather/khopra-trek-november",
+  },
   title: "Khopra Ridge Weather in November: Temperature, Views & Trekking Guide",
   description: "Plan your Khopra Ridge Trek in November with real temperature ranges, rainfall data, visibility insights, trail conditions, and a complete cold-weather packing list.",
 };

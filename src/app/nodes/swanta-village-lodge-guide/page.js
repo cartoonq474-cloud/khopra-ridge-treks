@@ -89,3 +89,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/nodes/swanta-village-lodge-guide',
+  },
+};

@@ -6,6 +6,7 @@ export default function robots() {
       disallow: [
         "/checkout",
         "/review-submission",
+        "/*?_rsc=",
       ],
     },
     sitemap: "https://khopraridgetrek.com/sitemap.xml",

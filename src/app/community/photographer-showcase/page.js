@@ -4,6 +4,9 @@ import Image from "next/image";
 import PhotographerFaqInteractive from "./PhotographerFaqInteractive";
 
 export const metadata = {
+  alternates: {
+    canonical: "/community/photographer-showcase",
+  },
   title: "Trek Photographer Showcase: Real Himalayan Trek Photography from Nepal Trails",
   description: "Explore our trek photographer showcase featuring real Himalayan trek photography from Nepal's Annapurna trails — Poon Hill, Khopra Ridge, Khayer Lake, and more.",
 };

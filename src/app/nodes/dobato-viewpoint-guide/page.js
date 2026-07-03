@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/nodes/dobato-viewpoint-guide",
+  },
   title: "Muldai Viewpoint Guide (Dobato): Sunrise Trek, Route & Mountain Views",
   description: "Plan your Muldai Viewpoint trek from Dobato with our complete guide — route, sunrise timing, mountain views, difficulty, best season, and how it compares to Poon Hill.",
 };

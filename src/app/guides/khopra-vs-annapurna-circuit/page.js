@@ -3,6 +3,9 @@ import Link from "next/link";
 import CircuitComparisonFaqInteractive from "./CircuitComparisonFaqInteractive";
 
 export const metadata = {
+  alternates: {
+    canonical: "/guides/khopra-vs-annapurna-circuit",
+  },
   title: "Khopra Ridge vs Annapurna Circuit: Which Nepal Trek Is Better for You?",
   description: "Compare Khopra Ridge and Annapurna Circuit on difficulty, altitude, cost, views, and crowd levels. A complete, honest guide to help you choose the right Annapurna trek.",
 };

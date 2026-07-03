@@ -3,6 +3,9 @@ import Link from "next/link";
 import DhaulagiriFaqInteractive from "./DhaulagiriFaqInteractive";
 
 export const metadata = {
+  alternates: {
+    canonical: "/mountains/dhaulagiri-views-khopra",
+  },
   title: "Dhaulagiri Views from Khopra Ridge: Nepal's Best Hidden Himalayan Panorama",
   description: "Discover why Khopra Ridge offers some of Nepal's closest panoramic views of Dhaulagiri. Compare sunrise photography, mountain panoramas, and why trekkers choose this hidden trail over Poon Hill.",
 };

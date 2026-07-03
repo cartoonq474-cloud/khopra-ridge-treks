@@ -131,3 +131,9 @@ export default function Page() {
     </div>
   );
 }
+
+export const metadata = {
+  alternates: {
+    canonical: '/altitude/sleeping-altitude-breakdown',
+  },
+};

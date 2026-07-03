@@ -2,6 +2,9 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/tours/khopra-poon-hill-trek",
+  },
   title: "Khopra Ridge & Poon Hill Combination Trek: Complete 10-Day Itinerary, Cost & Guide",
   description: "Plan the perfect Khopra Ridge & Poon Hill Combination Trek. Explore the full 10-day itinerary, route overview, difficulty, permits, cost, and the optional Khayer Lake extension with local expert insights.",
 };
