@@ -69,7 +69,7 @@ export default function Page() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge Weather in April
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">April is one of the most rewarding months to walk the Khopra Ridge trail. Enjoy mild daytime hiking temperatures, blooming rhododendron forests, and clear morning panoramas of Dhaulagiri and Annapurna South.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">April is one of the most rewarding months to walk the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> trail. Enjoy mild daytime hiking temperatures, blooming rhododendron forests, and clear morning panoramas of Dhaulagiri and Annapurna South.
           </p>
 
           {/* Quick Metrics Grid */}

@@ -66,7 +66,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
             5-Day Khopra Ridge Trek (Rapid Route)
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">If you have five days in the Annapurna region and want one of the best mountain panoramas in Nepal without the crowds, the 5-Day Khopra Ridge Trek (Rapid Route) is built for exactly that. It follows the same trail as the classic Khopra Danda trek but skips the long side-hike to Khayer Lake, trimming a day of high-altitude walking.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">If you have five days in the Annapurna region and want one of the best mountain panoramas in Nepal without the crowds, the 5-Day <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link> (Rapid Route) is built for exactly that. It follows the same trail as the classic Khopra Danda trek but skips the long side-hike to Khayer Lake, trimming a day of high-altitude walking.
           </p>
 
           {/* Quick Metrics Grid */}

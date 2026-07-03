@@ -182,7 +182,7 @@ export default function Page() {
               1. Overview: Combining Two Great Eco-Circuits
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>For hikers seeking complete wilderness seclusion, local cultural interactions, and high ecological standards, combining Mohare Danda (3,300m) and Khopra Ridge (3,660m) is highly recommended. This route starts at Galeshwor and ascends through homestay villages to Mohare Danda, then crosses over to join the Khopra loop via Ghorepani and Swanta.
+              <p>For hikers seeking complete wilderness seclusion, local cultural interactions, and high ecological standards, combining Mohare Danda (3,300m) and <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> (3,660m) is highly recommended. This route starts at Galeshwor and ascends through homestay villages to Mohare Danda, then crosses over to join the Khopra loop via Ghorepani and Swanta.
               </p>
               <p>Unlike standard trails in the Annapurna Conservation Area that have become heavily commercialized, this trek operates on a cooperative model. Every lodge and homestay along the Mohare and Khopra corridors is community-owned. This ensures that the profits directly benefit local schools, clinics, and eco-initiatives, establishing a blueprint for regenerative tourism in Nepal.
               </p>

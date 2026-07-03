@@ -20,7 +20,7 @@ export default function Page() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Bayeli Kharka: Remote High-Altitude Hub on the Khopra Ridge Trek
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Bayeli Kharka is a quiet forest clearing at 3,425 meters, tucked into the sub-alpine woodland of Nepal&apos;s Annapurna region. For trekkers walking the Khopra Ridge Trek, it&apos;s far more than an overnight stop — it&apos;s the place where the trail shifts from dense rhododendron forest into open, high-altitude terrain, and where your body gets a crucial chance to adjust before climbing higher.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Bayeli Kharka is a quiet forest clearing at 3,425 meters, tucked into the sub-alpine woodland of Nepal&apos;s Annapurna region. For trekkers walking the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link>, it&apos;s far more than an overnight stop — it&apos;s the place where the trail shifts from dense rhododendron forest into open, high-altitude terrain, and where your body gets a crucial chance to adjust before climbing higher.
           </p>
 
           {/* Quick Metrics Grid */}

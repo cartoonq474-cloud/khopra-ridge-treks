@@ -258,7 +258,7 @@ export default function Page() {
               </div>
             </div>
 
-            <p className="text-stone-600 leading-relaxed text-sm mt-4">Ulleri also serves as a key stage for trekkers heading toward the Khopra Ridge region, or for those approaching from longer Annapurna circuits. For multi-day itineraries, Ulleri often functions as either a first significant overnight stop or a transitional point between lower-altitude valleys and the higher ridge routes ahead.
+            <p className="text-stone-600 leading-relaxed text-sm mt-4">Ulleri also serves as a key stage for trekkers heading toward the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> region, or for those approaching from longer Annapurna circuits. For multi-day itineraries, Ulleri often functions as either a first significant overnight stop or a transitional point between lower-altitude valleys and the higher ridge routes ahead.
             </p>
           </article>
 

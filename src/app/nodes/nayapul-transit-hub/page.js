@@ -104,7 +104,7 @@ export default function Page() {
             </h2>
             <p className="text-stone-600 leading-relaxed text-base">This guide covers everything you need to know about Nayapul as a trailhead gateway: how to get here from Pokhara, which permits you&apos;ll need, which routes start from this point, what facilities are available, and how to prepare for the first steps of your trek.
             </p>
-            <p className="text-stone-600 leading-relaxed text-base">Whether you&apos;re heading to Ghandruk, Ghorepani and Poon Hill, or beginning the Khopra Ridge Trek, Nayapul is where your trekking adventure officially starts. It represents the transition from paved highway to the rugged dirt roads and ancient stone steps that define the Nepalese Himalayas.
+            <p className="text-stone-600 leading-relaxed text-base">Whether you&apos;re heading to Ghandruk, Ghorepani and Poon Hill, or beginning the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link>, Nayapul is where your trekking adventure officially starts. It represents the transition from paved highway to the rugged dirt roads and ancient stone steps that define the Nepalese Himalayas.
             </p>
           </article>
 

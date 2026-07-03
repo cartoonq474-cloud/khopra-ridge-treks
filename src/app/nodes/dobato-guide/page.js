@@ -20,7 +20,7 @@ export default function Page() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Dobato Location Hub &amp; Guide: Routes, Elevation, Accommodation &amp; Viewpoints
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Deep inside the Annapurna Conservation Area, above the treeline where rhododendron forests give way to open ridges and unbroken Himalayan sky, sits Dobato — one of the most strategically important overnight stops on the Khopra Ridge Trek.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Deep inside the Annapurna Conservation Area, above the treeline where rhododendron forests give way to open ridges and unbroken Himalayan sky, sits Dobato — one of the most strategically important overnight stops on the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link>.
           </p>
 
           {/* Quick Metrics Grid */}

@@ -223,7 +223,7 @@ export default function Page() {
               </p>
 
               <h3 className="text-lg font-bold text-stone-900">Sustainable Tourism Built Into the Trekking Experience</h3>
-              <p>Sustainability here is not an add-on service, it is part of how the trek is structured day to day. Water filtration points at lodges, food sourced from nearby farms, and porter load limits aren't separate &quot;eco-initiatives&quot; bolted onto a standard trek. They are simply how the Khopra Ridge route has always operated, which is part of why the model has held up over time rather than fading once the novelty wore off.
+              <p>Sustainability here is not an add-on service, it is part of how the trek is structured day to day. Water filtration points at lodges, food sourced from nearby farms, and porter load limits aren't separate &quot;eco-initiatives&quot; bolted onto a standard trek. They are simply how the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> route has always operated, which is part of why the model has held up over time rather than fading once the novelty wore off.
               </p>
             </div>
           </article>

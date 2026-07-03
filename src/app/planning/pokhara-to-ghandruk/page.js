@@ -41,7 +41,7 @@ export default function Page() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Pokhara to Ghandruk Transportation Guide
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Plan your transfer to the Annapurna and Khopra Ridge trailhead. Compare private 4WD jeeps, shared jeeps, local buses, and taxis—complete with fares, travel times, and road condition tips.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Plan your transfer to the Annapurna and <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> trailhead. Compare private 4WD jeeps, shared jeeps, local buses, and taxis—complete with fares, travel times, and road condition tips.
           </p>
 
           {/* Quick Metrics Grid */}

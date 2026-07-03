@@ -21,7 +21,7 @@ export default function Page() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge &amp; Mohare Danda Eco-Trek
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Trek through two extraordinary viewpoints — Mohare Danda and Khopra Ridge — all woven together through off-the-beaten-path villages where community-owned lodges support local development.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Trek through two extraordinary viewpoints — Mohare Danda and <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> — all woven together through off-the-beaten-path villages where community-owned lodges support local development.
           </p>
 
           {/* Quick Metrics Grid */}

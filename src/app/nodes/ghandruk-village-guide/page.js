@@ -104,7 +104,7 @@ export default function Page() {
             </p>
             <p className="text-stone-600 leading-relaxed text-base">What makes Ghandruk stand out isn&apos;t just its size or its views, though both are impressive. It&apos;s the way the village has managed to stay genuinely lived-in. Families still farm the terraced fields below the houses, prayer flags move in the wind above stone courtyards, and the Gurung community that calls this place home has deep, generations-old ties to the Gurkha regiments that shaped so much of Nepal&apos;s modern history.
             </p>
-            <p className="text-stone-600 leading-relaxed text-base">For trekkers, Ghandruk also happens to sit at a strategic crossroads. It&apos;s a common starting point for routes toward Tadapani, Ghorepani, and the Khopra Ridge, and it connects directly to the broader Annapurna Base Camp trail. So whether you&apos;re coming for the culture, the mountain views, or the trekking access, Ghandruk tends to deliver on all three.
+            <p className="text-stone-600 leading-relaxed text-base">For trekkers, Ghandruk also happens to sit at a strategic crossroads. It&apos;s a common starting point for routes toward Tadapani, Ghorepani, and the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link>, and it connects directly to the broader Annapurna Base Camp trail. So whether you&apos;re coming for the culture, the mountain views, or the trekking access, Ghandruk tends to deliver on all three.
             </p>
 
             {/* Quick Facts Grid */}

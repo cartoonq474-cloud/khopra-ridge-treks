@@ -108,7 +108,7 @@ export default function Page() {
               <p>The route climbs from around 2,630m at Tadapani to a high point of 4,660m at Khayer Lake, with several overnight stops in between that gradually condition your body for the altitude. With a sensible pace and proper acclimatization, this altitude profile is manageable for most reasonably fit trekkers, including many first-timers.
               </p>
               <p>
-                <strong>What Is the Highest Point on the Khopra Ridge Trek?</strong>The highest point on the route is Khayer Lake, at 4,660m, reached as a side hike from Khopra Ridge itself. This is different from the highest place you will actually sleep, which is Khopra Danda at 3,660m.
+                <strong>What Is the Highest Point on the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link>?</strong>The highest point on the route is Khayer Lake, at 4,660m, reached as a side hike from Khopra Ridge itself. This is different from the highest place you will actually sleep, which is Khopra Danda at 3,660m.
               </p>
               <p>That distinction matters more than most trekkers realize. Sleeping altitude is what your body has to recover and rest at overnight, while a day-hike altitude like Khayer Lake is a shorter exposure you pass through and then descend from. Trekking up to 4,660m for a few hours is a very different physiological experience than trying to sleep there.
               </p>

@@ -241,7 +241,7 @@ export default function Page() {
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
                 <h4 className="font-bold text-stone-955 text-sm">Wind &amp; Cold Layering</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">Wind chill at Khopra Ridge (3,660m) or Khayer Lake (4,660m) can drop temperatures instantly. Keep a windproof layer accessible.
+                <p className="text-xs text-stone-500 leading-relaxed">Wind chill at <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> (3,660m) or Khayer Lake (4,660m) can drop temperatures instantly. Keep a windproof layer accessible.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">

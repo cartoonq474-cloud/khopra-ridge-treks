@@ -281,7 +281,7 @@ export default function Page() {
               <h3 className="text-lg font-bold text-stone-900">The Role of Mahabir Pun in Community Tourism Development</h3>
               <p>Mahabir Pun, a Nepali social entrepreneur best known for bringing wireless internet to remote mountain villages through the Nepal Wireless Networking Project, played a key role in encouraging this kind of cooperative thinking in the Myagdi region.
               </p>
-              <p>His broader work focused on giving isolated villages the infrastructure and organizational tools to manage their own resources rather than depending entirely on outside operators. That same cooperative model — village committees managing a shared asset for community benefit — was applied to trekking accommodation in Nangi and Swanta, laying the groundwork for what later became the community lodge system used along routes like Khopra Ridge.
+              <p>His broader work focused on giving isolated villages the infrastructure and organizational tools to manage their own resources rather than depending entirely on outside operators. That same cooperative model — village committees managing a shared asset for community benefit — was applied to trekking accommodation in Nangi and Swanta, laying the groundwork for what later became the community lodge system used along routes like <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link>.
               </p>
             </div>
           </article>

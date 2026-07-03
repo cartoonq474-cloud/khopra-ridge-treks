@@ -69,7 +69,7 @@ export default function Page() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge Weather in October
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">October is the most popular month to trek Khopra Ridge. With post-monsoon rains gone, expect dry trails, 95% sky clarity, and clear sunrise views of Annapurna and Dhaulagiri.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">October is the most popular month to trek <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link>. With post-monsoon rains gone, expect dry trails, 95% sky clarity, and clear sunrise views of Annapurna and Dhaulagiri.
           </p>
 
           {/* Quick Metrics Grid */}

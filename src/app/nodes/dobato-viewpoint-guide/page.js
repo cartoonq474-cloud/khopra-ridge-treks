@@ -395,7 +395,7 @@ export default function Page() {
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
                 <h4 className="font-bold text-stone-950 text-base">Khopra Ridge Trek Connection</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">Dobato sits along the route used for the Khopra Ridge trek, which means Muldai can be added with minimal detour for anyone already following this circuit. Guided loops commonly build in a dedicated sunrise climb to Muldai.
+                <p className="text-xs text-stone-500 leading-relaxed">Dobato sits along the route used for the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> trek, which means Muldai can be added with minimal detour for anyone already following this circuit. Guided loops commonly build in a dedicated sunrise climb to Muldai.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">

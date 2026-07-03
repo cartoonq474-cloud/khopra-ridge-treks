@@ -21,7 +21,7 @@ export default function Page() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Trek Cost: Complete Budget Breakdown for Every Traveler
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">If you&apos;re researching the Khopra Trek cost, you&apos;ve probably already noticed that most guides only give you a rough package price and leave the rest to guesswork. That&apos;s not enough when you&apos;re trying to figure out whether this trip actually fits your travel budget.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">If you&apos;re researching the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Trek</Link> cost, you&apos;ve probably already noticed that most guides only give you a rough package price and leave the rest to guesswork. That&apos;s not enough when you&apos;re trying to figure out whether this trip actually fits your travel budget.
           </p>
 
           {/* Quick Metrics Grid */}

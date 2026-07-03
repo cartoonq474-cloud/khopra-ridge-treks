@@ -112,7 +112,7 @@ export default function Page() {
             </p>
             <p className="text-stone-600 leading-relaxed text-base">While Poon Hill draws hundreds of trekkers every morning for its famous sunrise, Muldai Viewpoint sits quietly at 3,637 metres on a ridge above Dobato, rewarding those who find it with closer mountain views, cleaner air, and a level of stillness that has largely disappeared from the more popular trails nearby. It is one of Nepal&apos;s genuinely underrated trekking destinations, and among Annapurna&apos;s best hidden sunrise viewpoints.
             </p>
-            <p className="text-stone-600 leading-relaxed text-base">This guide covers everything you need to plan a visit: where Muldai is, how to get there, what you will see, when to go, where to sleep, and how it compares to Poon Hill. Whether you are trekking independently or exploring the Khopra Ridge route with a guide, you will find a practical, honest answer to every question you have about this remarkable viewpoint.
+            <p className="text-stone-600 leading-relaxed text-base">This guide covers everything you need to plan a visit: where Muldai is, how to get there, what you will see, when to go, where to sleep, and how it compares to Poon Hill. Whether you are trekking independently or exploring the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> route with a guide, you will find a practical, honest answer to every question you have about this remarkable viewpoint.
             </p>
 
             {/* Quick Summary Grid */}

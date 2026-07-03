@@ -98,7 +98,7 @@ export default function Page() {
           <article id="overview" className="scroll-mt-12 space-y-6">
             <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Ghorepani Village Guide
             </h2>
-            <p className="text-stone-600 leading-relaxed text-base">This is the launching point for the famous Poon Hill sunrise hike, where Dhaulagiri, Nilgiri, and the Annapurna range catch the first light of day. It&apos;s also a trail junction, where routes split toward Tadapani, Ghandruk, Swanta, Tatopani, and eventually Khopra Ridge. In spring, the surrounding hills turn into one of the world&apos;s largest rhododendron canopies.
+            <p className="text-stone-600 leading-relaxed text-base">This is the launching point for the famous Poon Hill sunrise hike, where Dhaulagiri, Nilgiri, and the Annapurna range catch the first light of day. It&apos;s also a trail junction, where routes split toward Tadapani, Ghandruk, Swanta, Tatopani, and eventually <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link>. In spring, the surrounding hills turn into one of the world&apos;s largest rhododendron canopies.
             </p>
             <p className="text-stone-600 leading-relaxed text-base">In this guide, we&apos;ll cover where Ghorepani is, how to get there from Pokhara, what the Poon Hill sunrise hike actually involves, the route options that branch out from the village, and how Ghorepani fits into a longer Annapurna trekking plan — including the connection to our Khopra Ridge trek.
             </p>

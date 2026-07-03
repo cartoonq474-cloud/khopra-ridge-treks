@@ -110,7 +110,7 @@ export default function Page() {
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Trail Directory</span>
           <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Khopra Ridge Trail Village Nodes
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Explore the essential stops. Review altitudes, lodging styles, and guide directories for every village node along the Khopra Ridge circuit.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Explore the essential stops. Review altitudes, lodging styles, and guide directories for every village node along the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> circuit.
           </p>
         </div>
 

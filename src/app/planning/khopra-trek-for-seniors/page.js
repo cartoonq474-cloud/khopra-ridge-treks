@@ -176,7 +176,7 @@ export default function Page() {
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
               <p>Yes, active seniors can complete the Khopra Ridge Trek safely, and many do it every trekking season. The route reaches a respectable altitude, but the daily distances are short, the trail is non-technical, and <Link href="/planning/community-lodges-khopra-trek" className="text-emerald-700 font-bold hover:underline">community-run lodges</Link>line the way for warm meals and rest. What makes the difference for older trekkers is not fitness alone — it's pacing, preparation, and the right support on the ground.
               </p>
-              <p>This guide walks through exactly what the Khopra Ridge Trek for seniors involves: how hard the trail really is, what altitude does to an older body, how to structure an itinerary that protects your joints and your energy, and what gear and preparation actually matter. If you're trying to decide whether this trek belongs on your list after 60 or 70, you'll find a straight answer here, not a sales pitch.
+              <p>This guide walks through exactly what the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link> for seniors involves: how hard the trail really is, what altitude does to an older body, how to structure an itinerary that protects your joints and your energy, and what gear and preparation actually matter. If you're trying to decide whether this trek belongs on your list after 60 or 70, you'll find a straight answer here, not a sales pitch.
               </p>
             </div>
           </article>

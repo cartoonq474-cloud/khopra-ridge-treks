@@ -20,7 +20,7 @@ export default function Page() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge Trek Permits &amp; Regulations: Fees, Requirements &amp; Rules
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Before you set foot on the trail to Khopra Ridge, there&apos;s some paperwork to sort out. Nepal requires every trekker entering the Annapurna Conservation Area to carry valid permits, and the rules around how to get them, what they cost, and what&apos;s expected of you on the trail can feel confusing if you&apos;ve never trekked here before.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Before you set foot on the trail to <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link>, there&apos;s some paperwork to sort out. Nepal requires every trekker entering the Annapurna Conservation Area to carry valid permits, and the rules around how to get them, what they cost, and what&apos;s expected of you on the trail can feel confusing if you&apos;ve never trekked here before.
           </p>
 
           {/* Quick Metrics Grid */}

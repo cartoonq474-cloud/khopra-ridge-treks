@@ -52,7 +52,7 @@ export default function AboutPage() {
           <div className="space-y-6">
             <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight">A Trek with a Higher Purpose
             </h2>
-            <p className="text-stone-600 leading-relaxed font-medium">The Khopra Ridge Trek is not just a path to high-altitude viewpoints; it is a live community cooperative project. Developed as an offbeat alternative to standard routes like Poon Hill or Mardi Himal, this trek was created specifically to bring sustainable income to remote mountain villages that do not lie on mainstream routes.
+            <p className="text-stone-600 leading-relaxed font-medium">The <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link> is not just a path to high-altitude viewpoints; it is a live community cooperative project. Developed as an offbeat alternative to standard routes like Poon Hill or Mardi Himal, this trek was created specifically to bring sustainable income to remote mountain villages that do not lie on mainstream routes.
             </p>
             <p className="text-stone-600 leading-relaxed">Every community lodge is collectively owned and operated by a village committee. This means that 100% of accommodation profits stay directly inside the local valley to pay for schoolteachers' salaries, maintain health clinics, and build mountain trails.
             </p>

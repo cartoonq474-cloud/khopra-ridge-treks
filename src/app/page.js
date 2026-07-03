@@ -183,7 +183,7 @@ export default function Home() {
               Mountains Visible from the Ridge
             </h2>
             <p className="mt-4 text-stone-400">
-              Standing at Khopra Ridge (3,660m) places you directly opposite Dhaulagiri, creating a visual corridor of snow-capped peaks.
+              Standing at <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> (3,660m) places you directly opposite Dhaulagiri, creating a visual corridor of snow-capped peaks.
             </p>
           </div>
 

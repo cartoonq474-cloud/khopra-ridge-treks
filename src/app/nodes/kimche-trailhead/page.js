@@ -100,7 +100,7 @@ export default function Page() {
           <article id="overview" className="scroll-mt-12 space-y-6">
             <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">The Jeep Road Trailhead for Ghandruk
             </h2>
-            <p className="text-stone-600 leading-relaxed text-base">Most experienced trekkers today choose to travel directly to Kimche by private 4WD jeep from Pokhara rather than walking the lower road section from Nayapul. That decision saves roughly three to four hours on the first day and puts you on proper mountain trails almost immediately. For routes heading toward Ghandruk, Annapurna Base Camp, or the Khopra Ridge Trek, Kimche is where the real trekking experience begins.
+            <p className="text-stone-600 leading-relaxed text-base">Most experienced trekkers today choose to travel directly to Kimche by private 4WD jeep from Pokhara rather than walking the lower road section from Nayapul. That decision saves roughly three to four hours on the first day and puts you on proper mountain trails almost immediately. For routes heading toward Ghandruk, Annapurna Base Camp, or the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link>, Kimche is where the real trekking experience begins.
             </p>
           </article>
 

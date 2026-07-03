@@ -308,7 +308,7 @@ export default function Page() {
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-950 text-sm sm:text-base">Syauli Bazaar to Khopra Ridge</h4>
-                <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">For longer itineraries, Syauli Bazaar anchors a multi-day trek toward Khopra Ridge (3,660m) via Ghandruk, Tadapani, and Dobato, offering a quieter, less commercial experience.
+                <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">For longer itineraries, Syauli Bazaar anchors a multi-day trek toward <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> (3,660m) via Ghandruk, Tadapani, and Dobato, offering a quieter, less commercial experience.
                 </p>
               </div>
             </div>

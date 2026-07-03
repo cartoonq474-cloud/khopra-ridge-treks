@@ -21,7 +21,7 @@ export default function Page() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge &amp; Poon Hill Combination Trek
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Bring together the classic, iconic sunrise viewpoint of Poon Hill with the quiet, panoramic wilderness of Khopra Ridge in one seamless 10-day Himalayan adventure.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Bring together the classic, iconic sunrise viewpoint of Poon Hill with the quiet, panoramic wilderness of <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> in one seamless 10-day Himalayan adventure.
           </p>
 
           {/* Quick Metrics Grid */}

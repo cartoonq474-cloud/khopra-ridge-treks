@@ -20,7 +20,7 @@ export default function Page() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Chhistibung Forest Trek Guide (2,975m) – Forest Camp on the Khopra Ridge Trek
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">If you&apos;re planning a trek through the Annapurna region, Chhistibung Forest is a name worth knowing well before you set out. Sitting at 2,975 meters, this dense pocket of sub-alpine forest marks one of the most memorable stretches of the Khopra Ridge Trek — a place where the trail quietly shifts character before the climb toward Khopra Danda begins.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">If you&apos;re planning a trek through the Annapurna region, Chhistibung Forest is a name worth knowing well before you set out. Sitting at 2,975 meters, this dense pocket of sub-alpine forest marks one of the most memorable stretches of the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link> — a place where the trail quietly shifts character before the climb toward Khopra Danda begins.
           </p>
 
           {/* Quick Metrics Grid */}

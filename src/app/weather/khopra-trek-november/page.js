@@ -128,7 +128,7 @@ export default function Page() {
             <h2 className="text-3xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Weather in November Overview
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>November falls firmly in the post-monsoon autumn season, which is widely considered the best time to trek Khopra Ridge. The monsoon clouds have cleared out, humidity has dropped, and a stable high-pressure pattern tends to settle over the Annapurna foothills. That combination is what produces the dry trails and the long-range mountain views the region is known for this time of year.
+              <p>November falls firmly in the post-monsoon autumn season, which is widely considered the best time to trek <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link>. The monsoon clouds have cleared out, humidity has dropped, and a stable high-pressure pattern tends to settle over the Annapurna foothills. That combination is what produces the dry trails and the long-range mountain views the region is known for this time of year.
               </p>
               <p>Keep in mind that while daytime hiking conditions are highly stable, you must prepare for the rapid temperature swings that occur at high elevations. As the sun drops, the ridge chills down quickly, making your layering choices and sleep gear a vital component of a successful trek.
               </p>

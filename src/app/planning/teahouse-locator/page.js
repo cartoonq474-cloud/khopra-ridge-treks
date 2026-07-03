@@ -21,7 +21,7 @@ export default function Page() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge Teahouse Locator
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">If you&apos;re planning the Khopra Ridge Trek, one question comes up before almost anything else: where will you actually sleep each night? Unlike the busier Annapurna circuits, the Khopra Ridge route runs through smaller villages where lodge numbers are limited, and knowing what&apos;s available before you go makes a real difference to your trip.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">If you&apos;re planning the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link>, one question comes up before almost anything else: where will you actually sleep each night? Unlike the busier Annapurna circuits, the Khopra Ridge route runs through smaller villages where lodge numbers are limited, and knowing what&apos;s available before you go makes a real difference to your trip.
           </p>
 
           {/* Quick Metrics Grid */}

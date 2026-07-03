@@ -114,7 +114,7 @@ export default function Page() {
           <article id="overview" className="scroll-mt-12 space-y-6">
             <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Quick Answer &amp; Overview
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">Khayer Lake is one of the highest points you can reach on foot in the Khopra Ridge section of the Annapurna region. At 4,660 meters, this sacred alpine lake sits in genuinely thin air, and the trek to reach it is shaped almost entirely by how your body handles altitude rather than by technical climbing skill.
+            <p className="text-stone-600 leading-relaxed text-sm">Khayer Lake is one of the highest points you can reach on foot in the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> section of the Annapurna region. At 4,660 meters, this sacred alpine lake sits in genuinely thin air, and the trek to reach it is shaped almost entirely by how your body handles altitude rather than by technical climbing skill.
             </p>
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-3">

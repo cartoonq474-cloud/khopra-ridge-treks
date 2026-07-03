@@ -20,7 +20,7 @@ export default function Page() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Swanta Village Trek Guide: Khopra Ridge Descent, Homestays &amp; Culture
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">After days of cold winds and open ridgeline trails, Swanta Village feels like stepping into a different world. Tucked into a quiet side-valley below Khopra Ridge, this Magar farming community marks the point where alpine trekking gives way to terraced fields, warm lodges, and village life.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">After days of cold winds and open ridgeline trails, Swanta Village feels like stepping into a different world. Tucked into a quiet side-valley below <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link>, this Magar farming community marks the point where alpine trekking gives way to terraced fields, warm lodges, and village life.
           </p>
 
           {/* Quick Metrics Grid */}

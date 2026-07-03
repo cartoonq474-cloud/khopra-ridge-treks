@@ -98,7 +98,7 @@ export default function Page() {
           <article id="overview" className="scroll-mt-12 space-y-6">
             <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Tadapani in the Annapurna Trekking Network (Why This Junction Matters)
             </h2>
-            <p className="text-stone-600 leading-relaxed text-base">Sitting at 2,630 metres inside the Annapurna Conservation Area, Tadapani is not just a quiet mountain village — it is a genuine trekking junction where the routes either lead toward the popular, well-worn path to Ghorepani or branch off into the wilder, more rewarding terrain of Bayeli Kharka and Khopra Ridge. Three major trails intersect here, and the direction you choose defines the character of everything that follows.
+            <p className="text-stone-600 leading-relaxed text-base">Sitting at 2,630 metres inside the Annapurna Conservation Area, Tadapani is not just a quiet mountain village — it is a genuine trekking junction where the routes either lead toward the popular, well-worn path to Ghorepani or branch off into the wilder, more rewarding terrain of Bayeli Kharka and <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link>. Three major trails intersect here, and the direction you choose defines the character of everything that follows.
             </p>
 
             <div className="space-y-6">

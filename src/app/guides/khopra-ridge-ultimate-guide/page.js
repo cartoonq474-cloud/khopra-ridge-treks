@@ -21,7 +21,7 @@ export default function Page() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Ultimate Khopra Ridge Guide: Itinerary, Cost, Permits, Difficulty &amp; Best Time
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Plan your Khopra Ridge Trek with confidence. This complete guide covers the full route, day-by-day itinerary, altitude profile, permits, cost, best time to go, and what to expect on the trail — everything you need before you book.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Plan your <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link> with confidence. This complete guide covers the full route, day-by-day itinerary, altitude profile, permits, cost, best time to go, and what to expect on the trail — everything you need before you book.
           </p>
           
           {/* Quick Metrics Cards */}

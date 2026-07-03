@@ -156,7 +156,7 @@ export default function Page() {
             <h2 className="text-3xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Solo Trekking to Khopra Ridge: Complete Planning &amp; Safety Guide
             </h2>
             <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>Khopra Ridge sits in a quieter corner of the Annapurna region, away from the crowds that fill the Poon Hill and Annapurna Sanctuary trails. That seclusion is exactly why so many independent travelers are drawn to it, and it's also why solo trekking to Khopra Ridge raises more questions than the busier routes do.
+              <p><Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> sits in a quieter corner of the Annapurna region, away from the crowds that fill the Poon Hill and Annapurna Sanctuary trails. That seclusion is exactly why so many independent travelers are drawn to it, and it's also why solo trekking to Khopra Ridge raises more questions than the busier routes do.
               </p>
               <p>This guide walks through everything you need to plan the trek with confidence: whether you're legally allowed to go alone, how safe the trail actually is, what the route and itinerary look like day by day, what it costs, where you'll sleep, and how to decide between trekking independently or bringing a local guide. By the end, you'll know exactly what solo trekking on Khopra Ridge involves and whether it fits the kind of trip you want.
               </p>

@@ -20,7 +20,7 @@ export default function Page() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge Community Lodge: Complete Guide for Trekkers
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">There are teahouses scattered all across the Annapurna region. And then there is the Khopra Ridge Community Lodge — something entirely different. Perched at 3,660 meters on the spine of Khopra Ridge, this community-owned lodge is one of the most memorable overnight stops in the Nepal Himalayas.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">There are teahouses scattered all across the Annapurna region. And then there is the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> Community Lodge — something entirely different. Perched at 3,660 meters on the spine of Khopra Ridge, this community-owned lodge is one of the most memorable overnight stops in the Nepal Himalayas.
           </p>
 
           {/* Quick Metrics Grid */}

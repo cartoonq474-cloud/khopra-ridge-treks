@@ -181,7 +181,7 @@ export default function Page() {
               </p>
               <p>That's still true on most routes. But on a handful of trails, including the <Link href="/planning/khopra-trek-route-overview" className="text-emerald-700 font-bold hover:underline">Khopra Ridge Trek</Link>, a different model has taken root: the community lodge. It looks similar from the outside, but it's owned, run, and funded in a completely different way.
               </p>
-              <p>This guide breaks down community lodge vs teahouse trekking in plain terms — what each model actually is, how the money moves, what the experience feels like on the ground, and which one makes more sense for your trek. We'll also look at why villages along the Khopra trail chose to build their own lodges instead of relying on the standard teahouse system.
+              <p>This guide breaks down community lodge vs teahouse trekking in plain terms — what each model actually is, how the money moves, what the experience feels like on the ground, and which one makes more sense for your trek. We'll also look at why villages along the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra</Link> trail chose to build their own lodges instead of relying on the standard teahouse system.
               </p>
             </div>
           </article>

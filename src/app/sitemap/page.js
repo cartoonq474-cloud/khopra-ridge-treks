@@ -14,7 +14,7 @@ export default function Page() {
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-600">Site Directory</span>
           <h1 className="mt-4 text-4xl font-extrabold tracking-tight text-stone-950 sm:text-5xl leading-tight">Authority HTML Sitemap
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Explore the complete 182-page sitemap of the Khopra Ridge Trek authority website. Grouped into structured thematic clusters to ensure maximum link equity and easy crawlability.
+          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">Explore the complete 182-page sitemap of the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link> authority website. Grouped into structured thematic clusters to ensure maximum link equity and easy crawlability.
           </p>
         </div>
 

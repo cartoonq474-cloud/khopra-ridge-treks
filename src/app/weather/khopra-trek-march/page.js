@@ -162,7 +162,7 @@ export default function Page() {
             </h2>
             <div className="space-y-4 text-stone-600 text-sm leading-relaxed">
               <p>
-                <strong>Does Khopra Ridge Have Snow in March?</strong>Yes, snow is still possible in March, particularly during the first half of the month and at higher elevations near the ridge. This isn&apos;t the heavy mid-winter snowpack of December or January — it is typically leftover snow and occasional fresh dustings rather than continuous snowfall. By late March, most lower and mid-elevation sections have usually cleared.
+                <strong>Does <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> Have Snow in March?</strong>Yes, snow is still possible in March, particularly during the first half of the month and at higher elevations near the ridge. This isn&apos;t the heavy mid-winter snowpack of December or January — it is typically leftover snow and occasional fresh dustings rather than continuous snowfall. By late March, most lower and mid-elevation sections have usually cleared.
               </p>
               <p>
                 <strong>Rainfall in March:</strong>Rain is less common than snow but does occur, usually as short afternoon showers rather than prolonged downpours. These showers tend to arrive alongside the cloud build-up that is typical later in the day.
