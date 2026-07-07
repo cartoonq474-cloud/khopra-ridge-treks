@@ -5,6 +5,7 @@ import Link from "next/link";
 import HeroSection from "@/components/home/HeroSection";
 import TrekSpecsSection from "@/components/home/TrekSpecsSection";
 import AccommodationDifficultySection from "@/components/home/AccommodationDifficultySection";
+import AltitudeSeasonsSection from "@/components/home/AltitudeSeasonsSection";
 import ItinerarySection from "@/components/home/ItinerarySection";
 import CoverageSection from "@/components/home/CoverageSection";
 import CultureFoodSection from "@/components/home/CultureFoodSection";
@@ -358,6 +359,7 @@ export default function Home() {
       </section>
 
       <AccommodationDifficultySection />
+      <AltitudeSeasonsSection />
 
       {/* THE COMMUNITY LODGE DIFFERENCE */}
       <section id="community" className="py-24 mx-auto max-w-7xl px-6">
