@@ -6,35 +6,74 @@ export const metadata = {
   alternates: {
     canonical: "/planning/teahouse-locator",
   },
-  title: "Khopra Ridge Teahouse Locator: Complete Lodge Directory, Map & Accommodation Guide",
-  description: "Find every teahouse on the Khopra Ridge Trek. Compare lodge prices, facilities, contacts, and community-owned stays across Swanta, Bayeli, Dobato, Khopra Danda, and more.",
+  title: "Khopra Ridge Teahouse Locator: Complete Guide to Lodges, Prices & Accommodation",
+  description: "Plan every overnight stop on the Khopra Ridge Trek with our complete teahouse locator. Compare lodge prices, facilities, booking tips, and village-by-village accommodation from Ghorepani to Khopra Danda.",
 };
 
 export default function Page() {
+  const trekkingHours = [
+    { segment: "Ghorepani → Tadapani", time: "3–4 hours" },
+    { segment: "Tadapani → Dobato", time: "4–5 hours" },
+    { segment: "Dobato → Bayeli Kharka", time: "3–4 hours" },
+    { segment: "Bayeli Kharka → Khopra Ridge", time: "2–3 hours" },
+    { segment: "Khopra Ridge → Swanta", time: "4–5 hours" },
+    { segment: "Swanta → Ghara", time: "2–3 hours" }
+  ];
+
+  const priceByAltitude = [
+    { lodge: "Swanta Community Lodge", village: "Swanta", altitude: "2,200m", priceNpr: "~1,200", priceUsd: "~$9" },
+    { lodge: "Tadapani Guest House", village: "Tadapani", altitude: "2,630m", priceNpr: "~2,000", priceUsd: "~$15" },
+    { lodge: "Hotel Snowland", village: "Ghorepani", altitude: "2,860m", priceNpr: "~2,500", priceUsd: "~$19" },
+    { lodge: "Chhistibung Community Lodge", village: "Chhistibung", altitude: "2,975m", priceNpr: "~1,500", priceUsd: "~$11" },
+    { lodge: "Bayeli Kharka Community Lodge", village: "Bayeli Kharka", altitude: "3,425m", priceNpr: "~1,500", priceUsd: "~$11" },
+    { lodge: "Khopra Ridge Community Lodge", village: "Khopra Danda", altitude: "3,660m", priceNpr: "~1,800", priceUsd: "~$14" }
+  ];
+
+  const facilityMatrix = [
+    { lodge: "Swanta Community Lodge", wifi: "Yes", shower: "Solar", charge: "Yes", bath: "Attached", heat: "Limited" },
+    { lodge: "Tadapani Guest House", wifi: "Yes", shower: "Solar", charge: "Yes", bath: "Common", heat: "None" },
+    { lodge: "Hotel Snowland Ghorepani", wifi: "Yes", shower: "Electric", charge: "Yes", bath: "Attached", heat: "Electric heater" },
+    { lodge: "Chhistibung Community Lodge", wifi: "No", shower: "Solar", charge: "Yes", bath: "Common", heat: "None" },
+    { lodge: "Bayeli Kharka Community Lodge", wifi: "No", shower: "Solar", charge: "Yes", bath: "Common", heat: "Dining room stove" },
+    { lodge: "Khopra Ridge Community Lodge", wifi: "Yes (limited)", shower: "Hot water bottles", charge: "Yes (fee)", bath: "Common", heat: "Hot water bottles" }
+  ];
+
   return (
     <div className="bg-stone-50 text-stone-900 min-h-screen font-sans antialiased flex flex-col justify-between">
       {/* HERO BANNER SECTION */}
       <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">Lodging &amp; Stays
+          {/* Breadcrumbs */}
+          <div className="mb-6 flex items-center gap-2 text-xs text-stone-400 font-semibold">
+            <Link href="/" className="hover:text-emerald-400 transition-colors">Home</Link>
+            <span>/</span>
+            <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 transition-colors">Planning</Link>
+            <span>/</span>
+            <span className="text-emerald-400">Teahouse Locator</span>
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge Teahouse Locator
+
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
+            Teahouse &amp; Lodge Directory
+          </div>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
+            Khopra Ridge Teahouse Locator
           </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">If you&apos;re planning the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link>, one question comes up before almost anything else: where will you actually sleep each night? Unlike the busier Annapurna circuits, the Khopra Ridge route runs through smaller villages where lodge numbers are limited, and knowing what&apos;s available before you go makes a real difference to your trip.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">
+            Complete guide to lodges, prices &amp; accommodation. Plan every overnight stop on the <Link href="/guides/khopra-ridge-ultimate-guide" className="text-emerald-400 underline hover:text-emerald-300 font-semibold">Khopra Ridge Trek</Link> from Ghorepani to Khopra Danda.
           </p>
 
           {/* Quick Metrics Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 max-w-5xl">
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-emerald-500/20 transition-all duration-300">
-              <span className="text-xs text-stone-400 font-bold uppercase tracking-wider block">Community Ratio</span>
-              <span className="text-xl md:text-2xl font-black text-emerald-400 mt-1 block">4 of 6 Lodges</span>
-              <span className="text-[10px] text-stone-400 block mt-0.5">Cooperative village ownership</span>
+              <span className="text-xs text-stone-400 font-bold uppercase tracking-wider block">Confirmed Lodges</span>
+              <span className="text-xl md:text-2xl font-black text-emerald-400 mt-1 block">6 to 8 Nodes</span>
+              <span className="text-[10px] text-stone-400 block mt-0.5">Community &amp; private stays</span>
             </div>
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-emerald-500/20 transition-all duration-300">
               <span className="text-xs text-stone-400 font-bold uppercase tracking-wider block">Twin Room Rates</span>
-              <span className="text-xl md:text-2xl font-black text-emerald-400 mt-1 block">1,200 - 2,500 NPR</span>
-              <span className="text-[10px] text-stone-400 block mt-0.5">Approx. $9 - $19 USD / night</span>
+              <span className="text-xl md:text-2xl font-black text-emerald-400 mt-1 block">1,200–2,500 NPR</span>
+              <span className="text-[10px] text-stone-400 block mt-0.5">Approx. $9–$19 USD / night</span>
             </div>
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-emerald-500/20 transition-all duration-300">
               <span className="text-xs text-stone-400 font-bold uppercase tracking-wider block">Highest Overnight Node</span>
@@ -42,9 +81,9 @@ export default function Page() {
               <span className="text-[10px] text-stone-400 block mt-0.5">Khopra Danda Ridge Lodge</span>
             </div>
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-emerald-500/20 transition-all duration-300">
-              <span className="text-xs text-stone-400 font-bold uppercase tracking-wider block">Best Booking Season</span>
+              <span className="text-xs text-stone-400 font-bold uppercase tracking-wider block">Booking Priority</span>
               <span className="text-xl md:text-2xl font-black text-emerald-400 mt-1 block">Spring &amp; Autumn</span>
-              <span className="text-[10px] text-emerald-400 font-semibold block mt-0.5">Highly advise advance booking</span>
+              <span className="text-[10px] text-emerald-400 font-semibold block mt-0.5">Advance booking critical</span>
             </div>
           </div>
         </div>
@@ -55,39 +94,62 @@ export default function Page() {
         {/* STICKY TABLE OF CONTENTS SIDEBAR */}
         <aside className="lg:col-span-1">
           <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
-            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">Table of Contents
+            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">
+              Table of Contents
             </h3>
             <nav className="flex flex-col gap-1 text-sm">
-              <a href="#locator-tool" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Teahouse Finder
+              <a href="#locator-tool" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Teahouse Finder
               </a>
-              <a href="#glance" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Stays at a Glance
+              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Quick Accommodation Overview
               </a>
-              <a href="#map-overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Route Map &amp; Overview
+              <a href="#village-directory" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Village-by-Village Directory
               </a>
-              <a href="#directory" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Complete Directory
+              <a href="#distances" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Trekking Distance &amp; Hours
               </a>
-              <a href="#comparison" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Accommodation Matrix
+              <a href="#teahouse-experience" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                What Staying Is Like
               </a>
-              <a href="#community-network" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Community Network
+              <a href="#cost-breakdown" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Accommodation Cost Breakdown
               </a>
-              <a href="#costs" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Accommodation Costs
+              <a href="#food-meals" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Food &amp; Meal Costs
               </a>
-              <a href="#booking" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Booking Guides
+              <a href="#facilities-matrix" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Lodge Facilities Comparison
               </a>
-              <a href="#stops" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Recommended Stops
+              <a href="#community-lodges" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Community-Owned Lodges
               </a>
-              <a href="#khayer-stay" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Near Khayer Lake
+              <a href="#booking-guide" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                How to Book Lodges
               </a>
-              <a href="#seasons" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Seasonal Availability
+              <a href="#khayer-lake-stay" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Accommodation Near Khayer Lake
               </a>
-              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Frequently Asked Qs
+              <a href="#seasonal-availability" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Seasonal Availability
+              </a>
+              <a href="#best-lodges" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Best Lodges by Type
+              </a>
+              <a href="#solo-tips" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Solo Trekker Tips
+              </a>
+              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Frequently Asked Qs
               </a>
             </nav>
             <div className="pt-4 border-t border-stone-100">
               <Link 
-                href="/tours"
+                href="/contact"
                 className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
-              >Inquire &amp; Book Tours
+              >
+                Inquire Lodge Reservations
               </Link>
             </div>
           </div>
@@ -96,293 +158,413 @@ export default function Page() {
         {/* PRIMARY EDITORIAL CONTENT COLUMN */}
         <main className="lg:col-span-3 space-y-16">
           
-          {/* SECTION 1: SEARCH WIDGET */}
+          {/* SECTION: INTERACTIVE SEARCH WIDGET */}
           <article id="locator-tool" className="scroll-mt-12 space-y-6">
-            <div className="border-b border-stone-200 pb-3">
-              <h2 className="text-3xl font-extrabold text-stone-950 tracking-tight">Lodge Directory &amp; Finder Tool
-              </h2>
-              <p className="mt-2 text-stone-600 text-sm leading-relaxed">Use the interactive tool below to search lodge pricing, review available amenities, check contact details, and evaluate which community health clinics or school projects are supported by your overnight stay.
-              </p>
-            </div>
-            
-            {/* Interactive database search component */}
+            <h2 className="text-3xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Interactive Teahouse Finder &amp; Database
+            </h2>
             <TeahouseFinder />
           </article>
 
-          {/* SECTION 2: ACCOMMODATION AT A GLANCE */}
-          <article id="glance" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Accommodation at a Glance
+          {/* SECTION: INTRODUCTION & OVERVIEW */}
+          <article id="overview" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Quick Overview of Accommodation on the Khopra Ridge Trek
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">The Khopra Ridge teahouse locator is built to help you map out exactly where to stay, from Ghorepani all the way to Khopra Danda and the Khayer Lake side trip. We&apos;ve organized everything by village and trekking order, so you can plan your itinerary stop by stop rather than scrolling through a long, unsorted list.
-            </p>
-
-            <div className="grid gap-6 md:grid-cols-3">
-              <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm">Typical Room Prices</h4>
-                <p className="text-[10px] text-stone-500 leading-relaxed font-medium">Twin-shared rooms range from 1,200 NPR (~$9 USD) to 2,500 NPR (~$19 USD) per night. Room rates are quoted separately from meals; teahouses expect guests to eat dinner and breakfast at the lodge.
-                </p>
-              </div>
-              <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm">Overnights stops</h4>
-                <p className="text-[10px] text-stone-500 leading-relaxed font-medium">Key overnight nodes include Ghorepani, Tadapani, Dobato, Bayeli Kharka, Chhistibung, Khopra Ridge (Khopra Danda), Swanta, and Ghara.
-                </p>
-              </div>
-              <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-950 text-sm">Facilities &amp; Wi-Fi</h4>
-                <p className="text-[10px] text-stone-500 leading-relaxed font-medium">Lower altitude lodges offer electric showers, attached bathrooms, and Wi-Fi. Higher community lodges utilize solar systems, common bathrooms, and hot water bottle warmers.
-                </p>
-              </div>
-            </div>
-          </article>
-
-          {/* SECTION 3: MAP & ROUTE OVERVIEW */}
-          <article id="map-overview" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Teahouse Map &amp; Route Overview
-            </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">Understanding where lodges sit along the trail helps you plan realistic daily distances and avoid arriving at a village only to find it&apos;s not actually an overnight stop on your route. A common route progression looks like this: Ghorepani or Tadapani &rarr; Dobato &rarr; Bayeli Kharka / Chhistibung &rarr; Khopra Ridge (Khopra Danda) &rarr; Swanta &rarr; Ghara.
-            </p>
-
-            <div className="overflow-x-auto bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
-              <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wider mb-4">Village Accommodation Locations</h4>
-              <table className="min-w-full divide-y divide-stone-200 text-xs text-stone-600">
-                <thead className="bg-stone-50">
-                  <tr>
-                    <th className="px-4 py-2 text-left font-bold text-stone-900">Village</th>
-                    <th className="px-4 py-2 text-left font-bold text-stone-900">Approximate Altitude</th>
-                    <th className="px-4 py-2 text-left font-bold text-stone-900">Typical Role in Itinerary</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-stone-200">
-                  {[
-                    { village: "Swanta", alt: "2,200m", role: "Lower-altitude rest stop, often near the end of a loop" },
-                    { village: "Tadapani", alt: "2,630m", role: "Common starting or connecting point" },
-                    { village: "Ghorepani", alt: "2,860m", role: "Larger village, often combined with Poon Hill" },
-                    { village: "Chhistibung", alt: "2,975m", role: "Mid-route stop before the final climb" },
-                    { village: "Bayeli Kharka", alt: "3,425m", role: "High-altitude stop close to Khopra Ridge" },
-                    { village: "Khopra Ridge (Khopra Danda)", alt: "3,660m", role: "Highest overnight stop, base for Khayer Lake" }
-                  ].map((item, idx) => (
-                    <tr key={idx}>
-                      <td className="px-4 py-2.5 font-semibold text-stone-900">{item.village}</td>
-                      <td className="px-4 py-2.5">{item.alt}</td>
-                      <td className="px-4 py-2.5">{item.role}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </article>
-
-          {/* SECTION 4: COMPLETE DIRECTORY DESCRIPTION */}
-          <article id="directory" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Complete Lodge Directory
-            </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">This is the village-by-village breakdown of lodge names, rates, contact details, and what each one offers.
-            </p>
-
-            <div className="space-y-4">
-              <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">Tadapani Lodges</h4>
-                <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
-                  <strong>Tadapani Guest House</strong>sits at the Tadapani junction at around 2,630m. A twin-shared room runs about 2,000 NPR per night (Contact: +977-984-602981). Facilities include Wi-Fi, a solar shower, and a common bathroom. This lodge is privately owned and supports local loaders working out of the Tadapani junction.
-                </p>
-              </div>
-
-              <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">Dobato &amp; Bayeli Kharka Lodges</h4>
-                <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">Dobato teahouses typically range between 1,200–1,800 NPR with basic solar setup. Further up sits <strong>Bayeli Kharka Community Lodge</strong> (3,425m), costing around 1,500 NPR per night (+977-980-871234). Features solar charging, hot showers, common bathrooms, and a warm dining room. Revenues directly support the Nangi community health post and local midwife program.
-                </p>
-              </div>
-
-              <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">Chhistibung &amp; Khopra Ridge Lodges</h4>
-                <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
-                  <strong>Chhistibung Community Lodge</strong> (2,975m) offers twin rooms for ~1,500 NPR (+977-981-992384), supporting local wildlife conservation patrols. At the peak, <strong>Khopra Ridge Community Lodge</strong> (3,660m) offers rooms for ~1,800 NPR (+977-984-722101). Facilities include Wi-Fi, solar charging, hot water bottles, and panoramic dining room views. Margins support the local Nangi High School and valley Wi-Fi expansion.
-                </p>
-              </div>
-
-              <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm sm:text-base">Swanta, Ghorepani &amp; Ghara Lodges</h4>
-                <p className="mt-2 text-xs sm:text-sm text-stone-500 leading-relaxed">
-                  <strong>Swanta Community Lodge</strong> (2,200m) offers twin rooms for ~1,200 NPR (+977-984-762891), featuring Wi-Fi, attached bathrooms, local yak cheese, and funding the local high school teacher salaries. <strong>Hotel Snowland Ghorepani</strong> (2,860m) is privately owned at ~2,500 NPR (+977-61-460122) featuring electric hot showers, internal heating, and attached bathrooms. Ghara village lodges down the descent offer similar facilities to Swanta.
-                </p>
-              </div>
-            </div>
-          </article>
-
-          {/* SECTION 5: COMPARISON TABLE */}
-          <article id="comparison" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Accommodation Comparison Table
-            </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">This table summarizes the verified lodges in our directory so you can compare at a glance before building your itinerary.
-            </p>
-
-            <div className="overflow-x-auto bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
-              <table className="min-w-full divide-y divide-stone-200 text-xs text-stone-600">
-                <thead className="bg-stone-50">
-                  <tr>
-                    <th className="px-4 py-2 text-left font-bold text-stone-900">Lodge</th>
-                    <th className="px-4 py-2 text-left font-bold text-stone-900">Village</th>
-                    <th className="px-4 py-2 text-left font-bold text-stone-900">Altitude</th>
-                    <th className="px-4 py-2 text-left font-bold text-stone-900">Twin Rate (NPR)</th>
-                    <th className="px-4 py-2 text-left font-bold text-stone-900">Wi-Fi</th>
-                    <th className="px-4 py-2 text-left font-bold text-stone-900">Hot Shower</th>
-                    <th className="px-4 py-2 text-left font-bold text-stone-900">Ownership</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-stone-200">
-                  {[
-                    { name: "Swanta Community Lodge", village: "Swanta", alt: "2,200m", rate: "~1,200", wifi: "Yes", shower: "Yes", owner: "Community" },
-                    { name: "Tadapani Guest House", village: "Tadapani", alt: "2,630m", rate: "~2,000", wifi: "Yes", shower: "Solar shower", owner: "Private" },
-                    { name: "Hotel Snowland Ghorepani", village: "Ghorepani", alt: "2,860m", rate: "~2,500", wifi: "Yes", shower: "Electric", owner: "Private" },
-                    { name: "Chhistibung Community Lodge", village: "Chhistibung", alt: "2,975m", rate: "~1,500", wifi: "No", shower: "Yes", owner: "Community" },
-                    { name: "Bayeli Kharka Community Lodge", village: "Bayeli Kharka", alt: "3,425m", rate: "~1,500", wifi: "No", shower: "Yes", owner: "Community" },
-                    { name: "Khopra Ridge Community Lodge", village: "Khopra Danda", alt: "3,660m", rate: "~1,800", wifi: "Yes", shower: "Hot water bottles", owner: "Community" }
-                  ].map((item, idx) => (
-                    <tr key={idx}>
-                      <td className="px-4 py-3 font-semibold text-stone-900">{item.name}</td>
-                      <td className="px-4 py-3">{item.village}</td>
-                      <td className="px-4 py-3">{item.alt}</td>
-                      <td className="px-4 py-3 font-bold text-stone-850">{item.rate}</td>
-                      <td className="px-4 py-3">{item.wifi}</td>
-                      <td className="px-4 py-3">{item.shower}</td>
-                      <td className="px-4 py-3">{item.owner}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
-              <div className="space-y-2">
-                <h4 className="font-bold text-stone-905 text-sm">Facility vs Altitude Rates</h4>
-                <p className="text-[11px] leading-relaxed text-stone-550">Ghorepani offers the most expensive stays because it supports electric heaters and showers, which are more expensive to run than the solar heating and hot water bottles utilized at the community-owned lodges higher up the ridge.
-                </p>
-              </div>
-              <div className="space-y-2">
-                <h4 className="font-bold text-stone-905 text-sm">Peak Reservation Strategy</h4>
-                <p className="text-[11px] leading-relaxed text-stone-550">Because room counts at Khopra Ridge Lodge and Bayeli Kharka Lodge are low and alternatives at those altitudes do not exist, prioritizing advance bookings for those two high points is critical.
-                </p>
-              </div>
-            </div>
-          </article>
-
-          {/* SECTION 6: COMMUNITY LODGE NETWORK */}
-          <article id="community-network" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Community Lodge Network on Khopra Ridge
-            </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">One of the things that sets the Khopra Ridge Trek apart from many other teahouse routes in Nepal is the density of community-owned lodges along a relatively short stretch of trail.
-            </p>
-
-            <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-4">
-              <h4 className="font-bold text-stone-950 text-base">How the Community Model Works</h4>
-              <p className="text-xs text-stone-500 leading-relaxed">Revenues from room bookings and dining logs are directed straight back into the local villages. This helps fund teacher salaries (at Swanta Secondary School), medical midwife systems and clinics (at Nangi community health posts via Bayeli Lodge), and environmental protection patrols (funded by Chhistibung Lodge). Trekkers get a unique cultural interaction, and communities retain direct economic tourism benefits.
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                If you&apos;re planning the Khopra Ridge Trek, one of the most important questions you&apos;ll need to answer before you start walking is a simple one: where will you actually sleep each night?
+              </p>
+              <p>
+                This Khopra Ridge Teahouse Locator exists to answer that question completely. Unlike the busier Annapurna Base Camp or Poon Hill routes — where lodges are almost impossible to miss — the Khopra Ridge route passes through smaller, quieter villages with far fewer accommodation options. Knowing which villages have lodges, how much rooms cost, which stops require advance booking, and what conditions are actually like on the ground makes a real and practical difference to your trip.
+              </p>
+              <p>
+                <strong>How many teahouses are available?</strong> The main circuit features approximately 6 to 8 confirmed overnight lodges, dominated by community-owned cooperative stays.
+              </p>
+              <p>
+                <strong>Typical room prices:</strong> Twin-shared rooms range from ~1,200 NPR (~$9 USD) per night at community lodges to ~2,500 NPR (~$19 USD) at private guesthouses in Ghorepani.
+              </p>
+              <p>
+                <strong>Highest overnight stop:</strong> <Link href="/nodes/khopra-ridge-lodge-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Community Lodge</Link> at 3,660 metres altitude beneath Dhaulagiri and Annapurna South.
+              </p>
+              <p>
+                <strong>Advance booking:</strong> Essential in Spring (March–May) and Autumn (September–November) for Khopra Danda and Bayeli Kharka lodges due to strict room limits.
               </p>
             </div>
           </article>
 
-          {/* SECTION 7: COSTS */}
-          <article id="costs" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">How Much Does Accommodation Cost?
+          {/* SECTION: VILLAGE DIRECTORY */}
+          <article id="village-directory" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Complete Village-by-Village Khopra Ridge Lodge Directory
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">Lodge room rates remain flat during low and peak seasons because community lodges charge fixed rates. However, dining costs typically scale up at higher altitudes because food items must be carried up by porters and mules. Always budget for the combined &quot;bed plus board&quot; daily cost since teahouses expect guests to dine on-site.
-            </p>
-          </article>
-
-          {/* SECTION 8: BOOKING */}
-          <article id="booking" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Booking Lodges on the Khopra Ridge Trek
-            </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">Walk-in reservations work for lower villages, but the highest points at Khopra Danda and Bayeli Kharka can fill up completely during peak months (Spring/Autumn). Independent trekkers should call ahead from the previous village using the contact numbers in our locator tool or start walking early to secure a room before the late afternoon rush.
-            </p>
-          </article>
-
-          {/* SECTION 9: STOPS */}
-          <article id="stops" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Best Overnight Stops on the Khopra Ridge Trek
-            </h2>
-            <div className="grid gap-6 md:grid-cols-3 text-stone-600 text-sm">
-              <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm"> 4-Day Rapid Pace</h4>
-                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">Day 1: Tadapani &bull; Day 2: Bayeli Kharka &bull; Day 3: Khopra Ridge &bull; Day 4: Swanta (and exit). Best for fit trekkers.
+            <div className="space-y-6 text-sm text-stone-600 leading-relaxed">
+              {/* Tadapani */}
+              <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-3">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-stone-100 pb-2">
+                  <h3 className="text-lg font-bold text-stone-900">1. Tadapani Accommodation</h3>
+                  <span className="text-xs bg-stone-100 text-stone-700 px-3 py-1 rounded-full font-semibold">2,630m | Private Ownership</span>
+                </div>
+                <p>
+                  <strong>Lodge:</strong> Tadapani Guest House. Twin-shared room ~2,000 NPR (~$15 USD)/night. Facilities include Wi-Fi, solar shower, shared bathrooms. Employs local loaders and porters at the Tadapani junction.
                 </p>
               </div>
 
-              <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm"> 5-Day Comfort Loop</h4>
-                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">Day 1: Tadapani &bull; Day 2: Dobato &bull; Day 3: Bayeli Kharka &bull; Day 4: Khopra Ridge &bull; Day 5: Swanta/Ghara. Spreads acclimatization evenly.
+              {/* Dobato */}
+              <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-3">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-stone-100 pb-2">
+                  <h3 className="text-lg font-bold text-stone-900">2. Dobato Teahouses</h3>
+                  <span className="text-xs bg-stone-100 text-stone-700 px-3 py-1 rounded-full font-semibold">3,200m–3,400m | Mixed Ownership</span>
+                </div>
+                <p>
+                  Simple mid-route rest stop between Tadapani and Bayeli Kharka. Rooms cost 1,200–1,800 NPR/night. Solar electricity, shared bathrooms. Useful acclimatization point before the high ridge push.
                 </p>
               </div>
 
-              <div className="bg-white border border-stone-200 p-5 rounded-2xl shadow-sm">
-                <h4 className="font-bold text-stone-950 text-sm">Khayer Lake Stay</h4>
-                <p className="mt-2 text-[10px] text-stone-500 leading-relaxed font-medium">Add an extra night at Khopra Ridge Community Lodge to use as a base for the high-altitude day hike up to the sacred lake.
+              {/* Chhistibung */}
+              <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-3">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-stone-100 pb-2">
+                  <h3 className="text-lg font-bold text-stone-900">3. Chhistibung Lodge</h3>
+                  <span className="text-xs bg-emerald-50 text-emerald-800 border border-emerald-200 px-3 py-1 rounded-full font-semibold">2,975m | Community Ownership</span>
+                </div>
+                <p>
+                  <strong>Lodge:</strong> <Link href="/nodes/chhistibung-accommodation" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Chhistibung Community Lodge</Link>. Twin room ~1,500 NPR (~$11 USD)/night. Solar charging, hot shower, shared bathroom (no Wi-Fi). Revenues fund local wildlife conservation patrols.
+                </p>
+              </div>
+
+              {/* Bayeli Kharka */}
+              <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-3">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-stone-100 pb-2">
+                  <h3 className="text-lg font-bold text-stone-900">4. Bayeli Kharka Lodge</h3>
+                  <span className="text-xs bg-emerald-50 text-emerald-800 border border-emerald-200 px-3 py-1 rounded-full font-semibold">3,425m | Community Ownership</span>
+                </div>
+                <p>
+                  <strong>Lodge:</strong> <Link href="/nodes/bayeli-kharka-accommodation" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Bayeli Kharka Community Lodge</Link>. Twin room ~1,500 NPR (~$11 USD)/night. Solar charging, hot shower, dining room stove. Revenues fund Nangi health post &amp; midwife program. <strong>Contact: +977-980-871234 (Booking Priority: High)</strong>.
+                </p>
+              </div>
+
+              {/* Khopra Danda */}
+              <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-3 border-l-4 border-l-emerald-600">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-stone-100 pb-2">
+                  <h3 className="text-lg font-bold text-stone-900">5. Khopra Danda Ridge Lodge</h3>
+                  <span className="text-xs bg-emerald-50 text-emerald-800 border border-emerald-200 px-3 py-1 rounded-full font-semibold">3,660m | Community Ownership</span>
+                </div>
+                <p>
+                  <strong>Lodge:</strong> <Link href="/nodes/khopra-ridge-lodge" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Community Lodge</Link>. Highest stop on the trail, base for Khayer Lake. Twin room ~1,800 NPR (~$14 USD)/night. Limited Wi-Fi, solar charging, hot water bottles, panoramic dining hall. Revenues fund Nangi High School &amp; valley Wi-Fi expansion. <strong>Contact: +977-984-722101 (Booking Priority: Critical)</strong>.
+                </p>
+              </div>
+
+              {/* Swanta */}
+              <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-3">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-stone-100 pb-2">
+                  <h3 className="text-lg font-bold text-stone-900">6. Swanta Village Lodge</h3>
+                  <span className="text-xs bg-emerald-50 text-emerald-800 border border-emerald-200 px-3 py-1 rounded-full font-semibold">2,200m | Community Ownership</span>
+                </div>
+                <p>
+                  <strong>Lodge:</strong> <Link href="/nodes/swanta-village-lodge-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Swanta Community Lodge</Link>. Twin room ~1,200 NPR (~$9 USD)/night. Wi-Fi, solar charging, attached bathrooms, local yak cheese. Revenues fund Swanta Secondary School teacher salaries. <strong>Contact: +977-984-762891</strong>.
+                </p>
+              </div>
+
+              {/* Ghorepani */}
+              <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-3">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-stone-100 pb-2">
+                  <h3 className="text-lg font-bold text-stone-900">7. Ghorepani Lodge Options</h3>
+                  <span className="text-xs bg-stone-100 text-stone-700 px-3 py-1 rounded-full font-semibold">2,860m | Private Ownership</span>
+                </div>
+                <p>
+                  <strong>Lodge:</strong> Hotel Snowland Ghorepani. Twin room ~2,500 NPR (~$19 USD)/night. Wi-Fi, attached bathroom, electric hot showers, internal room heating. <strong>Contact: +977-61-460122</strong>.
+                </p>
+              </div>
+
+              {/* Ghara */}
+              <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-3">
+                <div className="flex flex-wrap items-center justify-between gap-2 border-b border-stone-100 pb-2">
+                  <h3 className="text-lg font-bold text-stone-900">8. Ghara Village Accommodation</h3>
+                  <span className="text-xs bg-stone-100 text-stone-700 px-3 py-1 rounded-full font-semibold">~2,000m | Community &amp; Small Private</span>
+                </div>
+                <p>
+                  Lower descent exit village with simple community lodges (~1,200 NPR/night).
                 </p>
               </div>
             </div>
           </article>
 
-          {/* SECTION 10: ACCOMMODATION NEAR KHAYER LAKE */}
-          <article id="khayer-stay" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Accommodation Near Khayer Lake
+          {/* SECTION: TREKKING DISTANCE & HOURS */}
+          <article id="distances" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Trekking Distance &amp; Walking Hours Between Overnight Stops
             </h2>
-            <p className="text-stone-600 leading-relaxed text-sm">There is no overnight accommodation directly at Khayer Lake (4,660m). The closest lodge is <strong>Khopra Ridge Community Lodge</strong> (3,660m), located a 5 to 6-hour walk below. Trekkers use it as their base, starting the lakeside day-hike early in the morning and returning to the same lodge for their second night.
-            </p>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              {/* Table */}
+              <div className="overflow-x-auto border border-stone-200 rounded-3xl bg-white shadow-sm my-6">
+                <table className="w-full text-left border-collapse text-xs">
+                  <thead>
+                    <tr className="border-b border-stone-200 bg-stone-50 text-stone-400 font-bold uppercase tracking-wider">
+                      <th className="px-6 py-4">Route Segment</th>
+                      <th className="px-6 py-4">Approximate Trekking Time</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-stone-100 text-stone-600">
+                    {trekkingHours.map((row, idx) => (
+                      <tr key={idx} className="hover:bg-stone-50/50">
+                        <td className="px-6 py-4 font-bold text-stone-900">{row.segment}</td>
+                        <td className="px-6 py-4 font-semibold text-emerald-600">{row.time}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p>
+                <strong>Acclimatization &amp; Pace:</strong> Key transition occurs between Bayeli Kharka (3,425m) and Khopra Ridge (3,660m). Spending an extra night at Bayeli Kharka helps sensitive hikers adjust.
+              </p>
+            </div>
           </article>
 
-          {/* SECTION 11: SEASONAL AVAILABILITY */}
-          <article id="seasons" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Seasonal Lodge Availability
+          {/* SECTION: TEAHOUSE EXPERIENCE */}
+          <article id="teahouse-experience" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              What Staying in a Khopra Ridge Teahouse Is Actually Like
             </h2>
-            <ul className="list-disc pl-5 text-sm text-stone-600 space-y-2">
-              <li><strong>Spring &amp; Autumn:</strong>High visitor count. Stays must be booked in advance as lodges operate at maximum capacity.</li>
-              <li><strong>Winter:</strong>Extremely cold. Stays have high room availability, but solar water and heating systems are less reliable, and some lodges may close.</li>
-              <li><strong>Monsoon:</strong>Heavy rain. Stays are quiet with high availability, but trails can be muddy and supplies limited.</li>
-            </ul>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                <strong>Bedrooms:</strong> Simple twin rooms with wooden/plywood walls, mattress, pillow, and blanket. Always ask for an extra blanket before nightfall at Khopra Danda.
+              </p>
+              <p>
+                <strong>Bathrooms &amp; Showers:</strong> Electric hot showers in Ghorepani; solar showers mid-route (best in morning); hot water bottles at Khopra Danda. Shared toilets above 3,000m.
+              </p>
+              <p>
+                <strong>Dining Halls:</strong> Social center with wood-burning stoves and panoramic mountain views.
+              </p>
+              <p>
+                <strong>Electricity &amp; Wi-Fi:</strong> Solar power (NPR 100–200 device charging fee). Carry a power bank. Intermittent Wi-Fi.
+              </p>
+            </div>
           </article>
 
-          {/* SECTION 12: FAQS */}
+          {/* SECTION: COST BREAKDOWN */}
+          <article id="cost-breakdown" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Khopra Ridge Accommodation Cost Breakdown
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <div className="overflow-x-auto border border-stone-200 rounded-3xl bg-white shadow-sm my-6">
+                <table className="w-full text-left border-collapse text-xs">
+                  <thead>
+                    <tr className="border-b border-stone-200 bg-stone-50 text-stone-400 font-bold uppercase tracking-wider">
+                      <th className="px-6 py-4">Lodge Name</th>
+                      <th className="px-6 py-4">Village</th>
+                      <th className="px-6 py-4">Altitude</th>
+                      <th className="px-6 py-4">Twin Room (NPR)</th>
+                      <th className="px-6 py-4">Approx. USD</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-stone-100 text-stone-600">
+                    {priceByAltitude.map((row, idx) => (
+                      <tr key={idx} className="hover:bg-stone-50/50">
+                        <td className="px-6 py-4 font-bold text-stone-900">{row.lodge}</td>
+                        <td className="px-6 py-4 text-stone-700">{row.village}</td>
+                        <td className="px-6 py-4 text-stone-600">{row.altitude}</td>
+                        <td className="px-6 py-4 font-semibold text-stone-900">{row.priceNpr}</td>
+                        <td className="px-6 py-4 font-semibold text-emerald-600">{row.priceUsd}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p>
+                <strong>Daily Budget Estimate:</strong> Room (1,200–2,500 NPR) + Dinner &amp; Breakfast (1,000–2,500 NPR) = <strong>2,000–3,500 NPR (~$15–$26 USD) per day per person</strong>.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION: FOOD & MEALS */}
+          <article id="food-meals" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Food and Meal Costs at Khopra Ridge Teahouses
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                <strong>Teahouse Economics:</strong> Rooms are kept affordable because lodges earn income on meals. Guests are expected to eat dinner and breakfast at their staying lodge.
+              </p>
+              <p>
+                <strong>Meal Prices:</strong> Breakfast (300–500 NPR), Dal Bhat (400–600 NPR at lower villages; 600–900 NPR at Khopra Danda due to porter porterage costs).
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION: FACILITIES MATRIX */}
+          <article id="facilities-matrix" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Lodge Facilities Comparison Across the Route
+            </h2>
+            <div className="overflow-x-auto border border-stone-200 rounded-3xl bg-white shadow-sm my-6">
+              <table className="w-full text-left border-collapse text-xs">
+                <thead>
+                  <tr className="border-b border-stone-200 bg-stone-50 text-stone-400 font-bold uppercase tracking-wider">
+                    <th className="px-6 py-4">Lodge</th>
+                    <th className="px-6 py-4">Wi-Fi</th>
+                    <th className="px-6 py-4">Hot Shower</th>
+                    <th className="px-6 py-4">Charging</th>
+                    <th className="px-6 py-4">Bathroom</th>
+                    <th className="px-6 py-4">Heating</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-stone-100 text-stone-600">
+                  {facilityMatrix.map((row, idx) => (
+                    <tr key={idx} className="hover:bg-stone-50/50">
+                      <td className="px-6 py-4 font-bold text-stone-900">{row.lodge}</td>
+                      <td className="px-6 py-4">{row.wifi}</td>
+                      <td className="px-6 py-4">{row.shower}</td>
+                      <td className="px-6 py-4">{row.charge}</td>
+                      <td className="px-6 py-4">{row.bath}</td>
+                      <td className="px-6 py-4">{row.heat}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </article>
+
+          {/* SECTION: COMMUNITY LODGES */}
+          <article id="community-lodges" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Community-Owned Lodges That Make Khopra Ridge Unique
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                Unlike commercial trekking circuits, Khopra Ridge operates on a cooperative village model. Accommodation revenue funds local development:
+              </p>
+              <ul class="list-disc pl-5 space-y-2 text-stone-600">
+                <li><strong>Swanta Community Lodge:</strong> Funds teacher salaries at Swanta Secondary School.</li>
+                <li><strong>Bayeli Kharka Community Lodge:</strong> Funds Nangi community health post &amp; midwife services.</li>
+                <li><strong>Chhistibung Community Lodge:</strong> Funds local wildlife conservation patrols.</li>
+                <li><strong>Khopra Ridge Community Lodge:</strong> Reinvests 100% of profits into Nangi High School and valley Wi-Fi infrastructure.</li>
+              </ul>
+            </div>
+          </article>
+
+          {/* SECTION: BOOKING GUIDE */}
+          <article id="booking-guide" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              How to Book Lodges on the Khopra Ridge Trek
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                <strong>Walk-in:</strong> Works in lower villages (Ghorepani, Tadapani, Swanta) and during off-peak months.
+              </p>
+              <p>
+                <strong>Advance Reservation Required:</strong> <Link href="/nodes/khopra-ridge-lodge" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Lodge</Link> (+977-984-722101) and <Link href="/nodes/bayeli-kharka-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Bayeli Kharka Lodge</Link> (+977-980-871234) during October, November, March, and April. If full, there are no alternative lodges at these high elevations.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION: KHAYER LAKE STAY */}
+          <article id="khayer-lake-stay" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Accommodation Near Khayer Lake
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                There is <strong>no accommodation at Khayer Lake (4,660m)</strong>. The closest lodge is Khopra Ridge Community Lodge (3,660m), located 5 to 6 hours round-trip below the sacred lake. Plan a 2-night stay at Khopra Danda for comfortable lake exploration.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION: SEASONAL AVAILABILITY */}
+          <article id="seasonal-availability" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Seasonal Lodge Availability on the Khopra Route
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                <strong>Spring (Mar–May) &amp; Autumn (Sep–Nov):</strong> High demand, full lodge operation, advance booking essential.
+              </p>
+              <p>
+                <strong>Winter (Dec–Feb):</strong> Low crowds, cold nights, potential temporary closures at higher nodes.
+              </p>
+              <p>
+                <strong>Monsoon (Jun–Aug):</strong> Solitude, high room availability, wet trail conditions.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION: BEST LODGES BY TYPE */}
+          <article id="best-lodges" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Best Lodges on the Khopra Ridge Trek by Traveler Type
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p><strong>Best Scenic View:</strong> Khopra Ridge Community Lodge (3,660m) — Dhaulagiri panoramic dining room.</p>
+              <p><strong>Best Budget Option:</strong> Swanta Community Lodge (2,200m) — 1,200 NPR/night with attached bathrooms.</p>
+              <p><strong>Best Comfort Stay:</strong> Hotel Snowland Ghorepani (2,860m) — Electric heating &amp; hot showers.</p>
+              <p><strong>Best Eco-Community Impact:</strong> Bayeli Kharka Community Lodge (3,425m) — Direct midwife funding.</p>
+            </div>
+          </article>
+
+          {/* SECTION: SOLO TIPS */}
+          <article id="solo-tips" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Practical Accommodation Tips for Solo Trekkers
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                Solo hikers can easily access all lodges. Start trekking early in the morning (6:00 AM) during peak months to arrive by early afternoon, carry sufficient cash (no ATMs past Ghorepani/Pokhara), and call ahead for high-altitude reservations.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION: FAQS */}
           <article id="faq" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Frequently Asked Questions About Teahouses
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Frequently Asked Questions About Khopra Ridge Teahouses
             </h2>
 
             <div className="space-y-4 mt-6">
               {[
                 {
-                  q: "Where should I stay on the Khopra Ridge Trek?",
-                  a: "It depends on your itinerary, but the main overnight stops are Tadapani, Dobato, Bayeli Kharka or Chhistibung, Khopra Ridge (Khopra Danda), and Swanta or Ghara. Most trekkers spread these across four to five days, using the higher-altitude stops as acclimatization points before reaching Khopra Ridge itself."
+                  q: "Are there teahouses on the Khopra Ridge Trek?",
+                  a: "Yes. Confirmed teahouses and community lodges operate at Tadapani, Dobato, Chhistibung, Bayeli Kharka, Khopra Ridge, Swanta, Ghorepani, and Ghara."
                 },
                 {
-                  q: "How much do Khopra Ridge lodges cost?",
-                  a: "Twin-shared rooms generally range from about 1,200 NPR (around $9 USD) to 2,500 NPR (around $19 USD) per night, depending on the village and facilities. Meals are usually charged separately and often add more to your daily total than the room itself."
+                  q: "How much does accommodation cost on Khopra Ridge?",
+                  a: "Twin-shared rooms range from 1,200 NPR ($9 USD) at community lodges to 2,500 NPR ($19 USD) at private guesthouses. Meals cost an additional 1,000–2,500 NPR/day."
                 },
                 {
-                  q: "Do I need to book accommodation in advance on Khopra Ridge?",
-                  a: "For most of the route, walk-in accommodation is common. However, during peak season (spring and autumn), advance arrangement is strongly recommended for the higher-altitude stops at Khopra Ridge and Bayeli Kharka, where room numbers are limited and alternatives are scarce."
+                  q: "Do I need to reserve lodges in advance?",
+                  a: "Yes for Khopra Ridge Community Lodge and Bayeli Kharka Community Lodge during spring and autumn. Walk-ins work elsewhere."
                 },
                 {
-                  q: "Are Khopra Ridge lodges community-owned?",
-                  a: "Many are. Lodges in Swanta, Bayeli Kharka, Chhistibung, and Khopra Ridge itself operate under a community ownership model, with profits reinvested into local schools, health posts, conservation patrols, or infrastructure like Wi-Fi access."
+                  q: "Is Wi-Fi available in Khopra Ridge lodges?",
+                  a: "Wi-Fi is available in Ghorepani, Tadapani, Swanta, and Khopra Ridge Lodge (limited). Not available at Chhistibung or Bayeli Kharka."
                 },
                 {
-                  q: "Is Wi-Fi available at Khopra Ridge teahouses?",
-                  a: "Wi-Fi availability is inconsistent. It's present at lodges in Swanta, Ghorepani, and Khopra Ridge itself, but generally unavailable at the community lodges in Bayeli Kharka and Chhistibung. If staying connected matters, plan around these gaps rather than assuming coverage."
+                  q: "Are hot showers available on the trek?",
+                  a: "Electric showers in Ghorepani; solar showers mid-route; hot water bottles provided at Khopra Ridge Lodge (3,660m)."
                 },
                 {
-                  q: "Can I stay overnight at Khayer Lake?",
-                  a: "Not directly. There's no dedicated accommodation at Khayer Lake itself — instead, trekkers base themselves at Khopra Ridge Community Lodge and visit the lake as an early-morning day hike, returning to the same lodge afterward."
+                  q: "Can solo trekkers find rooms easily?",
+                  a: "Yes, outside of peak months. In peak season, solo hikers should call ahead for high-altitude stops."
                 },
                 {
-                  q: "Which village has the best accommodation on the trek?",
-                  a: "Ghorepani offers the most developed facilities, including electric hot showers and internal heating, though it's also the most expensive stop in this directory. For a balance of comfort, community impact, and value, Swanta and Khopra Ridge Community Lodge both stand out for their facility lists relative to price."
+                  q: "Are blankets provided at high-altitude lodges?",
+                  a: "Yes. Blankets/duvets are provided at all lodges. Always ask for an extra blanket before nightfall at 3,660m."
                 },
                 {
-                  q: "What facilities should I expect at Khopra Ridge teahouses?",
-                  a: "Expect a twin-shared room, a communal dining area, and either an attached or common bathroom depending on the lodge. Solar charging is widespread, hot showers are common but not guaranteed at every stop, and Wi-Fi is available at some lodges but not all."
+                  q: "Can I charge my phone at Khopra Ridge teahouses?",
+                  a: "Yes, solar charging is available for a fee (100–200 NPR). Bring a portable power bank."
+                },
+                {
+                  q: "Is there accommodation at Khayer Lake?",
+                  a: "No. The closest lodge is Khopra Ridge Community Lodge at 3,660m, located 5–6 hours round-trip below the lake."
+                },
+                {
+                  q: "Which lodge has the best mountain views?",
+                  a: "Khopra Ridge Community Lodge (3,660m) offers direct panoramic views of Dhaulagiri (8,167m) and Annapurna South."
                 }
               ].map((faq, idx) => (
                 <details 
                   key={idx} 
-                  className="group bg-white border border-stone-200 rounded-2xl p-5 [&_summary::-webkit-details-marker]:hidden cursor-pointer select-none transition-all duration-200 hover:border-emerald-500/30"
+                  className="group bg-white border border-stone-200 rounded-3xl p-6 [&_summary::-webkit-details-marker]:hidden cursor-pointer select-none transition-all duration-200 hover:border-emerald-500/30"
                 >
                   <summary className="flex items-center justify-between font-bold text-stone-900 text-sm sm:text-base list-none">
                     <span>{faq.q}</span>
@@ -398,28 +580,31 @@ export default function Page() {
             </div>
           </article>
 
-          {/* SECTION 13: CONCLUSION */}
+          {/* SECTION: CONCLUSION */}
           <article className="space-y-6">
-            <h2 className="text-2xl font-bold text-stone-955 font-sans">Conclusion</h2>
-            <p className="text-stone-600 leading-relaxed text-sm">The Khopra Ridge Trek doesn&apos;t have the dense lodge networks you&apos;ll find on busier Annapurna routes, but what it does have is a tightly connected chain of community-run teahouses where your accommodation choice genuinely supports the villages you&apos;re passing through. From the affordable, locally funded lodges in Swanta and Bayeli Kharka to the higher-comfort options in Ghorepani, this directory gives you a realistic picture of what to expect, what it costs, and how to plan your overnight stops in trekking order.
-            </p>
-            <p className="text-stone-600 leading-relaxed text-sm">The key practical takeaway is this: most of the route is flexible, but the highest-altitude stops at Khopra Ridge and Bayeli Kharka deserve advance attention, especially if you&apos;re trekking during spring or autumn. Build your itinerary around these pinch points first, and the rest of your accommodation plan tends to fall into place naturally.
+            <h2 className="text-2xl font-bold text-stone-955">Conclusion: Plan Your Accommodation Before You Start Walking</h2>
+            <p className="text-stone-600 leading-relaxed text-sm">
+              The Khopra Ridge Trek offers a tightly connected chain of community-run teahouses where your accommodation choice directly supports mountain schools, health posts, and local infrastructure. Reserve your high-altitude stops early, carry cash, and enjoy a seamless Himalayan trek.
             </p>
           </article>
 
-          {/* SECTION 14: CTA & CONTINUE PLANNING */}
-          <section id="booking-cta" className="bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white rounded-3xl p-8 shadow-md border border-stone-800 relative overflow-hidden">
+          {/* SECTION: CTA */}
+          <section className="bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white rounded-3xl p-8 shadow-md border border-stone-800 relative overflow-hidden">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
-              <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Need help reserving lodges along the Khopra Ridge route?</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">Skip the phone calls and let our local team arrange your accommodation in advance — especially useful for the high-altitude stops at Khopra Ridge and Bayeli Kharka during peak season.
+              <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">
+                Ready to Reserve Your Accommodation?
+              </h3>
+              <p className="text-stone-300 text-sm leading-relaxed">
+                Our local trekking team arranges accommodation reservations along the entire route, handles peak-season bookings at Khopra Ridge and Bayeli Kharka, and offers full guided packages. Contact us directly for lodge booking assistance.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
                   href="/contact"
                   className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
-                >Book Your Package &rarr;
+                >
+                  Book Your Khopra Ridge Trek Package &rarr;
                 </Link>
               </div>
 
@@ -427,13 +612,17 @@ export default function Page() {
               <div className="pt-6 border-t border-white/10 space-y-3">
                 <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
-                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check trekking permit requirements (ACAP &amp; TIMS)
+                  <Link href="/nodes/khopra-ridge-lodge-guide" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
+                    View Khopra Ridge Community Lodge guide
                   </Link>
-                  <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Estimate your trip costs with our cost calculator
+                  <Link href="/nodes/swanta-village-lodge-guide" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
+                    View Swanta Village Lodge guide
                   </Link>
-                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Get the interactive packing checklist for your gear
+                  <Link href="/nodes/bayeli-kharka-accommodation" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
+                    View Bayeli Kharka accommodation details
                   </Link>
-                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check seasonal weather conditions before you go
+                  <Link href="/nodes/chhistibung-accommodation" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
+                    View Chhistibung Community Lodge details
                   </Link>
                 </div>
               </div>
@@ -441,11 +630,12 @@ export default function Page() {
           </section>
 
           {/* EEAT Author Verification Banner */}
-          <div className="p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-            <span className="text-2xl mt-0.5"></span>
+          <div className="p-6 rounded-3xl bg-stone-100 border border-stone-200 flex items-start gap-4">
+            <span className="text-2xl mt-0.5">🏔️</span>
             <div>
-              <h4 className="font-bold text-stone-900 text-sm font-sans">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">This accommodation directory is regularly compiled and verified by our field operators and cooperative community lodge managers on Khopra Ridge. Contact numbers and pricing are monitored seasonal bases to ensure maximum reliability for planning.
+              <h4 className="font-bold text-stone-900 text-sm font-sans font-medium">Reviewed by Trail Experts</h4>
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
+                This accommodation directory is compiled and verified by our field operators and cooperative community lodge managers on the Khopra Ridge route. Licensed Nepal Tourism Operator EMD Treks #8928-091. Pokhara &amp; Swanta, Nepal. Email: <a href="mailto:khopraridge51@gmail.com" className="text-emerald-700 font-semibold hover:underline">khopraridge51@gmail.com</a>.
               </p>
             </div>
           </div>
