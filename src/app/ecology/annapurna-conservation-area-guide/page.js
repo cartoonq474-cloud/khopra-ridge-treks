@@ -1,524 +1,446 @@
 import React from "react";
 import Link from "next/link";
-import AcaFaqInteractive from "./AcaFaqInteractive";
 
 export const metadata = {
+  title: "Annapurna Conservation Area (ACA) Guide: Permits, Routes, Rules & Conservation Explained",
+  description:
+    "Everything trekkers need to know about the Annapurna Conservation Area: ACAP permits and fees, checkpoints, trekking routes, wildlife, and rules — explained clearly by local trekking experts.",
   alternates: {
-    canonical: "/ecology/annapurna-conservation-area-guide",
+    canonical: "https://khopraridgetrek.com/ecology/annapurna-conservation-area-guide",
   },
-  title: "Annapurna Conservation Area (ACA) Guide: Permits, Routes & Rules Explained",
-  description: "Planning to trek Annapurna? This complete Annapurna Conservation Area (ACA) guide covers ACAP permits, entry checkpoints, trekking routes, wildlife, and rules you need to know.",
+  openGraph: {
+    title: "Annapurna Conservation Area (ACA) Guide: Permits, Routes, Rules & Conservation Explained",
+    description:
+      "Everything trekkers need to know about the Annapurna Conservation Area: ACAP permits and fees, checkpoints, trekking routes, wildlife, and rules — explained clearly by local trekking experts.",
+    url: "https://khopraridgetrek.com/ecology/annapurna-conservation-area-guide",
+    type: "article",
+  },
 };
 
 export default function AnnapurnaConservationAreaGuidePage() {
-  const stats = [
-    { label: "Established Year", value: "1986" },
+  const quickStats = [
+    { label: "Established Year", value: "1986 (Nepal's 1st ACA)" },
     { label: "Total Protected Area", value: "7,629 sq km" },
-    { label: "Elevation Range", value: "790m – 8,091m" },
-    { label: "Managing Body", value: "NTNC / ACAP" },
+    { label: "Elevation Range", value: "790 m – 8,091 m" },
+    { label: "ACAP Permit Fee", value: "NPR 3,000 (~$23 USD)" },
+  ];
+
+  const acaFactsTable = [
+    { detail: "Established", figure: "1986" },
+    { detail: "Total area", figure: "7,629 sq km" },
+    { detail: "Altitude range", figure: "790 m – 8,091 m (Annapurna I)" },
+    { detail: "Districts covered", figure: "Kaski, Manang, Mustang, Lamjung, Myagdi" },
+    { detail: "Managing bodies", figure: "ACAP / NTNC" },
+    { detail: "Population inside ACA", figure: "100,000+ residents across 5 districts" },
+  ];
+
+  const permitSummaryTable = [
+    { category: "Foreign Nationals", fee: "NPR 3,000", notes: "Single entry, valid for full trek duration" },
+    { category: "SAARC Nationals", fee: "NPR 1,000", notes: "Requires valid SAARC passport" },
+    { category: "Children Under 10", fee: "Free", notes: "Must be accompanied by parent/guardian" },
+  ];
+
+  const trekComparisonTable = [
+    { trek: "Ghorepani Poon Hill", duration: "4–5 days", maxAlt: "~3,210 m", diff: "Easy–Moderate" },
+    { trek: "Mardi Himal Trek", duration: "5–7 days", maxAlt: "~4,500 m", diff: "Moderate" },
+    { trek: "Khopra Ridge Trek", duration: "6–8 days", maxAlt: "~4,660 m", diff: "Moderate" },
+    { trek: "Annapurna Base Camp", duration: "7–12 days", maxAlt: "~4,130 m", diff: "Moderate–Challenging" },
+    { trek: "Annapurna Circuit", duration: "12–18 days", maxAlt: "~5,416 m (Thorong La)", diff: "Challenging" },
+    { trek: "Tilicho Lake (Add-on)", duration: "+2–3 days", maxAlt: "~4,919 m", diff: "Challenging" },
+  ];
+
+  const checkpointsList = [
+    { location: "Nayapul & Birethanti", desc: "Main entry point for southern routes starting near Pokhara (Poon Hill, Khopra Ridge, ABC)." },
+    { location: "Ghorepani", desc: "Key ridge checkpoint along the Poon Hill and Khopra Ridge corridor." },
+    { location: "Chhomrong", desc: "Major security checkpoint for anyone entering the inner Annapurna Sanctuary toward ABC." },
+    { location: "Besisahar", desc: "Primary entry checkpoint for the eastern approach of the Annapurna Circuit." },
   ];
 
   const faqs = [
     {
-      question: "What is Annapurna Conservation Area (ACA)?",
-      answer: "The Annapurna Conservation Area is Nepal's largest protected area, covering about 7,629 square kilometers around the Annapurna massif. It's managed under a community-based conservation model through the Annapurna Conservation Area Project (ACAP), overseen by the National Trust for Nature Conservation (NTNC)."
+      q: "What is the Annapurna Conservation Area (ACA)?",
+      a: "ACA is Nepal's largest protected area, covering 7,629 square kilometers across five districts in central Nepal. Established in 1986 and managed by ACAP under the NTNC, it protects the ecosystems surrounding the Annapurna Massif while allowing local communities to continue living and running tourism businesses inside its boundaries.",
     },
     {
-      question: "Do I need a permit to trek in Annapurna region?",
-      answer: "Yes. Every foreign trekker entering the Annapurna Conservation Area needs a valid ACAP permit, which is checked at entry checkpoints and again further along the trail. The fee directly funds conservation and community development work in the region."
+      q: "Is Annapurna Conservation Area a national park?",
+      a: "No. ACA is a conservation area, a distinct legal designation that permits human settlement and community-based management, unlike a national park. You may see 'Annapurna National Park' used online, but that's a common misnomer — the correct designation is Annapurna Conservation Area.",
     },
     {
-      question: "What is the difference between ACAP and TIMS card?",
-      answer: "ACAP is the entry permit for the Annapurna Conservation Area itself, while TIMS was originally introduced as a separate trekker registration system for safety tracking. ACAP enforcement on Annapurna trails is consistent, while TIMS requirements have changed several times since 2023 and current guidance is mixed — confirm directly with the Nepal Tourism Board or your trekking agency before you go."
+      q: "Do I need an ACAP permit to trek in Annapurna?",
+      a: "Yes. ACAP is mandatory for every trekker entering the conservation area, regardless of which specific route you're taking. It's checked at multiple checkpoints along the trail.",
     },
     {
-      question: "Where can I get Annapurna trekking permits?",
-      answer: "ACAP permits are issued at Nepal Tourism Board and NTNC counters in Kathmandu and Pokhara, and can usually be arranged in advance through a licensed trekking agency. You'll need your passport, a passport photo, and the fee in Nepali rupees."
+      q: "What is the difference between ACAP and TIMS?",
+      a: "ACAP is the conservation area entry permit and is consistently required. TIMS (Trekkers' Information Management System) is a separate trekker registration system whose requirements have shifted over recent years and vary by region, so it's worth confirming current TIMS status directly with ACAP or a licensed operator before you travel.",
     },
     {
-      question: "How long is ACAP permit valid?",
-      answer: "The ACAP permit is a single-entry permit valid for the full duration of your trek inside the conservation area, with no fixed day limit. If you exit the ACA boundary and want to re-enter later, you'll generally need a new permit."
+      q: "Where can I get an Annapurna Conservation Area permit?",
+      a: "At the ACAP/Nepal Tourism Board offices in Kathmandu or Pokhara, through NTNC's online e-permit system, or arranged on your behalf by a licensed trekking agency.",
     },
     {
-      question: "Can I trek Annapurna without a guide?",
-      answer: "Not on most regulated routes. Since 2023, Nepal has required foreign trekkers on major Annapurna trails to be accompanied by a licensed guide or book through a registered trekking agency, primarily for safety reasons."
+      q: "How much does the ACAP permit cost?",
+      a: "NPR 3,000 for foreign nationals and NPR 1,000 for SAARC nationals. Children under 10 are exempt from the fee.",
     },
     {
-      question: "What wildlife can be seen in ACA?",
-      answer: "The conservation area is home to over 100 mammal species and more than 500 recorded bird species, including the snow leopard, musk deer, and the Himalayan monal, Nepal's national bird. Lower elevations also support a range of reptiles and amphibians."
+      q: "How long is an ACAP permit valid?",
+      a: "It's a single-entry permit valid for the full duration of your trek inside the conservation area. Leaving and re-entering ACA generally requires a new permit.",
     },
     {
-      question: "Is Annapurna Conservation Area safe for beginners?",
-      answer: "Several routes inside the ACA, particularly Ghorepani Poon Hill and Mohare Danda, are well suited to first-time trekkers with reasonable fitness. Higher routes like the Annapurna Circuit and Annapurna Base Camp involve altitude considerations that require more preparation and a guide's pacing advice."
+      q: "Can foreigners trek Annapurna without a guide?",
+      a: "No. Current regulations require a licensed trekking guide for foreign trekkers on Annapurna's major routes — independent, unguided trekking is no longer permitted here.",
     },
     {
-      question: "What happens if I enter ACA without a permit?",
-      answer: "Checkpoint staff can require you to purchase a permit on the spot, often with an added penalty fee, and may delay your onward trekking until it's resolved. It's far simpler to arrange the ACAP permit in Kathmandu or Pokhara before heading to the trailhead."
+      q: "What wildlife lives inside ACA?",
+      a: "Snow leopard, musk deer, and blue sheep are among the notable mammal species, alongside hundreds of recorded bird species including the Himalayan monal. Rare high-altitude wildlife sightings are uncommon on standard routes, since these species avoid trafficked trails.",
     },
     {
-      question: "Which are the best trekking routes inside ACA?",
-      answer: "Annapurna Base Camp and Ghorepani Poon Hill are the most popular routes for their views and accessibility, Mardi Himal offers a quieter alternative with similar scenery, and the Annapurna Circuit suits trekkers wanting a longer, more demanding loop. Khopra Ridge and Mohare Danda are strong choices for those seeking fewer crowds."
-    }
+      q: "Which trekking routes are inside the Annapurna Conservation Area?",
+      a: "Annapurna Base Camp, the Annapurna Circuit, Mardi Himal, Ghorepani Poon Hill, Khopra Ridge, and Tilicho Lake all fall within ACA's boundaries and require an ACAP permit.",
+    },
+    {
+      q: "What happens if I trek without a permit?",
+      a: "Checkpoints throughout the region check for valid ACAP permits. Trekking without one can result in fines, being turned back at a checkpoint, or being required to return to the nearest permit office before continuing.",
+    },
+    {
+      q: "When is the best time to visit ACA?",
+      a: "Spring (March–May) and autumn (late September–November) offer the clearest views and most stable trekking weather. Winter suits lower-elevation routes, while monsoon season is generally avoided due to rain and obscured views.",
+    },
   ];
 
   return (
-    <div className="bg-stone-50 text-stone-900 min-h-screen flex flex-col justify-between antialiased">
-      <main className="mx-auto max-w-4xl px-6 py-16 sm:py-20 flex-1">
-        
-        {/* Header Breadcrumb & Title */}
-        <header className="border-b border-stone-200 pb-10">
-          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-emerald-700">
-            <Link href="/all-pages" className="hover:underline">Home</Link>
+    <div className="w-full flex-1 bg-stone-50">
+      {/* Hero Header */}
+      <section className="bg-stone-900 py-16 sm:py-20 text-white border-b border-stone-800">
+        <div className="mx-auto max-w-7xl px-6">
+          <nav className="flex items-center gap-2 text-xs font-semibold text-stone-400 mb-6 uppercase tracking-wider">
+            <Link href="/" className="hover:text-emerald-400 transition">Home</Link>
             <span>/</span>
-            <span>Ecology Silo</span>
+            <Link href="/ecology/annapurna-conservation-area-guide" className="hover:text-emerald-400 transition">Ecology &amp; Conservation</Link>
+            <span>/</span>
+            <span className="text-emerald-400">ACA Master Guide</span>
+          </nav>
+          <div className="max-w-3xl">
+            <span className="inline-block px-3 py-1 bg-emerald-900/60 text-emerald-300 border border-emerald-700/50 rounded-full text-xs font-bold uppercase tracking-widest mb-4">
+              Official Conservation &amp; Permit Guide
+            </span>
+            <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl text-white leading-tight">
+              Annapurna Conservation Area (ACA) Guide
+            </h1>
+            <p className="mt-6 text-lg sm:text-xl text-stone-300 font-medium leading-relaxed">
+              Permits, fees, checkpoints, trekking routes, rules, wildlife, and community conservation explained by local Nepal trekking experts.
+            </p>
           </div>
-          <h1 className="mt-4 text-4xl font-black tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Annapurna Conservation Area (ACA) Guide
-          </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Permits, Routes &amp; Rules Explained
-          </p>
-        </header>
 
-        {/* Fact Grid */}
-        <section aria-label="Quick Stats" className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4">
-          {stats.map((stat, i) => (
-            <div key={i} className="p-5 bg-white border border-stone-200/80 rounded-3xl shadow-sm text-center">
-              <span className="text-[10px] uppercase font-bold text-stone-400 tracking-wider block">{stat.label}</span>
-              <span className="text-base font-extrabold text-stone-950 mt-1 block">{stat.value}</span>
-            </div>
-          ))}
-        </section>
-
-        {/* Introduction */}
-        <article className="mt-12 space-y-6 text-stone-700 leading-relaxed text-base sm:text-lg">
-          <p>
-            If you're planning a trek anywhere near Annapurna Base Camp, Poon Hill, or Mardi Himal, you're going to spend your entire trip inside the <strong>Annapurna Conservation Area</strong>. It isn't a side detail of your trip — it's the legal and ecological framework your whole trek operates within. Before you book flights or pick a route, it helps to understand what this protected area actually is, why a permit is non-negotiable, and how the system works on the ground.
-          </p>
-          <p>
-            This guide walks through the Annapurna Conservation Area from start to finish: what it is, who manages it, what permits you need, where checkpoints are, which routes lie inside it, and what rules trekkers are expected to follow. By the end, you'll know exactly what to prepare before you set foot on the trail.
-          </p>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 1 */}
-          <section id="what-is-aca" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              What is the Annapurna Conservation Area?
-            </h2>
-            <p>
-              The <strong>Annapurna Conservation Area (ACA)</strong> is Nepal's largest protected area and the country's first conservation area to be managed under a community-based model rather than a traditional, government-patrolled national park structure. It wraps around the Annapurna massif and several other major Himalayan peaks, and it's the ground that almost every Annapurna region trek — from a short Poon Hill hike to the full Annapurna Circuit — passes through.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Location, size, and altitude range of ACA
-            </h3>
-            <p>
-              The ACA spans roughly 7,629 square kilometers across the Kaski, Manang, Mustang, Myagdi, and Lamjung districts of central Nepal. Elevation inside the area ranges from around 790 meters in the subtropical foothills near Pokhara up to 8,091 meters at the summit of Annapurna I, one of the world's eight-thousanders. That range, from warm lowland villages to glaciated high passes, is part of what makes the region so trek-friendly: there's a route here for nearly every fitness level and timeframe.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Why ACA is Nepal's largest protected area
-            </h3>
-            <p>
-              Size alone makes the ACA significant, but its scale also reflects how many people actually live inside it. Roughly 100,000 residents from multiple ethnic and linguistic communities — including Gurung, Magar, Thakali, and Manangi groups — call the conservation area home. Unlike a national park where local settlement is restricted, the ACA was deliberately designed to let people remain on their land while still protecting forests, wildlife, and watersheds. That's a different conservation philosophy than most protected areas in Nepal, and it directly shapes how trekking here works.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Ecosystem zones across the Annapurna region
-            </h3>
-            <p>
-              Because the altitude swings so dramatically, the ACA isn't one ecosystem — it's several stacked on top of each other. Lower elevations support subtropical and temperate forest with terraced farmland; mid-elevations transition into oak and rhododendron forest; higher up, the trail moves into alpine meadows and scrub; and above the tree line, it's bare rock, scree, and permanent snow and ice. Trekkers often notice this shift happening within a single day's walk, especially on steeper routes like Mardi Himal or the approach to Annapurna Base Camp.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 2 */}
-          <section id="governance" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Governance of ACA – ACAP and NTNC System
-            </h2>
-            <p>
-              Understanding who actually runs the Annapurna Conservation Area matters because it explains why the permit system, the trail infrastructure, and even the lodges you'll stay in are organized the way they are.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              What is the Annapurna Conservation Area Project (ACAP)?
-            </h3>
-            <p>
-              The Annapurna Conservation Area Project, generally shortened to ACAP, is the management program that runs the conservation area on the ground. Launched in the mid-1980s, ACAP was Nepal's first attempt at a conservation model that treated local communities as partners rather than obstacles. It oversees forest protection, trail maintenance, waste management infrastructure, and environmental education programs throughout the region, largely funded through the entry permit fee trekkers pay.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Role of the National Trust for Nature Conservation (NTNC)
-            </h3>
-            <p>
-              ACAP operates under the National Trust for Nature Conservation (NTNC), a non-governmental organization established by an act of Nepal's parliament to manage conservation initiatives that sit outside the traditional national park system. NTNC is the body with overall authority over the Annapurna Conservation Area, and permit revenue collected from trekkers is channeled back through NTNC into conservation and community development projects across the region.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Community-based tourism model in Annapurna
-            </h3>
-            <p>
-              What sets the ACA apart from most protected areas is how directly local communities are involved in running it. Village-level conservation area management committees help decide how tourism revenue gets spent in their own area — whether that's a new drinking water system, a school, a health post, or trail repair. Many of the teahouses, guesthouses, and porter services you'll use on an Annapurna trek are locally owned, which means your permit fee and your daily spending both feed back into the same communities you're walking through.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 3 */}
-          <section id="permits" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Annapurna Conservation Area Permits Explained (ACAP + TIMS)
-            </h2>
-            <p>
-              This is the section to read carefully, because permit rules for the Annapurna region have changed more than once in recent years, and outdated blog posts online don't always reflect current practice.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              What is the ACAP permit?
-            </h3>
-            <p>
-              The Annapurna Conservation Area Permit (ACAP) is the core entry document for the conservation area. Every foreign trekker entering ACA territory — whether you're heading to Annapurna Base Camp, Poon Hill, Mardi Himal, the Annapurna Circuit, or any offbeat route inside the boundary — needs a valid ACAP. The fee goes directly toward the conservation and community programs described above, so it isn't simply a bureaucratic toll; it's how the protected-area model is funded.
-            </p>
-            <div className="p-5 bg-emerald-50/80 border border-emerald-200 rounded-2xl text-emerald-950 text-sm font-medium leading-relaxed">
-              <strong>2026 ACAP Permit Fees:</strong> The ACAP fee is NPR 3,000 for foreign nationals and NPR 1,000 for SAARC nationals, with children under 10 exempt regardless of nationality. Fees are typically payable in Nepali rupees only, in cash or through the official online portal, and a small surcharge usually applies to online payments.
-            </div>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              What is the TIMS card and why it is required?
-            </h3>
-            <p>
-              The Trekkers' Information Management System (TIMS) card was introduced in 2008 as a way for the Nepal Tourism Board and Trekking Agencies' Association of Nepal (TAAN) to track who was trekking where, primarily for safety and search-and-rescue purposes. Historically, it was required alongside ACAP for most Annapurna routes.
-            </p>
-            <p>
-              This is where things get genuinely confusing for trekkers researching online: TIMS rules have shifted multiple times since 2023, and sources disagree about its current status on Annapurna trails. Some current guidance still lists TIMS as a mandatory companion to ACAP, while other up-to-date reports say it isn't being enforced at Annapurna checkpoints in practice, with ACAP functioning as the permit that's actually checked on the ground. Given that inconsistency, the safest move is to confirm the current requirement directly with the Nepal Tourism Board, TAAN, or a registered trekking agency shortly before your trip, rather than relying on any single blog post for a final answer.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Do you need both permits for Annapurna trekking?
-            </h3>
-            <p>
-              ACAP is non-negotiable for any standard route inside the conservation area. Whether you also need a TIMS card depends on which guidance is current at the time you trek, so treat it as a "confirm before you go" item rather than something to assume either way. What is consistent across recent rule changes is the guide requirement: since 2023, Nepal has mandated that foreign trekkers on most routes, including Annapurna's major trails, be accompanied by a licensed guide or book through a registered trekking agency, which typically handles whichever permits are required as part of the booking.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Where and how to obtain permits
-            </h3>
-            <p>
-              ACAP permits are issued at Nepal Tourism Board and NTNC counters in Kathmandu and Pokhara, and can also be arranged in advance through a licensed trekking agency or, in some cases, online. You'll generally need your passport, a passport-sized photo, and the permit fee in Nepali rupees. If you're trekking with an agency, they will usually process this for you as part of your booking, which is one less thing to manage once you land in Nepal.
-            </p>
-
-            {/* Step-by-Step Box */}
-            <div className="mt-6 p-6 bg-white border border-stone-200 rounded-3xl shadow-sm space-y-4">
-              <span className="text-xs font-black uppercase tracking-widest text-emerald-700 block">Process Summary</span>
-              <h4 className="text-lg font-bold text-stone-950">A Simple Way to Obtain Your Permit</h4>
-              <ol className="space-y-3 text-sm sm:text-base text-stone-700 list-decimal list-inside font-medium">
-                <li>Decide your route and confirm current permit requirements with NTB, TAAN, or your agency.</li>
-                <li>Gather your passport, a passport photo, and cash in Nepali rupees.</li>
-                <li>Visit the NTB/NTNC counter in Kathmandu or Pokhara, or have your agency handle it.</li>
-                <li>Pay the fee and collect your permit before heading to the trailhead.</li>
-                <li>Carry the permit (and your passport) with you at all times on the trail.</li>
-              </ol>
-            </div>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Permit validity, rules, and usage during trekking
-            </h3>
-            <p>
-              The ACAP permit is a single-entry permit valid for the duration of your trek inside the conservation area — there's no fixed expiry date tied to a number of days, but if you exit the ACA boundary and want to re-enter, you'll typically need a new permit. You're expected to carry the physical permit with you throughout the trek, since it gets checked at the entry point and again at checkpoints further along the trail.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 4 */}
-          <section id="checkpoints" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Entry Points and Checkpoints in Annapurna Conservation Area
-            </h2>
-            <p>
-              Knowing where checkpoints are helps you understand what your first day on the trail will actually look like.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Main entry checkpoints (Nayapul, Birethanti, Ghorepani, etc.)
-            </h3>
-            <p>
-              Most Annapurna treks that start from the Pokhara side pass through Nayapul and Birethanti, two of the most heavily used entry checkpoints for routes heading toward Ghorepani, Poon Hill, Annapurna Base Camp, and Ghandruk. Trekkers heading up to Mardi Himal typically pass through a checkpoint near Kande, and Annapurna Circuit trekkers check in near Besisahar on the eastern side of the loop. At each of these points, ACAP staff log your permit details before letting you continue toward the trail.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              How permit checks work on the trail
-            </h3>
-            <p>
-              In practice, checkpoint staff will ask to see your permit and sometimes your passport, record your details in a logbook or digital system, and wave you through. This usually takes only a few minutes if your paperwork is in order. You'll often pass a second or third checkpoint deeper into the trail — for example near Ghorepani or Chhomrong — where staff verify that your permit matches what was recorded at the entry point.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Consequences of trekking without permits
-            </h3>
-            <p>
-              Entering the conservation area without a valid ACAP is not a minor technicality — it's enforced. Trekkers found without a permit at a checkpoint are typically required to purchase one on the spot, often with an additional penalty fee, and in some cases can be turned back until the paperwork is sorted out. Beyond the financial cost, it's simply not worth the delay and stress when the permit itself takes only a short visit to arrange in Kathmandu or Pokhara before you start.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 5 */}
-          <section id="routes" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Annapurna Trekking Routes Inside ACA
-            </h2>
-            <p>
-              Once your permits are sorted, the next decision is which trail to actually walk. The ACA contains routes ranging from short, scenic hikes to multi-week circuits.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Major trekking routes overview
-            </h3>
-            <p>
-              The Annapurna Base Camp (ABC) trek is the region's signature route, typically taking 7 to 12 days and climbing to roughly 4,130 meters with close-up views of the Annapurna massif. The Ghorepani Poon Hill trek is shorter, often completed in 4 to 6 days, and is popular with first-time trekkers thanks to its famous sunrise viewpoint over the Annapurna and Dhaulagiri ranges. The Mardi Himal trek is a quieter alternative that has grown rapidly in popularity, offering ridge-line views with noticeably fewer crowds than ABC. The Annapurna Circuit, one of Nepal's classic long-distance treks, loops around the entire massif and crosses the Thorong La pass at over 5,400 meters.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Offbeat and less crowded routes
-            </h3>
-            <p>
-              For trekkers who want Annapurna's scenery without the busier trails, the <strong>Khopra Ridge trek</strong> and nearby Mohare Danda trek offer similar mountain views with a fraction of the foot traffic, often staying at community-run lodges that funnel income more directly into smaller villages. These routes are worth considering if you've already done a classic Annapurna trek before or simply prefer quieter trails.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Difficulty levels and accessibility of routes
-            </h3>
-            <p>
-              Difficulty inside the ACA varies widely. Poon Hill and Mohare Danda are suitable for beginners with reasonable fitness, ABC and Mardi Himal sit in a moderate category that benefits from some trekking or hiking background, and the full Annapurna Circuit demands stronger endurance and altitude tolerance due to the Thorong La crossing. Matching your route to your fitness level and time budget matters more than chasing the "best" trek — a well-matched shorter route often makes for a better trip than an overly ambitious one.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 6 */}
-          <section id="biodiversity" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Biodiversity and Ecosystem of Annapurna Conservation Area
-            </h2>
-            <p>
-              The same altitude range that creates varied trekking difficulty also creates one of the most biodiverse protected areas in the Himalayas.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Flora – rhododendron forests and alpine vegetation
-            </h3>
-            <p>
-              The ACA is home to over 1,200 species of flowering plants, and its rhododendron forests are one of the region's signature features, especially in spring when the hillsides around Ghorepani and Poon Hill turn shades of red and pink. Higher up, forest gives way to alpine meadows and hardy scrub vegetation adapted to thin air and harsh winters.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Fauna – wildlife of ACA
-            </h3>
-            <p>
-              The conservation area shelters more than 100 species of mammals and over 500 recorded bird species. The most iconic resident is the snow leopard, an elusive high-altitude predator that's become something of a symbol for Himalayan conservation. Musk deer and the Himalayan monal — Nepal's vividly colored national bird — are also found within ACA boundaries, alongside numerous reptile and amphibian species at lower elevations.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Why this ecosystem is globally important
-            </h3>
-            <p>
-              The Annapurna Conservation Area sits within a broader Himalayan biodiversity corridor that connects fragmented habitats across the region, which matters for species like the snow leopard that need large, connected ranges to survive. Protecting this corridor isn't just about Annapurna — it has knock-on effects for wildlife populations and watershed health across a much wider stretch of the Himalayas.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 7 */}
-          <section id="conservation" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Conservation Efforts and Sustainable Tourism in ACA
-            </h2>
-            <p>
-              Trekking through the ACA means trekking through an active conservation experiment, not just a scenic backdrop.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Community-based conservation model in practice
-            </h3>
-            <p>
-              In practical terms, local conservation area management committees decide how to allocate funds for forest patrols, trail maintenance, and community infrastructure in their own villages. This decentralized structure is part of why the ACAP model is often cited internationally as an example of conservation that works with local communities instead of displacing them.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Sustainable tourism initiatives in Annapurna region
-            </h3>
-            <p>
-              Across the trekking routes, you'll see kerosene depots and backup electricity systems introduced specifically to reduce reliance on firewood for cooking and heating, since unmanaged demand for firewood was putting real pressure on forests before ACAP intervened. Many teahouses now also separate and manage waste more carefully than they did a decade ago, partly as a result of ACAP-led education and infrastructure programs.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Environmental challenges and protection measures
-            </h3>
-            <p>
-              None of this means the pressure is gone. Rising trekker numbers, plastic waste, and the effects of a warming climate on glaciers and water sources are ongoing challenges across the Annapurna region. ACAP's response has leaned on a mix of regulation, local enforcement, and trekker education — which is one reason the rules covered in the next section exist in the first place.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 8 */}
-          <section id="rules" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Trekking Rules and Responsible Travel Guidelines
-            </h2>
-            <p>
-              The ACA's permit system is only part of how the area is managed. The rest comes down to trekker behavior on the ground.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Trekking regulations inside ACA
-            </h3>
-            <p>
-              Camping outside designated areas, cutting live wood for fires, and disturbing wildlife are all restricted inside the conservation area. Most independent campfires are discouraged or banned outright in favor of kerosene or gas stoves at teahouses, which helps limit deforestation along heavily trekked corridors.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Environmental responsibility (Leave No Trace principles)
-            </h3>
-            <p>
-              Carrying out what you carry in, avoiding single-use plastic where possible, and sticking to marked trails all matter more here than they might elsewhere, simply because of how many trekkers move through a relatively narrow band of trail each season. Many teahouses now sell filtered or boiled water specifically to cut down on discarded plastic bottles — using these instead of buying new bottles is a small habit that adds up across thousands of trekkers.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Cultural respect in local villages
-            </h3>
-            <p>
-              The villages you pass through, from Ghandruk to Manang, are home to distinct ethnic communities with their own customs, monasteries, and gompas. Dressing modestly, asking before photographing people, and respecting prayer wheels and chortens by passing them on the correct side are simple gestures that go a long way with local hosts.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Trail safety and trekking conduct
-            </h3>
-            <p>
-              Altitude-related illness is the most common safety issue on Annapurna's higher routes, particularly above 3,000 meters. Acclimatization days, gradual ascent, and listening to a guide's advice about pace are far more effective than pushing through symptoms. Staying on marked trails also matters for safety, since shortcuts in this terrain can mean unstable scree or unmarked drop-offs.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 9 */}
-          <section id="practical-guide" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Practical Guide for Trekking in Annapurna Conservation Area
-            </h2>
-            <p>
-              With permits, routes, and rules covered, here's what to actually plan around.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Best seasons for trekking in ACA
-            </h3>
-            <p>
-              Spring (March to May) and autumn (late September to November) are the two prime trekking windows, offering the clearest mountain views and, in spring's case, blooming rhododendron forests. Winter trekking is possible on lower routes like Poon Hill but gets significantly colder and snowier at higher elevations, while the summer monsoon (June to August) brings heavy rain, leeches at lower elevations, and reduced visibility on most trails.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Guided vs solo trekking rules and recommendations
-            </h3>
-            <p>
-              Since 2023, Nepal has required foreign trekkers on most Annapurna routes to trek with a licensed guide rather than fully independently, a rule introduced largely for trekker safety and search-and-rescue reasons. A March 2026 update to restricted-area trekking rules also removed the old requirement for a minimum group size of two on certain restricted routes, meaning solo travelers can now arrange a restricted-area trek with just a licensed guide rather than needing a trekking partner. Independent trekking with no guide at all remains off the table on regulated routes, so plan to book through a registered agency or hire a licensed guide directly.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Fitness level and preparation tips
-            </h3>
-            <p>
-              Most standard Annapurna routes don't require technical climbing skills, but daily walks of 5 to 7 hours with significant elevation gain are normal, so building up cardiovascular fitness and practicing on hilly terrain beforehand makes a real difference. Pack layered clothing for temperature swings between lower valleys and high passes, break in your trekking boots before you arrive, and budget extra days for acclimatization on any route that climbs above 3,000 meters.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 10: FAQ */}
-          <section id="faq-section" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight mb-8">
-              Frequently Asked Questions (FAQ)
-            </h2>
-            <AcaFaqInteractive faqs={faqs} />
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 11: Conclusion */}
-          <section id="conclusion" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Conclusion
-            </h2>
-            <p>
-              The Annapurna Conservation Area is both a protected ecosystem and a regulated trekking system, and understanding how the two fit together is what actually makes a trip here go smoothly. Get your ACAP permit sorted, confirm current guide and TIMS requirements before you travel, pick a route that matches your fitness and time, and follow the trail rules that keep this region intact for the communities and wildlife that depend on it. Trek prepared, trek respectfully, and the Annapurna region will give you one of the most rewarding stretches of trail in the Himalayas.
-            </p>
-          </section>
-        </article>
-
-        {/* Sub-Silo Navigation Bar */}
-        <div className="mt-12 space-y-6">
-          <h3 className="text-xl font-bold text-stone-950">Explore More Ecology Resources</h3>
-          <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4 text-xs font-semibold text-stone-600">
-            <Link href="/ecology/flora-of-khopra" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between shadow-sm">
-              <span>Flora of Khopra</span>
-              <span>→</span>
-            </Link>
-            <Link href="/ecology/birds-of-annapurna" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between shadow-sm">
-              <span>Birds of Annapurna</span>
-              <span>→</span>
-            </Link>
-            <Link href="/ecology/spring-rhododendron-bloom" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between shadow-sm">
-              <span>Rhododendron Bloom</span>
-              <span>→</span>
-            </Link>
-            <Link href="/ecology/wildlife-khopra-trek" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between shadow-sm">
-              <span>Wildlife Guide</span>
-              <span>→</span>
-            </Link>
+          {/* Quick Metrics */}
+          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            {quickStats.map((stat, idx) => (
+              <div key={idx} className="rounded-xl bg-stone-800/80 border border-stone-700/60 p-4">
+                <span className="text-[10px] font-bold uppercase tracking-widest text-stone-400">{stat.label}</span>
+                <p className="mt-1 text-sm sm:text-base font-extrabold text-stone-100">{stat.value}</p>
+              </div>
+            ))}
           </div>
         </div>
+      </section>
 
-        {/* E-E-A-T AUTHOR BADGE */}
-        <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏞️</span>
-          <div>
-            <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              We coordinate directly with NTNC checkpost officers to monitor wildlife sightings, forest degradation patterns, and trail safety conditions across the Annapurna Conservation Area.
-            </p>
-          </div>
-        </div>
+      {/* Main Content Body & Sidebar */}
+      <section className="mx-auto max-w-7xl px-6 py-12 sm:py-16">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
+          
+          {/* Article Main Body */}
+          <div className="lg:col-span-3 space-y-12">
 
-        {/* CTA Box */}
-        <div className="mt-12 rounded-3xl bg-stone-950 p-8 sm:p-10 text-white border border-white/5 shadow-2xl relative overflow-hidden">
-          <div className="relative z-10">
-            <span className="text-xs font-bold text-emerald-400 uppercase tracking-widest block mb-2">Plan Your Himalayan Journey</span>
-            <h3 className="text-2xl sm:text-3xl font-extrabold">Check Your Annapurna Trek Permits &amp; Plan Your Route</h3>
-            <p className="mt-4 text-stone-300 text-sm sm:text-base leading-relaxed max-w-2xl">
-              Get current ACAP and guide requirements sorted before you go, then explore Annapurna trekking routes to find the trail that fits your trip. Book our core 9-day itinerary where 100% of accommodation profits directly support local Magar community lodges inside the conservation area.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-4">
-              <Link
-                href="/#book"
-                className="rounded-full bg-emerald-600 px-8 py-3.5 text-sm font-bold text-white hover:bg-emerald-500 transition-all shadow-lg shadow-emerald-950/40"
-              >
-                Inquire Now &amp; Book Permits
-              </Link>
-              <Link
-                href="/#itinerary"
-                className="rounded-full bg-stone-800 px-8 py-3.5 text-sm font-bold text-stone-200 hover:bg-stone-700 transition-all border border-white/10"
-              >
-                View 9-Day Route
-              </Link>
+            {/* E-E-A-T Operator Verification Banner */}
+            <div className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm flex flex-col sm:flex-row items-start gap-4">
+              <div className="rounded-xl bg-emerald-100 p-3 text-emerald-800 font-bold text-xl flex items-center justify-center shrink-0">
+                🇳🇵
+              </div>
+              <div className="space-y-1 text-sm text-stone-600">
+                <h4 className="font-bold text-stone-900 text-base">Direct Field Operational Knowledge</h4>
+                <p>
+                  Maintained and verified by licensed Nepal trekking operator <strong>EMD Treks</strong> (License #8928-091). Operating out of Pokhara, our licensed guides navigate ACAP checkpoints and community lodges every season.
+                </p>
+              </div>
             </div>
-          </div>
-        </div>
 
-      </main>
+            {/* Introduction */}
+            <div className="prose prose-stone max-w-none space-y-6 text-stone-700 leading-relaxed text-base sm:text-lg">
+              <p className="font-medium text-stone-900 leading-relaxed">
+                Almost every classic trek in central Nepal — Annapurna Base Camp, the Annapurna Circuit, Mardi Himal, Poon Hill, Khopra Ridge, Tilicho Lake — passes through the same protected landscape: the <strong>Annapurna Conservation Area (ACA)</strong>. It&apos;s easy to treat this as a formality, a permit you buy and forget about. But ACA is the reason these trails exist in their current form at all.
+              </p>
+              <p>
+                This guide explains how ACA actually works, from the ground up: what it is, how it&apos;s managed, what permits and fees apply today, where the checkpoints are, which treks fall inside its boundaries, and what conservation and cultural rules you&apos;re expected to follow.
+              </p>
+            </div>
+
+            {/* Section 1: What is ACA & National Park vs Conservation Area */}
+            <div id="what-is-aca" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                What Is the Annapurna Conservation Area?
+              </h2>
+              
+              <div className="space-y-4 text-stone-700 leading-relaxed">
+                <p>
+                  Established in 1986, the Annapurna Conservation Area spans 7,629 square kilometers, making it Nepal&apos;s largest protected area. Unlike traditional national parks that exclude human habitation, ACA was designed as a <strong>community-managed conservation area</strong>. Over 100,000 residents across five districts continue to live, farm, and run teahouses inside its borders.
+                </p>
+
+                <div className="rounded-2xl border border-stone-200 bg-white p-6 space-y-3 shadow-sm">
+                  <h3 className="font-bold text-stone-950 text-lg">Why ACA Is NOT a National Park</h3>
+                  <p className="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                    National parks in Nepal (like Sagarmatha National Park around Everest) are managed directly by government wildlife departments with strict restrictions on land ownership. ACA is governed by the <strong>Annapurna Conservation Area Project (ACAP)</strong> under the <strong>National Trust for Nature Conservation (NTNC)</strong>, utilizing local conservation committees where tourism revenue stays directly in the local villages.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 2: Districts & Geography */}
+            <div id="geography-districts" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Geography, Districts &amp; Ecosystems
+              </h2>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">Kaski District</h4>
+                  <p className="text-xs text-stone-600">Gateway from Pokhara; encompasses Ghandruk, Poon Hill, and Mardi Himal routes.</p>
+                </div>
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">Myagdi District</h4>
+                  <p className="text-xs text-stone-600">Home to Khopra Ridge, Khayer Lake, and Tatopani hot springs; famous for offbeat community lodges.</p>
+                </div>
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">Mustang District</h4>
+                  <p className="text-xs text-stone-600">Trans-Himalayan high desert rain shadow, Kali Gandaki gorge, Muktinath temple.</p>
+                </div>
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">Manang &amp; Lamjung</h4>
+                  <p className="text-xs text-stone-600">Eastern flank of the Annapurna Circuit, Marshyangdi River valley, Thorong La Pass.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 3: ACAP Permit Breakdown & Fees */}
+            <div id="permit-guide" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Annapurna Conservation Area Permit (ACAP) Guide
+              </h2>
+
+              <div className="overflow-x-auto rounded-2xl border border-stone-200 bg-white shadow-sm">
+                <table className="w-full text-left text-sm text-stone-700">
+                  <thead className="bg-stone-100 text-xs font-bold uppercase tracking-wider text-stone-900 border-b border-stone-200">
+                    <tr>
+                      <th className="py-4 px-4 sm:px-6">Trekker Category</th>
+                      <th className="py-4 px-4 sm:px-6">ACAP Permit Fee</th>
+                      <th className="py-4 px-4 sm:px-6">Key Conditions</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-stone-200 text-xs sm:text-sm">
+                    {permitSummaryTable.map((row, idx) => (
+                      <tr key={idx} className="hover:bg-stone-50 transition">
+                        <td className="py-4 px-4 sm:px-6 font-bold text-stone-950">{row.category}</td>
+                        <td className="py-4 px-4 sm:px-6 font-extrabold text-emerald-700">{row.fee}</td>
+                        <td className="py-4 px-4 sm:px-6 text-stone-600">{row.notes}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+
+              <div className="rounded-2xl border border-emerald-200 bg-emerald-50/60 p-6 space-y-3">
+                <h4 className="font-extrabold text-emerald-950 text-base">ACAP vs TIMS vs Mandatory Guide Policy</h4>
+                <p className="text-xs sm:text-sm text-emerald-900 leading-relaxed">
+                  While ACAP is the entry permit for the conservation area, <strong>foreign trekkers are required by Nepal government regulations to trek with a licensed guide</strong>. Independent unguided solo trekking on major routes is prohibited. Your agency will typically secure both your ACAP permit and TIMS registration prior to your departure.
+                </p>
+              </div>
+            </div>
+
+            {/* Section 4: Checkpoints & Verification */}
+            <div id="checkpoints" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Entry Checkpoints &amp; Trail Verification
+              </h2>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {checkpointsList.map((cp, idx) => (
+                  <div key={idx} className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                    <h4 className="font-bold text-stone-950 text-base">📍 {cp.location}</h4>
+                    <p className="text-xs text-stone-600 leading-relaxed">{cp.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Section 5: Trek Comparison Table */}
+            <div id="trek-routes" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Trekking Routes Inside ACA: Overview &amp; Comparison
+              </h2>
+
+              <div className="overflow-x-auto rounded-2xl border border-stone-200 bg-white shadow-sm">
+                <table className="w-full text-left text-sm text-stone-700">
+                  <thead className="bg-stone-100 text-xs font-bold uppercase tracking-wider text-stone-900 border-b border-stone-200">
+                    <tr>
+                      <th className="py-4 px-4 sm:px-6">Trekking Route</th>
+                      <th className="py-4 px-4 sm:px-6">Typical Duration</th>
+                      <th className="py-4 px-4 sm:px-6">Max Elevation</th>
+                      <th className="py-4 px-4 sm:px-6">Difficulty Rating</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-stone-200 text-xs sm:text-sm">
+                    {trekComparisonTable.map((t, idx) => (
+                      <tr key={idx} className="hover:bg-stone-50 transition">
+                        <td className="py-4 px-4 sm:px-6 font-bold text-stone-950">{t.trek}</td>
+                        <td className="py-4 px-4 sm:px-6 text-stone-600">{t.duration}</td>
+                        <td className="py-4 px-4 sm:px-6 font-semibold text-emerald-700">{t.maxAlt}</td>
+                        <td className="py-4 px-4 sm:px-6 text-stone-600">{t.diff}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* Section 6: ACA Facts Table */}
+            <div id="aca-facts" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Annapurna Conservation Area at a Glance
+              </h2>
+
+              <div className="overflow-x-auto rounded-2xl border border-stone-200 bg-white shadow-sm">
+                <table className="w-full text-left text-sm text-stone-700">
+                  <thead className="bg-stone-100 text-xs font-bold uppercase tracking-wider text-stone-900 border-b border-stone-200">
+                    <tr>
+                      <th className="py-4 px-4 sm:px-6">ACA Detail</th>
+                      <th className="py-4 px-4 sm:px-6">Fact / Figure</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-stone-200 text-xs sm:text-sm">
+                    {acaFactsTable.map((row, idx) => (
+                      <tr key={idx} className="hover:bg-stone-50 transition">
+                        <td className="py-4 px-4 sm:px-6 font-bold text-stone-950">{row.detail}</td>
+                        <td className="py-4 px-4 sm:px-6 text-stone-600">{row.figure}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* Section 7: FAQ Accordion */}
+            <div id="faq" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Frequently Asked Questions: Annapurna Conservation Area
+              </h2>
+              <div className="space-y-4">
+                {faqs.map((faq, idx) => (
+                  <details
+                    key={idx}
+                    className="group rounded-2xl border border-stone-200 bg-white p-6 transition [&_summary::-webkit-details-marker]:hidden"
+                  >
+                    <summary className="flex cursor-pointer items-center justify-between gap-4 font-bold text-stone-900 text-base sm:text-lg">
+                      <span>{faq.q}</span>
+                      <span className="shrink-0 text-stone-400 transition group-open:-rotate-180">
+                        ▼
+                      </span>
+                    </summary>
+                    <p className="mt-4 text-sm sm:text-base text-stone-600 leading-relaxed border-t border-stone-100 pt-4">
+                      {faq.a}
+                    </p>
+                  </details>
+                ))}
+              </div>
+            </div>
+
+            {/* CTA Banner */}
+            <div className="rounded-3xl bg-emerald-950 p-8 sm:p-12 text-white relative overflow-hidden shadow-xl">
+              <div className="relative z-10 space-y-4 max-w-2xl">
+                <span className="px-3 py-1 bg-emerald-800 text-emerald-200 rounded-full text-xs font-bold uppercase tracking-wider">
+                  Licensed Local Operator
+                </span>
+                <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
+                  Plan Your Annapurna Trek With Local Experts
+                </h3>
+                <p className="text-emerald-100/80 text-sm sm:text-base leading-relaxed">
+                  We are a Pokhara-based trekking operator (NTB License #8928-091) working inside the Annapurna Conservation Area every season. We arrange ACAP permits, licensed guides, and seamless logistics.
+                </p>
+                <div className="pt-2 flex flex-wrap gap-4">
+                  <Link
+                    href="/contact"
+                    className="inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white hover:bg-emerald-500 transition-all shadow-md"
+                  >
+                    Contact Local Team
+                  </Link>
+                  <Link
+                    href="/planning/acap-permit-guide"
+                    className="inline-block rounded-full bg-white/10 px-6 py-3 text-sm font-semibold text-white hover:bg-white/20 transition-all border border-white/20"
+                  >
+                    ACAP Permit Details
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          {/* Sticky Sidebar Table of Contents */}
+          <aside className="lg:col-span-1">
+            <div className="sticky top-24 rounded-2xl border border-stone-200 bg-white p-6 shadow-sm space-y-4">
+              <h4 className="font-extrabold text-stone-900 text-xs uppercase tracking-widest border-b border-stone-100 pb-3">
+                On This Page
+              </h4>
+              <nav className="space-y-2 text-xs font-semibold text-stone-600">
+                <a href="#what-is-aca" className="block hover:text-emerald-600 transition">
+                  • What Is ACA?
+                </a>
+                <a href="#geography-districts" className="block hover:text-emerald-600 transition">
+                  • Geography &amp; Districts
+                </a>
+                <a href="#permit-guide" className="block hover:text-emerald-600 transition">
+                  • ACAP Permit &amp; Fees
+                </a>
+                <a href="#checkpoints" className="block hover:text-emerald-600 transition">
+                  • Entry Checkpoints
+                </a>
+                <a href="#trek-routes" className="block hover:text-emerald-600 transition">
+                  • Trekking Routes Comparison
+                </a>
+                <a href="#aca-facts" className="block hover:text-emerald-600 transition">
+                  • ACA Facts &amp; Figures
+                </a>
+                <a href="#faq" className="block hover:text-emerald-600 transition">
+                  • FAQ Section
+                </a>
+              </nav>
+
+              <div className="pt-4 border-t border-stone-100 space-y-3">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400">Related Ecology Guides</span>
+                <ul className="space-y-2 text-xs text-stone-700">
+                  <li>
+                    <Link href="/planning/acap-permit-guide" className="hover:text-emerald-700 underline">
+                      ACAP Permit Guide
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/ecology/rhododendron-forests" className="hover:text-emerald-700 underline">
+                      Rhododendron Forests
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/ecology/wildlife-khopra-trek" className="hover:text-emerald-700 underline">
+                      Annapurna Wildlife Guide
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/community/community-tourism-khopra" className="hover:text-emerald-700 underline">
+                      Community Tourism Model
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
     </div>
   );
 }
