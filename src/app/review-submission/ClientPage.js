@@ -14,9 +14,38 @@ export default function Page() {
     photoUrl: ""
   });
 
-  const handleSubmit = (e) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setSubmitted(true);
+    setIsSubmitting(true);
+    try {
+      const response = await fetch("https://formsubmit.co/ajax/khopraridge51@gmail.com", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          "Form Source": "Trekker Review Submission",
+          Name: formData.name,
+          Email: formData.email,
+          "Trek Itinerary Option": formData.duration,
+          "Star Rating": rating,
+          "Review Text": formData.reviewText
+        })
+      });
+      if (response.ok) {
+        setSubmitted(true);
+      } else {
+        alert("There was an issue submitting your review. Please try again.");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("There was an error connecting to the server. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -122,9 +151,10 @@ export default function Page() {
               {/* Submit Button */}
               <button 
                 type="submit" 
-                className="w-full rounded-full bg-emerald-600 py-4 text-xs font-bold text-white hover:bg-emerald-500 shadow-md shadow-emerald-900/10 hover-lift glow-btn transition cursor-pointer"
+                disabled={isSubmitting}
+                className="w-full rounded-full bg-emerald-600 py-4 text-xs font-bold text-white hover:bg-emerald-500 shadow-md shadow-emerald-900/10 hover-lift glow-btn transition cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Submit Review
+                {isSubmitting ? "Submitting Review..." : "Submit Review"}
               </button>
 
             </form>

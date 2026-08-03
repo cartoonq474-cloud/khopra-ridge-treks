@@ -14,10 +14,39 @@ export default function Page() {
     specialRequest: ""
   });
 
-  const handleSubmit = (e) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Simulate booking submission
-    setSubmitted(true);
+    setIsSubmitting(true);
+    try {
+      const response = await fetch("https://formsubmit.co/ajax/khopraridge51@gmail.com", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          "Form Source": "Checkout Booking Inquiry",
+          Name: formData.name,
+          Email: formData.email,
+          "Proposed Start Date": formData.date,
+          "Group Size": formData.pax,
+          "Trek Itinerary / Duration": formData.duration,
+          "Special Requests / Diet": formData.specialRequest
+        })
+      });
+      if (response.ok) {
+        setSubmitted(true);
+      } else {
+        alert("There was an issue submitting your inquiry. Please try again.");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("There was an error connecting to the server. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -125,8 +154,10 @@ export default function Page() {
               {/* Submit Button */}
               <button 
                 type="submit" 
-                className="w-full rounded-full bg-emerald-600 py-4 text-xs font-bold text-white hover:bg-emerald-500 shadow-md shadow-emerald-900/10 hover-lift glow-btn transition cursor-pointer"
-              >Submit Secure Inquiry
+                disabled={isSubmitting}
+                className="w-full rounded-full bg-emerald-600 py-4 text-xs font-bold text-white hover:bg-emerald-500 shadow-md shadow-emerald-900/10 hover-lift glow-btn transition cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {isSubmitting ? "Submitting Inquiry..." : "Submit Secure Inquiry"}
               </button>
 
               <div className="text-center text-[10px] text-stone-600 font-semibold flex justify-center gap-6 pt-4 border-t border-stone-100">

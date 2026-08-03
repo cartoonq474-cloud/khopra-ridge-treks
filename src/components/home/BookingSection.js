@@ -57,9 +57,40 @@ export default function BookingSection() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setInquirySubmitted(true);
+    setIsSubmitting(true);
+    try {
+      const response = await fetch("https://formsubmit.co/ajax/khopraridge51@gmail.com", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          "Form Source": "Home Page Booking Section Form",
+          Name: formData.name,
+          Email: formData.email,
+          "Proposed Start Date": formData.date,
+          "Group Size": formData.packSize,
+          "Trek Package": formData.trekPackage,
+          "Where did you find us": formData.foundUs,
+          "Custom Needs / Notes": formData.message
+        })
+      });
+      if (response.ok) {
+        setInquirySubmitted(true);
+      } else {
+        alert("There was an issue sending your booking inquiry. Please try again.");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("There was an error connecting to the server. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const filteredFoundUsSuggestions = FIND_US_OPTIONS.filter((option) =>
@@ -236,9 +267,10 @@ export default function BookingSection() {
 
               <button
                 type="submit"
-                className="mt-4 rounded-lg bg-emerald-600 py-4 text-base font-bold text-white shadow-md hover:bg-emerald-500 transition-all cursor-pointer"
+                disabled={isSubmitting}
+                className="mt-4 rounded-lg bg-emerald-600 py-4 text-base font-bold text-white shadow-md hover:bg-emerald-500 transition-all cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Send Free Booking Inquiry
+                {isSubmitting ? "Sending Inquiry..." : "Send Free Booking Inquiry"}
               </button>
             </form>
           )}
