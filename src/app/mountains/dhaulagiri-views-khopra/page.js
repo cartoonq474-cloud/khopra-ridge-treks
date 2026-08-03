@@ -1,561 +1,535 @@
 import React from "react";
 import Link from "next/link";
-import DhaulagiriFaqInteractive from "./DhaulagiriFaqInteractive";
 
 export const metadata = {
   alternates: {
     canonical: "/mountains/dhaulagiri-views-khopra",
   },
-  title: "Dhaulagiri Views from Khopra Ridge: Nepal's Best Hidden Himalayan Panorama",
-  description: "Discover why Khopra Ridge offers some of Nepal's closest panoramic views of Dhaulagiri. Compare sunrise photography, mountain panoramas, and why trekkers choose this hidden trail over Poon Hill.",
+  title: "Dhaulagiri Views from Khopra Ridge: Nepal's Most Underrated Himalayan Panorama",
+  description: "See Dhaulagiri up close from Khopra Ridge — one of Nepal's quietest, most dramatic mountain viewpoints. Geography, best seasons, photography tips, and trek details.",
 };
 
 export default function DhaulagiriViewsPage() {
-  const stats = [
-    { label: "Peak Observed", value: "Dhaulagiri I" },
-    { label: "Altitude", value: "8,167 m (7th Highest)" },
-    { label: "Visual Distance", value: "15 to 18 km" },
-    { label: "Vantage Point Elevation", value: "3,660 m" },
+  const quickFacts = [
+    { label: "Viewpoint elevation", detail: "~3,660 m (12,008 ft)" },
+    { label: "Distance to Dhaulagiri I", detail: "Approximately 15–18 km (visual line)" },
+    { label: "Dhaulagiri I elevation", detail: "8,167 m — world's 7th highest peak" },
+    { label: "Best months", detail: "October–November, March–April, December–January" },
+    { label: "Best sunrise time", detail: "5:45–6:30 AM (season-dependent)" },
+    { label: "Trek duration", detail: "5–7 days round trip from Pokhara" },
+    { label: "Difficulty", detail: "Moderate" },
+    { label: "Peaks visible", detail: "Dhaulagiri I, Annapurna South, Nilgiri Himal, Tukuche Peak, Gurja Himal, Fang Peak, Dhampus Peak" }
+  ];
+
+  const viewpointComparisons = [
+    { name: "Khopra Ridge", dhaulagiri: "Excellent, close-range", crowds: "Low", sunrise: "Excellent", diff: "Moderate" },
+    { name: "Poon Hill", dhaulagiri: "Good, distant", crowds: "Very high", sunrise: "Good", diff: "Easy" },
+    { name: "Muldai Viewpoint", dhaulagiri: "Good", crowds: "Low–moderate", sunrise: "Very good", diff: "Moderate" },
+    { name: "Mohare Danda", dhaulagiri: "Moderate", crowds: "Low", sunrise: "Good", diff: "Moderate" },
+    { name: "Annapurna Base Camp", dhaulagiri: "Limited (Annapurna-facing)", crowds: "High", sunrise: "Excellent (different range)", diff: "Challenging" }
   ];
 
   const faqs = [
     {
-      question: "Can you see Dhaulagiri clearly from Khopra Ridge?",
-      answer: "Yes. Khopra Ridge faces the Dhaulagiri massif almost directly, with no intervening ridgelines tall enough to block the view. On clear mornings, the summit and much of the mountain's east face are visible in full detail."
+      q: "Can you see Dhaulagiri clearly from Khopra Ridge?",
+      a: "Yes. On clear mornings, Khopra Ridge offers one of the closest and most unobstructed views of Dhaulagiri I anywhere in the Annapurna region, with the full massif visible across the western skyline."
     },
     {
-      question: "How close does Dhaulagiri look from Khopra Ridge?",
-      answer: "Dhaulagiri sits roughly 15 to 18 kilometers from the ridge in a straight line. Because the Kali Gandaki Gorge drops away so steeply between the two, there is little foreground to soften the scale, so the mountain appears noticeably closer than the actual distance would suggest."
+      q: "Why does Dhaulagiri look so close from Khopra Ridge?",
+      a: "The combination of an open, treeless ridgeline, the absence of intervening hills, and the short line-of-sight distance across the Kali Gandaki Gorge makes the mountain's full vertical scale visible in one continuous sweep."
     },
     {
-      question: "Which mountains are visible from Khopra Ridge?",
-      answer: "Dhaulagiri I dominates the view, but trekkers can also see Annapurna South, Nilgiri Himal, and parts of the wider Annapurna range, depending on weather and exact viewpoint along the ridge."
+      q: "Which mountains can you see from Khopra Ridge?",
+      a: "Dhaulagiri I, Annapurna South, Nilgiri Himal, Tukuche Peak, Gurja Himal, Fang Peak, and Dhampus Peak are all visible on a clear day."
     },
     {
-      question: "Is Khopra Ridge better than Poon Hill for mountain views?",
-      answer: "For close-range views of Dhaulagiri specifically, most trekkers find Khopra Ridge superior, since it sits nearer to the mountain and faces it more directly. Poon Hill offers a wider introductory panorama but from a greater distance and with significantly larger crowds."
+      q: "Is Khopra Ridge better than Poon Hill for mountain views?",
+      a: "For Dhaulagiri specifically, yes — the view is closer and less obstructed. Poon Hill is easier to reach and faces more toward the Annapurna and Machhapuchhre side, but it draws far larger crowds."
     },
     {
-      question: "What is the best season for clear mountain views at Khopra Ridge?",
-      answer: "Autumn, from October through November, generally offers the most reliable visibility. Winter can also provide very sharp views, while spring adds rhododendron blooms alongside generally good, though slightly less consistent, visibility."
+      q: "What is the best season for Dhaulagiri views from Khopra Ridge?",
+      a: "Autumn (October–November) is the most reliable for consistently clear skies, followed closely by winter (December–January), which can be even clearer but colder."
     },
     {
-      question: "Is Khopra Ridge good for photography?",
-      answer: "Yes. The direct alignment with Dhaulagiri makes both sunrise and sunset exceptional for photography, and the broad panorama suits wide-angle lenses particularly well."
+      q: "Is Khopra Ridge good for photography?",
+      a: "Yes. The combination of alpenglow at sunrise, an open unobstructed panorama, and minimal crowds makes it one of the better photography viewpoints in the Annapurna region."
     },
     {
-      question: "How difficult is the Khopra Ridge trek?",
-      answer: "The trek is considered moderate in difficulty, involving several days of walking with meaningful elevation gain. It is achievable for trekkers with reasonable fitness and some prior hiking experience, though it is more demanding than short routes like Poon Hill."
+      q: "How difficult is the Khopra Ridge trek?",
+      a: "Moderate. It requires reasonable fitness and several consecutive days of walking at altitude, but it doesn't demand technical climbing skills."
     },
     {
-      question: "How many days does the Khopra Ridge trek take?",
-      answer: "Most itineraries run between seven and nine days from Pokhara and back, depending on the chosen route and whether an extension to Khayer Lake is included."
+      q: "How many days does the Khopra Ridge trek take?",
+      a: "Most itineraries run 5 to 7 days round trip from Pokhara, with an optional 1–2 day extension to Khayer Lake."
     },
     {
-      question: "Can beginners do the Khopra Ridge trek?",
-      answer: "Beginners with a reasonable level of fitness and some preparation can complete the trek, though it is somewhat more demanding than entry-level routes. Trekking with an experienced guide is recommended for those without prior high-altitude experience."
+      q: "Is Khayer Lake worth adding to the Khopra Ridge trek?",
+      a: "For most trekkers, yes. It extends the panorama further and adds a genuinely remote alpine lake at 4,660m to the itinerary, though it does add extra trekking days and elevation gain."
     },
     {
-      question: "Is Khopra Ridge worth visiting instead of Annapurna Base Camp?",
-      answer: "Khopra Ridge and Annapurna Base Camp offer different experiences rather than a strict either-or choice. Khopra rewards trekkers with closer Dhaulagiri views and far fewer crowds, while Annapurna Base Camp places trekkers inside a dramatic amphitheater of peaks. Many experienced trekkers consider Khopra the stronger choice for scenery and solitude specifically."
+      q: "Can beginners complete this trek?",
+      a: "Trekkers with a reasonable fitness base and some multi-day hiking experience typically manage it well, especially with an experienced guide who can pace the itinerary appropriately."
     }
   ];
 
   return (
-    <div className="bg-stone-50 text-stone-900 min-h-screen flex flex-col justify-between antialiased">
-      <main className="mx-auto max-w-4xl px-6 py-16 sm:py-20 flex-1">
-        
-        {/* Header Breadcrumb & Title */}
-        <header className="border-b border-stone-200 pb-10">
-          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-emerald-700">
-            <Link href="/all-pages" className="hover:underline">Home</Link>
+    <div className="bg-stone-50 text-stone-900 min-h-screen font-sans antialiased flex flex-col justify-between">
+      {/* HERO BANNER SECTION */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
+        <div className="mx-auto max-w-7xl relative z-10">
+          {/* Breadcrumbs */}
+          <div className="mb-6 flex items-center gap-2 text-xs text-stone-400 font-semibold">
+            <Link href="/" className="hover:text-emerald-400 transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/mountains/mountain-id-guide" className="hover:underline">Mountain Silo</Link>
+            <Link href="/mountains/what-mountains-visible" className="hover:text-emerald-400 transition-colors">Mountains</Link>
+            <span>/</span>
+            <span className="text-emerald-400">Dhaulagiri Views from Khopra</span>
           </div>
-          <h1 className="mt-4 text-4xl font-black tracking-tight text-stone-950 sm:text-5xl leading-tight">
-            Dhaulagiri Views from Khopra Ridge: Nepal's Most Underrated Himalayan Panorama
+
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
+            Himalayan Panorama Guide
+          </div>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
+            Dhaulagiri Views from Khopra Ridge: Nepal&apos;s Most Underrated Himalayan Panorama
           </h1>
-          <p className="mt-6 text-lg text-stone-600 leading-relaxed font-medium">
-            Discover why Khopra Ridge offers some of Nepal's closest panoramic views of Dhaulagiri. Compare sunrise photography, mountain panoramas, and why trekkers choose this hidden trail over Poon Hill.
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">
+            Stand on <Link href="/guides/khopra-ridge-ultimate-guide" className="text-emerald-400 underline hover:text-emerald-300 font-semibold">Khopra Ridge</Link> at first light and Dhaulagiri doesn&apos;t look like a mountain 15 kilometers away. It looks close enough to touch. There&apos;s no haze, no line of trekkers crowding the view, and no ridge of lodges blocking the horizon — just a wall of ice rising straight out of the Kali Gandaki Valley.
           </p>
-        </header>
 
-        {/* Quick Stats Grid */}
-        <section aria-label="Quick Stats" className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4">
-          {stats.map((stat, i) => (
-            <div key={i} className="p-5 bg-white border border-stone-200/80 rounded-3xl shadow-sm text-center">
-              <span className="text-[10px] uppercase font-bold text-stone-400 tracking-wider block">{stat.label}</span>
-              <span className="text-sm font-extrabold text-stone-950 mt-1 block">{stat.value}</span>
+          {/* Quick Metrics Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 max-w-5xl">
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-emerald-500/20 transition-all duration-300">
+              <span className="text-xs text-stone-400 font-bold uppercase tracking-wider block">Viewpoint Altitude</span>
+              <span className="text-xl md:text-2xl font-black text-emerald-400 mt-1 block">3,660m</span>
+              <span className="text-[10px] text-stone-400 block mt-0.5">12,008 ft above sea level</span>
             </div>
-          ))}
-        </section>
-
-        {/* Introduction */}
-        <article className="mt-12 space-y-6 text-stone-700 leading-relaxed text-base sm:text-lg">
-          <p>
-            Stand on Khopra Ridge at first light and you understand immediately why trekkers who have seen it keep coming back to tell others about it. Dhaulagiri I rises directly across the valley, close enough that the mountain seems to fill the entire western sky. There is no haze of distance, no row of foothills softening the scale. Just ridge, gorge, and one of the world's giant peaks standing almost within reach.
-          </p>
-          <p>
-            Despite this, Khopra Ridge remains one of the most overlooked viewpoints in the Annapurna region. Most trekkers head straight for Poon Hill or Annapurna Base Camp without realizing that a quieter trail a little further west delivers a more direct, more dramatic view of Dhaulagiri. This guide explains exactly why the Dhaulagiri views from Khopra Ridge are so exceptional, what you can expect to see at sunrise and sunset, and why experienced trekkers increasingly rank this trail above the more crowded alternatives.
-          </p>
-          <p>
-            This is not a general trekking guide. It is a close look at one specific question: why does this particular ridge, out of dozens of viewpoints across the Annapurna region, produce such an outsized view of one of the world's highest mountains. The answer comes down to geography, elevation, and orientation, and once you understand it, the rest of the trekking decision becomes much easier.
-          </p>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 1 */}
-          <section id="why-best-views" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Why Khopra Ridge Offers Some of the Best Dhaulagiri Views in Nepal
-            </h2>
-            <p>
-              Not every viewpoint in the Annapurna region offers the same quality of mountain visibility. Khopra Ridge sits in a genuinely rare position, and understanding why helps explain why the views feel so different from anywhere else nearby.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              The Unique Geographic Position of Khopra Ridge
-            </h3>
-            <p>
-              Khopra Ridge sits at roughly 3,660 meters, perched on a high grassy shoulder on the eastern side of the Kali Gandaki Valley. From this elevation, the ridge faces almost directly west, putting Dhaulagiri I squarely in front of the viewer rather than off to one side.
-            </p>
-            <p>
-              That orientation matters more than most trekkers expect. Many popular viewpoints in Nepal offer mountains at an angle, partially side-on, or framed between closer ridgelines. Khopra Ridge faces the Dhaulagiri massif head-on, which is part of why the panorama feels so complete and so immersive.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              How the Kali Gandaki Valley Creates an Unobstructed Viewing Corridor
-            </h3>
-            <p>
-              The Kali Gandaki Gorge, often cited as the deepest gorge on Earth when measured against the peaks on either side, runs directly between Khopra Ridge and the Dhaulagiri massif. This deep valley acts like a natural viewing corridor.
-            </p>
-            <p>
-              Because the gorge drops so steeply and so far, there are no intermediate ridgelines tall enough to interrupt the sightline. Trekkers at Khopra Ridge are essentially looking across open air straight at Dhaulagiri's full vertical face, from base to summit, with nothing in between to soften or block the view.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Why Dhaulagiri Appears Surprisingly Close from the Ridge
-            </h3>
-            <p>
-              First-time visitors are often caught off guard by how close Dhaulagiri looks. The mountain is roughly 15 to 18 kilometers away in a straight line, which is genuinely near for a peak of this size, but the visual effect is amplified by the geography.
-            </p>
-            <p>
-              Because the valley floor sits thousands of meters below both the ridge and the summit, there is no flat foreground to provide a normal sense of scale. The eye reads the mountain against open sky rather than against intervening land, and that compresses the apparent distance. The result is a peak that looks close enough to study in detail, rather than a distant white shape on the horizon.
-            </p>
-            <p>
-              This is a common pattern in high mountain regions: a deep gorge or valley between viewer and peak almost always makes a mountain look closer and larger than the same peak seen across flatter terrain. Khopra Ridge happens to sit at one of the more extreme versions of this effect in the entire Annapurna region, which is a large part of why first-time visitors are so consistently surprised by the scale of what they see.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 2 */}
-          <section id="understanding-massif" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Understanding the Dhaulagiri Massif You See from Khopra Ridge
-            </h2>
-            <p>
-              Knowing what you are actually looking at adds a different kind of depth to the experience. Dhaulagiri is not a single isolated peak but part of a much larger mountain system, and recognizing its scale changes how the view feels.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Dhaulagiri I — The Seventh Highest Mountain in the World
-            </h3>
-            <p>
-              Dhaulagiri I rises to 8,167 meters, making it the seventh highest mountain on Earth. It was the last of the world's 8,000-meter peaks to be climbed, first summited in 1960, and it has a reputation among mountaineers for steep, technically demanding routes.
-            </p>
-            <p>
-              From Khopra Ridge, none of that history is necessary to appreciate the scale. The summit pyramid is visible in full, rising sharply above a broad base of glaciers and rock faces that stretch across a huge portion of the western skyline.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              What Is the Dhaulagiri Massif and Why It Looks So Dramatic
-            </h3>
-            <p>
-              &quot;Massif&quot; refers to a connected block of mountains that share a common geological structure, rather than a single summit standing alone. The Dhaulagiri massif includes Dhaulagiri I along with several connected satellite peaks, ridgelines, and glacier systems that extend for kilometers in both directions.
-            </p>
-            <p>
-              This is part of why the view from Khopra Ridge feels so overwhelming. Trekkers are not looking at one mountain but at an entire wall of ice and rock, with the main summit acting as the dramatic centerpiece of a much wider formation.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Why Dhaulagiri Is One of Nepal's Most Photogenic Himalayan Peaks
-            </h3>
-            <p>
-              Dhaulagiri's shape gives it a clean, almost symmetrical pyramid form when viewed from the east, which is exactly the angle Khopra Ridge provides. The mountain's heavily glaciated south and east faces catch light in a way that produces strong contrast between snow, rock, and shadow throughout the day.
-            </p>
-            <p>
-              Combined with the lack of obstruction across the gorge, this makes Dhaulagiri one of the most consistently photogenic peaks in Nepal, rewarding even casual photographers with strong, well-defined images.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 3 */}
-          <section id="panorama" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Complete Mountain Panorama Visible from Khopra Ridge
-            </h2>
-            <p>
-              Dhaulagiri dominates the view, but it is far from the only peak on display. Part of what makes Khopra Ridge so rewarding is the sheer width of the panorama.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Views of Annapurna South and the Annapurna Range
-            </h3>
-            <p>
-              To the east, the view shifts toward the Annapurna range, with Annapurna South forming a striking contrast to Dhaulagiri's sharper profile. Annapurna South has a broader, more rounded silhouette, and seeing both mountain systems from the same viewpoint helps highlight just how different individual Himalayan peaks can look from one another.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Nilgiri Himal and Other Peaks Visible on Clear Days
-            </h3>
-            <p>
-              Nilgiri Himal sits closer to the trail than Dhaulagiri and appears as a striking wall of ice on clear mornings. On the best days, trekkers can also pick out additional summits further along the range, depending on cloud cover and the exact vantage point along the ridge.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              The Full Himalayan Skyline You Experience from the Ridge
-            </h3>
-            <p>
-              What sets Khopra Ridge apart from many single-peak viewpoints is the breadth of the panorama. Rather than facing one mountain in isolation, trekkers get a continuous skyline that stretches from the Dhaulagiri massif on one side toward the Annapurna range on the other.
-            </p>
-            <p>
-              It is this combination, a dominant central peak framed by a wider mountain wall, that gives the Khopra Ridge panorama its sense of scale and completeness.
-            </p>
-            <p>
-              Trekkers often spend far longer at the viewpoint than they originally planned simply because the panorama keeps changing. Shifting light, drifting cloud, and the sheer number of distinct summits mean the view at 6:30 in the morning rarely looks the same as the view an hour later, which is part of why so many visitors describe the experience as more immersive than a typical mountain photo stop.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 4 */}
-          <section id="sunrise-views" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Sunrise Views from Khopra Ridge Are the Most Spectacular Moment of the Trek
-            </h2>
-            <p>
-              Most trekkers who reach Khopra Ridge agree that sunrise is the single best moment of the entire trek. The combination of light, altitude, and direct mountain orientation creates a viewing experience that is difficult to match elsewhere in the region.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Watching First Light Hit Dhaulagiri's Snow-Covered Face
-            </h3>
-            <p>
-              Before the sun clears the eastern horizon, Dhaulagiri often appears as a pale grey-blue silhouette against the lightening sky. Within minutes, the first direct sunlight strikes the summit and upper slopes, and the mountain shifts rapidly from cold blue tones into bright white and gold.
-            </p>
-            <p>
-              Because Khopra Ridge faces the mountain so directly, this transition happens right in front of the viewer rather than at an angle, making the change in light feel immediate and dramatic.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Understanding Alpenglow on Himalayan Peaks
-            </h3>
-            <p>
-              Alpenglow describes the warm pink, orange, and gold light that appears on high peaks just before or after the sun is visible at the viewer's own elevation. It happens because sunlight is still striking the upper mountain while the surrounding valley remains in shadow.
-            </p>
-            <p>
-              At Khopra Ridge, alpenglow regularly paints the upper faces of Dhaulagiri in shades of rose and amber for several minutes before full daylight sets in, and this short window is when most experienced photographers say the best images are captured.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Best Time in the Morning for the Clearest Mountain Visibility
-            </h3>
-            <p>
-              Mountain visibility is typically sharpest in the thirty to forty-five minutes immediately around sunrise, before rising daytime heat in the valley below generates haze or cloud buildup. Arriving at the viewpoint at least fifteen minutes before official sunrise gives enough time to set up for photography and to watch the full transition from darkness to daylight.
-            </p>
-            <p>
-              Trekkers staying overnight near Khopra Danda are well positioned for this, since the viewpoint is only a short walk from the lodges, unlike viewpoints that require a long pre-dawn climb.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 5 */}
-          <section id="sunset-views" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Sunset Views from Khopra Ridge Create a Completely Different Mountain Experience
-            </h2>
-            <p>
-              Sunrise gets most of the attention, but sunset at Khopra Ridge offers an entirely different mood, and one that fewer trekkers take the time to experience.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              How Evening Light Changes the Entire Dhaulagiri Panorama
-            </h3>
-            <p>
-              As the sun moves toward the western horizon, it sits much closer to Dhaulagiri's position relative to the viewer than it does at sunrise. This creates a slower, more gradual color transition across the entire massif, often moving through warm orange and deep red tones before the peaks fade into blue twilight.
-            </p>
-            <p>
-              Because Khopra Ridge faces almost directly toward the Dhaulagiri range, evening light strikes the mountain face-on for an extended period rather than briefly skimming across it.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Why Sunset Photography Is Exceptional from Khopra Ridge
-            </h3>
-            <p>
-              This west-facing orientation gives Khopra Ridge a genuine advantage for evening photography. Many Himalayan viewpoints face east and lose their best light quickly after sunrise, leaving sunset as a flat, backlit experience.
-            </p>
-            <p>
-              At Khopra Ridge, the opposite is true. The same direct alignment that makes sunrise so striking also means sunset light falls naturally across the mountain's main face, producing rich color and strong shadow definition well after most other viewpoints have gone dull.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 6 */}
-          <section id="photography-opps" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Photography Opportunities from Khopra Ridge for Mountain Lovers
-            </h2>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Best Camera Settings for Himalayan Photography
-            </h3>
-            <p>
-              For sunrise and sunset shots, a low ISO between 100 and 400 helps preserve detail in the snow without introducing excess noise. A mid-range aperture around f/8 to f/11 keeps both foreground ridgeline and distant peaks sharp, while a tripod or stable surface is genuinely useful given the low light during alpenglow.
-            </p>
-            <p>
-              Bracketing exposures, taking the same shot slightly underexposed, correctly exposed, and overexposed, helps capture the wide dynamic range between bright snow and darker rock or sky.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Best Seasons for Crystal Clear Mountain Photography
-            </h3>
-            <p>
-              Autumn, from October through November, consistently delivers the clearest skies and sharpest mountain definition, making it the strongest season for photography. Winter mornings, particularly in December and January, can be equally clear, though colder temperatures demand more preparation for early starts.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Why Wide-Angle Photography Works Perfectly at Khopra Ridge
-            </h3>
-            <p>
-              A wide-angle lens, generally in the 16 to 24mm range on a full-frame equivalent, suits Khopra Ridge particularly well because the panorama is so broad. Rather than trying to isolate Dhaulagiri alone, a wider frame captures the relationship between the main peak, the surrounding massif, and the wider Himalayan skyline, which is exactly what makes this viewpoint distinctive in the first place.
-            </p>
-            <div className="p-5 bg-amber-50/80 border border-amber-200 rounded-2xl text-amber-950 text-sm font-medium leading-relaxed">
-              <strong>Tip:</strong> The most common mistake at Khopra Ridge is arriving at the viewpoint just as the sun breaks the horizon, rather than well before it. The alpenglow on Dhaulagiri's upper slopes often appears ten to fifteen minutes before direct sunrise, and trekkers who arrive late frequently miss this stage entirely, catching only the brighter, flatter light that follows.
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-emerald-500/20 transition-all duration-300">
+              <span className="text-xs text-stone-400 font-bold uppercase tracking-wider block">Dhaulagiri Peak</span>
+              <span className="text-xl md:text-2xl font-black text-emerald-400 mt-1 block">8,167m</span>
+              <span className="text-[10px] text-stone-400 block mt-0.5">World&apos;s 7th highest peak</span>
             </div>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 7 */}
-          <section id="khopra-vs-poonhill" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Khopra Ridge vs Poon Hill — Which Trek Offers Better Mountain Views
-            </h2>
-            <p>
-              Poon Hill is by far the more famous viewpoint in the Annapurna region, but it is not necessarily the better one for trekkers focused specifically on mountain scenery.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Comparing Dhaulagiri Visibility at Khopra Ridge and Poon Hill
-            </h3>
-            <p>
-              Poon Hill offers a wide panorama that includes Dhaulagiri, Annapurna South, Machhapuchhre, and several other peaks, but from a greater distance and a more angled perspective. Khopra Ridge sits closer to the Dhaulagiri massif and faces it more directly, which produces a noticeably larger, more dominant view of the mountain itself.
-            </p>
-            <p>
-              In practical terms, Poon Hill gives a broader introductory panorama, while Khopra Ridge gives a more concentrated, close-range encounter with Dhaulagiri specifically.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Why Khopra Ridge Has Fewer Crowds and Better Viewing Space
-            </h3>
-            <p>
-              Poon Hill's accessibility has made it extremely popular, and sunrise there can mean sharing a relatively small viewing platform with hundreds of other trekkers. Khopra Ridge requires more days of trekking to reach, which naturally limits numbers and leaves far more room to find a quiet spot, set up a tripod, and watch the sunrise without competing for space.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Why Experienced Trekkers Prefer Khopra for Scenic Quality
-            </h3>
-            <p>
-              Trekkers who have done both routes often describe Poon Hill as a good first taste of Himalayan scenery, but Khopra Ridge as the more memorable experience for anyone specifically chasing close-range mountain views and serious photography conditions. The extra effort to reach Khopra is, for many, exactly what makes the reward feel earned.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 8 */}
-          <section id="seasons" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Best Seasons to Experience Clear Dhaulagiri Views from Khopra Ridge
-            </h2>
-            <p>
-              Mountain visibility in Nepal depends heavily on the season, and choosing the right time of year matters as much as choosing the right trail.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Autumn Season Offers the Clearest Himalayan Visibility
-            </h3>
-            <p>
-              October and November are widely considered the best months for mountain views throughout the Annapurna region. Post-monsoon skies are typically dry and stable, humidity drops, and Dhaulagiri tends to stand out with exceptional clarity against a deep blue sky.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Spring Season Provides Beautiful Mountain and Rhododendron Views
-            </h3>
-            <p>
-              March and April bring a different kind of reward. Mountain visibility is generally good, though slightly less consistent than autumn, and the trail itself comes alive with blooming rhododendron forests, adding color to the lower sections of the route in a way autumn cannot match.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Winter Can Offer Exceptional Clarity for Serious Trekkers
-            </h3>
-            <p>
-              December through February can deliver some of the sharpest, haze-free mountain views of the year, since cold, dry air often produces outstanding visibility. The trade-off is colder temperatures and the possibility of snow on the trail, which makes this season better suited to trekkers with proper winter gear and realistic expectations.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 9 */}
-          <section id="routes" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Trek Route to Reach the Famous Khopra Ridge Viewpoint
-            </h2>
-            <p>
-              Reaching Khopra Ridge involves a multi-day trek through some of the Annapurna region's most scenic mid-hill villages and forest before climbing to the high ridge itself. Most itineraries take between five and seven days of actual walking, gaining roughly 2,500 meters of elevation in total between the trailhead and the ridge itself, with several gradual climbing days rather than one single steep push.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Popular Route Through Ghandruk and Tadapani
-            </h3>
-            <p>
-              The most common route begins in Ghandruk, a large Gurung village known for its stone houses and strong mountain views even at lower elevation. From there, the trail climbs through rhododendron and oak forest toward Tadapani before continuing on toward Khopra Danda over the following days.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Alternative Route Through Swanta Village
-            </h3>
-            <p>
-              A quieter alternative passes through Swanta Village, a smaller settlement that sees far fewer trekkers than the Ghandruk approach. This route offers a more remote, village-focused experience for trekkers who want to avoid even the moderate traffic on the main trail.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Optional Side Trip to Sacred Khayer Lake
-            </h3>
-            <p>
-              Many trekkers extend their time at Khopra with a side trip to Khayer Lake, a sacred high-altitude lake roughly three to four hours beyond the main ridge. The walk to the lake adds another full day to the itinerary but rewards trekkers with an even higher vantage point and a different angle on the surrounding peaks.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 10 */}
-          <section id="offbeat" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Why Khopra Ridge Is One of Nepal's Best Off-the-Beaten-Path Scenic Treks
-            </h2>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Avoiding Crowded Mainstream Trekking Routes
-            </h3>
-            <p>
-              Annapurna Base Camp and Poon Hill see enormous numbers of trekkers during peak season, which can mean crowded teahouses, busy trails, and a less personal experience overall. Khopra Ridge sits just far enough off the main circuit to avoid most of this congestion while still being well within reach for a moderately fit trekker.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Community Lodge Trekking Creates a More Authentic Experience
-            </h3>
-            <p>
-              The lodges around Khopra are largely run as a community-managed initiative, meaning income from trekkers stays closely tied to the local villages along the trail. Staying in these lodges tends to feel more personal than the larger teahouse setups on busier routes, with closer interaction with local hosts and a stronger sense of supporting the communities that maintain the trail.
-            </p>
-
-            <h3 className="text-xl font-bold text-stone-900 mt-6">
-              Why Serious Mountain Lovers Prefer Hidden Viewpoints Like Khopra Ridge
-            </h3>
-            <p>
-              For trekkers who have already experienced one or two of Nepal's classic routes, Khopra Ridge offers something different: a viewpoint that rewards effort with scenery rather than crowds. That combination, dramatic close-range mountain views paired with a genuinely quiet trail, is increasingly rare in the Annapurna region, and it is exactly why Khopra Ridge keeps earning recommendations from trekkers who know the area well.
-            </p>
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 11: FAQ */}
-          <section id="faq-section" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight mb-8">
-              Frequently Asked Questions (FAQ)
-            </h2>
-            <DhaulagiriFaqInteractive faqs={faqs} />
-          </section>
-
-          <hr className="my-10 border-stone-200" />
-
-          {/* Section 12: Conclusion */}
-          <section id="conclusion" className="space-y-6 pt-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
-              Conclusion
-            </h2>
-            <p>
-              Khopra Ridge earns its place among Nepal's finest viewpoints not through fame, but through geography. Its position directly across the Kali Gandaki Gorge from the Dhaulagiri massif, combined with an unobstructed sightline and a west-facing orientation, creates a close-range mountain panorama that few other trails in the Annapurna region can match. Sunrise transforms the mountain from cold blue to glowing gold within minutes, sunset stretches that same drama out across a slower, richer evening light, and the relative quiet of the trail means there is room to actually take it all in.
-            </p>
-            <p>
-              For trekkers who have already seen Poon Hill or dream of something with fewer crowds and a more direct mountain encounter, Khopra Ridge offers exactly that. It rewards a few extra days of walking with one of the most complete, close-range views of Dhaulagiri anywhere in Nepal.
-            </p>
-          </section>
-        </article>
-
-        {/* Sub-Silo Navigation Bar */}
-        <div className="mt-12 space-y-6">
-          <h3 className="text-xl font-bold text-stone-950">Explore More Mountain Guides</h3>
-          <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4 text-xs font-semibold text-stone-600">
-            <Link href="/mountains/annapurna-south-views" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between shadow-sm">
-              <span>Annapurna South Views</span>
-              <span>→</span>
-            </Link>
-            <Link href="/mountains/machhapuchhre-views" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between shadow-sm">
-              <span>Machhapuchhre Views</span>
-              <span>→</span>
-            </Link>
-            <Link href="/mountains/nilgiri-views" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between shadow-sm">
-              <span>Nilgiri Views</span>
-              <span>→</span>
-            </Link>
-            <Link href="/mountains/what-mountains-visible" className="p-4 bg-white border border-stone-200 rounded-2xl hover:text-emerald-600 hover:border-emerald-600 transition flex items-center justify-between shadow-sm">
-              <span>Mountains Visible</span>
-              <span>→</span>
-            </Link>
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-emerald-500/20 transition-all duration-300">
+              <span className="text-xs text-stone-400 font-bold uppercase tracking-wider block">Visual Distance</span>
+              <span className="text-xl md:text-2xl font-black text-emerald-400 mt-1 block">15–18 km</span>
+              <span className="text-[10px] text-stone-400 block mt-0.5">Direct visual line of sight</span>
+            </div>
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-emerald-500/20 transition-all duration-300">
+              <span className="text-xs text-stone-400 font-bold uppercase tracking-wider block">Crowd Level</span>
+              <span className="text-xl md:text-2xl font-black text-emerald-400 mt-1 block">Very Low</span>
+              <span className="text-[10px] text-emerald-400 font-semibold block mt-0.5">Quiet eco-lodge ridge</span>
+            </div>
           </div>
         </div>
+      </section>
 
-        {/* E-E-A-T AUTHOR BADGE */}
-        <div className="mt-16 p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-          <span className="text-2xl mt-0.5">🏔️</span>
-          <div>
-            <h4 className="font-bold text-stone-900 text-sm">Reviewed by Trail Experts</h4>
-            <p className="mt-2 text-xs text-stone-600 leading-relaxed">
-              We coordinate directly with local community lodge managers and guides to compile authentic safety advisories, sunrise timings, and peak photography guidelines for Dhaulagiri I.
-            </p>
-          </div>
-        </div>
-
-        {/* CTA Box */}
-        <div className="mt-12 rounded-3xl bg-stone-950 p-8 sm:p-10 text-white border border-white/5 shadow-2xl relative overflow-hidden">
-          <div className="relative z-10">
-            <span className="text-xs font-bold text-emerald-400 uppercase tracking-widest block mb-2">Himalayan Panorama Trek</span>
-            <h3 className="text-2xl sm:text-3xl font-extrabold">Ready to witness one of Nepal's most breathtaking Himalayan panoramas?</h3>
-            <p className="mt-4 text-stone-300 text-sm sm:text-base leading-relaxed max-w-2xl">
-              Join our guided Khopra Ridge trek and experience the closest, most dramatic views of Dhaulagiri from one of the country's most underrated mountain viewpoints. Secure your local guide and community permits now.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-4">
-              <Link
-                href="/#book"
-                className="rounded-full bg-emerald-600 px-8 py-3.5 text-sm font-bold text-white hover:bg-emerald-500 transition-all shadow-lg shadow-emerald-950/40"
+      {/* DYNAMIC TWO COLUMN LAYOUT */}
+      <div className="mx-auto max-w-7xl px-6 py-16 grid grid-cols-1 lg:grid-cols-4 gap-12 w-full flex-1">
+        {/* STICKY TABLE OF CONTENTS SIDEBAR */}
+        <aside className="lg:col-span-1">
+          <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
+            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">
+              Table of Contents
+            </h3>
+            <nav className="flex flex-col gap-1 text-sm">
+              <a href="#quick-facts" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Quick Facts
+              </a>
+              <a href="#why-best" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Why Khopra is Best
+              </a>
+              <a href="#dhaulagiri-massif" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                The Dhaulagiri Massif
+              </a>
+              <a href="#mountain-panorama" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Complete Panorama
+              </a>
+              <a href="#sunrise-sunset" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Sunrise &amp; Sunset
+              </a>
+              <a href="#photography" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Photography Guide
+              </a>
+              <a href="#viewpoint-comparison" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Viewpoint Comparison
+              </a>
+              <a href="#best-seasons" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Best Seasons
+              </a>
+              <a href="#trek-route" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Trek Route &amp; Lodges
+              </a>
+              <a href="#why-underrated" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Why It&apos;s Underrated
+              </a>
+              <a href="#common-mistakes" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Common Mistakes
+              </a>
+              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Frequently Asked Qs
+              </a>
+            </nav>
+            <div className="pt-4 border-t border-stone-100">
+              <Link 
+                href="/contact"
+                className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
               >
-                Inquire &amp; Book Tour →
-              </Link>
-              <Link
-                href="/#itinerary"
-                className="rounded-full bg-stone-800 px-8 py-3.5 text-sm font-bold text-stone-200 hover:bg-stone-700 transition-all border border-white/10"
-              >
-                View 9-Day Route
+                Inquire Guided Trek
               </Link>
             </div>
           </div>
-        </div>
+        </aside>
 
-      </main>
+        {/* PRIMARY EDITORIAL CONTENT COLUMN */}
+        <main className="lg:col-span-3 space-y-16">
+          
+          {/* INTRODUCTION */}
+          <article className="space-y-6">
+            <h2 className="text-3xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Dhaulagiri Views from Khopra Ridge: Nepal&apos;s Most Underrated Himalayan Panorama
+            </h2>
+            <div className="space-y-4 text-stone-600 leading-relaxed text-sm">
+              <p>
+                Stand on Khopra Ridge at first light and Dhaulagiri doesn&apos;t look like a mountain 15 kilometers away. It looks close enough to touch. There&apos;s no haze, no line of trekkers crowding the view, and no ridge of lodges blocking the horizon — just a wall of ice rising straight out of the Kali Gandaki Valley, catching the first color of the morning.
+              </p>
+              <p>
+                We&apos;ve guided trekkers to viewpoints across the Annapurna region for years, and Khopra Ridge consistently produces the same reaction: people expect Poon Hill-style scenery and get something far more intimate. This isn&apos;t the highest viewpoint in Nepal, and it isn&apos;t the most famous. But for a close, uncrowded, genuinely dramatic look at the Dhaulagiri Massif, it&apos;s hard to beat.
+              </p>
+              <p>
+                In this guide, we&apos;ll explain exactly why the views from Khopra Ridge are so exceptional, which peaks you&apos;ll actually see, when to go for the clearest skies, how to photograph the panorama properly, and how this viewpoint compares to better-known alternatives like Poon Hill and Annapurna Base Camp.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION 1: QUICK FACTS */}
+          <article id="quick-facts" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Quick Facts: Dhaulagiri Views from Khopra Ridge
+            </h2>
+            <div className="overflow-x-auto border border-stone-200 rounded-3xl bg-white shadow-sm my-6">
+              <table className="w-full text-left border-collapse text-xs">
+                <thead>
+                  <tr className="border-b border-stone-200 bg-stone-50 text-stone-400 font-bold uppercase tracking-wider">
+                    <th className="px-6 py-4">Detail</th>
+                    <th className="px-6 py-4">Information</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-stone-100 text-stone-600">
+                  {quickFacts.map((fact, idx) => (
+                    <tr key={idx} className="hover:bg-stone-50/50">
+                      <td className="px-6 py-4 font-bold text-stone-900">{fact.label}</td>
+                      <td className="px-6 py-4">{fact.detail}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </article>
+
+          {/* SECTION 2: WHY BEST VIEWS */}
+          <article id="why-best" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Why Khopra Ridge Offers Nepal&apos;s Best Dhaulagiri Views
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                Most viewpoints in the Annapurna region look toward Annapurna South, Machhapuchhre, and the eastern Annapurna range. Khopra Ridge is one of the few accessible viewpoints that sits almost directly opposite Dhaulagiri, across the deepest river gorge on Earth.
+              </p>
+              <p>
+                <strong>Geographic Position:</strong> Khopra Ridge sits on the western edge of the Annapurna Conservation Area, on a high, open ridgeline above Ghandruk and Tadapani. Unlike forested viewpoints where trees or neighboring hills partially block the skyline, Khopra Ridge is above the treeline and largely unobstructed in the direction of Dhaulagiri. That open exposure is the single biggest reason the view feels so complete.
+              </p>
+              <p>
+                <strong>The Kali Gandaki Viewing Corridor:</strong> Between Khopra Ridge and the Dhaulagiri Massif lies the Kali Gandaki Gorge — widely cited as the world&apos;s deepest river gorge, cut between Dhaulagiri I and Annapurna I. This gorge acts almost like a wind tunnel and a visual corridor at once. Cold air draining down the valley overnight tends to clear haze and low cloud before sunrise, which is part of why mornings here are so reliably clear compared to lower, forested viewpoints.
+              </p>
+              <p>
+                <strong>Why Dhaulagiri Looks So Close:</strong> Perceived distance in the mountains depends on more than raw kilometers. Because there&apos;s no intervening ridge, no forest canopy, and no atmospheric haze from lower valleys, your eye reads the full vertical rise of Dhaulagiri — from valley floor near 1,200 m to summit at 8,167 m — in one uninterrupted sweep. That scale, combined with the short horizontal distance, is what makes the mountain feel close enough to be almost overwhelming.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION 3: DHAULAGIRI MASSIF */}
+          <article id="dhaulagiri-massif" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Understanding the Dhaulagiri Massif
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                <strong>Dhaulagiri I:</strong> At 8,167 meters, Dhaulagiri I is the world&apos;s seventh-highest mountain and the highest point entirely within Nepal&apos;s borders that isn&apos;t shared with a neighboring country&apos;s border ridge. It was first climbed in 1960 and remains one of the more technically demanding 8,000-meter peaks, known for its exposed ridgelines and unpredictable weather. Read more about <Link href="/mountains/dhaulagiri-views-khopra" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Dhaulagiri Peak Details</Link>.
+              </p>
+              <p>
+                <strong>Surrounding Peaks:</strong> Dhaulagiri isn&apos;t a single summit — it&apos;s a massif with several connected peaks, including Dhaulagiri II, III, IV, and V, forming a jagged, multi-summit wall that extends far wider across the horizon than most single-peak mountains.
+              </p>
+              <p>
+                <strong>Why It Matters for This Viewpoint:</strong> Because Khopra Ridge faces the massif nearly head-on, you don&apos;t just see the main summit — you see the full ridge system extending across a significant portion of the western skyline, which is part of what makes this panorama feel so vast.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION 4: COMPLETE PANORAMA */}
+          <article id="mountain-panorama" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              The Complete Mountain Panorama from Khopra Ridge
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                Dhaulagiri is the headline, but it&apos;s far from the only peak on display. On a clear morning, the panorama includes:
+              </p>
+              <ul className="list-disc pl-5 space-y-2 text-stone-600">
+                <li><strong>Dhaulagiri I (8,167 m):</strong> Dominating the western skyline</li>
+                <li><strong>Annapurna South (7,219 m):</strong> Anchoring the eastern view (<Link href="/mountains/annapurna-south-views" className="text-emerald-700 underline font-semibold hover:text-emerald-600">read Annapurna South guide</Link>)</li>
+                <li><strong>Nilgiri Himal (7,061 m):</strong> A sharp, distinctive pyramid (<Link href="/mountains/nilgiri-views" className="text-emerald-700 underline font-semibold hover:text-emerald-600">read Nilgiri guide</Link>)</li>
+                <li><strong>Tukuche Peak (6,920 m):</strong> Visible along the Dhaulagiri ridge system (<Link href="/mountains/tukuche-peak-views" className="text-emerald-700 underline font-semibold hover:text-emerald-600">read Tukuche Peak guide</Link>)</li>
+                <li><strong>Gurja Himal (7,193 m):</strong> Often overlooked but clearly visible</li>
+                <li><strong>Fang Peak &amp; Dhampus Peak:</strong> Supporting peaks along the Annapurna &amp; Dhaulagiri ridges</li>
+              </ul>
+              <p>
+                Few viewpoints in Nepal let you see two separate 7,000+ meter massifs — Dhaulagiri and Annapurna — from a single ridge without turning around. That 180-degree spread is a large part of what sets this panorama apart.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION 5: SUNRISE & SUNSET */}
+          <article id="sunrise-sunset" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Sunrise and Sunset at Khopra Ridge
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                <strong>Alpenglow on Dhaulagiri:</strong> Just before the sun clears the eastern horizon, Dhaulagiri&apos;s upper slopes catch a soft pink-and-orange light known as alpenglow. It happens because sunlight is still traveling through the lower atmosphere, scattering shorter blue wavelengths and leaving warmer tones to hit the snow directly. On a clear morning, this lasts only 10–15 minutes, so timing matters.
+              </p>
+              <p>
+                <strong>Best Viewing Time:</strong> Depending on the season, sunrise at Khopra Ridge falls between roughly 5:45 AM in autumn and closer to 6:15–6:30 AM in winter. We recommend being in position at least 20 minutes before official sunrise to catch the full alpenglow sequence.
+              </p>
+              <p>
+                <strong>Morning Photography Notes:</strong> Temperatures at sunrise can drop below freezing even in October, so keep batteries warm in an inner jacket pocket — cold drains them fast. The light shifts quickly during this window.
+              </p>
+              <p>
+                <strong>Sunset Experience:</strong> Sunset at Khopra Ridge is quieter and produces long shadows across the ridgeline and warm light on surrounding meadows, with the massif silhouetted against gold skies. Check our full guide to <Link href="/viewpoints/sunset-at-khopra-ridge" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Sunset at Khopra Ridge</Link>.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION 6: PHOTOGRAPHY */}
+          <article id="photography" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Photography Guide: Capturing Khopra Ridge
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                <strong>Camera Gear &amp; Lens Choices:</strong> A mid-range zoom (24–70mm equivalent) covers most of the panorama, while a longer telephoto (70–200mm) lets you isolate individual features like Dhaulagiri&apos;s summit ridge or seracs. Read our <Link href="/viewpoints/best-photography-spots" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Best Photography Spots on the Khopra Trek</Link> guide.
+              </p>
+              <p>
+                <strong>Composition Tips:</strong> Foreground matters. Alpine grasses, prayer flags, or the ridge trail itself in the lower third of the frame give scale and depth.
+              </p>
+              <p>
+                <strong>Smartphone Photography:</strong> Modern phone cameras handle this scene reasonably well if you avoid digital zoom. Use Night or HDR mode before official sunrise.
+              </p>
+              <p>
+                <strong>Drone Regulations:</strong> Drone use is restricted within the Annapurna Conservation Area (ACAP). Flying without permits can result in heavy fines or equipment confiscation.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION 7: VIEWPOINT COMPARISON */}
+          <article id="viewpoint-comparison" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Khopra Ridge vs. Other Himalayan Viewpoints
+            </h2>
+            <div className="overflow-x-auto border border-stone-200 rounded-3xl bg-white shadow-sm my-6">
+              <table className="w-full text-left border-collapse text-xs">
+                <thead>
+                  <tr className="border-b border-stone-200 bg-stone-50 text-stone-400 font-bold uppercase tracking-wider">
+                    <th className="px-6 py-4">Viewpoint</th>
+                    <th className="px-6 py-4">Dhaulagiri Visibility</th>
+                    <th className="px-6 py-4">Crowd Levels</th>
+                    <th className="px-6 py-4">Sunrise Quality</th>
+                    <th className="px-6 py-4">Trek Difficulty</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-stone-100 text-stone-600">
+                  {viewpointComparisons.map((row, idx) => (
+                    <tr key={idx} className="hover:bg-stone-50/50">
+                      <td className="px-6 py-4 font-bold text-stone-900">{row.name}</td>
+                      <td className="px-6 py-4 font-semibold text-emerald-700">{row.dhaulagiri}</td>
+                      <td className="px-6 py-4">{row.crowds}</td>
+                      <td className="px-6 py-4">{row.sunrise}</td>
+                      <td className="px-6 py-4">{row.diff}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed mt-4">
+              <p>
+                <strong>Khopra Ridge vs. Poon Hill:</strong> Read our detailed <Link href="/viewpoints/khopra-vs-poon-hill-views" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge vs Poon Hill Views Comparison</Link>. Poon Hill is easier to reach but draws hundreds of trekkers. Khopra Ridge takes 2 extra days but delivers a closer, uncrowded Dhaulagiri view.
+              </p>
+              <p>
+                <strong>Khopra Ridge vs. Annapurna Base Camp:</strong> Annapurna Base Camp places you inside an amphitheater facing Annapurna I, but Dhaulagiri is not visible from ABC. If Dhaulagiri is your main goal, Khopra Ridge is the direct choice.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION 8: BEST SEASONS */}
+          <article id="best-seasons" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Best Seasons for Dhaulagiri Views
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
+                <h4 className="font-bold text-stone-950 text-base">Autumn (October–November)</h4>
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">The most reliable season for clear mountain visibility. Post-monsoon skies are clean, temperatures are cold but manageable, and conditions are ideal for morning photography.</p>
+              </div>
+              <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
+                <h4 className="font-bold text-stone-950 text-base">Spring (March–April)</h4>
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">Rhododendron forests bloom lower on the route, adding vivid pink and red colors to the trail approach, though afternoon haze can build up more than in autumn.</p>
+              </div>
+              <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
+                <h4 className="font-bold text-stone-950 text-base">Winter (December–January)</h4>
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">Cold, but often exceptionally clear with minimal haze. Snow may close high sections depending on conditions, so check trail status before traveling.</p>
+              </div>
+              <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
+                <h4 className="font-bold text-stone-950 text-base">Monsoon (June–September)</h4>
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">Cloud cover and rain make mountain visibility unreliable during monsoon months. We generally do not recommend this season for view-focused trekkers.</p>
+              </div>
+            </div>
+          </article>
+
+          {/* SECTION 9: TREK ROUTE & LODGES */}
+          <article id="trek-route" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Trek Route to Reach the Viewpoint
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                <strong>Main Route:</strong> Pokhara &rarr; Ghandruk &rarr; Tadapani &rarr; Chhistibung &rarr; <Link href="/nodes/khopra-ridge-lodge-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Lodge</Link> (3,660m), typically taking 5–7 days round trip depending on pace and starting point.
+              </p>
+              <p>
+                <strong>Khayer Lake Extension:</strong> Many trekkers add a side trip from Khopra Ridge to <Link href="/guides/khayer-lake-ultimate-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Sacred Khayer Lake (4,660m)</Link>, a high alpine lake offering an even broader panorama. This adds 1 to 2 days to the itinerary.
+              </p>
+              <p>
+                <strong>Where You&apos;ll Stay:</strong> The route relies on community-run lodges in villages like Ghandruk, Swanta, Bayeli Kharka, and Chhistibung, directly funding local schools and clinics.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION 10: WHY UNDERRATED */}
+          <article id="why-underrated" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Why Khopra Ridge Remains Underrated
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                Given the quality of the panorama, it&apos;s fair to ask why Khopra Ridge isn&apos;t mentioned in the same breath as Poon Hill or Annapurna Base Camp. Part of it is simply visibility — it takes longer to reach and doesn&apos;t sit directly on the main commercial circuits, so it gets skipped by trekkers on tighter schedules.
+              </p>
+              <p>
+                That obscurity is also its advantage. Fewer trekkers means quieter lodges, authentic interaction with local Gurung and Magar host families, and a sunrise view you aren&apos;t sharing with fifty other people.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION 11: COMMON MISTAKES */}
+          <article id="common-mistakes" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Common Mistakes to Avoid
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <ul className="list-disc pl-5 space-y-2 text-stone-600">
+                <li><strong>Arriving after alpenglow has faded:</strong> Get to the viewpoint at least 20 minutes before sunrise, not at sunrise itself.</li>
+                <li><strong>Underestimating the cold:</strong> Sunrise temperatures can drop below freezing even outside winter — dress in proper layers.</li>
+                <li><strong>Assuming every morning is clear:</strong> Weather in the Himalaya changes fast; build a buffer day into your itinerary if the view is your priority.</li>
+                <li><strong>Rushing the viewpoint:</strong> Many trekkers snap a few photos and leave within ten minutes. Give it at least 45–60 minutes to watch the light change across the massif.</li>
+              </ul>
+            </div>
+          </article>
+
+          {/* SECTION 12: FAQS */}
+          <article id="faq" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Frequently Asked Questions About Dhaulagiri Views
+            </h2>
+
+            <div className="space-y-4 mt-6">
+              {faqs.map((faq, idx) => (
+                <details 
+                  key={idx} 
+                  className="group bg-white border border-stone-200 rounded-3xl p-6 [&_summary::-webkit-details-marker]:hidden cursor-pointer select-none transition-all duration-200 hover:border-emerald-500/30"
+                >
+                  <summary className="flex items-center justify-between font-bold text-stone-900 text-sm sm:text-base list-none">
+                    <span>{faq.q}</span>
+                    <span className="text-stone-400 group-open:rotate-180 transition-transform duration-200 text-lg">
+                      ▼
+                    </span>
+                  </summary>
+                  <p className="mt-4 text-xs sm:text-sm text-stone-600 leading-relaxed border-t border-stone-100 pt-3">
+                    {faq.a}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </article>
+
+          {/* SECTION: CONCLUSION */}
+          <article className="space-y-6">
+            <h2 className="text-2xl font-bold text-stone-955">Conclusion</h2>
+            <p className="text-stone-600 leading-relaxed text-sm">
+              Khopra Ridge won&apos;t show up on many &quot;top viewpoints in Nepal&quot; lists, but for anyone specifically chasing a close, dramatic view of Dhaulagiri, it&apos;s one of the best-kept secrets in the Annapurna region. The open ridgeline, the direct sightline across the Kali Gandaki Gorge, and the near-total absence of crowds combine into a sunrise experience that&apos;s hard to replicate at busier viewpoints.
+            </p>
+          </article>
+
+          {/* SECTION: CTA */}
+          <section id="booking" className="bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white rounded-3xl p-8 shadow-md border border-stone-800 relative overflow-hidden">
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
+            <div className="relative z-10 space-y-6 max-w-4xl">
+              <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">
+                Ready to See Dhaulagiri from Khopra Ridge for Yourself?
+              </h3>
+              <p className="text-stone-300 text-sm leading-relaxed">
+                As a licensed Nepal trekking operator based in Pokhara (NTB License #8928-091), we design guided Khopra Ridge itineraries built around clear-sky timing and proper acclimatization. Get in touch with our team to plan your trek dates or request a custom itinerary including Khayer Lake.
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                <Link 
+                  href="/contact"
+                  className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
+                >
+                  Contact Local Trek Specialists &rarr;
+                </Link>
+              </div>
+
+              {/* Continue Planning Links */}
+              <div className="pt-6 border-t border-white/10 space-y-3">
+                <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
+                <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
+                  <Link href="/viewpoints/khopra-vs-poon-hill-views" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
+                    Read Khopra vs Poon Hill Views Comparison
+                  </Link>
+                  <Link href="/mountains/annapurna-south-views" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
+                    Read Annapurna South Views Guide
+                  </Link>
+                  <Link href="/viewpoints/best-photography-spots" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
+                    Read Best Photography Spots Guide
+                  </Link>
+                  <Link href="/planning/teahouse-locator" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
+                    Use our interactive Teahouse Finder tool
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* EEAT Author Verification Banner */}
+          <div className="p-6 rounded-3xl bg-stone-100 border border-stone-200 flex items-start gap-4">
+            <span className="text-2xl mt-0.5">🏔️</span>
+            <div>
+              <h4 className="font-bold text-stone-900 text-sm font-sans font-medium">Reviewed by Local Guides</h4>
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
+                This mountain panorama guide is maintained by our licensed local trekking guides operating out of Kathmandu and Pokhara. Nepal Tourism Operator License #8928-091. Email: <a href="mailto:khopraridge51@gmail.com" className="text-emerald-700 font-semibold hover:underline">khopraridge51@gmail.com</a>.
+              </p>
+            </div>
+          </div>
+        </main>
+      </div>
     </div>
   );
 }

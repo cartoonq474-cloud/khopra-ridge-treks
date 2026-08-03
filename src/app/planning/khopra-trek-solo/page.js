@@ -5,89 +5,109 @@ export const metadata = {
   alternates: {
     canonical: "/planning/khopra-trek-solo",
   },
-  title: "Solo Trekking to Khopra Ridge: Complete Guide, Safety, Costs & Route Planning",
-  description: "Planning a solo trek to Khopra Ridge? Get the full picture on rules, safety, route, itinerary, costs, and lodge logistics before you go.",
+  title: "Solo Trekking to Khopra Ridge: Complete Independent Trek Planning Guide",
+  description: "Planning solo trekking to Khopra Ridge? Learn about Nepal's trekking regulations, route details, safety risks, permit costs, itinerary options, and whether you need a guide — complete planning guide for independent trekkers.",
 };
 
 export default function Page() {
-  const summarySpecs = [
-    { label: "Guide Regulation", value: "Licensed Guide Required" },
-    { label: "Trail Difficulty", value: "Moderate to Challenging" },
-    { label: "Acclimatization stop", value: "Khopra Ridge (3,660m)" },
-    { label: "Maximum Ascent", value: "Khayer Lake (4,660m)" }
+  const elevationGain = [
+    { day: "1", segment: "Pokhara to Ghandruk", start: "820m", end: "1,940m" },
+    { day: "2", segment: "Ghandruk to Tadapani", start: "1,940m", end: "2,630m" },
+    { day: "3", segment: "Tadapani to Dobato", start: "2,630m", end: "3,360m" },
+    { day: "4", segment: "Dobato to Khopra Ridge", start: "3,360m", end: "3,660m" },
+    { day: "5", segment: "Khopra Ridge to Khayer Lake", start: "3,660m", end: "4,500m" },
+    { day: "6", segment: "Khayer Lake to Swanta", start: "4,500m", end: "2,200m" },
+    { day: "7", segment: "Swanta to Ghandruk", start: "2,200m", end: "1,940m" }
   ];
 
-  const itineraries = [
-    { name: "Short Rapid Route", duration: "7 Days", focus: "Steady pace, main villages, 1 buffer day", fitness: "Solid hiking fitness" },
-    { name: "Standard Guided Route", duration: "9 Days", focus: "Adds acclimatization day before highest sections", fitness: "Average active hiker" },
-    { name: "Extended Lake Route", duration: "10-11 Days", focus: "Includes sacred Khayer Lake side-trip and buffer day", fitness: "Prior high-altitude experience" }
+  const itinerary7Day = [
+    { day: "Day 1", route: "Pokhara to Ghandruk (Jeep & short walk)" },
+    { day: "Day 2", route: "Ghandruk to Tadapani" },
+    { day: "Day 3", route: "Tadapani to Dobato" },
+    { day: "Day 4", route: "Dobato to Khopra Ridge" },
+    { day: "Day 5", route: "Khopra Ridge to Swanta" },
+    { day: "Day 6", route: "Swanta to Ghandruk" },
+    { day: "Day 7", route: "Ghandruk to Pokhara" }
   ];
 
-  const faqItems = [
-    {
-      q: "Can I trek Khopra Ridge without a guide?",
-      a: "Officially, no. Nepal Tourism Board rules require foreign trekkers to hire a licensed guide when entering conservation areas like the Annapurna Conservation Area (ACAP), which covers the entire Khopra Ridge route."
-    },
-    {
-      q: "Is Khopra Ridge safe for solo trekkers?",
-      a: "It's reasonably safe with a guide and proper preparation, but the trail's remoteness means navigation errors or injuries can go unnoticed for longer than on busier routes. Trek insurance and sharing your itinerary with contacts at home are strongly recommended."
-    },
-    {
-      q: "How difficult is the Khopra Ridge trek?",
-      a: "It's a moderate to challenging trek. Expect long daily walking hours on uneven terrain and a high point of 3,660 meters (rising to 4,660m if you add the Khayer Lake side-trip). Some prior hiking experience is highly recommended."
-    },
-    {
-      q: "Is Khopra Ridge suitable for beginners?",
-      a: "It can work for fit first-timers traveling with an experienced guide. However, those with zero trekking experience may find a lower-altitude, busier route like Poon Hill an easier starting point."
-    },
-    {
-      q: "How many days do I need for the Khopra Ridge trek?",
-      a: "A standard itinerary runs 7 to 9 days, while 10 to 11 days are highly recommended if you are adding the high-altitude Khayer Lake extension."
-    },
-    {
-      q: "What permits are required for the Khopra Ridge trek?",
-      a: "You will need an ACAP entry permit and a TIMS card, both of which can be arranged on your behalf by a registered local trekking agency in Pokhara."
-    },
-    {
-      q: "How much does a solo Khopra Ridge trek cost?",
-      a: "Permits, a guide's daily rate ($25 to $35/day), and lodge food and lodging are the main expenses. Lodge meal prices increase at higher elevations since everything is carried up by porters."
-    },
-    {
-      q: "Is Khayer Lake worth adding to the trek?",
-      a: "Yes, for most trekkers. The sacred lake provides dramatic, close-up mountain scenery. However, because it climbs to 4,660m, it adds altitude risk and requires one to two extra days."
-    },
-    {
-      q: "Is internet available on the Khopra Ridge trail?",
-      a: "Mobile coverage is highly unreliable past the larger villages, and Wi-Fi at the community lodges is inconsistent. Plan to be mostly offline once you pass Ghandruk."
-    },
-    {
-      q: "What is the best season for a solo Khopra Ridge trek?",
-      a: "Autumn (September to November) and Spring (March to May) are the most reliable windows for clear weather and stable trail conditions, with autumn being the busier of the two."
-    }
+  const itinerary9Day = [
+    { day: "Day 1", route: "Pokhara to Ghandruk" },
+    { day: "Day 2", route: "Ghandruk — Acclimatization and village exploration" },
+    { day: "Day 3", route: "Ghandruk to Tadapani" },
+    { day: "Day 4", route: "Tadapani to Dobato" },
+    { day: "Day 5", route: "Dobato to Khopra Ridge" },
+    { day: "Day 6", route: "Khopra Ridge — Rest and views" },
+    { day: "Day 7", route: "Khopra Ridge to Swanta" },
+    { day: "Day 8", route: "Swanta to Ghandruk" },
+    { day: "Day 9", route: "Ghandruk to Pokhara" }
+  ];
+
+  const itinerary11Day = [
+    { day: "Day 1", route: "Pokhara to Ghandruk" },
+    { day: "Day 2", route: "Ghandruk — Acclimatization" },
+    { day: "Day 3", route: "Ghandruk to Tadapani" },
+    { day: "Day 4", route: "Tadapani to Dobato" },
+    { day: "Day 5", route: "Dobato to Khopra Ridge" },
+    { day: "Day 6", route: "Khopra Ridge — Rest and acclimatization" },
+    { day: "Day 7", route: "Khopra Ridge to Khayer Lake (4,500m) & return" },
+    { day: "Day 8", route: "Khopra Ridge to Swanta" },
+    { day: "Day 9", route: "Swanta to Ghandruk" },
+    { day: "Day 10", route: "Ghandruk to Pokhara" }
+  ];
+
+  const transportCosts = [
+    { route: "Kathmandu → Pokhara", option: "Tourist bus", cost: "USD 10–15" },
+    { route: "Kathmandu → Pokhara", option: "Domestic flight", cost: "USD 90–120" },
+    { route: "Pokhara → Ghandruk", option: "Shared jeep", cost: "USD 4–6" },
+    { route: "Pokhara → Ghandruk", option: "Private jeep", cost: "USD 25–40 (split)" },
+    { route: "Ghandruk → Pokhara (return)", option: "Shared jeep", cost: "USD 4–6" }
+  ];
+
+  const budgetDaily = [
+    { type: "Budget independent trekker", cost: "USD 25–35 per day" },
+    { type: "Standard independent trekker", cost: "USD 40–55 per day" },
+    { type: "Trekker with licensed guide", cost: "USD 65–90 per day" }
+  ];
+
+  const monthConditions = [
+    { month: "January", cond: "Cold, snow above 3,000m, very quiet", rec: "Experienced winter trekkers only" },
+    { month: "February", cond: "Cold, improving, rhododendrons beginning", rec: "With preparation — yes" },
+    { month: "March", cond: "Excellent — clear views, rhododendrons blooming", rec: "Highly recommended" },
+    { month: "April", cond: "Very good — warm lower, clear upper", rec: "Highly recommended" },
+    { month: "May", cond: "Pre-monsoon cloud building", rec: "Good early May, caution late May" },
+    { month: "June", cond: "Monsoon begins, wet and slippery", rec: "Not recommended" },
+    { month: "July", cond: "Heavy monsoon, poor visibility", rec: "Not recommended" },
+    { month: "August", cond: "Monsoon continuing", rec: "Not recommended" },
+    { month: "September", cond: "Monsoon clearing, trails green and fresh", rec: "Good from mid-September" },
+    { month: "October", cond: "Prime season — clear skies, perfect conditions", rec: "Highest recommendation" },
+    { month: "November", cond: "Excellent — clear and cool, fewer crowds", rec: "Highly recommended" },
+    { month: "December", cond: "Cooling, early snow possible above 3,500m", rec: "With preparation — yes" }
   ];
 
   return (
     <div className="bg-stone-50 text-stone-900 min-h-screen font-sans antialiased flex flex-col justify-between">
-      {/* HERO BANNER SECTION */}
+      {/* HERO BANNER */}
       <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
         <div className="mx-auto max-w-7xl relative z-10">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">Solo Travel Guide
+          {/* Breadcrumb Navigation */}
+          <div className="mb-6 flex items-center gap-2 text-xs text-stone-400 font-semibold">
+            <Link href="/" className="hover:text-emerald-400 transition-colors">Home</Link>
+            <span>/</span>
+            <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 transition-colors">Planning</Link>
+            <span>/</span>
+            <span className="text-emerald-400">Solo Trekking Guide</span>
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Solo Trekking to Khopra Ridge
-          </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Thinking of hiking the quiet community lodge circuit on your own? Get the facts on safety rules, altitude risks, route details, budgets, and guide requirements before you go.
-          </p>
 
-          {/* Quick Metrics Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 max-w-5xl">
-            {summarySpecs.map((spec, i) => (
-              <div key={i} className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-emerald-500/20 transition-all duration-300">
-                <span className="text-xs text-stone-400 font-bold uppercase tracking-wider block">{spec.label}</span>
-                <span className="text-lg sm:text-xl md:text-2xl font-black text-emerald-400 mt-1 block">{spec.value}</span>
-              </div>
-            ))}
+          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">
+            Independent Trek Planning Guide
           </div>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">
+            Solo Trekking to Khopra Ridge
+          </h1>
+          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">
+            Complete independent trek planning guide. Learn about Nepal&apos;s trekking regulations, route details, safety risks, permit costs, itinerary options, and whether you need a guide.
+          </p>
         </div>
       </section>
 
@@ -96,54 +116,56 @@ export default function Page() {
         {/* STICKY TABLE OF CONTENTS SIDEBAR */}
         <aside className="lg:col-span-1">
           <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
-            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">Table of Contents
+            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">
+              Table of Contents
             </h3>
             <nav className="flex flex-col gap-1 text-sm">
-              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                1. Solo Trekking Guide
+              <a href="#can-you-do-solo" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Can You Trek Solo?
               </a>
-              <a href="#can-you-trek-solo" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                2. Rules &amp; Regulations
+              <a href="#safety-risks" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Safety &amp; Altitude Risks
               </a>
-              <a href="#safety-guide" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                3. Safety &amp; Altitude Risks
-              </a>
-              <a href="#why-khopra-solo" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                4. Why Choose Khopra
+              <a href="#trek-difficulty" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Trek Difficulty &amp; Fitness
               </a>
               <a href="#route-overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                5. Route Overview
+                Route Overview &amp; Villages
               </a>
-              <a href="#itinerary" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                6. Recommended Itineraries
-              </a>
-              <a href="#accommodation-food" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                7. Accommodation &amp; Food
+              <a href="#itineraries" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Recommended Itineraries
               </a>
               <a href="#cost-breakdown" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                8. Solo Trekking Costs
+                Complete Cost Breakdown
+              </a>
+              <a href="#accommodation-food" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Accommodation &amp; Food
               </a>
               <a href="#best-time" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                9. Best Seasons to Hike
+                Best Season for Solo Trekking
               </a>
-              <a href="#female-solo-trekking" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                10. Solo Female Safety
+              <a href="#solo-female" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Solo Female Trekking Advice
               </a>
-              <a href="#independent-vs-guided" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                11. Independent vs. Guided
+              <a href="#independent-vs-guide" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Independent vs Hiring a Guide
               </a>
-              <a href="#checklist" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                12. Planning Checklist
+              <a href="#packing-checklist" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Packing Checklist
+              </a>
+              <a href="#emergency-planning" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
+                Emergency &amp; Rescue Planning
               </a>
               <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                13. Frequently Asked Qs
+                Frequently Asked Qs
               </a>
             </nav>
             <div className="pt-4 border-t border-stone-100">
               <Link 
                 href="/contact"
                 className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
-              >Inquire &amp; Book Tour
+              >
+                Inquire Solo Assistance
               </Link>
             </div>
           </div>
@@ -151,128 +173,230 @@ export default function Page() {
 
         {/* PRIMARY EDITORIAL CONTENT COLUMN */}
         <main className="lg:col-span-3 space-y-16">
-          {/* SECTION 1: OVERVIEW */}
-          <article id="overview" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Solo Trekking to Khopra Ridge: Complete Planning &amp; Safety Guide
+          {/* INTRODUCTION */}
+          <article className="space-y-6">
+            <h2 className="text-3xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Solo Trekking to Khopra Ridge: Complete Independent Trek Planning Guide
             </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p><Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> sits in a quieter corner of the Annapurna region, away from the crowds that fill the Poon Hill and Annapurna Sanctuary trails. That seclusion is exactly why so many independent travelers are drawn to it, and it's also why solo trekking to Khopra Ridge raises more questions than the busier routes do.
-              </p>
-              <p>This guide walks through everything you need to plan the trek with confidence: whether you're legally allowed to go alone, how safe the trail actually is, what the route and itinerary look like day by day, what it costs, where you'll sleep, and how to decide between trekking independently or bringing a local guide. By the end, you'll know exactly what solo trekking on Khopra Ridge involves and whether it fits the kind of trip you want.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 2: CAN YOU TREK SOLO */}
-          <article id="can-you-trek-solo" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Can You Trek Khopra Ridge Alone?
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <h3 className="text-lg font-bold text-stone-900">Is Solo Trekking to Khopra Ridge Allowed?</h3>
-              <p>Yes, but with a condition. The Nepal Tourism Board requires foreign trekkers to hire a licensed guide when entering conservation areas, including the Annapurna Conservation Area (ACAP), which covers the entire Khopra Ridge route. This means "solo" in this context refers to traveling without a group or pre-booked tour, not hiking completely unsupported.
-              </p>
-              <p>Always confirm the current requirement before you fly to Nepal. Check directly with the Nepal Tourism Board or a registered trekking agency in Pokhara, since policy updates don't always make international news right away.
-              </p>
-              <p>It's worth separating two ideas that often get blurred together: independent travel and unsupported trekking. You can still plan your own dates, set your own pace, and skip a pre-packaged group tour while hiring a single local guide to accompany you. That's what most people mean when they search for solo trekking on this route, and it's the realistic version of "solo" that the regulations allow.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Do You Need a Guide for the Khopra Ridge Trek?</h3>
-              <p>Practically speaking, yes — and not only because of the regulation. The Khopra trail gets a fraction of the foot traffic that Poon Hill sees, which means fewer people to ask for directions and longer gaps between teahouses where help might come from.
-              </p>
-              <p>A guide handles three things that matter most to a solo traveler: navigation through unmarked or fading trail sections, communication with lodge owners who may not speak much English, and rescue coordination if something goes wrong. None of these are dealbreakers if you're an experienced trekker, but they remove a significant amount of risk and stress for first-timers.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Is Khopra Ridge Suitable for Solo Travelers?</h3>
-              <p>It suits a specific kind of traveler: someone who wants a genuine mountain experience without the crowds, doesn't need constant cell signal, and is comfortable with basic teahouse accommodation. If you've done at least one multi-day trek before, or you're an active hiker used to long days on uneven terrain, Khopra Ridge is a reasonable solo choice with a guide.
-              </p>
-              <p>If this would be your very first multi-day hike anywhere, or you're not confident with altitude, consider starting on a busier route like Poon Hill before attempting Khopra. The lower trekker volume here means less margin for error if you're still learning how your body handles altitude and long walking days.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 3: SAFETY GUIDE */}
-          <article id="safety-guide" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Is Khopra Ridge Safe for Solo Trekkers?
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <h3 className="text-lg font-bold text-stone-900">Trail Conditions and Navigation Challenges</h3>
-              <p>The trail alternates between well-trodden sections near villages and quieter forested stretches, particularly between Ghandruk and Bayeli Kharka, where signage thins out and trails can fork without clear markers. Rain or mist can also obscure paths that are normally easy to follow.
-              </p>
-              <p>Carrying a downloaded offline map (Maps.me or a similar GPS app) is a smart backup even if you're trekking with a guide. Cell service disappears for long stretches once you're past the larger villages, so don't count on real-time lookups when you need them most.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Altitude Risks on the Khopra Ridge Route</h3>
-              <p>Khopra Ridge sits at roughly 3,660 meters, and the optional side trip to Khayer Lake climbs to around 4,660 meters. Both elevations are high enough that altitude sickness is a real possibility, especially if you ascend too quickly or skip acclimatization days.
-              </p>
-              <p>Watch for headaches, nausea, dizziness, or unusual fatigue, and don't push through them. The standard response is to stop ascending, rest, hydrate, and descend if symptoms worsen — a guide who's familiar with the terrain will know how to pace the climb and recognize early warning signs you might miss on your own.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Emergency Planning for Independent Trekkers</h3>
-              <p>This is the part solo trekkers underestimate most. If you're hiking alone on the quieter sections and injure yourself, it could be hours before another trekker passes by, and there's no guarantee of cell signal to call for help.
-              </p>
-              <p>Before you go, arrange trek insurance that explicitly covers high-altitude trekking and helicopter evacuation — standard travel insurance often excludes this. Share your daily itinerary with someone back home, and if you do hire a guide, they'll typically have a working relationship with local rescue contacts that can cut response time significantly.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 4: WHY CHOOSE KHOPRA */}
-          <article id="why-khopra-solo" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Why Khopra Ridge Is a Great Solo Trek in Nepal
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <h3 className="text-lg font-bold text-stone-900">A Peaceful Alternative to Crowded Annapurna Routes</h3>
-              <p>If you've read about how packed Poon Hill or the Annapurna Sanctuary can get during peak season, Khopra offers the opposite experience. You'll pass through long quiet stretches of forest and ridgeline with only the occasional other trekker, which is part of why it's gained a reputation as one of the better hidden-gem treks in the region.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Community Lodge Experience</h3>
-              <p>One of the most distinctive parts of this trek is the lodge system itself. <Link href="/planning/community-lodges-khopra-trek" className="text-emerald-700 font-bold hover:underline">Community lodges</Link>along the route are run cooperatively, and the dining halls — usually warmed by a wood-fired stove in the evening — become a natural gathering spot where trekkers, porters, and guides share food and stories after a long day.
-              </p>
-              <p>For a solo traveler, this setup solves the isolation problem that independent trekking can otherwise create. You're rarely eating alone unless you want to be, and the shared spaces make it easy to swap trail notes with people heading the same direction.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Mountain Views and Cultural Experience</h3>
-              <p>The route delivers close-up views of Annapurna South, Dhaulagiri, and Nilgiri, with the ridge itself offering some of the widest unobstructed panoramas in the region. Along the way, the trail passes through villages with strong Magar cultural roots, giving the trek a layer of local texture that busier, more commercialized routes have lost.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 5: ROUTE OVERVIEW */}
-          <article id="route-overview" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Trekking Route Overview
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
+            <div className="space-y-4 text-stone-600 leading-relaxed text-sm">
               <p>
-                <strong>Starting Points and Access Routes:</strong>Most solo trekkers begin from Pokhara, taking a local jeep or bus to Ghandruk or a nearby trailhead village. From Ghandruk, the route climbs gradually through forested terrain before reaching the more exposed ridge sections higher up.
+                Solo trekking to Khopra Ridge is one of the most rewarding decisions you can make as an independent traveler in Nepal. The route leads through traditional Gurung villages, ancient rhododendron forests, and high alpine ridges with unobstructed views of Annapurna South, Dhaulagiri, and Machhapuchhre — all on a trail that sees a fraction of the foot traffic compared to Poon Hill or Annapurna Base Camp.
               </p>
               <p>
-                <strong>Main Villages and Stops Along the Trail:</strong>The typical progression moves through Ghandruk, Tadapani, and Bayeli Kharka before continuing on toward Chhistibung and the ridge itself, with Swanta often used as a base village on the return leg. Each stop has at least one community lodge offering meals and a bed, though options thin out the higher you climb.
+                But before you pack your bag and head for Pokhara, you need clear answers to the questions that matter most. Can you legally trek Khopra Ridge alone? Do you need a licensed guide? Is the route safe for independent travel? How much will the full trek cost?
               </p>
               <p>
-                <strong>Khayer Lake Extension:</strong>Many trekkers add a side trip to <Link href="/planning/khayer-lake-route-guide" className="text-emerald-700 font-bold hover:underline">Khayer Lake</Link>, a sacred high-altitude lake that sits well above Khopra Ridge. It's worth the detour for the scenery, but the added altitude gain means it should only be attempted after you've acclimatized properly, and it typically adds one to two extra days to your itinerary.
+                This guide answers all of it. We have organized this page specifically for travelers who are planning to do this trek independently — covering current regulations, safety realities, route details, costs, seasonal conditions, and the practical information that generic trekking blogs leave out.
               </p>
             </div>
           </article>
 
-          {/* SECTION 6: ITINERARY */}
-          <article id="itinerary" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Recommended Khopra Ridge Itineraries
+          {/* SECTION: CAN YOU DO SOLO */}
+          <article id="can-you-do-solo" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Can You Do Solo Trekking to Khopra Ridge?
             </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">Compare durations, fitness levels, and focal points for solo routes:
-            </p>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                <strong>Is Solo Trekking Allowed in Nepal?</strong> Solo trekking in Nepal is permitted on most open routes, including the Khopra Ridge circuit. However, Nepal&apos;s trekking regulations shift periodically. Check current guidelines with the Nepal Tourism Board or a licensed local operator before departure.
+              </p>
+              <p>
+                <strong>Do You Need a Licensed Guide for the Khopra Ridge Trek?</strong> Khopra Ridge does not fall under strict restricted area permit zones (like Upper Mustang). Independent trekkers with valid <Link href="/planning/acap-permit-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-600">ACAP</Link> and <Link href="/planning/tims-card-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-600">TIMS</Link> permits can access the trail. However, many solo hikers choose to hire a local guide from Ghandruk or Tadapani for the less-marked upper sections between Dobato and Khopra Ridge.
+              </p>
+              <p>
+                <strong>What &quot;Solo Trekking&quot; Means on This Route:</strong> On Khopra Ridge, solo trekking means self-guided teahouse trekking — sleeping in community lodges each night, buying meals, and carrying a light daypack rather than carrying camping gear and cooking equipment.
+              </p>
+            </div>
+          </article>
 
-            {/* Itinerary Comparison Table */}
-            <div className="bg-white border border-stone-200 rounded-3xl overflow-hidden shadow-sm">
-              <div className="overflow-x-auto">
-                <table className="w-full text-left text-xs border-collapse">
+          {/* SECTION: SAFETY RISKS */}
+          <article id="safety-risks" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Is Khopra Ridge Safe for Solo Trekkers?
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                <strong>Trail Safety &amp; Navigation:</strong> Lower sections from Pokhara to Ghandruk and Tadapani are well-marked. Past Tadapani toward Dobato and Khopra Danda, trail markers become sparse and foot traffic drops. Downloading offline maps (Maps.me or Gaia GPS) in Pokhara is mandatory.
+              </p>
+              <p>
+                <strong>Altitude Risks &amp; AMS:</strong> Khopra Ridge sits at 3,660 metres and Khayer Lake sits at 4,500 metres. Acute Mountain Sickness (AMS) can affect unacclimatized hikers. Follow proper pacing and never ascend with symptoms.
+              </p>
+              <p>
+                <strong>Emergency Rescue &amp; Evacuation:</strong> Ground evacuations are slow in remote areas. Helicopter evacuation costs USD 1,500–3,000. <strong>Comprehensive travel insurance covering high-altitude trekking above 4,000m and helicopter rescue is essential.</strong>
+              </p>
+              <p>
+                <strong>Mobile Network Coverage:</strong> Signal (NTC / Ncell) becomes weak or nonexistent past Dobato. Community lodge Wi-Fi is unreliable. Bring a fully charged power bank.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION: TREK DIFFICULTY */}
+          <article id="trek-difficulty" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              How Difficult Is the Khopra Ridge Trek?
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                Khopra Ridge is rated as a moderate to challenging trek requiring 5 to 8 hours of daily hiking over an 80 to 100 km loop.
+              </p>
+
+              {/* Table: Elevation Gain */}
+              <div className="overflow-x-auto border border-stone-200 rounded-3xl bg-white shadow-sm my-6">
+                <table className="w-full text-left border-collapse text-xs">
                   <thead>
-                    <tr className="bg-stone-100 text-stone-700 uppercase font-black tracking-wider border-b border-stone-200">
-                      <th className="p-4">Itinerary Option</th>
-                      <th className="p-4">Duration</th>
-                      <th className="p-4">Daily Focus &amp; Plan</th>
-                      <th className="p-4">Required Fitness</th>
+                    <tr className="border-b border-stone-200 bg-stone-50 text-stone-400 font-bold uppercase tracking-wider">
+                      <th className="px-6 py-4">Day</th>
+                      <th className="px-6 py-4">Route Segment</th>
+                      <th className="px-6 py-4">Start Elevation</th>
+                      <th className="px-6 py-4">End Elevation</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-stone-100 font-medium text-stone-600">
-                    {itineraries.map((itinerary, idx) => (
-                      <tr key={idx} className="hover:bg-stone-50/50 transition">
-                        <td className="p-4 font-bold text-stone-900">{itinerary.name}</td>
-                        <td className="p-4 text-xs font-bold text-emerald-600">{itinerary.duration}</td>
-                        <td className="p-4 text-xs text-stone-500">{itinerary.focus}</td>
-                        <td className="p-4 text-xs text-stone-500 leading-relaxed">{itinerary.fitness}</td>
+                  <tbody className="divide-y divide-stone-100 text-stone-600">
+                    {elevationGain.map((row, idx) => (
+                      <tr key={idx} className="hover:bg-stone-50/50">
+                        <td className="px-6 py-4 font-bold text-stone-900">{row.day}</td>
+                        <td className="px-6 py-4 text-stone-700 font-medium">{row.segment}</td>
+                        <td className="px-6 py-4 text-stone-600">{row.start}</td>
+                        <td className="px-6 py-4 font-semibold text-emerald-600">{row.end}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="text-xs text-stone-500 italic">
+                Note: Elevations are approximate. Actual conditions vary by specific trail variant chosen.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION: ROUTE OVERVIEW */}
+          <article id="route-overview" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Complete Khopra Ridge Trekking Route Overview
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                <strong>Kathmandu to Pokhara:</strong> Take a tourist bus (6–7 hrs, $10–$15 USD) or domestic flight (25 mins, $90–$120 USD).
+              </p>
+              <p>
+                <strong>Pokhara to Ghandruk:</strong> <Link href="/planning/pokhara-to-ghandruk" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Pokhara to Ghandruk transport</Link> via shared jeep ($4–$6 USD) or private jeep ($25–$40 USD split).
+              </p>
+              <p>
+                <strong>Village Breakdown:</strong> Ghandruk (1,940m) &rarr; Tadapani (2,630m) &rarr; Bayeli Kharka (3,100m) &rarr; Chhistibung (3,380m) &rarr; Dobato (3,360m) &rarr; Khopra Ridge (3,660m) &rarr; Swanta (2,200m).
+              </p>
+              <p>
+                <strong>Optional Khayer Lake Side Trip (4,500m):</strong> High-altitude glacial lake excursion adding 1–2 days. Requires strong fitness and zero AMS symptoms.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION: ITINERARIES */}
+          <article id="itineraries" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Recommended Khopra Trek Itineraries for Solo Travelers
+            </h2>
+            <div className="space-y-6">
+              {/* 7-Day Itinerary */}
+              <div>
+                <h3 className="text-base font-bold text-stone-900 mb-2">1. 7-Day Fast Itinerary (Experienced Hikers)</h3>
+                <div className="overflow-x-auto border border-stone-200 rounded-3xl bg-white shadow-sm">
+                  <table className="w-full text-left border-collapse text-xs">
+                    <thead>
+                      <tr className="border-b border-stone-200 bg-stone-50 text-stone-400 font-bold uppercase tracking-wider">
+                        <th className="px-6 py-4">Day</th>
+                        <th className="px-6 py-4">Route Segment</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-stone-100 text-stone-600">
+                      {itinerary7Day.map((row, idx) => (
+                        <tr key={idx} className="hover:bg-stone-50/50">
+                          <td className="px-6 py-4 font-bold text-stone-900">{row.day}</td>
+                          <td className="px-6 py-4 text-stone-700">{row.route}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              {/* 9-Day Itinerary */}
+              <div>
+                <h3 className="text-base font-bold text-stone-900 mb-2">2. 9-Day Standard Itinerary (Recommended for Most Solo Hikers)</h3>
+                <div className="overflow-x-auto border border-stone-200 rounded-3xl bg-white shadow-sm">
+                  <table className="w-full text-left border-collapse text-xs">
+                    <thead>
+                      <tr className="border-b border-stone-200 bg-stone-50 text-stone-400 font-bold uppercase tracking-wider">
+                        <th className="px-6 py-4">Day</th>
+                        <th className="px-6 py-4">Route Segment</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-stone-100 text-stone-600">
+                      {itinerary9Day.map((row, idx) => (
+                        <tr key={idx} className="hover:bg-stone-50/50">
+                          <td className="px-6 py-4 font-bold text-stone-900">{row.day}</td>
+                          <td className="px-6 py-4 text-stone-700">{row.route}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              {/* 10-11 Day Itinerary */}
+              <div>
+                <h3 className="text-base font-bold text-stone-900 mb-2">3. 10–11 Day Extended Khayer Lake Itinerary</h3>
+                <div className="overflow-x-auto border border-stone-200 rounded-3xl bg-white shadow-sm">
+                  <table className="w-full text-left border-collapse text-xs">
+                    <thead>
+                      <tr className="border-b border-stone-200 bg-stone-50 text-stone-400 font-bold uppercase tracking-wider">
+                        <th className="px-6 py-4">Day</th>
+                        <th className="px-6 py-4">Route Segment</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-stone-100 text-stone-600">
+                      {itinerary11Day.map((row, idx) => (
+                        <tr key={idx} className="hover:bg-stone-50/50">
+                          <td className="px-6 py-4 font-bold text-stone-900">{row.day}</td>
+                          <td className="px-6 py-4 text-stone-700">{row.route}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          {/* SECTION: COST BREAKDOWN */}
+          <article id="cost-breakdown" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Complete Khopra Ridge Trek Cost Breakdown
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                <strong>Required Permits:</strong> ACAP Permit (NPR 3,000 / ~$25 USD) + TIMS Card (NPR 2,000 / ~$15 USD).
+              </p>
+              <p>
+                <strong>Accommodation &amp; Meals:</strong> Lodge rooms cost NPR 300–600 ($2–$5 USD) per night. Daily meals cost NPR 1,500–2,500 ($11–$19 USD).
+              </p>
+              <p>
+                <strong>Optional Staff Hire:</strong> Licensed Guide ($25–$35/day), Porter ($18–$25/day), or Guide-Porter ($22–$28/day).
+              </p>
+              
+              {/* Daily Budget Table */}
+              <div className="overflow-x-auto border border-stone-200 rounded-3xl bg-white shadow-sm my-6">
+                <table className="w-full text-left border-collapse text-xs">
+                  <thead>
+                    <tr className="border-b border-stone-200 bg-stone-50 text-stone-400 font-bold uppercase tracking-wider">
+                      <th className="px-6 py-4">Traveler Type</th>
+                      <th className="px-6 py-4">Estimated Daily Cost</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-stone-100 text-stone-600">
+                    {budgetDaily.map((row, idx) => (
+                      <tr key={idx} className="hover:bg-stone-50/50">
+                        <td className="px-6 py-4 font-bold text-stone-900">{row.type}</td>
+                        <td className="px-6 py-4 font-semibold text-emerald-600">{row.cost}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -281,128 +405,161 @@ export default function Page() {
             </div>
           </article>
 
-          {/* SECTION 7: ACCOMMODATION & FOOD */}
+          {/* SECTION: ACCOMMODATION & FOOD */}
           <article id="accommodation-food" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Accommodation and Food for Solo Trekkers
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Accommodation and Food on the Khopra Trail
             </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <h3 className="text-lg font-bold text-stone-900">Staying in Community Lodges</h3>
-              <p>Lodges along the Khopra route are simple but functional: a basic room, shared bathroom facilities in most cases, and a communal dining hall that doubles as the social hub of the evening. Don't expect hotel-level comfort — this is teahouse trekking in its more rustic form, closer to the experience on lesser-known Himalayan routes than to the increasingly upgraded lodges on Everest Base Camp.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Are Single Rooms Available?</h3>
-              <p>This is where solo travelers run into a real logistical issue. During peak seasons (October–November and March–April), lodges prioritize twin-sharing rooms because demand outstrips their limited capacity, and a private single room isn't guaranteed. You may occasionally be asked to share a room with another trekker of the same gender if the lodge is full — it's a reasonable trade-off for staying on schedule.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">What Food Should You Expect?</h3>
-              <p>Lodge menus are fairly consistent across the route: dal bhat, fried noodles, soup, and basic egg dishes make up most options, with prices increasing slightly the higher you climb due to portering costs. It's filling, carb-heavy food designed to fuel long walking days. Pack a few snack bars from Pokhara if you want variety.
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                Community-run lodges provide basic twin rooms, dining halls with wood stoves, Dal Bhat, noodle soups, eggs, and hot drinks. Solar charging (NPR 100–200/device) and Wi-Fi are available at most lodges. Arrive early afternoon during peak months to secure private rooms at Dobato and Khopra Danda.
               </p>
             </div>
           </article>
 
-          {/* SECTION 8: COST BREAKDOWN */}
-          <article id="cost-breakdown" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Trek Cost for Solo Travelers
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                <strong>Main Trekking Expenses:</strong>Your core costs break down into the ACAP entry permit, TIMS card, lodge accommodation (often a few hundred rupees a night, sometimes free if you eat dinner there), and meals, which run higher than in the cities given everything is carried in by porter. Budget more per day as you climb.
-              </p>
-              <p>
-                <strong>Guide and Porter Costs:</strong>A licensed guide typically costs a daily rate ($25 to $35/day) that covers their food and lodging. A porter adds a separate daily fee if you want one to carry your main pack. Solo trekkers without a group to split these costs sometimes find that hiring a guide-porter combo is the more economical route.
-              </p>
-              <p>
-                <strong>Budget vs. Comfortable Trek Options:</strong>A bare-bones backpacker approach (shared rooms, basic meals, no porter) keeps costs as low as the trail allows, while a more comfortable setup with a private room when available, a porter, and slightly better food adds noticeably to the daily total.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 9: BEST TIME */}
+          {/* SECTION: BEST TIME */}
           <article id="best-time" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Best Time for Solo Trekking to Khopra Ridge
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Best Time for Solo Trekking to Khopra Ridge
             </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <ul className="space-y-3 text-xs text-stone-500">
-                <li>
-                   <strong>Spring Season (March–May):</strong>Warm temperatures, blooming rhododendrons on the hills, and clear visibility.
-                </li>
-                <li>
-                   <strong>Autumn Season (September–November):</strong>The most popular season. Clear skies, Dhaulagiri stands sharp against the blue, and temperature ranges are comfortable. Lodge capacity gets tightest.
-                </li>
-                <li>
-                   <strong>Winter and Monsoon Considerations:</strong>Winter brings freezing nights and possible snow at higher elevations, which can close sections of the trail or make the Khayer Lake extension unsafe. Monsoon season (June–August) adds leeches, slippery trail conditions, and obscured mountain views.
-                </li>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                <strong>Autumn (October–November):</strong> Peak season with crystal-clear mountain visibility.
+              </p>
+              <p>
+                <strong>Spring (March–May):</strong> Rhododendron blooms and mild temperatures.
+              </p>
+
+              {/* Month by Month Table */}
+              <div className="overflow-x-auto border border-stone-200 rounded-3xl bg-white shadow-sm my-6">
+                <table className="w-full text-left border-collapse text-xs">
+                  <thead>
+                    <tr className="border-b border-stone-200 bg-stone-50 text-stone-400 font-bold uppercase tracking-wider">
+                      <th className="px-6 py-4">Month</th>
+                      <th className="px-6 py-4">Conditions</th>
+                      <th className="px-6 py-4">Recommendation</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-stone-100 text-stone-600">
+                    {monthConditions.map((row, idx) => (
+                      <tr key={idx} className="hover:bg-stone-50/50">
+                        <td className="px-6 py-4 font-bold text-stone-900">{row.month}</td>
+                        <td className="px-6 py-4 text-stone-700">{row.cond}</td>
+                        <td className="px-6 py-4 font-semibold text-emerald-600">{row.rec}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </article>
+
+          {/* SECTION: SOLO FEMALE */}
+          <article id="solo-female" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Solo Female Trekking on Khopra Ridge
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                Khopra Ridge is safe for solo female trekkers. Local Gurung and Magar villages are welcoming and respectful. Practical tips: dress modestly (covering shoulders/knees in villages), share your daily itinerary with guesthouse hosts, and consider hiking upper sections with fellow travelers or a local guide.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION: INDEPENDENT VS GUIDE */}
+          <article id="independent-vs-guide" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Independent Trek vs Hiring a Local Guide
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <p>
+                <strong>Independent Trek:</strong> Full flexibility, lower cost, rewarding self-reliance. Recommended for experienced alpine hikers.
+              </p>
+              <p>
+                <strong>Hiring a Guide:</strong> Navigation ease, cultural insight, emergency radio dispatch, and seamless lodge bookings. Recommended for first-time high-altitude trekkers.
+              </p>
+            </div>
+          </article>
+
+          {/* SECTION: PACKING CHECKLIST */}
+          <article id="packing-checklist" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Essential Packing Checklist for Solo Trekkers
+            </h2>
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
+              <ul className="list-disc pl-5 space-y-2 text-stone-600">
+                <li><strong>Clothing:</strong> Thermal base layers, mid-fleece/down jacket, waterproof shell, warm hat &amp; gloves, trekking boots, wool socks.</li>
+                <li><strong>Gear:</strong> 40–50L backpack, trekking poles, headlamp, sleeping bag liner.</li>
+                <li><strong>Health:</strong> First aid kit, Diamox, water purification tablets/SteriPen, sunscreen SPF 50+.</li>
+                <li><strong>Electronics:</strong> Power bank (10,000mAh+), downloaded Maps.me offline maps.</li>
               </ul>
             </div>
           </article>
 
-          {/* SECTION 10: FEMALE SOLO TREKKING */}
-          <article id="female-solo-trekking" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Solo Female Trekking on Khopra Ridge
+          {/* SECTION: EMERGENCY PLANNING */}
+          <article id="emergency-planning" className="scroll-mt-12 space-y-6">
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Emergency Planning and Safety Preparation
             </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
+            <div className="space-y-4 text-sm text-stone-600 leading-relaxed">
               <p>
-                <strong>Is Khopra Ridge Safe for Female Solo Travelers?</strong>Generally, yes. Nepal's trekking regions see relatively few safety incidents involving foreign trekkers, and the community lodge culture means you're rarely isolated for long. That said, the remoteness of certain trail sections is the same risk for everyone, regardless of gender.
-              </p>
-              <p>
-                <strong>Practical Advice for Women Trekking Alone:</strong>Hiring a guide adds a layer of comfort here too, both for safety and for navigating any cultural questions that come up in smaller villages. Dressing modestly, particularly in village areas, tends to smooth over small cultural friction points.
+                Prevent AMS by ascending slowly. If symptoms appear (headache, nausea), descend immediately. Ensure your travel insurance covers helicopter rescue above 4,000m. In case of emergency, notify lodge hosts to contact rescue dispatch.
               </p>
             </div>
           </article>
 
-          {/* SECTION 11: INDEPENDENT VS GUIDED */}
-          <article id="independent-vs-guided" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Independent Trek vs Guided Khopra Ridge Trek
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                <strong>Benefits of Trekking Independently:</strong>Going independent gives you control over your daily pace, the freedom to linger at a viewpoint or cut a day short, and generally lower costs since you're not paying for a packaged itinerary with fixed logistics.
-              </p>
-              <p>
-                <strong>Benefits of Hiring a Local Guide:</strong>A guide brings safety, navigation, and a cultural bridge to villages where English isn't widely spoken. They also tend to know which lodges have space during peak season, which solves the single-room problem better than showing up and hoping.
-              </p>
-              <p>
-                <strong>Which Option Is Best for You?</strong>If you're an experienced high-altitude trekker comfortable with self-navigation and want maximum flexibility, lean independent with a guide only for the required sections. If this is your first time trekking in Nepal, you're trekking outside peak shoulder seasons, or you simply want fewer logistics to manage, a fully guided solo arrangement removes the guesswork.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 12: CHECKLIST */}
-          <article id="checklist" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Essential Solo Trek Planning Checklist
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <h3 className="text-lg font-bold text-stone-900">Documents and Permits</h3>
-              <ul className="list-disc pl-5 space-y-1 text-xs text-stone-500">
-                <li>ACAP entry permit</li>
-                <li>TIMS card</li>
-                <li>Passport and visa copies</li>
-                <li>Travel/trek insurance with high-altitude and helicopter evacuation coverage</li>
-              </ul>
-              <h3 className="text-lg font-bold text-stone-900">Gear and Packing Essentials</h3>
-              <ul className="list-disc pl-5 space-y-1 text-xs text-stone-500">
-                <li>Offline GPS map app downloaded before you leave Pokhara</li>
-                <li>Layered clothing for temperature swings between forest and ridge sections</li>
-                <li>A basic first-aid kit and any personal medication</li>
-                <li>A portable charger, since outlets and charging stations become less reliable above the larger villages</li>
-              </ul>
-              <h3 className="text-lg font-bold text-stone-900">Final Before-Departure Checklist</h3>
-              <ul className="list-disc pl-5 space-y-1 text-xs text-stone-500">
-                <li>Confirm current solo trekking and guide regulations with a registered agency</li>
-                <li>Check the weather forecast for your trekking window</li>
-                <li>Share your day-by-day route and expected check-in times with contacts at home</li>
-                <li>Book ahead during October–November and March–April if you want a shot at a private room</li>
-              </ul>
-            </div>
-          </article>
-
-          {/* SECTION 13: FAQS */}
+          {/* SECTION: FAQS */}
           <article id="faq" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Frequently Asked Questions About Solo Trekking to Khopra Ridge
+            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">
+              Frequently Asked Questions About Solo Trekking to Khopra Ridge
             </h2>
+
             <div className="space-y-4 mt-6">
-              {faqItems.map((faq, idx) => (
+              {[
+                {
+                  q: "Can I trek Khopra Ridge without a guide?",
+                  a: "Yes, independent trekking with valid ACAP and TIMS permits is allowed. However, hiring a local guide from Ghandruk is recommended for the remote upper sections."
+                },
+                {
+                  q: "Is solo trekking legal in Nepal right now?",
+                  a: "Solo trekking remains legal on open routes in the Annapurna Conservation Area. Always verify current rules before travel."
+                },
+                {
+                  q: "How difficult is the Khopra Ridge trek?",
+                  a: "Rated moderate to challenging, with 5–8 hours of daily hiking over an 80–100 km circuit up to 3,660m (4,500m for Khayer Lake)."
+                },
+                {
+                  q: "How much does the Khopra Ridge trek cost?",
+                  a: "Budget $25 to $55 per day for lodges and meals. Permits cost approx. $37 to $40 total."
+                },
+                {
+                  q: "How many days do I need for the Khopra Ridge trek?",
+                  a: "7 days minimum for a fast itinerary, 9 days standard, or 10–11 days to include Khayer Lake."
+                },
+                {
+                  q: "Is altitude sickness common on Khopra Ridge?",
+                  a: "AMS is a risk above 3,000m, particularly on the 4,500m Khayer Lake day trip. Follow proper acclimatization."
+                },
+                {
+                  q: "Is Khopra Ridge safe for solo female travelers?",
+                  a: "Yes. Local Gurung/Magar communities are welcoming and safe. Standard sensible travel precautions apply."
+                },
+                {
+                  q: "What permits do I need for the Khopra trek?",
+                  a: "An ACAP Permit ($25 USD) and TIMS Card ($15 USD), available in Pokhara or Kathmandu."
+                },
+                {
+                  q: "Is Khayer Lake worth visiting?",
+                  a: "Yes! Sacred glacial Khayer Lake (4,500m) offers stunning high-altitude views for fit, acclimatized trekkers."
+                },
+                {
+                  q: "What is the best season for Khopra Ridge trek?",
+                  a: "October–November (autumn) for crystal-clear skies, and March–April (spring) for blooming rhododendrons."
+                }
+              ].map((faq, idx) => (
                 <details 
                   key={idx} 
-                  className="group bg-white border border-stone-200 rounded-2xl p-5 [&_summary::-webkit-details-marker]:hidden cursor-pointer select-none transition-all duration-200 hover:border-emerald-500/30"
+                  className="group bg-white border border-stone-200 rounded-3xl p-6 [&_summary::-webkit-details-marker]:hidden cursor-pointer select-none transition-all duration-200 hover:border-emerald-500/30"
                 >
                   <summary className="flex items-center justify-between font-bold text-stone-900 text-sm sm:text-base list-none">
                     <span>{faq.q}</span>
@@ -418,40 +575,49 @@ export default function Page() {
             </div>
           </article>
 
-          {/* CONCLUSION */}
+          {/* SECTION: CONCLUSION */}
           <article className="space-y-6">
-            <h2 className="text-2xl font-bold text-stone-955 font-sans">Conclusion</h2>
-            <p className="text-stone-600 leading-relaxed text-sm">Solo trekking to Khopra Ridge is realistic and rewarding for travelers who go in prepared: a licensed guide to meet the regulatory requirement and add a real safety margin, a realistic itinerary that accounts for altitude, and a clear understanding of what the community lodge system can and can't offer a solo traveler. The trail's quiet remoteness is exactly what makes it special, but that same remoteness is why planning matters more here than on Nepal's busier circuits.
+            <h2 className="text-2xl font-bold text-stone-955">Conclusion</h2>
+            <p className="text-stone-600 leading-relaxed text-sm">
+              Solo trekking to Khopra Ridge is genuinely achievable for prepared travelers. It offers quiet trails, authentic Gurung &amp; Magar hospitality, and world-class Himalayan panoramas. Prepare thoroughly, respect altitude, carry insurance, and enjoy the journey!
             </p>
           </article>
 
-          {/* CTA SECTION */}
+          {/* SECTION: CTA */}
           <section className="bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white rounded-3xl p-8 shadow-md border border-stone-800 relative overflow-hidden">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
-              <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Plan Your Solo Khopra Ridge Trek</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">If you'd rather not piece together permits, guide arrangements, and lodge bookings on your own, we coordinate solo traveler departures on Khopra Ridge every season — handling the paperwork, pairing you with a licensed local guide, and securing your lodge space even during the busiest months.
+              <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">
+                Plan Your Khopra Ridge Trek With Local Experts
+              </h3>
+              <p className="text-stone-300 text-sm leading-relaxed">
+                We are a licensed Nepal trekking operator based in Pokhara (Nepal Tourism Operator License #8928-091). Whether you need permit logistics, jeep transfers, or a licensed local guide for your solo trek, our team is ready to help.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
                   href="/contact"
                   className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
-                >Inquire Now &rarr;
+                >
+                  Contact Us to Plan Your Trek &rarr;
                 </Link>
               </div>
 
               {/* Continue Planning Links */}
               <div className="pt-6 border-t border-white/10 space-y-3">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Tour:</h4>
+                <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
                 <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
-                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check trekking permit requirements (ACAP &amp; TIMS)
+                  <Link href="/planning/acap-permit-guide" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
+                    Check complete ACAP permit requirements
                   </Link>
-                  <Link href="/planning/pokhara-to-ghandruk" className="hover:text-emerald-400 flex items-center gap-1.5 transition">View Pokhara to Ghandruk Transportation Guide
+                  <Link href="/planning/tims-card-guide" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
+                    Read the complete TIMS card guide
                   </Link>
-                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Get the interactive packing checklist for your gear
+                  <Link href="/planning/pokhara-to-ghandruk" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
+                    Read the Pokhara to Ghandruk transit guide
                   </Link>
-                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check seasonal weather conditions before you go
+                  <Link href="/planning/jeep-vs-bus-for-khopra-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">
+                    Compare local jeep vs local bus transport
                   </Link>
                 </div>
               </div>
@@ -459,11 +625,12 @@ export default function Page() {
           </section>
 
           {/* EEAT Author Verification Banner */}
-          <div className="p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-            <span className="text-2xl mt-0.5"></span>
+          <div className="p-6 rounded-3xl bg-stone-100 border border-stone-200 flex items-start gap-4">
+            <span className="text-2xl mt-0.5">🏔️</span>
             <div>
-              <h4 className="font-bold text-stone-900 text-sm font-sans">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">Our solo trekking regulations, safety protocols, and teahouse booking rules are updated weekly in coordination with TAAN and ACAP regional park authorities.
+              <h4 className="font-bold text-stone-900 text-sm font-sans font-medium">Reviewed by Trail Experts</h4>
+              <p className="mt-2 text-xs text-stone-600 leading-relaxed">
+                This solo trekking advisory is maintained seasonally by our Pokhara operations team. Licensed Nepal Tourism Operator EMD Treks #8928-091. Pokhara &amp; Swanta, Nepal. Email: <a href="mailto:khopraridge51@gmail.com" className="text-emerald-700 font-semibold hover:underline">khopraridge51@gmail.com</a>.
               </p>
             </div>
           </div>
