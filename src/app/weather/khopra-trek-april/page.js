@@ -2,182 +2,172 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  title: "Khopra Ridge Weather in April: Temperature, Trail Conditions & Trekking Guide",
+  description:
+    "Planning to trek in April? Here's what Khopra Ridge weather really feels like — temperatures, rainfall, rhododendron season, trail conditions, and what to pack.",
   alternates: {
-    canonical: "/weather/khopra-trek-april",
+    canonical: "https://khopraridgetrek.com/weather/khopra-trek-april",
   },
-  title: "Khopra Ridge Weather in April: Temperature & Trek Guide",
-  description: "Planning a Khopra Ridge trek in April? Get accurate day and night temperatures, rainfall, visibility, rhododendron season tips, trail conditions, and a packing checklist.",
+  openGraph: {
+    title: "Khopra Ridge Weather in April: Temperature, Trail Conditions & Trekking Guide",
+    description:
+      "Planning to trek in April? Here's what Khopra Ridge weather really feels like — temperatures, rainfall, rhododendron season, trail conditions, and what to pack.",
+    url: "https://khopraridgetrek.com/weather/khopra-trek-april",
+    type: "article",
+  },
 };
 
-export default function Page() {
-  const summarySpecs = [
-    { label: "Daytime Temperature", value: "10°C to 16°C" },
-    { label: "Nighttime Temperature", value: "-4°C to 2°C" },
-    { label: "Rainy Days Average", value: "2 to 3 Days" },
-    { label: "Morning Sky Clarity", value: "85% Clear Index" }
+export default function KhopraTrekAprilPage() {
+  const quickStats = [
+    { label: "Ridge Daytime Temp", value: "8°C to 14°C (46°F – 57°F)" },
+    { label: "Ridge Nighttime Temp", value: "-4°C to 2°C (25°F – 36°F)" },
+    { label: "Rhododendron Status", value: "Peak Red & Pink Canopy Bloom" },
+    { label: "Rainfall Profile", value: "Moderate Afternoon Showers (2-3 Days)" },
   ];
 
-  const altitudeConditions = [
-    { zone: "Lower villages (Ghandruk area)", conditions: "Warm, spring-like, minimal wind exposure." },
-    { zone: "Mid-altitude forest (Tadapani, Swanta)", conditions: "Mild, humid, covered under a dense, blooming rhododendron canopy." },
-    { zone: "Khopra Ridge / Khopra Danda", conditions: "Cold mornings and evenings, high wind exposure, open panoramic sky." }
+  const elevTemps = [
+    { location: "Ghandruk & Lower Valleys", elev: "1,940 m", day: "14°C – 18°C", night: "5°C – 8°C", trail: "Warm, spring-like, dry" },
+    { location: "Tadapani Forests", elev: "2,630 m", day: "12°C – 15°C", night: "2°C – 5°C", trail: "Dense blooming rhododendron canopy" },
+    { location: "Chhistibung", elev: "2,900 m", day: "9°C – 13°C", night: "0°C – 3°C", trail: "Cool alpine forest, dry footing" },
+    { location: "Bayeli Kharka", elev: "3,410 m", day: "7°C – 11°C", night: "-2°C – 1°C", trail: "Open meadows, cool breeze" },
+    { location: "Khopra Ridge", elev: "3,660 m", day: "6°C – 11°C", night: "-4°C – 2°C", trail: "Exposed ridge, panoramic skies" },
+    { location: "Khayer Lake", elev: "4,660 m", day: "2°C – 7°C", night: "-10°C – -4°C", trail: "Leftover snow patches on high pass" },
   ];
 
-  const comparisons = [
-    { month: "April", strength: "Rhododendron bloom, mild days", bestFor: "Photographers, spring scenery lovers" },
-    { month: "October", strength: "Maximum sky clarity, cooler air", bestFor: "Trekkers prioritizing unobstructed mountain views" }
-  ];
-
-  const packingEssentials = [
+  const faqs = [
     {
-      category: " Clothing & Layering Essentials",
-      items: [
-        "Moisture-wicking base layer for daytime hiking",
-        "Fleece or light insulated mid-layer for cool mornings",
-        "Warm down or synthetic jacket for ridge-level nights",
-        "Windproof outer shell for exposed sections",
-        "Warm hat, insulated gloves, and wool hiking socks"
-      ]
+      q: "Is April a good time for the Khopra Ridge Trek?",
+      a: "Yes. April combines mild daytime temperatures, mostly dry trails, strong morning mountain visibility, and peak rhododendron bloom, making it one of the strongest overall months for this trek.",
     },
     {
-      category: " Sun & Weather Protection",
-      items: [
-        "SPF 50+ sunscreen (essential for high-altitude UV)",
-        "Wide-brimmed sun hat & quality UV sunglasses",
-        "Neck gaiter or buff (for trail dust and wind protection)",
-        "Lightweight packable rain shell (handles short afternoon showers)"
-      ]
+      q: "How cold does Khopra Ridge get in April?",
+      a: "Daytime temperatures are generally comfortable for hiking (8°C–14°C), but nights at Khopra Ridge and Khopra Danda can drop close to or slightly below freezing (-4°C to 2°C).",
     },
     {
-      category: " Photography & Accessories",
-      items: [
-        "Extra memory cards & camera accessories",
-        "Spare camera/phone batteries (cold drains them faster)",
-        "Dust-resistant case/bag to protect gear on the ridge",
-        "Trekking poles & sturdy, broken-in trekking boots"
-      ]
-    }
+      q: "Does it snow on Khopra Ridge in April?",
+      a: "Fresh snowfall is uncommon by April, though leftover snow patches can still appear on shaded or higher sections of the trail, particularly near Khayer Lake.",
+    },
+    {
+      q: "Can you visit Khayer Lake in April?",
+      a: "Yes, Khayer Lake is generally accessible in April, though trekkers should expect colder temperatures and possible leftover snow compared to Khopra Ridge itself.",
+    },
+    {
+      q: "Are rhododendrons in bloom in April?",
+      a: "Yes, April is peak rhododendron season on this route, with forests around Ghandruk and Tadapani showing the fullest red, pink, and white bloom canopy.",
+    },
+    {
+      q: "How many rainy days does Khopra Ridge receive in April?",
+      a: "Rain in April is moderate and usually limited to short afternoon or evening showers rather than sustained rainfall, with mornings typically staying dry and clear.",
+    },
+    {
+      q: "What clothes should I pack for Khopra Ridge in April?",
+      a: "A layering system with a base layer, insulating mid-layer, warm down jacket for ridge nights, waterproof shell, and accessories like gloves and a warm hat covers April's mix.",
+    },
+    {
+      q: "Is April better than October for the Khopra Ridge Trek?",
+      a: "It depends on priorities — October offers more consistent all-day visibility, while April adds peak rhododendron blooms and generally quieter trails.",
+    },
+    {
+      q: "Are teahouses and community lodges crowded in April?",
+      a: "April sees steady trekker traffic and can get busy during peak bloom weeks, so booking lodges and guides in advance through local operators is recommended.",
+    },
+    {
+      q: "Is the Khopra Ridge Trek suitable for beginners in April?",
+      a: "Yes, April's moderate temperatures and mostly dry trail conditions make it one of the more forgiving and approachable months for first-time Himalayan trekkers.",
+    },
   ];
 
   return (
-    <div className="bg-stone-50 text-stone-900 min-h-screen font-sans antialiased flex flex-col justify-between">
-      {/* HERO BANNER SECTION */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
-        <div className="mx-auto max-w-7xl relative z-10">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">Monthly Weather Guide
+    <div className="w-full flex-1 bg-stone-50">
+      {/* Hero Header */}
+      <section className="bg-stone-900 py-16 sm:py-20 text-white border-b border-stone-800">
+        <div className="mx-auto max-w-7xl px-6">
+          <nav className="flex items-center gap-2 text-xs font-semibold text-stone-400 mb-6 uppercase tracking-wider">
+            <Link href="/" className="hover:text-emerald-400 transition">Home</Link>
+            <span>/</span>
+            <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 transition">Weather Hub</Link>
+            <span>/</span>
+            <span className="text-emerald-400">April Weather</span>
+          </nav>
+          <div className="max-w-3xl">
+            <span className="inline-block px-3 py-1 bg-emerald-900/60 text-emerald-300 border border-emerald-700/50 rounded-full text-xs font-bold uppercase tracking-widest mb-4">
+              Peak Spring &amp; Floral Bloom (April)
+            </span>
+            <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl text-white leading-tight">
+              Khopra Ridge Weather in April
+            </h1>
+            <p className="mt-6 text-lg sm:text-xl text-stone-300 font-medium leading-relaxed">
+              Peak rhododendron bloom, mild hiking weather, elevation temperatures, afternoon cloud patterns, and spring packing strategies.
+            </p>
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge Weather in April
-          </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">April is one of the most rewarding months to walk the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge</Link> trail. Enjoy mild daytime hiking temperatures, blooming rhododendron forests, and clear morning panoramas of Dhaulagiri and Annapurna South.
-          </p>
 
-          {/* Quick Metrics Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 max-w-5xl">
-            {summarySpecs.map((spec, i) => (
-              <div key={i} className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-emerald-500/20 transition-all duration-300">
-                <span className="text-xs text-stone-400 font-bold uppercase tracking-wider block">{spec.label}</span>
-                <span className="text-lg sm:text-xl md:text-2xl font-black text-emerald-400 mt-1 block">{spec.value}</span>
+          {/* Quick Metrics */}
+          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            {quickStats.map((stat, idx) => (
+              <div key={idx} className="rounded-xl bg-stone-800/80 border border-stone-700/60 p-4">
+                <span className="text-[10px] font-bold uppercase tracking-widest text-stone-400">{stat.label}</span>
+                <p className="mt-1 text-sm sm:text-base font-extrabold text-stone-100">{stat.value}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* DYNAMIC TWO COLUMN LAYOUT */}
-      <div className="mx-auto max-w-7xl px-6 py-16 grid grid-cols-1 lg:grid-cols-4 gap-12 w-full flex-1">
-        {/* STICKY TABLE OF CONTENTS SIDEBAR */}
-        <aside className="lg:col-span-1">
-          <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
-            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">Table of Contents
-            </h3>
-            <nav className="flex flex-col gap-1 text-sm">
-              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Overview &amp; Climate
-              </a>
-              <a href="#temperature" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">April Temperatures
-              </a>
-              <a href="#altitudes" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Conditions by Altitude
-              </a>
-              <a href="#why-april" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Why Trek in April?
-              </a>
-              <a href="#rain-visibility" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Rainfall &amp; Visibility
-              </a>
-              <a href="#trail-conditions" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Trail Conditions
-              </a>
-              <a href="#packing" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">What to Pack for April
-              </a>
-              <a href="#advantages-challenges" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Pros &amp; Cons in April
-              </a>
-              <a href="#comparison" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">April vs October
-              </a>
-              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">Frequently Asked Qs
-              </a>
-            </nav>
-            <div className="pt-4 border-t border-stone-100">
-              <Link 
-                href="/contact"
-                className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
-              >Inquire &amp; Book Tour
-              </Link>
-            </div>
-          </div>
-        </aside>
+      {/* Main Content Body & Sidebar */}
+      <section className="mx-auto max-w-7xl px-6 py-12 sm:py-16">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
+          
+          {/* Article Main Body */}
+          <div className="lg:col-span-3 space-y-12">
 
-        {/* PRIMARY EDITORIAL CONTENT COLUMN */}
-        <main className="lg:col-span-3 space-y-16">
-          {/* SECTION 1: OVERVIEW */}
-          <article id="overview" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Weather Overview in April
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>April sits right in the middle of Nepal&apos;s pre-monsoon spring season. The cold, dry winter air has eased off, but the heavy monsoon clouds are still a couple of months away. That gap is what makes this stretch of the calendar so dependable for trekking: warmer days, cool but manageable nights, and a trail that is dry underfoot for most of the route.
-              </p>
-              <p>The trekking experience does shift as you climb. Lower villages feel noticeably warmer than the exposed ridge sections, and that temperature gap widens later in the day. Understanding this range matters more than memorizing a single number, since your trek covers several climate zones in just a few days of walking.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 2: TEMPERATURE */}
-          <article id="temperature" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Average Temperatures in April
-            </h2>
-            <div className="grid gap-6 md:grid-cols-2 text-stone-650 text-sm">
-              <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-900 text-sm sm:text-base">Average Daytime (10°C to 16°C / 50°F to 61°F)</h4>
-                <p className="text-xs text-stone-500 leading-relaxed font-medium">During daylight hours, trekkers can expect comfortable hiking temperatures. A breathable base layer combined with a light mid-layer is usually enough. Strong April sun at this altitude means you will likely feel warmer than the thermometer suggests.
-                </p>
+            {/* E-E-A-T Operator Verification Banner */}
+            <div className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm flex flex-col sm:flex-row items-start gap-4">
+              <div className="rounded-xl bg-emerald-100 p-3 text-emerald-800 font-bold text-xl flex items-center justify-center shrink-0">
+                🌺
               </div>
-
-              <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm sm:text-base">Ridge Nighttime (-4°C to 2°C / 25°F to 36°F)</h4>
-                <p className="text-xs text-stone-500 leading-relaxed font-medium">Once the sun drops, conditions change quickly. A sharp wind can make the ridge feel colder still. A reliable four-season sleeping bag, warm hat, and insulated jacket are essential for a restful night at these elevations.
+              <div className="space-y-1 text-sm text-stone-600">
+                <h4 className="font-bold text-stone-900 text-base">Peak Spring Operations &amp; Community Reservations</h4>
+                <p>
+                  Maintained and verified by licensed Nepal trekking operator <strong>EMD Treks</strong> (License #8928-091). Based in Pokhara, our local team secures priority community teahouse accommodation in Swanta, Chhistibung, and Khopra Danda during April peak bloom.
                 </p>
               </div>
             </div>
-          </article>
 
-          {/* SECTION 3: CONDITIONS BY ALTITUDE */}
-          <article id="altitudes" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Weather Conditions at Different Altitudes
-            </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">The trail moves through several distinct climate zones. Lower valleys remain sheltered, while the upper ridge sections feel the full effect of high-altitude mountain wind.
-            </p>
+            {/* Introduction */}
+            <div className="prose prose-stone max-w-none space-y-6 text-stone-700 leading-relaxed text-base sm:text-lg">
+              <p className="font-medium text-stone-900 leading-relaxed">
+                April is one of the most rewarding months to trek Khopra Ridge. Days are mild and sunny, nights stay cool at higher elevations, and the forests along the trail turn brilliant shades of crimson red, pink, and white as the national flower — the rhododendron — reaches full bloom.
+              </p>
+              <p>
+                Trails are dry and forgiving, morning mountain panoramas are clear, and the overall trekking experience feels comfortable without the heavy trail traffic of peak autumn.
+              </p>
+            </div>
 
-            {/* Altitude Conditions Table */}
-            <div className="bg-white border border-stone-200 rounded-3xl overflow-hidden shadow-sm">
-              <div className="overflow-x-auto">
-                <table className="w-full text-left text-xs border-collapse">
-                  <thead>
-                    <tr className="bg-stone-100 text-stone-700 uppercase font-black tracking-wider border-b border-stone-200">
-                      <th className="p-4">Trail Section</th>
-                      <th className="p-4">Typical April Conditions</th>
+            {/* Section 1: Temperature by Elevation Table */}
+            <div id="april-temperatures" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                April Temperatures &amp; Trail Conditions by Elevation
+              </h2>
+
+              <div className="overflow-x-auto rounded-2xl border border-stone-200 bg-white shadow-sm">
+                <table className="w-full text-left text-sm text-stone-700">
+                  <thead className="bg-stone-100 text-xs font-bold uppercase tracking-wider text-stone-900 border-b border-stone-200">
+                    <tr>
+                      <th className="py-4 px-4 sm:px-6">Location</th>
+                      <th className="py-4 px-4 sm:px-6">Elevation</th>
+                      <th className="py-4 px-4 sm:px-6">Daytime High</th>
+                      <th className="py-4 px-4 sm:px-6">Nighttime Low</th>
+                      <th className="py-4 px-4 sm:px-6">Trail &amp; Vegetation State</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-stone-100 font-medium text-stone-600">
-                    {altitudeConditions.map((item, idx) => (
-                      <tr key={idx} className="hover:bg-stone-50/50 transition">
-                        <td className="p-4 font-bold text-stone-900">{item.zone}</td>
-                        <td className="p-4 text-xs text-stone-500 leading-relaxed">{item.conditions}</td>
+                  <tbody className="divide-y divide-stone-200 text-xs sm:text-sm">
+                    {elevTemps.map((row, idx) => (
+                      <tr key={idx} className="hover:bg-stone-50 transition">
+                        <td className="py-4 px-4 sm:px-6 font-bold text-stone-950">{row.location}</td>
+                        <td className="py-4 px-4 sm:px-6 font-mono text-xs text-stone-500">{row.elev}</td>
+                        <td className="py-4 px-4 sm:px-6 font-medium text-stone-800">{row.day}</td>
+                        <td className="py-4 px-4 sm:px-6 font-medium text-blue-700">{row.night}</td>
+                        <td className="py-4 px-4 sm:px-6 text-stone-600">{row.trail}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -185,249 +175,189 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="text-stone-600 text-sm leading-relaxed space-y-4 mt-6">
-              <h3 className="text-lg font-bold text-stone-950">Ghandruk, Tadapani, and Forest Trails</h3>
-              <p>The lower and mid-altitude sections of the route, including Ghandruk and Tadapani, sit inside dense rhododendron and oak forest. This forest cover keeps the trail noticeably warmer and more sheltered from wind than the open ridge above. It is also where the spring bloom is most dramatic, with red, pink, and white flowers lining the path for hours of walking.
-              </p>
-              <h3 className="text-lg font-bold text-stone-955">Weather at Khopra Ridge and Khopra Danda</h3>
-              <p>Once you reach Khopra Ridge and Khopra Danda itself, the forest cover disappears and the trail opens onto exposed grassland with sweeping mountain views. This is also where the wind picks up and temperatures drop fastest, particularly in the early morning before sunrise and again after sunset.
-              </p>
-            </div>
-          </article>
+            {/* Section 2: Rhododendron Season Highlights */}
+            <div id="rhododendron-bloom" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Peak Rhododendron Bloom &amp; Spring Photography
+              </h2>
 
-          {/* SECTION 4: WHY TREK IN APRIL */}
-          <article id="why-april" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Why April Is One of the Best Months for Khopra Ridge Trek
-            </h2>
-            <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
-              <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-900 text-sm sm:text-base">Peak Rhododendron Season</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">April is the height of rhododendron season. Between Ghandruk, Tadapani, and Swanta, entire hillsides turn red, pink, and white as the national flower of Nepal comes into full bloom, making the forest paths incredibly scenic.
-                </p>
-              </div>
-
-              <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-2">
-                <h4 className="font-bold text-stone-955 text-sm sm:text-base">Clear Mountain View Panoramas</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">Morning visibility is consistently strong, with sky clarity averaging around 85% before midday. From Khopra Ridge, this means a genuine chance at an unobstructed sunrise panorama over Annapurna South and Dhaulagiri.
-                </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                <div className="rounded-xl border border-emerald-200 bg-emerald-50/60 p-5 space-y-2">
+                  <h4 className="font-bold text-emerald-950">🌺 Tadapani to Swanta Canopy</h4>
+                  <p className="text-xs text-emerald-900 leading-relaxed">Dense oak and rhododendron forests around Tadapani and Swanta burst into full bloom, creating tunnels of red, pink, and ivory white flowers.</p>
+                </div>
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">🌅 Golden Hour Sunrise Light</h4>
+                  <p className="text-xs text-stone-600">Combine morning golden-hour light hitting Dhaulagiri I and Annapurna South with blooming forest foregrounds for iconic photography.</p>
+                </div>
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">☁️ Afternoon Cloud Rhythm</h4>
+                  <p className="text-xs text-stone-600">Valley thermal moisture creates afternoon cloud build-up around 1:00 PM. Start daily hikes by 7:00 AM for maximum mountain clarity.</p>
+                </div>
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">🏔️ Visible Himalayan Peaks</h4>
+                  <p className="text-xs text-stone-600">Panoramic morning sightlines to Annapurna South, Dhaulagiri I, Nilgiri Himal, Machhapuchhre, Hiunchuli, and Gurja Himal.</p>
+                </div>
               </div>
             </div>
-          </article>
 
-          {/* SECTION 5: RAIN & VISIBILITY */}
-          <article id="rain-visibility" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Rainfall and Visibility in April
-            </h2>
-            <div className="space-y-4 text-stone-600 text-sm leading-relaxed">
-              <p>
-                <strong>How Much Rain Does Khopra Ridge Get in April?</strong>Most years bring around 2 to 3 rainy days across the full trek. These are usually short, localized showers rather than sustained downpours, typically arriving in the afternoon or early evening and clearing within an hour or two.
-              </p>
-              <p>
-                <strong>Khopra Ridge Visibility in April:</strong>Morning visibility is the strongest asset of trekking in April, with clear skies common from sunrise until roughly mid-morning. Haze and cloud cover typically build through the afternoon, which means the best photography window is early in the day.
-              </p>
+            {/* Section 3: Essential April Packing List */}
+            <div id="april-packing" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Essential April Packing Checklist
+              </h2>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">🧥 3-Layer Versatile Clothing</h4>
+                  <p className="text-xs text-stone-600">Moisture-wicking daytime shirt, fleece mid-layer, and a warm down jacket for ridge nights when temps drop near 0°C.</p>
+                </div>
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">🌧️ Waterproof Rain Shell</h4>
+                  <p className="text-xs text-stone-600">Lightweight packable rain shell protects against short, localized pre-monsoon afternoon showers.</p>
+                </div>
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">☀️ Sun &amp; UV Protection</h4>
+                  <p className="text-xs text-stone-600">High SPF 50+ sunscreen, wide-brim sun hat, and UV sunglasses prevent intense high-altitude solar glare burns.</p>
+                </div>
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">👢 Boots &amp; Trekking Poles</h4>
+                  <p className="text-xs text-stone-600">Broken-in trekking boots handle dry trails and muddy forest patches. Poles ease knee stress on steep stair sections.</p>
+                </div>
+              </div>
             </div>
-          </article>
 
-          {/* SECTION 6: TRAIL CONDITIONS */}
-          <article id="trail-conditions" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">April Trail Conditions
-            </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">Trail conditions in April are generally considered some of the best of the year. The winter snow has melted from all but the highest sections, and the heavy monsoon mud is still months away, leaving a firm, dry path through most of the route.
-            </p>
-            <p className="text-stone-600 text-sm leading-relaxed">That said, occasional afternoon showers can leave short muddy patches, particularly in forested sections. Trekking boots with solid ankle support and good tread are recommended, and trekking poles help considerably on the steeper descents near Bayeli Kharka.
-            </p>
-          </article>
+            {/* Section 4: April vs March vs October vs November */}
+            <div id="april-comparison" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                April vs. March vs. October Comparison
+              </h2>
 
-          {/* SECTION 7: PACKING */}
-          <article id="packing" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">What to Pack for Khopra Ridge Trek in April
-            </h2>
-            <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm">
-              <div className="grid gap-6 md:grid-cols-3 text-xs text-stone-650">
-                {packingEssentials.map((cat, i) => (
-                  <div key={i}>
-                    <h5 className="font-bold text-stone-900 uppercase tracking-wider mb-3">{cat.category}</h5>
-                    <ul className="list-disc pl-4 space-y-1">
-                      {cat.items.map((item, idx) => (
-                        <li key={idx}>{item}</li>
-                      ))}
-                    </ul>
-                  </div>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">🌸 March</h4>
+                  <p className="text-xs text-stone-600">Transition month. Early floral buds, colder nights (-5°C), leftover snow on high passes, quiet trails.</p>
+                </div>
+                <div className="rounded-xl border border-emerald-200 bg-emerald-50/60 p-5 space-y-2">
+                  <h4 className="font-bold text-emerald-950">🌺 April</h4>
+                  <p className="text-xs text-emerald-900 leading-relaxed">Peak spring bloom. Full rhododendron canopy, mild hiking days (8–14°C), dry trails, steady trekker traffic.</p>
+                </div>
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">🍂 October</h4>
+                  <p className="text-xs text-stone-600">Peak post-monsoon autumn. Highest all-day sky clarity, no floral blooms, highest overall lodge demand.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 5: FAQ Accordion */}
+            <div id="faq" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Frequently Asked Questions: April Weather
+              </h2>
+              <div className="space-y-4">
+                {faqs.map((faq, idx) => (
+                  <details
+                    key={idx}
+                    className="group rounded-2xl border border-stone-200 bg-white p-6 transition [&_summary::-webkit-details-marker]:hidden"
+                  >
+                    <summary className="flex cursor-pointer items-center justify-between gap-4 font-bold text-stone-900 text-base sm:text-lg">
+                      <span>{faq.q}</span>
+                      <span className="shrink-0 text-stone-400 transition group-open:-rotate-180">
+                        ▼
+                      </span>
+                    </summary>
+                    <p className="mt-4 text-sm sm:text-base text-stone-600 leading-relaxed border-t border-stone-100 pt-4">
+                      {faq.a}
+                    </p>
+                  </details>
                 ))}
               </div>
             </div>
-          </article>
 
-          {/* SECTION 8: ADVANTAGES & CHALLENGES */}
-          <article id="advantages-challenges" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-950 tracking-tight border-b border-stone-200 pb-3">Advantages and Challenges of April Trekking
-            </h2>
-            <div className="grid gap-6 md:grid-cols-2 text-stone-600 text-sm">
-              <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-3">
-                <h4 className="font-bold text-stone-950 text-sm">Advantages</h4>
-                <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1 font-medium">
-                  <li>Full rhododendron bloom along the lower and mid-altitude trail.</li>
-                  <li>Comfortable, mild daytime temperatures for hiking.</li>
-                  <li>Strong morning visibility and clear Himalayan views.</li>
-                  <li>Dry, stable trail conditions through most of the route.</li>
-                  <li>Long daylight hours for flexible trekking schedules.</li>
-                </ul>
-              </div>
-
-              <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-3">
-                <h4 className="font-bold text-stone-955 text-sm">Challenges to Expect</h4>
-                <ul className="list-disc pl-5 text-xs text-stone-500 space-y-1 font-medium">
-                  <li>Peak season means lodges and guides can book out early.</li>
-                  <li>Afternoon haze can reduce visibility later in the day.</li>
-                  <li>Nights at the ridge remain genuinely cold despite warm days.</li>
-                  <li>Occasional short rain showers, mostly in the afternoon.</li>
-                </ul>
-              </div>
-            </div>
-          </article>
-
-          {/* SECTION 9: COMPARISON */}
-          <article id="comparison" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Is April the Best Time to Visit Khopra Ridge?
-            </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">April competes closely with October as the two strongest months for this trek, but the experience each one offers is different. April wins on scenery (rhododendron blooms), while October offers maximum sky clarity.
-            </p>
-
-            {/* October vs April Table */}
-            <div className="bg-white border border-stone-200 rounded-3xl overflow-hidden shadow-sm">
-              <div className="overflow-x-auto">
-                <table className="w-full text-left text-xs border-collapse">
-                  <thead>
-                    <tr className="bg-stone-100 text-stone-700 uppercase font-black tracking-wider border-b border-stone-200">
-                      <th className="p-4">Month</th>
-                      <th className="p-4">Strength</th>
-                      <th className="p-4">Best For</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-stone-100 font-medium text-stone-600">
-                    {comparisons.map((item, idx) => (
-                      <tr key={idx} className="hover:bg-stone-50/50 transition">
-                        <td className="p-4 font-bold text-stone-900">{item.month}</td>
-                        <td className="p-4 font-bold text-emerald-600">{item.strength}</td>
-                        <td className="p-4 text-xs text-stone-500">{item.bestFor}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </article>
-
-          {/* SECTION 10: FAQS */}
-          <article id="faq" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Frequently Asked Questions About April Weather
-            </h2>
-            <div className="space-y-4 mt-6">
-              {[
-                {
-                  q: "Is April a good time for Khopra Ridge Trek?",
-                  a: "Yes. April combines mild daytime temperatures, generally stable trail conditions, and the peak rhododendron bloom, making it one of the two strongest months for this trek alongside October."
-                },
-                {
-                  q: "What is the temperature at Khopra Ridge in April?",
-                  a: "Daytime temperatures typically range from 10°C to 16°C (50°F to 61°F), while nights at the ridge drop to between -4°C and 2°C (25°F to 36°F)."
-                },
-                {
-                  q: "How cold is Khopra Ridge at night in April?",
-                  a: "Nights at ridge altitude can fall to around -4°C, and wind chill can make it feel colder. A four-season sleeping bag and warm layers are strongly recommended."
-                },
-                {
-                  q: "Does it rain in Khopra Ridge during April?",
-                  a: "Light rain is possible on roughly 2 to 3 days during the trek, usually as short afternoon showers rather than prolonged storms. A packable rain shell is sufficient to manage this risk."
-                },
-                {
-                  q: "Can I see Annapurna and Dhaulagiri mountains clearly in April?",
-                  a: "Morning visibility is strong, averaging around 85% sky clarity before midday cloud tends to build. Early morning is the best window for clear views of both Annapurna South and Dhaulagiri."
-                },
-                {
-                  q: "Are rhododendrons blooming in Khopra Ridge in April?",
-                  a: "Yes, April is peak bloom season. The forests between Ghandruk, Tadapani, and Swanta are typically at their most colorful from early to mid-April."
-                },
-                {
-                  q: "Is Khopra Ridge crowded in April?",
-                  a: "April is one of the busiest trekking months in the region, so lodge space and guide availability can become limited closer to the season's peak. Booking a few weeks ahead is advisable."
-                },
-                {
-                  q: "What should I pack for Khopra Ridge Trek in April?",
-                  a: "A layering system covering both warm days and cold nights, sun protection (SPF 50+, sunglasses, sun hat), a lightweight rain shell, and a buff for dust and wind are the core essentials."
-                }
-              ].map((faq, idx) => (
-                <details 
-                  key={idx} 
-                  className="group bg-white border border-stone-200 rounded-2xl p-5 [&_summary::-webkit-details-marker]:hidden cursor-pointer select-none transition-all duration-200 hover:border-emerald-500/30"
-                >
-                  <summary className="flex items-center justify-between font-bold text-stone-900 text-sm sm:text-base list-none">
-                    <span>{faq.q}</span>
-                    <span className="text-stone-400 group-open:rotate-180 transition-transform duration-200 text-lg">
-                      ▼
-                    </span>
-                  </summary>
-                  <p className="mt-4 text-xs sm:text-sm text-stone-600 leading-relaxed border-t border-stone-100 pt-3">
-                    {faq.a}
-                  </p>
-                </details>
-              ))}
-            </div>
-          </article>
-
-          {/* SECTION 11: CONCLUSION */}
-          <article className="space-y-6">
-            <h2 className="text-2xl font-bold text-stone-955 font-sans">Conclusion</h2>
-            <p className="text-stone-600 leading-relaxed text-sm">April gives Khopra Ridge trekkers a rare combination: comfortable daytime hiking weather, a short but spectacular rhododendron bloom, and a strong chance at clear morning views of Annapurna South and Dhaulagiri. The trade-off is cold ridge-level nights and a busier trekking calendar, both of which are easy to manage with the right preparation and early planning.
-            </p>
-            <p className="text-stone-600 leading-relaxed text-sm">If the spring bloom and mild trekking conditions match what you&apos;re looking for, April is one of the best windows of the year to walk this route. The main thing left to do is lock in your dates before the season&apos;s lodge and guide availability tightens up.
-            </p>
-          </article>
-
-          {/* SECTION 12: CTA & BOOKING */}
-          <section className="bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white rounded-3xl p-8 shadow-md border border-stone-800 relative overflow-hidden">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
-            <div className="relative z-10 space-y-6 max-w-4xl">
-              <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Book Your April Khopra Ridge Trek Early</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">April departures fill quickly once the rhododendron season is underway. Reserve your community lodge slots and guide now to secure your preferred dates.
-              </p>
-              
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Link 
-                  href="/contact"
-                  className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
-                >Inquire Now &rarr;
-                </Link>
-              </div>
-
-              {/* Continue Planning Links */}
-              <div className="pt-6 border-t border-white/10 space-y-3">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Trek:</h4>
-                <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
-                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check trekking permit requirements (ACAP &amp; TIMS)
+            {/* CTA Banner */}
+            <div className="rounded-3xl bg-emerald-950 p-8 sm:p-12 text-white relative overflow-hidden shadow-xl">
+              <div className="relative z-10 space-y-4 max-w-2xl">
+                <span className="px-3 py-1 bg-emerald-800 text-emerald-200 rounded-full text-xs font-bold uppercase tracking-wider">
+                  April Bloom Departures
+                </span>
+                <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
+                  Trek Khopra Ridge in April with Local Experts
+                </h3>
+                <p className="text-emerald-100/80 text-sm sm:text-base leading-relaxed">
+                  Secure your peak spring departure with licensed Nepal trekking operator <strong>EMD Treks</strong> (NTB License #8928-091). We guarantee community teahouse reservations, ACAP permits, and experienced local guide services.
+                </p>
+                <div className="pt-2 flex flex-wrap gap-4">
+                  <Link
+                    href="/contact"
+                    className="inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white hover:bg-emerald-500 transition-all shadow-md"
+                  >
+                    Inquire About April Treks
                   </Link>
-                  <Link href="/planning/khopra-trek-cost" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Estimate your trip costs with our cost calculator
-                  </Link>
-                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Get the interactive packing checklist for your gear
-                  </Link>
-                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check seasonal weather conditions before you go
+                  <Link
+                    href="/weather/spring-season-khopra"
+                    className="inline-block rounded-full bg-white/10 px-6 py-3 text-sm font-semibold text-white hover:bg-white/20 transition-all border border-white/20"
+                  >
+                    Explore Spring Season Hub
                   </Link>
                 </div>
               </div>
             </div>
-          </section>
 
-          {/* EEAT Author Verification Banner */}
-          <div className="p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-            <span className="text-2xl mt-0.5"></span>
-            <div>
-              <h4 className="font-bold text-stone-900 text-sm font-sans">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">Our weather statistics and logs are verified by licensed ACA guide networks. High-altitude temperatures are checked monthly to adjust recommended sleeping bags and gear ratings.
-              </p>
-            </div>
           </div>
-        </main>
-      </div>
+
+          {/* Sticky Sidebar Table of Contents */}
+          <aside className="lg:col-span-1">
+            <div className="sticky top-24 rounded-2xl border border-stone-200 bg-white p-6 shadow-sm space-y-4">
+              <h4 className="font-extrabold text-stone-900 text-xs uppercase tracking-widest border-b border-stone-100 pb-3">
+                On This Page
+              </h4>
+              <nav className="space-y-2 text-xs font-semibold text-stone-600">
+                <a href="#april-temperatures" className="block hover:text-emerald-600 transition">
+                  • Temperature by Elevation
+                </a>
+                <a href="#rhododendron-bloom" className="block hover:text-emerald-600 transition">
+                  • Rhododendron Season
+                </a>
+                <a href="#april-packing" className="block hover:text-emerald-600 transition">
+                  • Essential Packing List
+                </a>
+                <a href="#april-comparison" className="block hover:text-emerald-600 transition">
+                  • Mar vs Apr vs Oct
+                </a>
+                <a href="#faq" className="block hover:text-emerald-600 transition">
+                  • FAQ Section
+                </a>
+              </nav>
+
+              <div className="pt-4 border-t border-stone-100 space-y-3">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400">Related Weather Guides</span>
+                <ul className="space-y-2 text-xs text-stone-700">
+                  <li>
+                    <Link href="/weather/best-time-to-trek" className="hover:text-emerald-700 underline">
+                      Best Time to Trek Hub
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/weather/spring-season-khopra" className="hover:text-emerald-700 underline">
+                      Spring Season Guide
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/weather/khopra-trek-march" className="hover:text-emerald-700 underline">
+                      March Weather Guide
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/weather/khopra-trek-may" className="hover:text-emerald-700 underline">
+                      May Weather Guide
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
     </div>
   );
 }
