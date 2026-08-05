@@ -2,501 +2,409 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  title: "Community Lodge vs Teahouse in Nepal: Complete Trekking Accommodation Comparison",
+  description:
+    "Community lodge vs teahouse: compare ownership, cost, comfort, and sustainability in Nepal trekking, and see why Khopra Ridge Trek uses a community lodge model.",
   alternates: {
-    canonical: "/community/what-is-community-lodge",
+    canonical: "https://khopraridgetrek.com/community/what-is-community-lodge",
   },
-  title: "Community Lodge vs Teahouse: Which Nepal Trekking Accommodation Is Better?",
-  description: "Community lodge vs teahouse: compare ownership, cost, food, and sustainability to choose the right Nepal trekking accommodation — and see how Khopra Ridge does it differently.",
+  openGraph: {
+    title: "Community Lodge vs Teahouse in Nepal: Complete Trekking Accommodation Comparison",
+    description:
+      "Community lodge vs teahouse: compare ownership, cost, comfort, and sustainability in Nepal trekking, and see why Khopra Ridge Trek uses a community lodge model.",
+    url: "https://khopraridgetrek.com/community/what-is-community-lodge",
+    type: "article",
+  },
 };
 
-export default function Page() {
-  const summarySpecs = [
-    { label: "Ownership", value: "Collective vs Private" },
-    { label: "Profit Destination", value: "Village Reinvested" },
-    { label: "Food Focus", value: "Local Organic Sourcing" },
-    { label: "Best For", value: "Sustainable Travelers" }
+export default function WhatIsCommunityLodgePage() {
+  const quickStats = [
+    { label: "Ownership Model", value: "Village Collective vs Private Family" },
+    { label: "Profit Destination", value: "100% Reinvested in Village Infrastructure" },
+    { label: "Food Sourcing", value: "Organic Farm-to-Table Village Produce" },
+    { label: "Key Flagship Circuit", value: "Khopra Ridge & Mohare Danda" },
   ];
 
-  const comparisonData = [
+  const comparisonRows = [
     {
-      feature: "Ownership Structure",
-      community: "Collective village ownership, run by a community committee",
-      teahouse: "Private family or individual guesthouse business owner"
+      feature: "Ownership",
+      community: "Owned collectively by the village or community committee",
+      teahouse: "Owned by an individual entrepreneur or single family",
+    },
+    {
+      feature: "Management",
+      community: "Managed by an elected local village committee",
+      teahouse: "Managed directly by the proprietor / family head",
     },
     {
       feature: "Profit Destination",
-      community: "Reinvested into schools, clinics, and village infrastructure",
-      teahouse: "Kept as private income for the owner"
+      community: "100% reinvested in Magar schools, clinics & trail infrastructure",
+      teahouse: "Kept as private household income for the owning family",
     },
     {
       feature: "Staffing",
-      community: "Locally hired, often rotated across households",
-      teahouse: "Hired by the owning family, sometimes outside staff"
+      community: "Rotated local village residents earning direct tourism wages",
+      teahouse: "Family members or hired external seasonal workers",
     },
     {
       feature: "Food Sourcing",
-      community: "Local organic farms, village-grown produce and yak cheese",
-      teahouse: "Mix of local produce and packaged goods trucked or flown in"
+      community: "Mostly local, organic village-grown produce & yak cheese",
+      teahouse: "Mix of local produce and imported packaged goods",
     },
     {
-      feature: "Pricing",
-      community: "Generally fixed, set by the committee",
-      teahouse: "Varies by owner and route demand"
+      feature: "Environmental Strategy",
+      community: "Coordinated trail-wide eco & waste management policies",
+      teahouse: "Managed individually by each lodge proprietor",
     },
     {
-      feature: "Decision-making",
-      community: "Committee-based, transparent to the village",
-      teahouse: "Owner-controlled"
-    }
+      feature: "Primary Routes",
+      community: "Khopra Ridge, Mohare Danda, Nangi, Swanta",
+      teahouse: "Annapurna Circuit, EBC, ABC, Langtang",
+    },
   ];
 
-  const faqItems = [
+  const faqs = [
     {
-      q: "What is a community lodge in Nepal trekking?",
-      a: "A community lodge is a trekking guesthouse collectively owned by a village rather than a single family or business owner. A local committee manages staffing, pricing, and maintenance, and profits are reinvested into village needs like schools, health posts, and infrastructure."
+      q: "What is the difference between a community lodge and a teahouse in Nepal?",
+      a: "A community lodge is owned collectively by a village and managed through a local committee, with profits reinvested into community schools, clinics, and infrastructure. A teahouse is owned and run by an individual or family, with profits kept as private household income.",
     },
     {
-      q: "How is a community lodge different from a teahouse?",
-      a: "The core difference is ownership and where profit goes. A teahouse is privately owned, with profit kept by the owning family. A community lodge is collectively owned, with profit reinvested into the wider village rather than one household."
+      q: "Are community lodges more expensive than teahouses?",
+      a: "Generally, no. Pricing is driven by altitude and remoteness rather than ownership type. Room and meal rates at community lodges on Khopra Ridge are comparable to traditional teahouses on similar elevation routes.",
     },
     {
-      q: "Are community lodges cheaper than teahouses?",
-      a: "Not necessarily. Pricing for both models is generally similar on the same trail, since they compete for the same trekkers. The real difference isn't usually the price you pay — it's how that money is used afterward."
+      q: "Is Khopra Ridge Trek a community lodge trek?",
+      a: "Yes. The Khopra Ridge Trek uses a pioneer community lodge network built and managed by the Magar villages of Swanta and Nangi, ensuring tourism revenue stays 100% within local communities.",
     },
     {
-      q: "What facilities do community lodges provide?",
-      a: "Most community lodges offer twin-sharing rooms, shared bathrooms, a communal dining and heating area, and basic charging or WiFi access — broadly similar to standard teahouse facilities, though quality varies by specific lodge."
+      q: "Are community lodges comfortable for trekkers?",
+      a: "Yes. On established community-tourism trails like Khopra Ridge, lodges offer twin-sharing rooms, heated communal dining halls, comfortable mattresses, and reasonably reliable hot showers and solar charging facilities.",
     },
     {
-      q: "What is teahouse trekking in Nepal?",
-      a: "Teahouse trekking refers to the traditional system of staying in privately owned guesthouses along Nepal's trekking routes, where trekkers move from village to village finding lodging and meals without needing to camp or carry their own food."
+      q: "Do community lodges support local villages?",
+      a: "Yes. Because profits are shared across the village rather than kept by one owner, community lodges support broader local employment, skill development, and village-level reinvestments in education and health.",
     },
     {
-      q: "How do community lodges support local communities?",
-      a: "Community lodge income is typically reinvested directly into the village through teacher salary support, funding for health posts and visiting clinics, trail and infrastructure maintenance, and sometimes shared internet access for the whole community."
+      q: "Are teahouses still the most common accommodation in Nepal?",
+      a: "Yes. Teahouses remain the dominant accommodation model across most of Nepal's high-traffic trekking routes, including Everest Base Camp, the Annapurna Circuit, and Annapurna Base Camp.",
     },
     {
-      q: "Which trekking routes in Nepal use community lodges?",
-      a: "The Khopra Ridge Trek is one of the clearest examples, with community lodges operating in villages including Swanta and Nangi. Mohare Danda, in the same general region, follows a similar model."
+      q: "Which trekking accommodation is better for sustainable travel?",
+      a: "Community lodges generally offer a stronger, more distributed social impact, as income is shared across an entire village rather than concentrated in a single household. Teahouses still support local families directly.",
     },
     {
-      q: "Are community lodges comfortable for beginners?",
-      a: "Generally, yes. Comfort levels are broadly comparable to standard teahouses — twin rooms, shared facilities, and a communal evening space — so first-time trekkers shouldn't expect a noticeably rougher experience."
+      q: "Can solo trekkers stay in community lodges?",
+      a: "Yes. Solo trekkers are warmly welcomed at community lodges just as they are at teahouses. Booking ahead or trekking with a licensed operator ensures room availability during peak autumn and spring seasons.",
     },
-    {
-      q: "Is community-based trekking better for sustainable tourism?",
-      a: "For travelers focused on sustainability, community-based trekking tends to perform better on environmental sourcing and economic impact, since it reduces transport-heavy supply chains and keeps tourism income circulating within the village rather than leaving it."
-    },
-    {
-      q: "Which accommodation option is better for first-time trekkers?",
-      a: "Either works well for a first trek. Teahouses offer slightly more route flexibility simply due to their wider availability, while community lodges offer a chance to see, firsthand, how trekking tourism can directly fund local schools and clinics."
-    }
   ];
 
   return (
-    <div className="bg-stone-50 text-stone-900 min-h-screen font-sans antialiased flex flex-col justify-between">
-      {/* HERO BANNER SECTION */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
-        <div className="mx-auto max-w-7xl relative z-10">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">Community Lodge &amp; Eco-Lodging
+    <div className="w-full flex-1 bg-stone-50">
+      {/* Hero Header */}
+      <section className="bg-stone-900 py-16 sm:py-20 text-white border-b border-stone-800">
+        <div className="mx-auto max-w-7xl px-6">
+          <nav className="flex items-center gap-2 text-xs font-semibold text-stone-400 mb-6 uppercase tracking-wider">
+            <Link href="/" className="hover:text-emerald-400 transition">Home</Link>
+            <span>/</span>
+            <Link href="/community/community-tourism-khopra" className="hover:text-emerald-400 transition">Community Hub</Link>
+            <span>/</span>
+            <span className="text-emerald-400">Community Lodge vs Teahouse</span>
+          </nav>
+          <div className="max-w-3xl">
+            <span className="inline-block px-3 py-1 bg-emerald-900/60 text-emerald-300 border border-emerald-700/50 rounded-full text-xs font-bold uppercase tracking-widest mb-4">
+              Accommodation Models Explained
+            </span>
+            <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl text-white leading-tight">
+              Community Lodge vs Teahouse in Nepal
+            </h1>
+            <p className="mt-6 text-lg sm:text-xl text-stone-300 font-medium leading-relaxed">
+              Understanding ownership, economic impact, food sourcing, facilities, and sustainability on Nepal&apos;s trekking trails.
+            </p>
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl font-sans">Community Lodge vs Teahouse
-          </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Understanding Nepal's two trekking accommodation models: ownership, costs, facilities, sustainability, and how your spending impacts local mountain villages.
-          </p>
 
-          {/* Quick Metrics Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 max-w-5xl">
-            {summarySpecs.map((spec, i) => (
-              <div key={i} className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-emerald-500/20 transition-all duration-300">
-                <span className="text-xs text-stone-400 font-bold uppercase tracking-wider block">{spec.label}</span>
-                <span className="text-lg sm:text-xl md:text-2xl font-black text-emerald-400 mt-1 block">{spec.value}</span>
+          {/* Quick Metrics */}
+          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            {quickStats.map((stat, idx) => (
+              <div key={idx} className="rounded-xl bg-stone-800/80 border border-stone-700/60 p-4">
+                <span className="text-[10px] font-bold uppercase tracking-widest text-stone-400">{stat.label}</span>
+                <p className="mt-1 text-sm sm:text-base font-extrabold text-stone-100">{stat.value}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* DYNAMIC TWO COLUMN LAYOUT */}
-      <div className="mx-auto max-w-7xl px-6 py-16 grid grid-cols-1 lg:grid-cols-4 gap-12 w-full flex-1">
-        {/* STICKY TABLE OF CONTENTS SIDEBAR */}
-        <aside className="lg:col-span-1">
-          <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
-            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">Table of Contents
-            </h3>
-            <nav className="flex flex-col gap-1 text-sm">
-              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                1. Overview &amp; Comparison
-              </a>
-              <a href="#what-is-community" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                2. What is a Community Lodge?
-              </a>
-              <a href="#where-found" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                3. Where Are They Found?
-              </a>
-              <a href="#what-is-teahouse" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                4. What is a Teahouse?
-              </a>
-              <a href="#core-differences" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                5. Core Differences
-              </a>
-              <a href="#sustainability" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                6. Sustainability Index
-              </a>
-              <a href="#economic-impact" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                7. Village Economic Impact
-              </a>
-              <a href="#trekker-experience" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                8. Trekker Experience
-              </a>
-              <a href="#trekker-match" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                9. Traveler Matching
-              </a>
-              <a href="#khopra-model" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                10. Khopra Community Model
-              </a>
-              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                11. Frequently Asked Qs
-              </a>
-            </nav>
-            <div className="pt-4 border-t border-stone-100">
-              <Link 
-                href="/contact"
-                className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
-              >Inquire &amp; Book Tour
-              </Link>
-            </div>
-          </div>
-        </aside>
+      {/* Main Content Body & Sidebar */}
+      <section className="mx-auto max-w-7xl px-6 py-12 sm:py-16">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
+          
+          {/* Article Main Body */}
+          <div className="lg:col-span-3 space-y-12">
 
-        {/* PRIMARY EDITORIAL CONTENT COLUMN */}
-        <main className="lg:col-span-3 space-y-16">
-          {/* SECTION 1: OVERVIEW */}
-          <article id="overview" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Community Lodge vs Teahouse: Understanding Nepal's Two Trekking Accommodation Models
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>Every trekker heading into the Annapurna foothills eventually asks the same practical question: where will I actually sleep each night? For decades, the answer was simple. Nepal trekking accommodation meant the teahouse — a private guesthouse run by a local family, spaced a few hours apart along the trail.
-              </p>
-              <p>That's still true on most routes. But on a handful of trails, including the <Link href="/planning/khopra-trek-route-overview" className="text-emerald-700 font-bold hover:underline">Khopra Ridge Trek</Link>, a different model has taken root: the community lodge. It looks similar from the outside, but it's owned, run, and funded in a completely different way.
-              </p>
-              <p>This guide breaks down community lodge vs teahouse trekking in plain terms — what each model actually is, how the money moves, what the experience feels like on the ground, and which one makes more sense for your trek. We'll also look at why villages along the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra</Link> trail chose to build their own lodges instead of relying on the standard teahouse system.
-              </p>
+            {/* E-E-A-T Operator Verification Banner */}
+            <div className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm flex flex-col sm:flex-row items-start gap-4">
+              <div className="rounded-xl bg-emerald-100 p-3 text-emerald-800 font-bold text-xl flex items-center justify-center shrink-0">
+                🏡
+              </div>
+              <div className="space-y-1 text-sm text-stone-600">
+                <h4 className="font-bold text-stone-900 text-base">Community Model Verification &amp; Local Impact</h4>
+                <p>
+                  Maintained and verified by licensed Nepal trekking operator <strong>EMD Treks</strong> (License #8928-091). Based in Pokhara, we work directly with Magar community committees in Swanta, Nangi, and Khopra to support sustainable eco-tourism.
+                </p>
+              </div>
             </div>
-          </article>
 
-          {/* SECTION 2: WHAT IS A COMMUNITY LODGE */}
-          <article id="what-is-community" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">What Is a Community Lodge in Nepal Trekking?
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <h3 className="text-lg font-bold text-stone-900">Definition of a Community Lodge</h3>
-              <p>A community lodge is a trekking guesthouse that belongs to the village, not to a single family or investor. Instead of one owner pocketing the nightly rate, the lodge is collectively owned by the community it sits in, and a village committee oversees how it's run and where the money goes.
-              </p>
-              <p>This model exists because remote mountain villages noticed a pattern: tourists were walking through their valleys, spending money on accommodation and food, and most of that income was leaving the area almost immediately — either to outside investors who'd built lodges in the village, or to suppliers in distant towns. A community lodge keeps that same tourist spending circulating inside the valley instead.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">How Community Lodges Operate</h3>
-              <p>In practice, a community lodge functions like a small cooperative business. A locally elected committee — often made up of village representatives, women's groups, and youth leaders — handles staffing, maintenance, pricing, and bookkeeping.
-              </p>
-              <p>Staff are usually hired from the village itself, on a rotating basis in some cases, so that income and training opportunities spread across multiple households rather than concentrating in one family. Maintenance costs, supply purchases, and major repairs go through the same committee structure, which keeps the books transparent to everyone in the village.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 3: WHERE ARE THEY FOUND */}
-          <article id="where-found" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Where Community Lodges Are Found in Nepal
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>Community-owned lodging isn't yet the norm across Nepal, but it has taken hold on a few specific routes where local social entrepreneurs and village committees pushed to build it. The Khopra Ridge Trek is one of the clearest examples, with community lodges operating in villages including <Link href="/nodes/swanta-village-guide" className="text-emerald-700 font-bold hover:underline">Swanta</Link>and Nangi, both home to Magar communities with a long history of cooperative land and resource management.
+            {/* Introduction */}
+            <div className="prose prose-stone max-w-none space-y-6 text-stone-700 leading-relaxed text-base sm:text-lg">
+              <p className="font-medium text-stone-900 leading-relaxed">
+                When you plan a trek in Nepal, you&apos;re not just choosing a route and a season. You&apos;re also choosing where you&apos;ll sleep every night, and that choice matters more than most trekkers realize.
               </p>
               <p>
-                <Link href="/planning/khopra-trek-via-mohare-danda" className="text-emerald-700 font-bold hover:underline">Mohare Danda</Link>is another route in the same region that has adopted a similar model, which is part of why the two treks are often mentioned together when people research sustainable trekking accommodation in Nepal.
+                For decades, the teahouse has been the backbone of Nepal trekking accommodation. In recent years, a different model has grown alongside it: the community lodge, where accommodation is owned and managed by the village itself. The Khopra Ridge Trek is one of the clearest examples of this model in action.
               </p>
             </div>
-          </article>
 
-          {/* SECTION 4: WHAT IS A TEAHOUSE */}
-          <article id="what-is-teahouse" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">What Is a Teahouse in Nepal Trekking?
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <h3 className="text-lg font-bold text-stone-900">Understanding the Traditional Teahouse Trekking Model</h3>
-              <p>The teahouse is Nepal's original trekking accommodation system, and it's still the backbone of routes like the <Link href="/guides/which-annapurna-trek-to-choose" className="text-emerald-700 font-bold hover:underline">Annapurna Circuit</Link>, <Link href="/guides/khopra-vs-everest-view" className="text-emerald-700 font-bold hover:underline">Everest Base Camp</Link>, and most of the Annapurna Sanctuary. A teahouse is essentially a family-run guesthouse built specifically to serve trekkers — simple rooms upstairs, a communal dining hall downstairs, and a kitchen that runs on a set trekking-route menu.
-              </p>
-              <p>This system grew up organically starting in the 1960s and 70s as trekking tourism expanded, with local families converting spare rooms — and eventually purpose-built buildings — into lodging along the main trails. It's flexible, widely available, and familiar to almost every guide and porter in the country.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">How Traditional Teahouses Are Owned and Managed</h3>
-              <p>A teahouse is a private business. One family, or occasionally an outside investor, owns the building, sets the prices, hires the staff, and keeps the profit. Many teahouse owners do live in the village and hire local staff, so some of the income does stay nearby — but there's no committee, no formal reinvestment structure, and no guarantee that profits go beyond the owning family.
-              </p>
-              <p>This isn't a flaw exactly — it's just a different incentive structure. The owner has full control, which can mean faster decisions and more personalized service, but it also means the broader village doesn't automatically benefit from a busy trekking season the way it does with a community lodge.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Standard Facilities Found in Teahouse Accommodation</h3>
-              <p>Teahouse facilities are fairly consistent across Nepal, which is part of their appeal. Typical teahouse accommodation includes:
-              </p>
-              <ul className="list-disc pl-5 space-y-1 text-xs text-stone-500">
-                <li>Twin-sharing rooms with thin foam mattresses and a shared wall</li>
-                <li>Shared bathrooms, sometimes squat-style, occasionally with a hot shower for an extra fee</li>
-                <li>A central dining hall heated by a wood or yak-dung stove in the evening</li>
-                <li>Basic charging points and patchy WiFi, usually billed separately</li>
-              </ul>
-              <p>Rooms are rarely heated outside the dining hall, so most of the social and warm time happens communally in the evening — which is part of what gives teahouse trekking its particular atmosphere.
-              </p>
-            </div>
-          </article>
+            {/* Section 1: Comparison Table */}
+            <div id="comparison-table" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Community Lodge vs Teahouse: Detailed Comparison
+              </h2>
 
-          {/* SECTION 5: CORE DIFFERENCES */}
-          <article id="core-differences" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Community Lodge vs Teahouse — The Core Differences Explained
-            </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">The two systems can look almost identical from a trekker's first glance — a building with rooms, a dining hall, and a menu. Compare the details:
-            </p>
-
-            {/* Comparison Table */}
-            <div className="bg-white border border-stone-200 rounded-3xl overflow-hidden shadow-sm">
-              <div className="overflow-x-auto">
-                <table className="w-full text-left text-xs border-collapse">
-                  <thead>
-                    <tr className="bg-stone-100 text-stone-700 uppercase font-black tracking-wider border-b border-stone-200">
-                      <th className="p-4">Factor</th>
-                      <th className="p-4">Community Lodge</th>
-                      <th className="p-4">Standard Teahouse</th>
+              <div className="overflow-x-auto rounded-2xl border border-stone-200 bg-white shadow-sm">
+                <table className="w-full text-left text-sm text-stone-700">
+                  <thead className="bg-stone-100 text-xs font-bold uppercase tracking-wider text-stone-900 border-b border-stone-200">
+                    <tr>
+                      <th className="py-4 px-4 sm:px-6">Feature</th>
+                      <th className="py-4 px-4 sm:px-6">Community Lodge</th>
+                      <th className="py-4 px-4 sm:px-6">Traditional Teahouse</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-stone-100 font-medium text-stone-600">
-                    {comparisonData.map((d, idx) => (
-                      <tr key={idx} className="hover:bg-stone-50/50 transition">
-                        <td className="p-4 font-bold text-stone-900">{d.feature}</td>
-                        <td className="p-4 text-xs text-stone-500 leading-relaxed">{d.community}</td>
-                        <td className="p-4 text-xs text-stone-500 leading-relaxed">{d.teahouse}</td>
+                  <tbody className="divide-y divide-stone-200 text-xs sm:text-sm">
+                    {comparisonRows.map((row, idx) => (
+                      <tr key={idx} className="hover:bg-stone-50 transition">
+                        <td className="py-4 px-4 sm:px-6 font-bold text-stone-950">{row.feature}</td>
+                        <td className="py-4 px-4 sm:px-6 font-medium text-emerald-800 bg-emerald-50/30">{row.community}</td>
+                        <td className="py-4 px-4 sm:px-6 text-stone-600">{row.teahouse}</td>
                       </tr>
                     ))}
                   </tbody>
                 </table>
               </div>
-            </div>
 
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4 mt-6">
-              <h3 className="text-lg font-bold text-stone-900">Ownership Structure Comparison</h3>
-              <p>The clearest distinction is who actually holds the lodge. A community lodge belongs to the village as a collective asset, similar to how a cooperative or community trust works elsewhere. A teahouse belongs to one person or family, who treats it like any other guesthouse.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Where Tourism Revenue Goes</h3>
-              <p>This is the financial heart of the comparison. In a teahouse, a strong trekking season means a good year for one household. In a community lodge, the same busy season can mean a fully staffed clinic, a paid schoolteacher, or a repaired suspension bridge.
-              </p>
-              <p>Economists sometimes call the private-ownership pattern &ldquo;economic leakage&rdquo; — money that enters a remote area through tourism but quickly exits to outside suppliers, absentee owners, or urban hubs rather than circulating locally. Community lodges were built specifically to interrupt that leakage.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Accommodation Facilities Comparison</h3>
-              <p>Physically, the two are often quite similar — both typically offer simple twin rooms, a shared bathroom, and a communal dining and heating area. Community lodges on routes like Khopra tend to be slightly newer or better-maintained in places where lodge construction was a coordinated village project, but this varies trek to trek and shouldn't be assumed automatically.
-              </p>
-              <p>Teahouses on long-established routes can range from very basic to surprisingly comfortable, depending on how much the owning family has reinvested in the building over the years.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Food Sourcing and Dining Experience</h3>
-              <p>Food sourcing is one of the more noticeable differences on the ground. Community lodges along the Khopra trail lean heavily on local organic farms, with vegetables, grains, and yak cheese sourced from within the valley itself. It's not unusual to eat a meal where most of the ingredients were grown within walking distance of the dining table.
-              </p>
-              <p>Standard teahouses, particularly on busier circuits, often supplement local produce with packaged and canned goods carried or flown in from Pokhara or Kathmandu — partly to offer variety, and partly because demand on those routes outpaces what nearby farms alone can supply.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Cost Comparison Between Community Lodges and Teahouses</h3>
-              <p>Teahouse accommodation cost in Nepal is generally low and fairly standardized — many teahouses charge a small or even nominal room rate, expecting trekkers to order meals from the menu, where the actual margin is made. Prices climb gradually with altitude and remoteness, since supplies become harder to transport.
-              </p>
-              <p>Community lodge pricing tends to follow a similar overall range, since both systems are competing for the same trekkers on the same trails. The practical difference isn't usually a dramatically different price tag — it's where that price ends up going once you've paid it.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 6: SUSTAINABILITY */}
-          <article id="sustainability" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Which Option Creates More Sustainable Tourism?
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <h3 className="text-lg font-bold text-stone-900">Environmental Sustainability Comparison</h3>
-              <p>Because community lodges source more food locally, they generally cut down on the fuel and transport involved in getting supplies up the trail — fewer trucked-in goods means a smaller footprint per meal served. Waste handling can also be more consistent when a single committee sets the standard for the whole village rather than leaving it to each individual owner.
-              </p>
-              <p>Teahouses aren't inherently worse on this front, but environmental practices vary far more from one owner to the next, since there's no shared village policy guiding decisions like waste disposal or sourcing.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Community-Based Tourism Benefits</h3>
-              <p>Community-based tourism is built around a simple idea: the people living in a destination should have a meaningful stake in the income that destination generates. On the Khopra trail, that shows up as direct village ownership rather than tourism happening to a community from the outside.
-              </p>
-              <p>This matters beyond a single trekking season, too. When a village collectively owns its tourism infrastructure, it has more say in how that infrastructure grows — what gets built next, how many lodges the valley can sustainably support, and how trekking fits alongside farming and other local livelihoods.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Why Sustainable Trekking Accommodation Matters in Nepal</h3>
-              <p>Nepal's trekking economy supports hundreds of thousands of livelihoods, but the benefits haven't always reached the villages closest to the trails. Sustainable trekking accommodation models exist to close that gap — making sure that a valley with heavy foot traffic actually sees long-term development, not just short-term transactions.
-              </p>
-              <p>For mountain communities specifically, this isn't an abstract concern. Tourism income is one of the few realistic alternatives to subsistence farming or migration to cities for work, so how that income is structured has a direct effect on whether young people stay in the valley or leave it.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 7: ECONOMIC IMPACT */}
-          <article id="economic-impact" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Economic and Social Impact on Local Mountain Communities
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <h3 className="text-lg font-bold text-stone-900">Supporting Local Schools Through Tourism</h3>
-              <p>In villages with a community lodge model, school funding is often one of the first and most visible uses of lodge income. Teacher salaries in remote areas are notoriously hard to sustain on government funding alone, and a steady stream of lodge income can mean the difference between a fully staffed school and one running with gaps.
-              </p>
-              <p>This is a concrete, measurable outcome that a trekker can point to: the room they booked last night may be directly connected to a teacher's paycheck this month.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Healthcare and Village Development Benefits</h3>
-              <p>The same logic applies to health posts. Many remote villages along trekking routes have only basic medical facilities, sometimes staffed inconsistently. Community lodge revenue has been used in places like the Khopra valley to help fund visiting nurse clinics and keep local health posts operating more reliably.
-              </p>
-              <p>Beyond healthcare, that same pool of funds often goes toward smaller but meaningful village development projects — trail repairs, bridge maintenance, and even shared internet access that benefits the whole community, not just the lodge guests.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Creating Local Employment Opportunities</h3>
-              <p>A community lodge distributes employment more broadly than a single-family teahouse. Because staffing and management responsibilities rotate through a committee structure, more households end up with some connection to the lodge's income, rather than one family capturing most of the benefit.
-              </p>
-              <p>Over time, this kind of broad-based local employment can reduce the pressure on younger villagers to migrate toward Pokhara or Kathmandu for work, helping keep the village's population — and its traditions — intact.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 8: TREKKER EXPERIENCE */}
-          <article id="trekker-experience" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Trekker Experience — Which Accommodation Feels Better?
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <h3 className="text-lg font-bold text-stone-900">Cultural Immersion and Authentic Village Experience</h3>
-              <p>Because a community lodge is run by the whole village rather than one household, trekkers often end up interacting with a wider cross-section of local life — different staff members, different families involved in the cooking or maintenance, and a stronger sense of being a guest of the valley rather than a guest of one business.
-              </p>
-              <p>Teahouses offer their own version of authenticity, often built around getting to know one family well over a meal or an evening by the stove. Neither experience is more &ldquo;real&rdquo; than the other; they're just different shapes of the same hospitality tradition.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Comfort and Convenience Comparison</h3>
-              <p>In terms of day-to-day comfort, the two systems are closer than people often expect. Room size, mattress quality, and bathroom setups depend more on a specific lodge's age and maintenance than on its ownership model. A well-run teahouse on a popular circuit can easily out-comfort a newer community lodge, and vice versa.
-              </p>
-              <p>Convenience tends to favor teahouses slightly, simply because there are more of them, spaced more densely, on more routes — so trekkers have more flexibility about exactly where to stop each day.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Food Experience and Local Hospitality</h3>
-              <p>This is where community lodges often stand out. Meals built around what the valley itself produces — fresh vegetables, local dairy, seasonal produce — tend to taste noticeably different from a menu padded with packaged staples carried in from outside.
-              </p>
-              <p>Hospitality in both systems is generally warm; Nepali mountain culture places a high value on guest care regardless of who owns the building. The community lodge experience just tends to feel a bit more like eating dinner with an entire village rather than with one host family.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 9: TRAVELER MATCHING */}
-          <article id="trekker-match" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Which Is Better for Different Types of Trekkers?
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <ul className="space-y-4 text-xs text-stone-500 pl-4 border-l-2 border-emerald-500">
-                <li>
-                   <strong>Best Option for Budget Trekkers:</strong>If pure cost is the deciding factor, there's rarely a dramatic gap — both systems price competitively against each other on the same trail.
-                </li>
-                <li>
-                   <strong>Best Option for Eco-Conscious Travelers:</strong>Trekkers who care about environmental footprint and supply-chain transparency will generally find the community lodge model a stronger fit.
-                </li>
-                <li>
-                   <strong>Best Option for Cultural and Responsible Travelers:</strong>For travelers prioritizing community tourism — meaning they want their spending to directly support the village they're walking through — the community lodge is the clearer choice.
-                </li>
-                <li>
-                   <strong>Best Option for Comfort-Focused Trekkers:</strong>If consistent comfort and maximum route flexibility matter most, teahouses still have the edge simply due to sheer numbers and decades of refinement.
-                </li>
-              </ul>
-            </div>
-          </article>
-
-          {/* SECTION 10: KHOPRA MODEL */}
-          <article id="khopra-model" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Why the Khopra Region Is One of Nepal's Best Examples of Community Tourism
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <h3 className="text-lg font-bold text-stone-900">The Community Lodge Model on the Khopra Trail</h3>
-              <p>The Khopra Ridge Trek sits a little off the standard Annapurna circuit, which is part of why it became fertile ground for a different accommodation model. Local social entrepreneurs worked with village committees in Swanta and Nangi to build and operate lodges collectively from the start, rather than retrofitting an existing private guesthouse system.
-              </p>
-              <p>That head start matters. Because the community lodge model was built into the trail's tourism infrastructure early on, it didn't have to compete against an entrenched network of private teahouses — it simply became the standard way to stay overnight on this particular route. Learn more in our <Link href="/planning/community-lodges-khopra-trek" className="text-emerald-700 font-bold hover:underline">Community Lodges Cooperative Directory</Link>.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">How Trekking Supports Villages Directly</h3>
-              <p>Trekkers on the Khopra trail aren't just passing through — their accommodation spending becomes part of the valley's operating budget. That's used, in practice, for things like schoolteacher salaries, health post support, and trail maintenance, the same categories outlined earlier in this guide.
-              </p>
-              <p>It's a tangible answer to a question many responsible travelers ask themselves: does my trip actually help the place I'm visiting, or does the money just disappear into the wider economy? On the Khopra trail, the answer is built directly into the lodging system.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Why Responsible Travelers Choose Community-Based Trekking Routes</h3>
-              <p>For travelers who already weigh sustainability into their trip planning, choosing a route built around community lodges is one of the more straightforward ways to align a trek with those values — no extra research or special booking required, since the accommodation system itself does the work.
-              </p>
-              <p>It's also a way to experience Magar mountain culture and Annapurna-area scenery without contributing to the same economic leakage that affects busier, more commercially developed circuits nearby.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 11: FAQS */}
-          <article id="faq" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Frequently Asked Questions About Community Lodges
-            </h2>
-            <div className="space-y-4 mt-6">
-              {faqItems.map((faq, idx) => (
-                <details 
-                  key={idx} 
-                  className="group bg-white border border-stone-200 rounded-2xl p-5 [&_summary::-webkit-details-marker]:hidden cursor-pointer select-none transition-all duration-200 hover:border-emerald-500/30"
-                >
-                  <summary className="flex items-center justify-between font-bold text-stone-900 text-sm sm:text-base list-none">
-                    <span>{faq.q}</span>
-                    <span className="text-stone-400 group-open:rotate-180 transition-transform duration-200 text-lg">
-                      ▼
-                    </span>
-                  </summary>
-                  <p className="mt-4 text-xs sm:text-sm text-stone-600 leading-relaxed border-t border-stone-100 pt-3">
-                    {faq.a}
-                  </p>
-                </details>
-              ))}
-            </div>
-          </article>
-
-          {/* CONCLUSION */}
-          <article className="space-y-6">
-            <h2 className="text-2xl font-bold text-stone-955 font-sans">Conclusion</h2>
-            <p className="text-stone-600 leading-relaxed text-sm">Community lodge vs teahouse isn't really a question of which one is &ldquo;better&rdquo; in every sense — it's a question of what kind of impact you want your trekking spending to have. Teahouses remain the backbone of Nepal trekking accommodation, offering convenience, flexibility, and decades of route familiarity across nearly every major trail in the country.
-            </p>
-            <p className="text-stone-600 leading-relaxed text-sm">Community lodges, by contrast, were built to solve a specific problem: making sure that tourism income actually stays in the valleys it passes through, rather than draining out to absentee owners or distant supply chains. On routes like the Khopra Ridge Trek, that model has turned overnight stays into something more — a working source of school funding, healthcare access, and village infrastructure for the Magar communities of Swanta and Nangi.
-            </p>
-            <p className="text-stone-600 leading-relaxed text-sm">Neither system requires you to sacrifice comfort or convenience to choose it. The real decision comes down to whether you want your accommodation to function as a simple transaction, or as a direct investment in the mountain community you're walking through.
-            </p>
-          </article>
-
-          {/* CTA SECTION */}
-          <section className="bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white rounded-3xl p-8 shadow-md border border-stone-800 relative overflow-hidden">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
-            <div className="relative z-10 space-y-6 max-w-4xl">
-              <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Support Community Tourism</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">If you want your trekking accommodation to do more than just put a roof over your head for the night, the Khopra Ridge Trek is one of the clearest ways to put that into practice. Book our community-supported itinerary and your lodging directly funds local schools, clinics, and infrastructure in Swanta and Nangi — no extra effort required on your part.
-              </p>
-              
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Link 
-                  href="/contact"
-                  className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
-                >Book Your Khopra Ridge Community Trek &rarr;
-                </Link>
+              <div className="rounded-xl border border-emerald-200 bg-emerald-50/60 p-5 text-sm text-emerald-950 font-medium">
+                <strong>The Core Difference in One Sentence:</strong> A community lodge is collectively owned by the village, so income supports wider community schools and clinics. A teahouse is privately owned, so income directly supports the individual family running it.
               </div>
+            </div>
 
-              {/* Continue Planning Links */}
-              <div className="pt-6 border-t border-white/10 space-y-3">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Tour:</h4>
-                <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
-                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check trekking permit requirements (ACAP &amp; TIMS)
+            {/* Section 2: What is a Community Lodge & How it Works */}
+            <div id="what-is-community-lodge" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                What Is a Community Lodge in Nepal Trekking?
+              </h2>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
+                <div className="rounded-2xl border border-stone-200 bg-white p-6 space-y-3 shadow-sm">
+                  <h3 className="font-bold text-stone-950 text-lg">🏛️ Committee Management</h3>
+                  <p className="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                    Managed through elected local village committees. Representatives oversee staffing, maintenance, pricing, and transparent profit distribution to local public infrastructure.
+                  </p>
+                </div>
+
+                <div className="rounded-2xl border border-stone-200 bg-white p-6 space-y-3 shadow-sm">
+                  <h3 className="font-bold text-stone-950 text-lg">💡 Combating Economic Leakage</h3>
+                  <p className="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                    Designed to prevent tourism revenue from leaking out to city agencies. By keeping ownership local, 100% of accommodation spend stays within the mountain village economy.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 3: Facilities, Comfort & Food Experience */}
+            <div id="comfort-and-food" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Comfort, Facilities &amp; Food Experience
+              </h2>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">🛏️ Modern Room Facilities</h4>
+                  <p className="text-xs text-stone-600">Khopra Ridge community lodges feature solid wooden twin beds, warm mattresses, heated dining halls, and solar hot showers.</p>
+                </div>
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">🥗 Farm-to-Table Village Dining</h4>
+                  <p className="text-xs text-stone-600">Community lodge menus lean heavily on organic village-grown produce, local grains, fresh vegetables, and famous Swanta yak cheese.</p>
+                </div>
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">💵 Transparent Fair Pricing</h4>
+                  <p className="text-xs text-stone-600">Prices are fixed and set by the committee. Meal costs reflect altitude transport logistics, matching standard teahouse rates.</p>
+                </div>
+                <div className="rounded-xl border border-stone-200 bg-white p-5 space-y-2 shadow-sm">
+                  <h4 className="font-bold text-stone-900">🤝 Authentic Village Hospitality</h4>
+                  <p className="text-xs text-stone-600">Staff are local Magar residents. Staying in a community lodge feels like being welcomed by the whole village.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 4: Khopra Ridge & Swanta-Nangi Model Spotlight */}
+            <div id="khopra-spotlight" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                The Community Model on the Khopra Ridge Trek
+              </h2>
+
+              <div className="rounded-2xl border border-emerald-200 bg-emerald-50/60 p-6 space-y-4">
+                <h3 className="font-bold text-emerald-950 text-xl">Stewardship by Swanta &amp; Nangi Villages</h3>
+                <p className="text-sm text-emerald-900 leading-relaxed">
+                  Khopra Ridge sits off the crowded commercial circuits. To develop sustainable tourism without sacrificing local control, the Magar villages of Swanta and Nangi built a shared lodge network. Profits directly fund Mahabir Pun&apos;s wireless internet project, high school teacher salaries, and village health posts.
+                </p>
+                <div className="flex flex-wrap gap-3 pt-2 text-xs font-semibold text-emerald-800">
+                  <span className="bg-emerald-100 px-3 py-1 rounded-full border border-emerald-300">• 100% Village Reinvestment</span>
+                  <span className="bg-emerald-100 px-3 py-1 rounded-full border border-emerald-300">• Magar Cultural Heritage</span>
+                  <span className="bg-emerald-100 px-3 py-1 rounded-full border border-emerald-300">• Zero Commercial Leakage</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 5: Decision Guide - Which Should You Choose? */}
+            <div id="decision-guide" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Decision Guide: Which Model Fits Your Trek?
+              </h2>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
+                <div className="rounded-2xl border border-stone-200 bg-white p-6 space-y-3 shadow-sm">
+                  <h4 className="font-bold text-stone-950 text-base">Choose a Community Lodge If You Want:</h4>
+                  <ul className="text-xs text-stone-600 space-y-2 list-disc pl-4">
+                    <li>Your trekking spend to directly benefit an entire village community</li>
+                    <li>To experience organic farm-to-table dining and Magar culture</li>
+                    <li>To trek offbeat, sustainable trails like Khopra Ridge &amp; Mohare Danda</li>
+                    <li>Transparent, committee-regulated eco-tourism management</li>
+                  </ul>
+                </div>
+
+                <div className="rounded-2xl border border-stone-200 bg-white p-6 space-y-3 shadow-sm">
+                  <h4 className="font-bold text-stone-950 text-base">Choose a Teahouse If You Want:</h4>
+                  <ul className="text-xs text-stone-600 space-y-2 list-disc pl-4">
+                    <li>The widest route availability across classic trails (EBC, ABC, Annapurna Circuit)</li>
+                    <li>A close personal bond with one hosting family throughout your stay</li>
+                    <li>Broad international menus (pizza, pasta, bakery items)</li>
+                    <li>High flexibility for spontaneous route adjustments</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 6: FAQ Accordion */}
+            <div id="faq" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Frequently Asked Questions
+              </h2>
+              <div className="space-y-4">
+                {faqs.map((faq, idx) => (
+                  <details
+                    key={idx}
+                    className="group rounded-2xl border border-stone-200 bg-white p-6 transition [&_summary::-webkit-details-marker]:hidden"
+                  >
+                    <summary className="flex cursor-pointer items-center justify-between gap-4 font-bold text-stone-900 text-base sm:text-lg">
+                      <span>{faq.q}</span>
+                      <span className="shrink-0 text-stone-400 transition group-open:-rotate-180">
+                        ▼
+                      </span>
+                    </summary>
+                    <p className="mt-4 text-sm sm:text-base text-stone-600 leading-relaxed border-t border-stone-100 pt-4">
+                      {faq.a}
+                    </p>
+                  </details>
+                ))}
+              </div>
+            </div>
+
+            {/* CTA Banner */}
+            <div className="rounded-3xl bg-emerald-950 p-8 sm:p-12 text-white relative overflow-hidden shadow-xl">
+              <div className="relative z-10 space-y-4 max-w-2xl">
+                <span className="px-3 py-1 bg-emerald-800 text-emerald-200 rounded-full text-xs font-bold uppercase tracking-wider">
+                  Community-Owned Trekking
+                </span>
+                <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
+                  Experience Khopra Ridge Community Lodges Firsthand
+                </h3>
+                <p className="text-emerald-100/80 text-sm sm:text-base leading-relaxed">
+                  Book your Khopra Ridge Trek with licensed operator <strong>EMD Treks</strong> (NTB License #8928-091). Stay in community-owned lodges in Swanta and Khopra where 100% of accommodation profits support Magar village development.
+                </p>
+                <div className="pt-2 flex flex-wrap gap-4">
+                  <Link
+                    href="/contact"
+                    className="inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white hover:bg-emerald-500 transition-all shadow-md"
+                  >
+                    Book Community Trek
                   </Link>
-                  <Link href="/planning/pokhara-to-ghandruk" className="hover:text-emerald-400 flex items-center gap-1.5 transition">View Pokhara to Ghandruk Transportation Guide
-                  </Link>
-                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Get the interactive packing checklist for your gear
-                  </Link>
-                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check seasonal weather conditions before you go
+                  <Link
+                    href="/community/community-tourism-khopra"
+                    className="inline-block rounded-full bg-white/10 px-6 py-3 text-sm font-semibold text-white hover:bg-white/20 transition-all border border-white/20"
+                  >
+                    Community Tourism Hub
                   </Link>
                 </div>
               </div>
             </div>
-          </section>
 
-          {/* EEAT Author Verification Banner */}
-          <div className="p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-            <span className="text-2xl mt-0.5"></span>
-            <div>
-              <h4 className="font-bold text-stone-900 text-sm font-sans">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">Our guides collaborate directly with Swanta and Nangi village committees to ensure lodge maintenance standards and transparent pricing metrics.
-              </p>
-            </div>
           </div>
-        </main>
-      </div>
+
+          {/* Sticky Sidebar Table of Contents */}
+          <aside className="lg:col-span-1">
+            <div className="sticky top-24 rounded-2xl border border-stone-200 bg-white p-6 shadow-sm space-y-4">
+              <h4 className="font-extrabold text-stone-900 text-xs uppercase tracking-widest border-b border-stone-100 pb-3">
+                On This Page
+              </h4>
+              <nav className="space-y-2 text-xs font-semibold text-stone-600">
+                <a href="#comparison-table" className="block hover:text-emerald-600 transition">
+                  • Quick Comparison Table
+                </a>
+                <a href="#what-is-community-lodge" className="block hover:text-emerald-600 transition">
+                  • What Is a Community Lodge?
+                </a>
+                <a href="#comfort-and-food" className="block hover:text-emerald-600 transition">
+                  • Comfort &amp; Dining
+                </a>
+                <a href="#khopra-spotlight" className="block hover:text-emerald-600 transition">
+                  • Khopra &amp; Swanta Model
+                </a>
+                <a href="#decision-guide" className="block hover:text-emerald-600 transition">
+                  • Which Should You Choose?
+                </a>
+                <a href="#faq" className="block hover:text-emerald-600 transition">
+                  • FAQ Section
+                </a>
+              </nav>
+
+              <div className="pt-4 border-t border-stone-100 space-y-3">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400">Related Community Guides</span>
+                <ul className="space-y-2 text-xs text-stone-700">
+                  <li>
+                    <Link href="/community/community-tourism-khopra" className="hover:text-emerald-700 underline">
+                      Community Tourism Hub
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/community/how-trekking-supports-communities" className="hover:text-emerald-700 underline">
+                      How Trekking Supports Villages
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/community/magar-culture" className="hover:text-emerald-700 underline">
+                      Magar Cultural Guide
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/community/sustainable-tourism-khopra" className="hover:text-emerald-700 underline">
+                      Sustainable Tourism Overview
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
     </div>
   );
 }
