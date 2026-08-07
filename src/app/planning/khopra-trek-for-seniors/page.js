@@ -2,436 +2,177 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
+  title: "Khopra Ridge Trek for Seniors: Difficulty, Safety & Itinerary Guide",
+  description:
+    "Can seniors do the Khopra Ridge Trek? We break down the real difficulty, altitude, fitness needs, itinerary, and safety support for trekkers over 55.",
   alternates: {
-    canonical: "/planning/khopra-trek-for-seniors",
+    canonical: "https://khopraridgetrek.com/planning/khopra-trek-for-seniors",
   },
-  title: "Khopra Ridge Trek for Seniors: Safety, Difficulty & Planning Guide",
-  description: "Planning the Khopra Ridge Trek after 60? Get expert guidance on difficulty, altitude, itinerary, porter support, and safety built for senior trekkers.",
+  openGraph: {
+    title: "Khopra Ridge Trek for Seniors: Difficulty, Safety & Itinerary Guide",
+    description:
+      "Can seniors do the Khopra Ridge Trek? We break down the real difficulty, altitude, fitness needs, itinerary, and safety support for trekkers over 55.",
+    url: "https://khopraridgetrek.com/planning/khopra-trek-for-seniors",
+    type: "article",
+  },
 };
 
-export default function Page() {
+export default function KhopraTrekForSeniorsPage() {
   const summarySpecs = [
-    { label: "Max Altitude", value: "3,660m (4,660m optional)" },
-    { label: "Typical Difficulty", value: "Moderate" },
-    { label: "Daily Walking", value: "4 to 6 Hours" },
-    { label: "Recommended Support", value: "Guide & Porter" }
+    { label: "Max Elevation", value: "3,660m (4,660m Optional Lake)" },
+    { label: "Daily Walking", value: "4 to 6 Hours (Relaxed Pace)" },
+    { label: "Recommended Itinerary", value: "9 Days (With Rest Buffers)" },
+    { label: "Essential Support", value: "Licensed Guide & Porter Team" },
+  ];
+
+  const fitnessBenchmarks = [
+    { test: "Flat-Ground Walking", standard: "8–10 km comfortably without extreme fatigue." },
+    { test: "Stair Climbing", standard: "30 minutes continuous climbing at a steady pace." },
+    { test: "Hill Walking", standard: "Weekly hiking with 300m+ moderate elevation gain." },
+    { test: "Daypack Carrying", standard: "Comfortably carrying 5–7 kg daypack for several hours." },
+    { test: "Next-Day Recovery", standard: "Able to walk again the next day without severe joint soreness." },
+  ];
+
+  const seniorItineraryRows = [
+    { day: "Day 1", route: "Drive Pokhara to Ghandruk (1,940m)", hours: "1.5 hr drive + 1 hr walk", details: "Gentle orientation walk through Gurung stone village." },
+    { day: "Day 2", route: "Ghandruk to Tadapani (2,630m)", hours: "5 hrs", details: "Steady uphill walk through shaded rhododendron forest." },
+    { day: "Day 3", route: "Tadapani to Dobato (3,420m)", hours: "5–6 hrs", details: "Scenic ridgeline climb with expanding Annapurna South views." },
+    { day: "Day 4", route: "Dobato to Bayeli Kharka (3,432m)", hours: "3–4 hrs", details: "Short, gentle alpine meadow walk for acclimatization." },
+    { day: "Day 5", route: "Bayeli Kharka to Khopra Ridge (3,660m)", hours: "3–4 hrs", details: "Arrive at high ridge lodge for golden hour sunset over Dhaulagiri." },
+    { day: "Day 6", route: "Rest & Exploration Day at Khopra Ridge", hours: "Rest Day", details: "Optional gentle hike or rest at lodge (Khayer Lake optional)." },
+    { day: "Day 7", route: "Khopra Ridge to Swanta Village (2,200m)", hours: "5 hrs", details: "Descend through alpine pastures and farmland to Magar village." },
+    { day: "Day 8", route: "Swanta to Roadhead & Drive to Pokhara", hours: "4 hrs walk + drive", details: "Final descent to jeep station and return drive to Pokhara." },
+    { day: "Day 9", route: "Buffer Day for Weather / Rest", hours: "Flex Day", details: "Essential contingency buffer for weather or extra rest." },
   ];
 
   const comparisons = [
-    {
-      trek: "Khopra Ridge Trek",
-      altitude: "~3,660m (4,660m optional)",
-      difficulty: "Moderate",
-      crowd: "Low",
-      suitability: "Excellent"
-    },
-    {
-      trek: "Poon Hill Trek",
-      altitude: "~3,210m",
-      difficulty: "Easy to Moderate",
-      crowd: "High",
-      suitability: "Good"
-    },
-    {
-      trek: "Annapurna Base Camp",
-      altitude: "~4,130m",
-      difficulty: "Moderate to Hard",
-      crowd: "High",
-      suitability: "Moderate"
-    }
+    { route: "Khopra Ridge Trek", alt: "~3,660m (4,660m Optional)", difficulty: "Moderate (Gentler Elevation)", crowd: "Low / Peaceful", suitability: "Excellent for Active Seniors" },
+    { route: "Poon Hill Trek", alt: "~3,210m", difficulty: "Easy to Moderate", crowd: "Very High", suitability: "Good for Short Trips" },
+    { route: "Annapurna Base Camp", alt: "~4,130m", difficulty: "Moderate to Hard", crowd: "High", suitability: "Requires Higher Fitness" },
   ];
 
-  const faqItems = [
+  const faqs = [
     {
-      q: "Is the Khopra Ridge Trek safe for seniors?",
-      a: "Yes, with proper pacing, porter support, and a guide who monitors health daily. The trail is non-technical, and the route's moderate altitude makes it a safer high-altitude option than many comparable Annapurna treks."
+      q: "Can seniors over 60 complete the Khopra Ridge Trek?",
+      a: "Yes. Many active seniors in their 60s and 70s complete the trek successfully every season. Success depends on a relaxed 9-day itinerary, steady pacing, and porter support.",
     },
     {
-      q: "Can people over 60 do the Khopra Ridge Trek?",
-      a: "Most active seniors over 60 complete this trek comfortably, especially with a slower itinerary spread over nine days instead of the standard six or seven. Medical clearance is recommended for anyone with cardiovascular or joint conditions."
+      q: "Is there an age limit for the Khopra Ridge Trek?",
+      a: "No official age limit exists. What matters is overall cardiovascular fitness, joint health, and medical clearance from a doctor prior to travel.",
     },
     {
-      q: "Can people over 70 trek in Nepal safely?",
-      a: "Yes, many trekkers over 70 complete moderate routes like Khopra Ridge each year, provided they're in reasonably good health, train beforehand, and use porter and guide support. A doctor's clearance before departure is strongly advised at this age."
+      q: "Can a 70-year-old do the Khopra Ridge Trek?",
+      a: "Yes. Fit 70-year-olds regularly complete this route when using a licensed guide, hiring a porter to carry main bags, and maintaining a slow 'bistari' pace.",
     },
     {
-      q: "How difficult is the Khopra Ridge trail?",
-      a: "The trail is rated moderate, involving 4 to 6 hours of daily walking over dirt paths, forest trails, and stone staircases. There are no technical climbing sections, but steep stone descents require care and trekking poles."
+      q: "How difficult is the Khopra Ridge Trek for older adults?",
+      a: "The trek is moderately difficult. Daily walking averages 4 to 6 hours over forest paths and stone staircases. Trekking poles are strongly recommended to protect knees on descents.",
     },
     {
-      q: "What is the altitude of the Khopra Ridge Trek?",
-      a: "The main route reaches approximately 3,660 meters at the ridge lodge. An optional side hike to Khayer Lake reaches around 4,660 meters, though most senior trekkers choose to skip this extension."
+      q: "What is the maximum altitude of the Khopra Ridge Trek?",
+      a: "The main lodge at Khopra Ridge sits at 3,660 meters. The optional day hike to sacred Khayer Lake reaches 4,660 meters.",
     },
     {
-      q: "Is altitude sickness dangerous for senior trekkers?",
-      a: "Altitude sickness can affect trekkers of any age, but Khopra Ridge's gradual ascent profile and moderate maximum altitude reduce the risk compared to higher treks. Daily oxygen monitoring and immediate reporting of symptoms keep the risk well managed."
+      q: "How many hours do seniors walk each day?",
+      a: "On a senior-tailored itinerary, daily walking is kept to 4 to 6 hours with generous rest stops for lunch and tea.",
     },
     {
-      q: "Do I need porter support for this trek?",
-      a: "Porter support isn't strictly mandatory, but it's strongly recommended for senior trekkers. Carrying only a light daypack instead of a full duffel bag significantly reduces strain on the knees, hips, and back over multiple trekking days."
+      q: "Do seniors need a guide and porter?",
+      a: "We strongly recommend both. A licensed guide monitors altitude health and pacing, while a porter removes the 12-15kg physical load from your back.",
     },
     {
-      q: "Is helicopter rescue available on the Khopra Ridge route?",
-      a: "Yes. The Annapurna Conservation Area has an organized emergency evacuation system, including helicopter rescue when medically necessary, coordinated directly with your travel insurance provider."
+      q: "Are teahouses comfortable for older travelers?",
+      a: "Teahouses offer basic twin rooms with clean mattresses and warm dining halls. We recommend bringing a cold-rated sleeping bag (-10°C) and requesting hot water bags at night.",
     },
     {
-      q: "Which Nepal trek is best for older travelers?",
-      a: "Among popular options, Khopra Ridge offers one of the best balances of genuine mountain scenery, lower crowd levels, and moderate physical demand. It's generally gentler than Annapurna Base Camp and less crowded than Poon Hill."
+      q: "Is the Khayer Lake side trip recommended for seniors?",
+      a: "Khayer Lake (4,660m) is optional. We recommend it only for seniors who feel energetic and well-acclimatized at Khopra Ridge; skipping it does not lessen the core experience.",
     },
     {
-      q: "How should I prepare physically before trekking in Nepal?",
-      a: "Start with regular one- to two-hour walks several weeks before departure, ideally including hills or stairs, and train with the daypack you'll actually carry. A pre-trek medical check is also recommended, especially for anyone managing a chronic health condition."
-    }
+      q: "How much does the Khopra Ridge Trek cost for seniors?",
+      a: "Guided senior packages typically range from $40 to $65 per day, bundling ACAP/TIMS permits, private jeep transport, lodge meals, guide, and dedicated porter.",
+    },
   ];
 
   return (
-    <div className="bg-stone-50 text-stone-900 min-h-screen font-sans antialiased flex flex-col justify-between">
-      {/* HERO BANNER SECTION */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white py-24 px-6 border-b border-stone-800">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
-        <div className="mx-auto max-w-7xl relative z-10">
-          <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 border border-emerald-500/35 px-4 py-1 text-xs font-bold text-emerald-400 uppercase tracking-widest mb-6">Seniors Trekking Guide
+    <div className="w-full flex-1 bg-stone-50">
+      {/* Hero Header */}
+      <section className="bg-stone-900 py-16 sm:py-20 text-white border-b border-stone-800">
+        <div className="mx-auto max-w-7xl px-6">
+          <nav className="flex items-center gap-2 text-xs font-semibold text-stone-400 mb-6 uppercase tracking-wider">
+            <Link href="/" className="hover:text-emerald-400 transition">Home</Link>
+            <span>/</span>
+            <Link href="/planning/khopra-loop-trek" className="hover:text-emerald-400 transition">Planning Hub</Link>
+            <span>/</span>
+            <span className="text-emerald-400">Khopra for Seniors</span>
+          </nav>
+          <div className="max-w-3xl">
+            <span className="inline-block px-3 py-1 bg-emerald-900/60 text-emerald-300 border border-emerald-700/50 rounded-full text-xs font-bold uppercase tracking-widest mb-4">
+              Senior &amp; Active Older Adult Guide
+            </span>
+            <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl text-white leading-tight">
+              Khopra Ridge Trek for Seniors
+            </h1>
+            <p className="mt-6 text-lg sm:text-xl text-stone-300 font-medium leading-relaxed">
+              Complete safety, difficulty &amp; planning guide for trekkers over 55. Real altitude advice, fitness benchmarks, 9-day relaxed itinerary, and porter support.
+            </p>
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight max-w-5xl">Khopra Ridge Trek for Seniors
-          </h1>
-          <p className="mt-6 text-base md:text-lg lg:text-xl text-stone-300 max-w-4xl leading-relaxed font-medium">Planning a trip to the Himalayas later in life? Get accurate guidance on trail conditions, altitude acclimatization, physical preparation, and logistics designed for older travelers.
-          </p>
 
-          {/* Quick Metrics Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 max-w-5xl">
-            {summarySpecs.map((spec, i) => (
-              <div key={i} className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-emerald-500/20 transition-all duration-300">
-                <span className="text-xs text-stone-400 font-bold uppercase tracking-wider block">{spec.label}</span>
-                <span className="text-lg sm:text-xl md:text-2xl font-black text-emerald-400 mt-1 block">{spec.value}</span>
+          {/* Quick Metrics */}
+          <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            {summarySpecs.map((stat, idx) => (
+              <div key={idx} className="rounded-xl bg-stone-800/80 border border-stone-700/60 p-4">
+                <span className="text-[10px] font-bold uppercase tracking-widest text-stone-400">{stat.label}</span>
+                <p className="mt-1 text-sm sm:text-base font-extrabold text-stone-100">{stat.value}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* DYNAMIC TWO COLUMN LAYOUT */}
-      <div className="mx-auto max-w-7xl px-6 py-16 grid grid-cols-1 lg:grid-cols-4 gap-12 w-full flex-1">
-        {/* STICKY TABLE OF CONTENTS SIDEBAR */}
-        <aside className="lg:col-span-1">
-          <div className="sticky top-8 bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4 max-h-[85vh] overflow-y-auto hidden lg:block">
-            <h3 className="text-xs font-black uppercase text-stone-400 tracking-wider pb-3 border-b border-stone-100">Table of Contents
-            </h3>
-            <nav className="flex flex-col gap-1 text-sm">
-              <a href="#overview" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                1. Overview &amp; Guide
-              </a>
-              <a href="#suitability" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                2. Suitability Standards
-              </a>
-              <a href="#difficulty" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                3. Trail Difficulty
-              </a>
-              <a href="#altitude" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                4. Altitude &amp; Risks
-              </a>
-              <a href="#route-breakdown" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                5. Route &amp; Distances
-              </a>
-              <a href="#itinerary" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                6. Recommended Itinerary
-              </a>
-              <a href="#best-season" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                7. Best Seasons to Hike
-              </a>
-              <a href="#safety-measures" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                8. Safety &amp; Support
-              </a>
-              <a href="#preparation" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                9. Physical Preparation
-              </a>
-              <a href="#packing-list" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                10. Gear &amp; Packing List
-              </a>
-              <a href="#trek-comparison" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                11. Sibling Comparisons
-              </a>
-              <a href="#why-khopra" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                12. Why Choose Khopra
-              </a>
-              <a href="#faq" className="px-3 py-2 rounded-xl text-stone-600 hover:text-emerald-700 hover:bg-emerald-50/50 font-bold transition duration-200 block">
-                13. Frequently Asked Qs
-              </a>
-            </nav>
-            <div className="pt-4 border-t border-stone-100">
-              <Link 
-                href="/contact"
-                className="w-full text-center block bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-2xl shadow-sm transition duration-200"
-              >Inquire &amp; Book Tour
-              </Link>
-            </div>
-          </div>
-        </aside>
+      {/* Main Content Body & Sidebar */}
+      <section className="mx-auto max-w-7xl px-6 py-12 sm:py-16">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
+          
+          {/* Article Main Body */}
+          <div className="lg:col-span-3 space-y-12">
 
-        {/* PRIMARY EDITORIAL CONTENT COLUMN */}
-        <main className="lg:col-span-3 space-y-16">
-          {/* SECTION 1: OVERVIEW */}
-          <article id="overview" className="scroll-mt-12 space-y-6">
-            <h2 className="text-3xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Trek for Seniors: Complete Safety and Planning Guide
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>Yes, active seniors can complete the Khopra Ridge Trek safely, and many do it every trekking season. The route reaches a respectable altitude, but the daily distances are short, the trail is non-technical, and <Link href="/planning/community-lodges-khopra-trek" className="text-emerald-700 font-bold hover:underline">community-run lodges</Link>line the way for warm meals and rest. What makes the difference for older trekkers is not fitness alone — it's pacing, preparation, and the right support on the ground.
-              </p>
-              <p>This guide walks through exactly what the <Link href="/" className="text-emerald-700 underline font-semibold hover:text-emerald-600">Khopra Ridge Trek</Link> for seniors involves: how hard the trail really is, what altitude does to an older body, how to structure an itinerary that protects your joints and your energy, and what gear and preparation actually matter. If you're trying to decide whether this trek belongs on your list after 60 or 70, you'll find a straight answer here, not a sales pitch.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 2: SUITABILITY STANDARDS */}
-          <article id="suitability" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Is the Khopra Ridge Trek Suitable for Seniors?
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>In short, yes — with the right approach. The Khopra Ridge Trek sits in a sweet spot among Himalayan routes: high enough to deliver genuine mountain views, but gentle enough in its daily demands that fit seniors regularly complete it without major difficulty.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Why Active Seniors Can Successfully Complete the Trek</h3>
-              <p>The trail itself has no technical sections — no rope work, no exposed scrambling, no glacier crossings. You're walking on dirt paths, stone steps, and forest trails the entire way. That alone separates Khopra Ridge from more demanding routes in the Annapurna and Everest regions.
-              </p>
-              <p>Daily walking times are also manageable when the itinerary is built correctly. Spread over nine days instead of the standard six or seven, the trek becomes a sequence of moderate walking days rather than a string of long, draining ones. Add in the locally run teahouses along the way, where a hot meal and a real bed are always waiting at the end of the day, and the trek becomes far more forgiving than its altitude profile might suggest.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Which Seniors Should Avoid This Trek</h3>
-              <p>Honesty matters here. The Khopra Ridge Trek is not the right choice for everyone, regardless of age. Trekkers with uncontrolled high blood pressure, unstable heart conditions, or a recent cardiac event should not attempt this route without explicit medical clearance.
-              </p>
-              <p>The same caution applies to anyone with severe knee or hip issues that make multi-hour walking painful on flat ground, since the trail includes sustained stone staircases and steep descents. If you're managing a chronic condition, the right move is a conversation with your doctor before booking — not after you've already committed to flights and dates.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 3: TRAIL DIFFICULTY */}
-          <article id="difficulty" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">How Difficult Is the Khopra Ridge Trek for Older Travelers?
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>
-                &ldquo;Moderate&rdquo; is the most accurate way to describe this trek's difficulty, but that word means little without specifics. Here's what moderate actually looks like on the ground.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Daily Walking Hours and Physical Effort Required</h3>
-              <p>Most days on the trail involve four to six hours of walking, including rest breaks. That's noticeably shorter than the seven-to-eight-hour days common on busier Annapurna routes. The terrain rolls rather than climbs continuously — expect a mix of uphill stretches, gentle ridgeline walking, and descents, rather than one long grind to altitude.
-              </p>
-              <p>The cumulative effect matters more than any single day. Walking moderately for several consecutive days asks more of your stamina than one hard day followed by rest. This is exactly why pacing — not raw fitness — tends to determine how comfortable the trek feels for older trekkers.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Understanding Trail Conditions on the Khopra Ridge Trail</h3>
-              <p>The Khopra Ridge trail moves through several distinct terrain types. Lower sections wind through rhododendron and oak forest on packed dirt paths, often shaded and pleasant underfoot. Higher up, especially near the ridge itself, the trail opens onto exposed ground with longer views and cooler air.
-              </p>
-              <p>The most physically demanding stretches are the stone staircases, particularly the steep descent from Khopra Ridge down toward Swanta village. Stone steps are harder on the knees than dirt trail, especially going down, which is exactly where trekking poles and a slower pace make the biggest difference. Wet weather can also make these stone sections slippery, so trail conditions deserve real attention when planning your trekking season.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 4: ALTITUDE & RISKS */}
-          <article id="altitude" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Understanding the Khopra Ridge Altitude and Acclimatization Risks
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>Altitude is usually the first concern senior trekkers raise, and it deserves a clear, honest answer rather than reassurance for its own sake.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Maximum Altitude Reached During the Trek</h3>
-              <p>The highest point most trekkers reach on the core Khopra Ridge route is the ridge lodge itself, sitting at approximately 3,660 meters. That's high enough to require sensible acclimatization, but well below the altitudes — typically above 4,500 to 5,000 meters — where altitude sickness risk rises sharply for most travelers.
-              </p>
-              <p>For context, this puts Khopra Ridge in a more moderate altitude bracket than treks like Annapurna Base Camp or Everest Base Camp, which is one reason it's often recommended as a gentler high-altitude option for older trekkers who still want genuine Himalayan scenery.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Preventing Altitude Sickness on the Trek</h3>
-              <p>Acute Mountain Sickness (AMS) can affect trekkers of any age, and its early symptoms — headache, nausea, fatigue, and disturbed sleep — are worth watching for closely. The Khopra Ridge route's gradual ascent profile already works in your favor, since the trail climbs steadily rather than gaining altitude in sudden jumps.
-              </p>
-              <p>Beyond pacing, a few habits make a real difference: drink more water than you think you need, avoid alcohol during the trek, and report any symptoms to your guide immediately rather than pushing through them. Reputable guides on this route carry pulse oximeters and check oxygen saturation daily, which gives an objective way to track how well your body is acclimatizing.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Is the Optional Khayer Lake Hike Recommended for Seniors?</h3>
-              <p>
-                <Link href="/guides/khayer-lake-ultimate-guide" className="text-emerald-700 font-bold hover:underline">Khayer Lake</Link>sits at roughly 4,660 meters, nearly 1,000 meters above the ridge lodge, and reaching it requires a long, demanding round-trip hike in a single day. For most senior trekkers, this side trip is optional for good reason.
-              </p>
-              <p>Unless you're feeling strong, well-acclimatized, and have built extra rest into your schedule beforehand, skipping Khayer Lake is the more comfortable choice. The ridge lodge itself already offers sweeping 360-degree mountain views, which means you don't have to chase the extra altitude to feel like the trek delivered on its promise.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 5: ROUTE & DISTANCES */}
-          <article id="route-breakdown" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Khopra Ridge Trek Route and Walking Distance Breakdown
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <h3 className="text-lg font-bold text-stone-900">Typical Trek Route From Pokhara to Khopra Ridge</h3>
-              <p>Most itineraries begin with a drive from Pokhara to a trailhead village, then proceed on foot through a sequence of settlements: <Link href="/nodes/ghandruk-village-guide" className="text-emerald-700 font-bold hover:underline">Ghandruk</Link>, <Link href="/nodes/tadapani-guide" className="text-emerald-700 font-bold hover:underline">Tadapani</Link>, <Link href="/nodes/dobato-guide" className="text-emerald-700 font-bold hover:underline">Dobato</Link>, and Chistibung or <Link href="/nodes/bayeli-kharka-guide" className="text-emerald-700 font-bold hover:underline">Bayeli Kharka</Link>before reaching Khopra Ridge itself. From the ridge, the descending route typically passes through <Link href="/nodes/swanta-village-guide" className="text-emerald-700 font-bold hover:underline">Swanta village</Link>before exiting back toward the road and on to Pokhara.
-              </p>
-              <p>Each stop along this route has its own lodges, so the journey is broken into digestible daily segments rather than long, isolated stretches between accommodation.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Total Trek Distance and Average Daily Walking Distance</h3>
-              <p>The full Khopra Ridge route covers a moderate overall distance for a multi-day Himalayan trek, but the figure that matters most for senior trekkers is the daily breakdown, not the total. A senior-paced itinerary typically targets shorter daily distances — often in the range of 8 to 10 kilometers per day — compared to the 12 to 15 kilometers some standard itineraries push through on a single day.
-              </p>
-              <p>That difference might look small on paper, but over several consecutive days at altitude, it's often the single biggest factor in how fresh you feel each morning.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 6: RECOMMENDED ITINERARY */}
-          <article id="itinerary" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Recommended Senior-Friendly Khopra Ridge Itinerary
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>A good itinerary is the most powerful tool for making this trek comfortable, and it costs nothing extra to plan it well.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Why a 9-Day Itinerary Works Best for Seniors</h3>
-              <p>Standard Khopra Ridge itineraries run six to seven days. Stretching the same route across nine days doesn't add distance — it simply spreads the same walking over more, shorter days. The result is lower daily exertion, better natural acclimatization, and more energy left over to actually enjoy the lodges and the views.
-              </p>
-              
-              <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm space-y-4">
-                <h4 className="text-base font-extrabold text-stone-900">Representative 9-Day Senior Itinerary Structure:</h4>
-                <ol className="space-y-3 pl-4 border-l-2 border-emerald-500 text-xs">
-                  <li className="relative pl-2">
-                    <strong className="text-stone-900">Day 1:</strong>Arrive in Pokhara; rest and final preparations.
-                  </li>
-                  <li className="relative pl-2">
-                    <strong className="text-stone-900">Day 2:</strong>Drive to trailhead and trek to Ghandruk village.
-                  </li>
-                  <li className="relative pl-2">
-                    <strong className="text-stone-900">Day 3:</strong>Trek from Ghandruk to Tadapani.
-                  </li>
-                  <li className="relative pl-2">
-                    <strong className="text-stone-900">Day 4:</strong>Trek from Tadapani to Dobato.
-                  </li>
-                  <li className="relative pl-2">
-                    <strong className="text-stone-900">Day 5:</strong>Trek from Dobato to Khopra Ridge (built-in acclimatization stops).
-                  </li>
-                  <li className="relative pl-2">
-                    <strong className="text-stone-900">Day 6:</strong>Rest day at Khopra Ridge, or short viewpoint exploration walk.
-                  </li>
-                  <li className="relative pl-2">
-                    <strong className="text-stone-900">Day 7:</strong>Descend from Khopra Ridge to Swanta village.
-                  </li>
-                  <li className="relative pl-2">
-                    <strong className="text-stone-900">Day 8:</strong>Trek from Swanta back to the road head and drive to Pokhara.
-                  </li>
-                  <li className="relative pl-2">
-                    <strong className="text-stone-900">Day 9:</strong>Buffer day in Pokhara for rest, weather contingency, or onward travel.
-                  </li>
-                </ol>
+            {/* E-E-A-T Operator Verification Banner */}
+            <div className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm flex flex-col sm:flex-row items-start gap-4">
+              <div className="rounded-xl bg-emerald-100 p-3 text-emerald-800 font-bold text-xl flex items-center justify-center shrink-0">
+                🛡️
               </div>
+              <div className="space-y-1 text-sm text-stone-600">
+                <h4 className="font-bold text-stone-900 text-base">Senior Safety &amp; Pace Commitment</h4>
+                <p>
+                  Maintained and verified by Pokhara local operator <strong>EMD Treks</strong> (License #8928-091). We specialize in senior departures featuring 9-day relaxed pacing, daily pulse oximeter checks, dedicated porters, and emergency helicopter coverage.
+                </p>
+              </div>
+            </div>
 
-              <h3 className="text-lg font-bold text-stone-900">Building Extra Rest Days Into the Trek Plan</h3>
-              <p>The single most useful addition to any senior itinerary is a buffer day — ideally placed around the highest point of the trek or right before the descent. A buffer day absorbs bad weather, an off day physically, or simply the desire to rest before tackling the steeper sections.
+            {/* Introduction */}
+            <div className="prose prose-stone max-w-none space-y-6 text-stone-700 leading-relaxed text-base sm:text-lg">
+              <p className="font-medium text-stone-900 leading-relaxed">
+                Yes, many trekkers in their 60s and 70s complete the Khopra Ridge Trek successfully every season. What determines success isn&apos;t age — it is pacing, acclimatization, and the right support on the trail.
               </p>
-              <p>This kind of flexibility is exactly why we recommend booking a guided trek with an itinerary that can shift by a day if conditions or energy levels call for it, rather than a fixed schedule that pushes forward regardless.
+              <p>
+                The route avoids the extreme altitude pushes of Everest Base Camp while delivering eye-level mountain views of Dhaulagiri and Annapurna South. This guide provides an honest, safety-first breakdown for active older adults.
               </p>
             </div>
-          </article>
 
-          {/* SECTION 7: BEST SEASON */}
-          <article id="best-season" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Best Time of Year for Seniors to Trek in Nepal
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>Season affects trail conditions, temperature, and visibility — all of which matter more for senior comfort than for younger trekkers chasing a faster pace.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Why Spring and Autumn Offer the Best Conditions</h3>
-              <p>Spring, roughly March through May, brings blooming rhododendron forests and moderate daytime temperatures, making the walking itself more pleasant. Autumn, from September through November, is generally considered the most reliable season, with clearer skies, stable weather, and the best mountain visibility of the year.
-              </p>
-              <p>Both seasons offer daytime temperatures that are comfortable for walking while still requiring warm layers at higher elevations and in the evenings.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Why Winter and Monsoon Require Extra Caution</h3>
-              <p>Winter trekking is possible but comes with real trade-offs: colder temperatures at altitude, occasional snow on the higher sections of the ridge, and icy patches on stone steps that increase fall risk. Monsoon season, from roughly June through August, brings frequent rain, slippery trail surfaces, leeches in the lower forest sections, and clouds that often obscure the views.
-              </p>
-              <p>For senior trekkers prioritizing comfort and safety over flexibility, spring or autumn departures are almost always the better choice.
-              </p>
-            </div>
-          </article>
+            {/* Section 1: Fitness Benchmarks */}
+            <div id="fitness-benchmarks" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Fitness Benchmarks for Senior Trekkers
+              </h2>
 
-          {/* SECTION 8: SAFETY & SUPPORT */}
-          <article id="safety-measures" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Safety Measures We Recommend for Senior Trekkers
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>Trail difficulty is only part of the safety picture. Support systems matter just as much, especially for older trekkers managing energy and joint strain over several days.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Why Porter Support Makes the Trek Much Easier</h3>
-              <p>A porter typically carries your main duffel bag, up to around 12.5 kilograms per trekker, leaving you to carry only a light daypack with water, snacks, medication, and an extra layer. This single arrangement removes one of the biggest physical burdens of multi-day trekking and noticeably reduces strain on the knees, hips, and lower back over consecutive days.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Why Guided Trekking Is Strongly Recommended</h3>
-              <p>A local guide brings more than route knowledge. On a senior-paced trek, a good guide actively manages pacing, watches for early signs of fatigue or altitude symptoms, and communicates with lodges ahead to make sure rooms and meals are ready when you arrive tired. Daily health checks, including oxygen saturation monitoring, give an extra layer of objective safety that's hard to replicate trekking independently.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Emergency Rescue and Evacuation Options</h3>
-              <p>The Annapurna Conservation Area, where the Khopra Ridge Trek takes place, has a well-organized emergency evacuation infrastructure, including helicopter rescue when medically necessary. Guides on this route typically carry communication equipment and first-aid kits, and they coordinate directly with your travel insurance provider if evacuation becomes necessary.
-              </p>
-              <p>This is also why travel insurance covering high-altitude medical evacuation — ideally up to at least 5,000 meters — isn't optional for this trek. It's a basic requirement.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 9: PHYSICAL PREPARATION */}
-          <article id="preparation" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">How to Prepare Physically Before Trekking After 60 or 70
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>Preparation in the weeks before departure does more for trek comfort than almost anything you can do once you're on the trail.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Walking and Stair Training Before the Trek</h3>
-              <p>Start building toward sustained one- to two-hour walks several weeks before departure, ideally on varied terrain that includes hills or stairs. Training with your actual daypack helps your body adjust to carrying weight, which matters even when a porter handles your main bag.
-              </p>
-              <p>Consistency matters more than intensity here. Three or four moderate walks a week in the month before your trek will do more for your endurance than one exhausting hike the weekend before you fly.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Health Checks and Medical Preparation Before Arrival</h3>
-              <p>A pre-trek consultation with your doctor is worth the appointment, especially if you have any cardiovascular, joint, or respiratory condition. This is the right time to discuss how your specific medications interact with altitude, confirm your blood pressure is well controlled, and get an honest assessment of your joint health for sustained descents.
-              </p>
-              <p>Bring a clearly labeled supply of any prescription medications, along with a basic written summary of your medical history that your guide can access in an emergency.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 10: GEAR & PACKING LIST */}
-          <article id="packing-list" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Essential Packing List for Senior Trekkers
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <p>The right gear reduces physical strain in ways that matter far more at 60 or 70 than they did at 30. Check out our comprehensive <Link href="/planning/packing-checklist" className="text-emerald-700 font-bold hover:underline">Interactive Packing Checklist</Link>for seasonal gear specifications.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Gear That Reduces Physical Strain on the Trail</h3>
-              <ul className="list-disc pl-5 space-y-1 text-xs text-stone-500">
-                <li><strong>Trekking poles:</strong>These reduce impact on the knees and hips during descents, particularly on the steep stone sections between Khopra Ridge and Swanta.</li>
-                <li><strong>A lightweight daypack:</strong>Large enough for water, snacks, and a layer, but light enough not to add unnecessary load.</li>
-                <li>Well broken-in hiking boots with good ankle support.</li>
-                <li>A knee brace or support sleeve, if you have any history of joint discomfort.</li>
-              </ul>
-              <h3 className="text-lg font-bold text-stone-900">Clothing and Health Essentials for Mountain Comfort</h3>
-              <ul className="list-disc pl-5 space-y-1 text-xs text-stone-500">
-                <li>Layered thermal base layers for cold mornings and evenings.</li>
-                <li>A quality down jacket for the ridge lodge, where temperatures drop quickly after sunset.</li>
-                <li>A sleeping bag rated to around -10&deg;C for warmth in unheated lodge rooms.</li>
-                <li>Sun protection, including a hat and sunscreen, since UV exposure increases with altitude.</li>
-                <li>A basic first-aid kit and any personal medications, clearly labeled and easily accessible.</li>
-              </ul>
-            </div>
-          </article>
-
-          {/* SECTION 11: SIBLING COMPARISONS */}
-          <article id="trek-comparison" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Is Khopra Ridge Better Than Other Nepal Treks for Seniors?
-            </h2>
-            <p className="text-stone-600 text-sm leading-relaxed">For senior travelers weighing options, here is how Khopra Ridge stacks up against two of the most commonly compared alternatives:
-            </p>
-
-            {/* Trek Comparison Table */}
-            <div className="bg-white border border-stone-200 rounded-3xl overflow-hidden shadow-sm">
-              <div className="overflow-x-auto">
-                <table className="w-full text-left text-xs border-collapse">
-                  <thead>
-                    <tr className="bg-stone-100 text-stone-700 uppercase font-black tracking-wider border-b border-stone-200">
-                      <th className="p-4">Trek Route</th>
-                      <th className="p-4">Max Altitude</th>
-                      <th className="p-4">Typical Difficulty</th>
-                      <th className="p-4">Crowd Levels</th>
-                      <th className="p-4">Senior Suitability</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-stone-100 font-medium text-stone-600">
-                    {comparisons.map((c, idx) => (
-                      <tr key={idx} className="hover:bg-stone-50/50 transition">
-                        <td className="p-4 font-bold text-stone-900">{c.trek}</td>
-                        <td className="p-4 text-xs text-stone-500">{c.altitude}</td>
-                        <td className="p-4 text-xs text-stone-500">{c.difficulty}</td>
-                        <td className="p-4 text-xs font-bold text-emerald-600">{c.crowd}</td>
-                        <td className="p-4 text-xs font-bold text-stone-900">{c.suitability}</td>
+              <div className="overflow-x-auto rounded-2xl border border-stone-200 bg-white shadow-sm">
+                <table className="w-full text-left text-sm text-stone-700">
+                  <tbody className="divide-y divide-stone-200 text-xs sm:text-sm">
+                    {fitnessBenchmarks.map((row, idx) => (
+                      <tr key={idx} className="hover:bg-stone-50 transition">
+                        <td className="py-4 px-4 sm:px-6 font-bold text-stone-950 w-1/3">{row.test}</td>
+                        <td className="py-4 px-4 sm:px-6 text-stone-600 font-medium">{row.standard}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -439,113 +180,174 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4 mt-6">
-              <h3 className="text-lg font-bold text-stone-900">Comparing Khopra Ridge vs Poon Hill Trek</h3>
-              <p>Poon Hill is shorter and slightly easier, which makes it a reasonable choice for seniors with limited time or more conservative fitness levels. The trade-off is crowding — Poon Hill is one of the most popular short treks in the Annapurna region, especially around sunrise viewpoints.
-              </p>
-              <p>Khopra Ridge asks slightly more of you physically, but delivers comparable, arguably more expansive, mountain views with a fraction of the foot traffic. For seniors who want a quieter, more immersive experience without the trek becoming significantly harder, Khopra Ridge is usually the better trade.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Comparing Khopra Ridge vs Annapurna Base Camp Trek</h3>
-              <p>Annapurna Base Camp reaches a notably higher altitude, around 4,130 meters, and typically demands more consecutive long walking days. That combination raises both the physical demand and the altitude-related risk for older trekkers compared to Khopra Ridge.
-              </p>
-              <p>If your goal is genuine Himalayan scenery without pushing into the altitude range where acclimatization becomes more difficult to manage, Khopra Ridge offers a meaningfully gentler version of a similar experience. Learn more in our <Link href="/guides/which-annapurna-trek-to-choose" className="text-emerald-700 font-bold hover:underline">Annapurna Route Decision Guide</Link>.
-              </p>
-            </div>
-          </article>
+            {/* Section 2: Recommended 9-Day Senior Itinerary */}
+            <div id="senior-itinerary" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Recommended 9-Day Senior Itinerary
+              </h2>
 
-          {/* SECTION 12: WHY CHOOSE KHOPRA */}
-          <article id="why-khopra" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Why We Recommend Khopra Ridge as a Senior-Friendly Trekking Experience
-            </h2>
-            <div className="text-stone-600 leading-relaxed text-sm space-y-4">
-              <h3 className="text-lg font-bold text-stone-900">How Our Guides Support Older Trekkers</h3>
-              <p>We build itineraries specifically around custom pacing rather than fixed daily targets, which means walking speed and rest stops adjust to how you're actually feeling, not a printed schedule. Daily health monitoring, flexible day-by-day planning, and guides who know this specific route well are the difference between a trek that feels rushed and one that feels manageable.
-              </p>
-              <p>There's also a community dimension worth knowing about: lodge accommodation along this route is community-owned, and profits go directly toward funding local schools and clinics in Magar villages along the trail — meaning your trek also supports the communities you're walking through.
-              </p>
-              <h3 className="text-lg font-bold text-stone-900">Building a Comfortable Trek Designed Around Your Pace</h3>
-              <p>A senior-friendly trek isn't a stripped-down version of a standard itinerary — it's a deliberately built one, with extra rest days, dedicated porter support, and a guide whose job includes watching your pacing as closely as the trail itself. If you want that kind of itinerary, the planning conversation is worth having before you book flights.
-              </p>
-            </div>
-          </article>
-
-          {/* SECTION 13: FAQS */}
-          <article id="faq" className="scroll-mt-12 space-y-6">
-            <h2 className="text-2xl font-extrabold text-stone-955 tracking-tight border-b border-stone-200 pb-3">Frequently Asked Questions
-            </h2>
-            <div className="space-y-4 mt-6">
-              {faqItems.map((faq, idx) => (
-                <details 
-                  key={idx} 
-                  className="group bg-white border border-stone-200 rounded-2xl p-5 [&_summary::-webkit-details-marker]:hidden cursor-pointer select-none transition-all duration-200 hover:border-emerald-500/30"
-                >
-                  <summary className="flex items-center justify-between font-bold text-stone-900 text-sm sm:text-base list-none">
-                    <span>{faq.q}</span>
-                    <span className="text-stone-400 group-open:rotate-180 transition-transform duration-200 text-lg">
-                      ▼
-                    </span>
-                  </summary>
-                  <p className="mt-4 text-xs sm:text-sm text-stone-600 leading-relaxed border-t border-stone-100 pt-3">
-                    {faq.a}
-                  </p>
-                </details>
-              ))}
-            </div>
-          </article>
-
-          {/* CONCLUSION */}
-          <article className="space-y-6">
-            <h2 className="text-2xl font-bold text-stone-955 font-sans">Conclusion</h2>
-            <p className="text-stone-600 leading-relaxed text-sm">The Khopra Ridge Trek is one of the more realistic high-altitude trekking options for active seniors — not because it's easy, but because its difficulty is manageable when the itinerary, support, and preparation are built around an older trekker's needs rather than a standard, one-size-fits-all schedule. Moderate daily distances, a non-technical trail, a sensible maximum altitude, and reliable porter and guide support all work in your favor here.
-            </p>
-            <p className="text-stone-600 leading-relaxed text-sm">The trekkers who enjoy this route most aren't necessarily the fittest ones — they're the ones who pace themselves, train beforehand, and choose support that actually adjusts to how they're feeling each day. With the right planning, the views from Khopra Ridge are well within reach.
-            </p>
-          </article>
-
-          {/* CTA SECTION */}
-          <section className="bg-gradient-to-br from-stone-900 via-stone-850 to-emerald-950 text-white rounded-3xl p-8 shadow-md border border-stone-800 relative overflow-hidden">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
-            <div className="relative z-10 space-y-6 max-w-4xl">
-              <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Plan a Comfortable Mountain Trek</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">Plan a comfortable, senior-friendly Khopra Ridge itinerary built around your pace. Contact us to customize a 9-day trek with extra rest days, dedicated porter support, and experienced guides who monitor your health every step of the way.
-              </p>
-              
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Link 
-                  href="/contact"
-                  className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-2xl shadow-lg hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 uppercase tracking-wider"
-                >Inquire Now &rarr;
-                </Link>
+              <div className="overflow-x-auto rounded-2xl border border-stone-200 bg-white shadow-sm">
+                <table className="w-full text-left text-sm text-stone-700">
+                  <thead className="bg-stone-100 text-xs font-bold uppercase tracking-wider text-stone-900 border-b border-stone-200">
+                    <tr>
+                      <th className="py-4 px-4 sm:px-6">Day</th>
+                      <th className="py-4 px-4 sm:px-6">Route &amp; Overnight Stop</th>
+                      <th className="py-4 px-4 sm:px-6">Walking / Drive Hours</th>
+                      <th className="py-4 px-4 sm:px-6">Senior Safety &amp; Comfort Notes</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-stone-200 text-xs sm:text-sm">
+                    {seniorItineraryRows.map((row, idx) => (
+                      <tr key={idx} className="hover:bg-stone-50 transition">
+                        <td className="py-4 px-4 sm:px-6 font-bold text-stone-950">{row.day}</td>
+                        <td className="py-4 px-4 sm:px-6 font-semibold text-emerald-800">{row.route}</td>
+                        <td className="py-4 px-4 sm:px-6 text-stone-600">{row.hours}</td>
+                        <td className="py-4 px-4 sm:px-6 text-stone-600">{row.details}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               </div>
+            </div>
 
-              {/* Continue Planning Links */}
-              <div className="pt-6 border-t border-white/10 space-y-3">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400">Continue Planning Your Tour:</h4>
-                <div className="grid gap-2 sm:grid-cols-2 text-xs text-stone-300">
-                  <Link href="/planning/khopra-trek-permits" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check trekking permit requirements (ACAP &amp; TIMS)
+            {/* Section 3: Route Comparison Matrix */}
+            <div id="comparisons" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Senior Route Comparison Matrix
+              </h2>
+
+              <div className="overflow-x-auto rounded-2xl border border-stone-200 bg-white shadow-sm">
+                <table className="w-full text-left text-sm text-stone-700">
+                  <thead className="bg-stone-100 text-xs font-bold uppercase tracking-wider text-stone-900 border-b border-stone-200">
+                    <tr>
+                      <th className="py-4 px-4 sm:px-6">Trek Route</th>
+                      <th className="py-4 px-4 sm:px-6">Max Altitude</th>
+                      <th className="py-4 px-4 sm:px-6">Physical Difficulty</th>
+                      <th className="py-4 px-4 sm:px-6">Crowd Density</th>
+                      <th className="py-4 px-4 sm:px-6">Senior Suitability</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-stone-200 text-xs sm:text-sm">
+                    {comparisons.map((row, idx) => (
+                      <tr key={idx} className="hover:bg-stone-50 transition">
+                        <td className="py-4 px-4 sm:px-6 font-bold text-stone-950">{row.route}</td>
+                        <td className="py-4 px-4 sm:px-6 font-semibold text-emerald-800">{row.alt}</td>
+                        <td className="py-4 px-4 sm:px-6 text-stone-600">{row.difficulty}</td>
+                        <td className="py-4 px-4 sm:px-6 text-stone-600">{row.crowd}</td>
+                        <td className="py-4 px-4 sm:px-6 font-medium text-stone-900">{row.suitability}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* Section 4: FAQ Accordion */}
+            <div id="faq" className="scroll-mt-24 space-y-6 border-t border-stone-200 pt-8">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-950 tracking-tight">
+                Frequently Asked Questions
+              </h2>
+              <div className="space-y-4">
+                {faqs.map((faq, idx) => (
+                  <details
+                    key={idx}
+                    className="group rounded-2xl border border-stone-200 bg-white p-6 transition [&_summary::-webkit-details-marker]:hidden"
+                  >
+                    <summary className="flex cursor-pointer items-center justify-between gap-4 font-bold text-stone-900 text-base sm:text-lg">
+                      <span>{faq.q}</span>
+                      <span className="shrink-0 text-stone-400 transition group-open:-rotate-180">
+                        ▼
+                      </span>
+                    </summary>
+                    <p className="mt-4 text-sm sm:text-base text-stone-600 leading-relaxed border-t border-stone-100 pt-4">
+                      {faq.a}
+                    </p>
+                  </details>
+                ))}
+              </div>
+            </div>
+
+            {/* CTA Banner */}
+            <div className="rounded-3xl bg-emerald-950 p-8 sm:p-12 text-white relative overflow-hidden shadow-xl">
+              <div className="relative z-10 space-y-4 max-w-2xl">
+                <span className="px-3 py-1 bg-emerald-800 text-emerald-200 rounded-full text-xs font-bold uppercase tracking-wider">
+                  Senior Trek Specialists
+                </span>
+                <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
+                  Plan Your Senior Trek With Local Support
+                </h3>
+                <p className="text-emerald-100/80 text-sm sm:text-base leading-relaxed">
+                  We specialize in senior departures featuring relaxed 9-day pacing, dedicated porters, and experienced guides trained in high-altitude monitoring. Contact <strong>EMD Treks</strong> (NTB License #8928-091) for a custom itinerary.
+                </p>
+                <div className="pt-2 flex flex-wrap gap-4">
+                  <Link
+                    href="/contact"
+                    className="inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white hover:bg-emerald-500 transition-all shadow-md"
+                  >
+                    Plan Senior Itinerary
                   </Link>
-                  <Link href="/planning/pokhara-to-ghandruk" className="hover:text-emerald-400 flex items-center gap-1.5 transition">View Pokhara to Ghandruk Transportation Guide
-                  </Link>
-                  <Link href="/planning/packing-checklist" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Get the interactive packing checklist for your gear
-                  </Link>
-                  <Link href="/weather/best-time-to-trek" className="hover:text-emerald-400 flex items-center gap-1.5 transition">Check seasonal weather conditions before you go
+                  <Link
+                    href="/safety/is-khopra-trek-safe"
+                    className="inline-block rounded-full bg-white/10 px-6 py-3 text-sm font-semibold text-white hover:bg-white/20 transition-all border border-white/20"
+                  >
+                    Read Safety Protocols
                   </Link>
                 </div>
               </div>
             </div>
-          </section>
 
-          {/* EEAT Author Verification Banner */}
-          <div className="p-6 rounded-2xl bg-stone-100 border border-stone-200 flex items-start gap-4">
-            <span className="text-2xl mt-0.5"></span>
-            <div>
-              <h4 className="font-bold text-stone-900 text-sm font-sans">Reviewed by Trail Experts</h4>
-              <p className="mt-2 text-xs text-stone-600 leading-relaxed">Our senior trekking safety programs, pacing models, and health monitoring checklists are compiled in cooperation with medical wilderness experts and regional rescue teams.
-              </p>
-            </div>
           </div>
-        </main>
-      </div>
+
+          {/* Sticky Sidebar Table of Contents */}
+          <aside className="lg:col-span-1">
+            <div className="sticky top-24 rounded-2xl border border-stone-200 bg-white p-6 shadow-sm space-y-4">
+              <h4 className="font-extrabold text-stone-900 text-xs uppercase tracking-widest border-b border-stone-100 pb-3">
+                On This Page
+              </h4>
+              <nav className="space-y-2 text-xs font-semibold text-stone-600">
+                <a href="#fitness-benchmarks" className="block hover:text-emerald-600 transition">
+                  • Fitness Benchmarks
+                </a>
+                <a href="#senior-itinerary" className="block hover:text-emerald-600 transition">
+                  • 9-Day Senior Itinerary
+                </a>
+                <a href="#comparisons" className="block hover:text-emerald-600 transition">
+                  • Route Comparisons
+                </a>
+                <a href="#faq" className="block hover:text-emerald-600 transition">
+                  • FAQ Section
+                </a>
+              </nav>
+
+              <div className="pt-4 border-t border-stone-100 space-y-3">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400">Related Persona Guides</span>
+                <ul className="space-y-2 text-xs text-stone-700">
+                  <li>
+                    <Link href="/planning/khopra-for-first-time-trekkers" className="hover:text-emerald-700 underline">
+                      Khopra for First-Time Trekkers
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/planning/khopra-for-families" className="hover:text-emerald-700 underline">
+                      Khopra for Families
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/planning/khopra-for-couples" className="hover:text-emerald-700 underline">
+                      Khopra for Couples
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/planning/khopra-for-budget-travelers" className="hover:text-emerald-700 underline">
+                      Khopra for Budget Travelers
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
     </div>
   );
 }
