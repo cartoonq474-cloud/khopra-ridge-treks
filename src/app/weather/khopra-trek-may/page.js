@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge Weather in May: Temperature, Rainfall and Trekking Conditions Guide",
-  description:
-    "Planning a May trek? Get the full Khopra Ridge weather picture — temperatures, rainfall, visibility, snow, and what to pack from local trekking experts.",
+  title: "Khopra Ridge Weather in May | Nepal Trek Guide",
+  description: "Planning a May trek? Get the full Khopra Ridge weather picture — temperatures, rainfall, visibility, snow, and what to pack from local trekking experts.",
   alternates: {
     canonical: "https://khopraridgetrek.com/weather/khopra-trek-may",
   },

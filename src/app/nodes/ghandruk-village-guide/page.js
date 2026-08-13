@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/nodes/ghandruk-village-guide",
   },
-  title: "Ghandruk Village Nepal: Complete Guide to Annapurna's Gurung Cultural Capital",
-  description: "Plan your trip to Ghandruk Village with our complete guide — how to reach it from Pokhara, trekking routes, Gurung culture, permits, costs, and the best time to visit.",
+  title: "Ghandruk Village Nepal | Khopra Ridge Trek Guide",
+  description: "Plan your trip to Ghandruk Village with our complete guide — how to reach it from Pokhara, trekking routes, Gurung culture, permits, costs, and the best time.",
 };
 
 export default function Page() {

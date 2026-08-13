@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Page() {
   const sunsetTips = [
     {
-      title: "Annapurna South Alpenglow",
+      title: "Annapurna South Alpenglow | Khopra Ridge Trek Guide",
       desc: "At sunset, the light strikes the west-facing walls of the Annapurna range. Annapurna South (7,219m) and Hiunchuli (6,441m) glow intensely with golden and orange alpenglow, towering directly above the lodge."
     },
     {

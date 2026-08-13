@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/hidden-costs-khopra-trek",
   },
-  title: "Hidden Costs of the Khopra Trek: Complete Budget Guide for Unexpected Expenses",
-  description: "Planning the Khopra Trek? Discover every hidden expense most trekkers miss — permit fees, porter costs, tea house charges, gear rental, tipping, emergency funds, and more. Plan your real budget here.",
+  title: "Hidden Costs of the Khopra Trek | Nepal Trek Guide",
+  description: "Planning the Khopra Trek? Discover every hidden expense most trekkers miss — permit fees, porter costs, tea house charges, gear rental, tipping, emergency.",
 };
 
 export default function Page() {

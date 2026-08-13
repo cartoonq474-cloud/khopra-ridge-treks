@@ -6,7 +6,7 @@ export default function AboutPage() {
   const values = [
     {
       icon: "",
-      title: "100% Direct Local Impact",
+      title: "100% Direct Local Impact | Khopra Ridge Trek Guide",
       desc: "Unlike standard commercial teahouses, every dollar spent on our community lodges directly funds local school teacher salaries, community clinics, and infrastructure in the Magar villages."
     },
     {

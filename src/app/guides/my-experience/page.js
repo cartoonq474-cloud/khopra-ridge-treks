@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "My Experience: A Personal Khopra Ridge Journal | Khopra Ridge Trek",
-  description:
-    "A personal Khopra Ridge trek journal — real trail moments, community lodge nights, and the hike to Khayer Lake, told from someone who walked every step.",
+  title: "My Experience: A Personal Khopra Ridge Journal | Nepal Trek",
+  description: "A personal Khopra Ridge trek journal — real trail moments, community lodge nights, and the hike to Khayer Lake, told from someone who walked every step.",
   alternates: {
     canonical: "https://khopraridgetrek.com/guides/my-experience",
   },

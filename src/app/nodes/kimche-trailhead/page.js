@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/nodes/kimche-trailhead",
   },
-  title: "Kimche: The Jeep Road Trailhead for Ghandruk and Annapurna Treks",
-  description: "Kimche is the highest jeep-accessible point on the road from Pokhara toward Ghandruk. Learn why trekkers choose Kimche as their starting point, how to get here, road conditions, hiking times, and how it connects to Annapurna Base Camp and Khopra Ridge Trek routes.",
+  title: "Kimche: The Jeep Road Trailhead for Ghandruk and",
+  description: "Kimche is the highest jeep-accessible point on the road from Pokhara toward Ghandruk. Learn why trekkers choose Kimche as their starting point, how to get.",
 };
 
 export default function Page() {

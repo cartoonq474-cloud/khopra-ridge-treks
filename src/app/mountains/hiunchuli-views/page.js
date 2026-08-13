@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Hiunchuli Views from the Trail: Best Viewpoints on the Khopra Ridge Trek",
-  description:
-    "Discover the best Hiunchuli views from the trail — where to see this Annapurna Sanctuary peak, the finest viewpoints along Khopra Ridge, and when to go for sunrise, sunset, and clear panoramas.",
+  title: "Hiunchuli Views from the Trail | Khopra Ridge Trek Guide",
+  description: "Discover the best Hiunchuli views from the trail — where to see this Annapurna Sanctuary peak, the finest viewpoints along Khopra Ridge, and when to go for.",
   alternates: {
     canonical: "https://khopraridgetrek.com/mountains/hiunchuli-views",
   },

@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge Weather in February: Temperature, Snowfall & Trek Conditions",
-  description:
-    "Planning a February trek? Get real temperatures, snowfall data, and trail conditions for Khopra Ridge Weather in February, plus what to pack and expect on the trail.",
+  title: "Khopra Ridge Weather in February | Nepal Trek Guide",
+  description: "Planning a February trek? Get real temperatures, snowfall data, and trail conditions for Khopra Ridge Weather in February, plus what to pack and expect on.",
   alternates: {
     canonical: "https://khopraridgetrek.com/weather/khopra-trek-february",
   },

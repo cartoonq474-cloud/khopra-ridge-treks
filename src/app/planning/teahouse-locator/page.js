@@ -6,8 +6,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/teahouse-locator",
   },
-  title: "Khopra Ridge Teahouse Locator: Complete Guide to Lodges, Prices & Accommodation",
-  description: "Plan every overnight stop on the Khopra Ridge Trek with our complete teahouse locator. Compare lodge prices, facilities, booking tips, and village-by-village accommodation from Ghorepani to Khopra Danda.",
+  title: "Khopra Ridge Teahouse Locator | Nepal Trek Guide",
+  description: "Plan every overnight stop on the Khopra Ridge Trek with our complete teahouse locator. Compare lodge prices, facilities, booking tips, and village-by-village.",
 };
 
 export default function Page() {

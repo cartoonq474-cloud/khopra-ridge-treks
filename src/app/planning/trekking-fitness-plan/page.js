@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/trekking-fitness-plan",
   },
-  title: "Weekly Trekking Fitness Plan: 8-Week Himalayan Trek Training Program",
-  description: "Build real stamina for Nepal's mountain trails with our structured 8-week weekly trekking fitness plan. Designed for uphill climbs, long descents, and altitude endurance — follow this guide and arrive trail-ready.",
+  title: "Weekly Trekking Fitness Plan | Nepal Trek Guide",
+  description: "Build real stamina for Nepal's mountain trails with our structured 8-week weekly trekking fitness plan. Designed for uphill climbs, long descents, and.",
 };
 
 export default function Page() {

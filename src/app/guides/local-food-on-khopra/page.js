@@ -5,7 +5,7 @@ export const metadata = {
   alternates: {
     canonical: "/guides/local-food-on-khopra",
   },
-  title: "Ultimate Local Food & Dining on the Khopra Trail: Teahouse Meals, Local Cuisine & Dining Guide",
+  title: "Ultimate Local Food & Dining on the Khopra Trail",
   description: "Wondering what you'll eat on the Khopra Ridge Trek? Explore teahouse meals, local Nepali dishes, prices, vegetarian options, and altitude nutrition tips.",
 };
 

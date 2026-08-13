@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/nodes/birethanti-guide",
   },
-  title: "Birethanti Village & Checkpoint Guide: Annapurna Trek Entry, Permits & Route Split",
-  description: "Everything you need to know about Birethanti — the official entry gateway for Annapurna trekking. Learn how the ACAP and TIMS checkpoint works, how to reach it from Pokhara, and which trekking routes split here.",
+  title: "Birethanti Village & Checkpoint Guide | Khopra Ridge Trek",
+  description: "Everything you need to know about Birethanti — the official entry gateway for Annapurna trekking. Learn how the ACAP and TIMS checkpoint works, how to reach.",
 };
 
 export default function Page() {

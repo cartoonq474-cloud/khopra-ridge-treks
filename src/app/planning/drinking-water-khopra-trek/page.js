@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/drinking-water-khopra-trek",
   },
-  title: "Ultimate Drinking Water & Hydration Guide for the Khopra Ridge Trek",
-  description: "Planning the Khopra Ridge Trek? Our complete hydration guide covers safe drinking water, the plastic bottle ban, purification methods, costs, and how to avoid dehydration at altitude.",
+  title: "Ultimate Drinking Water & Hydration Guide for the Khopra",
+  description: "Planning the Khopra Ridge Trek? Our complete hydration guide covers safe drinking water, the plastic bottle ban, purification methods, costs, and how to.",
 };
 
 export default function Page() {

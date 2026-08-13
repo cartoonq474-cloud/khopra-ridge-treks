@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/acap-permit-guide",
   },
-  title: "ACAP Permit Guide (2026 Rules): Fees, Application Process & Annapurna Trek Requirements",
-  description: "Planning an Annapurna trek in 2026? Our complete ACAP permit guide covers updated fees, required documents, permit offices in Kathmandu and Pokhara, online vs counter application, and which treks need the permit. Built by local trekking operators.",
+  title: "ACAP Permit Guide (2026 Rules) | Khopra Ridge Trek Guide",
+  description: "Planning an Annapurna trek in 2026? Our complete ACAP permit guide covers updated fees, required documents, permit offices in Kathmandu and Pokhara, online.",
 };
 
 export default function Page() {

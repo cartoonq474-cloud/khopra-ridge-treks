@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/pokhara-to-kimche",
   },
-  title: "Pokhara to Kimche Trailhead Transport Guide (Jeep, Bus, Cost & Route)",
-  description: "Planning your Annapurna trek? Learn how to travel from Pokhara to Kimche trailhead — compare private jeep, shared jeep, and bus options, with real fare estimates, road conditions, and travel times updated for 2026.",
+  title: "Pokhara to Kimche Trailhead Transport Guide (Jeep, Bus",
+  description: "Planning your Annapurna trek? Learn how to travel from Pokhara to Kimche trailhead — compare private jeep, shared jeep, and bus options, with real fare.",
 };
 
 export default function Page() {

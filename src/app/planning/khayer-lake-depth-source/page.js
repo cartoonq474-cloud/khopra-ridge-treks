@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khayer Lake Glacial Source & Depth Guide: Geography, Altitude & Water Origin",
-  description:
-    "Discover how Khayer Lake formed, where its glacial water comes from, and how deep it really is. A complete geography, hydrology, and safety guide to this sacred Annapurna lake.",
+  title: "Khayer Lake Glacial Source & Depth Guide | Khopra Ridge Trek",
+  description: "Discover how Khayer Lake formed, where its glacial water comes from, and how deep it really is. A complete geography, hydrology, and safety guide to this.",
   alternates: {
     canonical: "https://khopraridgetrek.com/planning/khayer-lake-depth-source",
   },

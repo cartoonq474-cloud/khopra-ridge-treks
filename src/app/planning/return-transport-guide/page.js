@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/return-transport-guide",
   },
-  title: "Return Transport Guide: How to Get Back to Pokhara After Khopra Ridge Trek",
-  description: "Finished the Khopra Ridge Trek and need to return to Pokhara? Compare every transport option — taxi, private jeep, shared jeep, and public bus — with real costs, travel times, and local booking advice from Nayapul, Tatopani, and Beni.",
+  title: "Return Transport Guide | Khopra Ridge Trek Guide",
+  description: "Finished the Khopra Ridge Trek and need to return to Pokhara? Compare every transport option — taxi, private jeep, shared jeep, and public bus — with real.",
 };
 
 export default function Page() {

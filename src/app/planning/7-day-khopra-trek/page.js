@@ -12,7 +12,7 @@ export default function Page() {
   const itinerary = [
     {
       day: 1,
-      title: "Drive Pokhara to Hile, Trek to Tadapani",
+      title: "Drive Pokhara to Hile, Trek to Tadapani | Nepal Trek Guide",
       elev: "2,630m",
       time: "5-6 hrs",
       desc: "Scenic jeep drive from Pokhara to Hile (3 hrs) followed by a steady ascent through lush oak forests and rhododendrons to reach Tadapani node."

@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge Weather in June: Temperature, Rainfall, Trail Conditions & Trekking Guide",
-  description:
-    "Planning a June trek? Get a complete breakdown of Khopra Ridge weather in June — temperature, rainfall, visibility, trail conditions, and honest advice on whether it's the right month for you.",
+  title: "Khopra Ridge Weather in June | Nepal Trek Guide",
+  description: "Planning a June trek? Get a complete breakdown of Khopra Ridge weather in June — temperature, rainfall, visibility, trail conditions, and honest advice on.",
   alternates: {
     canonical: "https://khopraridgetrek.com/weather/khopra-trek-june",
   },

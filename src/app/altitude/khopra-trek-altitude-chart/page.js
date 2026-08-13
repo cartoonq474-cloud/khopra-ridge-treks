@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/altitude/khopra-trek-altitude-chart",
   },
-  title: "Khopra Trek Elevation Chart – Complete Day-by-Day Altitude Profile",
-  description: "Explore the complete Khopra Trek elevation chart with day-by-day altitude data, Khayer Lake maximum height (4,660m), acclimatization strategy, AMS risk zones, and trek difficulty breakdown.",
+  title: "Khopra Trek Elevation Chart – Complete Day-by-Day Altitude",
+  description: "Explore the complete Khopra Trek elevation chart with day-by-day altitude data, Khayer Lake maximum height (4,660m), acclimatization strategy, AMS risk.",
 };
 
 export default function Page() {

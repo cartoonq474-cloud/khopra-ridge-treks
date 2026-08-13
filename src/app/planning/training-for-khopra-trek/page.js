@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/training-for-khopra-trek",
   },
-  title: "Training Guide for the Khopra Ridge Trek: 8-Week Fitness Plan for Strength, Endurance & Altitude Readiness",
-  description: "Prepare for the Khopra Ridge Trek with this structured 8-week training plan. Build uphill endurance, leg strength, and altitude readiness before your Himalayan trek.",
+  title: "Training Guide for the Khopra Ridge Trek | Nepal Trek Guide",
+  description: "Prepare for the Khopra Ridge Trek with this structured 8-week training plan. Build uphill endurance, leg strength, and altitude readiness before your.",
 };
 
 export default function Page() {

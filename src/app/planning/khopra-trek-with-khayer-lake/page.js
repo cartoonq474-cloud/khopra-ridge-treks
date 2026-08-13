@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/khopra-trek-with-khayer-lake",
   },
-  title: "Khopra Ridge Trek with Khayer Lake: Complete Guide, Itinerary, Cost & Difficulty",
-  description: "Planning the Khopra Ridge Trek with Khayer Lake? Get the full itinerary, difficulty rating, cost breakdown, permits, best season, and expert local trekking advice.",
+  title: "Khopra Ridge Trek with Khayer Lake | Nepal Trek Guide",
+  description: "Planning the Khopra Ridge Trek with Khayer Lake? Get the full itinerary, difficulty rating, cost breakdown, permits, best season, and expert local trekking.",
 };
 
 export default function Page() {

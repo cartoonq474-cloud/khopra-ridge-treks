@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/nodes/tadapani-accommodation",
   },
-  title: "Tadapani Accommodation Guide: Best Lodges, Prices, Facilities & Trekker Tips (2026)",
-  description: "Planning to stay overnight in Tadapani? Discover real lodge prices, tea house facilities, bathroom standards, WiFi availability, food options, and expert booking tips from our local trekking team operating in the Annapurna region.",
+  title: "Tadapani Accommodation Guide | Khopra Ridge Trek Guide",
+  description: "Planning to stay overnight in Tadapani? Discover real lodge prices, tea house facilities, bathroom standards, WiFi availability, food options, and expert.",
 };
 
 export default function Page() {

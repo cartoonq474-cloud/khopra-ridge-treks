@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/do-you-need-a-guide",
   },
-  title: "Do You Need a Guide for the Khopra Trek? Nepal Rules, Safety & Expert Advice",
-  description: "Planning the Khopra Trek? Find out whether a guide is legally required, what Nepal's trekking regulations say for foreign travelers, and why local expertise matters on this remote Annapurna route.",
+  title: "Do You Need a Guide for the Khopra Trek? Nepal Rules",
+  description: "Planning the Khopra Trek? Find out whether a guide is legally required, what Nepal's trekking regulations say for foreign travelers, and why local expertise.",
 };
 
 export default function Page() {

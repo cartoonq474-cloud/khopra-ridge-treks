@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "What Mountains Can You See from Khopra Ridge? Complete Himalayan Peak Guide",
-  description:
-    "Discover every mountain visible from Khopra Ridge, including Dhaulagiri, Annapurna South, Machhapuchhre, and Nilgiri. Expert identification tips, seasonal advice, and photography guidance included.",
+  title: "What Mountains Can You See from Khopra Ridge? Complete",
+  description: "Discover every mountain visible from Khopra Ridge, including Dhaulagiri, Annapurna South, Machhapuchhre, and Nilgiri. Expert identification tips, seasonal.",
   alternates: {
     canonical: "https://khopraridgetrek.com/mountains/what-mountains-visible",
   },

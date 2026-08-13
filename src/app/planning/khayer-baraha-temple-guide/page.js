@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khayer Baraha Temple Guide: History, Pilgrimage, Rituals & Visitor Information",
-  description:
-    "A complete guide to Khayer Baraha Temple near Khayer Lake — its mythology, pilgrimage traditions, Janai Purnima festival, visitor etiquette, and how to reach this sacred Himalayan shrine.",
+  title: "Khayer Baraha Temple Guide | Khopra Ridge Trek Guide",
+  description: "A complete guide to Khayer Baraha Temple near Khayer Lake — its mythology, pilgrimage traditions, Janai Purnima festival, visitor etiquette, and how to reach.",
   alternates: {
     canonical: "https://khopraridgetrek.com/planning/khayer-baraha-temple-guide",
   },

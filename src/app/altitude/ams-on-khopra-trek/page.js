@@ -6,7 +6,7 @@ export const metadata = {
     canonical: "/altitude/ams-on-khopra-trek",
   },
   title: "AMS on the Khopra Trek: Symptoms, Risk Zones & Safety Guide",
-  description: "Planning the Khopra Ridge Trek? Learn how to recognize AMS symptoms early, understand altitude risk zones by route stage, and make safe on-trail decisions. A practical safety guide for trekkers in the Annapurna region.",
+  description: "Planning the Khopra Ridge Trek?  Learn how to recognize AMS symptoms early, understand altitude risk zones by route stage, and make safe on-trail decisions.",
 };
 
 export default function Page() {

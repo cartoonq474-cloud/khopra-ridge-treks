@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/viewpoints/best-photography-spots",
   },
-  title: "Best Photography Spots on the Khopra Trek: Viewpoints, Sunrise Tips & Camera Guide",
-  description: "Discover the best photography spots on the Khopra Trek — from Khopra Ridge to Khayer Lake. Get sunrise timing, camera gear tips, and seasonal advice from local guides.",
+  title: "Best Photography Spots on the Khopra Trek | Nepal Trek Guide",
+  description: "Discover the best photography spots on the Khopra Trek — from Khopra Ridge to Khayer Lake. Get sunrise timing, camera gear tips, and seasonal advice from.",
 };
 
 export default function Page() {

@@ -5,7 +5,7 @@ export const metadata = {
   alternates: {
     canonical: "/planning/khopra-trek-via-ghorepani",
   },
-  title: "Khopra Trek via Ghorepani: Complete Route, Itinerary, Cost & Guide (2026)",
+  title: "Khopra Trek via Ghorepani | Nepal Trek Guide",
   description: "Planning the Khopra Trek via Ghorepani? Get the full route breakdown, day-by-day itinerary, difficulty level, permits, cost, and Khayer Lake extension guide.",
 };
 

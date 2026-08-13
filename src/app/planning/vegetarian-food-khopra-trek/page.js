@@ -5,7 +5,7 @@ export const metadata = {
   alternates: {
     canonical: "/planning/vegetarian-food-khopra-trek",
   },
-  title: "Ultimate Vegetarian Food Guide for Khopra Trek: Safe Meals, Teahouse Food & Vegan Options",
+  title: "Ultimate Vegetarian Food Guide for Khopra Trek | Nepal Trek",
   description: "Planning the Khopra Ridge Trek? Learn what vegetarian and vegan food is available, which meals are safest, what teahouses serve, and how to eat well at altitude.",
 };
 

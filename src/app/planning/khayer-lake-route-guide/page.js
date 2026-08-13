@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khayer Lake Route & Trail Guide: Complete Trekking Route from Khopra Ridge",
-  description:
-    "Our complete Khayer Lake Route & Trail Guide covers distance, elevation, trail stages, navigation tips, and safety advice for the hike from Khopra Ridge.",
+  title: "Khayer Lake Route & Trail Guide | Khopra Ridge Trek Guide",
+  description: "Our complete Khayer Lake Route & Trail Guide covers distance, elevation, trail stages, navigation tips, and safety advice for the hike from Khopra Ridge.",
   alternates: {
     canonical: "https://khopraridgetrek.com/planning/khayer-lake-route-guide",
   },

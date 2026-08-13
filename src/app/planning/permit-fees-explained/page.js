@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/permit-fees-explained",
   },
-  title: "Permit Fees & Double-Fee Warnings for Nepal Trekking (2026 Complete Guide)",
-  description: "Learn official Nepal trekking permit fees, ACAP and TIMS costs, SAARC discounts, and how to avoid expensive double-fee penalties at trail checkpoints before starting Khopra Ridge Trek.",
+  title: "Permit Fees & Double-Fee Warnings for Nepal Trekking (2026",
+  description: "Learn official Nepal trekking permit fees, ACAP and TIMS costs, SAARC discounts, and how to avoid expensive double-fee penalties at trail checkpoints before.",
 };
 
 export default function Page() {

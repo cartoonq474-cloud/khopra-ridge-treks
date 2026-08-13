@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge vs. Everest View Trek: Which Trek Should You Choose?",
-  description:
-    "Comparing Khopra Ridge and Everest View Trek? We break down cost, altitude, difficulty, views, and logistics so you can pick the right short trek in Nepal.",
+  title: "Khopra Ridge vs. Everest View Trek | Nepal Trek Guide",
+  description: "Comparing Khopra Ridge and Everest View Trek? We break down cost, altitude, difficulty, views, and logistics so you can pick the right short trek in Nepal.",
   alternates: {
     canonical: "https://khopraridgetrek.com/guides/khopra-vs-everest-view",
   },

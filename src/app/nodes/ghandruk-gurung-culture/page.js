@@ -5,7 +5,7 @@ export const metadata = {
   alternates: {
     canonical: "/nodes/ghandruk-gurung-culture",
   },
-  title: "Gurung Culture & Heritage in Ghandruk: Complete Guide to Traditions, Lifestyle & History",
+  title: "Gurung Culture & Heritage in Ghandruk | Khopra Ridge Trek",
   description: "Discover authentic Gurung culture in Ghandruk village, traditions, festivals, architecture, food, and the living heritage of Nepal's Annapurna region.",
 };
 

@@ -6,7 +6,7 @@ export const metadata = {
   alternates: {
     canonical: "/altitude/khopra-ridge-elevation",
   },
-  title: "Khopra Ridge Elevation Chart & Profile: Day-by-Day Altitude Breakdown",
+  title: "Khopra Ridge Elevation Chart & Profile | Nepal Trek Guide",
   description: "See the full Khopra Ridge elevation chart with day-by-day altitude data, Khayer Lake's 4,660m profile, elevation gain figures, and acclimatization tips.",
 };
 

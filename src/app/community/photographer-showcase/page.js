@@ -7,7 +7,7 @@ export const metadata = {
   alternates: {
     canonical: "/community/photographer-showcase",
   },
-  title: "Trek Photographer Showcase: Real Himalayan Trek Photography from Nepal Trails",
+  title: "Trek Photographer Showcase | Nepal Trek Guide",
   description: "Explore our trek photographer showcase featuring real Himalayan trek photography from Nepal's Annapurna trails — Poon Hill, Khopra Ridge, Khayer Lake, and more.",
 };
 

@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/can-beginners-do-khopra-trek",
   },
-  title: "Can Beginners Do the Khopra Ridge Trek? Complete Difficulty Guide",
-  description: "Wondering if beginners can do the Khopra Ridge Trek? Get honest difficulty ratings, altitude risk explanations, fitness tips, a beginner itinerary, and expert safety advice from local trekking guides.",
+  title: "Can Beginners Do the Khopra Ridge Trek? Complete Difficulty",
+  description: "Wondering if beginners can do the Khopra Ridge Trek? Get honest difficulty ratings, altitude risk explanations, fitness tips, a beginner itinerary, and.",
 };
 
 export default function Page() {

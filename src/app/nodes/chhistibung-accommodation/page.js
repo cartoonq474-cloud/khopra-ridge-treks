@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/nodes/chhistibung-accommodation",
   },
-  title: "Chhistibung Accommodation & Wildlife Guide: Lodges, Wildlife and Trekking Information",
-  description: "Planning to stay in Chhistibung on the Khopra Ridge Trek? Discover accommodation options, lodge facilities, wildlife spotting opportunities, forest biodiversity, and essential trekking information for your overnight stop in Chhistibung, Nepal.",
+  title: "Chhistibung Accommodation & Wildlife Guide | Khopra Ridge Tr",
+  description: "Planning to stay in Chhistibung on the Khopra Ridge Trek? Discover accommodation options, lodge facilities, wildlife spotting opportunities, forest.",
 };
 
 export default function Page() {

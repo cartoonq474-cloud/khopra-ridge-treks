@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/nodes/tadapani-weather",
   },
-  title: "Tadapani Weather & Visibility Guide: Best Time for Clear Himalayan Views",
-  description: "Plan your trek with confidence. Our Tadapani Weather & Visibility Guide covers seasonal temperatures, rainfall, fog conditions, mountain visibility, and the best months to see Annapurna South and Machhapuchhre clearly from Tadapani.",
+  title: "Tadapani Weather & Visibility Guide | Khopra Ridge Trek Guide",
+  description: "Plan your trek with confidence. Our Tadapani Weather & Visibility Guide covers seasonal temperatures, rainfall, fog conditions, mountain visibility, and the.",
 };
 
 export default function Page() {

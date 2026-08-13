@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Annapurna Conservation Area (ACA) Guide: Permits, Routes, Rules & Conservation Explained",
-  description:
-    "Everything trekkers need to know about the Annapurna Conservation Area: ACAP permits and fees, checkpoints, trekking routes, wildlife, and rules — explained clearly by local trekking experts.",
+  title: "Annapurna Conservation Area (ACA) Guide | Khopra Ridge Trek",
+  description: "Everything trekkers need to know about the Annapurna Conservation Area: ACAP permits and fees, checkpoints, trekking routes, wildlife, and rules — explained.",
   alternates: {
     canonical: "https://khopraridgetrek.com/ecology/annapurna-conservation-area-guide",
   },

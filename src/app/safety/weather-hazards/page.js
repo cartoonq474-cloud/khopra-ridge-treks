@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/safety/weather-hazards",
   },
-  title: "Weather Hazards on the Khopra Trek: Complete Seasonal Safety Guide",
-  description: "Understand the real weather hazards on the Khopra Trek — from monsoon landslides and ridge winds to trail ice, whiteouts, and lightning. Plan your safest season with this complete route-specific guide.",
+  title: "Weather Hazards on the Khopra Trek | Nepal Trek Guide",
+  description: "Understand the real weather hazards on the Khopra Trek — from monsoon landslides and ridge winds to trail ice, whiteouts, and lightning.",
 };
 
 export default function Page() {

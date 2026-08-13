@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/jeep-vs-bus-for-khopra-trek",
   },
-  title: "Jeep vs Bus for the Khopra Trek: Which Transport Option Should You Choose? (2026 Guide)",
-  description: "Comparing jeep vs bus for the Khopra Trek? Read our local expert guide covering cost, travel time, road conditions, comfort, and which option is best for your travel style.",
+  title: "Jeep vs Bus for the Khopra Trek | Nepal Trek Guide",
+  description: "Comparing jeep vs bus for the Khopra Trek? Read our local expert guide covering cost, travel time, road conditions, comfort, and which option is best for.",
 };
 
 export default function Page() {

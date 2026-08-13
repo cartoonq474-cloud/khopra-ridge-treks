@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/kathmandu-to-pokhara",
   },
-  title: "Kathmandu to Pokhara Transport Guide: Best Travel Options, Costs & Travel Time",
-  description: "Compare all ways to travel from Kathmandu to Pokhara — flight, tourist bus, private car, shared jeep, and taxi. Get real costs, travel times, road condition updates, and expert recommendations based on your travel style.",
+  title: "Kathmandu to Pokhara Transport Guide | Khopra Ridge Trek Guide",
+  description: "Compare all ways to travel from Kathmandu to Pokhara — flight, tourist bus, private car, shared jeep, and taxi. Get real costs, travel times, road condition.",
 };
 
 export default function Page() {

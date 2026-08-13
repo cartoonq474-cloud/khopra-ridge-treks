@@ -6,7 +6,7 @@ export const metadata = {
     canonical: "/planning/vegan-food-khopra-trek",
   },
   title: "Ultimate Vegan & Plant-Based Food Guide for Trekking in Nepal",
-  description: "Planning a vegan trek in Nepal? Discover what plant-based food is really available, which local dishes to avoid, and how to stay fully vegan on the Khopra Ridge Trek.",
+  description: "Planning a vegan trek in Nepal? Discover what plant-based food is really available, which local dishes to avoid, and how to stay fully vegan on the Khopra.",
 };
 
 export default function Page() {

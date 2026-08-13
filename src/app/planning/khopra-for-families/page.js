@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge Trek for Families: A Complete Guide to Trekking in Nepal With Kids",
-  description:
-    "Planning the Khopra Ridge Trek with children? Get honest guidance on age, difficulty, safety, itinerary, and accommodation for a family-friendly Himalayan trek.",
+  title: "Khopra Ridge Trek for Families | Nepal Trek Guide",
+  description: "Planning the Khopra Ridge Trek with children? Get honest guidance on age, difficulty, safety, itinerary, and accommodation for a family-friendly Himalayan trek.",
   alternates: {
     canonical: "https://khopraridgetrek.com/planning/khopra-for-families",
   },

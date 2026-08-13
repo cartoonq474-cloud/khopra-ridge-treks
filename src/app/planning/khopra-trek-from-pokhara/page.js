@@ -5,7 +5,7 @@ export const metadata = {
   alternates: {
     canonical: "/planning/khopra-trek-from-pokhara",
   },
-  title: "Starting the Khopra Trek from Pokhara: Complete Transport & Route Guide",
+  title: "Starting the Khopra Trek from Pokhara | Nepal Trek Guide",
   description: "Planning to start the Khopra Trek from Pokhara? Get the full breakdown of transport options, trailheads, permits, costs, and packing tips from local guides.",
 };
 

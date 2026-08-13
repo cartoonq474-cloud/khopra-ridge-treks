@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Machhapuchhre Views from the Trail: Best Viewpoints Across Annapurna Trekking Routes",
-  description:
-    "Discover the best places, times, and trekking routes to see Machhapuchhre (Fishtail Mountain) clearly — from Ghandruk to Khopra Ridge and Muldai Viewpoint.",
+  title: "Machhapuchhre Views from the Trail | Khopra Ridge Trek Guide",
+  description: "Discover the best places, times, and trekking routes to see Machhapuchhre (Fishtail Mountain) clearly — from Ghandruk to Khopra Ridge and Muldai Viewpoint.",
   alternates: {
     canonical: "https://khopraridgetrek.com/mountains/machhapuchhre-views",
   },

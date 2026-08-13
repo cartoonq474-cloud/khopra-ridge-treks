@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/mountains/dhaulagiri-views-khopra",
   },
-  title: "Dhaulagiri Views from Khopra Ridge: Nepal's Most Underrated Himalayan Panorama",
-  description: "See Dhaulagiri up close from Khopra Ridge — one of Nepal's quietest, most dramatic mountain viewpoints. Geography, best seasons, photography tips, and trek details.",
+  title: "Dhaulagiri Views from Khopra Ridge | Nepal Trek Guide",
+  description: "See Dhaulagiri up close from Khopra Ridge — one of Nepal's quietest, most dramatic mountain viewpoints. Geography, best seasons, photography tips, and trek.",
 };
 
 export default function DhaulagiriViewsPage() {

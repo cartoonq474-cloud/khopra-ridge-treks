@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "What Makes the Khopra Ridge Trek Different? Unique Features & Local Experiences",
-  description:
-    "Discover why the Khopra Ridge Trek stands apart from Nepal's busier routes — community-owned lodges, sweeping ridge views, sacred Khayer Lake, and a quieter, more sustainable Himalayan experience.",
+  title: "What Makes the Khopra Ridge Trek Different? Unique Features",
+  description: "Discover why the Khopra Ridge Trek stands apart from Nepal's busier routes — community-owned lodges, sweeping ridge views, sacred Khayer Lake, and a quieter.",
   alternates: {
     canonical: "https://khopraridgetrek.com/guides/what-makes-khopra-different",
   },

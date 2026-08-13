@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/group-trek-cost",
   },
-  title: "Khopra Ridge Trek Group Cost & Shared Package Pricing Guide (2026)",
-  description: "Discover the real Khopra Ridge Trek group cost. See the full cost breakdown per person, what shared trek packages include, how group departures save you up to 35%, and how to budget your Nepal trek.",
+  title: "Khopra Ridge Trek Group Cost & Shared Package Pricing Guide",
+  description: "Discover the real Khopra Ridge Trek group cost. See the full cost breakdown per person, what shared trek packages include, how group departures save you up.",
 };
 
 export default function Page() {

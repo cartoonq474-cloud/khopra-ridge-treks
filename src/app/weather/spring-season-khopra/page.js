@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Spring Trekking on Khopra Ridge (March–May): Complete Seasonal Guide",
-  description:
-    "Planning spring trekking on Khopra Ridge? Get our complete March–May guide to weather, rhododendron blooms, trail conditions, mountain views, and packing tips.",
+  title: "Spring Trekking on Khopra Ridge (March–May) | Nepal Trek Guide",
+  description: "Planning spring trekking on Khopra Ridge? Get our complete March–May guide to weather, rhododendron blooms, trail conditions, mountain views, and packing tips.",
   alternates: {
     canonical: "https://khopraridgetrek.com/weather/spring-season-khopra",
   },

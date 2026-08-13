@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khayer Lake Photography Guide: Best Photo Spots, Timing & Expert Tips",
-  description:
-    "Plan your shoot with our Khayer Lake photography guide — best photo spots, sunrise and reflection timing, camera settings, gear, and drone rules from local trekking guides.",
+  title: "Khayer Lake Photography Guide | Khopra Ridge Trek Guide",
+  description: "Plan your shoot with our Khayer Lake photography guide — best photo spots, sunrise and reflection timing, camera settings, gear, and drone rules from local.",
   alternates: {
     canonical: "https://khopraridgetrek.com/planning/khayer-lake-photography-guide",
   },

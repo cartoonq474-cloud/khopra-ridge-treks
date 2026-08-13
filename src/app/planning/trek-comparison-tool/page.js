@@ -3,8 +3,7 @@ import ClientPage from "./ClientPage";
 
 export const metadata = {
   title: "Interactive Trek Comparison Tool: Compare Nepal's Best Treks",
-  description:
-    "Compare Everest Base Camp, Annapurna, Langtang, Khopra Ridge, Mardi Himal and more with our interactive Nepal trek comparison tool. Compare cost, difficulty, altitude, and duration to find your perfect trek.",
+  description: "Compare Everest Base Camp, Annapurna, Langtang, Khopra Ridge, Mardi Himal and more with our interactive Nepal trek comparison tool. Compare cost, difficulty.",
   alternates: {
     canonical: "https://khopraridgetrek.com/planning/trek-comparison-tool",
   },

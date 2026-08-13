@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/tims-card-guide",
   },
-  title: "TIMS Card Guide for Nepal Trekking: Fees, Requirements and Application Process (2026)",
-  description: "Planning a trek in Nepal? Our complete TIMS Card Guide covers permit fees, required documents, application steps, office locations, and everything you need to know before you hit the trail.",
+  title: "TIMS Card Guide for Nepal Trekking",
+  description: "Planning a trek in Nepal? Our complete TIMS Card Guide covers permit fees, required documents, application steps, office locations, and everything you need.",
 };
 
 export default function Page() {

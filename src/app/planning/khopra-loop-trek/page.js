@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/khopra-loop-trek",
   },
-  title: "Khopra Loop Trek: Complete Circuit Guide, Route, Itinerary, Map & Cost",
-  description: "Plan the full Khopra Loop Trek with our complete circuit guide. Explore the route, day-by-day itinerary, difficulty, permits, cost breakdown, and why this is Nepal's best off-the-beaten-path Annapurna trek.",
+  title: "Khopra Loop Trek | Nepal Trek Guide",
+  description: "Plan the full Khopra Loop Trek with our complete circuit guide. Explore the route, day-by-day itinerary, difficulty, permits, cost breakdown, and why this is.",
 };
 
 export default function Page() {

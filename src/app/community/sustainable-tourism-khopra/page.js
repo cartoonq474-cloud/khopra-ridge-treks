@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Sustainable Tourism on the Khopra Ridge Trail: Responsible Trekking in Nepal",
-  description:
-    "Discover how sustainable tourism on the Khopra Ridge Trail supports local communities, protects the Annapurna region, and offers a genuinely responsible way to trek in Nepal.",
+  title: "Sustainable Tourism on the Khopra Ridge Trail | Nepal",
+  description: "Discover how sustainable tourism on the Khopra Ridge Trail supports local communities, protects the Annapurna region, and offers a genuinely responsible way.",
   alternates: {
     canonical: "https://khopraridgetrek.com/community/sustainable-tourism-khopra",
   },

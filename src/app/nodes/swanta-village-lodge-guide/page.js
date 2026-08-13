@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/nodes/swanta-village-lodge-guide",
   },
-  title: "Swanta Village Lodge & Homestay Guide: Best Accommodation on the Khopra Ridge Trek",
-  description: "Planning to stay in Swanta Village? Discover the best lodges and homestays, room types, facilities, food options, pricing, and trekking tips for your Khopra Ridge Trek overnight stop.",
+  title: "Swanta Village Lodge & Homestay Guide | Khopra Ridge Trek",
+  description: "Planning to stay in Swanta Village? Discover the best lodges and homestays, room types, facilities, food options, pricing, and trekking tips for your Khopra.",
 };
 
 export default function Page() {

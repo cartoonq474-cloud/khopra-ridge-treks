@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/trekking-regulations-explained",
   },
-  title: "Trekking Regulations Explained: Complete Nepal Trekking Rules, Permits & Legal Requirements Guide",
-  description: "Understand every Nepal trekking regulation before you go. This complete guide covers TIMS card rules, permit requirements, solo trekking restrictions, guide laws, drone regulations, restricted area permits, checkpoint procedures, and legal penalties — updated by our licensed local team.",
+  title: "Trekking Regulations Explained | Nepal Trek Guide",
+  description: "Understand every Nepal trekking regulation before you go. This complete guide covers TIMS card rules, permit requirements, solo trekking restrictions, guide.",
 };
 
 export default function Page() {

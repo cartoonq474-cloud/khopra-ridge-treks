@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Flora of the Khopra Ridge Trail: A Complete Guide to Himalayan Plant Life",
-  description:
-    "Explore the flora of the Khopra Ridge Trail, from rhododendron forests and oak woodlands to alpine meadows near Khayer Lake in the Annapurna Conservation Area.",
+  title: "Flora of the Khopra Ridge Trail | Nepal Trek Guide",
+  description: "Explore the flora of the Khopra Ridge Trail, from rhododendron forests and oak woodlands to alpine meadows near Khayer Lake in the Annapurna Conservation Area.",
   alternates: {
     canonical: "https://khopraridgetrek.com/ecology/flora-of-khopra",
   },

@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/khopra-trek-difficulty",
   },
-  title: "Khopra Trek Difficulty: What to Expect on This Moderate to Demanding Himalayan Trail",
-  description: "Wondering how hard the Khopra Trek is? Get a realistic, section-by-section difficulty breakdown covering altitude, terrain, daily walking hours, fitness requirements, and comparisons with Poon Hill, Mardi Himal, and Annapurna Base Camp.",
+  title: "Khopra Trek Difficulty | Nepal Trek Guide",
+  description: "Wondering how hard the Khopra Trek is? Get a realistic, section-by-section difficulty breakdown covering altitude, terrain, daily walking hours, fitness.",
 };
 
 export default function Page() {

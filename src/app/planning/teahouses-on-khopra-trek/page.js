@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/teahouses-on-khopra-trek",
   },
-  title: "Teahouses on the Khopra Ridge Trek: Complete Lodge Guide for Every Overnight Stop",
-  description: "Planning the Khopra Ridge Trek? Discover every teahouse, lodge, room type, food options, pricing, bathrooms, WiFi, charging facilities, and accommodation expectations for every overnight stop on the route.",
+  title: "Teahouses on the Khopra Ridge Trek | Nepal Trek Guide",
+  description: "Planning the Khopra Ridge Trek? Discover every teahouse, lodge, room type, food options, pricing, bathrooms, WiFi, charging facilities, and accommodation.",
 };
 
 export default function Page() {

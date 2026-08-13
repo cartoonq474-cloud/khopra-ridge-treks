@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/safety/landslide-risks",
   },
-  title: "Landslide & Rockfall Risks on the Khopra Trail: Complete Safety Guide for Trekkers",
-  description: "Discover the real landslide and rockfall risks on the Khopra Trail. Learn which sections are most dangerous, how seasonal conditions affect safety, and how to trek Khopra Ridge with confidence.",
+  title: "Landslide & Rockfall Risks on the Khopra Trail | Nepal Trek",
+  description: "Discover the real landslide and rockfall risks on the Khopra Trail. Learn which sections are most dangerous, how seasonal conditions affect safety, and how.",
 };
 
 export default function Page() {

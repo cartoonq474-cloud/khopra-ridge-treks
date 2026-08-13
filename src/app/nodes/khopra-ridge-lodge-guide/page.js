@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/nodes/khopra-ridge-lodge-guide",
   },
-  title: "Khopra Ridge Lodge Facilities Guide: Rooms, Meals, Bathrooms, WiFi & Overnight Stay",
-  description: "Planning to stay overnight at Khopra Ridge? Our complete lodge facilities guide covers rooms, bedding, bathrooms, hot showers, electricity, Wi-Fi, heating, and what to realistically expect at 3,660m.",
+  title: "Khopra Ridge Lodge Facilities Guide | Nepal Trek Guide",
+  description: "Planning to stay overnight at Khopra Ridge? Our complete lodge facilities guide covers rooms, bedding, bathrooms, hot showers, electricity, Wi-Fi, heating.",
 };
 
 export default function Page() {

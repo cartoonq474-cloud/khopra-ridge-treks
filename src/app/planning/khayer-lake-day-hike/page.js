@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khayer Lake Day Hike Guide: Route, Timeline, Difficulty & Essential Tips",
-  description:
-    "Our complete Khayer Lake Day Hike Guide covers the route, hour-by-hour timeline, difficulty, altitude, safety, and packing tips for a safe hike from Khopra Ridge.",
+  title: "Khayer Lake Day Hike Guide | Khopra Ridge Trek Guide",
+  description: "Our complete Khayer Lake Day Hike Guide covers the route, hour-by-hour timeline, difficulty, altitude, safety, and packing tips for a safe hike from Khopra Ridge.",
   alternates: {
     canonical: "https://khopraridgetrek.com/planning/khayer-lake-day-hike",
   },

@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge Weather in August: Temperature, Rainfall and Trekking Conditions",
-  description:
-    "Planning to trek Khopra Ridge in August? Get real temperature, rainfall, humidity and trail data, plus honest advice on visibility, packing and safety during the late monsoon.",
+  title: "Khopra Ridge Weather in August | Nepal Trek Guide",
+  description: "Planning to trek Khopra Ridge in August? Get real temperature, rainfall, humidity and trail data, plus honest advice on visibility, packing and safety during.",
   alternates: {
     canonical: "https://khopraridgetrek.com/weather/khopra-trek-august",
   },

@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/altitude/khayer-lake-altitude-risks",
   },
-  title: "Khayer Lake Altitude Risks & Safety Guide (4,660m Trek Safety Explained)",
-  description: "Planning to hike to Khayer Lake at 4,660m? Learn the real altitude risks, AMS symptoms, weather dangers, acclimatization strategies, and expert safety tips before your Khopra Ridge trek.",
+  title: "Khayer Lake Altitude Risks & Safety Guide (4,660m Trek",
+  description: "Planning to hike to Khayer Lake at 4,660m? Learn the real altitude risks, AMS symptoms, weather dangers, acclimatization strategies, and expert safety tips.",
 };
 
 export default function Page() {

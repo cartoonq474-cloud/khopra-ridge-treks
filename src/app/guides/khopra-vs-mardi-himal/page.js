@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge vs Mardi Himal Trek: Which Annapurna Trek Should You Choose?",
-  description:
-    "Comparing Khopra Ridge and Mardi Himal? We break down cost, difficulty, views, crowds, and season by season so you can pick the right Annapurna trek for you.",
+  title: "Khopra Ridge vs Mardi Himal Trek | Nepal Trek Guide",
+  description: "Comparing Khopra Ridge and Mardi Himal? We break down cost, difficulty, views, crowds, and season by season so you can pick the right Annapurna trek for you.",
   alternates: {
     canonical: "https://khopraridgetrek.com/guides/khopra-vs-mardi-himal",
   },

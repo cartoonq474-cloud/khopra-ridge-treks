@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Rhododendron Forests of Annapurna: Spring Blooms, Trekking Routes & Best Time to Visit",
-  description:
-    "Discover where and when Annapurna's rhododendron forests bloom. Compare Ghorepani, Tadapani, and Khopra Ridge, explore forest ecology and wildlife, and plan your spring trek.",
+  title: "Rhododendron Forests of Annapurna | Khopra Ridge Trek Guide",
+  description: "Discover where and when Annapurna's rhododendron forests bloom. Compare Ghorepani, Tadapani, and Khopra Ridge, explore forest ecology and wildlife, and plan.",
   alternates: {
     canonical: "https://khopraridgetrek.com/ecology/rhododendron-forests",
   },

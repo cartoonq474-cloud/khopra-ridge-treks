@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge vs. Mohare Danda Trek: Which Annapurna Trek Should You Choose?",
-  description:
-    "Comparing Khopra Ridge and Mohare Danda treks? We break down difficulty, altitude, views, and community culture to help you pick the right Annapurna trek.",
+  title: "Khopra Ridge vs. Mohare Danda Trek | Nepal Trek Guide",
+  description: "Comparing Khopra Ridge and Mohare Danda treks? We break down difficulty, altitude, views, and community culture to help you pick the right Annapurna trek.",
   alternates: {
     canonical: "https://khopraridgetrek.com/guides/khopra-vs-mohare-danda",
   },

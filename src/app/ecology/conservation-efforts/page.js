@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Conservation Efforts in the Annapurna Area: Wildlife, Communities, and Sustainable Tourism",
-  description:
-    "Discover how conservation efforts in the Annapurna area protect wildlife, forests, and Himalayan communities — and how ACAP and responsible trekking work together.",
+  title: "Conservation Efforts in the Annapurna Area | Khopra Ridge Tr",
+  description: "Discover how conservation efforts in the Annapurna area protect wildlife, forests, and Himalayan communities — and how ACAP and responsible trekking work.",
   alternates: {
     canonical: "https://khopraridgetrek.com/ecology/conservation-efforts",
   },

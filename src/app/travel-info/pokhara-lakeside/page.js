@@ -6,7 +6,7 @@ export const metadata = {
     canonical: "/travel-info/pokhara-lakeside",
   },
   title: "Pokhara Lakeside: The Gateway to the Annapurna Region in Nepal",
-  description: "Discover why Pokhara Lakeside is the essential base for every Annapurna trek. Explore Phewa Lake, top attractions, hotels, restaurants, and everything you need to prepare for trekking in Nepal's Annapurna region.",
+  description: "Discover why Pokhara Lakeside is the essential base for every Annapurna trek. Explore Phewa Lake, top attractions, hotels, restaurants, and everything you.",
 };
 
 export default function Page() {

@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/nodes/tadapani-guide",
   },
-  title: "Tadapani Trail Junction Guide: Routes, Altitude & Trek Decisions in Annapurna",
-  description: "Discover Tadapani — the key trekking junction in the Annapurna region where routes split toward Ghorepani and Khopra Ridge. Altitude, lodges, trail conditions, and route decisions explained by local guides.",
+  title: "Tadapani Trail Junction Guide | Khopra Ridge Trek Guide",
+  description: "Discover Tadapani — the key trekking junction in the Annapurna region where routes split toward Ghorepani and Khopra Ridge. Altitude, lodges, trail.",
 };
 
 export default function Page() {

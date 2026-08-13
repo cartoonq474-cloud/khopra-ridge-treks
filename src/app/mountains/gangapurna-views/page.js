@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Gangapurna Views from Muldai & Khopra Ridge: Best Viewpoints, Seasons & Photography Guide",
-  description:
-    "Can you see Gangapurna from Khopra Ridge or Muldai Viewpoint? Here's where to look, when to go, and how to photograph one of the Annapurna region's most striking peaks.",
+  title: "Gangapurna Views from Muldai & Khopra Ridge | Nepal Trek Guide",
+  description: "Can you see Gangapurna from Khopra Ridge or Muldai Viewpoint? Here's where to look, when to go, and how to photograph one of the Annapurna region's most.",
   alternates: {
     canonical: "https://khopraridgetrek.com/mountains/gangapurna-views",
   },

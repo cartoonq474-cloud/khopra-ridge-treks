@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/altitude/khopra-trek-altitude-guide",
   },
-  title: "Khopra Ridge Altitude & Elevation Guide: Trek Height, Oxygen Levels & Safety Breakdown",
-  description: "Understand Khopra Ridge altitude, daily elevation gain, oxygen levels, and AMS risk with this complete trekking safety guide — covering the full route from Ghandruk to Khayer Lake (4,660m).",
+  title: "Khopra Ridge Altitude & Elevation Guide | Nepal Trek Guide",
+  description: "Understand Khopra Ridge altitude, daily elevation gain, oxygen levels, and AMS risk with this complete trekking safety guide — covering the full route from.",
 };
 
 export default function Page() {

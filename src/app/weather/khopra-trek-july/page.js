@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge Weather in July: Temperature, Rainfall & Monsoon Trek Guide",
-  description:
-    "Planning a July trek to Khopra Ridge? Get real temperature, rainfall, and trail data plus honest advice on visibility, Khayer Lake, gear, and safety during monsoon.",
+  title: "Khopra Ridge Weather in July | Nepal Trek Guide",
+  description: "Planning a July trek to Khopra Ridge? Get real temperature, rainfall, and trail data plus honest advice on visibility, Khayer Lake, gear, and safety during.",
   alternates: {
     canonical: "https://khopraridgetrek.com/weather/khopra-trek-july",
   },

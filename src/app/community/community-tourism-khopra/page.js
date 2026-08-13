@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Community Tourism on the Khopra Ridge Trek: How Local Communities Benefit from Trekking",
-  description:
-    "Discover how community tourism on the Khopra Ridge Trek funds schools, clinics, and conservation in the Annapurna region — and how your trek supports local Himalayan villages.",
+  title: "Community Tourism on the Khopra Ridge Trek | Nepal Trek Guide",
+  description: "Discover how community tourism on the Khopra Ridge Trek funds schools, clinics, and conservation in the Annapurna region — and how your trek supports local.",
   alternates: {
     canonical: "https://khopraridgetrek.com/community/community-tourism-khopra",
   },

@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/porter-cost",
   },
-  title: "Porter Cost & Weight Limits in Nepal: Complete Trekking Guide for 2026",
-  description: "Learn how much trekking porters cost in Nepal, standard weight limits, shared porter pricing, tipping culture, insurance inclusions, and ethical hiring standards before your Himalayan trek.",
+  title: "Porter Cost & Weight Limits in Nepal | Khopra Ridge Trek Guide",
+  description: "Learn how much trekking porters cost in Nepal, standard weight limits, shared porter pricing, tipping culture, insurance inclusions, and ethical hiring.",
 };
 
 export default function Page() {

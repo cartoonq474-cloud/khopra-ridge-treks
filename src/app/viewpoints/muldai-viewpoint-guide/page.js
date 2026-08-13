@@ -5,7 +5,7 @@ export const metadata = {
   alternates: {
     canonical: "/viewpoints/muldai-viewpoint-guide",
   },
-  title: "Muldai Viewpoint Guide: Complete Trek Route, Sunrise Views & Travel Information",
+  title: "Muldai Viewpoint Guide | Khopra Ridge Trek Guide",
   description: "Planning a trek to Muldai Viewpoint? Get the full route, sunrise timing, cost breakdown, permits, itineraries, and expert tips for this quiet Annapurna gem.",
 };
 

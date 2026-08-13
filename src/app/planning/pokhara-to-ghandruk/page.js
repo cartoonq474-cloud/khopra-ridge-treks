@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/pokhara-to-ghandruk",
   },
-  title: "Pokhara to Ghandruk Transportation Guide: Jeep, Bus, Taxi & Travel Costs (2026)",
-  description: "Planning to travel from Pokhara to Ghandruk? Compare private jeep, shared jeep, local bus, and taxi options with real costs, route details, road conditions, and booking tips for trekkers heading into the Annapurna region.",
+  title: "Pokhara to Ghandruk Transportation Guide | Khopra Ridge Trek",
+  description: "Planning to travel from Pokhara to Ghandruk? Compare private jeep, shared jeep, local bus, and taxi options with real costs, route details, road conditions.",
 };
 
 export default function Page() {

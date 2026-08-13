@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/guide-cost",
   },
-  title: "Trekking Guide Cost in Nepal: Daily Rates, Payouts & Value on the Trail",
-  description: "Wondering how much a trekking guide costs in Nepal? Get a full breakdown of daily rates, guide wages, what your fee actually covers, tipping standards, and whether hiring a licensed guide is worth the price.",
+  title: "Trekking Guide Cost in Nepal",
+  description: "Wondering how much a trekking guide costs in Nepal? Get a full breakdown of daily rates, guide wages, what your fee actually covers, tipping standards, and.",
 };
 
 export default function Page() {

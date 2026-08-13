@@ -6,8 +6,8 @@ export const metadata = {
   alternates: {
     canonical: "/guides/khopra-ridge-ultimate-guide",
   },
-  title: "Ultimate Khopra Ridge Guide: Itinerary, Cost, Permits, Difficulty & Best Time",
-  description: "Plan your Khopra Ridge Trek with confidence. This complete guide covers the full route, day-by-day itinerary, altitude profile, permits, cost, best time to go, and what to expect on the trail — everything you need before you book.",
+  title: "Ultimate Khopra Ridge Guide | Nepal Trek Guide",
+  description: "Plan your Khopra Ridge Trek with confidence. This complete guide covers the full route, day-by-day itinerary, altitude profile, permits, cost, best time to.",
 };
 
 export default function Page() {

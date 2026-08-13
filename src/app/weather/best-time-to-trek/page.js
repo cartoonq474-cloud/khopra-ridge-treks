@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Best Time to Do the Khopra Ridge Trek: Seasons, Weather & Month-by-Month Guide",
-  description:
-    "Find the best time to do the Khopra Ridge Trek. Compare spring, autumn, winter, and monsoon weather, visibility, rhododendron blooms, and monthly trail conditions.",
+  title: "Best Time to Do the Khopra Ridge Trek | Nepal Trek Guide",
+  description: "Find the best time to do the Khopra Ridge Trek. Compare spring, autumn, winter, and monsoon weather, visibility, rhododendron blooms, and monthly trail.",
   alternates: {
     canonical: "https://khopraridgetrek.com/weather/best-time-to-trek",
   },

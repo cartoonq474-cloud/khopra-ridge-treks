@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/nodes/swanta-village-guide",
   },
-  title: "Swanta Village Trek Guide: Khopra Ridge Descent, Homestays & Culture",
-  description: "Discover Swanta Village (2,200m) on the Khopra Ridge trek—a Magar community known for terraced farms, yak cheese, homestays, and a forest descent from Khopra Danda.",
+  title: "Swanta Village Trek Guide | Nepal Trek Guide",
+  description: "Discover Swanta Village (2,200m) on the Khopra Ridge trek—a Magar community known for terraced farms, yak cheese, homestays, and a forest descent from Khopra.",
 };
 
 export default function Page() {

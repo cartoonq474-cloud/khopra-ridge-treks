@@ -5,7 +5,7 @@ export const metadata = {
   alternates: {
     canonical: "/planning/khopra-trek-via-mohare-danda",
   },
-  title: "Khopra Trek via Mohare Danda: Complete Route, Itinerary, Cost & Eco Trek Guide",
+  title: "Khopra Trek via Mohare Danda | Nepal Trek Guide",
   description: "Plan your Khopra Trek via Mohare Danda with our complete guide covering the 12-day route, day-by-day itinerary, trek cost, permits and accommodation.",
 };
 

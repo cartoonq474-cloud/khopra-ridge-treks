@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge Trek for Couples: A Romantic Himalayan Escape in Nepal",
-  description:
-    "Planning a trek for two? Discover why the Khopra Ridge Trek is Nepal's most peaceful romantic trek for couples — private rooms, itineraries, cost, difficulty, and the best season to go.",
+  title: "Khopra Ridge Trek for Couples | Nepal Trek Guide",
+  description: "Planning a trek for two? Discover why the Khopra Ridge Trek is Nepal's most peaceful romantic trek for couples — private rooms, itineraries, cost.",
   alternates: {
     canonical: "https://khopraridgetrek.com/planning/khopra-for-couples",
   },

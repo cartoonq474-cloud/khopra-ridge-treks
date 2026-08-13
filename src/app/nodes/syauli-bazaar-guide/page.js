@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/nodes/syauli-bazaar-guide",
   },
-  title: "Syauli Bazaar Trailhead Guide: Routes, Access, Distance & Trekking Information",
-  description: "Plan your trek from Syauli Bazaar with our complete trailhead guide — transport from Pokhara, trail distances, elevation gain, permits, routes to Ghandruk, Dobato, Mohare Danda, and Khopra Ridge, plus seasonal tips and itineraries.",
+  title: "Syauli Bazaar Trailhead Guide | Khopra Ridge Trek Guide",
+  description: "Plan your trek from Syauli Bazaar with our complete trailhead guide — transport from Pokhara, trail distances, elevation gain, permits, routes to Ghandruk.",
 };
 
 export default function Page() {

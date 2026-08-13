@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/tours/khopra-mohare-danda-trek",
   },
-  title: "Khopra Ridge & Mohare Danda Eco-Trek: Complete Annapurna Community Trek Guide",
-  description: "Explore the Khopra Ridge & Mohare Danda Eco-Trek — a complete guide covering the route, day-by-day itinerary, difficulty, cost, permits, community lodges, Khayer Lake, and mountain views. Trek the Annapurna region with local experts.",
+  title: "Khopra Ridge & Mohare Danda Eco-Trek | Nepal Trek Guide",
+  description: "Explore the Khopra Ridge & Mohare Danda Eco-Trek — a complete guide covering the route, day-by-day itinerary, difficulty, cost, permits, community lodges.",
 };
 
 export default function Page() {

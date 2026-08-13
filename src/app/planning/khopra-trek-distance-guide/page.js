@@ -5,7 +5,7 @@ export const metadata = {
   alternates: {
     canonical: "/planning/khopra-trek-distance-guide",
   },
-  title: "Khopra Ridge Trek Distance & Pacing Guide: Daily Hiking Hours, Route Length & Elevation",
+  title: "Khopra Ridge Trek Distance & Pacing Guide | Nepal Trek Guide",
   description: "The complete Khopra Ridge Trek distance and pacing guide: total route length, day-by-day walking hours, elevation gain, and fitness tips to plan your trek.",
 };
 

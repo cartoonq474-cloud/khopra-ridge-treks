@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khayer Lake Weather & Seasonal Visibility: Best Time to Visit (Climate Guide)",
-  description:
-    "Planning a trek to Khayer Lake? Get a season-by-season and month-by-month breakdown of Khayer Lake weather, temperature, wind, snowfall, and visibility — plus expert safety tips.",
+  title: "Khayer Lake Weather & Seasonal Visibility | Khopra Ridge Tre",
+  description: "Planning a trek to Khayer Lake? Get a season-by-season and month-by-month breakdown of Khayer Lake weather, temperature, wind, snowfall, and visibility —.",
   alternates: {
     canonical: "https://khopraridgetrek.com/planning/khayer-lake-weather",
   },

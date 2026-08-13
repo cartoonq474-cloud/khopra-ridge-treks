@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Tukuche Peak Views from Khopra Ridge: Best Viewpoints, Seasons & Photography Guide",
-  description:
-    "Discover where and when to see Tukuche Peak from Khopra Ridge, with the best viewpoints, seasons, sunrise tips, and photography advice from local trekking guides.",
+  title: "Tukuche Peak Views from Khopra Ridge | Nepal Trek Guide",
+  description: "Discover where and when to see Tukuche Peak from Khopra Ridge, with the best viewpoints, seasons, sunrise tips, and photography advice from local trekking guides.",
   alternates: {
     canonical: "https://khopraridgetrek.com/mountains/tukuche-peak-views",
   },

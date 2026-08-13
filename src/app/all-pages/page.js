@@ -5,7 +5,7 @@ export const metadata = {
   alternates: {
     canonical: "/all-pages",
   },
-  title: "All Website Pages | Khopra Ridge Trek Directory",
+  title: "All Website Pages | Khopra Ridge Trek Directory | Nepal Trek",
   description: "Complete list of all pages, guides, itineraries, routes, maps, and tools for the Khopra Ridge and sacred Khayer Lake trek in Nepal.",
 };
 

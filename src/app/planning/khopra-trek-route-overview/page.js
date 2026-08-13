@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/khopra-trek-route-overview",
   },
-  title: "Khopra Ridge Route Overview: Trail Map, Villages & Trek Route Guide",
-  description: "A complete Khopra Ridge route overview: trail map, village-by-village breakdown, elevation profile, Khayer Lake extension, and how it compares to Poon Hill, Mardi Himal, and ABC.",
+  title: "Khopra Ridge Route Overview | Nepal Trek Guide",
+  description: "A complete Khopra Ridge route overview: trail map, village-by-village breakdown, elevation profile, Khayer Lake extension, and how it compares to Poon Hill.",
 };
 
 export default function Page() {

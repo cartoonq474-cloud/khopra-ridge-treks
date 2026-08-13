@@ -5,7 +5,7 @@ export const metadata = {
   alternates: {
     canonical: "/nodes/ghandruk-things-to-do",
   },
-  title: "Top Things to Do in Ghandruk: 12 Best Activities, Attractions & Experiences",
+  title: "Top Things to Do in Ghandruk | Khopra Ridge Trek Guide",
   description: "Discover the best things to do in Ghandruk, from Gurung culture and Himalayan viewpoints to museums, photography spots, food, and local village life.",
 };
 

@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge vs. Poon Hill Trek: Which Annapurna Trek Is Right for You?",
-  description:
-    "Comparing Khopra Ridge and Poon Hill treks? We break down cost, difficulty, altitude, views, and crowds so you can choose the right Annapurna trek for you.",
+  title: "Khopra Ridge vs. Poon Hill Trek | Nepal Trek Guide",
+  description: "Comparing Khopra Ridge and Poon Hill treks? We break down cost, difficulty, altitude, views, and crowds so you can choose the right Annapurna trek for you.",
   alternates: {
     canonical: "https://khopraridgetrek.com/guides/khopra-vs-poon-hill",
   },

@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/nodes/ghandruk-accommodation-guide",
   },
-  title: "Ghandruk Accommodation & Teahouse Guide: Best Places to Stay, Prices & Booking Tips",
-  description: "Plan your overnight stay in Ghandruk with confidence. Compare teahouses, hotels, and homestays, explore room prices and facilities, and get expert booking tips for Annapurna trekkers.",
+  title: "Ghandruk Accommodation & Teahouse Guide | Khopra Ridge Trek",
+  description: "Plan your overnight stay in Ghandruk with confidence. Compare teahouses, hotels, and homestays, explore room prices and facilities, and get expert booking.",
 };
 
 export default function Page() {

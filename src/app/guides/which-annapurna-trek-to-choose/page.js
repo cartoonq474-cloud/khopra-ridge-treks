@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Which Annapurna Trek Should You Choose? A Complete Comparison Guide",
-  description:
-    "Comparing Annapurna Base Camp, Circuit, Khopra Ridge, Mardi Himal, Poon Hill, and Mohare Danda? We break down difficulty, altitude, crowds, and cost to help you choose.",
+  title: "Which Annapurna Trek Should You Choose? A Complete",
+  description: "Comparing Annapurna Base Camp, Circuit, Khopra Ridge, Mardi Himal, Poon Hill, and Mohare Danda? We break down difficulty, altitude, crowds, and cost to help.",
   alternates: {
     canonical: "https://khopraridgetrek.com/guides/which-annapurna-trek-to-choose",
   },

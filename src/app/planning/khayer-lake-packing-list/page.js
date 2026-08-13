@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khayer Lake Day Hike Packing List: Complete Checklist for a Safe High-Altitude Trek",
-  description:
-    "Planning the Khayer Lake day hike from Khopra Ridge? Our complete packing list covers clothing, gear, food, and safety essentials for this high-altitude trek.",
+  title: "Khayer Lake Day Hike Packing List | Khopra Ridge Trek Guide",
+  description: "Planning the Khayer Lake day hike from Khopra Ridge? Our complete packing list covers clothing, gear, food, and safety essentials for this high-altitude trek.",
   alternates: {
     canonical: "https://khopraridgetrek.com/planning/khayer-lake-packing-list",
   },

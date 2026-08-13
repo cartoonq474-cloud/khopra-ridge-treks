@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Wildlife of the Khopra Ridge Trail: Animals, Birds & Himalayan Biodiversity Guide",
-  description:
-    "Discover the wildlife of the Khopra Ridge Trail — mammals, birds, ecosystems, and conservation inside the Annapurna Conservation Area. A complete field guide for trekkers.",
+  title: "Wildlife of the Khopra Ridge Trail | Nepal Trek Guide",
+  description: "Discover the wildlife of the Khopra Ridge Trail — mammals, birds, ecosystems, and conservation inside the Annapurna Conservation Area. A complete field guide.",
   alternates: {
     canonical: "https://khopraridgetrek.com/ecology/wildlife-khopra-trek",
   },

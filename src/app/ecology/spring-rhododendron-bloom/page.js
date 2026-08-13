@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Spring Rhododendron Bloom Timeline in Nepal: Month-by-Month Guide for Annapurna Treks",
-  description:
-    "See exactly when rhododendrons bloom in Nepal's Annapurna region, month by month and altitude by altitude, plus the best trails to catch peak color on the Khopra Ridge Trek.",
+  title: "Spring Rhododendron Bloom Timeline in Nepal | Khopra Ridge T",
+  description: "See exactly when rhododendrons bloom in Nepal's Annapurna region, month by month and altitude by altitude, plus the best trails to catch peak color on the.",
   alternates: {
     canonical: "https://khopraridgetrek.com/ecology/spring-rhododendron-bloom",
   },

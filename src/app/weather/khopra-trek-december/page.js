@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge Weather in December: Temperature, Snowfall & Winter Trek Guide",
-  description:
-    "Planning a December trek? Get real Khopra Ridge weather in December — temperatures, snowfall chances, trail conditions, mountain views, and what to pack.",
+  title: "Khopra Ridge Weather in December | Nepal Trek Guide",
+  description: "Planning a December trek? Get real Khopra Ridge weather in December — temperatures, snowfall chances, trail conditions, mountain views, and what to pack.",
   alternates: {
     canonical: "https://khopraridgetrek.com/weather/khopra-trek-december",
   },

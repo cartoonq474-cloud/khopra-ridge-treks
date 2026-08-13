@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/pokhara-to-syauli-bazaar",
   },
-  title: "Pokhara to Syauli Bazaar Transport Guide: Bus, Jeep, Taxi, Cost, Distance & Route",
-  description: "Planning your journey from Pokhara to Syauli Bazaar? Compare all transport options — local bus, shared jeep, private transfer, and taxi — with real costs, travel times, road conditions, and trekking trailhead advice.",
+  title: "Pokhara to Syauli Bazaar Transport Guide | Khopra Ridge Trek",
+  description: "Planning your journey from Pokhara to Syauli Bazaar? Compare all transport options — local bus, shared jeep, private transfer, and taxi — with real costs.",
 };
 
 export default function Page() {

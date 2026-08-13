@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/viewpoints/khopra-vs-poon-hill-views",
   },
-  title: "Khopra Ridge vs Poon Hill Views: Which Annapurna Viewpoint Offers the Better Experience?",
-  description: "Khopra Ridge vs Poon Hill views compared — sunrise, mountain panoramas, crowds, cost, and difficulty — so you can choose the best Annapurna viewpoint for your trek.",
+  title: "Khopra Ridge vs Poon Hill Views | Nepal Trek Guide",
+  description: "Khopra Ridge vs Poon Hill views compared — sunrise, mountain panoramas, crowds, cost, and difficulty — so you can choose the best Annapurna viewpoint for.",
 };
 
 export default function Page() {

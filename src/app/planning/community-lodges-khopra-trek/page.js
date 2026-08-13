@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/community-lodges-khopra-trek",
   },
-  title: "The Community Lodge Network Model on the Khopra Ridge Trek | Sustainable Tourism Nepal",
-  description: "Discover how the community lodge network model on the Khopra Ridge Trek works — where trekker spending directly funds local schools, internet infrastructure, conservation, and long-term village development in Nepal's Annapurna region.",
+  title: "The Community Lodge Network Model on the Khopra Ridge Trek",
+  description: "Discover how the community lodge network model on the Khopra Ridge Trek works — where trekker spending directly funds local schools, internet infrastructure.",
 };
 
 export default function Page() {

@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/viewpoints/best-viewpoints-khopra",
   },
-  title: "Best Viewpoints on the Khopra Ridge Trek: Sunrise, Sunset & Himalayan Panorama Guide",
-  description: "Discover the best viewpoints on the Khopra Ridge Trek — from Muldai's sunrise views to Khopra Ridge's Dhaulagiri panorama. Compare, plan, and photograph Nepal's quietest Himalayan viewpoints.",
+  title: "Best Viewpoints on the Khopra Ridge Trek | Nepal Trek Guide",
+  description: "Discover the best viewpoints on the Khopra Ridge Trek — from Muldai's sunrise views to Khopra Ridge's Dhaulagiri panorama. Compare, plan, and photograph.",
 };
 
 export default function Page() {

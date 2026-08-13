@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Red Pandas on the Khopra Ridge Trail: Habitat, Wildlife & Conservation Guide",
-  description:
-    "Are there red pandas on the Khopra Ridge Trail? Explore their habitat, behavior, and the conservation efforts protecting Nepal's rarest Himalayan mammal.",
+  title: "Red Pandas on the Khopra Ridge Trail | Nepal Trek Guide",
+  description: "Are there red pandas on the Khopra Ridge Trail? Explore their habitat, behavior, and the conservation efforts protecting Nepal's rarest Himalayan mammal.",
   alternates: {
     canonical: "https://khopraridgetrek.com/ecology/red-pandas-on-khopra",
   },

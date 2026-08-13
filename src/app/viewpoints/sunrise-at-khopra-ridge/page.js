@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/viewpoints/sunrise-at-khopra-ridge",
   },
-  title: "Sunrise at Khopra Ridge: Best Time, Mountain Views & Photography Guide",
-  description: "Discover what makes sunrise at Khopra Ridge one of Nepal's most peaceful Himalayan views — mountains visible, best time to go, photography tips, and how to prepare.",
+  title: "Sunrise at Khopra Ridge | Nepal Trek Guide",
+  description: "Discover what makes sunrise at Khopra Ridge one of Nepal's most peaceful Himalayan views — mountains visible, best time to go, photography tips, and how to.",
 };
 
 export default function Page() {

@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge Trek for First-Time Trekkers: The Complete Beginner's Guide",
-  description:
-    "Planning your first Himalayan trek? Our complete guide to the Khopra Ridge Trek covers difficulty, cost, itinerary, altitude, and packing for beginners.",
+  title: "Khopra Ridge Trek for First-Time Trekkers | Nepal Trek Guide",
+  description: "Planning your first Himalayan trek? Our complete guide to the Khopra Ridge Trek covers difficulty, cost, itinerary, altitude, and packing for beginners.",
   alternates: {
     canonical: "https://khopraridgetrek.com/planning/khopra-for-first-time-trekkers",
   },

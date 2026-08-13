@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge Trek for Budget Travelers: Complete Cost Guide & Money-Saving Tips",
-  description:
-    "Planning the Khopra Ridge Trek on a budget? Get real cost breakdowns, permit fees, transport tips, and money-saving strategies from local trekking experts.",
+  title: "Khopra Ridge Trek for Budget Travelers | Nepal Trek Guide",
+  description: "Planning the Khopra Ridge Trek on a budget? Get real cost breakdowns, permit fees, transport tips, and money-saving strategies from local trekking experts.",
   alternates: {
     canonical: "https://khopraridgetrek.com/planning/khopra-for-budget-travelers",
   },

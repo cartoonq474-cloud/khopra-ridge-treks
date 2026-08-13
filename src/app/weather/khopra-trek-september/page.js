@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge Weather in September: Temperature, Rainfall and Trekking Conditions",
-  description:
-    "Khopra Ridge weather in September: daytime and night temperatures, rainfall, visibility, trail conditions, and what to pack for this monsoon-to-autumn transition month.",
+  title: "Khopra Ridge Weather in September | Nepal Trek Guide",
+  description: "Khopra Ridge weather in September: daytime and night temperatures, rainfall, visibility, trail conditions, and what to pack for this monsoon-to-autumn.",
   alternates: {
     canonical: "https://khopraridgetrek.com/weather/khopra-trek-september",
   },

@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Gurung Culture in the Annapurna Foothills: Traditions, Villages, and Living Heritage",
-  description:
-    "Discover Gurung culture in the Annapurna foothills — Tamu history, Ghandruk village life, Rodhi traditions, festivals, and how to experience it on the Khopra Ridge Trek.",
+  title: "Gurung Culture in the Annapurna Foothills | Khopra Ridge Tre",
+  description: "Discover Gurung culture in the Annapurna foothills — Tamu history, Ghandruk village life, Rodhi traditions, festivals, and how to experience it on the Khopra.",
   alternates: {
     canonical: "https://khopraridgetrek.com/community/gurung-culture",
   },

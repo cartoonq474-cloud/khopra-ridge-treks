@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Local Festivals on the Khopra Circuit: A Complete Guide to Himalayan Celebrations",
-  description:
-    "Discover the local festivals on the Khopra Circuit, from the Janai Purnima pilgrimage to Khayer Lake to Tamu Lhosar in Ghandruk. Plan your cultural trek today.",
+  title: "Local Festivals on the Khopra Circuit | Nepal Trek Guide",
+  description: "Discover the local festivals on the Khopra Circuit, from the Janai Purnima pilgrimage to Khayer Lake to Tamu Lhosar in Ghandruk. Plan your cultural trek today.",
   alternates: {
     canonical: "https://khopraridgetrek.com/community/local-festivals",
   },

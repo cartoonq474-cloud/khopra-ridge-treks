@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Best Offbeat Treks in Nepal: Hidden Himalayan Trails Away From the Crowds",
-  description:
-    "Escape the crowded trails. We compare Nepal's 12 best offbeat treks — from Khopra Ridge to Lower Dolpo — so you can choose the right hidden route for you.",
+  title: "Best Offbeat Treks in Nepal",
+  description: "Escape the crowded trails. We compare Nepal's 12 best offbeat treks — from Khopra Ridge to Lower Dolpo — so you can choose the right hidden route for you.",
   alternates: {
     canonical: "https://khopraridgetrek.com/guides/best-offbeat-trek",
   },

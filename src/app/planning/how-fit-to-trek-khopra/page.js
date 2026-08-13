@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/how-fit-to-trek-khopra",
   },
-  title: "How Fit Do You Need to Be for Khopra Ridge Trek? Complete Fitness Guide",
-  description: "Wondering if you are fit enough for the Khopra Ridge Trek? Learn the real fitness requirements, daily trekking demands, beginner suitability, and how to train — so you can step onto the trail with confidence.",
+  title: "How Fit Do You Need to Be for Khopra Ridge Trek? Complete",
+  description: "Wondering if you are fit enough for the Khopra Ridge Trek? Learn the real fitness requirements, daily trekking demands, beginner suitability, and how to.",
 };
 
 export default function Page() {

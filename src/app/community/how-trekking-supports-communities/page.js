@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "How Trekking Supports Local Communities in Nepal: Economic, Cultural & Environmental Benefits",
-  description:
-    "Discover how trekking supports local communities in Nepal — from guide and porter wages to community lodges, schools, and conservation. Learn how to trek responsibly on Khopra Ridge.",
+  title: "How Trekking Supports Local Communities in Nepal",
+  description: "Discover how trekking supports local communities in Nepal — from guide and porter wages to community lodges, schools, and conservation.",
   alternates: {
     canonical: "https://khopraridgetrek.com/community/how-trekking-supports-communities",
   },

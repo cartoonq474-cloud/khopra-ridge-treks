@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/budget-khopra-trek",
   },
-  title: "Budget Khopra Trek Guide: Complete Cost Breakdown for Independent Travelers (2026)",
-  description: "Planning a Khopra Ridge Trek on a budget? Get exact permit fees, daily food costs, teahouse prices, transport options, guide rates, and money-saving tips from local trekking experts in Pokhara.",
+  title: "Budget Khopra Trek Guide | Nepal Trek Guide",
+  description: "Planning a Khopra Ridge Trek on a budget? Get exact permit fees, daily food costs, teahouse prices, transport options, guide rates, and money-saving tips.",
 };
 
 export default function Page() {

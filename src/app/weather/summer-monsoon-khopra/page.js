@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Summer & Monsoon Trekking on Khopra Ridge (June–August): Weather, Safety & Trail Guide",
-  description:
-    "Planning to trek Khopra Ridge in June, July, or August? Get honest, month-by-month weather, trail conditions, safety tips, and packing advice from our local guides.",
+  title: "Summer & Monsoon Trekking on Khopra Ridge (June–August)",
+  description: "Planning to trek Khopra Ridge in June, July, or August? Get honest, month-by-month weather, trail conditions, safety tips, and packing advice from our local.",
   alternates: {
     canonical: "https://khopraridgetrek.com/weather/summer-monsoon-khopra",
   },

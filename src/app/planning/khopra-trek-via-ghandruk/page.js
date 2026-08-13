@@ -5,7 +5,7 @@ export const metadata = {
   alternates: {
     canonical: "/planning/khopra-trek-via-ghandruk",
   },
-  title: "Khopra Trek via Ghandruk: Complete Route Guide, Itinerary, Cost & Travel Tips",
+  title: "Khopra Trek via Ghandruk | Nepal Trek Guide",
   description: "Planning the Khopra Trek via Ghandruk? Get the full route, day-by-day itinerary, cost, permits, difficulty rating, and best season — written by local guides.",
 };
 

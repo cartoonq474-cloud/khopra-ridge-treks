@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Hidden Gems of the Khopra Ridge Trek: Secret Viewpoints, Villages & Scenic Trails",
-  description:
-    "Discover the hidden gems of the Khopra Ridge Trek — secret viewpoints, remote Gurung and Magar villages, community lodges, wildlife, and Khayer Lake's sacred side.",
+  title: "Hidden Gems of the Khopra Ridge Trek | Nepal Trek Guide",
+  description: "Discover the hidden gems of the Khopra Ridge Trek — secret viewpoints, remote Gurung and Magar villages, community lodges, wildlife, and Khayer Lake's sacred.",
   alternates: {
     canonical: "https://khopraridgetrek.com/guides/hidden-gems",
   },

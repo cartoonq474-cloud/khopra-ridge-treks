@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Magar Culture in the Khopra Valleys: Traditions, Villages, and Everyday Life",
-  description:
-    "Discover Magar culture in the Khopra Valleys — village life, farming traditions, food, festivals, honey hunting, and community-run lodges along the Khopra Ridge Trek.",
+  title: "Magar Culture in the Khopra Valleys | Nepal Trek Guide",
+  description: "Discover Magar culture in the Khopra Valleys — village life, farming traditions, food, festivals, honey hunting, and community-run lodges along the Khopra.",
   alternates: {
     canonical: "https://khopraridgetrek.com/community/magar-culture",
   },

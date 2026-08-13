@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Community Lodge vs Teahouse in Nepal: Complete Trekking Accommodation Comparison",
-  description:
-    "Community lodge vs teahouse: compare ownership, cost, comfort, and sustainability in Nepal trekking, and see why Khopra Ridge Trek uses a community lodge model.",
+  title: "Community Lodge vs Teahouse in Nepal | Khopra Ridge Trek Guide",
+  description: "Community lodge vs teahouse: compare ownership, cost, comfort, and sustainability in Nepal trekking, and see why Khopra Ridge Trek uses a community lodge model.",
   alternates: {
     canonical: "https://khopraridgetrek.com/community/what-is-community-lodge",
   },

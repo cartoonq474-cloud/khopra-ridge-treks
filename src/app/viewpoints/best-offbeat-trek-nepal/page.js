@@ -6,8 +6,8 @@ export const metadata = {
   alternates: {
     canonical: "/viewpoints/best-offbeat-trek-nepal",
   },
-  title: "Best Offbeat Treks in Nepal (2026 Rankings & Expert Comparison Guide)",
-  description: "Discover the best offbeat treks in Nepal for 2026, ranked by crowd levels, scenery, and sustainability. Compare Khopra Ridge, Mohare Danda, and Mardi Himal to find your trek.",
+  title: "Best Offbeat Treks in Nepal (2026 Rankings & Expert",
+  description: "Discover the best offbeat treks in Nepal for 2026, ranked by crowd levels, scenery, and sustainability. Compare Khopra Ridge, Mohare Danda, and Mardi Himal.",
 };
 
 export default function BestOffbeatTreksPage() {

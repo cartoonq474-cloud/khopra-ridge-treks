@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/mountains/annapurna-south-views",
   },
-  title: "Annapurna South from Khopra Ridge: Views, Sunrise, Sunset & Photography Guide",
-  description: "See Annapurna South up close from Khopra Ridge — the closest front-facing viewpoint in the Annapurna region. Sunrise, sunset, photography tips, and seasonal visibility, from our local guides.",
+  title: "Annapurna South from Khopra Ridge | Nepal Trek Guide",
+  description: "See Annapurna South up close from Khopra Ridge — the closest front-facing viewpoint in the Annapurna region. Sunrise, sunset, photography tips, and seasonal.",
 };
 
 export default function AnnapurnaSouthViewsPage() {

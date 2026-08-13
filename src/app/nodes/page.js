@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/nodes",
   },
-  title: "Khopra Ridge Trail Village Nodes: Complete Route Guide to Every Stop",
-  description: "Every village node on the Khopra Ridge Trail, mapped in order — elevation, walking hours, accommodation, and route logic for each stop from Birethanti to Khopra Danda.",
+  title: "Khopra Ridge Trail Village Nodes | Nepal Trek Guide",
+  description: "Every village node on the Khopra Ridge Trail, mapped in order — elevation, walking hours, accommodation, and route logic for each stop from Birethanti to.",
 };
 
 export default function Page() {

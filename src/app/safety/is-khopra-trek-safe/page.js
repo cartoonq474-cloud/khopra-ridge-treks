@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/safety/is-khopra-trek-safe",
   },
-  title: "Is the Khopra Ridge Trek Safe? Complete Risk & Beginner Safety Guide (2026)",
-  description: "Is the Khopra Ridge Trek safe? Get an honest breakdown of altitude risks, seasonal hazards, solo trekking safety, emergency rescue realities, and beginner suitability — all in one expert guide.",
+  title: "Is the Khopra Ridge Trek Safe? Complete Risk & Beginner",
+  description: "Is the Khopra Ridge Trek safe? Get an honest breakdown of altitude risks, seasonal hazards, solo trekking safety, emergency rescue realities, and beginner.",
 };
 
 export default function Page() {

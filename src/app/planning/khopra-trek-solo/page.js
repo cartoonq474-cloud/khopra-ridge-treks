@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/khopra-trek-solo",
   },
-  title: "Solo Trekking to Khopra Ridge: Complete Independent Trek Planning Guide",
-  description: "Planning solo trekking to Khopra Ridge? Learn about Nepal's trekking regulations, route details, safety risks, permit costs, itinerary options, and whether you need a guide — complete planning guide for independent trekkers.",
+  title: "Solo Trekking to Khopra Ridge | Nepal Trek Guide",
+  description: "Planning solo trekking to Khopra Ridge? Learn about Nepal's trekking regulations, route details, safety risks, permit costs, itinerary options, and whether.",
 };
 
 export default function Page() {

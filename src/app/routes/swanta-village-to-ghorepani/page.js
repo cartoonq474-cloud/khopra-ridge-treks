@@ -6,8 +6,8 @@ export const metadata = {
   alternates: {
     canonical: "/routes/swanta-village-to-ghorepani",
   },
-  title: "Swanta Village to Ghorepani Route Guide: Distance, Difficulty & Trail Details",
-  description: "Plan your trek from Swanta Village to Ghorepani with our complete route guide. Covers exact distance, hiking time, elevation gain, trail conditions, tea houses, permits, and the Poon Hill connection.",
+  title: "Swanta Village to Ghorepani Route Guide | Khopra Ridge Trek",
+  description: "Plan your trek from Swanta Village to Ghorepani with our complete route guide. Covers exact distance, hiking time, elevation gain, trail conditions, tea.",
 };
 
 export default function SwantaToGhorepaniRoutePage() {

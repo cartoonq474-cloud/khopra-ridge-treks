@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/altitude/sleeping-altitude-breakdown",
   },
-  title: "Sleeping Altitude Breakdown for Khopra Ridge Trek: Night-by-Night Elevation Guide",
-  description: "See exactly where you sleep each night on the Khopra Ridge Trek. Understand your overnight altitude progression, AMS risk levels, acclimatization strategy, and high altitude sleeping tips — night by night.",
+  title: "Sleeping Altitude Breakdown for Khopra Ridge Trek",
+  description: "See exactly where you sleep each night on the Khopra Ridge Trek. Understand your overnight altitude progression, AMS risk levels, acclimatization strategy.",
 };
 
 export default function Page() {

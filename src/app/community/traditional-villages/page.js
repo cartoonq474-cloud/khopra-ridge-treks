@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Traditional Villages of the Khopra Circuit: Gurung & Magar Culture Guide",
-  description:
-    "Discover the traditional villages of the Khopra Circuit, from Gurung Ghandruk to Magar Swanta. A complete cultural guide to Annapurna's mountain communities.",
+  title: "Traditional Villages of the Khopra Circuit | Nepal Trek Guide",
+  description: "Discover the traditional villages of the Khopra Circuit, from Gurung Ghandruk to Magar Swanta. A complete cultural guide to Annapurna's mountain communities.",
   alternates: {
     canonical: "https://khopraridgetrek.com/community/traditional-villages",
   },

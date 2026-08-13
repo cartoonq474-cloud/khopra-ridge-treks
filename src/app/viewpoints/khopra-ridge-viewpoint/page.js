@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/viewpoints/khopra-ridge-viewpoint",
   },
-  title: "Amazing Khopra Ridge Viewpoint Guide: Sunrise Views, Mountains & Travel Tips",
-  description: "Discover the Amazing Khopra Ridge Viewpoint Guide: sunrise and sunset views, visible peaks, best seasons, photography tips, and how to reach this hidden Himalayan viewpoint.",
+  title: "Amazing Khopra Ridge Viewpoint Guide | Nepal Trek Guide",
+  description: "Discover the Amazing Khopra Ridge Viewpoint Guide: sunrise and sunset views, visible peaks, best seasons, photography tips, and how to reach this hidden.",
 };
 
 export default function Page() {

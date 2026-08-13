@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Most Beautiful Places on the Khopra Ridge Trek: Viewpoints & Landscapes",
-  description:
-    "Discover the most beautiful places on the Khopra Ridge Trek, from Khayer Lake and Muldai Viewpoint to hidden forests, alpine meadows, and sweeping Himalayan panoramas.",
+  title: "Most Beautiful Places on the Khopra Ridge Trek | Nepal Trek",
+  description: "Discover the most beautiful places on the Khopra Ridge Trek, from Khayer Lake and Muldai Viewpoint to hidden forests, alpine meadows, and sweeping Himalayan.",
   alternates: {
     canonical: "https://khopraridgetrek.com/guides/most-beautiful-places",
   },

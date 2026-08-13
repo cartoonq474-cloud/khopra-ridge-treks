@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge Weather in January: Temperature, Snowfall & Trekking Conditions",
-  description:
-    "Planning a winter trek? Here's what January weather at Khopra Ridge really feels like — temperatures, snowfall, trail conditions, gear, and safety tips from our local team.",
+  title: "Khopra Ridge Weather in January | Nepal Trek Guide",
+  description: "Planning a winter trek? Here's what January weather at Khopra Ridge really feels like — temperatures, snowfall, trail conditions, gear, and safety tips from.",
   alternates: {
     canonical: "https://khopraridgetrek.com/weather/khopra-trek-january",
   },

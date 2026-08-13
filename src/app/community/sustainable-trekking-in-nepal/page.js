@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Sustainable Trekking in Nepal: A Complete Guide to Responsible Himalayan Travel",
-  description:
-    "Learn how to trek sustainably in Nepal. Our complete guide covers eco-friendly practices, community-based tourism, conservation permits, and how to choose an ethical trekking operator.",
+  title: "Sustainable Trekking in Nepal",
+  description: "Learn how to trek sustainably in Nepal. Our complete guide covers eco-friendly practices, community-based tourism, conservation permits, and how to choose an.",
   alternates: {
     canonical: "https://khopraridgetrek.com/community/sustainable-trekking-in-nepal",
   },

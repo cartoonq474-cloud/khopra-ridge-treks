@@ -7,7 +7,7 @@ export const metadata = {
     canonical: "/booking-policies",
   },
   title: "Booking & Cancellation Policies | Khopra Ridge Trek",
-  description: "Our full booking and cancellation policies: deposits, payment deadlines, refund eligibility, rescheduling, mandatory travel insurance, and emergency evacuation procedures.",
+  description: "Our full booking and cancellation policies: deposits, payment deadlines, refund eligibility, rescheduling, mandatory travel insurance, and emergency.",
 };
 
 export default function BookingPoliciesPage() {

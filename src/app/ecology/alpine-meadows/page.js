@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Alpine Meadows of Khopra Danda: Ecology, Biodiversity & Himalayan Landscapes",
-  description:
-    "Explore the alpine meadows of Khopra Danda — high-altitude grasslands shaped by Himalayan wildlife, traditional shepherd culture, and centuries of transhumance grazing.",
+  title: "Alpine Meadows of Khopra Danda | Nepal Trek Guide",
+  description: "Explore the alpine meadows of Khopra Danda — high-altitude grasslands shaped by Himalayan wildlife, traditional shepherd culture, and centuries of.",
   alternates: {
     canonical: "https://khopraridgetrek.com/ecology/alpine-meadows",
   },

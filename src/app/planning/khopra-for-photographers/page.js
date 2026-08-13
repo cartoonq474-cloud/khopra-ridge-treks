@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge Trek for Photographers: Best Photo Spots, Gear & Photography Guide",
-  description:
-    "Planning the Khopra Ridge Trek for photography? Discover the best viewpoints, camera gear, seasons, and a photographer's itinerary for this uncrowded Himalayan route.",
+  title: "Khopra Ridge Trek for Photographers | Nepal Trek Guide",
+  description: "Planning the Khopra Ridge Trek for photography? Discover the best viewpoints, camera gear, seasons, and a photographer's itinerary for this uncrowded.",
   alternates: {
     canonical: "https://khopraridgetrek.com/planning/khopra-for-photographers",
   },

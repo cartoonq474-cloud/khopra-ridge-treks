@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Is the Khopra Ridge Trek Worth It? An Honest Review of Nepal's Hidden Gem",
-  description:
-    "Wondering if the Khopra Ridge Trek is worth your time and money? We break down the views, difficulty, costs, and comfort honestly — plus how it compares to Poon Hill and Mardi Himal.",
+  title: "Is the Khopra Ridge Trek Worth It? An Honest Review of",
+  description: "Wondering if the Khopra Ridge Trek is worth your time and money? We break down the views, difficulty, costs, and comfort honestly — plus how it compares to.",
   alternates: {
     canonical: "https://khopraridgetrek.com/planning/is-khopra-ridge-worth-it",
   },

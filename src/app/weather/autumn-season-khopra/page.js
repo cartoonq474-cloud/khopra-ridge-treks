@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Autumn Trekking on Khopra Ridge (Sept–Nov): Weather, Views & Trail Guide",
-  description:
-    "Planning an autumn trek on Khopra Ridge? Compare September, October, and November weather, mountain views, trail conditions, and packing advice from local guides.",
+  title: "Autumn Trekking on Khopra Ridge (Sept–Nov) | Nepal Trek Guide",
+  description: "Planning an autumn trek on Khopra Ridge? Compare September, October, and November weather, mountain views, trail conditions, and packing advice from local guides.",
   alternates: {
     canonical: "https://khopraridgetrek.com/weather/autumn-season-khopra",
   },

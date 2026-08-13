@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/tours/khayer-lake-trek",
   },
-  title: "Sacred Khayer Lake Pilgrimage Trek: Complete Guide to Nepal's Holy Himalayan Lake",
-  description: "Discover the Sacred Khayer Lake Pilgrimage Trek — a 9-day journey to Nepal's holy alpine lake at 4,660m beneath Annapurna South. Complete guide to route, itinerary, difficulty, permits, best time, and booking with local experts.",
+  title: "Sacred Khayer Lake Pilgrimage Trek | Nepal Trek Guide",
+  description: "Discover the Sacred Khayer Lake Pilgrimage Trek — a 9-day journey to Nepal's holy alpine lake at 4,660m beneath Annapurna South. Complete guide to route.",
 };
 
 export default function Page() {

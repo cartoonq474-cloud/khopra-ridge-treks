@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Best Short Treks in Nepal: Compare the Top Annapurna Alternatives",
-  description:
-    "Only have 3–7 days in Nepal? Compare Khopra Ridge, Poon Hill, Mardi Himal, Mohare Danda, and more to find the best short trek for your time, fitness, and travel style.",
+  title: "Best Short Treks in Nepal",
+  description: "Only have 3–7 days in Nepal? Compare Khopra Ridge, Poon Hill, Mardi Himal, Mohare Danda, and more to find the best short trek for your time, fitness, and.",
   alternates: {
     canonical: "https://khopraridgetrek.com/guides/best-short-trek",
   },

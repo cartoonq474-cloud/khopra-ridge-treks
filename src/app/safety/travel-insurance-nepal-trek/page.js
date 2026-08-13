@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/safety/travel-insurance-nepal-trek",
   },
-  title: "Travel Insurance for Trekking in Nepal: Complete Guide for Safe Himalayan Adventures",
-  description: "Planning a trek in Nepal? Learn exactly what travel insurance you need — from helicopter rescue coverage to altitude limits, policy exclusions, and how to avoid denied claims in the Himalayas.",
+  title: "Travel Insurance for Trekking in Nepal",
+  description: "Planning a trek in Nepal? Learn exactly what travel insurance you need — from helicopter rescue coverage to altitude limits, policy exclusions, and how to.",
 };
 
 export default function Page() {

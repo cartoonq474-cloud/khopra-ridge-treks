@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/planning/highest-point-on-khopra-trek",
   },
-  title: "Highest Point on the Khopra Trek: Maximum Altitude, Elevation & Safety Guide",
-  description: "Discover the highest point on the Khopra Trek (4,660m at Khayer Lake), how it compares to Khopra Ridge's 3,660m sleeping altitude, and how to prepare safely for high-altitude trekking.",
+  title: "Highest Point on the Khopra Trek | Nepal Trek Guide",
+  description: "Discover the highest point on the Khopra Trek (4,660m at Khayer Lake), how it compares to Khopra Ridge's 3,660m sleeping altitude, and how to prepare safely.",
 };
 
 export default function Page() {

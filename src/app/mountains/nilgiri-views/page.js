@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Nilgiri Views from Khopra Ridge: Complete Mountain & Photography Guide",
-  description:
-    "Discover the Nilgiri Views from Khopra Ridge — the three summits, best sunrise and sunset spots, photography tips, and the seasons that offer the clearest Himalayan panorama.",
+  title: "Nilgiri Views from Khopra Ridge | Nepal Trek Guide",
+  description: "Discover the Nilgiri Views from Khopra Ridge — the three summits, best sunrise and sunset spots, photography tips, and the seasons that offer the clearest.",
   alternates: {
     canonical: "https://khopraridgetrek.com/mountains/nilgiri-views",
   },

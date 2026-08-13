@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Winter Trekking on Khopra Ridge (Dec–Feb): Weather, Snow, Safety & Trail Guide",
-  description:
-    "Planning a Khopra Ridge winter trek? Get month-by-month weather, snow conditions, Khayer Lake access, gear checklists, and safety advice from our local Pokhara-based team.",
+  title: "Winter Trekking on Khopra Ridge (Dec–Feb) | Nepal Trek Guide",
+  description: "Planning a Khopra Ridge winter trek? Get month-by-month weather, snow conditions, Khayer Lake access, gear checklists, and safety advice from our local.",
   alternates: {
     canonical: "https://khopraridgetrek.com/weather/winter-season-khopra",
   },

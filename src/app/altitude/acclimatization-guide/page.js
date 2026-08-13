@@ -5,8 +5,8 @@ export const metadata = {
   alternates: {
     canonical: "/altitude/acclimatization-guide",
   },
-  title: "Acclimatization Principles for High Altitudes: Complete Trekking Safety Guide",
-  description: "Learn how high altitude acclimatization works, how your body adapts to reduced oxygen, how to prevent altitude sickness, and the essential safety principles every trekker needs before heading above 3,000 meters.",
+  title: "Acclimatization Principles for High Altitudes | Khopra Ridge",
+  description: "Learn how high altitude acclimatization works, how your body adapts to reduced oxygen, how to prevent altitude sickness, and the essential safety principles.",
 };
 
 export default function Page() {

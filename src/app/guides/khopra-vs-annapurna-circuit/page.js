@@ -2,9 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Khopra Ridge vs Annapurna Circuit: Which Trek Should You Choose in Nepal?",
-  description:
-    "Comparing Khopra Ridge and Annapurna Circuit? We break down difficulty, altitude, cost, views, and crowds to help you choose the right Annapurna trek for you.",
+  title: "Khopra Ridge vs Annapurna Circuit | Nepal Trek Guide",
+  description: "Comparing Khopra Ridge and Annapurna Circuit? We break down difficulty, altitude, cost, views, and crowds to help you choose the right Annapurna trek for you.",
   alternates: {
     canonical: "https://khopraridgetrek.com/guides/khopra-vs-annapurna-circuit",
   },

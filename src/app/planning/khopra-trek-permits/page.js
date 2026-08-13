@@ -5,7 +5,7 @@ export const metadata = {
   alternates: {
     canonical: "/planning/khopra-trek-permits",
   },
-  title: "Khopra Ridge Trek Permits & Regulations: Fees, Requirements & Rules (2026)",
+  title: "Khopra Ridge Trek Permits & Regulations | Nepal Trek Guide",
   description: "Planning the Khopra Ridge Trek? Here's everything on required permits, current fees, documents, guide rules, checkpoints, and penalties — explained simply.",
 };
 
