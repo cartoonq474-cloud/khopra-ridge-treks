@@ -20,10 +20,35 @@ import BookingSection from "@/components/home/BookingSection";
 
 export const metadata = {
   alternates: {
-    canonical: "/",
+    canonical: "https://khopraridgetrek.com",
   },
-  title: "Khopra Ridge Trek | Nirvana Trails",
-  description: "Discover the uncrowded wonders of the Annapurna region on the Khopra Ridge Trek. Sacred alpine lakes, community lodges, and dramatic 360-degree views of Dhaulagiri.",
+  title: "Khopra Ridge Trek | 9-Day Sacred Khayer Lake Community Trek",
+  description:
+    "Book the official 9-day Khopra Ridge Trek in Annapurna. Explore sacred Khayer Lake, community lodges, and 360° views of Dhaulagiri & Annapurna South.",
+  openGraph: {
+    title: "Khopra Ridge Trek | 9-Day Sacred Khayer Lake Community Trek",
+    description:
+      "Book the official 9-day Khopra Ridge Trek in Annapurna. Explore sacred Khayer Lake, community lodges, and 360° views of Dhaulagiri & Annapurna South.",
+    url: "https://khopraridgetrek.com",
+    siteName: "Khopra Ridge Trek",
+    images: [
+      {
+        url: "https://khopraridgetrek.com/khopra-hero-bg.png",
+        width: 1200,
+        height: 630,
+        alt: "Khopra Ridge Trek Hero Image",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Khopra Ridge Trek | 9-Day Sacred Khayer Lake Community Trek",
+    description:
+      "Book the official 9-day Khopra Ridge Trek in Annapurna. Explore sacred Khayer Lake, community lodges, and 360° views of Dhaulagiri & Annapurna South.",
+    images: ["https://khopraridgetrek.com/khopra-hero-bg.png"],
+  },
 };
 
 export default function Home() {
