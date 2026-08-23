@@ -192,7 +192,7 @@ export default function Page() {
                 <h4 className="font-bold text-stone-950 text-base mt-2">Local Beliefs &amp; Pilgrimage Rules</h4>
                 <p className="text-xs text-stone-500 leading-relaxed mt-2">For the Swanta and Khopra Ridge village communities, Khayer Lake is an inseparable part of their cultural identity. Local beliefs hold that disrespectful behavior near the lake — littering, loud noise, or disregard for the site&apos;s sanctity — can bring weather hazards and misfortune.
                 </p>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2 font-medium">Trekkers are expected to treat the site with high respect: removing footwear before entering the immediate lakeside, keeping voices low, and carrying out all waste.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2 font-medium">Trekkers are expected to treat the site with high respect: removing footwear before entering the immediate lakeside, keeping voices low, and carrying out all waste. For a deeper look at the legends behind the lake, see our guide to <Link href="/planning/khayer-lake-mythology-pilgrimage" className="text-emerald-700 underline font-semibold hover:text-emerald-800">Khayer Lake pilgrimage traditions</Link>.
                 </p>
               </div>
             </div>
@@ -242,7 +242,7 @@ export default function Page() {
                 <p className="text-xs text-stone-600 leading-relaxed">All treks begin and end in Pokhara — Nepal&apos;s second-largest city and the gateway to the Annapurna region. From Pokhara, the drive to the trailhead takes approximately two to four hours depending on which entry point is used (Siwai or Nayapul). The drive passes through lower Annapurna foothills.
                 </p>
                 <h4 className="font-bold text-stone-900 text-base">Through Forests, Villages, and Ridge Trails</h4>
-                <p className="text-xs text-stone-600 leading-relaxed">The early days move through sub-tropical forest and terraced farming communities, climbing into oak and rhododendron forests that bloom beautifully in spring. Traditional Gurung and Magar villages appear along the route, Swanta being a notable stop. Above the villages, the trail transitions to open moorland and high windswept ridges.
+                <p className="text-xs text-stone-600 leading-relaxed">The early days move through sub-tropical forest and terraced farming communities, climbing into oak and rhododendron forests that bloom beautifully in spring. Traditional Gurung and Magar villages appear along the route, with <Link href="/nodes/swanta-village-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-800">Swanta village</Link> a notable stop. Above the villages, the trail transitions to open moorland and high windswept ridges.
                 </p>
               </div>
               <div className="space-y-4">
@@ -284,7 +284,7 @@ export default function Page() {
                   days: "Day 6",
                   title: "Pilgrimage Hike to Khayer Lake (4,660m)",
                   details: [
-                    "Day 6: Early morning departure (5:00 AM) for the ascent to Khayer Lake. A demanding day of hiking with significant altitude gain. Allow 3–5 hours for the ascent. Take time to absorb the spiritual energy, participate respectfully in pilgrimage activities, and return to Khopra Ridge in the afternoon. (Overnight: Khopra Ridge Community Lodge)"
+                    <>Day 6: Early morning departure (5:00 AM) for the ascent to Khayer Lake. A demanding day of hiking with significant altitude gain. Allow 3–5 hours for the ascent. Take time to absorb the spiritual energy, participate respectfully in pilgrimage activities, and return to Khopra Ridge in the afternoon. (Overnight: Khopra Ridge Community Lodge) For a full breakdown of terrain and timing, see our dedicated <Link href="/planning/khayer-lake-day-hike" className="text-emerald-700 underline font-semibold hover:text-emerald-800">Khayer Lake day hike</Link> guide.</>
                   ]
                 },
                 {
@@ -342,7 +342,7 @@ export default function Page() {
                 <span className="text-2xl mt-0.5"></span>
                 <div>
                   <h4 className="font-black text-amber-950 text-sm tracking-wide uppercase">Altitude Challenges at 4,660m</h4>
-                  <p className="mt-2 text-xs text-stone-700 leading-relaxed font-semibold">Khayer Lake sits at 4,660 metres — well above the threshold where Acute Mountain Sickness (AMS) commonly begins. Symptoms include persistent headache, nausea, dizziness, fatigue, and poor sleep.
+                  <p className="mt-2 text-xs text-stone-700 leading-relaxed font-semibold">Khayer Lake sits at 4,660 metres — well above the threshold where Acute Mountain Sickness (AMS) commonly begins. Symptoms include persistent headache, nausea, dizziness, fatigue, and poor sleep. Our detailed breakdown of <Link href="/altitude/khayer-lake-altitude-risks" className="text-emerald-700 underline font-semibold hover:text-emerald-800">Khayer Lake altitude risks</Link> covers warning signs and prevention steps specific to this ascent.
                   </p>
                   <ul className="mt-3 space-y-1.5 text-xs text-stone-600 list-disc pl-5">
                     <li>Acclimatize properly: spend a full rest day at Khopra Ridge (3,660m) before attempting the lake ascent.</li>
@@ -420,7 +420,7 @@ export default function Page() {
             </h2>
             <div className="space-y-4">
               <h4 className="font-bold text-stone-950 text-base">Annapurna Conservation Area Permit (ACAP)</h4>
-              <p className="text-xs text-stone-600 leading-relaxed">The primary permit required for the Sacred Khayer Lake Pilgrimage Trek is the Annapurna Conservation Area Permit (ACAP). This permit covers entry into the Annapurna Conservation Area, which encompasses the entire Khopra Ridge and Khayer Lake route. ACAP permits are issued by the Nepal Tourism Board and can be obtained in Kathmandu (at the Tourism Board office in Pradarshani Marga) or in Pokhara. Two passport-sized photographs and your passport are required. Foreign nationals also typically need to obtain a TIMS card (Trekkers&apos; Information Management System) in addition to ACAP.
+              <p className="text-xs text-stone-600 leading-relaxed">The primary permit required for the Sacred Khayer Lake Pilgrimage Trek is the Annapurna Conservation Area Permit (ACAP). This permit covers entry into the Annapurna Conservation Area, which encompasses the entire Khopra Ridge and Khayer Lake route. ACAP permits are issued by the Nepal Tourism Board and can be obtained in Kathmandu (at the Tourism Board office in Pradarshani Marga) or in Pokhara. Two passport-sized photographs and your passport are required. Foreign nationals also typically need to obtain a TIMS card (Trekkers&apos; Information Management System) in addition to ACAP. Our complete <Link href="/planning/acap-permit-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-800">ACAP permit guide</Link> walks through the application steps, fees, and required documents.
               </p>
               <h4 className="font-bold text-stone-950 text-base">Current Permit Rules and Updates</h4>
               <p className="text-xs text-stone-600 leading-relaxed">Permit requirements and fees in Nepal are subject to periodic revision. Our guides monitor current permit regulations as part of our route management and will confirm the latest requirements when you inquire about booking. Permit checkpoints are positioned along the trail. Your guide will manage checkpoint documentation to ensure the process is smooth. Carrying your original passport is required at checkpoints.
@@ -480,6 +480,8 @@ export default function Page() {
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-emerald-50/50 border border-emerald-500/15 p-6 rounded-2xl">
                 <h4 className="font-bold text-emerald-950 text-sm uppercase tracking-wide">What Is Included in a Guided Trek</h4>
+                <p className="mt-2 text-xs text-stone-600 leading-relaxed">Costs vary by group size, season, and add-ons — see our full <Link href="/planning/khopra-trek-cost" className="text-emerald-700 underline font-semibold hover:text-emerald-800">Khopra trek cost breakdown</Link> for exact pricing tiers. Here&apos;s what&apos;s typically included in a guided package:
+                </p>
                 <ul className="mt-4 space-y-2 text-xs text-stone-600 list-disc pl-5 leading-relaxed">
                   <li>Local English-speaking guide for the full duration.</li>
                   <li>All accommodation in community lodges.</li>
@@ -507,8 +509,8 @@ export default function Page() {
             <div className="bg-stone-50 border border-stone-200 rounded-2xl p-6 mt-6">
               <h4 className="font-bold text-stone-950 text-base">Private vs Group Trek Options</h4>
               <p className="mt-2 text-xs text-stone-600 leading-relaxed font-medium">
-                <strong>Private treks</strong>offer maximum flexibility — departure dates chosen by you, pace set by your group, and itinerary customization options including adding Ghorepani and Poon Hill to the return. Private treks are ideal for families, couples, or small groups.<br /><br />
-                <strong>Small group treks</strong>are available on fixed departure dates, offer lower per-person costs, and are a good option for solo trekkers who prefer company on the trail.
+                <strong>Private treks</strong> offer maximum flexibility — departure dates chosen by you, pace set by your group, and itinerary customization options including adding Ghorepani and Poon Hill to the return. Trekkers wanting the extended loop can combine this pilgrimage with our <Link href="/tours/khopra-poon-hill-trek" className="text-emerald-700 underline font-semibold hover:text-emerald-800">Khopra Poon Hill trek</Link> itinerary. Private treks are ideal for families, couples, or small groups.<br /><br />
+                <strong>Small group treks</strong> offer fixed departure dates, lower per-person costs, and a good option for solo trekkers who prefer company on the trail.
               </p>
             </div>
           </article>
