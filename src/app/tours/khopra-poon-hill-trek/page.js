@@ -318,7 +318,7 @@ export default function Page() {
                   title: "Khopra Ridge to Swanta Village",
                   elev: "1,880m",
                   time: "5–6 hours walking",
-                  desc: "A long descent on a less-trekked trail route through alpine scrub, forest, and terraced farmland leads to Swanta village. The change in environment is dramatic and deeply satisfying. Swanta is a traditional village with a community lodge operated by local families."
+                  desc: <>A long descent on a less-trekked trail route through alpine scrub, forest, and terraced farmland leads to <Link href="/nodes/swanta-village-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-800">Swanta village</Link>. The change in environment is dramatic and deeply satisfying. Swanta is a traditional village with a community lodge operated by local families.</>
                 },
                 {
                   day: "Day 10",
@@ -353,7 +353,7 @@ export default function Page() {
               </p>
               <p className="text-xs text-stone-600 leading-relaxed mt-2 font-medium">At 4,660m, the lake sits high above the ridge in a deep glacial bowl. The lake holds considerable pilgrimage importance to local communities, drawing hundreds during the Janai Purnima festival in August.
               </p>
-              <p className="text-xs text-stone-600 leading-relaxed mt-2">The excursion adds a full day to the itinerary. The trail is steep and physically demanding, gaining 1,000m from the ridge. Trekkers must be well-rested, properly acclimatised, and free of any symptoms before attempting it. For most trekkers, the combination of glacial scenery and altitude achievement is worth it without hesitation.
+              <p className="text-xs text-stone-600 leading-relaxed mt-2">The excursion adds a full day to the itinerary. The trail is steep and physically demanding, gaining 1,000m from the ridge. Trekkers must be well-rested, properly acclimatised, and free of any symptoms before attempting it. For most trekkers, the combination of glacial scenery and altitude achievement is worth it without hesitation. For a full breakdown of the trail, timing, and preparation, see our <Link href="/guides/khayer-lake-ultimate-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-800">Khayer Lake guide</Link>.
               </p>
             </div>
           </article>
@@ -373,7 +373,7 @@ export default function Page() {
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-950 text-base">Elevation &amp; Altitude</h4>
-                <p className="text-xs text-stone-500 leading-relaxed mt-2">The maximum elevation is 3,660m at Khopra Ridge (4,660m at the lake). These are below severe altitude thresholds, but mild symptoms — slight headache, reduced appetite, disrupted sleep — are common. Manage them with rest and hydration. The itinerary allows gradual acclimatisation.
+                <p className="text-xs text-stone-500 leading-relaxed mt-2">The maximum elevation is 3,660m at Khopra Ridge (4,660m at the lake). These are below severe altitude thresholds, but mild symptoms — slight headache, reduced appetite, disrupted sleep — are common. Our <Link href="/altitude/khopra-trek-altitude-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-800">Khopra trek altitude guide</Link> covers how to manage them with rest and proper hydration. The itinerary allows gradual acclimatisation.
                 </p>
               </div>
             </div>
@@ -431,7 +431,7 @@ export default function Page() {
             </h2>
             <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm space-y-4">
               <h4 className="font-bold text-stone-950 text-base">Annapurna Conservation Area Permit (ACAP)</h4>
-              <p className="text-xs text-stone-500 leading-relaxed">Mandatory for all trekkers on this route. Permit fees are used to fund conservation and community development programs within the Annapurna Conservation Area.
+              <p className="text-xs text-stone-500 leading-relaxed">Mandatory for all trekkers on this route. Our complete <Link href="/planning/acap-permit-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-800">ACAP permit guide</Link> explains how permit fees fund conservation and community development programs within the Annapurna Conservation Area.
               </p>
               <div className="bg-stone-50 p-3 rounded-xl border border-stone-100 flex justify-between items-center text-xs font-bold">
                 <span className="text-stone-500">ACAP Fee:</span>
@@ -453,7 +453,7 @@ export default function Page() {
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-950 text-base">Teahouses vs Community Lodges</h4>
-                <p className="mt-2 text-xs text-stone-500 leading-relaxed">Lower sections (Nayapul to Tadapani) are served by established, commercial teahouses. Rooms are twin bed, hot showers are available for a fee, and menus are extensive. From Tadapani onward, accommodation shifts to community lodges. These are simpler but offer a genuine connection to the local community, with home-cooked meals and warm hospitality.
+                <p className="mt-2 text-xs text-stone-500 leading-relaxed">Lower sections (Nayapul to Tadapani) are served by established, commercial teahouses. Rooms are twin bed, hot showers are available for a fee, and menus are extensive. From Tadapani onward, accommodation shifts to <Link href="/planning/community-lodges-khopra-trek" className="text-emerald-700 underline font-semibold hover:text-emerald-800">community lodges</Link>. These are simpler but offer a genuine connection to the local community, with home-cooked meals and warm hospitality.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
@@ -571,7 +571,7 @@ export default function Page() {
             {/* Comparison segment */}
             <div className="bg-white border border-stone-200 rounded-3xl p-6 shadow-sm mt-8">
               <h3 className="text-lg font-bold text-stone-950 mb-3">Khopra Ridge vs Poon Hill: Why Combine Both?</h3>
-              <p className="text-xs text-stone-600 leading-relaxed">The standard Poon Hill circuit is one of Nepal&apos;s most popular short treks, but it can feel crowded. By continuing east toward Khopra Ridge, the crowds drop sharply and you gain the trail to yourself. Poon Hill delivers an outstanding panorama for sunrise, whereas Khopra Ridge provides sustained, multi-directional mountain views across two days at higher elevation.
+              <p className="text-xs text-stone-600 leading-relaxed">The standard Poon Hill circuit is one of Nepal&apos;s most popular short treks, but it can feel crowded. By continuing east toward Khopra Ridge, the crowds drop sharply and you gain the trail to yourself. Poon Hill delivers an outstanding panorama for sunrise, whereas Khopra Ridge provides sustained, multi-directional mountain views across two days at higher elevation. Our side-by-side <Link href="/viewpoints/khopra-vs-poon-hill-views" className="text-emerald-700 underline font-semibold hover:text-emerald-800">Khopra vs Poon Hill views</Link> comparison breaks down exactly what each viewpoint offers.
               </p>
               <p className="text-xs text-stone-600 leading-relaxed mt-2">
                 <strong>Why combination is better:</strong>It uses the most celebrated moment of the Poon Hill trek as a launching pad rather than a destination, then continues into quiet wilderness and community-managed lodges that offer a more intimate connection with local life.
@@ -661,7 +661,7 @@ export default function Page() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
               <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Plan Your Khopra Ridge &amp; Poon Hill Adventure</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">Every trekker arrives with a different fitness level, schedule, and set of goals. We can adjust the itinerary — shorter or longer, with or without Khayer Lake, group or private — to match exactly what you are looking for. Just tell us your travel dates and we will build the right plan.
+              <p className="text-stone-300 text-sm leading-relaxed">Every trekker arrives with a different fitness level, schedule, and set of goals. We can adjust the itinerary — shorter or longer, group or private — to match exactly what you are looking for, including a dedicated <Link href="/tours/khayer-lake-trek" className="text-emerald-400 underline font-semibold hover:text-emerald-300">Khayer Lake trek</Link> package for those who want the sacred lake as the main focus. Just tell us your travel dates and we will build the right plan.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
