@@ -313,7 +313,7 @@ export default function Page() {
               </div>
               <div>
                 <h4 className="font-bold text-stone-900 text-base">Khopra Ridge to Khayer Lake Side Trip</h4>
-                <p className="mt-2 text-sm leading-relaxed">Khayer Lake sits at 4,660 meters beneath Annapurna South. The lake is considered sacred by local communities and visited by pilgrims during religious festivals. The hiking distance is significant, and the trail is steep and exposed in the upper section. The reward is a high alpine environment that few trekkers outside the Annapurna region ever see. The lake day should always be planned with a stable weather forecast and a full, early start.
+                <p className="mt-2 text-sm leading-relaxed">Khayer Lake sits at 4,660 meters beneath Annapurna South. The lake is considered sacred by local communities and visited by pilgrims during religious festivals. The hiking distance is significant, and the trail is steep and exposed in the upper section. The reward is a high alpine environment that few trekkers outside the Annapurna region ever see. For a full breakdown of the route, permits, and packing notes specific to this side trip, see our <Link href="/guides/khayer-lake-ultimate-guide" className="text-emerald-700 underline font-semibold hover:text-emerald-800">Khayer Lake trek guide</Link>. The lake day should always be planned with a stable weather forecast and a full, early start.
                 </p>
               </div>
               <div>
@@ -358,7 +358,7 @@ export default function Page() {
                     <li>Spend two nights at Khopra Ridge before attempting the Khayer Lake hike.</li>
                     <li>If a headache, dizziness, or nausea develops and does not resolve with rest, descend immediately.</li>
                   </ul>
-                  <p className="mt-4 text-xs text-stone-500 leading-relaxed">Carrying a basic first-aid kit and a portable pulse oximeter is strongly recommended, particularly for the Khayer Lake day. If you are prescribed Diamox by your doctor as an altitude precaution, carry it as directed.
+                  <p className="mt-4 text-xs text-stone-500 leading-relaxed">Carrying a basic first-aid kit and a portable pulse oximeter is strongly recommended, particularly for the Khayer Lake day. If you are prescribed Diamox by your doctor as an altitude precaution, carry it as directed. For symptom recognition and a day-by-day breakdown of altitude risk on this route, read our full guide to <Link href="/altitude/ams-on-khopra-trek" className="text-emerald-700 underline font-semibold hover:text-emerald-800">AMS on the Khopra trek</Link>.
                   </p>
                 </div>
               </div>
@@ -495,7 +495,7 @@ export default function Page() {
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
                 <h4 className="font-bold text-stone-950 text-base">Community Lodges &amp; Teahouses</h4>
-                <p className="mt-2 text-xs text-stone-500 leading-relaxed">Served by community-managed lodges and teahouses at Tadapani, Bayeli Kharka, Chhistibung, Khopra Ridge, Swanta, and Ghorepani. Rooms are twin or double bed with shared bathrooms. Blankets and pillows are provided. Charging facilities and hot showers are available at most lodges, usually for a small additional fee.
+                <p className="mt-2 text-xs text-stone-500 leading-relaxed">Served by community-managed lodges and teahouses at Tadapani, Bayeli Kharka, Chhistibung, Khopra Ridge, Swanta, and Ghorepani. Rooms are twin or double bed with shared bathrooms. Blankets and pillows are provided. Charging facilities and hot showers are available at most lodges, usually for a small additional fee. For a closer look at how these lodges run and what sets them apart from private teahouses, see our guide to <Link href="/planning/community-lodges-khopra-trek" className="text-emerald-700 underline font-semibold hover:text-emerald-800">community lodges on the Khopra trek</Link>.
                 </p>
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl shadow-sm">
@@ -537,7 +537,7 @@ export default function Page() {
               </div>
               <div className="bg-white border border-stone-200 p-6 rounded-2xl">
                 <h4 className="font-bold text-stone-900 text-sm uppercase tracking-wider border-b border-stone-100 pb-2 mb-3">Accessories</h4>
-                <p className="text-xs text-stone-500 leading-relaxed">Quality headlamp with extra batteries (crucial for early starts), reusable water bottles, dry bags for documents/passport, and sufficient cash in Nepali Rupees. (There are no ATMs on the trail after Pokhara).
+                <p className="text-xs text-stone-500 leading-relaxed">Quality headlamp with extra batteries (crucial for early starts), reusable water bottles, dry bags for documents/passport, and sufficient cash in Nepali Rupees. (There are no ATMs on the trail after Pokhara). For a complete, printable gear list, work through our <Link href="/planning/packing-checklist" className="text-emerald-700 underline font-semibold hover:text-emerald-800">Khopra trek packing checklist</Link> before departure.
                 </p>
               </div>
             </div>
@@ -596,6 +596,7 @@ export default function Page() {
                 </tbody>
               </table>
             </div>
+            <p className="mt-4 text-sm text-stone-600 leading-relaxed">If Poon Hill&apos;s short sunrise hike is your main point of comparison, our dedicated <Link href="/guides/khopra-vs-poon-hill" className="text-emerald-700 underline font-semibold hover:text-emerald-800">Khopra Ridge vs Poon Hill</Link> breakdown digs deeper into the altitude, crowd levels, and view differences between the two routes.</p>
           </article>
 
           {/* SECTION 12: FAQS */}
@@ -678,7 +679,7 @@ export default function Page() {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(16,185,129,0.08),transparent_50%)]" />
             <div className="relative z-10 space-y-6 max-w-4xl">
               <h3 className="text-2xl md:text-3xl font-extrabold tracking-tight">Book Your Khopra Ridge Trek</h3>
-              <p className="text-stone-300 text-sm leading-relaxed">Request a Custom Itinerary and Package Quote. Tell us your travel dates, group size, experience level, and whether you would like to include the Khayer Lake hike. We will put together a complete, personalized Khopra Ridge Trek plan with transparent pricing.
+              <p className="text-stone-300 text-sm leading-relaxed">Request a Custom Itinerary and Package Quote. Tell us your travel dates, group size, experience level, and whether you would like to include the Khayer Lake hike. We will put together a complete, personalized Khopra Ridge Trek plan with transparent pricing. Ready to go? Browse our <Link href="/tours/khopra-poon-hill-trek" className="text-emerald-400 underline font-semibold hover:text-emerald-300">Khopra Poon Hill trek</Link> package for fixed departures and pricing.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link 
