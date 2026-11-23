@@ -12,7 +12,7 @@ export default function HeroSection() {
         fill
         priority
         quality={40}
-        sizes="100vw"
+        sizes="(max-width: 640px) 100vw, (max-width: 1200px) 100vw, 100vw"
         className="object-cover object-center"
       />
       <div className="absolute inset-0 bg-stone-950/70 z-10" />
@@ -80,7 +80,7 @@ export default function HeroSection() {
             {/* Video Card */}
             <div className="flex items-center gap-3 rounded-2xl bg-stone-950/40 border border-white/10 p-2 pr-4 backdrop-blur-sm">
               <div className="relative h-10 w-16 rounded-xl overflow-hidden bg-emerald-900 flex items-center justify-center">
-                <Image src="/khopra-hero-bg.png" fill sizes="64px" className="object-cover opacity-60" alt="Video Thumbnail" />
+                <Image src="/khopra-hero-bg.webp" fill sizes="64px" className="object-cover opacity-60" alt="Video Thumbnail" />
                 <span className="relative z-10 h-5 w-5 rounded-full bg-white/95 flex items-center justify-center shadow-md">
                   <span className="border-t-[3px] border-t-transparent border-b-[3px] border-b-transparent border-l-[5px] border-l-stone-900 ml-0.5" />
                 </span>
