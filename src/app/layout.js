@@ -58,6 +58,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${outfit.variable} ${inter.variable} h-full antialiased`}
     >
+      <head />
       <body className="min-h-screen flex flex-col bg-stone-50 text-stone-900">
         {/* Google Analytics Script */}
         <Script
