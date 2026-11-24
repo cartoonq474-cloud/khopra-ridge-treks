@@ -15,7 +15,7 @@ export default function HeroSection() {
         sizes="(max-width: 640px) 100vw, (max-width: 1200px) 100vw, 100vw"
         className="object-cover object-center"
       />
-      <div className="absolute inset-0 bg-stone-950/70 z-10" />
+      <div className="absolute inset-0 bg-stone-950/70 z-10 pointer-events-none" />
       <div className="mx-auto max-w-7xl px-6 relative z-20 w-full flex flex-col justify-center">
         {/* Google Reviews Trust Badge */}
         <div className="flex justify-center mb-8">

@@ -125,7 +125,7 @@ export default function ReviewsSection() {
           <div className="relative">
             <div
               ref={scrollContainerRef}
-              className="flex overflow-x-auto gap-6 pb-8 snap-x snap-mandatory scrollbar-none scroll-smooth -mx-6 px-6"
+              className="flex overflow-x-auto gap-6 pb-8 snap-x snap-proximity scrollbar-none -mx-6 px-6"
               style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
             >
               {(activeReviewTab === "google" ? googleReviews : tripAdvisorReviews).map((review) => (
@@ -194,7 +194,7 @@ export default function ReviewsSection() {
 
           {/* CALL TO ACTION BUTTON SECTION (CTA) */}
           <div className="mt-16 text-center bg-stone-900 text-white rounded-3xl p-8 sm:p-12 relative overflow-hidden border border-white/5 shadow-xl">
-            <div className="absolute inset-0 opacity-10 bg-[url('/khopra-hero-bg.png')] bg-cover bg-center" />
+            <div className="absolute inset-0 opacity-10 bg-[url('/khopra-hero-bg.webp')] bg-cover bg-center" />
             <div className="relative z-10 max-w-2xl mx-auto">
               <span className="text-xs font-bold text-emerald-400 uppercase tracking-widest">Make Your Dream Trek a Reality</span>
               <h3 className="mt-4 text-3xl font-extrabold tracking-tight sm:text-4xl">
